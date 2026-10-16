@@ -1,0 +1,395 @@
+{
+  "status": "LOCKED_BEFORE_D4_SCORING",
+  "created_utc": "2026-10-12T04:49:55.819743+00:00",
+  "config_id": "rank100_default_lasso",
+  "rank": 100,
+  "spca_alpha": 0.1,
+  "lasso_alpha": 0.0001,
+  "seed": 20261012,
+  "objective": "native FR responsive query bidirectional P25",
+  "winner_P25": 0.2706176243256671,
+  "tie_rule": "within 1e-12 choose official default then first listed",
+  "full_grid_results": [
+    {
+      "config_id": "default",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.21835061483362495,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/default/evaluation_report.json",
+      "score_sha256": "c1afe70e9142974e039c5077d7a9f307b510e666da7d5cb206e4111f773d2ba2",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/default_rep0/effects.npz",
+      "effects_sha256": "03d11d5ea38de911c8b5fd5656f47a16f6129156761ebf83f4cdafa70593977b",
+      "parameters": {
+        "rank": 20,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 0.0001,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "rank10",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.1837906584760964,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank10/evaluation_report.json",
+      "score_sha256": "19c50d0cd6e72162d71a19cfe7c48161a4a02f5add2aeb4e27c2fe9382619885",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/rank10_rep0/effects.npz",
+      "effects_sha256": "9c4820a7f6580a19b6e49809ee52a0ab59f222a8d2a1b22abef567b6c6ff494f",
+      "parameters": {
+        "rank": 10,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 0.0001,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "rank50",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.25620732539748836,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank50/evaluation_report.json",
+      "score_sha256": "b64f69ad374bf2180e2a32822bada89f13347a281132ddeb5eec535ae1d19293",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/rank50_rep0/effects.npz",
+      "effects_sha256": "4d46f554dc12b07f9b38a0f7687a166a0827bdf0df8761871722a053c37420c7",
+      "parameters": {
+        "rank": 50,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 0.0001,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "lasso_low",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.21700250540837668,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/lasso_low/evaluation_report.json",
+      "score_sha256": "aa751da3ea077a453e3c74afc82eb902cd0f4d8ebe212f0e22099581396ea522",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/lasso_low_rep0/effects.npz",
+      "effects_sha256": "0c3cfc86468cf01db0e705540adae581c0ef1bdfc1d993a9f0149855c4906085",
+      "parameters": {
+        "rank": 20,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 1e-05,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "lasso_high",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.18263717399783558,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/lasso_high/evaluation_report.json",
+      "score_sha256": "99950c2f2e13932228bb5f28260fd09bf240e9c36a111f48f01f5bddd6eb4fdf",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/lasso_high_rep0/effects.npz",
+      "effects_sha256": "17683458e0469264a3b1731dde4ed173c3cf68e74f17417ef377501745cce88b",
+      "parameters": {
+        "rank": 20,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 0.001,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "rank50_lasso_high",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.16326483981860487,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank50_lasso_high/evaluation_report.json",
+      "score_sha256": "371278a0c68581047bd2d501a06520068b8e9559847cc329706f0a1e044aaa73",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/rank50_lasso_high_rep0/effects.npz",
+      "effects_sha256": "5831e37eb78a3a275e29c59043cfc0f3948cf9f44e413de7be981275b193a386",
+      "parameters": {
+        "rank": 50,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 0.001,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "rank5_lasso_low",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.1404589118371969,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank5_lasso_low/evaluation_report.json",
+      "score_sha256": "5ab770c397177fa597ba08ce7bfc76e8d46c86a1fd12e8e3363f87f17a088010",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/rank5_lasso_low_rep0/effects.npz",
+      "effects_sha256": "b603bc75e01dfd0299b9dc98e62f5469d8c0f97c3e7c53509c8bb4a373b057cc",
+      "parameters": {
+        "rank": 5,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 1e-05,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "rank5_default_lasso",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.1394589118371969,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank5_default_lasso/evaluation_report.json",
+      "score_sha256": "ba569a90dde7e05d0622a8b35bb6fca121e7b9ef2712f4ec9b9f5043a0d33eb0",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/rank5_default_lasso_rep0/effects.npz",
+      "effects_sha256": "384f1b6a73b9e34d2e1ff7865301e7d44c973b6b244c9aadc69b0ee3f69c015e",
+      "parameters": {
+        "rank": 5,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 0.0001,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "rank5_lasso_high",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.13469409233380797,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank5_lasso_high/evaluation_report.json",
+      "score_sha256": "0bfa511f8a4669d56ca820fb3d6e307f5811bddec63caf363d7c35322d7b2e0f",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/rank5_lasso_high_rep0/effects.npz",
+      "effects_sha256": "9875f9301c33a12943b51aadf19af76dd88307863fa470f9a218ea3b0c176795",
+      "parameters": {
+        "rank": 5,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 0.001,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "rank10_lasso_low",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.1836573251427631,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank10_lasso_low/evaluation_report.json",
+      "score_sha256": "b0ddf1ef591798c66be39ae3465fb311365b2447cf7d7ab323f8566986b1024a",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/rank10_lasso_low_rep0/effects.npz",
+      "effects_sha256": "2c1c1632c9de0294d57d2ee9d3a55613bec7bd3ac4eca996741d140d2aaa3507",
+      "parameters": {
+        "rank": 10,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 1e-05,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "rank10_lasso_high",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.1711800554128745,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank10_lasso_high/evaluation_report.json",
+      "score_sha256": "94a4b7d883d17a6c6e42147f751832877ee0c0fee48a6dff5d4f02a4a19f35dc",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/rank10_lasso_high_rep0/effects.npz",
+      "effects_sha256": "d37fba8c63162c41bf0a035b2c73dd9a64b974bbc5786e2b105816a365a23793",
+      "parameters": {
+        "rank": 10,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 0.001,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "rank40_lasso_low",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.24534065873082175,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank40_lasso_low/evaluation_report.json",
+      "score_sha256": "4a8c9e0c45eb3f9159da7f7b54cfb3a6632bbd8e7b76fa93d6e8221f5bdfefb2",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/rank40_lasso_low_rep0/effects.npz",
+      "effects_sha256": "68b96981cd4f27591ff5dc4b57fee2d98f49b3684933c8b5f37eeb39c6fc23aa",
+      "parameters": {
+        "rank": 40,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 1e-05,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "rank40_default_lasso",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.24806841137453897,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank40_default_lasso/evaluation_report.json",
+      "score_sha256": "211ddf485205ae2c61cb49a2b2d0d5583d442859bdafe64d96b292eb982a8bc5",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/rank40_default_lasso_rep0/effects.npz",
+      "effects_sha256": "3babee670dc8c06c47ab1de1dc1bb7519ff0bcb678759a2a03431812b3827b26",
+      "parameters": {
+        "rank": 40,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 0.0001,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "rank40_lasso_high",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.17666660462535105,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank40_lasso_high/evaluation_report.json",
+      "score_sha256": "433f2fd63d91f73e98486d3cc46fa6fc19ac9e0723983328701231d847e51652",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/rank40_lasso_high_rep0/effects.npz",
+      "effects_sha256": "7b344f88a859ee4643baaa916644db5e63f48c37029f9e9fd46db263a7327aa9",
+      "parameters": {
+        "rank": 40,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 0.001,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "rank50_lasso_low",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.2541882777784408,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank50_lasso_low/evaluation_report.json",
+      "score_sha256": "bf0c42b2e2fe019dfd2c2e9a38d31eff42d00e3ff39041a5ed5f3594adb7aec1",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/rank50_lasso_low_rep0/effects.npz",
+      "effects_sha256": "eefcbcc6b093228d165c2cc1a7adccf3b5080971e6369d2e57816a6fd34251be",
+      "parameters": {
+        "rank": 50,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 1e-05,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "rank75_lasso_low",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.26476890175216816,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank75_lasso_low/evaluation_report.json",
+      "score_sha256": "0257c601c10c57520d57d37148d4bcad75744bbd024a3f8e137b4c477690cd93",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/rank75_lasso_low_rep0/effects.npz",
+      "effects_sha256": "903705a92f33be7f890723b0cd75a322b9ea7d0bcd21bb1daf9403596be74f90",
+      "parameters": {
+        "rank": 75,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 1e-05,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "rank75_default_lasso",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.267105601004832,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank75_default_lasso/evaluation_report.json",
+      "score_sha256": "f845828b8ba11aa897eb5abca96c3a413b4f8e0f2ce596daf3fba08f608332b0",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/rank75_default_lasso_rep0/effects.npz",
+      "effects_sha256": "684ae59fcbd9cbf2eb2e2e8a9e046ad89b34bbefeefd24da506ebe5029165643",
+      "parameters": {
+        "rank": 75,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 0.0001,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "rank75_lasso_high",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.15227443877558497,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank75_lasso_high/evaluation_report.json",
+      "score_sha256": "57efb3037c819ad269ec7ee574073c1cc60697cab15fa7f8f71ddc81ea6c26fd",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest_audit_v2/rank75_lasso_high_rep0/effects.npz",
+      "effects_sha256": "b1f6cf8fe93f1cb2751b1c02c94b3dcc3507c5919c1a765af1f362e256de25d8",
+      "parameters": {
+        "rank": 75,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 0.001,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "rank100_lasso_low",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.26885371043008033,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank100_lasso_low/evaluation_report.json",
+      "score_sha256": "f3a497f842235bdd246590fd9d6a6814beac99a34f1f6a906d6135b7b81f0d5d",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/rank100_lasso_low_rep0/effects.npz",
+      "effects_sha256": "bfcfe5dea88ff9275978c67d89cdc35a41f52d45b8b0f66ae84bcb35bd218abc",
+      "parameters": {
+        "rank": 100,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 1e-05,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "rank100_default_lasso",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.2706176243256671,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank100_default_lasso/evaluation_report.json",
+      "score_sha256": "06efaccaf79a6eff5f9920d3ee766d88cded7b57e34d5a84f938bdbaf207b16e",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/rank100_default_lasso_rep0/effects.npz",
+      "effects_sha256": "8265a55036063652c3fb6d11de8f01cd8c6c66b6a117480727414640ac76ef32",
+      "parameters": {
+        "rank": 100,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 0.0001,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    },
+    {
+      "config_id": "rank100_lasso_high",
+      "status": "COMPLETE",
+      "native_fr_P25": 0.14073783802136078,
+      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank100_lasso_high/evaluation_report.json",
+      "score_sha256": "07dee40a45ab7930bd248857ee32e87aa9b804afed0e05f3b078ab59a99be117",
+      "input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+      "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest_audit_v2/rank100_lasso_high_rep0/effects.npz",
+      "effects_sha256": "9cc2e53c1644911c9dcc73da9afe50a418f754198d2fb4d828ed97d7d441e71d",
+      "parameters": {
+        "rank": 100,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 0.001,
+        "spca_iter": 50,
+        "seed": 20261012,
+        "threads": 2
+      }
+    }
+  ],
+  "D3_input_sha256": "ec80b4e0c190177ce59f1ee9a50a3e29339372583a234e5800e87690d2443188",
+  "protocol_sha256": "edd9b8580c27bdc951938146fe90227aff8f54e9835569ce0122d2bfe0432ab6",
+  "selector_sha256": "4acd8cebce3162b25874518942dbed4fae8299cd8fead65da2ef1b789dd95237"
+}

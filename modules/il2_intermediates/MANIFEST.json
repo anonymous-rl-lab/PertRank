@@ -1,0 +1,77 @@
+{
+  "artifact": "IL2 compact readout-score replay",
+  "files": {
+    "requirements.txt": {
+      "sha256": "6979eeaed30ec7f45ff725f33240136e49c396fdf8a5ef12964fb2960c8a5d1e",
+      "bytes": 27
+    },
+    "README.md": {
+      "sha256": "a29bcd0fdff148712f07228e749574e9a576a278e8dae900ede2601af503a4a3",
+      "bytes": 1358
+    },
+    "analyze_il2_intermediates.py": {
+      "sha256": "e5c6c9654a9645eef5e82afa1b1f1d4b8495aac21f9ee724b8689a2210051570",
+      "bytes": 13248
+    },
+    "score_mageck.py": {
+      "sha256": "03156bc37c32529f04c01a7cfec6283e6b5b0c9bff3bfe07aa9843a72f72a41a",
+      "bytes": 11611
+    },
+    "VERIFIED_REPRODUCTION_REPORT.json": {
+      "sha256": "fbbed6ae04499b6120569acaf32309f72b5062694794fe0df41a886b1f818695",
+      "bytes": 3322
+    },
+    "EXTRACTION_PROVENANCE.json": {
+      "sha256": "6f2ad5777219edde8b65fd8e010f17a0b5c135910fa444814f4d21ec04d4f129",
+      "bytes": 1964
+    },
+    "EXPECTED_RESULTS.json": {
+      "sha256": "348cfca4c8fb2de9a6518c7595daff2e1c47408affc82ff924507b84b40f425e",
+      "bytes": 21247
+    },
+    "ANALYSIS_PLAN_v1.2.0.md": {
+      "sha256": "6bb9baeda9903bc6c731b6a3a16c19ee00929ab421b8cfbdb210d56151685d17",
+      "bytes": 7070
+    },
+    "reproduce.py": {
+      "sha256": "0f1f5e6a412751a9876661734e7ace015fa592a1eb39e05b81c4b7d104cf7968",
+      "bytes": 2808
+    },
+    "MODULE.json": {
+      "sha256": "efec5d5e4ac1279b3d72e5b8556371a94e759dfc9d1d4a595395542bb1061979",
+      "bytes": 570
+    },
+    "data/candidate_mapping.tsv": {
+      "sha256": "024cef90b5069d85a3940d46a9cc43b9f1d942e9d9ac55d1800654956747c854",
+      "bytes": 48456
+    },
+    "data/guide_readout_scores.npz": {
+      "sha256": "7849eab03844f50500e4d614e6cb439c93faf98546ac4b04be539680e18ba13e",
+      "bytes": 136105
+    },
+    "data/il2_all_nominations.tsv.gz": {
+      "sha256": "9d9a15952e9b00f6318a58162c4785c37802fc13f5e385932b7e313e561a645e",
+      "bytes": 21139
+    },
+    "provenance/analyze_il2_original.py": {
+      "sha256": "dc2d9ff6ebe1ebdbf5a7a127c9df7ad24246dcd6b6ba0a4fbd99d8f133f5d7ef",
+      "bytes": 14095
+    },
+    "mageck/all_guides/result.gene_summary.txt": {
+      "sha256": "865dbded7f84adec8eb6045ba1e0639a6fba780f010dcdce9866cd2431886618",
+      "bytes": 22791
+    },
+    "mageck/all_guides/RUN_MANIFEST.json": {
+      "sha256": "627d9f06f72ac71cd4ebe68d9d751c5ccbe04f86bfd7a27d1a5fd742717b61cd",
+      "bytes": 3296
+    },
+    "mageck/independent/result.gene_summary.txt": {
+      "sha256": "54d5e273cfbae8f00b05890d780baf3321e7baa0220a0fed6206ce915967ebcd",
+      "bytes": 22209
+    },
+    "mageck/independent/RUN_MANIFEST.json": {
+      "sha256": "a3e1a4298056ed299546a983cf193aa732ef725d312ac96a8788b4117ed84934",
+      "bytes": 3298
+    }
+  }
+}

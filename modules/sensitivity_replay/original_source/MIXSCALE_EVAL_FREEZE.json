@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-05T16:12:34.746632+00:00",
+  "files": {
+    "MIXSCALE_BOUNDED_PROTOCOL.md": "b238c97617d1a502bdd0f95eab8399f2be33af796002f5a4273b887f15b30ced",
+    "evaluate_official_mixscale.py": "a35f9c0997b76fe4ee6c91e94759033c39f2655cdf491b0cdc9479127c01da10",
+    "preflight_cell_states.py": "cbfb6b8cc0c1c6364836461a528e7aa4bfbc3e2e2b7154fc7bf47a838f5e10d8",
+    "run_official_mixscale.R": "cb615dff1b483100fdfb7ff361f7436d638cfdfd11dfd19f9131be6f93c690b3",
+    "resume_official_mixscale_fit.R": "52eff2afd1878c22d8ce5b583c295246c0ecb0f4464c4b01cf751cff8c2ac334",
+    "finish_mixscale_checkpoint.py": "70c525337dab9e56bb6806b2903a03bf857c466e7cabb03b08cb9a462b702a89"
+  },
+  "static_review_addition": "Before real-data fitting: measure memory at each stage; at most four native per-target regression workers with fixed per-target seeds and complete-output requirement. Pin completed official R/Seurat/Mixscale/presto environment.",
+  "execution_only_amendment": "Full preprocess stopped by 7.15GiB execution memory guard before fitting. Add gc and memory recording after each native preprocessing call; numerical functions, input and parameter settings unchanged; no full-score output yet.",
+  "execution_resume_amendment": "After memory-guarded attempt1 before any full result: add signature-complete checkpoint marker, verified existing-target skip for faithful continuation, completeness collector. Original native calculations unchanged."
+}

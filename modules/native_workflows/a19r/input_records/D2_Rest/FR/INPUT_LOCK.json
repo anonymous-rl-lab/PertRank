@@ -1,0 +1,45 @@
+{
+  "status": "READY_EXACT_A19R_INPUT",
+  "created_utc": "2026-10-14T04:29:16.463953+00:00",
+  "donor": "D2_Rest",
+  "methods": {
+    "FR": {
+      "files": {
+        "counts.npz": {
+          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/inputs/D2_Rest/FR/counts.npz",
+          "sha256": "b39741c52663c2ebe1ca19ac39ad597dd4070f56487b6f30131c9c07ddcafe51"
+        },
+        "axes.npz": {
+          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/inputs/D2_Rest/FR/axes.npz",
+          "sha256": "218de8354b5eb952f81e8e4dce938646be403867e27ab29697ce91439d88d597"
+        }
+      },
+      "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/inputs/D2_Rest/FR"
+    }
+  },
+  "checks": {
+    "status": "COMPLETE",
+    "task": "D2_Rest",
+    "rep": 0,
+    "files_sha256": {
+      "counts.npz": "b39741c52663c2ebe1ca19ac39ad597dd4070f56487b6f30131c9c07ddcafe51",
+      "axes.npz": "218de8354b5eb952f81e8e4dce938646be403867e27ab29697ce91439d88d597"
+    },
+    "input_scope": "exact original A19-R shallow cells; no source deep or reference cells",
+    "n_targets": 63,
+    "n_cells": 3260,
+    "query_raw_maxabs": 1.7763568394002505e-15
+  },
+  "source_sha256": {
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/a19r_restored/external_uncertainty/A19R/D2_Rest/context.npz": "bcbb7345a6b8d9a262a6a0c0e6b706580e68e82125b5c2ebcaab12cc5f7035aa",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/a19r_restored/external_uncertainty/A19R/D2_Rest/cell_plan.npz": "e9774d03e916c73e3308d2255bdc471486d5704be4bed6d2473b85edd52b9a64",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/a19r_restored/external_uncertainty/A19R/D2_Rest/source_counts.npz": "a2d3dd9a605d241786e2ba7be2763c810849e34468d096b9e52135361931f820",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/a19r_restored/external_uncertainty/A19R/D2_Rest/predictions_locked.npz": "e9c412d6277aaf4895015f87184e671b8eb9960851a2d4859625c743e3360d1d",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/controls/D2_Rest/metadata.npz": "93209fb531f26e263d3e978365b443632f6ff2b2bdd90f5f088ffcf7db0e9cff",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/controls/D2_Rest/counts.npz": "dbe75ce15dfe2855335d1b79d4f976c3af5ce1a467985078caeb07e4edfc8398",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/controls/D2_Rest/CONTROL_RECOVERY.json": "98150376b10a134f1070426011cd33b6c05099caa9bbb0a9b9ee5a7dc3f3babd",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/prepare_fr.py": "40a00db802f6f62bcbeaababcf629d8c9325e822603397d65fd2c6ef05a1e84a"
+  },
+  "reference_read": false,
+  "configuration": "official FR300 alpha.1 lasso1e-4 iter50 seed20261012; full raw gene/cell input"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "HISTORICAL_SENSITIVITY_REPLAY_CANCELLED_NOT_STARTED",
+  "created_utc": "2026-10-14T01:28:41.044745+00:00",
+  "authority": "Parent relayed current user instruction: do not rerun previously completed experiments solely to reconstruct lost output archives.",
+  "configs": [
+    "normal_fdr",
+    "normal_shrink"
+  ],
+  "started_in_current_recovery": false,
+  "posterior_fully_recovered": false,
+  "historical_scores": {
+    "normal_fdr": 0.2731647529956569,
+    "normal_shrink": 0.2732980863289902
+  },
+  "historical_completion_evidence_retained": true,
+  "fixed_historical_choice": "default_uniform_fdr",
+  "D4_used_for_parameter_selection": false,
+  "default_posterior_replay_already_complete_and_exact_historical_sha": true,
+  "independent_status": "Previously unexecuted ASH task; no historical full statistics or native ASH posterior. Current VALIDATED_NEW_FULL_STATS input and 395-target ASH comparison remain authorized."
+}

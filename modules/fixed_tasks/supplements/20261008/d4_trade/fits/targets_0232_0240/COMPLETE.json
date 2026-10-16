@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "analysis": "posthoc TRADE-core scalar adapter",
+    "origin": "fresh recomputation of original frozen D4 input cells; not recovery of old interrupted run",
+    "adapter_sha256": "453a729283e530db8a716472172b7053982f2c8ff93da06185e2db7902556e7f",
+    "source_sha256": "b2fc72c0e5d7c2cde9631e73e33a95cdfed23a31b3a93c5d7141332452426320",
+    "inputs": {
+      "restored/v18_d4_confirmation/data/D4_Rest/cohort.npz": "26e994688af51acb0ac625c8baf603d5810805751d747261b7a7dbc135436fa3",
+      "restored/v18_d4_confirmation/data/D4_Rest/control_model.npz": "db1640cbbfd93ee86780b24c61b39ab720520bd68995ad048d9bcd7bad001dd3",
+      "restored/v18_d4_confirmation/data/D4_Rest/query_context.npz": "6d86658f85454e7c916a6415c008a78820b44f5b235eb9d38e74ceedcaa44eca",
+      "restored/v18_d4_confirmation/data/D4_Rest/input_chunk_manifest.json": "8f08edd9f8854a69cc08e0708bf7869c46c989f8567c09cef1185571c4ff82b4",
+      "restored/v18_d4_confirmation/data/D4_Rest/indptr.npy": "7c0d336f089e9f7ef7f2676d3265158102ce28a5c57300b785c437cd0a7deffb",
+      "restored/v18_d4_confirmation/data/D4_Rest/hdf_objects.json": "c7d40f9fb5a7f174530a6736583b7c663081a27931137d7f922730c9aef43c02"
+    },
+    "runner_sha256": "68ddb7fc4f12d69c5dad9b101f389feb8310c729f082c5b5831d130a815037a0"
+  },
+  "moments_sha256": "8329291665ced6cbb4cf69c3d5452fce9a24f87ff56f8b5bce73b5fc7b06070f",
+  "input_sha256": "5d36aad193bbed41a3d0262bbca06f1b2f3644050adc401b7f7fdc3c0384409a",
+  "outputs": {
+    "result_weights.tsv": "f4735f0d85d886362b8e2e913cffd365c983c8e92c1f4833f90a7f3497184e73",
+    "result_mixtures.rds": "283a1f742c4407af54b6a9798748cc04923e6717d1fe2d66561fe989e8540477",
+    "result_runtime.json": "7b8b1cbe10207a32e1db677f899d3d142af5503f070cff31ee04ebd18cf93f3e"
+  },
+  "fits": 40,
+  "seconds": 166.52864575200056,
+  "warnings_present": false
+}

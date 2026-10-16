@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pertrank"
+version = "0.2.0rc2"
+description = "Reusable control-geometry reliability for gene-specific perturbation prioritization"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Private review distribution; public license pending author selection"}
+dependencies = ["numpy>=1.24", "scipy>=1.10,<1.17", "pandas>=1.5", "anndata>=0.9"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+  "Private :: Do Not Upload",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7", "h5py>=3.8"]
+tutorial = ["jupyterlab>=4", "matplotlib>=3.6"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pertrank = ["py.typed", "data/*.npz", "data/*.json", "data/*.csv", "data/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

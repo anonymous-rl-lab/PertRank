@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "configuration": "ash_default",
+      "n_rows": 4,
+      "n_genes": 400,
+      "all_native_converged": true,
+      "max_absolute_posterior_error": 1.7763568394002505e-15
+    },
+    {
+      "configuration": "ash_normal",
+      "n_rows": 4,
+      "n_genes": 400,
+      "all_native_converged": true,
+      "max_absolute_posterior_error": 1.3322676295501878e-15
+    },
+    {
+      "configuration": "ash_shrink",
+      "n_rows": 4,
+      "n_genes": 400,
+      "all_native_converged": true,
+      "max_absolute_posterior_error": 1.3322676295501878e-15
+    },
+    {
+      "configuration": "trade",
+      "n_rows": 4,
+      "n_genes": 400,
+      "all_native_converged": true,
+      "max_absolute_posterior_error": 4.884981308350689e-15
+    }
+  ],
+  "reference_read": false,
+  "audit": "Independent normal/uniform-mixture Bayes formula from exported native mixture; synthetic rows only"
+}

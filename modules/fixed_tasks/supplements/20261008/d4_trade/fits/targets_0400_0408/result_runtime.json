@@ -1,0 +1,224 @@
+{
+  "adapter": "TRADE-core common-coordinate scalar adapter",
+  "upstream_commit": "3432d108c43325e9df65276563d65144a26b69ce",
+  "serialization": "compact fitted_g and loglik; no per-gene intermediate likelihood matrix",
+  "source": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/restored/PertRank_v17_Competition/v17_experiments/trade/R_TRADE_univariate.R",
+  "R": "R version 4.4.3 (2025-02-28)",
+  "ashr": "2.2.63",
+  "jsonlite": "2.0.0",
+  "seed": 2026,
+  "genes_fixed": true,
+  "native_DESeq2": false,
+  "effect_scale": "original normalized expression mean difference",
+  "component_family": "halfuniform",
+  "prior": "uniform",
+  "monte_carlo_samples": 0,
+  "formula": "S=TI+latent_mean^2; nu=mean(se^2); w=S/(S+nu); prediction=w*effect",
+  "installed_packages": [
+    {
+      "Package": "ashr",
+      "Version": "2.2-63",
+      "_row": "ashr"
+    },
+    {
+      "Package": "etrunct",
+      "Version": "0.1",
+      "_row": "etrunct"
+    },
+    {
+      "Package": "invgamma",
+      "Version": "1.2",
+      "_row": "invgamma"
+    },
+    {
+      "Package": "irlba",
+      "Version": "2.4.1",
+      "_row": "irlba"
+    },
+    {
+      "Package": "jsonlite",
+      "Version": "2.0.0",
+      "_row": "jsonlite"
+    },
+    {
+      "Package": "lattice",
+      "Version": "0.23-1",
+      "_row": "lattice"
+    },
+    {
+      "Package": "Matrix",
+      "Version": "1.7-6",
+      "_row": "Matrix"
+    },
+    {
+      "Package": "mixsqp",
+      "Version": "0.3-54",
+      "_row": "mixsqp"
+    },
+    {
+      "Package": "Rcpp",
+      "Version": "1.1.2",
+      "_row": "Rcpp"
+    },
+    {
+      "Package": "RcppArmadillo",
+      "Version": "15.6.0-1",
+      "_row": "RcppArmadillo"
+    },
+    {
+      "Package": "SQUAREM",
+      "Version": "2026.1",
+      "_row": "SQUAREM"
+    },
+    {
+      "Package": "truncnorm",
+      "Version": "1.0-9",
+      "_row": "truncnorm"
+    },
+    {
+      "Package": "base",
+      "Version": "4.4.3",
+      "_row": "base"
+    },
+    {
+      "Package": "boot",
+      "Version": "1.3-31",
+      "_row": "boot"
+    },
+    {
+      "Package": "class",
+      "Version": "7.3-23",
+      "_row": "class"
+    },
+    {
+      "Package": "cluster",
+      "Version": "2.1.8",
+      "_row": "cluster"
+    },
+    {
+      "Package": "codetools",
+      "Version": "0.2-20",
+      "_row": "codetools"
+    },
+    {
+      "Package": "compiler",
+      "Version": "4.4.3",
+      "_row": "compiler"
+    },
+    {
+      "Package": "datasets",
+      "Version": "4.4.3",
+      "_row": "datasets"
+    },
+    {
+      "Package": "foreign",
+      "Version": "0.8-88",
+      "_row": "foreign"
+    },
+    {
+      "Package": "graphics",
+      "Version": "4.4.3",
+      "_row": "graphics"
+    },
+    {
+      "Package": "grDevices",
+      "Version": "4.4.3",
+      "_row": "grDevices"
+    },
+    {
+      "Package": "grid",
+      "Version": "4.4.3",
+      "_row": "grid"
+    },
+    {
+      "Package": "KernSmooth",
+      "Version": "2.23-26",
+      "_row": "KernSmooth"
+    },
+    {
+      "Package": "lattice",
+      "Version": "0.22-6",
+      "_row": "lattice.1"
+    },
+    {
+      "Package": "MASS",
+      "Version": "7.3-64",
+      "_row": "MASS"
+    },
+    {
+      "Package": "Matrix",
+      "Version": "1.7-2",
+      "_row": "Matrix.1"
+    },
+    {
+      "Package": "methods",
+      "Version": "4.4.3",
+      "_row": "methods"
+    },
+    {
+      "Package": "mgcv",
+      "Version": "1.9-1",
+      "_row": "mgcv"
+    },
+    {
+      "Package": "nlme",
+      "Version": "3.1-167",
+      "_row": "nlme"
+    },
+    {
+      "Package": "nnet",
+      "Version": "7.3-20",
+      "_row": "nnet"
+    },
+    {
+      "Package": "parallel",
+      "Version": "4.4.3",
+      "_row": "parallel"
+    },
+    {
+      "Package": "rpart",
+      "Version": "4.1.24",
+      "_row": "rpart"
+    },
+    {
+      "Package": "spatial",
+      "Version": "7.3-18",
+      "_row": "spatial"
+    },
+    {
+      "Package": "splines",
+      "Version": "4.4.3",
+      "_row": "splines"
+    },
+    {
+      "Package": "stats",
+      "Version": "4.4.3",
+      "_row": "stats"
+    },
+    {
+      "Package": "stats4",
+      "Version": "4.4.3",
+      "_row": "stats4"
+    },
+    {
+      "Package": "survival",
+      "Version": "3.8-3",
+      "_row": "survival"
+    },
+    {
+      "Package": "tcltk",
+      "Version": "4.4.3",
+      "_row": "tcltk"
+    },
+    {
+      "Package": "tools",
+      "Version": "4.4.3",
+      "_row": "tools"
+    },
+    {
+      "Package": "utils",
+      "Version": "4.4.3",
+      "_row": "utils"
+    }
+  ]
+}

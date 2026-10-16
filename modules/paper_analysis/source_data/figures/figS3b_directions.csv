@@ -1,0 +1,6 @@
+directions,value,low,high,source
+1–5,0.0356,0.0239,0.0487,Supplement v20 SN3.2 direction-set table; reported precision
+1 only,0.0314,0.0204,0.0421,Supplement v20 SN3.2 direction-set table; reported precision
+6–20,-0.0117,-0.0147,-0.0093,Supplement v20 SN3.2 direction-set table; reported precision
+11–20,-0.0057,-0.0072,-0.0045,Supplement v20 SN3.2 direction-set table; reported precision
+16–20,-0.0019,-0.0029,-0.0011,Supplement v20 SN3.2 direction-set table; reported precision

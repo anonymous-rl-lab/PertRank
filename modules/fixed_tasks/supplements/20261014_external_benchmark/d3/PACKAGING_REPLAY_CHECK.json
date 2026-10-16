@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "fr_configurations": 21,
+  "default_ash_configs": 1,
+  "checks": 1765,
+  "numeric_values_checked": 2521,
+  "max_abs_error": 0.0,
+  "atol": 1e-12,
+  "source_sha256": {
+    "memberships.npz": "f55dc97d42813b980a4b04443f6a03351c81554188233e6b095d75b5ebce35bd",
+    "expected_reports.json": "464c8c50a253b61a8b11bfc85a689195b845c5af47fd86b588103a8e3795a439",
+    "SOURCE_MANIFEST.json": "83aa36f01823f55d387b7f433c696b9e67e6a0881531a63821c55bcbd9014068"
+  },
+  "scope": "Fixed-result numerical replay; same fitted predictions, exact ties, original top K and query-block resampling seed. No model fitting or new expression read."
+}

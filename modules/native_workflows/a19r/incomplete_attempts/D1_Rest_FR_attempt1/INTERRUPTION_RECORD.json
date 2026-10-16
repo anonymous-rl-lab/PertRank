@@ -1,0 +1,19 @@
+{
+  "status": "INFRASTRUCTURE_INTERRUPTED_OWNER_LOST",
+  "observed_utc": "2026-10-14T04:42:24.999622+00:00",
+  "owner_session_id": 43605,
+  "owner_result": "Unknown process id returned to both original agent and root",
+  "evidence": {
+    "native_report_status": "RUNNING at spams_trainDL",
+    "terminal_RUN_RECORD": false,
+    "terminal_native_guard": false,
+    "effects_npz": false,
+    "live_native_processes_found": false,
+    "heavy_memory_lock_free": true
+  },
+  "actual_runtime_seconds": null,
+  "native_method_failure": null,
+  "scientific_result_available": false,
+  "retry_performed": false,
+  "notes": "Preserve incomplete attempt. Do not infer continuous execution from START age; no successful owner exit or output exists. Root approval required for infrastructure retry under unchanged scientific configuration."
+}

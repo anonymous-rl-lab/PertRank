@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "tier": "compact_intermediate_recalculation",
+  "components": [
+    {
+      "module": "guide",
+      "status": "PASS",
+      "receipt": "/workspace/scratch/9bb77e8faf2b/code_v151_release/qa/corrected_intermediates_full_replay/guide/REPRODUCTION_REPORT.json",
+      "tier": "frozen_query_scores_and_group_labels_to_means_and_intervals"
+    },
+    {
+      "module": "a18r",
+      "status": "PASS",
+      "receipt": "/workspace/scratch/9bb77e8faf2b/code_v151_release/qa/corrected_intermediates_full_replay/a18r/REPRODUCTION_REPORT.json",
+      "tier": "stored_membership_to_strict_support_and_paired_intervals"
+    },
+    {
+      "module": "celleq",
+      "status": "PASS",
+      "receipt": "/workspace/scratch/9bb77e8faf2b/code_v151_release/qa/corrected_intermediates_full_replay/celleq/REPRODUCTION_REPORT.json",
+      "tier": "stored_query_depth_scores_to_means_and_inverse_interpolation"
+    },
+    {
+      "module": "a19r",
+      "status": "PASS",
+      "receipt": "/workspace/scratch/9bb77e8faf2b/code_v151_release/qa/corrected_intermediates_full_replay/a19r/REPRODUCTION_REPORT.json",
+      "tier": "Frozen-effect reranking plus query-block bootstrap and frozen-reference-membership replay"
+    }
+  ],
+  "not_recomputed": [
+    "raw counts or preprocessing",
+    "control geometry",
+    "target reliability weights",
+    "native estimator fitting",
+    "original A19 cell selection"
+  ],
+  "outside_scope": [
+    "SN1.1 two-input external RNA replacement",
+    "protein tasks covered elsewhere"
+  ],
+  "seconds": 20.16825294494629
+}

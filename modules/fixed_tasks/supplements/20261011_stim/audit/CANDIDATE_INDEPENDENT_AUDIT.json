@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "candidate_path": "/workspace/scratch/6cdbaefbed9f/stim_compact_20261011/stim_module_candidate",
+  "source_modules_byte_identical": {
+    "frozen_engine.py": "1910bf79496cebe51ec6111c6b54acd8daca3fa65c196afa471a6a425a9fb6c8",
+    "stats_frozen_exact_score.py": "9f940b35031016a5287c0c4e1ce519058cc3357b8567787cc348999cb2ce9683",
+    "stats_frozen_summary.py": "08c5f4edade9e5c8756969a1892fea27259a2a86857a17d01c034b065773bdd3",
+    "stats_frozen_wild_cluster_t.py": "ea6a9a5dc6fc073be5f05ca7bb53f86612b8732454bcb9433485fb1a19fd63e1",
+    "stim_secondary.py": "b0c067fe0417cca3b9f29ac6f077332bb363fb7e1cdfa48dcd7b76486485d6e1",
+    "stim_stats.py": "7de2a44d7289755d856d478fc34200e687c501fc58c05153c332540d11efc7a3"
+  },
+  "orchestration_only_declared_support_input_replacements": true,
+  "main": {
+    "status": "PASS",
+    "original_float64_values_byte_exact": 612557,
+    "weights_rebuilt_exact": 11220,
+    "independent_full_sort_membership_values_exact": 13995828,
+    "query_scores_exact": 23760,
+    "scores_sha256": "26089c42cf6bec9288554fd90157f0e149759797352da8fe46ad43fcb40c2cc0"
+  },
+  "crossguide": {
+    "status": "PASS",
+    "original_float64_values_byte_exact": 46794,
+    "weights_rebuilt_exact": 390,
+    "independent_full_sort_membership_values_exact": 249600,
+    "query_scores_exact": 9000,
+    "scores_sha256": "73084674f1fb11c5db9eaf5a9e05260116cc9d7d2764a47e423e1ed3a2927323"
+  },
+  "S3": {
+    "contributions_exact": 168300,
+    "coefficients_exact": 900,
+    "frozen_design_and_eligibility_unchanged": true,
+    "full_target_axis_retained": 561
+  },
+  "blockers": [],
+  "scope": "Exact fixed-method result reproduction; does not restore omitted interior float64 effects, raw cells or refit control geometry."
+}

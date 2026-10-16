@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "completed_at_utc": "2026-10-11T16:01:26.351350+00:00",
+  "clean_replay_files_bitwise_equal": [
+    "MANIFEST_SHA256.json",
+    "Methods_Results.md",
+    "RESULT.json",
+    "block_partition_sensitivity.csv",
+    "leave_one_block_out.csv",
+    "query_level_results.csv",
+    "replay_statistics.npz",
+    "s3_alignment_groups.csv",
+    "s3_alignment_transitions.csv",
+    "s3_coefficients_summary.csv",
+    "s3_weight_transitions.csv",
+    "target_groups.csv"
+  ],
+  "protocol_lock": "2026-10-11T15:55:07.783193+00:00",
+  "package_bytes": 5260789,
+  "source_or_manuscript_edits": false,
+  "raw_cell_reads": 0,
+  "remote_reads": 0
+}

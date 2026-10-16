@@ -1,0 +1,434 @@
+{
+ "created_utc": "2026-09-27T03:35:19Z",
+ "integrity": {
+  "amendment_A12_sha256": "d92a460b65252e49caf16ed2eebdfdaa5e2058309c3c90a10ae3b4d6ea850469",
+  "amendment_A12a_sha256": "126d0fc2189b8c959b9be0866f086d053a13fe31bf1cbb56ced6c64a11328582",
+  "freeze_A12": {
+   "compute_scito_zscores.py": "3dfafc6ca4a621b5d0c6a4e4dddb6aab988908fe305dfda46d8410106ab961c9",
+   "evaluate_b8_protein_readout.py": "64d497ac90e66c93c95e5748197c1cf6af5515955617401d805990633c4f9569"
+  },
+  "scito_matrix_sha256": "04b1272c046ddf7e9388e21752b2cc91f9ab7753335d345cdb8b27fbf880ef3d",
+  "panel_map_sha256": "7816bc252afe9531f5752648de4ad763468c3c5aecffa77940e434bf16d53a9f"
+ },
+ "note": "B8 under amendments A12 and A12a; truth is a recomputed SCITO CRISPRa matrix, not the authors' own",
+ "calibration": {
+  "proteins_with_their_gene_targeted": 172,
+  "positive_fraction": 0.8372093023255814,
+  "median_Z": 2.659891999272416,
+  "mean_Z": 2.519460012443831,
+  "fraction_Z_above_1.96": 0.5755813953488372,
+  "passes": true
+ },
+ "sources": {
+  "D3": {
+   "candidates": 1126,
+   "random_floor": 0.022222222222222223,
+   "cohort": 1200,
+   "arms": {
+    "signed (primary)": {
+     "queries": 39,
+     "blocks": 19,
+     "means": {
+      "raw": 0.019070310014048672,
+      "w0y": 0.022160728367624925,
+      "W1": 0.022327048533945088
+     },
+     "W1_vs_w0y": {
+      "diff": 0.00016632016632016632,
+      "ci95": [
+       -0.0037362926053743847,
+       0.004286282080399725
+      ],
+      "p_one_sided": 0.475
+     },
+     "W1_vs_raw": {
+      "diff": 0.003256738519896415,
+      "ci95": [
+       -0.0031801991465149363,
+       0.010000365497076023
+      ],
+      "p_one_sided": 0.157
+     },
+     "w0y_vs_raw": {
+      "diff": 0.0030904183535762483,
+      "ci95": [
+       -0.004004345165238677,
+       0.010691134085213026
+      ],
+      "p_one_sided": 0.1845
+     },
+     "turnover": {
+      "slots_changed_total": 617.0,
+      "support_added": 0.022690437601296597,
+      "support_removed": 0.022164790398177755,
+      "support_difference": 0.0005256472031188405,
+      "random_candidate_rate": 0.02220400479725524
+     }
+    },
+    "magnitude (diagnostic)": {
+     "queries": 39,
+     "blocks": 19,
+     "means": {
+      "raw": 0.017513322340908553,
+      "w0y": 0.022782995196788305,
+      "W1": 0.019564604392190602
+     },
+     "W1_vs_w0y": {
+      "diff": -0.0032183908045977008,
+      "ci95": [
+       -0.009000000000000001,
+       0.0027941483803552766
+      ],
+      "p_one_sided": 0.8785
+     },
+     "W1_vs_raw": {
+      "diff": 0.002051282051282051,
+      "ci95": [
+       -0.007001470588235295,
+       0.010911363636363624
+      ],
+      "p_one_sided": 0.342
+     },
+     "w0y_vs_raw": {
+      "diff": 0.005269672855879753,
+      "ci95": [
+       -0.0019098143236074268,
+       0.011226165431872914
+      ],
+      "p_one_sided": 0.0645
+     },
+     "turnover": {
+      "slots_changed_total": 305.0,
+      "support_added": 0.011599162758009563,
+      "support_removed": 0.021887461231723526,
+      "support_difference": -0.010288298473713963,
+      "random_candidate_rate": 0.022204004797255244
+     }
+    }
+   },
+   "matched_queries": 39,
+   "decidable": true,
+   "query_proteins": [
+    "CD194",
+    "CD127",
+    "CD154",
+    "CD74",
+    "CD5",
+    "CD49d",
+    "CD184",
+    "CD195",
+    "CD62L",
+    "CD27",
+    "CD7",
+    "CD192",
+    "CD183",
+    "CD9",
+    "CD70",
+    "CD52",
+    "CD26",
+    "CD4",
+    "CD186",
+    "CD44",
+    "CD25",
+    "CD28",
+    "CD253",
+    "Mac-2",
+    "CD122",
+    "CD82",
+    "CD120b",
+    "CD55",
+    "CX3CR1",
+    "CD71",
+    "CD223",
+    "CD366",
+    "CD73",
+    "CD2",
+    "integrinB7",
+    "CD102",
+    "CD150",
+    "CD18",
+    "CD11c"
+   ]
+  },
+  "D1": {
+   "candidates": 1061,
+   "random_floor": 0.02358490566037736,
+   "cohort": 1127,
+   "arms": {
+    "signed (primary)": {
+     "queries": 33,
+     "blocks": 16,
+     "means": {
+      "raw": 0.0262429489702217,
+      "w0y": 0.023965630329266695,
+      "W1": 0.02896103896103896
+     },
+     "W1_vs_w0y": {
+      "diff": 0.004995408631772267,
+      "ci95": [
+       0.0002850012732365668,
+       0.011495454545454543
+      ],
+      "p_one_sided": 0.0175
+     },
+     "W1_vs_raw": {
+      "diff": 0.0027180899908172637,
+      "ci95": [
+       -0.004631818181818181,
+       0.01078880471380471
+      ],
+      "p_one_sided": 0.2465
+     },
+     "w0y_vs_raw": {
+      "diff": -0.002277318640955004,
+      "ci95": [
+       -0.010000204750204753,
+       0.005134884559884558
+      ],
+      "p_one_sided": 0.7245
+     },
+     "turnover": {
+      "slots_changed_total": 396.0,
+      "support_added": 0.03535353535353535,
+      "support_removed": 0.014539332721150903,
+      "support_difference": 0.02081420263238445,
+      "random_candidate_rate": 0.02356739194983642
+     }
+    },
+    "magnitude (diagnostic)": {
+     "queries": 33,
+     "blocks": 16,
+     "means": {
+      "raw": 0.02460711006165552,
+      "w0y": 0.025194805194805197,
+      "W1": 0.03246753246753247
+     },
+     "W1_vs_w0y": {
+      "diff": 0.007272727272727274,
+      "ci95": [
+       0.0009302325581395349,
+       0.014054054054054054
+      ],
+      "p_one_sided": 0.024
+     },
+     "W1_vs_raw": {
+      "diff": 0.00786042240587695,
+      "ci95": [
+       -0.004212290881943737,
+       0.02111666666666664
+      ],
+      "p_one_sided": 0.117
+     },
+     "w0y_vs_raw": {
+      "diff": 0.0005876951331496786,
+      "ci95": [
+       -0.010018575851393189,
+       0.012903225806451611
+      ],
+      "p_one_sided": 0.4765
+     },
+     "turnover": {
+      "slots_changed_total": 162.0,
+      "support_added": 0.043209876543209874,
+      "support_removed": 0.006172839506172839,
+      "support_difference": 0.037037037037037035,
+      "random_candidate_rate": 0.023567391949836425
+     }
+    }
+   },
+   "matched_queries": 33,
+   "decidable": true,
+   "query_proteins": [
+    "CD127",
+    "CD74",
+    "CD194",
+    "CD62L",
+    "CD184",
+    "CD195",
+    "CD5",
+    "CD154",
+    "CD27",
+    "CD49d",
+    "CD192",
+    "Mac-2",
+    "CD183",
+    "CD70",
+    "CD29",
+    "CX3CR1",
+    "CD7",
+    "CD82",
+    "CD52",
+    "CD150",
+    "CD26",
+    "CD4",
+    "CD120b",
+    "CD18",
+    "CD48",
+    "CD44",
+    "CD49f",
+    "CD253",
+    "CD317",
+    "CD366",
+    "CD218a",
+    "CD2",
+    "CD96"
+   ]
+  },
+  "D2": {
+   "candidates": 1114,
+   "random_floor": 0.022461814914645103,
+   "cohort": 1200,
+   "arms": {
+    "signed (primary)": {
+     "queries": 38,
+     "blocks": 18,
+     "means": {
+      "raw": 0.026676940181154064,
+      "w0y": 0.02879699248120301,
+      "W1": 0.02879699248120301
+     },
+     "W1_vs_w0y": {
+      "diff": -3.6520494231090674e-19,
+      "ci95": [
+       -0.0033333333333333335,
+       0.004827586206896552
+      ],
+      "p_one_sided": 0.5275
+     },
+     "W1_vs_raw": {
+      "diff": 0.0021200523000489413,
+      "ci95": [
+       -0.0051656720909081695,
+       0.010490656851122552
+      ],
+      "p_one_sided": 0.2995
+     },
+     "w0y_vs_raw": {
+      "diff": 0.0021200523000489413,
+      "ci95": [
+       -0.0040547112462006075,
+       0.008295439642099646
+      ],
+      "p_one_sided": 0.254
+     },
+     "turnover": {
+      "slots_changed_total": 375.0,
+      "support_added": 0.029333333333333333,
+      "support_removed": 0.029333333333333333,
+      "support_difference": 0.0,
+      "random_candidate_rate": 0.02244536598092229
+     }
+    },
+    "magnitude (diagnostic)": {
+     "queries": 38,
+     "blocks": 18,
+     "means": {
+      "raw": 0.030225563909774437,
+      "w0y": 0.02631578947368421,
+      "W1": 0.02947368421052631
+     },
+     "W1_vs_w0y": {
+      "diff": 0.003157894736842105,
+      "ci95": [
+       -0.0012903225806451613,
+       0.0072727272727272745
+      ],
+      "p_one_sided": 0.0895
+     },
+     "W1_vs_raw": {
+      "diff": -0.0007518796992481195,
+      "ci95": [
+       -0.009925671321160043,
+       0.0076697513013302444
+      ],
+      "p_one_sided": 0.549
+     },
+     "w0y_vs_raw": {
+      "diff": -0.003909774436090225,
+      "ci95": [
+       -0.011714468864468865,
+       0.003904878048780474
+      ],
+      "p_one_sided": 0.8345
+     },
+     "turnover": {
+      "slots_changed_total": 149.0,
+      "support_added": 0.026845637583892617,
+      "support_removed": 0.006711409395973154,
+      "support_difference": 0.020134228187919462,
+      "random_candidate_rate": 0.022445365980922293
+     }
+    }
+   },
+   "matched_queries": 38,
+   "decidable": true,
+   "query_proteins": [
+    "CD194",
+    "CD74",
+    "CD62L",
+    "Mac-2",
+    "CD5",
+    "CD154",
+    "CD27",
+    "CD127",
+    "CD4",
+    "CD183",
+    "CD7",
+    "CD49d",
+    "CD184",
+    "CD18",
+    "CD82",
+    "CD70",
+    "CD192",
+    "CD31",
+    "CD29",
+    "CD120b",
+    "CD2",
+    "CD253",
+    "CD26",
+    "CD195",
+    "CD28",
+    "CD25",
+    "CD48",
+    "CD55",
+    "TIGIT",
+    "CD123",
+    "CD317",
+    "CD150",
+    "CD11a",
+    "CD11b",
+    "CD44",
+    "CD43",
+    "CD99",
+    "CD122"
+   ]
+  }
+ },
+ "pooled": {
+  "signed (primary)": {
+   "donors": [
+    "D3",
+    "D1",
+    "D2"
+   ],
+   "diff": 0.001720576266030811,
+   "ci95": [
+    -0.0022615415551570507,
+    0.006869774277583607
+   ]
+  },
+  "magnitude (diagnostic)": {
+   "donors": [
+    "D3",
+    "D1",
+    "D2"
+   ],
+   "diff": 0.0024040770683238927,
+   "ci95": [
+    -0.0031200300075018756,
+    0.008040309902378869
+   ]
+  }
+ },
+ "reading": "no support seen in the independent protein readout; direction-free arm not supported"
+}

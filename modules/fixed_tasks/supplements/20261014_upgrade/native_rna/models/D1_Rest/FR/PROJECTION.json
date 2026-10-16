@@ -1,0 +1,12 @@
+{
+  "status": "LOSSLESS_QUERY_PROJECTION_OF_ARCHIVED_MODEL",
+  "donor": "D1_Rest",
+  "method": "FR",
+  "original_full_model_sha256": "4eb5adb6879ea2a4b63e937f465b57c613cfdedbb4bc3491dd6cf4e6db9bb9f4",
+  "projected_sha256": "c0d0946c3fad76cd1509dc47c7e3f7bfcb67ec3e3fda59bf8ff2d9aee29d51e6",
+  "candidates_retained": 59,
+  "queries_retained": 289,
+  "all_original_candidates_retained": true,
+  "float_dtype": "float64",
+  "quantization": false
+}

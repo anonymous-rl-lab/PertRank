@@ -1,0 +1,22 @@
+{
+  "ranking_used_for_numerical_selection": false,
+  "retained_rule": "uniform mixSQP eps=1e-4",
+  "candidates": [
+    {
+      "candidate": "mixSQP tol.svd=0",
+      "outcome": "original failure reproduced"
+    },
+    {
+      "candidate": "C++ accelerated EM",
+      "outcome": "early smoke emitted subscript warning; an initial wrapper checked wrong convergence field. Corrected convergence-field smoke was stopped for computational cost; no ranking evaluated."
+    },
+    {
+      "candidate": "R accelerated EM",
+      "outcome": "stopped for computational cost; no ranking evaluated"
+    },
+    {
+      "candidate": "mixSQP eps=1e-4",
+      "outcome": "all15 numerical smoke fits complete; exact moments verified; previously successful fit differences reported; frozen uniformly for completecohort"
+    }
+  ]
+}

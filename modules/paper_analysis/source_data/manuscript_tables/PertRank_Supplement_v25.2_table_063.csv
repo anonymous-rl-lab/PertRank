@@ -1,0 +1,7 @@
+Donor,Panel,PertRank − Euclidean depth,Conditional paired envelope,Both crossings located,P@25 difference [95% interval]
+D3,responsive,unlocated,"[unlocated lower, unlocated upper]",787/2000,"+0.03133 [+0.02206, +0.03964]"
+D3,terciles,8.08,"[unlocated lower, unlocated upper]",1711/2000,"+0.00528 [+0.00296, +0.00792]"
+D1,responsive,6.27,"[5.37, 7.06]",2000/2000,"+0.02647 [+0.02174, +0.03127]"
+D1,terciles,unlocated,"[unlocated lower, unlocated upper]",118/2000,"+0.00417 [+0.00220, +0.00619]"
+D2,responsive,2.84,"[1.95, 3.79]",1954/2000,"+0.01519 [+0.01156, +0.01890]"
+D2,terciles,3.74,"[1.39, 6.48]",1966/2000,"+0.00328 [+0.00131, +0.00546]"

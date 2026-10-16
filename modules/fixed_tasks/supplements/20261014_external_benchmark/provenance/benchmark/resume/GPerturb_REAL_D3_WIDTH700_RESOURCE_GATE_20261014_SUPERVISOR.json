@@ -1,0 +1,22 @@
+{
+  "status": "PILOT_NOT_ELIGIBLE",
+  "child_exit_code": 125,
+  "reason": null,
+  "wall_seconds": 29.82519504999982,
+  "peak_polled_rss_bytes": 462848,
+  "budget_seconds": 3600,
+  "memory_guard_bytes": 6979321856,
+  "rss_accounting": "Sum of native launcher process and all descendants; max RSS of worker also recorded separately.",
+  "max_process_tree_size": 1,
+  "method_defeat_claim": false,
+  "real_expression_read": true,
+  "authoritative_worker_guard": {
+    "status": "RESOURCE_MEMORY_GUARD",
+    "worker_pid": 6,
+    "worker_max_rss_bytes": 7121305600,
+    "elapsed_seconds": 29.58302140199976,
+    "memory_guard_bytes": 6979321856,
+    "budget_seconds": 3600
+  },
+  "proxy_rss_is_not_worker_rss": true
+}

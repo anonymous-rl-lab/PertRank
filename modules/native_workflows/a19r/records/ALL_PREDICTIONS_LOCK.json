@@ -1,0 +1,105 @@
+{
+  "status": "ALL_SIX_VERIFIED_NATIVE_FITS_FROZEN_BEFORE_NEW_SCORE",
+  "created_utc": "2026-10-14T04:51:20.916444+00:00",
+  "runs": {
+    "D3_Rest": {
+      "FR": {
+        "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D3_Rest/FR_attempt1",
+        "owner_sha256": "a8db13e22c3e3b93381d4f523d06784575c2be06b4d98c00a563b33ba7edd5b8",
+        "archives": {
+          "effects.npz": {
+            "sha256": "d95a9ee9d910f042f6e614f10f7fa0a33a73fcfcdd1b09662afeadb18dd6ecd5",
+            "CRC": "PASS",
+            "bytes": 11682179
+          },
+          "native_unscaled.npz": {
+            "sha256": "24728f1434bfe2116b573607dd6b5259a4615b363f16728c41edb1fd2c47bead",
+            "CRC": "PASS",
+            "bytes": 40464767
+          }
+        }
+      },
+      "ASH": {
+        "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D3_Rest/ASH_attempt1",
+        "owner_sha256": "964fc54c137f995c8c89a8958c94bfcd44b403f580fe37dc86dae2701ac5a22a",
+        "archives": {
+          "posterior.npz": {
+            "sha256": "a5e3afafce510946b9446ad60cf6cdd768830765ef9676e00d9f54255366da52",
+            "CRC": "PASS",
+            "bytes": 5364400
+          }
+        }
+      }
+    },
+    "D1_Rest": {
+      "FR": {
+        "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D1_Rest/FR_attempt2",
+        "owner_sha256": "97cd4342644e95bcdd235d19d71a4e381ea51fcb18d33a23f1cb40fd14544c44",
+        "archives": {
+          "effects.npz": {
+            "sha256": "4eb5adb6879ea2a4b63e937f465b57c613cfdedbb4bc3491dd6cf4e6db9bb9f4",
+            "CRC": "PASS",
+            "bytes": 12796345
+          },
+          "native_unscaled.npz": {
+            "sha256": "a1221b58848f4b6dd95aeb73c5c45c7041c771911876a04e0fecdd46a0be8c21",
+            "CRC": "PASS",
+            "bytes": 39956139
+          }
+        }
+      },
+      "ASH": {
+        "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D1_Rest/ASH_attempt1",
+        "owner_sha256": "5dd0b9f44093678a761710e734e2b4d684df3858b7f5893dca211a455f7e8df7",
+        "archives": {
+          "posterior.npz": {
+            "sha256": "c57955f65488ee90d4df9d5557a04ea4e51252549363ea97fbd2c25aaf1a5977",
+            "CRC": "PASS",
+            "bytes": 5807520
+          }
+        }
+      }
+    },
+    "D2_Rest": {
+      "FR": {
+        "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D2_Rest/FR_attempt2",
+        "owner_sha256": "48a68ff56728b12b4c1ff37885f625b9188386d5445ccd1e49df48583012d813",
+        "archives": {
+          "effects.npz": {
+            "sha256": "d320069a1e1ae3064b5d7ea501ceeaefbf5e33ee2d5310926eb12e930f2d9087",
+            "CRC": "PASS",
+            "bytes": 13759261
+          },
+          "native_unscaled.npz": {
+            "sha256": "8acf3a187ad9c46fc19063e5a59f7dffcdb5c0151e9995b54601f0519426dc2f",
+            "CRC": "PASS",
+            "bytes": 40799562
+          }
+        }
+      },
+      "ASH": {
+        "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D2_Rest/ASH_attempt1",
+        "owner_sha256": "51519544d855b3c6508ab72a2c0539588611f83064ff2acb282d207f47739a72",
+        "archives": {
+          "posterior.npz": {
+            "sha256": "49dc6426a034322701d3ae35c5aebd0c150fc97b685dd88b6c2f9656859f700a",
+            "CRC": "PASS",
+            "bytes": 6245049
+          }
+        }
+      }
+    }
+  },
+  "selected_runs_sha256": "824b54b8769de4d5398f737dd4053c3f75b2d0455eb75e0066bd147d09c21ed4",
+  "scoring_source_sha256": {
+    "score_native.py": "55dfc23c9e6e22831c1d13ed20bdb40890030114df4fc6dec09d86ec7d120709",
+    "combine_sources.py": "7a432fb8353bcf7a14c27d24b25bbb2bd485b75ecf5571ead800f0751206c213"
+  },
+  "config_sha256": {
+    "D3_Rest": "cd5f2a929e3d0d001b31ead74112007d645ffcd62d2df58c5cd23ce8713efce6",
+    "D1_Rest": "80cb375814af68834419941510194b348a6d09b4b80e4d28e079837f12900a9d",
+    "D2_Rest": "31019a2353ae8da996e875bda925f6983930eca730d7295db172b73275eb7836"
+  },
+  "analysis_status": "Posthoc expanded comparison on a previously opened external biological reference; no prospective confirmation claim.",
+  "model_selection_by_new_scores": false
+}

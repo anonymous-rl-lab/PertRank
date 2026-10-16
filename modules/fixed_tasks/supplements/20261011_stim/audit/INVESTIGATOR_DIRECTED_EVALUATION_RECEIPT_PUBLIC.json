@@ -1,0 +1,37 @@
+{
+  "condition": "D4_Stim8hr",
+  "recorded_utc": "2026-10-11T10:52:53.308610+00:00",
+  "explicit_continue": true,
+  "user_asserts_registered": true,
+  "instruction_timestamp_utc": "2026-10-11T10:50:06+00:00",
+  "instruction_text": "\u7ee7\u7eed\u5b9e\u9a8c",
+  "prior_assertion_excerpt": "\u65e9\u5df2Register",
+  "prediction_lock_verified": true,
+  "independent_e4_registration_verified": false,
+  "e4_archived": null,
+  "e4_approved": null,
+  "e4_registration_id": null,
+  "original_registration_id": "STIM_PRIMARY_REGISTRATION",
+  "source_project_id": "STIM_ASSOCIATED_PROJECT",
+  "prediction_archive": {
+    "path": "output/prediction_lock_export/PertRank_Stim_prediction_lock.zip",
+    "bytes": 377071932,
+    "sha256": "8f6f231006f2a93773f6c092466458014a6b443ff38b951b9732579b448902d1"
+  },
+  "browser_observations": {
+    "project_registrations": "Only original STIM_PRIMARY_REGISTRATION displayed on the authenticated project registration list.",
+    "account_submitted_registrations": "The latest displayed submitted registration was original STIM_PRIMARY_REGISTRATION; no separate Stim prediction-lock registration was visible.",
+    "prediction_zip_uploaded_before_truth": true,
+    "verification_limitation": "These observations do not override the investigator assertion; independent archive/approval verification was not obtained."
+  },
+  "protocol_status": "investigator_directed_deviation",
+  "disclosure": "Input predictions were completed, independently audited, and uploaded to OSF before reference access. Evaluation proceeds on the investigator explicit continuation instruction without independent verification of the separate E4 registration archive and approval. The result must not be represented as full compliance with the E4 procedural requirement. No scientific parameter, sample, endpoint, comparator declaration, or statistical decision rule changes.",
+  "truth_expression_accessed_before_this_record": false,
+  "public_export": {
+    "original_sha256": "9af093c1dd79fcab538c4fba4546268f184c26f2e2b2aaa45500743fb45674c4",
+    "redacted_fields": [
+      "browser_observations.prepared_draft"
+    ],
+    "reason": "Private registration draft URL is unnecessary for result reproduction; scientific and procedural assertions are unchanged."
+  }
+}

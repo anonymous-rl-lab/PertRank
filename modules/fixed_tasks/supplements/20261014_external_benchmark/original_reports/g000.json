@@ -1,0 +1,619 @@
+{
+  "status": "COMPLETE",
+  "created_utc": "2026-10-14T00:29:21.702985+00:00",
+  "dataset": "D4_Rest",
+  "kind": "pooled",
+  "config_id": "rank100_default_lasso",
+  "config": {
+    "id": "rank100_default_lasso",
+    "rank": 100,
+    "spca_alpha": 0.1,
+    "lasso_alpha": 0.0001
+  },
+  "input_reps": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "arms": [
+    "raw",
+    "euclidean",
+    "pertrank",
+    "fr",
+    "fr_euclidean",
+    "fr_pertrank"
+  ],
+  "bootstrap_draws": 2000,
+  "query_seed": 20261012,
+  "reference_seed": null,
+  "reference_batch_size": null,
+  "shape": {
+    "input_reps": 5,
+    "queries": 300,
+    "candidates": 589,
+    "blocks": 30
+  },
+  "primary_K": 25,
+  "sensitivity_K": 10,
+  "results": {
+    "25": {
+      "arms": {
+        "raw": {
+          "point": 0.301750884910793,
+          "input_rep_points": [
+            0.31237273548195443,
+            0.298035927428207,
+            0.30253793264719175,
+            0.2970018209959261,
+            0.2988060080006855
+          ],
+          "query_only_95_interval": [
+            0.26656918651356365,
+            0.33378490662974364
+          ]
+        },
+        "euclidean": {
+          "point": 0.3556499310037844,
+          "input_rep_points": [
+            0.36918419526134105,
+            0.3571004968332412,
+            0.3544704956968836,
+            0.3515778835332453,
+            0.34591658369421063
+          ],
+          "query_only_95_interval": [
+            0.323479475635509,
+            0.3825651728188943
+          ]
+        },
+        "pertrank": {
+          "point": 0.37917332608905385,
+          "input_rep_points": [
+            0.3873728992287851,
+            0.37242535092820217,
+            0.3828157814888151,
+            0.380006119261524,
+            0.373246479537943
+          ],
+          "query_only_95_interval": [
+            0.3455114516815665,
+            0.40831275450184873
+          ]
+        },
+        "fr": {
+          "point": 0.3428880516934162,
+          "input_rep_points": [
+            0.35805768017711215,
+            0.33890178971926777,
+            0.3409105910280261,
+            0.34014948118574123,
+            0.33642071635693344
+          ],
+          "query_only_95_interval": [
+            0.2993555422448503,
+            0.37730320018911123
+          ]
+        },
+        "fr_euclidean": {
+          "point": 0.35465091412863514,
+          "input_rep_points": [
+            0.3701905512826436,
+            0.3540559339450671,
+            0.34738005571583463,
+            0.3518964876975329,
+            0.3497315420020976
+          ],
+          "query_only_95_interval": [
+            0.3217971553676799,
+            0.38067060025048044
+          ]
+        },
+        "fr_pertrank": {
+          "point": 0.37717578806516533,
+          "input_rep_points": [
+            0.38801136257012153,
+            0.3658461191234693,
+            0.375412065029019,
+            0.38086959682927507,
+            0.37573979677394154
+          ],
+          "query_only_95_interval": [
+            0.34440509455031465,
+            0.4031818993753528
+          ]
+        }
+      },
+      "contrasts": {
+        "fr_minus_raw": {
+          "point": 0.04113716678262319,
+          "input_rep_points": [
+            0.045684944695157714,
+            0.04086586229106076,
+            0.03837265838083437,
+            0.04314766018981514,
+            0.03761470835624792
+          ],
+          "query_only_95_interval": [
+            0.025123601681599245,
+            0.05419580901396739
+          ],
+          "query_only_99_interval": [
+            0.020408625699466276,
+            0.05762794531486155
+          ],
+          "in_prespecified_five_contrast_family": true
+        },
+        "fr_minus_euclidean": {
+          "point": -0.012761879310368207,
+          "input_rep_points": [
+            -0.011126515084228905,
+            -0.018198707113973422,
+            -0.013559904668857481,
+            -0.011428402347504085,
+            -0.009495867337277197
+          ],
+          "query_only_95_interval": [
+            -0.02618063583086245,
+            -0.0008105680409742873
+          ],
+          "query_only_99_interval": [
+            -0.029485119501034766,
+            0.002281361025882775
+          ],
+          "in_prespecified_five_contrast_family": true
+        },
+        "pertrank_minus_fr": {
+          "point": 0.03628527439563767,
+          "input_rep_points": [
+            0.029315219051672947,
+            0.033523561208934405,
+            0.041905190460789,
+            0.03985663807578277,
+            0.03682576318100955
+          ],
+          "query_only_95_interval": [
+            0.024551643288923772,
+            0.04917852359319787
+          ],
+          "query_only_99_interval": [
+            0.021620212325180053,
+            0.05230532265021977
+          ],
+          "in_prespecified_five_contrast_family": true
+        },
+        "fr_pertrank_minus_fr": {
+          "point": 0.034287736371749145,
+          "input_rep_points": [
+            0.029953682393009384,
+            0.02694432940420155,
+            0.034501474000992904,
+            0.04072011564353384,
+            0.0393190804170081
+          ],
+          "query_only_95_interval": [
+            0.02410965499446381,
+            0.046184567756484246
+          ],
+          "query_only_99_interval": [
+            0.02104317428868355,
+            0.04990791497933617
+          ],
+          "in_prespecified_five_contrast_family": true
+        },
+        "fr_pertrank_minus_fr_euclidean": {
+          "point": 0.022524873936530188,
+          "input_rep_points": [
+            0.017820811287477922,
+            0.01179018517840219,
+            0.02803200931318439,
+            0.02897310913174217,
+            0.02600825477184393
+          ],
+          "query_only_95_interval": [
+            0.02070636595890804,
+            0.024516241327299838
+          ],
+          "query_only_99_interval": [
+            0.019884490106092424,
+            0.025222291389801275
+          ],
+          "in_prespecified_five_contrast_family": true
+        },
+        "pertrank_minus_euclidean": {
+          "point": 0.02352339508526946,
+          "input_rep_points": [
+            0.018188703967444042,
+            0.015324854094960982,
+            0.028345285791931518,
+            0.028428235728278684,
+            0.027329895843732355
+          ],
+          "query_only_95_interval": [
+            0.021322738375291504,
+            0.026336047102253065
+          ],
+          "query_only_99_interval": [
+            0.02076067635963387,
+            0.027598513806022604
+          ],
+          "in_prespecified_five_contrast_family": false
+        }
+      }
+    },
+    "10": {
+      "arms": {
+        "raw": {
+          "point": 0.2847079987892008,
+          "input_rep_points": [
+            0.2927037608478292,
+            0.2923868277628241,
+            0.2810331754340809,
+            0.28481209202858954,
+            0.2726041378726803
+          ],
+          "query_only_95_interval": [
+            0.25043802331446485,
+            0.312837260013165
+          ]
+        },
+        "euclidean": {
+          "point": 0.33173996698418445,
+          "input_rep_points": [
+            0.342739774597413,
+            0.3399103788547479,
+            0.3240727227941117,
+            0.33285218334267397,
+            0.3191247753319756
+          ],
+          "query_only_95_interval": [
+            0.30734379669091433,
+            0.3534228998966311
+          ]
+        },
+        "pertrank": {
+          "point": 0.3513874491063035,
+          "input_rep_points": [
+            0.36759426640578324,
+            0.35144370537312786,
+            0.3515611175230725,
+            0.34955870463856525,
+            0.3367794515909684
+          ],
+          "query_only_95_interval": [
+            0.32711158469742385,
+            0.37404239584352167
+          ]
+        },
+        "fr": {
+          "point": 0.31783534845678413,
+          "input_rep_points": [
+            0.33395886864432783,
+            0.31896128152883507,
+            0.31583081736667173,
+            0.3140517475008713,
+            0.30637402724321483
+          ],
+          "query_only_95_interval": [
+            0.280259879697793,
+            0.3494520054325516
+          ]
+        },
+        "fr_euclidean": {
+          "point": 0.3193927109724819,
+          "input_rep_points": [
+            0.3294988067846611,
+            0.32418305435515815,
+            0.3135549446835663,
+            0.32074125541335924,
+            0.3089854936256645
+          ],
+          "query_only_95_interval": [
+            0.2971271663099928,
+            0.3396400910743645
+          ]
+        },
+        "fr_pertrank": {
+          "point": 0.33666108183633786,
+          "input_rep_points": [
+            0.3482686062989481,
+            0.3380787179979487,
+            0.3351280065894374,
+            0.33876502872774156,
+            0.32306504956761356
+          ],
+          "query_only_95_interval": [
+            0.31328667079877,
+            0.35879001021361623
+          ]
+        }
+      },
+      "contrasts": {
+        "fr_minus_raw": {
+          "point": 0.03312734966758335,
+          "input_rep_points": [
+            0.04125510779649866,
+            0.026574453766010975,
+            0.03479764193259083,
+            0.029239655472281745,
+            0.033769889370534545
+          ],
+          "query_only_95_interval": [
+            0.015662477182550354,
+            0.04568499112381864
+          ],
+          "query_only_99_interval": [
+            0.00947982071829488,
+            0.048999330423096614
+          ],
+          "in_prespecified_five_contrast_family": true
+        },
+        "fr_minus_euclidean": {
+          "point": -0.013904618527400325,
+          "input_rep_points": [
+            -0.008780905953085172,
+            -0.020949097325912824,
+            -0.008241905427439966,
+            -0.018800435841802687,
+            -0.012750748088760755
+          ],
+          "query_only_95_interval": [
+            -0.03136965230012358,
+            0.0016231823504635977
+          ],
+          "query_only_99_interval": [
+            -0.03563848792637972,
+            0.005391882739487366
+          ],
+          "in_prespecified_five_contrast_family": true
+        },
+        "pertrank_minus_fr": {
+          "point": 0.033552100649519356,
+          "input_rep_points": [
+            0.03363539776145541,
+            0.032482423844292785,
+            0.035730300156400774,
+            0.03550695713769397,
+            0.030405424347753562
+          ],
+          "query_only_95_interval": [
+            0.016634269507388198,
+            0.051333101443595146
+          ],
+          "query_only_99_interval": [
+            0.014022756020437056,
+            0.05608051189015351
+          ],
+          "in_prespecified_five_contrast_family": true
+        },
+        "fr_pertrank_minus_fr": {
+          "point": 0.018825733379553733,
+          "input_rep_points": [
+            0.014309737654620291,
+            0.019117436469113624,
+            0.019297189222765687,
+            0.024713281226870276,
+            0.01669102232439873
+          ],
+          "query_only_95_interval": [
+            0.004103304260730344,
+            0.03470157218956654
+          ],
+          "query_only_99_interval": [
+            -0.0009577297598902963,
+            0.0397421451544654
+          ],
+          "in_prespecified_five_contrast_family": true
+        },
+        "fr_pertrank_minus_fr_euclidean": {
+          "point": 0.017268370863855964,
+          "input_rep_points": [
+            0.018769799514287033,
+            0.013895663642790546,
+            0.021573061905871105,
+            0.01802377331438232,
+            0.01407955594194904
+          ],
+          "query_only_95_interval": [
+            0.012925744074881205,
+            0.021075620542708336
+          ],
+          "query_only_99_interval": [
+            0.011672953674172428,
+            0.022117744716431218
+          ],
+          "in_prespecified_five_contrast_family": true
+        },
+        "pertrank_minus_euclidean": {
+          "point": 0.01964748212211903,
+          "input_rep_points": [
+            0.024854491808370238,
+            0.01153332651837996,
+            0.027488394728960808,
+            0.016706521295891286,
+            0.017654676258992807
+          ],
+          "query_only_95_interval": [
+            0.01659501569938874,
+            0.023356933988084555
+          ],
+          "query_only_99_interval": [
+            0.01570601702607274,
+            0.024809982243671237
+          ],
+          "in_prespecified_five_contrast_family": false
+        }
+      }
+    }
+  },
+  "elapsed_seconds": 1.175747173000218,
+  "scope": "Conditional on observed inputs/reference, query panels, control geometry, candidates and donor/state. Query-block resampling only.",
+  "simultaneous_intervals": "99% marginal percentile intervals form Bonferroni family for five prespecified contrasts at one task/K; PR-minus-E is extra descriptive and excluded from that family.",
+  "provenance": {
+    "task_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/pooled_data/D4_Rest/frozen_task.npz",
+    "task_sha256": "76d5d40b463a2912049a12c22c50695a04e69c22fc31c3842a544e4a45595fe6",
+    "selection_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/pooled_data/D4_Rest/selection.npz",
+    "selection_sha256": "3fbdc50da9019a11aeb05dc59dc7d9fe90605c3a11938b03b885f463d0ee3fcf",
+    "protocol_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/AMENDMENT_03_FR_SEARCH_21.json",
+    "protocol_sha256": "edd9b8580c27bdc951938146fe90227aff8f54e9835569ce0122d2bfe0432ab6",
+    "evaluator_sha256": "4acd8cebce3162b25874518942dbed4fae8299cd8fead65da2ef1b789dd95237",
+    "score_primitive_sha256": "21cfcbe73404d7560922069de96b25fa706ac75900afb014a8aed1880fbc05cf",
+    "fr": [
+      {
+        "input_rep": 0,
+        "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep0/effects.npz",
+        "effects_sha256": "d5f2ba4e60fe172d5ea36cef2dcaabd69bebdc598f3b304611520e09d7ce9490",
+        "solver_audit_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep0/NATIVE_SOLVER_OBJECTIVE_AUDIT.json",
+        "solver_audit_sha256": "ace949766469b4456c4cc43cde8605ae82fe73e621ca285e49e3004aec079c9c",
+        "solver_audit_amendment_sha256": "106aeab3637b5bf5925bd289cd31c455df0d2638a741734803c1bdd6680126dd",
+        "fit_report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep0/fit_report.json",
+        "fit_report_sha256": "e8c5ad9beb73212fbf69ba2610a0ddfdd768f418c097ba125a7f8e000ff2af3d",
+        "input_provenance": {
+          "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep0",
+          "counts_sha256": "f8f4e9629b0c136ffec57a189106e50d2c5922cb21198f4e381045f5a4beff5e",
+          "axes_sha256": "4705887312a08a2bccb1440c0b0909668ec054d31e79fdd0dffc55353b5cdaf9",
+          "memory_lock_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/heavy_memory.lock",
+          "memory_lock_wait_seconds": 7.009506225585938e-05
+        },
+        "input_fingerprint_sha256": "05b24548cfc9057d2847e8665936ff67fad6f7d39c08c169e2dda2b4ca08d74f",
+        "parameters": {
+          "rank": 100,
+          "spca_alpha": 0.1,
+          "lasso_alpha": 0.0001,
+          "spca_iter": 50,
+          "seed": 20261012,
+          "threads": 2
+        },
+        "runtime_seconds": 50.705289363861084,
+        "native_effect_dtype": "float64",
+        "matched_input_cell_and_target_assignment_check": "PASS",
+        "matched_input_cell_count": 13780
+      },
+      {
+        "input_rep": 1,
+        "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep1/effects.npz",
+        "effects_sha256": "70cac6d9868718ffaf54d4ecad7e858cea4eebb563e104c6727e6fda92c922be",
+        "solver_audit_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep1/NATIVE_SOLVER_OBJECTIVE_AUDIT.json",
+        "solver_audit_sha256": "58796610a3330359566ad05677621fb66fb96e40e197579652d6ccce04072f09",
+        "solver_audit_amendment_sha256": "106aeab3637b5bf5925bd289cd31c455df0d2638a741734803c1bdd6680126dd",
+        "fit_report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep1/fit_report.json",
+        "fit_report_sha256": "eaea720b73d859e2e5e2c9f25a3ea92ab246e1f440209200b8488a4c685c17c1",
+        "input_provenance": {
+          "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep1",
+          "counts_sha256": "dfa06ab7e256234767380eb6f614c8ec13a222b9c7b3294bd4f8d04bdb7964af",
+          "axes_sha256": "b1649f7e75b352eded8a7d80f4d2cd6a57b54afa690fbe670c4220033f9d149d",
+          "memory_lock_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/heavy_memory.lock",
+          "memory_lock_wait_seconds": 6.29425048828125e-05
+        },
+        "input_fingerprint_sha256": "9b8ed6ecec2be990cf965e49c2cfaa052d3d58d773cd114e7cae2e12f3bde0a0",
+        "parameters": {
+          "rank": 100,
+          "spca_alpha": 0.1,
+          "lasso_alpha": 0.0001,
+          "spca_iter": 50,
+          "seed": 20261013,
+          "threads": 2
+        },
+        "runtime_seconds": 50.30660963058472,
+        "native_effect_dtype": "float64",
+        "matched_input_cell_and_target_assignment_check": "PASS",
+        "matched_input_cell_count": 13780
+      },
+      {
+        "input_rep": 2,
+        "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/replay_retry1/fr_outputs/D4_Rest/rank100_default_lasso_rep2/effects.npz",
+        "effects_sha256": "d1e8a736184a1a7598d534d8871ce32cddd503a94a6634dcc95aa9f78f6c0e66",
+        "solver_audit_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/replay_retry1/fr_outputs/D4_Rest/rank100_default_lasso_rep2/NATIVE_SOLVER_OBJECTIVE_AUDIT.json",
+        "solver_audit_sha256": "384fe32caee4bb21bc289aa7d61765c90e0ccf284ae94bccd5ddc55e8a3e28b5",
+        "solver_audit_amendment_sha256": "106aeab3637b5bf5925bd289cd31c455df0d2638a741734803c1bdd6680126dd",
+        "fit_report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/replay_retry1/fr_outputs/D4_Rest/rank100_default_lasso_rep2/fit_report.json",
+        "fit_report_sha256": "1f6c1caf98e92135eaba6281c1d6f1c46e7ec9b07dea21a0c94ce7c1633b2e2c",
+        "input_provenance": {
+          "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep2",
+          "counts_sha256": "2326539859669c0f4d02504c014479d5745c5ed786a79f5ba087db446e236c66",
+          "axes_sha256": "1fdb7e9b8ed437a1e0aebd9783593d731ddce6200806f64ba3584a6ea81e94df",
+          "memory_lock_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/heavy_memory.lock",
+          "memory_lock_wait_seconds": 6.4849853515625e-05
+        },
+        "input_fingerprint_sha256": "5eb7f3c8aaa889284bc1d07856ce00d4002124713adb0613ff6bf495c874fdee",
+        "parameters": {
+          "rank": 100,
+          "spca_alpha": 0.1,
+          "lasso_alpha": 0.0001,
+          "spca_iter": 50,
+          "seed": 20261014,
+          "threads": 2
+        },
+        "runtime_seconds": 57.00082445144653,
+        "native_effect_dtype": "float64",
+        "matched_input_cell_and_target_assignment_check": "PASS",
+        "matched_input_cell_count": 13780
+      },
+      {
+        "input_rep": 3,
+        "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep3/effects.npz",
+        "effects_sha256": "3a759408b45675250d98a81768820b655506dc810d5f04a9b2f614c38d3f055a",
+        "solver_audit_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep3/NATIVE_SOLVER_OBJECTIVE_AUDIT.json",
+        "solver_audit_sha256": "5ba7ba23167505039d6581a00fb6d108f4748e116f766dcffda9382f88859a96",
+        "solver_audit_amendment_sha256": "106aeab3637b5bf5925bd289cd31c455df0d2638a741734803c1bdd6680126dd",
+        "fit_report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep3/fit_report.json",
+        "fit_report_sha256": "e9e7297e541a54556bd958adc2b9ada30878c8732ceddac5571992e27a4602ce",
+        "input_provenance": {
+          "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep3",
+          "counts_sha256": "7d69b311234e2339f4a99cc6fa93d8da83bf0e286891925cbe29676da56cf436",
+          "axes_sha256": "7b465bbdccba79527535c3eadd401b3485e756a8a87aa21ae1b35da05f0a293a",
+          "memory_lock_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/heavy_memory.lock",
+          "memory_lock_wait_seconds": 29.2481632232666
+        },
+        "input_fingerprint_sha256": "3db1b352d485eff2df9ffdb31d22c0ec6288e0507d14ef5a151b99d14babba47",
+        "parameters": {
+          "rank": 100,
+          "spca_alpha": 0.1,
+          "lasso_alpha": 0.0001,
+          "spca_iter": 50,
+          "seed": 20261015,
+          "threads": 2
+        },
+        "runtime_seconds": 56.856436014175415,
+        "native_effect_dtype": "float64",
+        "matched_input_cell_and_target_assignment_check": "PASS",
+        "matched_input_cell_count": 13780
+      },
+      {
+        "input_rep": 4,
+        "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep4/effects.npz",
+        "effects_sha256": "36842c16308e6f315d22a5044f39c7d3b778abbd8deb2eee275fea488f2e3b67",
+        "solver_audit_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep4/NATIVE_SOLVER_OBJECTIVE_AUDIT.json",
+        "solver_audit_sha256": "22e3366d0691e7dd929cf9db5573164fd28e99e055030f8d514ab0a1daa9cff1",
+        "solver_audit_amendment_sha256": "106aeab3637b5bf5925bd289cd31c455df0d2638a741734803c1bdd6680126dd",
+        "fit_report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep4/fit_report.json",
+        "fit_report_sha256": "0f3ff4e9e6f3fb139ff97f878850c92000a07378f2537628728ea988c1986518",
+        "input_provenance": {
+          "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep4",
+          "counts_sha256": "ae4b2d6adbb227e7148aa7c596218add963791be0e48d4745b8e7de9de4bda10",
+          "axes_sha256": "ce81464169be337a712f85c3114b65e861276e7798a53da63471adfd514703d9",
+          "memory_lock_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/heavy_memory.lock",
+          "memory_lock_wait_seconds": 7.104873657226562e-05
+        },
+        "input_fingerprint_sha256": "f7084eb547e2446b1c695369e7848e563629e374855ce6439e4877050c04917c",
+        "parameters": {
+          "rank": 100,
+          "spca_alpha": 0.1,
+          "lasso_alpha": 0.0001,
+          "spca_iter": 50,
+          "seed": 20261016,
+          "threads": 2
+        },
+        "runtime_seconds": 56.737728118896484,
+        "native_effect_dtype": "float64",
+        "matched_input_cell_and_target_assignment_check": "PASS",
+        "matched_input_cell_count": 13780
+      }
+    ],
+    "winner_lock_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/FR_D3_WINNER_LOCK.json",
+    "winner_lock_sha256": "3b03f312908d7fbad7a84ae8fd1dff29fefb7e7319e95aa9144108cd7a1b8e18"
+  },
+  "compact_sha256": "747f7b0e6031b447913fb2aee1a11c15d673a95d5870f4513a27e1c4bf7aae78",
+  "evaluation_arrays_sha256": "1051a9b605db8362097cb9844eedf1307bc8ac75434ec4c3b70560b0afb7246f"
+}

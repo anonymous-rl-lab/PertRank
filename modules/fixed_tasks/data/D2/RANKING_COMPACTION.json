@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "donor": "D2",
+  "identity": "retrospective exact fixed-method top-25 sufficient-input compaction",
+  "source_files": {
+    "v17_experiments/delivery/compact/D2_Rest_state.npz": {
+      "sha256": "79bcb6efb229891696ee26429c54fe595aa7c25e1e980c2524bdb3813bc1a778",
+      "bytes": 28813137
+    },
+    "v17_experiments/evaluation/results/combined/D2_Rest_query_scores.npz": {
+      "sha256": "52b43a5d8a8191ca290782505d85d49c54b561e9cef31f3699c8d6c52d60750f",
+      "bytes": 58026
+    }
+  },
+  "output_file": "ranking.npz",
+  "output_sha256": "980be4999c7cf1b831828114b3a54798c93e25fe70c20bb5a0f3a1d39044fa4f",
+  "output_bytes": 3825047,
+  "k": 25,
+  "groups": 5,
+  "queries": 596,
+  "candidates": 1200,
+  "arms": [
+    "raw",
+    "Euclidean",
+    "PertRank",
+    "diagonal",
+    "TRADE_scalar",
+    "PR_E",
+    "PR_M"
+  ],
+  "full_Y_entries": 3576000,
+  "retained_Y_entries": 859333,
+  "retained_fraction": 0.24030564876957494,
+  "retained_candidates_per_row_percentiles": [
+    78.0,
+    120.0,
+    138.0,
+    158.0,
+    1200.0
+  ],
+  "full_source_weights_content_sha256": "c975ce2ebc4fc57c71ca26ac194638ace962bad51fbff3d653dbf863806855a4",
+  "full_source_Y_content_sha256": "13ebe7de9af80c9ad4bcd7ec11c4a7eccb6b94d57e7e71a423ba1b51944e4e56",
+  "full_source_truth_content_sha256": "ab909399077ad6e8c591783f8ffed9e58a535e601023ecac5e59d044d4e948fa",
+  "prediction_membership_values_compared": 50064000,
+  "truth_membership_values_compared": 1430400,
+  "all_memberships_exact": true,
+  "independent_full_sort_memberships_exact": true,
+  "full_prediction_membership_stream_sha256": "8dae45fad866840d2309ec13ccb07c18d80acba70c8ab509ff1abdf40c019297",
+  "compact_prediction_membership_stream_sha256": "8dae45fad866840d2309ec13ccb07c18d80acba70c8ab509ff1abdf40c019297",
+  "original_official_query_scores_exact": {
+    "responsive": {
+      "values": 21000,
+      "maximum_absolute_difference": 0.0
+    },
+    "terciles": {
+      "values": 21000,
+      "maximum_absolute_difference": 0.0
+    }
+  },
+  "source_arrays_modified": false,
+  "float_quantization": false,
+  "supported_scope": "Rebuild frozen scalar weights from separately retained statistics; rerank retained original float64 raw effects using those exact weights; reproduce every fixed signed top-25 membership, query score and subsequent paired bootstrap. All tied candidates at every frozen boundary are retained.",
+  "unsupported_scope": "The omitted interior candidates cannot support arbitrary new weights, a changed K, a changed candidate/query pool, control refitting or raw UMI preprocessing. The compaction is post-result and is not a replacement prospective lock.",
+  "elapsed_seconds": 5.250581756001338
+}

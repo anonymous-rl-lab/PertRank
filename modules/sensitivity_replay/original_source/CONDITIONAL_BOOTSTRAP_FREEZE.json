@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-05T14:50:55.563493+00:00",
+  "files": {
+    "CONDITIONAL_CELL_BOOTSTRAP_PROTOCOL.md": "e08ba119373fd084037ce09812f2c869e016a881e618d7adc490b35dd2a9c339",
+    "conditional_cell_bootstrap.py": "b8da83aeecd8c9d94b6df30f653255d5a0613ac6deae131502ff16d58107b132",
+    "preflight_cell_states.py": "cbfb6b8cc0c1c6364836461a528e7aa4bfbc3e2e2b7154fc7bf47a838f5e10d8"
+  },
+  "superseded_reason": "Two-draw D3 smoke hit AttributeError: NpzFile has no filename while writing provenance. Use the already saved input path instead. No statistical rule, seeds or B changed. No summary file had been written."
+}

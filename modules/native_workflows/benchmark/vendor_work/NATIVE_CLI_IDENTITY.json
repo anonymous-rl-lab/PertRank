@@ -1,0 +1,6 @@
+{
+  "official_cli_to_adapter_max_absolute_error": 1.1102230246251565e-16,
+  "allclose_1e-12": true,
+  "fullprecision_intercept_only": true,
+  "spams_threads": 2
+}

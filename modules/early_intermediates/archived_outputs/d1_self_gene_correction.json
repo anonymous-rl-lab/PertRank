@@ -1,0 +1,339 @@
+{
+ "created_utc": "2026-09-26T11:00:37Z",
+ "integrity": {
+  "amendment_A6_sha256": "fe53edc36e0235410c2671ffacdf6cea31104453eed78e8ca4a38334c4f18ae5",
+  "amendment_A6a_sha256": "6ea0dd370eb071ed9258b0f908bf0632bed504350d7a4191071ee87637d14ae2",
+  "freeze": {
+   "a6_common.py": "0bbc2da7ff80e3e0fa72297703d76ec4c48c99bac3f4b592e4f7f465468676f1",
+   "correct_d1_self_gene.py": "c673b72723059190a2ff67af88986cf60596760300d4f0ef3a50c3b29b24ecb0"
+  },
+  "state_sha256": "db3876aedd0614f86de96da29e40d0ecd46f96f7bbd6ff4770e5873d4cf69e94",
+  "map_sha256": "932a884898019f7669532f4b49e767d56abe1179d62f3261c77389c720338180"
+ },
+ "map": {
+  "source": "perturbed_gene_id of the D1 obs, paired with perturbed_gene_name over eligible targeting cells",
+  "targets": 1127,
+  "own_gene_on_weight_axis": 975,
+  "frozen_self_row_all_minus_one": true,
+  "responsive_queries_that_are_own_genes": 34,
+  "terciles_queries_that_are_own_genes": 18
+ },
+ "responsive_list_check": {
+  "own_genes_on_list": 34,
+  "variance_300th": 0.00820178897520212,
+  "frozen_list_is_top300_of_stored_union": true,
+  "genes_below_the_line_after_zeroing": [
+   {
+    "gene": "ENSG00000101347",
+    "targets": [
+     "SAMHD1"
+    ],
+    "variance_frozen": 0.012044870457225321,
+    "variance_zeroed": 0.007888575235825396
+   },
+   {
+    "gene": "ENSG00000090554",
+    "targets": [
+     "FLT3LG"
+    ],
+    "variance_frozen": 0.008816280977611356,
+    "variance_zeroed": 0.007395025086798778
+   },
+   {
+    "gene": "ENSG00000140511",
+    "targets": [
+     "HAPLN3"
+    ],
+    "variance_frozen": 0.008575504053359653,
+    "variance_zeroed": 0.008147881487051716
+   },
+   {
+    "gene": "ENSG00000137642",
+    "targets": [
+     "SORL1"
+    ],
+    "variance_frozen": 0.008398099640375573,
+    "variance_zeroed": 0.008065259182554756
+   },
+   {
+    "gene": "ENSG00000153283",
+    "targets": [
+     "CD96"
+    ],
+    "variance_frozen": 0.008250869763440548,
+    "variance_zeroed": 0.007017268918240939
+   }
+  ],
+  "corrected_list_equals_frozen": false
+ },
+ "cells": {
+  "as executed": {
+   "responsive 20": {
+    "raw": 0.25689734082897586,
+    "w0y": 0.2884723964382501,
+    "W1": 0.31454699961285326,
+    "own_entries_excluded": 0,
+    "W1_vs_w0y": {
+     "diff": 0.026074603174603174,
+     "ci95": [
+      0.021499098941853957,
+      0.03154471544715447
+     ],
+     "p_one_sided": 0.0
+    },
+    "W1_vs_raw": {
+     "diff": 0.05764965878387738,
+     "ci95": [
+      0.0473101256027551,
+      0.06545355355276833
+     ],
+     "p_one_sided": 0.0
+    },
+    "w0y_vs_raw": {
+     "diff": 0.03157505560927421,
+     "ci95": [
+      0.018546696114064874,
+      0.04080687358489748
+     ],
+     "p_one_sided": 0.0
+    }
+   },
+   "responsive 50": {
+    "raw": 0.3658685625562106,
+    "w0y": 0.37978368176538907,
+    "W1": 0.38516163375919477,
+    "own_entries_excluded": 0,
+    "W1_vs_w0y": {
+     "diff": 0.005377951993805653,
+     "ci95": [
+      -0.0011321396622426677,
+      0.011232213454351572
+     ],
+     "p_one_sided": 0.0535
+    },
+    "W1_vs_raw": {
+     "diff": 0.019293071202984152,
+     "ci95": [
+      0.008616120441725635,
+      0.028416151801626682
+     ],
+     "p_one_sided": 0.0005
+    },
+    "w0y_vs_raw": {
+     "diff": 0.0139151192091785,
+     "ci95": [
+      -0.0011260302536335411,
+      0.028540720677687734
+     ],
+     "p_one_sided": 0.039
+    }
+   },
+   "terciles 20": {
+    "raw": 0.05283032841400356,
+    "w0y": 0.07312891439583603,
+    "W1": 0.07579178147971197,
+    "own_entries_excluded": 0,
+    "W1_vs_w0y": {
+     "diff": 0.0026628670838759368,
+     "ci95": [
+      -0.00019396981815024254,
+      0.006075522735552853
+     ],
+     "p_one_sided": 0.0385
+    },
+    "W1_vs_raw": {
+     "diff": 0.022961453065708407,
+     "ci95": [
+      0.01714293161100751,
+      0.028690519398773467
+     ],
+     "p_one_sided": 0.0
+    },
+    "w0y_vs_raw": {
+     "diff": 0.02029858598183247,
+     "ci95": [
+      0.015086481965962855,
+      0.025186589553151607
+     ],
+     "p_one_sided": 0.0
+    }
+   },
+   "terciles 50": {
+    "raw": 0.07327973839459294,
+    "w0y": 0.09238390442959321,
+    "W1": 0.0939692134159066,
+    "own_entries_excluded": 0,
+    "W1_vs_w0y": {
+     "diff": 0.001585308986313393,
+     "ci95": [
+      -0.0015879295185602118,
+      0.004806095810497356
+     ],
+     "p_one_sided": 0.163
+    },
+    "W1_vs_raw": {
+     "diff": 0.020689475021313655,
+     "ci95": [
+      0.01475088296100174,
+      0.02564106278849355
+     ],
+     "p_one_sided": 0.0
+    },
+    "w0y_vs_raw": {
+     "diff": 0.019104166035000262,
+     "ci95": [
+      0.01344601497699657,
+      0.023818691740708112
+     ],
+     "p_one_sided": 0.0
+    }
+   }
+  },
+  "corrected": {
+   "responsive 20": {
+    "raw": 0.2554306741623092,
+    "w0y": 0.28773906310491676,
+    "W1": 0.31394699961285333,
+    "own_entries_excluded": 34,
+    "W1_vs_w0y": {
+     "diff": 0.02620793650793651,
+     "ci95": [
+      0.021449963614231467,
+      0.031749542488462026
+     ],
+     "p_one_sided": 0.0
+    },
+    "W1_vs_raw": {
+     "diff": 0.05851632545054405,
+     "ci95": [
+      0.04798581280288872,
+      0.06642330738707437
+     ],
+     "p_one_sided": 0.0
+    },
+    "w0y_vs_raw": {
+     "diff": 0.032308388942607534,
+     "ci95": [
+      0.019233773921856646,
+      0.04162033655144895
+     ],
+     "p_one_sided": 0.0
+    }
+   },
+   "responsive 50": {
+    "raw": 0.36493522922287724,
+    "w0y": 0.37898368176538916,
+    "W1": 0.3842949670925281,
+    "own_entries_excluded": 34,
+    "W1_vs_w0y": {
+     "diff": 0.005311285327138986,
+     "ci95": [
+      -0.0013629425626083666,
+      0.011372776488563868
+     ],
+     "p_one_sided": 0.059
+    },
+    "W1_vs_raw": {
+     "diff": 0.019359737869650822,
+     "ci95": [
+      0.00861478466981259,
+      0.02831340254391531
+     ],
+     "p_one_sided": 0.0005
+    },
+    "w0y_vs_raw": {
+     "diff": 0.014048452542511835,
+     "ci95": [
+      -0.0012801388534928594,
+      0.028700599714663714
+     ],
+     "p_one_sided": 0.0385
+    }
+   },
+   "terciles 20": {
+    "raw": 0.05213291409355421,
+    "w0y": 0.07279615804162207,
+    "W1": 0.07552567327461933,
+    "own_entries_excluded": 18,
+    "W1_vs_w0y": {
+     "diff": 0.002729515232997269,
+     "ci95": [
+      -6.23225463929287e-05,
+      0.006081510974299203
+     ],
+     "p_one_sided": 0.0305
+    },
+    "W1_vs_raw": {
+     "diff": 0.023392759181065117,
+     "ci95": [
+      0.017466545842889543,
+      0.029039036710815157
+     ],
+     "p_one_sided": 0.0
+    },
+    "w0y_vs_raw": {
+     "diff": 0.02066324394806785,
+     "ci95": [
+      0.015438145087876179,
+      0.025550020306263816
+     ],
+     "p_one_sided": 0.0
+    }
+   },
+   "terciles 50": {
+    "raw": 0.07261295090375905,
+    "w0y": 0.09220716684670695,
+    "W1": 0.09343637669951867,
+    "own_entries_excluded": 18,
+    "W1_vs_w0y": {
+     "diff": 0.0012292098528117082,
+     "ci95": [
+      -0.002004902931973043,
+      0.004453894562417441
+     ],
+     "p_one_sided": 0.234
+    },
+    "W1_vs_raw": {
+     "diff": 0.020823425795759607,
+     "ci95": [
+      0.01479618430053453,
+      0.025861094662071867
+     ],
+     "p_one_sided": 0.0
+    },
+    "w0y_vs_raw": {
+     "diff": 0.019594215942947895,
+     "ci95": [
+      0.013730493801454231,
+      0.02449911568120439
+     ],
+     "p_one_sided": 0.0
+    }
+   }
+  }
+ },
+ "reproduction": {
+  "responsive 20": 0.0,
+  "responsive 50": 0.0,
+  "terciles 20": 0.0,
+  "terciles 50": 0.0
+ },
+ "reading": {
+  "as executed": {
+   "A5_section_5": "confirmed, at the finalising level",
+   "gatekeepers_pass": {
+    "terciles 20": true,
+    "terciles 50": true
+   }
+  },
+  "corrected": {
+   "A5_section_5": "confirmed, at the finalising level",
+   "gatekeepers_pass": {
+    "terciles 20": true,
+    "terciles 50": true
+   }
+  },
+  "same_reading": true,
+  "weights_unchanged": "the weights do not depend on the exclusion; only the scoring changes"
+ }
+}

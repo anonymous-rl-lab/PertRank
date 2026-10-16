@@ -1,0 +1,32 @@
+{
+  "status": "METADATA_SELECTION_COMPLETE",
+  "new_replanning_not_interrupted_script_replay": true,
+  "donor": "D3_Rest",
+  "raw_expression_read": false,
+  "source_identity": {
+    "url": "https://genome-scale-tcell-perturb-seq.s3.amazonaws.com/marson2025_data/D3_Rest.assigned_guide.h5ad",
+    "etag": "\"15a555deb21fe5cb8e0579344a86e52a-8235\"",
+    "size": 138149946574
+  },
+  "all_ntc_guides": 834,
+  "all_ntc_cells": 76823,
+  "eligible_ntc_guides": 468,
+  "ntc_cells": 18720,
+  "target_pairs": 64,
+  "target_cells": 5120,
+  "total_selected_cells": 23840,
+  "historical_A15_qualifying_target_pairs": 441,
+  "genes": 13390,
+  "scale": 8261.5,
+  "salt": "pertrank-ntc-guide-replan-20261008|D3_Rest|",
+  "split": "20 within-lane pairs if available; otherwise minimally necessary cross-lane singleton pairs",
+  "perfect_ntc_half_lane_balance": 426,
+  "ntc_half_max_lane_difference": 1,
+  "metadata_sha256": "f5fb967dfca083e4282a851ee9a1ba8d307deee0197952063995bdc35e6e247e",
+  "selection_sha256": "4b8b04555a9402dcb90e7a6495a1915e71c3826cc471f03cfe297edbb83fe5be",
+  "script_sha256": "2e1bbaab957d7db22d6916439443e3283e30bb74333093c67c1ff4bbc93b0698",
+  "old_context_sha256": "018ed845d911f4a7246392ce56f675fa57036a187e74e1f9c40ed904806a3b5b",
+  "A15_cohort_source_sha256": "d552c95c72d40b613a74caf7f60a72e3411e862543cf7579be01ab2ac6b5673a",
+  "ntc_original_control_overlap": 466,
+  "original_control_reuse_note": "No control mean is subtracted; fixed keep and scale are conditioned upon."
+}

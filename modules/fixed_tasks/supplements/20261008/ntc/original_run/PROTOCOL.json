@@ -1,0 +1,68 @@
+{
+  "title": "D3 Rest guide-related cross-half diagnostic",
+  "status": "NEW_REPLANNING_BEFORE_DIAGNOSTIC_RESULTS",
+  "not_replay_of_interrupted_script": true,
+  "scope": "D3 Rest only; no Stim expression, no new state, no gating model",
+  "selection": {
+    "status": "METADATA_SELECTION_COMPLETE",
+    "new_replanning_not_interrupted_script_replay": true,
+    "donor": "D3_Rest",
+    "raw_expression_read": false,
+    "source_identity": {
+      "url": "https://genome-scale-tcell-perturb-seq.s3.amazonaws.com/marson2025_data/D3_Rest.assigned_guide.h5ad",
+      "etag": "\"15a555deb21fe5cb8e0579344a86e52a-8235\"",
+      "size": 138149946574
+    },
+    "all_ntc_guides": 834,
+    "all_ntc_cells": 76823,
+    "eligible_ntc_guides": 468,
+    "ntc_cells": 18720,
+    "target_pairs": 64,
+    "target_cells": 5120,
+    "total_selected_cells": 23840,
+    "historical_A15_qualifying_target_pairs": 441,
+    "genes": 13390,
+    "scale": 8261.5,
+    "salt": "pertrank-ntc-guide-replan-20261008|D3_Rest|",
+    "split": "20 within-lane pairs if available; otherwise minimally necessary cross-lane singleton pairs",
+    "perfect_ntc_half_lane_balance": 426,
+    "ntc_half_max_lane_difference": 1,
+    "metadata_sha256": "f5fb967dfca083e4282a851ee9a1ba8d307deee0197952063995bdc35e6e247e",
+    "selection_sha256": "4b8b04555a9402dcb90e7a6495a1915e71c3826cc471f03cfe297edbb83fe5be",
+    "script_sha256": "2e1bbaab957d7db22d6916439443e3283e30bb74333093c67c1ff4bbc93b0698",
+    "old_context_sha256": "018ed845d911f4a7246392ce56f675fa57036a187e74e1f9c40ed904806a3b5b",
+    "A15_cohort_source_sha256": "d552c95c72d40b613a74caf7f60a72e3411e862543cf7579be01ab2ac6b5673a",
+    "ntc_original_control_overlap": 466,
+    "original_control_reuse_note": "No control mean is subtracted; fixed keep and scale are conditioned upon."
+  },
+  "primary": {
+    "quantity": "D=2*sum((A-Amean)*(B-Bmean))/((K-1)*13390)",
+    "equivalence": "mean over all unordered guide pairs of inner product of half-A guide difference and half-B guide difference, divided by 13390",
+    "negative_values": "retain",
+    "shared_control_mean": "none",
+    "gene_axis": "historical fixed 13390 keep genes",
+    "scale": 8261.5
+  },
+  "uncertainty": {
+    "bootstrap_unit": "guide with both half spectra together",
+    "bootstrap_replicates": 2000,
+    "bootstrap_interval": "2.5% and 97.5% percentile; conditional guide-resampling interval, no donor/feature-axis/normalization uncertainty",
+    "permutation": "entire B-half guide spectra labels",
+    "permutations": 2000,
+    "seed": 20261008,
+    "p_values": "upper one-sided primary plus absolute two-sided descriptive; plus-one correction",
+    "exchangeability": "not a lane-adjusted or causal test"
+  },
+  "target_control": {
+    "selection": "original A15 441 eligible same-target guide pairs; choose first64 by sha256(new fixed salt+target)",
+    "cells": "40 per guide as two disjoint20-cell halves, same splitting rule as NTC",
+    "statistic": "mean within-target guide difference cross-half inner product /13390",
+    "bootstrap_unit": "target containing both guides and halves",
+    "bootstrap_replicates": 2000,
+    "seed": 20261008,
+    "no_permutation_across_different_targets": true
+  },
+  "composition": "report NTChalf and target-guidehalf lane total variation, within-target between-guide lane variation, selectedNTC guide-by-lane Cramers V; no causal confounding removal claim",
+  "acquisition": "8 HTTP threads, exact byte ranges for selected rows, source identity checked, rowUMI verified,256-row atomic checkpoints",
+  "result_policy": "report any sign/result; positive guide-associated repeatability and negative/nonsignificant nondetection; no new tuning"
+}

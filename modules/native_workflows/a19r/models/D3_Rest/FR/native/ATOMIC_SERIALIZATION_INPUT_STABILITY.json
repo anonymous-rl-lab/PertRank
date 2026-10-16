@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "before": {
+    "counts.npz": "b5b74f71e924f44863e36e1edba650c1a1de471ddac4ced587db6a2a4c73061a",
+    "axes.npz": "c7ea8b66eefb92a93f1e09ca47bc8a0d48e320baa12b35ed6027473f291143f8"
+  },
+  "after": {
+    "counts.npz": "b5b74f71e924f44863e36e1edba650c1a1de471ddac4ced587db6a2a4c73061a",
+    "axes.npz": "c7ea8b66eefb92a93f1e09ca47bc8a0d48e320baa12b35ed6027473f291143f8"
+  },
+  "serialization_events": [
+    {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D3_Rest/FR_attempt1/native/native_unscaled.npz",
+      "sha256": "24728f1434bfe2116b573607dd6b5259a4615b363f16728c41edb1fd2c47bead",
+      "size_bytes": 40464767,
+      "crc_pass": true,
+      "atomic_rename": true
+    },
+    {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D3_Rest/FR_attempt1/native/effects.npz",
+      "sha256": "d95a9ee9d910f042f6e614f10f7fa0a33a73fcfcdd1b09662afeadb18dd6ecd5",
+      "size_bytes": 11682179,
+      "crc_pass": true,
+      "atomic_rename": true
+    }
+  ],
+  "wrapper_sha256": "5efe3b81dd1f3784f8702c09891b50a467e78b1ff7ff22ce10b2e421940c66f6",
+  "helper_sha256": "ec1011ccd4b5d1dec3c11e7a869b954fbe0c3e1fc74d55dd22515a517173f8b3"
+}

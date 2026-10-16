@@ -1,0 +1,59 @@
+[
+  {
+    "source": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/restored/PertRank_v17_Competition/v17_experiments/ntc_raw/D3_Rest/original_input_ntc_metadata.npz",
+    "destination": "frozen_assets/ntc_original/original_input_ntc_metadata.npz",
+    "sha256": "018ed845d911f4a7246392ce56f675fa57036a187e74e1f9c40ed904806a3b5b",
+    "copy_exact": true
+  },
+  {
+    "source": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/restored/PertRank_v17_Competition/v17_experiments/ntc_raw/D3_Rest/original_input_ntc_raw.npz",
+    "destination": "frozen_assets/ntc_original/original_input_ntc_raw.npz",
+    "sha256": "1e26f82feaeaa4261c63f82fdf403fa6c9aca55692538900b61a4efe741e7053",
+    "copy_exact": true
+  },
+  {
+    "source": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/restored/PertRank_v17_Competition/v17_experiments/ntc_raw/D3_Rest/selection_check.json",
+    "destination": "frozen_assets/ntc_original/selection_check.json",
+    "sha256": "2dbb599ee152745a47b6cb1d7fa88df90f035405ba23b1bfa8c373652c1e7d06",
+    "copy_exact": true
+  },
+  {
+    "source": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/restored/PertRank_v17_Competition/v17_experiments/ntc_raw/D3_Rest/FULL_READ_PASS.json",
+    "destination": "frozen_assets/ntc_original/FULL_READ_PASS.json",
+    "sha256": "aaf0c8102dba0efcffbc34f8026f7d72cdfd2de35242a315cc61109fd8ae4837",
+    "copy_exact": true
+  },
+  {
+    "source": "/workspace/scratch/09ac4e5b2530/review_stage3/same_budget_weight/stage3/data/e4_w1_stage3.npz",
+    "source_sha256": "d552c95c72d40b613a74caf7f60a72e3411e862543cf7579be01ab2ac6b5673a",
+    "destination": "frozen_assets/A15_D3_cohort.npz",
+    "sha256": "d915e8e98f7f2023376f16cc3dc866b3c7ab8f9706998ae3752df1d5131d8cfd",
+    "extraction": "names only, exact numpy equality",
+    "exact": true
+  },
+  {
+    "source": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/restored/v18_d4_confirmation/reader/vendor/hdf5_chunk_index.py",
+    "destination": "vendor/hdf5_chunk_index.py",
+    "sha256": "99cbecbd3056175d43bbf91c5dfa90c6abcc5ad0aa480cc9a606d0f58781fe77",
+    "copy_exact": true
+  },
+  {
+    "source": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/restored/v18_d4_confirmation/reader/vendor/row_transport.py",
+    "destination": "vendor/row_transport.py",
+    "sha256": "2e43efbcb6fca551c9031cc936e407954efb07baaa8cbb81eee3b93422ae0059",
+    "copy_exact": true
+  },
+  {
+    "source": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/restored/v18_d4_confirmation/reader/vendor/metadata_source.py",
+    "destination": "vendor/metadata_source.py",
+    "sha256": "0b315a3779bf09f9f07a9fbbe01336dfa5ee0177cb626e5885d301d77a4439f9",
+    "copy_exact": true
+  },
+  {
+    "source": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/run/ntc_guide/select_guides.py",
+    "source_sha256": "2e1bbaab957d7db22d6916439443e3283e30bb74333093c67c1ff4bbc93b0698",
+    "destination": "select_guides_portable.py",
+    "sha256": "950318b9fc936a6fb728189814915fc3a055673ac453978d988b33a150afbb92",
+    "note": "same selection code, input paths changed to frozen copies, original selection script retained unchanged"
+  }
+]

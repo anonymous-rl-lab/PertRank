@@ -1,0 +1,49 @@
+{
+  "status": "INDEPENDENT_NUMERICAL_AUDIT_PASS",
+  "created_utc": "2026-10-07T18:05:04Z",
+  "mode": "D4_final_authorized_audit",
+  "D4_access": "only after completed score release",
+  "source_sha256": {
+    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/protocol/ACCESS_RELEASE.json": "f575482f20609ee126251aaf223a61b18189ba633fad06ff55b97c71c7b2ce87",
+    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/protocol/LOCK1_PROTOCOL_CODE.json": "9f3809ffe7fb0d65e9b67d4264adcc71373cf4937d78a95174783f0c353a3781",
+    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/protocol/PREDICTION_LOCK.json": "9e38269eb3deabba3118f1833be26d72bda3d8537130687eda42a9e5e46c5a0c",
+    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/data/D4_Rest/predictions.npz": "4f06d79a11a54693b6115861b6b23708717ef1fc40d4ca38b2b89c6f28e42666",
+    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/data/D4_Rest/query_context.npz": "6d86658f85454e7c916a6415c008a78820b44f5b235eb9d38e74ceedcaa44eca",
+    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/data/D4_Rest/truth.npz": "3ed963d1076079810afeeb0df3e4cfb6ee1cb9ff4da923cc5db462b87c96c09a",
+    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/data/D4_Rest/TRUTH_COMPLETE.json": "7dabcf59fc29d344bacba3dc4ecb4ba379e68400ec73052560f6fc14f46a314f",
+    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/results/D4_RESULT.json": "e89aab5d08a103b3db37b57a230387726bb7933af60328fc6cfa50e36c52e4d0",
+    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/results/EVALUATION_COMPLETE.json": "90348287a8443f301f345ba6df83af52bbeaad938027f1fdb234975f101fba44",
+    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/results/query_scores_and_depth_bootstrap.npz": "c5fcee361069f2d21eb0da33754a4fc2f27506d2a37edf3f8cbabc16462e4d03"
+  },
+  "decision": {
+    "primary_endpoint": "responsive PertRank minus Euclidean, five groups averaged within query",
+    "confirmation": true,
+    "improvement_grade": true,
+    "numerical_primary_threshold_pass": true,
+    "method_valid_for_confirmation": true,
+    "allzero_pertrank_groups": [],
+    "confirmation_rule": "no allzero PertRank input group AND point >=0.01 AND lower nominal two-sided 95% paired query-block percentile bound >0",
+    "improvement_rule": "no allzero PertRank input group AND point >=0.02 AND the same lower95 bound >0",
+    "competitive_gate_open": true,
+    "selected_competitor": "PR_M",
+    "formal_competitive_statistical_direction": "superiority",
+    "formal_competitive_practical_equivalence": "not_established",
+    "descriptive_competitive_statistical_direction": "superiority",
+    "descriptive_competitive_practical_equivalence": "not_established",
+    "closed_gate_rule": "all contrasts still reported descriptively; neither raw comparisons, terciles nor cell equivalents rescue a failed primary gate"
+  },
+  "checks": 1426,
+  "compared_values": 8861488,
+  "max_abs_error": 4.973799150320701e-14,
+  "numeric_tolerance": 1e-11,
+  "max_abs_by_group": {
+    "axes": 0.0,
+    "identity": 0.0,
+    "responsive": 2.1316282072803006e-14,
+    "terciles": 4.973799150320701e-14,
+    "weight_summaries": 0.0
+  },
+  "implementation": "full-sort tie probabilities; independent sign/self-ID handling, paired block bootstrap and inverse-depth; no official scoring imports",
+  "script_sha256": "5800ad0708cfa0deb6446fd2e6cd2aaffd25bd9845da450487877c70fa59e01b",
+  "elapsed_seconds": 3.798091819000547
+}

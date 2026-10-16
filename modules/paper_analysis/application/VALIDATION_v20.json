@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "version": "v20.0",
+  "fixture": "Synthetic raw integer counts only",
+  "dimensions": [
+    2160,
+    320
+  ],
+  "targets": 8,
+  "target_cells_each": 20,
+  "input_controls": 2000,
+  "frozen_engine_cell_level_parity": true,
+  "maximum_absolute_errors": {
+    "Euclidean": 6.661338147750939e-16,
+    "PertRank": 1.1102230246251565e-15,
+    "effects": 4.440892098500626e-16,
+    "control_covariance_projector": 1.4224732503009818e-16,
+    "direct_covariance_noise": 8.881784197001252e-16
+  },
+  "full_covariance_check": true,
+  "cli_end_to_end": true,
+  "own_gene_exclusion_and_probability_mass": true,
+  "duplicate_cells_rejected": true,
+  "limitations": "Software/algebra validation; not real-cell pipeline equivalence or biological performance validation"
+}

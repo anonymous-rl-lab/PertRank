@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "Same pooled task, raw/Euclidean/PertRank arms and paired query resampling; not an additional experiment.",
+  "checks": {
+    "compact:raw_scores": true,
+    "compact:reference_scores": true,
+    "compact:w0": true,
+    "compact:wm": true,
+    "compact:queries": true,
+    "compact:candidates": true,
+    "compact:blocks": true,
+    "compact:input_reps": true,
+    "compact:own_target": true,
+    "compact:six_arm_p25:common_three": true,
+    "compact:six_arm_p10:common_three": true,
+    "evaluation:sampled_query_blocks": true,
+    "evaluation:query_weights": true,
+    "evaluation:query_only_bootstrap_p25:common_three": true,
+    "evaluation:query_only_bootstrap_p10:common_three": true
+  },
+  "sources_sha256": {
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evaluation/D4_Rest/evaluation_report.json": "e9308b5c4038c39ae172dff04f1ee2f5a76d19d92f59edcf9a8a08e1b45a7c75",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evaluation/D4_Rest/evaluation_arrays.npz": "1051a9b605db8362097cb9844eedf1307bc8ac75434ec4c3b70560b0afb7246f",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evaluation/D4_Rest/compact.npz": "747f7b0e6031b447913fb2aee1a11c15d673a95d5870f4513a27e1c4bf7aae78",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/evaluation_report.json": "67f2da4d6ae3bd13362802ca01f1378d520ddcb3fcf91d3b9db58d12d532bb0f",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/evaluation_arrays.npz": "cab324179b442eb7067de53cc264247fd4701f33053bcf140ae9957d1d9120d7",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/compact.npz": "04b92ffd6b94a647ec8385cd8347e5791bbcbddf7fdebcf3496be93ef104086d"
+  }
+}

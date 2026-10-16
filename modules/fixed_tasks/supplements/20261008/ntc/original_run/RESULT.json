@@ -1,0 +1,72 @@
+{
+  "status": "COMPLETE",
+  "donor": "D3_Rest",
+  "new_replanning_not_interrupted_script_replay": true,
+  "ntc": {
+    "n_guides": 468,
+    "n_genes": 13390,
+    "pair_energy": 0.0031361378279221755,
+    "centered_guide_energy": 0.0015680689139610877,
+    "bootstrap_95_percentile": [
+      0.002898400852497011,
+      0.0033684483407712793
+    ],
+    "bootstrap_unit": "guide, paired A/B spectra resampled together",
+    "permutation_p_greater": 0.0004997501249375312,
+    "permutation_p_two_sided": 0.0004997501249375312,
+    "permutation_null_95": [
+      -0.0001389858082423923,
+      0.00013473561973735305
+    ],
+    "repetitions": 2000,
+    "seed": 20261008,
+    "permutation_scope": "permute entire B-half guide spectra, conditional guide exchangeability, not lane-adjusted"
+  },
+  "target_same_gene_control": {
+    "target_pairs": 64,
+    "n_genes": 13390,
+    "pair_energy_mean": 0.002454901436948028,
+    "bootstrap_95_percentile": [
+      0.002103245024029522,
+      0.0028490491398612894
+    ],
+    "bootstrap_unit": "target with both guides and halves retained",
+    "repetitions": 2000,
+    "seed": 20261008,
+    "interpretation": "same-target guide differences; not a between-target effect comparison"
+  },
+  "lane_composition": {
+    "ntc_half_lane_tv": {
+      "median": 0.0,
+      "max": 0.35000000000000003,
+      "perfect_balance_guides": 426
+    },
+    "target_guide_half_lane_tv": {
+      "median": 0.0,
+      "max": 0.0
+    },
+    "target_between_guide_lane_tv": {
+      "median": 0.55,
+      "min": 0.35,
+      "max": 0.75
+    },
+    "selected_ntc_guide_by_lane_cramers_v": 0.20666103326537782,
+    "association_sample": "selected 40 cells per NTC guide",
+    "interpretation": "Split balancing does not eliminate between-guide lane composition differences. Permutation assumes exchangeable guide spectra and does not adjust lane confounding."
+  },
+  "definition": "D = 2 sum_g <A_g-Abar,B_g-Bbar> / ((K-1)*13390); equal mean unordered-guide-pair cross-half difference product",
+  "no_shared_control_mean_subtraction": true,
+  "negative_estimates_preserved": true,
+  "normalization_scale": 8261.5,
+  "interpretation_limits": [
+    "Guide-related structure is conditional on the frozen gene axis and normalization scale; not a causal sequence effect.",
+    "NTC guide bootstrap resamples the observed guides, paired halves together; it does not propagate donor, feature-axis or normalization uncertainty.",
+    "B-spectrum permutation assumes guide exchangeability; lane composition remains a potential contributor.",
+    "A negative or nonsignificant result is nondetection, not proof of absence.",
+    "The same-target targeting control can reflect guide efficacy and guide-associated factors; it excludes between-target biological differences."
+  ],
+  "selection_sha256": "4b8b04555a9402dcb90e7a6495a1915e71c3826cc471f03cfe297edbb83fe5be",
+  "freeze_sha256": "59a155c0f2d4e58cbd1252cc948b4e82e94891eb63a3ba2cae238d143c033c27",
+  "half_means_sha256": "54a0ac0b254cacd6a164a963661e5771741320e66b7d884506a914343b1da675",
+  "seconds": 12.682415246963501
+}

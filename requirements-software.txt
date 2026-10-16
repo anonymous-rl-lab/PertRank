@@ -1,0 +1,7 @@
+# Optional independent environment; run from the complete package root.
+# First copy modules/paper_analysis/software to ../pertrank-software-source
+# using the README command. Build only from that external copy so installation
+# does not add build/ or egg-info files to the integrity-checked release.
+# Deliberately separate from frozen numerical replay requirements: software
+# requires scipy<1.17, whereas the fixed replay uses scipy==1.17.0.
+../pertrank-software-source[test]

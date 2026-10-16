@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-10-07T04:04:04Z",
+  "identity": "code and definition frozen before any new diagonal score; all donor predictions must next be locked before evaluation",
+  "performance_already_computed": false,
+  "files": {
+    "v16_execution/competition/diagonal/predict_diagonal.py": "671248b92879be790173b0f0f9d054502273ca0c30a0d0dcee5cd0b92523dae9",
+    "v16_execution/competition/diagonal/evaluate_diagonal.py": "754c1d0bcbd1bb460e57803189350022c29e0e45b2995341e9feff16a00a9dd9",
+    "v16_execution/protocol/EXECUTION_PROTOCOL_v16a.md": "172f2fc388001b905b0c955730f25eecae6ff7b98a23e62e7fc2b2eea03ceb00",
+    "v16_execution/protocol/EXECUTION_PROTOCOL_v16b.md": "5391d5fec58bde20de19e53165afa669923d36944949c2945d0233472f12dc75",
+    "v16_execution/assets/r20/PertRank_R20_20261006/new_experiment/evaluation/evaluate_real_cells.py": "7bb192ca17187d667967ce99803f645bcde3ce2cd514db6d21ffc49a3919d5d9",
+    "v16_execution/inventory/control_moments_inventory.json": "30fcd2ac7b715ccaa58274fc0f1b901ffc0cd82235ff34dec77ccbb3ab465abe",
+    "v16_execution/inventory/D3_Rest_control_gene_moments.npz": "48e4f5918d876e9437fb0dfa31b1eb6377ecc786757e0560590ec06f0553f1cd",
+    "v16_execution/inventory/D1_Rest_control_gene_moments.npz": "9a7818f549284b3fb56846de2e352d9002f0b47ad507f11121e47b3f5925ee90",
+    "v16_execution/inventory/D2_Rest_control_gene_moments.npz": "c9bf40e05a8e1246082d4297aaba4e1d04bbf363993544378b96dd3ad6b8f270"
+  }
+}

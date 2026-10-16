@@ -1,0 +1,8 @@
+Method,D3 Rest,D1 Rest,D2 Rest,Equal-source mean
+Unweighted,0.245,0.221,0.233,0.233
+Euclidean,0.253,0.242,0.263,0.253
+PertRank,0.257,0.252,0.267,0.259
+Native FR,0.242,0.223,0.233,0.233
+FR × Euclidean,0.249,0.234,0.263,0.248
+FR × PertRank,0.251,0.249,0.263,0.254
+Native ASH,0.255,0.220,0.240,0.239

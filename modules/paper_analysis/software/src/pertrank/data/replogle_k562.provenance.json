@@ -1,0 +1,62 @@
+{
+  "dataset": "Replogle et al. 2022 K562 genome-wide Perturb-seq",
+  "fixture_kind": "Authentic archived sufficient statistics and query-effect matrix; not cell-level AnnData",
+  "candidate_selection": "Complete 2,000-candidate principal cohort from the archived input task; reference-screen targets excluded by the historical task rule",
+  "query_selection": "All 300 historical reference-informed queries retained. Tutorial displays the first three unique query IDs in lexicographic order, without consulting outcomes.",
+  "selected_query_ids": [
+    "ENSG00000004478",
+    "ENSG00000005249",
+    "ENSG00000016490"
+  ],
+  "selected_query_symbols": [
+    "FKBP4",
+    "PRKAR2B",
+    "CLCA1"
+  ],
+  "n_target_cells": 20,
+  "n_control_cells": 2000,
+  "weight_gene_count": 8202,
+  "effects_shape": [
+    2000,
+    300
+  ],
+  "geometry_scope": "Energies and projected noise retain the full 8,202-gene input axis; query effects retain the original-coordinate 300-column panel.",
+  "normalization": "Archived input mean minus archived input-control mean, after the original library-total log1p normalization; no new normalization or fit performed.",
+  "units_conversion": {
+    "energy": "8202 * m2_20",
+    "noise_trace": "8202 * (vb20 / 20 + cvm / ncin)",
+    "direction_energy": "(proj_sum[0]/20 - proj_control)^2, first five directions",
+    "direction_noise": "(proj_sumsq[0] - 20*(proj_sum[0]/20)^2)/19/20 + eigenvalue/ncin, first five directions"
+  },
+  "source_study_doi": "10.1016/j.cell.2022.05.013",
+  "used_mirror": "https://zenodo.org/records/13350497",
+  "symbol_annotation_note": "Human Ensembl-to-symbol annotations reused from the archived T-cell feature table; unmatched IDs remain unchanged.",
+  "sources": {
+    "reduced_input": {
+      "path": "pertrank_ecosystem/sources/recovered_v6/Pertrescue_v6/code/repro_v10/data/e1_stage6.npz",
+      "sha256": "d79f3d5c18f6317fbe8d1ef62b86efdbfaeb7f1f6463af5267955ba7cd67beba"
+    },
+    "projection_statistics": {
+      "path": "pertrank_ecosystem/sources/recovered_w1/Pertrescue_v5/code/repro_v10/same_budget_weight/stage3/data/e1_w1_stage3.npz",
+      "sha256": "9a47d008d68c35e9520fe7202dadf646e8234bad34f3cecaadd4e8a75270009b"
+    },
+    "symbol_annotation": {
+      "path": "pertrank_ecosystem/sources/recovered/Pertrescue_Code_v9/code/repro_v10/same_budget_weight/stage3/data/tcell_gene_symbols.json",
+      "sha256": "19775af812cff6486caf595868368e29f98666933d4f341da6a24c600e3b55a0"
+    }
+  },
+  "original_input_lock_sha256_verified": true,
+  "fixture": {
+    "file": "replogle_k562.npz",
+    "sha256": "0087e4d915105caac801069499428d58032ec64ab89e224230216404fda51dff",
+    "bytes": 2610808
+  },
+  "frozen_formula_weight_max_absolute_error": {
+    "Euclidean": 2.220446049250313e-16,
+    "PertRank": 4.440892098500626e-16
+  },
+  "new_model_fits": 0,
+  "scientific_performance_evaluations": 0,
+  "redistribution": "Derived numerical tutorial fixture from public-source data; retain source-study attribution. Source data are not relicensed by the software license.",
+  "source_dataset_doi": "10.25452/figshare.plus.20029387"
+}

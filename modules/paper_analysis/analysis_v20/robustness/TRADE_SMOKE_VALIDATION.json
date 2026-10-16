@@ -1,0 +1,25 @@
+{
+  "weight": {
+    "maxabs": 0.0019784442896997045,
+    "min_signed": -0.0019784442896997045,
+    "max_signed": -0.0002810678593059973
+  },
+  "S": {
+    "maxabs": 1.5916117393493026e-05,
+    "min_signed": -1.5916117393493026e-05,
+    "max_signed": -2.6471739627449697e-06
+  },
+  "TI": {
+    "maxabs": 1.5834371673841008e-05,
+    "min_signed": -1.5834371673841008e-05,
+    "max_signed": -2.38016037546905e-06
+  },
+  "loglik": {
+    "maxabs": 0.11829150099947583,
+    "min_signed": -0.07976588150268071,
+    "max_signed": 0.11829150099947583
+  },
+  "failure_target_5fits_passed": true,
+  "original_success_fit_count": 10,
+  "fit_time_smoke_total_seconds": 54.34860420227051
+}

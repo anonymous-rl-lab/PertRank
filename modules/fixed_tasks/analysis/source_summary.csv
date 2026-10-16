@@ -1,0 +1,189 @@
+donor,panel,record,arm_or_contrast,estimate,lower95,upper95,extra_reference_members_per_25,evidence_identity
+D3,responsive,arm_mean,raw,0.2830717051374939,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,arm_mean,Euclidean,0.28176883428415667,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,arm_mean,PertRank,0.31309885655412767,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,arm_mean,diagonal,0.2785107873629168,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,arm_mean,TRADE_scalar,0.2912802990265794,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,arm_mean,PR_E,0.28989407574107096,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,arm_mean,PR_M,0.3013698239136262,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,Euclidean_minus_raw,-0.0013028708533373479,-0.017589184262781606,0.0102715003324566,-0.0325717713334337,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,diagonal_minus_raw,-0.004560917774577192,-0.0221249487665086,0.008325815600443827,-0.11402294436442979,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,TRADE_scalar_minus_raw,0.008208593889085462,-0.004338861016374318,0.01719789963322755,0.20521484722713654,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,PR_E_minus_raw,0.006822370603576981,-0.006671297783123632,0.01563311519136414,0.17055926508942454,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,PR_M_minus_raw,0.018298118776132237,0.0083343401351718,0.025696229389056028,0.45745296940330593,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,PertRank_minus_raw,0.030027151416633657,0.02039678724043328,0.03724672628667786,0.7506787854158414,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,diagonal_minus_Euclidean,-0.003258046921239841,-0.00540893527776423,-0.00141299008633492,-0.08145117303099603,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,TRADE_scalar_minus_Euclidean,0.009511464742422811,0.0065149149924352435,0.013796794711815871,0.2377866185605703,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,PR_E_minus_Euclidean,0.00812524145691433,0.003981366930792759,0.012080036554420765,0.20313103642285824,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,PR_M_minus_Euclidean,0.019600989629469583,0.0092775283935608,0.028860819912026398,0.4900247407367396,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,PertRank_minus_Euclidean,0.03133002226997101,0.02205858879713499,0.03963519254629494,0.7832505567492752,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,TRADE_scalar_minus_diagonal,0.012769511663662653,0.008482096097770528,0.018750505425897165,0.31923779159156634,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,PR_E_minus_diagonal,0.011383288378154171,0.00565956205909343,0.016410713544623205,0.28458220945385426,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,PR_M_minus_diagonal,0.022859036550709425,0.010951672388705596,0.03320588112429344,0.5714759137677357,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,PertRank_minus_diagonal,0.034588069191210845,0.023848606087448636,0.044328573989646576,0.8647017297802712,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,PR_E_minus_TRADE_scalar,-0.0013862232855084819,-0.005053986448334276,0.002162117339740227,-0.03465558213771205,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,PR_M_minus_TRADE_scalar,0.010089524887046772,0.0011070254884926144,0.017709089620102564,0.2522381221761693,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,PertRank_minus_TRADE_scalar,0.021818557527548195,0.014488393836310204,0.027932717505212208,0.5454639381887049,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,PR_M_minus_PR_E,0.011475748172555252,0.005112150073814665,0.017623423888915763,0.2868937043138813,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,PertRank_minus_PR_E,0.023204780813056675,0.017558738795122347,0.029214149623051452,0.5801195203264169,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,responsive,paired_contrast,PertRank_minus_PR_M,0.011729032640501421,0.008879956539033007,0.014319102256957279,0.29322581601253556,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,arm_mean,raw,0.058278854361318175,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,arm_mean,Euclidean,0.07536246015066216,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,arm_mean,PertRank,0.08064458848614292,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,arm_mean,diagonal,0.07599504454731955,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,arm_mean,TRADE_scalar,0.07514594676607823,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,arm_mean,PR_E,0.07687201778102226,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,arm_mean,PR_M,0.07808503135931205,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,Euclidean_minus_raw,0.017083605789343984,0.008371272388689892,0.025756745342731296,0.42709014473359963,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,diagonal_minus_raw,0.01771619018600137,0.008506012356665635,0.02694870659711038,0.44290475465003426,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,TRADE_scalar_minus_raw,0.016867092404760066,0.009140419385475893,0.024314943412114987,0.42167731011900167,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,PR_E_minus_raw,0.018593163419704087,0.010416580746820947,0.025922478080927,0.46482908549260216,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,PR_M_minus_raw,0.01980617699799388,0.012624280032772436,0.025913281744868226,0.495154424949847,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,PertRank_minus_raw,0.022365734124824753,0.01422289812742144,0.029360469096764086,0.5591433531206188,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,diagonal_minus_Euclidean,0.0006325843966573901,-0.000434886947301188,0.0014760429494361594,0.015814609916434755,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,TRADE_scalar_minus_Euclidean,-0.000216513384583919,-0.001674398816829456,0.0013629631997509242,-0.005412834614597975,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,PR_E_minus_Euclidean,0.0015095576303601063,-0.0005138805990333053,0.0036397613572107905,0.03773894075900266,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,PR_M_minus_Euclidean,0.002722571208649899,-0.0009287983471694456,0.006217481427414625,0.06806428021624747,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,PertRank_minus_Euclidean,0.005282128335480774,0.0029564849625999478,0.007919979543341917,0.13205320838701934,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,TRADE_scalar_minus_diagonal,-0.0008490977812413092,-0.002954577145588963,0.001568857866991121,-0.02122744453103273,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,PR_E_minus_diagonal,0.0008769732337027165,-0.0017258353968562284,0.003556916263161404,0.021924330842567914,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,PR_M_minus_diagonal,0.0020899868119925087,-0.00217997268427226,0.006118604520888013,0.052249670299812714,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,PertRank_minus_diagonal,0.0046495439388233835,0.0016551668638661783,0.007982173198509883,0.11623859847058458,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,PR_E_minus_TRADE_scalar,0.0017260710149440254,0.00033169976400534046,0.0033103631075171005,0.04315177537360063,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,PR_M_minus_TRADE_scalar,0.0029390845932338178,0.00025784418191057896,0.005913727115096666,0.07347711483084544,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,PertRank_minus_TRADE_scalar,0.005498641720064693,0.0038419897361693833,0.007800329608013928,0.13746604300161733,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,PR_M_minus_PR_E,0.0012130135782897923,-0.0006916193393485161,0.0032776317101540957,0.030325339457244808,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,PertRank_minus_PR_E,0.0037725707051206674,0.0024252752625965883,0.005504629575022406,0.09431426762801669,complete already-opened-donor descriptive competition; not D4 confirmation
+D3,terciles,paired_contrast,PertRank_minus_PR_M,0.002559557126830875,0.0007569247613083403,0.004193400872361722,0.06398892817077187,complete already-opened-donor descriptive competition; not D4 confirmation
+D1,responsive,arm_mean,raw,0.2556757070898871,,,,posthoc deterministic panel correction
+D1,responsive,arm_mean,Euclidean,0.28724900890437477,,,,posthoc deterministic panel correction
+D1,responsive,arm_mean,PertRank,0.31337070073557877,,,,posthoc deterministic panel correction
+D1,responsive,arm_mean,diagonal,0.2876579326364692,,,,posthoc deterministic panel correction
+D1,responsive,arm_mean,TRADE_scalar,0.2936171389856756,,,,posthoc deterministic panel correction
+D1,responsive,arm_mean,PR_E,0.2946530274874178,,,,posthoc deterministic panel correction
+D1,responsive,arm_mean,PR_M,0.3056472783584979,,,,posthoc deterministic panel correction
+D1,responsive,paired_contrast,Euclidean_minus_raw,0.031573301814487635,0.021851895406641047,0.039942041035726676,0.7893325453621909,posthoc deterministic panel correction
+D1,responsive,paired_contrast,diagonal_minus_raw,0.031982225546582095,0.02171641441170368,0.04094371250722282,0.7995556386645524,posthoc deterministic panel correction
+D1,responsive,paired_contrast,TRADE_scalar_minus_raw,0.03794143189578845,0.03084506283384133,0.043949607428544785,0.9485357973947112,posthoc deterministic panel correction
+D1,responsive,paired_contrast,PR_E_minus_raw,0.03897732039753061,0.029756093928280093,0.04698172994926358,0.9744330099382652,posthoc deterministic panel correction
+D1,responsive,paired_contrast,PR_M_minus_raw,0.049971571268610744,0.04174605026942792,0.05772789026678605,1.2492892817152685,posthoc deterministic panel correction
+D1,responsive,paired_contrast,PertRank_minus_raw,0.05769499364569166,0.049850828389574976,0.06526779950502126,1.4423748411422914,posthoc deterministic panel correction
+D1,responsive,paired_contrast,diagonal_minus_Euclidean,0.00040892373209446345,-0.0005632441894849582,0.0011868765925859344,0.010223093302361586,posthoc deterministic panel correction
+D1,responsive,paired_contrast,TRADE_scalar_minus_Euclidean,0.006368130081300811,0.003146323699421962,0.010113112729358192,0.15920325203252028,posthoc deterministic panel correction
+D1,responsive,paired_contrast,PR_E_minus_Euclidean,0.0074040185830429725,0.005580252362737291,0.00960628803676938,0.18510046457607432,posthoc deterministic panel correction
+D1,responsive,paired_contrast,PR_M_minus_Euclidean,0.018398269454123112,0.013172357419051296,0.023119038926424713,0.4599567363530778,posthoc deterministic panel correction
+D1,responsive,paired_contrast,PertRank_minus_Euclidean,0.026121691831204025,0.021323838459308787,0.03074011864096778,0.6530422957801006,posthoc deterministic panel correction
+D1,responsive,paired_contrast,TRADE_scalar_minus_diagonal,0.005959206349206349,0.0023995351835001504,0.010016591674173798,0.1489801587301587,posthoc deterministic panel correction
+D1,responsive,paired_contrast,PR_E_minus_diagonal,0.006995094850948509,0.004988026527147981,0.00938231121481922,0.17487737127371272,posthoc deterministic panel correction
+D1,responsive,paired_contrast,PR_M_minus_diagonal,0.01798934572202865,0.012436989989133486,0.023028272814863686,0.4497336430507162,posthoc deterministic panel correction
+D1,responsive,paired_contrast,PertRank_minus_diagonal,0.025712768099109565,0.0204804119037431,0.030679640627076267,0.6428192024777392,posthoc deterministic panel correction
+D1,responsive,paired_contrast,PR_E_minus_TRADE_scalar,0.00103588850174216,-0.0027590891804987546,0.004654474708171204,0.025897212543554,posthoc deterministic panel correction
+D1,responsive,paired_contrast,PR_M_minus_TRADE_scalar,0.012030139372822303,0.00651359002554472,0.017252337534363504,0.3007534843205576,posthoc deterministic panel correction
+D1,responsive,paired_contrast,PertRank_minus_TRADE_scalar,0.01975356174990322,0.014425133598246098,0.02486024223214043,0.4938390437475805,posthoc deterministic panel correction
+D1,responsive,paired_contrast,PR_M_minus_PR_E,0.010994250871080143,0.007215633175407097,0.014545740210332475,0.27485627177700356,posthoc deterministic panel correction
+D1,responsive,paired_contrast,PertRank_minus_PR_E,0.01871767324816106,0.015152576993643389,0.02221147363527009,0.46794183120402644,posthoc deterministic panel correction
+D1,responsive,paired_contrast,PertRank_minus_PR_M,0.007723422377080915,0.006083627445531784,0.009373916347580944,0.19308555942702288,posthoc deterministic panel correction
+D1,terciles,arm_mean,raw,0.05129909188768505,,,,posthoc deterministic panel correction
+D1,terciles,arm_mean,Euclidean,0.07067561708102726,,,,posthoc deterministic panel correction
+D1,terciles,arm_mean,PertRank,0.07484664035410597,,,,posthoc deterministic panel correction
+D1,terciles,arm_mean,diagonal,0.07185192338263091,,,,posthoc deterministic panel correction
+D1,terciles,arm_mean,TRADE_scalar,0.06925056419067487,,,,posthoc deterministic panel correction
+D1,terciles,arm_mean,PR_E,0.07224860134467705,,,,posthoc deterministic panel correction
+D1,terciles,arm_mean,PR_M,0.07366511103636257,,,,posthoc deterministic panel correction
+D1,terciles,paired_contrast,Euclidean_minus_raw,0.01937652519334222,0.014080177889334898,0.024356296160674567,0.4844131298335555,posthoc deterministic panel correction
+D1,terciles,paired_contrast,diagonal_minus_raw,0.02055283149494586,0.014961175119833532,0.025656980930763334,0.5138207873736464,posthoc deterministic panel correction
+D1,terciles,paired_contrast,TRADE_scalar_minus_raw,0.017951472302989817,0.013351577614369706,0.02215623446321612,0.4487868075747454,posthoc deterministic panel correction
+D1,terciles,paired_contrast,PR_E_minus_raw,0.02094950945699199,0.015528940041954613,0.025961168698992506,0.5237377364247998,posthoc deterministic panel correction
+D1,terciles,paired_contrast,PR_M_minus_raw,0.022366019148677526,0.017106313357357076,0.027228902510624393,0.5591504787169381,posthoc deterministic panel correction
+D1,terciles,paired_contrast,PertRank_minus_raw,0.023547548466420914,0.01790020817004715,0.028901311757301235,0.5886887116605228,posthoc deterministic panel correction
+D1,terciles,paired_contrast,diagonal_minus_Euclidean,0.0011763063016036461,0.000641901514121711,0.001676901191506987,0.029407657540091153,posthoc deterministic panel correction
+D1,terciles,paired_contrast,TRADE_scalar_minus_Euclidean,-0.0014250528903524003,-0.0027835407167820492,5.6844693802087016e-05,-0.03562632225881001,posthoc deterministic panel correction
+D1,terciles,paired_contrast,PR_E_minus_Euclidean,0.001572984263649774,0.00013131471229965057,0.003282595856829601,0.03932460659124435,posthoc deterministic panel correction
+D1,terciles,paired_contrast,PR_M_minus_Euclidean,0.002989493955335309,0.0009428942615854067,0.005207832161570416,0.07473734888338272,posthoc deterministic panel correction
+D1,terciles,paired_contrast,PertRank_minus_Euclidean,0.0041710232730787,0.0021975541372808976,0.006190703361496737,0.10427558182696749,posthoc deterministic panel correction
+D1,terciles,paired_contrast,TRADE_scalar_minus_diagonal,-0.0026013591919560467,-0.003991352869065088,-0.0011211231074776372,-0.06503397979890117,posthoc deterministic panel correction
+D1,terciles,paired_contrast,PR_E_minus_diagonal,0.0003966779620461278,-0.0010289223559744555,0.00208974387131167,0.009916949051153194,posthoc deterministic panel correction
+D1,terciles,paired_contrast,PR_M_minus_diagonal,0.0018131876537316627,-0.00019281349225981701,0.003913154829514368,0.04532969134329157,posthoc deterministic panel correction
+D1,terciles,paired_contrast,PertRank_minus_diagonal,0.0029947169714750533,0.0011125694546935386,0.0049497631840903136,0.07486792428687633,posthoc deterministic panel correction
+D1,terciles,paired_contrast,PR_E_minus_TRADE_scalar,0.0029980371540021746,0.001621455212181092,0.004537858632298801,0.07495092885005436,posthoc deterministic panel correction
+D1,terciles,paired_contrast,PR_M_minus_TRADE_scalar,0.004414546845687709,0.002909352222264742,0.006092589205231092,0.11036367114219273,posthoc deterministic panel correction
+D1,terciles,paired_contrast,PertRank_minus_TRADE_scalar,0.0055960761634310996,0.0038087640188051277,0.00752663965912074,0.1399019040857775,posthoc deterministic panel correction
+D1,terciles,paired_contrast,PR_M_minus_PR_E,0.001416509691685535,5.7015962636152007e-05,0.0029673738182156013,0.03541274229213838,posthoc deterministic panel correction
+D1,terciles,paired_contrast,PertRank_minus_PR_E,0.0025980390094289254,0.001329869290168183,0.0040062187000836314,0.06495097523572313,posthoc deterministic panel correction
+D1,terciles,paired_contrast,PertRank_minus_PR_M,0.0011815293177433906,0.00022454509458262094,0.0020592116160763263,0.029538232943584763,posthoc deterministic panel correction
+D2,responsive,arm_mean,raw,0.3376920193440864,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,arm_mean,Euclidean,0.3482624886629427,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,arm_mean,PertRank,0.3634568333338944,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,arm_mean,diagonal,0.34909745035295775,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,arm_mean,TRADE_scalar,0.35671436254734745,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,arm_mean,PR_E,0.3451677620670099,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,arm_mean,PR_M,0.3436453900347766,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,Euclidean_minus_raw,0.010570469318856295,0.0003942215179283398,0.020235603324719475,0.26426173297140737,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,diagonal_minus_raw,0.011405431008871397,0.0005848622588329545,0.021409397043949726,0.2851357752217849,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,TRADE_scalar_minus_raw,0.019022343203261058,0.008165750915841185,0.02918096773963558,0.47555858008152646,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,PR_E_minus_raw,0.007475742722923539,-0.0033201823286317595,0.017023520949476813,0.1868935680730885,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,PR_M_minus_raw,0.0059533706906902024,-0.004920218583289175,0.015924627000530926,0.14883426726725507,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,PertRank_minus_raw,0.02576481398980803,0.015494684579194479,0.034491359452076854,0.6441203497452008,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,diagonal_minus_Euclidean,0.0008349616900150999,-0.00018816185425218278,0.0017978673831701751,0.0208740422503775,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,TRADE_scalar_minus_Euclidean,0.008451873884404767,0.006588095740876173,0.01054514016528113,0.21129684711011917,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,PR_E_minus_Euclidean,-0.003094726595932756,-0.005657774580767023,-0.00047072870097826237,-0.07736816489831891,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,PR_M_minus_Euclidean,-0.004617098628166092,-0.007614016470897894,-0.001307251454645619,-0.1154274657041523,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,PertRank_minus_Euclidean,0.015194344670951735,0.011564332840300532,0.01890299418155355,0.3798586167737934,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,TRADE_scalar_minus_diagonal,0.007616912194389664,0.0057859317528052645,0.009583060103784064,0.1904228048597416,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,PR_E_minus_diagonal,-0.003929688285947855,-0.006321269753656315,-0.0015075988524587973,-0.09824220714869639,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,PR_M_minus_diagonal,-0.005452060318181192,-0.00808029078062061,-0.0026280450378136466,-0.1363015079545298,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,PertRank_minus_diagonal,0.014359382980936636,0.011084049590454422,0.01761964672713059,0.3589845745234159,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,PR_E_minus_TRADE_scalar,-0.011546600480337522,-0.015187330302954374,-0.008161799553786674,-0.288665012008438,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,PR_M_minus_TRADE_scalar,-0.013068972512570859,-0.016556174261757636,-0.0094907071549161,-0.3267243128142715,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,PertRank_minus_TRADE_scalar,0.006742470786546972,0.0032892699180609893,0.010076448487496868,0.1685617696636743,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,PR_M_minus_PR_E,-0.0015223720322333364,-0.003283384593248369,0.00024276497603635633,-0.03805930080583341,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,PertRank_minus_PR_E,0.018289071266884498,0.014833252847898994,0.022587815710672362,0.45722678167211245,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,responsive,paired_contrast,PertRank_minus_PR_M,0.01981144329911783,0.016748222143410676,0.02361037954366979,0.49528608247794575,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,arm_mean,raw,0.06739636723323415,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,arm_mean,Euclidean,0.08761902193143653,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,arm_mean,PertRank,0.0908989457918382,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,arm_mean,diagonal,0.08867840492453771,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,arm_mean,TRADE_scalar,0.08939795595493487,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,arm_mean,PR_E,0.08720194824143433,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,arm_mean,PR_M,0.08776189655496547,,,,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,Euclidean_minus_raw,0.020222654698202374,0.014364786358053265,0.025796281894886437,0.5055663674550593,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,diagonal_minus_raw,0.021282037691303553,0.015219737090969142,0.027118293277630313,0.5320509422825889,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,TRADE_scalar_minus_raw,0.02200158872170071,0.016056245905967645,0.027027377997427413,0.5500397180425177,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,PR_E_minus_raw,0.019805581008200176,0.01400478186770609,0.02531937336465624,0.49513952520500437,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,PR_M_minus_raw,0.020365529321731312,0.014442758610992267,0.025868254374273078,0.5091382330432828,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,PertRank_minus_raw,0.02350257855860405,0.01729773299219723,0.029000460263141622,0.5875644639651013,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,diagonal_minus_Euclidean,0.0010593829931011753,0.00039447504527403575,0.0017476343759718746,0.026484574827529382,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,TRADE_scalar_minus_Euclidean,0.0017789340234983324,0.0003298740102117966,0.003442780605762275,0.04447335058745831,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,PR_E_minus_Euclidean,-0.0004170736900022015,-0.001726852181705597,0.0011456130561811047,-0.010426842250055038,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,PR_M_minus_Euclidean,0.00014287462352893836,-0.0017318179326897484,0.00224998979106742,0.003571865588223459,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,PertRank_minus_Euclidean,0.0032799238604016745,0.001313752366383499,0.005462153556812581,0.08199809651004186,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,TRADE_scalar_minus_diagonal,0.0007195510303971571,-0.0009188512736281632,0.002350214338442979,0.017988775759928927,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,PR_E_minus_diagonal,-0.0014764566831033765,-0.0026827093325464567,-2.4213312075000468e-05,-0.03691141707758441,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,PR_M_minus_diagonal,-0.0009165083695722369,-0.002532390664377845,0.0009720349955560395,-0.022912709239305922,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,PertRank_minus_diagonal,0.0022205408673005,0.00037056607312897007,0.004246135423862175,0.0555135216825125,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,PR_E_minus_TRADE_scalar,-0.002196007713500534,-0.0037800076362440494,-0.0007991948357006614,-0.05490019283751335,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,PR_M_minus_TRADE_scalar,-0.0016360593999693942,-0.003095136514319413,-0.00015809643820300748,-0.040901484999234856,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,PertRank_minus_TRADE_scalar,0.0015009898369033425,0.0006713598862187744,0.0024476541342192495,0.03752474592258356,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,PR_M_minus_PR_E,0.00055994831353114,-0.00031555851624130525,0.001495588213277327,0.0139987078382785,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,PertRank_minus_PR_E,0.003696997550403876,0.002372783013021249,0.005256589554605812,0.0924249387600969,complete already-opened-donor descriptive competition; not D4 confirmation
+D2,terciles,paired_contrast,PertRank_minus_PR_M,0.003137049236872736,0.0019451795454864178,0.0044931651111384495,0.0784262309218184,complete already-opened-donor descriptive competition; not D4 confirmation
+D4,responsive,arm_mean,raw,0.301750884910793,,,,locked-method prospective same-study held-out donor confirmation
+D4,responsive,arm_mean,Euclidean,0.3556499310037844,,,,locked-method prospective same-study held-out donor confirmation
+D4,responsive,arm_mean,PertRank,0.3791733260890539,,,,locked-method prospective same-study held-out donor confirmation
+D4,responsive,arm_mean,PR_M,0.36893621221461487,,,,locked-method prospective same-study held-out donor confirmation
+D4,responsive,paired_contrast,Euclidean_minus_raw,0.05389904609299142,0.043850286994155434,0.06140138260219553,1.3474761523247856,locked-method prospective same-study held-out donor confirmation
+D4,responsive,paired_contrast,PR_M_minus_raw,0.06718532730382189,0.05769147619930876,0.07437633188889115,1.6796331825955473,locked-method prospective same-study held-out donor confirmation
+D4,responsive,paired_contrast,PertRank_minus_raw,0.07742244117826091,0.06758211053964172,0.08444094462485649,1.9355610294565229,locked-method prospective same-study held-out donor confirmation
+D4,responsive,paired_contrast,PR_M_minus_Euclidean,0.013286281210830484,0.010322446977426104,0.016504951163957504,0.3321570302707621,locked-method prospective same-study held-out donor confirmation
+D4,responsive,paired_contrast,PertRank_minus_Euclidean,0.02352339508526951,0.02141788678484828,0.026305098587648672,0.5880848771317377,locked-method prospective same-study held-out donor confirmation
+D4,responsive,paired_contrast,PertRank_minus_PR_M,0.010237113874439029,0.007724819979243189,0.01270464978248857,0.25592784686097575,locked-method prospective same-study held-out donor confirmation
+D4,terciles,arm_mean,raw,0.07845306248799808,,,,locked-method prospective same-study held-out donor confirmation
+D4,terciles,arm_mean,Euclidean,0.1051901963445696,,,,locked-method prospective same-study held-out donor confirmation
+D4,terciles,arm_mean,PertRank,0.11062981634229928,,,,locked-method prospective same-study held-out donor confirmation
+D4,terciles,arm_mean,PR_M,0.10889608098299047,,,,locked-method prospective same-study held-out donor confirmation
+D4,terciles,paired_contrast,Euclidean_minus_raw,0.02673713385657153,0.017966508824814986,0.03437666045847423,0.6684283464142882,locked-method prospective same-study held-out donor confirmation
+D4,terciles,paired_contrast,PR_M_minus_raw,0.030443018494992393,0.02037228546166725,0.03918445900659332,0.7610754623748098,locked-method prospective same-study held-out donor confirmation
+D4,terciles,paired_contrast,PertRank_minus_raw,0.03217675385430122,0.021474699301801802,0.0415617423631287,0.8044188463575306,locked-method prospective same-study held-out donor confirmation
+D4,terciles,paired_contrast,PR_M_minus_Euclidean,0.003705884638420874,0.001855470121397054,0.005334208234910392,0.09264711596052184,locked-method prospective same-study held-out donor confirmation
+D4,terciles,paired_contrast,PertRank_minus_Euclidean,0.005439619997729697,0.0029583616881433987,0.00763615826348156,0.13599049994324242,locked-method prospective same-study held-out donor confirmation
+D4,terciles,paired_contrast,PertRank_minus_PR_M,0.0017337353593088233,0.0004147830673392529,0.002991999861138939,0.043343383982720585,locked-method prospective same-study held-out donor confirmation

@@ -1,0 +1,5 @@
+Results-before amendment, 2026-10-12: no new ASH or D4 FR scores have been calculated or seen.
+Official ash() defaults were checked against the source during setup. Include the real default uniform-mixture / method=fdr (nullbiased prior) rather than mislabelling normal mixture as default.
+ASH D3 input-replicate-0 configurations: (1) default uniform/fdr, (2) normal/fdr, (3) normal/shrink. Select by highest native posterior-mean P@25 on D3 original responsive queries; tie within 1e-12 favors actual official default then listed order. Transfer that fixed configuration to D4.
+TRADE halfuniform fitted-prior posterior mean remains a separately reported adaptation, not a scalar and not a literature-proposed top25 algorithm.
+This amendment changes only the pre-performance ASH configuration list; FR grid, six-arm definitions, controls, scoring, and data-access restrictions are unchanged.

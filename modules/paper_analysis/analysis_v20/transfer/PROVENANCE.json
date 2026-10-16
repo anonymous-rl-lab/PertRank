@@ -1,0 +1,12 @@
+{
+  "source_panel_count": 300,
+  "eligible_query_count": 300,
+  "missing_query_ids": [],
+  "target_count": 561,
+  "n_groups": 5,
+  "target_planning_cells_used_for_panel": 0,
+  "retained_source_blocks": 30,
+  "original_Stim_score_max_abs_error": 1.1657341758564144e-15,
+  "original_Stim_score_values_checked": 23760,
+  "transfer_input_sha256": "ea29d13c701d9bc99709e550f7861ea06a5d2b8535207cd47f1666b640ff5803"
+}

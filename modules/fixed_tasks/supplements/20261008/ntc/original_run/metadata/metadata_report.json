@@ -1,0 +1,40 @@
+{
+  "source_url": "https://genome-scale-tcell-perturb-seq.s3.amazonaws.com/marson2025_data/D3_Rest.assigned_guide.h5ad",
+  "source_size": 138149946574,
+  "etag": "\"15a555deb21fe5cb8e0579344a86e52a-8235\"",
+  "shape": [
+    2778524,
+    18130
+  ],
+  "lane_field": "lane_id",
+  "lane_categories": [
+    "CD4i_R2L01",
+    "CD4i_R2L02",
+    "CD4i_R2L03",
+    "CD4i_R2L04",
+    "CD4i_R2L05",
+    "CD4i_R2L06",
+    "CD4i_R2L07",
+    "CD4i_R2L08",
+    "CD4i_R2L09",
+    "CD4i_R2L10",
+    "CD4i_R2L11",
+    "CD4i_R2L12",
+    "CD4i_R2L13",
+    "CD4i_R2L14",
+    "CD4i_R2L15",
+    "CD4i_R2L16",
+    "CD4i_R2L17",
+    "CD4i_R2L18",
+    "CD4i_R2L19",
+    "CD4i_R2L20",
+    "CD4i_R2L21",
+    "CD4i_R2L22",
+    "CD4i_R2L23",
+    "CD4i_R2L24"
+  ],
+  "metadata_network_calls": 49,
+  "metadata_network_bytes": 50390222,
+  "seconds": 16.010732412338257,
+  "raw_X_values_read": false
+}

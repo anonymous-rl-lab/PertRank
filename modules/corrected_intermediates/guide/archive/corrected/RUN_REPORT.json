@@ -1,0 +1,62 @@
+{
+  "mode": "corrected",
+  "status": "NEW_RECONSTRUCTED_INPUTS_ARCHIVED_UNCHANGED_SCIENTIFIC_SCRIPTS",
+  "runs": [
+    {
+      "script": "evaluate_a15_guide_split.py",
+      "script_sha256": "66c5bd16936cae28e3d76366d5e3e2bffb4af4e326ac424d1640b46acb74f8c0",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/tmp/pertrescue_guide_clean_replay_20261005/corrected/code/repro_v10/same_budget_weight/stage3/evaluate_a15_guide_split.py",
+        "--out",
+        "/tmp/pertrescue_guide_clean_replay_20261005/results/corrected"
+      ],
+      "result": "/tmp/pertrescue_guide_clean_replay_20261005/results/corrected/a15_guide_split.json",
+      "result_sha256": "14b8a78fefd6bbcd7f68cf4b412f88769140fed948f857d180166455d5718896",
+      "seconds": 5.445933103561401,
+      "exit_code": 0
+    },
+    {
+      "script": "a15a_guide_switch_cost.py",
+      "script_sha256": "45c7cc3eb8f8295668e0050e4331744887f481d74d2a734fd10e1ac5da6e8440",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/tmp/pertrescue_guide_clean_replay_20261005/corrected/code/repro_v10/same_budget_weight/stage3/a15a_guide_switch_cost.py",
+        "--out",
+        "/tmp/pertrescue_guide_clean_replay_20261005/results/corrected"
+      ],
+      "result": "/tmp/pertrescue_guide_clean_replay_20261005/results/corrected/a15a_guide_switch_cost.json",
+      "result_sha256": "270de4a6ac1302073b48432be79d9ce826e61e665cf676549740b041df8794bf",
+      "seconds": 17.03446626663208,
+      "exit_code": 0
+    },
+    {
+      "script": "a15b_did_and_lane.py",
+      "script_sha256": "ec9c0008263ea8d0673207b7d7ab26aac9baa3360e0a7d556acf8a6f0d665bef",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/tmp/pertrescue_guide_clean_replay_20261005/corrected/code/repro_v10/same_budget_weight/stage3/a15b_did_and_lane.py",
+        "--out",
+        "/tmp/pertrescue_guide_clean_replay_20261005/results/corrected"
+      ],
+      "result": "/tmp/pertrescue_guide_clean_replay_20261005/results/corrected/a15b_did_and_lane.json",
+      "result_sha256": "286064a32ad313411eda3eb7977d052b7150721104f6d2593a3e484931d81078",
+      "seconds": 66.6664571762085,
+      "exit_code": 0
+    },
+    {
+      "script": "a17_four_arm_ablation.py",
+      "script_sha256": "3c58c4d4bc21073e83c97cebf6f550c21dc2e8f8caf4f6aec5857646a013c39a",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/tmp/pertrescue_guide_clean_replay_20261005/corrected/code/repro_v10/same_budget_weight/stage3/a17_four_arm_ablation.py",
+        "--out",
+        "/tmp/pertrescue_guide_clean_replay_20261005/results/corrected"
+      ],
+      "result": "/tmp/pertrescue_guide_clean_replay_20261005/results/corrected/a17_four_arm_ablation.json",
+      "result_sha256": "27f8d4a02f966dfec78c3a98d54fd76e6a5d933c67430f5b8a27e55a9c4e4da8",
+      "seconds": 5.1959593296051025,
+      "exit_code": 0
+    }
+  ]
+}

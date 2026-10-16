@@ -1,0 +1,25 @@
+{
+  "version": "25",
+  "scope": "Editorial reorganisation and plotting of archived results; no new experiment, fit, bootstrap or significance test.",
+  "source_file": "source_data/figures/figure_values.json",
+  "source_sha256": "756402f7d979aca828cc1f00d5dfc64c7cd2e2f070ee8ee7c9871481c2eea860",
+  "figures": {
+    "fig1_overview_v25": "Control-geometry placement schematic; matched 2x2 D3 illustration; native D4 comparison; descriptive independent RNA comparison.",
+    "fig2_independent_rna_v25": "v21/v22 Fig6, retained source-specific seven-arm scores and conditional intervals.",
+    "fig3_design_v25": "Fixed-geometry-weight readout contrast; pure geometry increment at original readout using archived W1 - w0y paired intervals (corrected D1); effect-estimator by weight comparison with archived geometry intervals.",
+    "fig4_mechanism_v25": "v21/v22 Fig2, unchanged scientific content.",
+    "fig5_efficiency_v25": "v21/v22 Fig3, unchanged scientific content.",
+    "fig6_panel_transfer_v25": "v21/v22 Fig5, unchanged scientific content."
+  },
+  "design_2x2": "D3 responsive 20-cell single-input development task. Exact archived mean scores displayed to four decimals; no confidence interval or interaction test inferred from rounded values.",
+  "uncertainty": "Archived conditional intervals only. Equal-source independent RNA summaries have no pooled confidence intervals.",
+  "FR_identity": "Figure1c: rank100 primary native configuration. Figure1d and Figure2: rank300 independent RNA configuration. Figure3c: rank300 expansion sensitivity.",
+  "design_geometry_provenance": {
+    "source": "source_data/figures/archive/b1_design_ablation.json",
+    "sha256": "52dd2e50ebf3c7ae00ada9205157a638fd86ec4baf0d49c2d2c1dec89f0aa8dc",
+    "comparison": "W1 - w0y",
+    "D1_selection": "corrected",
+    "inference": "Direct archived paired confidence intervals; no new resampling or interval arithmetic."
+  },
+  "factorial_source": "source_data/figures/archive/b1_design_ablation.json contains the full archived factorial results."
+}

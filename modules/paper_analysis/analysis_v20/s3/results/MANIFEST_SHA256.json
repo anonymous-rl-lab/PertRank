@@ -1,0 +1,13 @@
+{
+  "Methods_Results.md": "5a3bd9d51238715c5acfba6332f49e35f19504b48deae043dae056a85965a0e3",
+  "RESULT.json": "0191e8223b926294724af2d3c977963235d6a3dcb9f87bfa5f526b641d5c530a",
+  "block_partition_sensitivity.csv": "02d87b333f618f8151a05c49a4a827dab806fa023e071b721e1c7233f23260a1",
+  "leave_one_block_out.csv": "518e7acb7842bfaf9a9a672552bcbb00633c2efacec01c176d5d489bc6bd2f8f",
+  "query_level_results.csv": "3a6fdcedc47a3d5a1be50224433d78b4547928ac777050107f272ce6045760c6",
+  "replay_statistics.npz": "46984a2c91e9a314a80b37f823d4f68cac2fdf51e738c4d7594b56287f1137f2",
+  "s3_alignment_groups.csv": "9d1e38a3166cfe0d3225e98be4852937886657bd8eecd1012b9458c2f85a6384",
+  "s3_alignment_transitions.csv": "e6254a8fe688d83b7390b3758a824044ebc9b588b4901d7fe66024e4b97b1cac",
+  "s3_coefficients_summary.csv": "7717d3097a9dea80516ec802df3c4db0e4d5a71734a29e540a4fe6ef9832a6af",
+  "s3_weight_transitions.csv": "6ddc1a80db3c8ddfb4a2028a08b7e8ac8367ea22ad8f5938ba3d5adad37877ac",
+  "target_groups.csv": "62e80f466a40283e9aea6d2a334a7b3e755a70f1e3de9a7c050da4c7a6d1372f"
+}

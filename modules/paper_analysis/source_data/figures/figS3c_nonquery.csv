@@ -1,0 +1,10 @@
+setting,contrast,value,low,high,source
+"Replogle, 20",gene_set_change,-0.0122,-0.01807,-0.0072,posthoc_nonquery_decomposition.json
+"Replogle, 20",metric_change,0.01027,0.00485,0.01673,posthoc_nonquery_decomposition.json
+"Replogle, 20",reported_sensitivity,-0.00193,-0.00742,0.00419,posthoc_nonquery_decomposition.json
+"Replogle, 50",gene_set_change,-0.00367,-0.00822,-0.0,posthoc_nonquery_decomposition.json
+"Replogle, 50",metric_change,0.00193,-0.00091,0.00526,posthoc_nonquery_decomposition.json
+"Replogle, 50",reported_sensitivity,-0.00173,-0.00585,0.00221,posthoc_nonquery_decomposition.json
+"D3, 20",gene_set_change,-0.02258,-0.02648,-0.01915,posthoc_nonquery_decomposition.json
+"D3, 20",metric_change,0.046,0.03235,0.05954,posthoc_nonquery_decomposition.json
+"D3, 20",reported_sensitivity,0.02342,0.01197,0.03582,posthoc_nonquery_decomposition.json

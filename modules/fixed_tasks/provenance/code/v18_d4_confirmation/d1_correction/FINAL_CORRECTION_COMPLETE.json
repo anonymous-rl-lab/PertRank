@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-07T15:18:33Z",
+  "identity": "Complete deterministic D1 full-axis query correction, seven locked arms, independent numerical audit",
+  "donor": "D1_Rest",
+  "no_D4_access": true,
+  "number_replaced": 4,
+  "arm_order": [
+    "raw",
+    "Euclidean",
+    "PertRank",
+    "diagonal",
+    "TRADE_scalar",
+    "PR_E",
+    "PR_M"
+  ],
+  "legacy_score_parity_max_abs": {
+    "responsive": 0.0,
+    "terciles": 0.0
+  },
+  "completion_script_sha256": "45d865b8f1931f8bdffb5bec77f1f00962353909a005b6a033022029d5798465",
+  "result_path": "v18_d4_confirmation/d1_correction/D1_corrected_results.json",
+  "result_sha256": "09e1d7ffda5187e16bcf5f8a501bd1c54b9154d3cb0697e4da7bc6fc2760b7aa",
+  "query_scores_path": "v18_d4_confirmation/d1_correction/D1_corrected_query_scores.npz",
+  "query_scores_sha256": "0bf80b21e5551df28c223c5d6721a23cc31cea1fcc2f4a983eedcd2df6ee04c1",
+  "panel_prediction_lock_path": "v18_d4_confirmation/d1_correction/PANEL_PREDICTION_LOCK.json",
+  "panel_prediction_lock_sha256": "dbbc7d60f77062a35d79cceee87eda80b6b348d44c1a5b20ec78010aedb498c8",
+  "independent_audit_path": "v18_d4_confirmation/d1_correction/INDEPENDENT_CORRECTION_AUDIT.json",
+  "independent_audit_sha256": "14bd6b69c4a1d828482da89f4769cfefd259737285828a813415f53218ee0eba",
+  "full_rebuild_path": "v18_d4_confirmation/d1_correction/FULL_REBUILD_PASS.json",
+  "full_rebuild_sha256": "2e05e3ce56239d5031ed2e80179db19c6dfb7b00ba53c27472d5c07ccf743704"
+}

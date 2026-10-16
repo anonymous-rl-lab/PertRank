@@ -1,0 +1,49 @@
+{
+  "status": "TASK_STRATIFIED_COMMON_THREE_ARMS_BITWISE_PASS",
+  "checks": {
+    "state_0_sampled_blocks": {
+      "bitwise_equal": true,
+      "sha256": "540078e972c735a2f62f4af1a81fe12169a83f06c1a5eabbbcb11fcb8b405e3d"
+    },
+    "state_0_query_weights": {
+      "bitwise_equal": true,
+      "sha256": "4fd3445ce639747129813fccdc1ad7560f31ba6c4263f253299664b933318f23"
+    },
+    "state_1_sampled_blocks": {
+      "bitwise_equal": true,
+      "sha256": "fbd342e4ecda80c0873192f4ee8ac5ec9f81fc4d0c8173c6fa527105ebedcc0b"
+    },
+    "state_1_query_weights": {
+      "bitwise_equal": true,
+      "sha256": "f1c1babb117e74c11000e535dad40914758db1a9d0d7df3ea8493a0b3d2592d9"
+    },
+    "state_0_query_bootstrap_p25": {
+      "bitwise_equal": true,
+      "sha256": "187377d4091c5bcbfc9499a5ba109494ccd3484aa2cfac6c3c84774d845e4cd4"
+    },
+    "state_1_query_bootstrap_p25": {
+      "bitwise_equal": true,
+      "sha256": "0c28eb2bf0996d957d8107d7e632e45f3b27671df1f4118426e617b6430ec59c"
+    },
+    "equal_state_bootstrap_p25": {
+      "bitwise_equal": true,
+      "sha256": "6490b95a0f5e249ea6a99eb516908a3b22463c55dbed444a56c931ac0db6ee5e"
+    },
+    "state_0_query_bootstrap_p10": {
+      "bitwise_equal": true,
+      "sha256": "d3da6e36564a9d9a2c45395319b1aa4c7a12487b42afe2e12a87f89b85bb0779"
+    },
+    "state_1_query_bootstrap_p10": {
+      "bitwise_equal": true,
+      "sha256": "a0242cef3aba89a06ec780e893678519c7c07f0a688791d0f09b10b691bcc966"
+    },
+    "equal_state_bootstrap_p10": {
+      "bitwise_equal": true,
+      "sha256": "cceec6784f464b71223ab75766cfb5e6a8c81b2025fb2fc3260910b56a675471"
+    }
+  },
+  "FR_report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evaluation/equal_state/equal_state_report.json",
+  "FR_report_sha256": "46c264be0db448946ce3150ae4821d29b4da293a0e892a13b7490dd2feba3efc",
+  "ASH_report_sha256": "c168264e36cb0bc4029ce254d25d8945a9b72e83de0f53a2a684ac09d61cb033",
+  "scope": "Same original independent state query-block streams and same equal-state averaging; descriptive ASH contrasts remain separate from original FR family."
+}

@@ -1,0 +1,86 @@
+{
+  "version": "1.2.0",
+  "mode": "all_guides",
+  "started_utc": "2026-10-11T14:19:40.111443+00:00",
+  "raw_counts_sha256": "eff12a8907fb62fd67978c34b043e67e6c525fceefcbbbf46691c184bcb73ec6",
+  "analysis_plan_sha256": "6bb9baeda9903bc6c731b6a3a16c19ee00929ab421b8cfbdb210d56151685d17",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/6cdbaefbed9f/minimal_validation_20261011/deliverables/PertRank_IL2_External_Validation_v1.2.0/tools/mageck",
+    "test",
+    "-k",
+    "/workspace/scratch/6cdbaefbed9f/minimal_validation_20261011/deliverables/PertRank_IL2_External_Validation_v1.2.0/mageck/all_guides/normalized_counts.tsv",
+    "-t",
+    "D1_high,D2_high",
+    "-c",
+    "D1_low,D2_low",
+    "--paired",
+    "--norm-method",
+    "none",
+    "--control-sgrna",
+    "/workspace/scratch/6cdbaefbed9f/minimal_validation_20261011/deliverables/PertRank_IL2_External_Validation_v1.2.0/mageck/all_guides/controls.txt",
+    "--gene-lfc-method",
+    "median",
+    "-n",
+    "/workspace/scratch/6cdbaefbed9f/minimal_validation_20261011/deliverables/PertRank_IL2_External_Validation_v1.2.0/mageck/all_guides/result"
+  ],
+  "source_version": "0.5.9.2",
+  "normalization": {
+    "original_full_catalog_sample_totals": {
+      "A": {
+        "D1_high": 5531328,
+        "D1_low": 5590277,
+        "D2_high": 4658282,
+        "D2_low": 4385280
+      },
+      "B": {
+        "D1_high": 3619483,
+        "D1_low": 3952539,
+        "D2_high": 5752574,
+        "D2_low": 3024291
+      }
+    },
+    "within_library_mean_sample_total": {
+      "A": 5041291.75,
+      "B": 4087221.75
+    },
+    "scale_factors": {
+      "A": {
+        "D1_high": 0.9114071250159094,
+        "D1_low": 0.9017964136660849,
+        "D2_high": 1.0822212459443203,
+        "D2_low": 1.1495940396052247
+      },
+      "B": {
+        "D1_high": 1.129228055498534,
+        "D1_low": 1.0340749958444433,
+        "D2_high": 0.7105031156487513,
+        "D2_low": 1.3514644424098077
+      }
+    },
+    "rounding": "None; floats written with17significantdigits",
+    "source_totals_use_full_catalog_before_presence_or_sequence_filter": true
+  },
+  "guide_ids": "Library set prefix A__ or B__ prepended to source guide IDs to ensure row identity.",
+  "selected_guide_rows": 113998,
+  "selected_targeting_rows": 113006,
+  "selected_NTC_rows": 992,
+  "selected_target_gene_labels": 18939,
+  "selected_rows_by_library": {
+    "A": 57012,
+    "B": 56986
+  },
+  "RRA_seed": 123456,
+  "seed_provenance": "Unchanged official rra/src/RRA.cpp calls PlantSeeds(123456) at lines655and810.",
+  "control_sequence_overlap": "Original external NTCs retained even when sequences occur in source atlas; independence applies to targeting guides.",
+  "input_table_sha256": "32111c09a1fa6f4e80b87482a54379abc18e01924aa85dfc42345aabd7455b0f",
+  "control_ids_sha256": "436561090ef630cc2cbfa59f81b24f2979aedcfb8319e2a60463ad173549af4a",
+  "status": "completed",
+  "completed_utc": "2026-10-11T14:20:13.210480+00:00",
+  "runtime_seconds": 33.099048423995555,
+  "exit_code": 0,
+  "output_sha256": {
+    "result.gene_summary.txt": "0bd68e513e37b55ec3d35ef7c78e2183eb271b6746aba55335869a37939eb936",
+    "result.sgrna_summary.txt": "d185b5bc2ff15e1ddd9930f4897ec2607f0688b1a4e4f10c9aa8bcefcf7abfc2"
+  }
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 5.009881398621019e-15,
+    "ntc_coefficient_max_absolute_error": 5.009881398621019e-15,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 1.4448273695005901e-27,
+    "id": "default"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 2.1510571102112408e-15,
+    "ntc_coefficient_max_absolute_error": 2.1510571102112408e-15,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 1.3387121201986915e-28,
+    "id": "rank10"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 4.218847493575595e-15,
+    "ntc_coefficient_max_absolute_error": 4.218847493575595e-15,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 4.2351479172599805e-28,
+    "id": "rank50"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 3.4330177589581012e-15,
+    "ntc_coefficient_max_absolute_error": 3.4330177589581012e-15,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 6.855910262118152e-28,
+    "id": "lasso_low"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 2.546574062733953e-15,
+    "ntc_coefficient_max_absolute_error": 2.546574062733953e-15,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 2.266301473030184e-28,
+    "id": "lasso_high"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 2.9004576518332215e-15,
+    "ntc_coefficient_max_absolute_error": 2.9004576518332215e-15,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 3.8160026796101027e-28,
+    "id": "rank50_lasso_high"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 6.83481049534862e-15,
+    "ntc_coefficient_max_absolute_error": 6.83481049534862e-15,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 3.353625746049994e-28,
+    "id": "rank5_lasso_low"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 5.918876500032866e-15,
+    "ntc_coefficient_max_absolute_error": 5.918876500032866e-15,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 2.5545025905983006e-28,
+    "id": "rank5_default_lasso"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 6.435824095873954e-15,
+    "ntc_coefficient_max_absolute_error": 6.435824095873954e-15,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 2.9845471944467625e-28,
+    "id": "rank5_lasso_high"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 2.6883877068950568e-15,
+    "ntc_coefficient_max_absolute_error": 2.6883877068950568e-15,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 1.4971739717951794e-28,
+    "id": "rank10_lasso_low"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 1.9984014443252818e-15,
+    "ntc_coefficient_max_absolute_error": 5.412337245047638e-16,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 2.0751405543209183e-29,
+    "id": "rank10_lasso_high"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 4.333339242990064e-15,
+    "ntc_coefficient_max_absolute_error": 4.333339242990064e-15,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 7.834919334043825e-28,
+    "id": "rank40_lasso_low"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 4.433953204596719e-15,
+    "ntc_coefficient_max_absolute_error": 4.433953204596719e-15,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 6.696872173572198e-28,
+    "id": "rank40_default_lasso"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 4.4825254619240695e-15,
+    "ntc_coefficient_max_absolute_error": 4.4825254619240695e-15,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 2.326246335229694e-28,
+    "id": "rank40_lasso_high"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 3.6741443221188774e-15,
+    "ntc_coefficient_max_absolute_error": 3.6741443221188774e-15,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 7.444302014017134e-28,
+    "id": "rank50_lasso_low"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 2.4125666742147445e-15,
+    "ntc_coefficient_max_absolute_error": 2.4125666742147445e-15,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 5.918444052465028e-28,
+    "id": "rank75_lasso_low"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 3.621018415667088e-15,
+    "ntc_coefficient_max_absolute_error": 3.621018415667088e-15,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 1.385457411160255e-27,
+    "id": "rank75_default_lasso"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 0.01748179022688423,
+    "ntc_coefficient_max_absolute_error": 2.1927446837433084e-15,
+    "coefficient_count_above_legacy_tolerance": 1,
+    "max_objective_gap_to_native_tolerance": 0.0008648727641327035,
+    "id": "rank75_lasso_high"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 3.0270924655795284e-15,
+    "ntc_coefficient_max_absolute_error": 3.0270924655795284e-15,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 7.813811693748805e-28,
+    "id": "rank100_lasso_low"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 2.7955068815366246e-15,
+    "ntc_coefficient_max_absolute_error": 2.7955068815366246e-15,
+    "coefficient_count_above_legacy_tolerance": 0,
+    "max_objective_gap_to_native_tolerance": 9.1353528150942e-28,
+    "id": "rank100_default_lasso"
+  },
+  {
+    "pass_": true,
+    "coefficient_max_absolute_error": 0.01602647649124256,
+    "ntc_coefficient_max_absolute_error": 1.908195823574488e-15,
+    "coefficient_count_above_legacy_tolerance": 3,
+    "max_objective_gap_to_native_tolerance": 0.0013544390697897892,
+    "id": "rank100_lasso_high"
+  }
+]

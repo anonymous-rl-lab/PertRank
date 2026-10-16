@@ -1,0 +1,72 @@
+{
+  "status": "post hoc fixed-source-panel application",
+  "means_P25": {
+    "raw": 0.2517925312318358,
+    "Euclidean": 0.317453584525258,
+    "PertRank": 0.33253706467574184,
+    "PR_M": 0.32491811488088557
+  },
+  "contrasts": {
+    "PertRank-Euclidean": {
+      "delta_P25": 0.01508348015048384,
+      "conditional_95pct_interval": [
+        0.013464709761060668,
+        0.016938647134723466
+      ],
+      "extra_members_per25": 0.37708700376209603,
+      "members_interval": [
+        0.3366177440265167,
+        0.42346617836808664
+      ],
+      "leave_one_block_out_range": [
+        0.014835202904278873,
+        0.015564060365314318
+      ],
+      "all_LOBO_positive": true
+    },
+    "PertRank-raw": {
+      "delta_P25": 0.08074453344390607,
+      "conditional_95pct_interval": [
+        0.07201853916558709,
+        0.08660988791496967
+      ],
+      "extra_members_per25": 2.0186133360976517,
+      "members_interval": [
+        1.8004634791396774,
+        2.165247197874242
+      ],
+      "leave_one_block_out_range": [
+        0.07786199216403117,
+        0.08186783785790674
+      ],
+      "all_LOBO_positive": true
+    },
+    "PertRank-PR_M": {
+      "delta_P25": 0.007618949794856275,
+      "conditional_95pct_interval": [
+        0.005927817401861536,
+        0.009993853732776002
+      ],
+      "extra_members_per25": 0.1904737448714069,
+      "members_interval": [
+        0.1481954350465384,
+        0.24984634331940003
+      ],
+      "leave_one_block_out_range": [
+        0.007315792036820009,
+        0.00834137425680033
+      ],
+      "all_LOBO_positive": true
+    }
+  },
+  "source_panel_count": 300,
+  "eligible_query_count": 300,
+  "missing_query_ids": [],
+  "target_count": 561,
+  "n_groups": 5,
+  "target_planning_cells_used_for_panel": 0,
+  "retained_source_blocks": 30,
+  "original_Stim_score_max_abs_error": 1.1657341758564144e-15,
+  "original_Stim_score_values_checked": 23760,
+  "transfer_input_sha256": "ea29d13c701d9bc99709e550f7861ea06a5d2b8535207cd47f1666b640ff5803"
+}

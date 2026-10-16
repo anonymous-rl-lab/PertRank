@@ -1,0 +1,233 @@
+{
+  "identity": "NEW_POSTHOC_CELLEQ_R_RECONSTRUCTION_NOT_ORIGINAL_SCRIPT",
+  "created_utc": "2026-10-05T16:38:45.284941+00:00",
+  "freeze_sha256": "f6409a25375e74e2aea929bea76573fac7cebc00691751649d5c5489c47c0e52",
+  "fixed": {
+    "k": 5,
+    "beta": 0.9,
+    "top_k": 25,
+    "rungs": "disjoint S0/20,S1/30,S2/50; D3 S3/100",
+    "truth": "disjoint S4/100",
+    "query_panel": "original responsive300",
+    "intervals": "none, original descriptive point-estimate translation"
+  },
+  "donors": {
+    "D3": {
+      "provenance": {
+        "state_sha256": "4f83d994e05982e54ca6ed9df512b3eea4571823a0b1fd931d9aa3158f75c8f1",
+        "own_map_sha256": "00e068b6ea78b17ac62207e387cbe84a0fe497fef72a91e760230a3967b51d8a",
+        "weight_state_sha256": "d552c95c72d40b613a74caf7f60a72e3411e862543cf7579be01ab2ac6b5673a",
+        "weight_script_sha256": "daba866ef464135ac973a3faa1ac1f97be350b0f4018bbfcb4a6c8c1f966d1b6"
+      },
+      "candidates": 1200,
+      "queries": 300,
+      "own_queries_excluded": 34,
+      "raw_scores": {
+        "20": 0.2773123584257502,
+        "30": 0.33218575644778003,
+        "50": 0.3932126908754816,
+        "100": 0.4703390179770662
+      },
+      "PertRank20": 0.3113689768996245,
+      "raw_curve_strictly_increasing": true,
+      "brackets": [
+        [
+          20,
+          30,
+          26.206398674308762
+        ]
+      ],
+      "equivalent_depth": 26.206398674308762,
+      "extra_cells": 6.206398674308762,
+      "extra_fraction": 0.3103199337154381,
+      "saving_fraction": 0.2368276065491271,
+      "paper_rounding_comparison": [
+        {
+          "field": "raw20",
+          "new": 0.2773123584257502,
+          "printed": 0.2773,
+          "digits": 4,
+          "match": true
+        },
+        {
+          "field": "raw30",
+          "new": 0.33218575644778003,
+          "printed": 0.3322,
+          "digits": 4,
+          "match": true
+        },
+        {
+          "field": "raw50",
+          "new": 0.3932126908754816,
+          "printed": 0.3932,
+          "digits": 4,
+          "match": true
+        },
+        {
+          "field": "PertRank20",
+          "new": 0.3113689768996245,
+          "printed": 0.3114,
+          "digits": 4,
+          "match": true
+        },
+        {
+          "field": "equivalent_depth",
+          "new": 26.206398674308762,
+          "printed": 26.2,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "field": "saving_percent",
+          "new": 23.68276065491271,
+          "printed": 23.7,
+          "digits": 1,
+          "match": true
+        }
+      ]
+    },
+    "D1": {
+      "provenance": {
+        "state_sha256": "db3876aedd0614f86de96da29e40d0ecd46f96f7bbd6ff4770e5873d4cf69e94",
+        "own_map_sha256": "932a884898019f7669532f4b49e767d56abe1179d62f3261c77389c720338180",
+        "weight_script_sha256": "0bbc2da7ff80e3e0fa72297703d76ec4c48c99bac3f4b592e4f7f465468676f1"
+      },
+      "candidates": 1127,
+      "queries": 300,
+      "own_queries_excluded": 34,
+      "raw_scores": {
+        "20": 0.2554306741623092,
+        "30": 0.3045451548842408,
+        "50": 0.36579399956443914
+      },
+      "PertRank20": 0.31394699961285333,
+      "raw_curve_strictly_increasing": true,
+      "brackets": [
+        [
+          30,
+          50,
+          33.07004802382898
+        ]
+      ],
+      "equivalent_depth": 33.07004802382898,
+      "extra_cells": 13.070048023828981,
+      "extra_fraction": 0.6535024011914491,
+      "saving_fraction": 0.39522313407017784,
+      "paper_rounding_comparison": [
+        {
+          "field": "raw20",
+          "new": 0.2554306741623092,
+          "printed": 0.2554,
+          "digits": 4,
+          "match": true
+        },
+        {
+          "field": "raw30",
+          "new": 0.3045451548842408,
+          "printed": 0.3045,
+          "digits": 4,
+          "match": true
+        },
+        {
+          "field": "raw50",
+          "new": 0.36579399956443914,
+          "printed": 0.3649,
+          "digits": 4,
+          "match": false
+        },
+        {
+          "field": "PertRank20",
+          "new": 0.31394699961285333,
+          "printed": 0.3139,
+          "digits": 4,
+          "match": true
+        },
+        {
+          "field": "equivalent_depth",
+          "new": 33.07004802382898,
+          "printed": 33.1,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "field": "saving_percent",
+          "new": 39.52231340701778,
+          "printed": 39.6,
+          "digits": 1,
+          "match": false
+        }
+      ]
+    },
+    "D2": {
+      "provenance": {
+        "state_sha256": "6fa1c0805af8720013181d5f915efe5a65a50f23ac1f35df667747d607802875",
+        "weight_script_sha256": "0bbc2da7ff80e3e0fa72297703d76ec4c48c99bac3f4b592e4f7f465468676f1"
+      },
+      "candidates": 1200,
+      "queries": 300,
+      "own_queries_excluded": 35,
+      "raw_scores": {
+        "20": 0.33294207259638653,
+        "30": 0.3868700618018935,
+        "50": 0.4510647594435128
+      },
+      "PertRank20": 0.3594955778514415,
+      "raw_curve_strictly_increasing": true,
+      "brackets": [
+        [
+          20,
+          30,
+          24.92388194817829
+        ]
+      ],
+      "equivalent_depth": 24.92388194817829,
+      "extra_cells": 4.923881948178291,
+      "extra_fraction": 0.24619409740891457,
+      "saving_fraction": 0.1975567834262745,
+      "paper_rounding_comparison": [
+        {
+          "field": "raw20",
+          "new": 0.33294207259638653,
+          "printed": 0.3329,
+          "digits": 4,
+          "match": true
+        },
+        {
+          "field": "raw30",
+          "new": 0.3868700618018935,
+          "printed": 0.3869,
+          "digits": 4,
+          "match": true
+        },
+        {
+          "field": "raw50",
+          "new": 0.4510647594435128,
+          "printed": 0.4508,
+          "digits": 4,
+          "match": false
+        },
+        {
+          "field": "PertRank20",
+          "new": 0.3594955778514415,
+          "printed": 0.3595,
+          "digits": 4,
+          "match": true
+        },
+        {
+          "field": "equivalent_depth",
+          "new": 24.92388194817829,
+          "printed": 24.9,
+          "digits": 1,
+          "match": true
+        },
+        {
+          "field": "saving_percent",
+          "new": 19.75567834262745,
+          "printed": 19.7,
+          "digits": 1,
+          "match": false
+        }
+      ]
+    }
+  }
+}

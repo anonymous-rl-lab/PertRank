@@ -1,0 +1,57 @@
+{
+  "updated_utc": "2026-10-14T04:53:21.607258+00:00",
+  "completed_native_fits": 6,
+  "planned_native_fits": 6,
+  "native_scores_computed": true,
+  "native_jobs": [
+    {
+      "donor": "D3_Rest",
+      "method": "FR",
+      "status": "VERIFIED_COMPLETE",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D3_Rest/FR_attempt1",
+      "owner_sha256": "a8db13e22c3e3b93381d4f523d06784575c2be06b4d98c00a563b33ba7edd5b8"
+    },
+    {
+      "donor": "D3_Rest",
+      "method": "ASH",
+      "status": "VERIFIED_COMPLETE",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D3_Rest/ASH_attempt1",
+      "owner_sha256": "964fc54c137f995c8c89a8958c94bfcd44b403f580fe37dc86dae2701ac5a22a"
+    },
+    {
+      "donor": "D1_Rest",
+      "method": "FR",
+      "status": "VERIFIED_COMPLETE",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D1_Rest/FR_attempt2",
+      "owner_sha256": "97cd4342644e95bcdd235d19d71a4e381ea51fcb18d33a23f1cb40fd14544c44"
+    },
+    {
+      "donor": "D1_Rest",
+      "method": "ASH",
+      "status": "VERIFIED_COMPLETE",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D1_Rest/ASH_attempt1",
+      "owner_sha256": "5dd0b9f44093678a761710e734e2b4d684df3858b7f5893dca211a455f7e8df7"
+    },
+    {
+      "donor": "D2_Rest",
+      "method": "FR",
+      "status": "VERIFIED_COMPLETE",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D2_Rest/FR_attempt2",
+      "owner_sha256": "48a68ff56728b12b4c1ff37885f625b9188386d5445ccd1e49df48583012d813"
+    },
+    {
+      "donor": "D2_Rest",
+      "method": "ASH",
+      "status": "VERIFIED_COMPLETE",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D2_Rest/ASH_attempt1",
+      "owner_sha256": "51519544d855b3c6508ab72a2c0539588611f83064ff2acb282d207f47739a72"
+    }
+  ],
+  "current_blocker": null,
+  "active_native_compute": false,
+  "incomplete_starts_preserved": [
+    "D1_Rest/FR_attempt1",
+    "D2_Rest/FR_attempt1"
+  ],
+  "scoring_status": "ALL_COMPLETE"
+}

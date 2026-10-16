@@ -1,0 +1,10 @@
+Task,Contrast,P@25 difference,Conditional 95% interval
+D4 Rest,PertRank−Euclidean,+0.023523,"[+0.021323, +0.026336]"
+D4 Rest,FR × PertRank−FR × Euclidean,+0.023528,"[+0.021936, +0.025398]"
+D4 Rest,FR increment−raw increment,+0.000005,"[-0.002307, +0.001925]"
+D4 Stim,PertRank−Euclidean,+0.015148,"[+0.013100, +0.017957]"
+D4 Stim,FR × PertRank−FR × Euclidean,+0.014518,"[+0.012697, +0.016764]"
+D4 Stim,FR increment−raw increment,-0.000631,"[-0.003068, +0.001416]"
+Equal state,PertRank−Euclidean,+0.019336,"[+0.017800, +0.021357]"
+Equal state,FR × PertRank−FR × Euclidean,+0.019023,"[+0.017854, +0.020540]"
+Equal state,FR increment−raw increment,-0.000313,"[-0.002000, +0.001066]"

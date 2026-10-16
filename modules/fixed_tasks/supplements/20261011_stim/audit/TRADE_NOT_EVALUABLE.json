@@ -1,0 +1,28 @@
+{
+  "status": "not_evaluable",
+  "not_evaluable": true,
+  "arm": "TRADE_scalar",
+  "reason": "The fixed TRADE scalar adapter fails deterministically at target ENSG00000167130, replicate 2: mixsqp_rcpp reports solve(): solution not found. Original full-gene inputs are valid; an identical RNG-state retry reproduces the failure. The complete-cohort registered comparison cannot be evaluated without an unregistered estimator change or target omission.",
+  "target_id": "ENSG00000167130",
+  "target_index": 8,
+  "replicate": 2,
+  "failed_fits_lower_bound": 1,
+  "completed_fits": 40,
+  "planned_fits": 2805,
+  "successful_incomplete_batch_diagnostic_fits": 2,
+  "same_failure_reproduced": true,
+  "remaining_fits_not_executed": true,
+  "no_subset_scoring": true,
+  "truth_access_released": false,
+  "adjudication": {
+    "path": "audit/TRADE_COMPARATOR_ADJUDICATION.json",
+    "sha256": "da979a317e850db1f906ee7c181e6295b80aaf766783304ed1698c1c5a07f3b2"
+  },
+  "failure_evidence_sha256": {
+    "audit/trade_failure_0008_0016/INDEPENDENT_TRADE_FAILURE_AUDIT.json": "ffeb1dbefa179249e791059e04f524ebfe55c763ba1db4d1a4d26271e47c86df",
+    "audit/trade_failure_0008_0016/TRADE_FAILURE_NOTE.md": "22ca13673075b390a7142c53fdff331b3b953c5b71bcde5fbccfad6d86961469",
+    "input/trade/targets_0008_0016/FAILED.json": "bcb2c6f3db042169a340737906ccdc058d8d6672388f1881556ee5c553c45ac7",
+    "input/trade/targets_0008_0016/run.log": "13cf7133dc47e987a4ac23c83fcb47ed84f12414bf28bc45bb4ee12c4907065a",
+    "input/trade/targets_0000_0008/COMPLETE.json": "d7986f2818f5d2cd1a7676f0c93fb6445ac360b7ceef211e8af9203ca98febf3"
+  }
+}

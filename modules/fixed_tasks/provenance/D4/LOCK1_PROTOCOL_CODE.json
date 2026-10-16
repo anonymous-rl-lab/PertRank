@@ -1,0 +1,42 @@
+{
+  "donor": "D4_Rest",
+  "protocol_path": "v18_d4_confirmation/protocol/D4_PROSPECTIVE_PROTOCOL_FINAL.md",
+  "protocol_sha256": "e3ce622715ef5893f1cc26f204b276f4dcd263a97b7045726837016183bf77fa",
+  "competition_selection_lock_path": "v18_d4_confirmation/competition_selection/COMPETITION_SELECTION_LOCK.json",
+  "competition_selection_lock_sha256": "223b4fb2c69ca4c586ce36e1eea2601b990eee95bac662cf70549ab6f5b665bc",
+  "selected_competitor": "PR_M",
+  "code_sha256": {
+    "v18_d4_confirmation/reader/staged_reader.py": "091902fd16dcd55a46d0ca018eb49ba1a49a938cb2d5e250d02b8d8eb5938dd4",
+    "v18_d4_confirmation/reader/vendor/metadata_source.py": "0b315a3779bf09f9f07a9fbbe01336dfa5ee0177cb626e5885d301d77a4439f9",
+    "v18_d4_confirmation/reader/vendor/hdf5_chunk_index.py": "99cbecbd3056175d43bbf91c5dfa90c6abcc5ad0aa480cc9a606d0f58781fe77",
+    "v18_d4_confirmation/reader/vendor/row_transport.py": "2e43efbcb6fca551c9031cc936e407954efb07baaa8cbb81eee3b93422ae0059",
+    "v18_d4_confirmation/prediction/engine.py": "1910bf79496cebe51ec6111c6b54acd8daca3fa65c196afa471a6a425a9fb6c8",
+    "v18_d4_confirmation/evaluation/score_d4.py": "3959f4dea817bb866b341220b554e1da3604c9c2c6f993035e28deea2b34691f",
+    "v18_d4_confirmation/evaluation/vendor/exact_score.py": "9f940b35031016a5287c0c4e1ce519058cc3357b8567787cc348999cb2ce9683",
+    "v18_d4_confirmation/evaluation/vendor/depth_equivalence.py": "762d1ade3cd2a25d8259fdb56b40626557fd0df49fa8c79660f1cd37c8a8f0ad",
+    "v18_d4_confirmation/access/registration_gate.py": "bddb528cbd652167c1d67964347b2bbfc303a2a034161e1ea6bc63e03768d766"
+  },
+  "status": "ROOT_FROZEN_PREACCESS_CODE_AND_SCIENCE",
+  "created_utc": "2026-10-07T16:30:12.869452Z",
+  "archive_mode": "author_directed_project_archive",
+  "preaccess_manifest_path": "v18_d4_confirmation/registration/preaccess_final/PREACCESS_MANIFEST.json",
+  "preaccess_manifest_sha256": "5021af280f1a37e1af0277b0c174db127169aa20c6241407406e88ff6667a16a",
+  "project_archive_refs": {
+    "original_registration_observation": {
+      "path": "v18_d4_confirmation/registration/OSF_REST_PRIMARY_REGISTRATION_OBSERVATION.json",
+      "sha256": "1ece9d43b7266dbf442db4642e794d3a1ed6e540c814b0cfbe22719be1c767ce"
+    },
+    "project_addendum_observation": {
+      "path": "v18_d4_confirmation/registration/project_archive_execution/OSF_PROJECT_GATE_EVIDENCE.json",
+      "sha256": "2acb69de275b0ff87e344d17844371844cf3993a80ea5ec13e48554ee8d5e7a2"
+    },
+    "author_authorization": {
+      "path": "v18_d4_confirmation/registration/project_archive_execution/AUTHOR_GATE_AUTHORIZATION.json",
+      "sha256": "732128b7a05af7af8fb52e2a6773830d81373c743e07c7d934a8492d75e723a3"
+    },
+    "procedural_deviation": {
+      "path": "v18_d4_confirmation/registration/project_archive_execution/EXECUTION_ARCHIVE_DEVIATION.json",
+      "sha256": "9b10d939aedfa2fa32540f6f9e2343419cfcc01d3d687d841994574e8b735ae6"
+    }
+  }
+}

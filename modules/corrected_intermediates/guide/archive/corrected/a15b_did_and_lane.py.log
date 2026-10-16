@@ -1,0 +1,13 @@
+DiD W1 minus w0y   D3_Rest: same guide minus switched +0.0187 [+0.0098, +0.0297]
+DiD W1 minus w0y   D1_Rest: same guide minus switched +0.0212 [+0.0161, +0.0265]
+DiD W1 minus w0y   D2_Rest: same guide minus switched +0.0131 [+0.0053, +0.0207]
+  pooled W1 minus w0y   +0.0176 [+0.0104, +0.0256] -> W1's gain is larger within a guide and narrows across guides; this attributes nothing to any mechanism
+DiD W1 minus raw   D3_Rest: same guide minus switched +0.0172 [+0.0051, +0.0265]
+DiD W1 minus raw   D1_Rest: same guide minus switched +0.0190 [+0.0117, +0.0251]
+DiD W1 minus raw   D2_Rest: same guide minus switched +0.0006 [-0.0053, +0.0067]
+  pooled W1 minus raw   +0.0123 [+0.0038, +0.0194] -> W1's gain is larger within a guide and narrows across guides; this attributes nothing to any mechanism
+lane D3_Rest: TVD quartiles [0.24, 0.27, 0.31], mean 0.273, TVD>=0.5 on 0.0% of targets, fully disjoint lanes on 0.0%
+lane D1_Rest: TVD quartiles [0.24, 0.27, 0.3], mean 0.271, TVD>=0.5 on 0.2% of targets, fully disjoint lanes on 0.0%
+lane D2_Rest: TVD quartiles [0.24, 0.27, 0.3], mean 0.280, TVD>=0.5 on 2.3% of targets, fully disjoint lanes on 0.0%
+
+lane reading: intermediate: the numbers are reported and no conclusion is drawn [66s]

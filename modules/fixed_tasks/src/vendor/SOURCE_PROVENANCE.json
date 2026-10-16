@@ -1,0 +1,43 @@
+{
+  "purpose": "replay of frozen scientific calculations; not a new analysis lock",
+  "sources": [
+    {
+      "source": "v18_d4_confirmation/evaluation/vendor/exact_score.py",
+      "sha256": "9f940b35031016a5287c0c4e1ce519058cc3357b8567787cc348999cb2ce9683",
+      "copied_to": "exact_score.py",
+      "mode": "full unmodified file"
+    },
+    {
+      "source": "v17_experiments/evaluation/common.py",
+      "sha256": "48d23564d0cd18b4edbd961051374527a0b65c40f11d1cc1936e235093f7fd7d",
+      "copied_to": "frozen_summary.py",
+      "mode": "functions extracted verbatim",
+      "functions": [
+        {
+          "name": "all_contrasts",
+          "source_segment_sha256": "02b9c32b3feee21dbf27ff718bec06b404a09961bb911df26b8db5a638c122f3"
+        },
+        {
+          "name": "dual_labels",
+          "source_segment_sha256": "be871c072d49b9c626217ba285f225b7f61abf08488127db88bd7850f07feee0"
+        },
+        {
+          "name": "summarize",
+          "source_segment_sha256": "44d5a9c83b97af5aa9adccfc5413e97d77b89f62efc3bf081772217ce1f45ef7"
+        }
+      ]
+    },
+    {
+      "source": "v18_d4_confirmation/evaluation/score_d4.py",
+      "sha256": "3959f4dea817bb866b341220b554e1da3604c9c2c6f993035e28deea2b34691f",
+      "copied_to": "frozen_summary.py",
+      "mode": "functions extracted verbatim",
+      "functions": [
+        {
+          "name": "adjudicate",
+          "source_segment_sha256": "7d7468878193cee1c4f9ebb99f7687be528b9330711ddcbd91ba72e01f8830e1"
+        }
+      ]
+    }
+  ]
+}

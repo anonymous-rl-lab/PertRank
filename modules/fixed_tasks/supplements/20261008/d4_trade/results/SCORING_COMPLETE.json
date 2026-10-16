@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-08T15:54:27Z",
+  "fits": 2945,
+  "new_weights_sha256": "ed7f24f3162e4cac2c0a761ce40ba71676ff6053cdc00348c54a182ba55206a6",
+  "scoring_code_sha256": "7546c551c0398041d934dec44e42a17345ec78a74aec8e0dc57f3c296cf9e787",
+  "file_sha256": {
+    "REPORT.md": "3ccd914df4d0c89badcf8e0fbf25e58e09a3804256051bc6948e803a642e1000",
+    "ALL_ARM_MEANS.csv": "e3b24863a09db598be5847c0519c10c6c1750252627d1e8e909048084d1d6b68",
+    "ALL_CONTRASTS.csv": "f19dd77237c697a617df3e5e5eb6592521b43dd1369b10d820082910e8a9dfea",
+    "query_scores.npz": "952c0c097a3865418905daa1d087385bef5042a7ee28c81024919dd078ef235d",
+    "scoring_inputs.npz": "20422f8aa5750aa6a2086f09e2261595140f9c3033c02c0f5bb4bb6fe1aa5191",
+    "D4_TRADE_RESULT.json": "e510a15db0ada0ef6493605554bf356572da8fdc4caebfb65b97c5c939439a6d"
+  }
+}

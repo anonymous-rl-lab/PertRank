@@ -1,0 +1,310 @@
+{
+  "status": "READ_ONLY_FEASIBILITY_COMPLETE_TRAINING_NOT_STARTED",
+  "created_utc": "2026-10-14T00:30:57.536230+00:00",
+  "decision": "CPU is an officially supported device, but full-scale adequately converged execution is not established on this 8 GiB host. Proceed only to the prespecified resource/implementation pilot after the D4 ASH milestone; do not interpret any resource or convergence failure as a GPerturb performance loss.",
+  "access_scope": {
+    "D1_D2_Stim_expression_read": false,
+    "training_or_model_initialization_performed": false,
+    "torch_installed": false,
+    "downloaded_content": "Only pinned official source, README, license, setup and two example notebooks; no pretrained model or atlas"
+  },
+  "official_sources": {
+    "paper": {
+      "title": "GPerturb: Gaussian process modelling of single-cell perturbation data",
+      "doi": "10.1038/s41467-025-61165-7",
+      "url": "https://www.nature.com/articles/s41467-025-61165-7",
+      "published": "2025-07-01"
+    },
+    "repository": {
+      "official_repo": "https://github.com/hwxing3259/GPerturb",
+      "pinned_commit": "05d5a431413ff9dc443c82b994b571ecc563426d",
+      "commit_source": "git ls-remote HEAD and refs/heads/main agree",
+      "files": [
+        {
+          "path": "GPerturb/GPerturb_model.py",
+          "url": "https://raw.githubusercontent.com/hwxing3259/GPerturb/05d5a431413ff9dc443c82b994b571ecc563426d/GPerturb/GPerturb_model.py",
+          "bytes": 49001,
+          "sha256": "29ab3ef8f27e883d46e0a8e54b4783c6ea7fe677d73e04b873d74de90bcd100d",
+          "status": "DOWNLOADED"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/hwxing3259/GPerturb/05d5a431413ff9dc443c82b994b571ecc563426d/README.md",
+          "bytes": 5334,
+          "sha256": "9e971dab08926771da6feea7d1a832090f7248378efe7046d7cf4d1ac5f97114",
+          "status": "DOWNLOADED"
+        },
+        {
+          "path": "setup.py",
+          "url": "https://raw.githubusercontent.com/hwxing3259/GPerturb/05d5a431413ff9dc443c82b994b571ecc563426d/setup.py",
+          "bytes": 914,
+          "sha256": "80c1f5d6783e4c1592b35b6894ccba6c800e6c8775b1b4ba21110379f0d65552",
+          "status": "DOWNLOADED"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/hwxing3259/GPerturb/05d5a431413ff9dc443c82b994b571ecc563426d/LICENSE",
+          "bytes": 1068,
+          "sha256": "ff0a907a8552558f3f9c03c98adc70f2e207fd7d67a437ab7ddb045392ce8e03",
+          "status": "DOWNLOADED"
+        },
+        {
+          "path": "numerical_examples/TCells_GPerturb.ipynb",
+          "url": "https://raw.githubusercontent.com/hwxing3259/GPerturb/05d5a431413ff9dc443c82b994b571ecc563426d/numerical_examples/TCells_GPerturb.ipynb",
+          "bytes": 846625,
+          "sha256": "a2322b59f535259349cf172c64cb594b3550352ba043bde816e6b799a508f555",
+          "status": "DOWNLOADED"
+        },
+        {
+          "path": "numerical_examples/Replogle_GPerturb.ipynb",
+          "url": "https://raw.githubusercontent.com/hwxing3259/GPerturb/05d5a431413ff9dc443c82b994b571ecc563426d/numerical_examples/Replogle_GPerturb.ipynb",
+          "bytes": 718426,
+          "sha256": "ff6b455866cf12bd7c215af16312c48cdcfb053ee2b7d482c5f276098d334cc2",
+          "status": "DOWNLOADED"
+        }
+      ]
+    },
+    "commit_independent_checks": [
+      "git ls-remote HEAD and refs/heads/main agree",
+      "GitHub model page embedded currentOid agrees"
+    ],
+    "package_version_in_setup": "0.0.1",
+    "source_model_class": "GPerturb_Gaussian (uppercase G; do not accidentally use the distinct later GPerturb_gaussian class)"
+  },
+  "source_audit": [
+    {
+      "finding": "Gaussian model is a native continuous-response sparse perturbation regression model; main eligible arm for the existing log-mean-difference ranking task. ZIP is a separate count-scale model and cannot be treated as a numerical replacement without its own endpoint mapping.",
+      "evidence": "Paper model overview; GPerturb_model.py classes GPerturb_Gaussian and GPerturb_ZIP."
+    },
+    {
+      "finding": "Official T-cell example has hidden width 700, four hidden layers in each network, tau=1 and a commented 200-epoch fit. Replogle Gaussian uses width 1000, four layers, learning rate 0.001, 200 epochs. README demonstration uses 250 epochs.",
+      "evidence": "numerical_examples/TCells_GPerturb.py lines 46-61; numerical_examples/Replogle_GPerturb.py lines 132-157; README.md training example."
+    },
+    {
+      "finding": "Native Gaussian loss combines scaled stochastic Gaussian log likelihood, three GP prior penalties and a basal-function penalty. Kernel matrices use the unique perturbation conditions in the current call.",
+      "evidence": "GPerturb_model.py lines 91-149."
+    },
+    {
+      "finding": "Training has Adam, batch size 100, random 1/8 validation holdout and full validation tensor evaluation each epoch; assigning test_id beforehand does not fix its split because GPerturb_train overwrites it.",
+      "evidence": "GPerturb_model.py lines 151-193."
+    },
+    {
+      "finding": "No native early stopping, checkpoint selection or convergence certificate exists in this helper. Gaussian training loss arrays are local and not returned. The test argument does not suppress random Gaussian/Gumbel sampling.",
+      "evidence": "GPerturb_model.py lines 91-149 and 151-193; AST inspection found no return statement in uppercase Gaussian GPerturb_train."
+    },
+    {
+      "finding": "Naively splitting full validation normal_loss into batches changes the unique-condition GP penalty. Such a change must not be represented as an exact reproduction of the native validation objective.",
+      "evidence": "GPerturb_model.py lines 121-149."
+    },
+    {
+      "finding": "Official examples expose both mu times sigmoid(logit_p) and mu times indicator(sigmoid(logit_p)>0.5). These are native plug-in readouts; sigmoid(E logit) is not claimed to equal the fully integrated inclusion probability.",
+      "evidence": "TCells_GPerturb.py lines 90-96; Replogle_GPerturb.py Gaussian prediction section."
+    },
+    {
+      "finding": "The T-cell example loads a preprocessed CSV whose filename contains raw; it does not independently document how that CSV was normalized. We therefore cannot claim its original T-cell preprocessing has been exactly reproduced from the notebook alone.",
+      "evidence": "TCells_GPerturb.py lines 27-30. Replogle Gaussian explicitly applies log1p to counts divided by a scale factor."
+    }
+  ],
+  "hardware": {
+    "memory_limit_bytes": 8589934592,
+    "memory_limit_GiB": 8.0,
+    "CPU_quota_cores": 8.0,
+    "visible_logical_CPUs": 9,
+    "nvidia_smi": null,
+    "GPU_device_nodes": [],
+    "torch_find_spec": "None",
+    "concurrent_heavy_jobs": "All future pilots/training must acquire heavy_memory.lock and run alone with adequate free memory; current free RAM is not a capacity benchmark."
+  },
+  "resource_analysis": {
+    "static_estimates": [
+      {
+        "width": 700,
+        "assumed_D3_cells": 26000,
+        "assumed_input_positive_genes": 15616,
+        "assumed_covariates": 26,
+        "parameter_count": 81444144,
+        "fp32_parameter_gradient_Adam_states_GiB": 1.2136123180389404,
+        "full_expression_GiB": 1.5125274658203125,
+        "dense_perturbation_design_GiB": 0.11622905731201172,
+        "validation_six_output_channels_alone_GiB": 1.1343955993652344,
+        "heuristic_validation_working_memory_GiB": 7.379951238632202,
+        "estimate_scope": "Static tensor accounting, not a measured RSS or proven allocation lower bound. The 24 validation-matrix equivalents approximate live dense tensors and short-lived likelihood temporaries; Python/PyTorch overhead, Gram inverses and allocator workspaces are additional. Actual gene and covariate counts must be checked before execution."
+      },
+      {
+        "width": 1000,
+        "assumed_D3_cells": 26000,
+        "assumed_input_positive_genes": 15616,
+        "assumed_covariates": 26,
+        "parameter_count": 118688544,
+        "fp32_parameter_gradient_Adam_states_GiB": 1.76859712600708,
+        "full_expression_GiB": 1.5125274658203125,
+        "dense_perturbation_design_GiB": 0.11622905731201172,
+        "validation_six_output_channels_alone_GiB": 1.1343955993652344,
+        "heuristic_validation_working_memory_GiB": 7.934936046600342,
+        "estimate_scope": "Static tensor accounting, not a measured RSS or proven allocation lower bound. The 24 validation-matrix equivalents approximate live dense tensors and short-lived likelihood temporaries; Python/PyTorch overhead, Gram inverses and allocator workspaces are additional. Actual gene and covariate counts must be checked before execution."
+      }
+    ],
+    "native_training_has_cpu_argument": true,
+    "GPU_absence_is_not_algorithmic_failure": true,
+    "hard_current_execution_blockers": [
+      "Torch 2.2.2 and the pinned dependency environment are not yet installed/validated.",
+      "No full-shape resource pilot or gradient-equivalence check has passed.",
+      "Required source metadata for mitochondrial fraction and control lane IDs has not yet been audited for all locked input cells."
+    ],
+    "likely_resource_risks": [
+      "Full validation in the native helper makes peak memory substantially larger than its 100-cell training batch suggests.",
+      "At the observed gene dimension, static accounting approaches the entire 8 GiB allocation before Python/PyTorch and temporary linear-algebra workspaces; width 1000 is especially risky.",
+      "No credible CPU wall-time projection is possible without timing full-shape native loss/backward/evaluation."
+    ],
+    "not_proven": "Neither successful full-scale execution nor an unavoidable CPU-only mathematical impossibility is claimed."
+  },
+  "proposed_protocol": {
+    "status": "CONDITIONAL_PROPOSAL_TO_FREEZE_BEFORE_ANY_GP_TRAINING_OR_GP_SCORE_VIEW",
+    "entry_gate": "Completed and verified D4 Rest+Stim native FR/ASH comparison; then primary owner may authorize the resource pilot under the existing staged plan. No training was started by this feasibility work.",
+    "native_model_and_inputs": {
+      "class": "GPerturb_Gaussian from the pinned official module; model forward and normal_loss unchanged",
+      "expression": "FP32 log1p(raw_count * fixed task normalization_scale / raw cell_total); no per-gene centering, z-scoring or effect shrinkage before GP training. This is a documented dataset-specific continuous-input adapter, not a claim of byte-identical original T-cell CSV preprocessing.",
+      "cells": "Exactly each frozen 20-cell target input and its 2,000 non-targeting controls. D3 rep0 development; D4 five Rest plus five Stim repetitions. No planning/reference cells enter fitting.",
+      "genes": "All genes positive in at least one of the locked input/control cells, determined without reference expression; retain every query. Missing query is an eligibility failure, never silently imputed. Preserve all 1,200 D3 candidates and all 300 responsive queries for formal selection.",
+      "perturbation_design": "One-hot column per target; non-targeting controls represented by the all-zero vector; guide identities merged exactly as in the pooled task.",
+      "basal_covariates": "log(total UMI), detected-feature count divided by total UMI, mitochondrial UMI fraction, and lane one-hot coding (drop one lane). All computed from the exact same input cells or metadata. Donor/state constants omitted because fits are separate. Record definitions and units, no learned embedding or post-treatment response score.",
+      "missing_covariates_rule": "Recover metadata only for already allowed donor/state cells. If mitochondrial gene annotation or lane identities cannot be validated, stop this native-example-matched arm or prespecify and label a reduced-covariate sensitivity before fitting; do not silently replace them with zeros.",
+      "precision_and_packages": "Native FP32; torch 2.2.2, numpy 1.26.4, pandas 2.2.1, matplotlib 3.8.0; record Python and BLAS. CPU threads=8, interop=1; serial fits only.",
+      "no_pretrained_weights": true
+    },
+    "D3_only_search": {
+      "fitting_grid": [
+        {
+          "id": "width700_lr0.001",
+          "hidden_node": 700,
+          "hidden_layer_1": 4,
+          "hidden_layer_2": 4,
+          "lr": 0.001,
+          "tau": 1.0,
+          "nu_1": 1.0,
+          "nu_2": 0.1,
+          "nu_3": 1.0,
+          "nu_4": 0.1,
+          "nu_5": 1.0,
+          "nu_6": 0.1,
+          "extra_reg": 0.01
+        },
+        {
+          "id": "width700_lr0.0005",
+          "hidden_node": 700,
+          "hidden_layer_1": 4,
+          "hidden_layer_2": 4,
+          "lr": 0.0005,
+          "tau": 1.0,
+          "nu_1": 1.0,
+          "nu_2": 0.1,
+          "nu_3": 1.0,
+          "nu_4": 0.1,
+          "nu_5": 1.0,
+          "nu_6": 0.1,
+          "extra_reg": 0.01
+        },
+        {
+          "id": "width1000_lr0.001",
+          "hidden_node": 1000,
+          "hidden_layer_1": 4,
+          "hidden_layer_2": 4,
+          "lr": 0.001,
+          "tau": 1.0,
+          "nu_1": 1.0,
+          "nu_2": 0.1,
+          "nu_3": 1.0,
+          "nu_4": 0.1,
+          "nu_5": 1.0,
+          "nu_6": 0.1,
+          "extra_reg": 0.01
+        },
+        {
+          "id": "width1000_lr0.0005",
+          "hidden_node": 1000,
+          "hidden_layer_1": 4,
+          "hidden_layer_2": 4,
+          "lr": 0.0005,
+          "tau": 1.0,
+          "nu_1": 1.0,
+          "nu_2": 0.1,
+          "nu_3": 1.0,
+          "nu_4": 0.1,
+          "nu_5": 1.0,
+          "nu_6": 0.1,
+          "extra_reg": 0.01
+        }
+      ],
+      "readouts": [
+        "mu_mean * sigmoid(logit_p_mean)",
+        "mu_mean * indicator(sigmoid(logit_p_mean)>0.5)"
+      ],
+      "fit_count": 4,
+      "readout_combinations": 8,
+      "selection": "Among eligible converged fits, maximize the existing D3 rep0 bidirectional P@25 for the selected native readout; exact 1e-12 ties prefer width700/lr0.001 then table order, then continuous readout. Retain every grid result and any unavailable configuration. Selection is strongest in this finite declared grid, not universally strongest GPerturb.",
+      "historical_budget_caveat": "At most four fit configurations and eight readout combinations; this is below the FR 21-setting count. Equal setting count is not claimed to imply equal computational or historical tuning effort.",
+      "split": "Seeded random 1/8 holdout from the existing shallow input cells only, matching the official helper convention; save explicit train/validation IDs and per-target counts. D3 validation never includes deep-reference cells.",
+      "seeds": {
+        "primary": 20261014,
+        "selected_config_sensitivity": [
+          20261015,
+          20261016
+        ]
+      },
+      "validation_then_full_input_refit": "Use D3 holdout solely to choose an epoch budget and assess convergence. Refit the selected configuration from scratch on all shallow cells for that fixed epoch budget; formal comparison therefore does not discard a fraction of the 20-cell input. Clearly disclose this checkpoint/refit wrapper as an execution adapter."
+    },
+    "loss_monitoring_and_convergence": {
+      "wrapper": "Expose native loss history, checkpoint model/optimizer/RNG every 5 epochs, explicit train/validation indices, and monitor without changing the model or normal_loss formula. Do not call GPerturb_train separately for each epoch because it re-splits data and resets Adam.",
+      "implementation_gate": "On a small fixed synthetic batch, compare the wrapper and official normal_loss gradients and one Adam update with identical initial tensors and RNG; tolerance 1e-6 relative / 1e-7 absolute. Input and output shape/zero-condition identity must pass. This is an implementation check, not a biological result.",
+      "validation_objective": "Unchanged normal_loss on the complete frozen validation subset. Every 10 epochs, use four fixed common random draws with RNG state restoration and divide the resulting objective by fixed data_size for a comparable scale. Preserve individual draws. This is a stochastic native objective, not an independent predictive-likelihood certificate.",
+      "minimum_epochs": 250,
+      "maximum_epochs": 500,
+      "early_stop_rule": "No stop before epoch250. At each 10-epoch check thereafter, require (i) no validation-objective improvement greater than 0.1% of max(1,abs(best normalized objective)) over the previous 50 epochs; (ii) the native continuous perturbation readout on the fixed 1,200-by-300 output axis changes by relative Frobenius norm <=1% between the last two checkpoints 25 epochs apart (if both norms <1e-6, require absolute RMS <=1e-6); (iii) finite outputs, finite native loss and gradients throughout. Use the earliest eligible epoch as the fixed refit budget. These are operational stability criteria, not proof of variational global convergence.",
+      "post_refit_stability": "The full-input refit must also satisfy finite outputs and the same 25-epoch output-stability criterion at its final epoch. A failed refit is incomplete; do not select an earlier reference-favorable checkpoint.",
+      "seed_sensitivity": "Repeat the selected configuration with two additional predeclared seeds. All three outputs are reported; no best-seed selection. Disagreement must widen interpretation even if each fit passes its operational stop rule."
+    },
+    "staged_budget": {
+      "smoke": {
+        "wall_minutes": 10,
+        "scope": "Synthetic implementation equivalence, package/device check, no candidate ranking or reference access."
+      },
+      "resource_pilot": {
+        "wall_minutes": 60,
+        "scope": "Exact full D3 tensor shapes, at least 20 native training batches and one full validation call for each architecture that can fit; no deep-reference scoring. Extrapolate epoch and 250/500-epoch costs; record peak RSS/cgroup memory and observed batch variance. If even one full validation call exceeds the budget, classify unqualified, not defeated."
+      },
+      "memory_stop_bytes": 6979321856,
+      "memory_stop_note": "Cooperative RSS/cgroup monitor with margin under the 8 GiB cgroup limit; release allocations and save failure log. Never test OOM by killing other experiments.",
+      "per_formal_fit_wall_hours": 12,
+      "D3_grid_wall_hours_max": 48,
+      "D3_selected_validation_or_refit_and_seed_jobs_wall_hours_max": 48,
+      "D4_ten_full_input_fits_wall_hours_max": 120,
+      "budget_accounting": "Separate environment/implementation/pilot time from training. Count every restart and failed job; checkpoint resumptions count toward the same fit budget. Serial runs under heavy_memory.lock. The caps are resource allocations, not assertions that convergence will occur.",
+      "pilot_continue_rule": "Complete memory-safe native full validation and projected 250-epoch fit within 12 hours. If the 500-epoch projection exceeds12h, retain budget-exhaustion as a possible outcome; do not lower minimum epochs or change architecture after seeing performance.",
+      "strongest_grid_claim_rule": "If width1000 cannot be completed, the valid width700 arm may be reported explicitly, but no claim of beating the strongest declared GPerturb grid is allowed. No smaller candidate pool or query-only training is substituted into the primary task.",
+      "hardware_fallback": "If the full native helper cannot satisfy the memory/time gate, request a suitable dedicated machine (suggested starting allocation: >=32 GiB host RAM and >=16 GiB GPU VRAM, then repeat the same measurement gate). This is an engineering starting point, not a validated minimum."
+    },
+    "D4_transfer": {
+      "lock_before_GP_D4_scores": "Archive exact source hashes, package lock, selected architecture/lr/readout, epoch budget, preprocessing rules, seeds and data identities after D3; no D4 retuning.",
+      "fit": "Train from scratch independently on each D4 input repetition using the locked hyperparameters and fixed D3 epoch count, with all20 shallow cells per target and the same2,000 controls; no model trained across repetitions or states.",
+      "stability": "Track native loss and final-output stability without reference access. If a repetition fails the locked stability/resource criteria, mark the method incomplete for the pooled primary comparison. Do not selectively omit that repetition.",
+      "score": "Only complete locked outputs enter the unchanged six-arm task scorer adapted with a native GP output arm; compare raw, Euclidean, PertRank and GP on identical candidates/queries/reference. Report P25 primary, P10 sensitivity and paired query-block uncertainty; cells/donor interpretation as in original protocol.",
+      "D1_D2_Stim": "Remain unopened. GP feasibility does not authorize expression access or substitute for registration/lock checks."
+    },
+    "failure_taxonomy": [
+      "IMPLEMENTATION_INVALID: adapter/axis/gradient mismatch; no score.",
+      "NUMERICAL_FAILURE: nonfinite output/loss/gradient or singular GP solve; log exact state, no outcome-driven solver substitution.",
+      "RESOURCE_BLOCKED: full-shape pilot exceeds memory or time; no performance score.",
+      "BUDGET_EXHAUSTED_UNCONVERGED: reaches time/epoch ceiling without stability; no claim that PertRank outperforms a sufficiently trained GPerturb.",
+      "COMPLETE_ELIGIBLE: finite, aligned, operationally stable and within the locked protocol; may score, including a legitimate low or zero effect estimate."
+    ],
+    "forbidden_shortcuts": [
+      "Using unavailable GPU or uninstalled torch as a negative benchmark result.",
+      "Training only the300 query genes or reducing the candidate pool to make a nominal full-task GP arm fit.",
+      "Treating naive batched validation ELBO as identical to the full native loss.",
+      "Passing a fixed test_id to native GPerturb_train and assuming the split is retained.",
+      "Resetting Adam each epoch or repeatedly calling GPerturb_train to fake checkpointed continuation.",
+      "Using pretrained models that may have seen the reference data.",
+      "Selecting seeds/epochs/covariates using D4 scores."
+    ]
+  }
+}

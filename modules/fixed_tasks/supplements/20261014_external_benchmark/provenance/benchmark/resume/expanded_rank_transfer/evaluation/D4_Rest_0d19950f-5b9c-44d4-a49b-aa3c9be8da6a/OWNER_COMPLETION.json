@@ -1,0 +1,36 @@
+{
+  "analysis_label": "posthoc expanded-rank transfer",
+  "audit_result_sha256": "c1b2a95467c380d3fe1a507e0e686b8c391398fdc928f2102a5919d6eeb23a9a",
+  "created_utc": "2026-10-14T01:50:31.521157+00:00",
+  "execution_sha256": "b69a94e8a76e1b5ef67aeb7bd27bda8d11d7a2d3b1a98e80f0e86e33cc75ec62",
+  "expanded_selection_sha256": "9f6180331c52b334782f6a5c4951a40e80164a210118b6d7b5a0475de0ed062a",
+  "independent_audit_pass": true,
+  "mode": "task",
+  "npz_crc": "PASS",
+  "npz_files": {
+    "audit/task_K10.npz": {
+      "npz_crc_pass": true,
+      "sha256": "f10150114d9ab2d4c4c486dbf45f5dbc55b22fefdf5c8428230c3e2716aa423b"
+    },
+    "audit/task_K25.npz": {
+      "npz_crc_pass": true,
+      "sha256": "7022ac2718b6430689f6e9b6fa42d35e1845240e1d01d1e6f361c4fc6dcb7cb1"
+    },
+    "compact.npz": {
+      "npz_crc_pass": true,
+      "sha256": "04b92ffd6b94a647ec8385cd8347e5791bbcbddf7fdebcf3496be93ef104086d"
+    },
+    "evaluation_arrays.npz": {
+      "npz_crc_pass": true,
+      "sha256": "cab324179b442eb7067de53cc264247fd4701f33053bcf140ae9957d1d9120d7"
+    }
+  },
+  "original_primary_unchanged": true,
+  "owner_exit_code": 0,
+  "owner_session_id": "1301",
+  "primary_continuation_gate_computed": false,
+  "report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/evaluation_report.json",
+  "report_sha256": "67f2da4d6ae3bd13362802ca01f1378d520ddcb3fcf91d3b9db58d12d532bb0f",
+  "separate_tool_call_after_owner_exit_zero": true,
+  "status": "OWNER_EXECUTION_ENDED_INTEGRITY_VERIFIED"
+}

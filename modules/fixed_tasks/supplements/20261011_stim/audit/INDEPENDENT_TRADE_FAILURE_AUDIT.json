@@ -1,0 +1,32 @@
+{
+  "status": "CONFIRMED_FROZEN_COMPARATOR_FIT_FAILURE",
+  "utc": "2026-10-11T04:45:21Z",
+  "target": "ENSG00000167130",
+  "replicate": 2,
+  "complete_gene_axis": 13394,
+  "deterministic_same_rng_repeat": true,
+  "error": "solve(): solution not found",
+  "upstream_error_path": [
+    "ashr::ash",
+    "estimate_mixprop",
+    "mixSQP",
+    "mixsqp::mixsqp",
+    "mixsqp_rcpp",
+    "solve(): solution not found"
+  ],
+  "prior_successes": 2,
+  "remaining_batch_fits_not_attempted": 37,
+  "scientific_modifications": false,
+  "new_network_requests": 0,
+  "truth_accessed": false,
+  "original_batch_preserved_and_unchanged": true,
+  "preservation_manifest_sha256": "f3127a0a71b7dc567f6ed2c8ca0ebc53dbec04107b76d2d86c0e8d6f93f85098",
+  "frozen_source_sha256": "b2fc72c0e5d7c2cde9631e73e33a95cdfed23a31b3a93c5d7141332452426320",
+  "diagnostic_script_sha256": "ab1d19eef06d0cbb9967e41764d026602ac4c6d484c31d85c9be7ee1bd54e5d9",
+  "compact_report_sha256": "e36299fa85661aa2e93c839db0bea3b73983ee3a409ae974421df160ec6ed599",
+  "diagnostic_log_sha256": "332c57389e803e6b829ae432028f6667edb615c0299938422bba5e58c6c3b6b6",
+  "protocol_rule": {
+    "line189": "Uncomputable frozen comparator contrast not evaluable; H1 remains evaluable if own inputs valid. Missing comparison is not a win.",
+    "line205": "No gene deletion/replacement estimator/favorable valid subset."
+  }
+}

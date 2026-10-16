@@ -1,0 +1,312 @@
+{
+  "status": "PASS_FOR_COMPLETED_MIXTURES",
+  "fits_checked": 2945,
+  "complete_formal_result": true,
+  "maximum_absolute_errors": {
+    "mean": 5.2041704279304213e-17,
+    "TI": 3.4694469519536142e-17,
+    "S": 1.3877787807814457e-17,
+    "weight": 7.7715611723760958e-16,
+    "loglik": 5.0931703299283981e-11
+  },
+  "batches": [
+    {
+      "batch": "targets_0000_0008",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0008_0016",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0016_0024",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0024_0032",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0032_0040",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0040_0048",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0048_0056",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0056_0064",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0064_0072",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0072_0080",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0080_0088",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0088_0096",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0096_0104",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0104_0112",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0112_0120",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0120_0128",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0128_0136",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0136_0144",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0144_0152",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0152_0160",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0160_0168",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0168_0176",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0176_0184",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0184_0192",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0192_0200",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0200_0208",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0208_0216",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0216_0224",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0224_0232",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0232_0240",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0240_0248",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0248_0256",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0256_0264",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0264_0272",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0272_0280",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0280_0288",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0288_0296",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0296_0304",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0304_0312",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0312_0320",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0320_0328",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0328_0336",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0336_0344",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0344_0352",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0352_0360",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0360_0368",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0368_0376",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0376_0384",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0384_0392",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0392_0400",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0400_0408",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0408_0416",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0416_0424",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0424_0432",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0432_0440",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0440_0448",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0448_0456",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0456_0464",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0464_0472",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0472_0480",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0480_0488",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0488_0496",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0496_0504",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0504_0512",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0512_0520",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0520_0528",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0528_0536",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0536_0544",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0544_0552",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0552_0560",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0560_0568",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0568_0576",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0576_0584",
+      "fits": 40
+    },
+    {
+      "batch": "targets_0584_0589",
+      "fits": 25
+    }
+  ],
+  "reconstruction": "two-point Gauss-Legendre quadrature over each saved uniform component",
+  "refitting_performed": false
+}

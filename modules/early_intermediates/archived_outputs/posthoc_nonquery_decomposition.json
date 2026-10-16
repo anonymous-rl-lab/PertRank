@@ -1,0 +1,72 @@
+{
+ "status": "post-hoc diagnostic; not pre-declared; not part of any decision",
+ "E1 reference-variance 20": {
+  "gene_set_change__w0y_nonquery_vs_w0y": {
+   "diff": -0.0122,
+   "ci95": [
+    -0.01807,
+    -0.0072
+   ]
+  },
+  "metric_change__W1_nonquery_vs_w0y_nonquery": {
+   "diff": 0.01027,
+   "ci95": [
+    0.00485,
+    0.01673
+   ]
+  },
+  "reported_sensitivity__W1_nonquery_vs_w0y": {
+   "diff": -0.00193,
+   "ci95": [
+    -0.00742,
+    0.00419
+   ]
+  }
+ },
+ "E1 reference-variance 50": {
+  "gene_set_change__w0y_nonquery_vs_w0y": {
+   "diff": -0.00367,
+   "ci95": [
+    -0.00822,
+    -0.0
+   ]
+  },
+  "metric_change__W1_nonquery_vs_w0y_nonquery": {
+   "diff": 0.00193,
+   "ci95": [
+    -0.00091,
+    0.00526
+   ]
+  },
+  "reported_sensitivity__W1_nonquery_vs_w0y": {
+   "diff": -0.00173,
+   "ci95": [
+    -0.00585,
+    0.00221
+   ]
+  }
+ },
+ "E4 D3 responsive 20": {
+  "gene_set_change__w0y_nonquery_vs_w0y": {
+   "diff": -0.02258,
+   "ci95": [
+    -0.02648,
+    -0.01915
+   ]
+  },
+  "metric_change__W1_nonquery_vs_w0y_nonquery": {
+   "diff": 0.046,
+   "ci95": [
+    0.03235,
+    0.05954
+   ]
+  },
+  "reported_sensitivity__W1_nonquery_vs_w0y": {
+   "diff": 0.02342,
+   "ci95": [
+    0.01197,
+    0.03582
+   ]
+  }
+ }
+}

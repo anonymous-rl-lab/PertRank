@@ -1,0 +1,3 @@
+{
+  "TRADE_scalar": "The fixed TRADE scalar adapter fails deterministically at target ENSG00000167130, replicate 2: mixsqp_rcpp reports solve(): solution not found. Original full-gene inputs are valid; an identical RNG-state retry reproduces the failure. The complete-cohort registered comparison cannot be evaluated without an unregistered estimator change or target omission."
+}

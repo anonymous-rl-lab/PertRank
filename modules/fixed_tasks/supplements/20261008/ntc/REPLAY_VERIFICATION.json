@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "mode": "float64 cross-Gram sufficient-statistic replay",
+  "source_raw_counts_reconstructed": false,
+  "gene_level_half_means_reconstructed": false,
+  "network_reads": 0,
+  "new_model_fits": 0,
+  "new_experimental_selection": false,
+  "ntc_guides": 468,
+  "target_pairs": 64,
+  "genes": 13390,
+  "selected_cells": 23840,
+  "repetitions": 2000,
+  "seed": 20261008,
+  "ntc": {
+    "pair_energy": 0.0031361378279221755,
+    "centered_guide_energy": 0.0015680689139610877,
+    "bootstrap_95_percentile": [
+      0.002898400852497011,
+      0.0033684483407712806
+    ],
+    "permutation_p_greater": 0.0004997501249375312,
+    "permutation_p_two_sided": 0.0004997501249375312,
+    "permutation_null_95": [
+      -0.0001389858082423923,
+      0.00013473561973735305
+    ]
+  },
+  "target_same_gene_control": {
+    "pair_energy_mean": 0.002454901436948028,
+    "bootstrap_95_percentile": [
+      0.002103245024029522,
+      0.0028490491398612894
+    ]
+  },
+  "lane_composition": {
+    "ntc_half_lane_tv_max": 0.35,
+    "ntc_perfectly_balanced_guides": 426,
+    "target_between_guide_lane_tv_median": 0.55,
+    "ntc_guide_lane_cramers_v": 0.20666103326537782
+  },
+  "negative_estimates_preserved": true,
+  "new_replanning_not_interrupted_script_replay": true,
+  "interpretation_limits": [
+    "Guide-related structure is conditional on the frozen gene axis and normalization scale; not a causal sequence effect.",
+    "NTC guide bootstrap resamples the observed guides, paired halves together; it does not propagate donor, feature-axis or normalization uncertainty.",
+    "B-spectrum permutation assumes guide exchangeability; lane composition remains a potential contributor.",
+    "A negative or nonsignificant result is nondetection, not proof of absence.",
+    "The same-target targeting control can reflect guide efficacy and guide-associated factors; it excludes between-target biological differences."
+  ],
+  "verified_available_freeze_entries": [
+    "PROTOCOL.json",
+    "selection.npz",
+    "selection_report.json",
+    "ntc_selected_cells.json",
+    "target_selected_cells.json",
+    "prepare_metadata.py",
+    "select_guides.py",
+    "select_guides_portable.py",
+    "read_selected.py",
+    "stats_impl.py",
+    "evaluate.py",
+    "freeze_run.py",
+    "RUNTIME.json",
+    "frozen_assets/SOURCE_PROVENANCE.json",
+    "frozen_assets/A15_D3_cohort.npz",
+    "frozen_assets/ntc_original/original_input_ntc_metadata.npz",
+    "frozen_assets/ntc_original/selection_check.json",
+    "vendor/metadata_source.py",
+    "vendor/hdf5_chunk_index.py",
+    "vendor/row_transport.py",
+    "metadata/metadata_report.json",
+    "metadata/hdf_objects.json"
+  ],
+  "errors": {
+    "ntc_point": 0.0,
+    "ntc_centered_guide_energy": 0.0,
+    "all_2000_ntc_bootstrap_draws": 3.0357660829594124e-18,
+    "all_2000_ntc_permutation_draws": 0.0,
+    "all_64_target_pair_energies": 1.734723475976807e-18,
+    "all_2000_target_bootstrap_draws": 8.673617379884035e-19,
+    "ntc_interval": 1.3010426069826053e-18,
+    "ntc_null_interval": 0.0,
+    "target_interval": 0.0,
+    "target_point": 0.0,
+    "ntc_half_lane_tv": 5.551115123125783e-17,
+    "target_half_lane_tv": 0.0,
+    "target_between_guide_lane_tv": 1.1102230246251565e-16,
+    "ntc_guide_lane_cramers_v": 0.0
+  },
+  "compact_sha256": "91a1cebe9a88999bb90c5497b98d21b225ebd5b0694c4d76bd83476cb76998ad",
+  "seconds": 0.1344057589994918
+}

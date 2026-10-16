@@ -1,0 +1,358 @@
+{
+  "status": "SOURCE_BINDING_AND_COMPLETION_CHECKS_PASS",
+  "utc": "2026-10-14T02:21:12.985921+00:00",
+  "sources": [
+    {
+      "label": "Depth A_native_default_penalty n=20: owner",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n20/SCORE_OWNER_COMPLETION.json",
+      "sha256": "d0bc693df6c92666ea723624de3a2eea09de06f35b6298179679db5768724903"
+    },
+    {
+      "label": "Depth A_native_default_penalty n=20",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n20/evaluation_report.json",
+      "sha256": "e072bff9f4def8ad8d6e97cd4ffdfd5850741a39a8fa49f20dac2239ae966666"
+    },
+    {
+      "label": "Depth A_native_default_penalty n=20: method minus raw",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n20/descriptive_relative_to_raw.json",
+      "sha256": "fba0a9090a7c9a61f86fe0b76e528b8923ac75c8c4d1e8aba157fc4562c46234"
+    },
+    {
+      "label": "Depth A_native_default_penalty n=50: owner",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n50/SCORE_OWNER_COMPLETION.json",
+      "sha256": "e2cf9010e0eb648845f45852327f354f87675fe40b6483385f3efd0815a85ce2"
+    },
+    {
+      "label": "Depth A_native_default_penalty n=50",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n50/evaluation_report.json",
+      "sha256": "2af87462d324fa0a5eb1cac3b45ccaeb822ae50bbe589910a359c3dc79a8290a"
+    },
+    {
+      "label": "Depth A_native_default_penalty n=50: method minus raw",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n50/descriptive_relative_to_raw.json",
+      "sha256": "e33e4dcb3adb95b1839998eb464cb9b6f09fe72a60799a898a2313e7498ed528"
+    },
+    {
+      "label": "Depth A_native_default_penalty n=100: owner",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n100/SCORE_OWNER_COMPLETION.json",
+      "sha256": "27ec93365fbc548c31ff2aeab19d2444bb6d7c64da1d2ff1e9360c79286a9d6f"
+    },
+    {
+      "label": "Depth A_native_default_penalty n=100",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n100/evaluation_report.json",
+      "sha256": "3e2e8ccaca62486d124d9ad2f5469028ce3de266195771ccd81367589b3bd438"
+    },
+    {
+      "label": "Depth A_native_default_penalty n=100: method minus raw",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n100/descriptive_relative_to_raw.json",
+      "sha256": "29180c5c397421e61502fe8d6fc1235a4aa90010979c37ed1064f81b3bbfbf6e"
+    },
+    {
+      "label": "Depth B_effective_penalty_sensitivity n=20: owner",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n20/SCORE_OWNER_COMPLETION.json",
+      "sha256": "63067b465ca9f8f9e51cfde1589bff8beb44014d6ba0480eabe976d60d08ecff"
+    },
+    {
+      "label": "Depth B_effective_penalty_sensitivity n=20",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n20/evaluation_report.json",
+      "sha256": "94366f13b19ec013ac61539cfd9fb1bca3ef5e8ec5f8bcf73e79d2ec8f39f40d"
+    },
+    {
+      "label": "Depth B_effective_penalty_sensitivity n=20: method minus raw",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n20/descriptive_relative_to_raw.json",
+      "sha256": "5787b989cf380b3bfb2749b4752ef6104eb4933ff3d9586c932120a0b6fcfbde"
+    },
+    {
+      "label": "Depth B_effective_penalty_sensitivity n=50: owner",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n50/SCORE_OWNER_COMPLETION.json",
+      "sha256": "fdffec6e0483cc502fcf449a49c8202d64f904142198460cc78dcbfc1d2dc6fd"
+    },
+    {
+      "label": "Depth B_effective_penalty_sensitivity n=50",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n50/evaluation_report.json",
+      "sha256": "76450248a41b2778da4f3ad0fed2afdad1dd8f87e56c9719164df41d44473946"
+    },
+    {
+      "label": "Depth B_effective_penalty_sensitivity n=50: method minus raw",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n50/descriptive_relative_to_raw.json",
+      "sha256": "2b778d0b894aca11701c21a7d71c6161fb5587e65f0494ce1e1da2488116045c"
+    },
+    {
+      "label": "Depth B_effective_penalty_sensitivity n=100: owner",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n100/SCORE_OWNER_COMPLETION.json",
+      "sha256": "c4cb84a94876ab86434f547e89990e1725c484e410a25384a0759be5bd59c239"
+    },
+    {
+      "label": "Depth B_effective_penalty_sensitivity n=100",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n100/evaluation_report.json",
+      "sha256": "a060d244a9a6cc9a8fe0ef4b5ab4526963a3caa8f504eb1a2c14dcb7c79992f3"
+    },
+    {
+      "label": "Depth B_effective_penalty_sensitivity n=100: method minus raw",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n100/descriptive_relative_to_raw.json",
+      "sha256": "1f01a6f6c6d4531a37b7986a1ec007718932605f8fdb72b87c5a009ddfd51316"
+    },
+    {
+      "label": "D3 matched input reconciliation",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/D3_TASK_RECONCILIATION.json",
+      "sha256": "67cc34f3b4398c124ac45ec707313f09e88c7c67ea82e8cd6dff3f254d155e6d"
+    },
+    {
+      "label": "Original D3 rank 100 restored report",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank100_default_lasso/evaluation_report.json",
+      "sha256": "06efaccaf79a6eff5f9920d3ee766d88cded7b57e34d5a84f938bdbaf207b16e"
+    },
+    {
+      "label": "New D3 rank extension execution",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/RANK_BOUNDARY_EXECUTION.json",
+      "sha256": "c054b0f444360b00ebb2a524bc5a73011102c1cc2ba687e13139a05dedaffc24"
+    },
+    {
+      "label": "New D3 rank 150",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/rank_boundary_evaluation/rank150_default_lasso/evaluation_report.json",
+      "sha256": "c80da27bcba861c7732ec27ff1d83daa808350962f44150037984d1974d29b91"
+    },
+    {
+      "label": "New D3 rank 200",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/rank_boundary_evaluation/rank200_default_lasso/evaluation_report.json",
+      "sha256": "1b31eac0a5444b25dee5ef1abf3899fb3f7500bdc16edcd5f5c7f43242af2d07"
+    },
+    {
+      "label": "New D3 rank 300",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/rank_boundary_evaluation/rank300_default_lasso/evaluation_report.json",
+      "sha256": "b68848b16313372b7de9840f561ed40a13afe36b7702ffda317aa6f75a92e369"
+    },
+    {
+      "label": "D3 default ASH restored posterior confirmation",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D3_DEFAULT_REPLAY_CONFIRMATION.json",
+      "sha256": "146834963f209db14fc92404eba8053feaec8b471967fda472bb3c10a30c955d"
+    },
+    {
+      "label": "D4_Rest original FR restored result",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evaluation/D4_Rest/evaluation_report.json",
+      "sha256": "e9308b5c4038c39ae172dff04f1ee2f5a76d19d92f59edcf9a8a08e1b45a7c75"
+    },
+    {
+      "label": "D4_Rest score audit",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evaluation/D4_Rest/audit/AUDIT_RESULT.json",
+      "sha256": "b1892af7598865b459bde8f88717595db3e92f26244a0a4220befc1014530405"
+    },
+    {
+      "label": "D4_Stim8hr original FR restored result",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evaluation/D4_Stim8hr/evaluation_report.json",
+      "sha256": "04a4747ff178d81494a8abeef07ffaee45a2ccbecafc68e433ad2d51f1c182e6"
+    },
+    {
+      "label": "D4_Stim8hr score audit",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evaluation/D4_Stim8hr/audit/AUDIT_RESULT.json",
+      "sha256": "2aa502b369286378b28ce44942522432ec9bd66117765a0c7d28bb0819722320"
+    },
+    {
+      "label": "Restored original FR equal-state summary",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evaluation/equal_state/equal_state_report.json",
+      "sha256": "46c264be0db448946ce3150ae4821d29b4da293a0e892a13b7490dd2feba3efc"
+    },
+    {
+      "label": "Equal-state summary owner",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evaluation/equal_state/OWNER_COMPLETION.json",
+      "sha256": "ed6746e69b319e254d08795585b2cf1870fccd0ceec05c5b9e9bbbcf4d218429"
+    },
+    {
+      "label": "Descriptive PertRank minus weighted FR",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evaluation/equal_state/requested_extra_contrasts.json",
+      "sha256": "2cbb07b01b00917eaf1cceeaeace21a1757ff082d882e856d092998095300d04"
+    },
+    {
+      "label": "New GPerturb full-input resource gate",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/GPerturb_REAL_D3_RESOURCE_GATE_RESULT.json",
+      "sha256": "f7395bf9bcede7b410e247d13204697643a7bfb7aafe3db87df223903567bd09"
+    },
+    {
+      "label": "D4_Rest_pooled ASH post-owner integrity",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Rest_pooled/POST_EXEC_VERIFIED.json",
+      "sha256": "add0bcc591ad354233a071098132ba4a60f25ea586b6f20422d341700ed5de33"
+    },
+    {
+      "label": "D4_Rest_pooled completed ASH comparison",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Rest_pooled/evaluation_report.json",
+      "sha256": "90ef19233b0f19bbe09e49effa9728d5b51e7c909adedc6367be11dc5368f3d9"
+    },
+    {
+      "label": "D4_Rest_pooled common-arm identity",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Rest_pooled/COMMON_THREE_ARM_MATCH.json",
+      "sha256": "701fc3aa7fd201e82009c6063c654bac13ef7a45e8318be187d0ff0e29963d7e"
+    },
+    {
+      "label": "D4_Stim8hr_pooled ASH post-owner integrity",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_pooled/POST_EXEC_VERIFIED.json",
+      "sha256": "8b772ee31bf9ddaacbd6dfc1e1fe2a558388fd8159aa8d4ee7e26d432d81d5fd"
+    },
+    {
+      "label": "D4_Stim8hr_pooled completed ASH comparison",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_pooled/evaluation_report.json",
+      "sha256": "9cd5a42329fc7b610272684512eed31567748169c4069e1c4fd942a19339745d"
+    },
+    {
+      "label": "D4_Stim8hr_pooled common-arm identity",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_pooled/COMMON_THREE_ARM_MATCH.json",
+      "sha256": "8b1495802a9628e2cf6b951509f8364a979fd1fda303e4e186522c839ac36611"
+    },
+    {
+      "label": "ASH two-state summary post-owner integrity",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_pooled_combined/POST_EXEC_VERIFIED.json",
+      "sha256": "18b1650198d9e98ab3516356525c0ac6a1666ca800ca0627a4e2ae48961203d2"
+    },
+    {
+      "label": "ASH completed equal-state comparison",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_pooled_combined/equal_state_report.json",
+      "sha256": "c168264e36cb0bc4029ce254d25d8945a9b72e83de0f53a2a684ac09d61cb033"
+    },
+    {
+      "label": "ASH equal-state common-arm identity",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_pooled_combined/COMMON_THREE_ARM_MATCH.json",
+      "sha256": "8f7b2c52b6d5dac3e7bd32286d3159befdd7f7b96d606014ef47d1b541f42f0e"
+    },
+    {
+      "label": "Final verified expanded-rank result sources",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evidence_report_build/EXPANDED_RESULT_SOURCES.json",
+      "sha256": "663b669a8b6daf9c8a0265094b65c0663cd1ab59cc5c11ca8093f27067c01cdf"
+    },
+    {
+      "label": "FR rank 300 D4_Rest owner",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/OWNER_COMPLETION.json",
+      "sha256": "ec3f699a2d8e5b8cc2b12f4447e79e75b8eed70723279f07c3473ae55c06e969"
+    },
+    {
+      "label": "New FR rank 300 D4_Rest",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/evaluation_report.json",
+      "sha256": "67f2da4d6ae3bd13362802ca01f1378d520ddcb3fcf91d3b9db58d12d532bb0f"
+    },
+    {
+      "label": "FR rank 300 D4_Rest common-arm identity",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/COMMON_THREE_ARMS_VS_ORIGINAL.json",
+      "sha256": "328dbb0ef14c64d27240b670df4e840948d5a8a511e4c604e6e24998d3350054"
+    },
+    {
+      "label": "FR rank 300 D4_Stim8hr owner",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/OWNER_COMPLETION.json",
+      "sha256": "ddf07c143ec3c1025e8f9c9b9780d8186210e1fec0cc3ee0750a0a7249bcb547"
+    },
+    {
+      "label": "New FR rank 300 D4_Stim8hr",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/evaluation_report.json",
+      "sha256": "af7a173b8a0e4b4bd058d1ff25b614b6a29b27f3362661debb7ec1c5984b129d"
+    },
+    {
+      "label": "FR rank 300 D4_Stim8hr common-arm identity",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/COMMON_THREE_ARMS_VS_ORIGINAL.json",
+      "sha256": "9737e230e17c1cd9d82ea35a2887821073c0b142b4af2379b680823267e1101a"
+    },
+    {
+      "label": "FR rank 300 equal_state owner",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/equal_state_a138dbae-36d3-4bb3-bf39-0d4f9dd5e17c/OWNER_COMPLETION.json",
+      "sha256": "0396f878dbce1cc87088d28b41aa8bea0da9bd7cf4e0935f5cfe3284c583a7ba"
+    },
+    {
+      "label": "New FR rank 300 equal_state",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/equal_state_a138dbae-36d3-4bb3-bf39-0d4f9dd5e17c/equal_state_report.json",
+      "sha256": "8a3a88e579d4cc76d34bf116da0e0f175caa4199ce411b6d2ba9ad6cd9018780"
+    },
+    {
+      "label": "FR recovery, new work and paused queue classification",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/FR_WORK_CLASSIFICATION_AND_PAUSE_LEDGER.json",
+      "sha256": "012e2a535c874f12a9a1c50a67b2de8ec74bd355c366194eae019848be0eff35"
+    },
+    {
+      "label": "Independent-guide ASH post-owner integrity",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_independent/POST_EXEC_VERIFIED.json",
+      "sha256": "39e861c928f41d078992b742cead4b7978807d9629fd266a509fdda695cbb8e9"
+    },
+    {
+      "label": "New independent-guide ASH comparison",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_independent/evaluation_report.json",
+      "sha256": "4f9107191ec070d3fc740ae57cd84563f9bb996930f7d6af8ddab3851037e1be"
+    },
+    {
+      "label": "Independent-guide frozen scalar identity",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_independent/COMMON_THREE_ARM_MATCH.json",
+      "sha256": "816c4018f45cc4e7c370c8f18de04af7d02a77eb931f638de1f191a3cbd7e05a"
+    },
+    {
+      "label": "ASH depth 20 post-owner integrity",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n20/POST_EXEC_VERIFIED.json",
+      "sha256": "c0e24a258c42b98baee56ffcceaac3fc3529a5c97e2fe1b015c6a3a82a942c19"
+    },
+    {
+      "label": "ASH depth 20",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n20/evaluation_report.json",
+      "sha256": "c0c71e697b8d8e3652b859cf958d2f30e0e3e87699aaef0c164bc5af0ab216e9"
+    },
+    {
+      "label": "ASH depth 20 common-arm identity",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n20/COMMON_THREE_ARM_MATCH.json",
+      "sha256": "b80d9e8b3cd1ce0c1ebc04660acb8171f2302743b0789fad9a2f1d11265c091d"
+    },
+    {
+      "label": "ASH depth 50 post-owner integrity",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n50/POST_EXEC_VERIFIED.json",
+      "sha256": "102affedd07a874d727d3bc57dd9f78485bc299c103ed0814b4ed9f5e9dd513f"
+    },
+    {
+      "label": "ASH depth 50",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n50/evaluation_report.json",
+      "sha256": "b2cf41b6413fce208b8ce67a99e37779662b6f9fd2abbda0bcdee5d5eb6a830d"
+    },
+    {
+      "label": "ASH depth 50 common-arm identity",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n50/COMMON_THREE_ARM_MATCH.json",
+      "sha256": "f701946bfc5b58f14c167003d9b8fa51454ebc4d9e30dc7f17e8aa510e512736"
+    },
+    {
+      "label": "ASH depth 100 post-owner integrity",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n100/POST_EXEC_VERIFIED.json",
+      "sha256": "6f15829d1b38d6c95ed70ed4b9c7a067da2d39ec06b980c56288a16ee4472c14"
+    },
+    {
+      "label": "ASH depth 100",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n100/evaluation_report.json",
+      "sha256": "ae51f3803d26f433c3de3381b91ea676096cdc658909b510f4c1c5e8299170d7"
+    },
+    {
+      "label": "ASH depth 100 common-arm identity",
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n100/COMMON_THREE_ARM_MATCH.json",
+      "sha256": "f7adfcaf2f64170928cb5e264e48ff6fe42b7088a5d22aba52f89e2090f0a940"
+    }
+  ],
+  "models_run": false,
+  "expression_matrices_read": false,
+  "ash_tasks_included": [
+    "D4_Rest_pooled",
+    "D4_Stim8hr_pooled",
+    "\u4e24\u72b6\u6001\u7b49\u6743"
+  ],
+  "depth_reports": 6,
+  "rank_reports": 4,
+  "independent_ASH_included": true,
+  "ASH_depths_included": [
+    20,
+    50,
+    100
+  ],
+  "pending": [],
+  "expanded_rank_300_tasks_included": [
+    "D4_Rest",
+    "D4_Stim8hr",
+    "equal_state"
+  ],
+  "paused": [
+    "D3 ASH alternative prior archival replays",
+    "9 Nscaled FR fits",
+    "1 rank100 independent-guide FR fit"
+  ],
+  "not_evaluated": [
+    "GPerturb performance",
+    "alternative-reference scale",
+    "D1/D2 confirmation"
+  ],
+  "manuscript_v20_modified": false
+}

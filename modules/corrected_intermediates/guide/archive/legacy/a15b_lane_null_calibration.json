@@ -1,0 +1,84 @@
+{
+ "created_utc": "2026-10-05T17:19:05Z",
+ "integrity": {
+  "script_sha256": "253fc72d198a029772bbe9da60ab29ae33ae6a43465870d4f500391e7176b07a",
+  "seed": 1515,
+  "simulations_per_target": 20,
+  "amendment_A15b_sha256": "b3b42938897605d89a0b97f0ba4c968294eb1333e6572cfafbe5ce675672d80b"
+ },
+ "status": "post hoc calibration; it does not change the pre-registered branch of amendment A15b section 3",
+ "cannot": [
+  "it compares each guide's full 100 cells, not the 20 and 80 cell subblocks the four cells use",
+  "a distance near its null bounds how different the lane mixtures are, not what any difference does to a top-25 list, so a batch contribution to the four-cell gap is not excluded"
+ ],
+ "donors": {
+  "D3_Rest": {
+   "targets": 441,
+   "lanes": 24,
+   "observed_tvd": {
+    "median": 0.27,
+    "quartiles": [
+     0.24,
+     0.31
+    ]
+   },
+   "null_tvd": {
+    "median": 0.26149999999999995,
+    "quartiles": [
+     0.255,
+     0.268
+    ]
+   },
+   "fraction_observed_above_null": 0.5714285714285714,
+   "median_difference": 0.009500000000000008,
+   "fraction_disjoint_lanes": 0.0
+  },
+  "D1_Rest": {
+   "targets": 551,
+   "lanes": 23,
+   "observed_tvd": {
+    "median": 0.27,
+    "quartiles": [
+     0.24000000000000002,
+     0.30000000000000004
+    ]
+   },
+   "null_tvd": {
+    "median": 0.25650000000000006,
+    "quartiles": [
+     0.2495,
+     0.26350000000000007
+    ]
+   },
+   "fraction_observed_above_null": 0.6225045372050817,
+   "median_difference": 0.014000000000000012,
+   "fraction_disjoint_lanes": 0.0
+  },
+  "D2_Rest": {
+   "targets": 353,
+   "lanes": 23,
+   "observed_tvd": {
+    "median": 0.2700000000000001,
+    "quartiles": [
+     0.24000000000000005,
+     0.30000000000000004
+    ]
+   },
+   "null_tvd": {
+    "median": 0.25599999999999995,
+    "quartiles": [
+     0.24850000000000003,
+     0.26200000000000007
+    ]
+   },
+   "fraction_observed_above_null": 0.6203966005665722,
+   "median_difference": 0.016500000000000015,
+   "fraction_disjoint_lanes": 0.0
+  }
+ },
+ "summary": {
+  "mean_observed_median": 0.27,
+  "mean_null_median": 0.258,
+  "reading": "the two guides' lane distributions overlap widely: the observed median distance is close to what two samples from the same lane distribution already give. Amendment A15b section 3 set no numeric cut-off, and the observed values fall between its two decided branches, so its pre-registered reading stands unchanged at report the numbers and draw no conclusion. The observed value does sit above its own null on 57% to 62% of targets, a small systematic excess that this calibration reports and does not explain"
+ }
+}

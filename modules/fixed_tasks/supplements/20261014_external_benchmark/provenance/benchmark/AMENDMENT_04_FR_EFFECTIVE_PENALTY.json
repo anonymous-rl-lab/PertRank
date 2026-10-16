@@ -1,0 +1,46 @@
+{
+  "title": "Pre-result sensitivity: native FR effective one-hot LASSO penalty transfer",
+  "created_utc": "2026-10-12T04:29:55.124804+00:00",
+  "new_D3_FR_scores_seen": false,
+  "new_D4_FR_scores_seen": false,
+  "primary_protocol": "AMENDMENT_03_FR_SEARCH_21.json",
+  "primary_protocol_sha256": "edd9b8580c27bdc951938146fe90227aff8f54e9835569ce0122d2bfe0432ab6",
+  "reason": "Native one-hot LASSO threshold is alpha*N_cells/n_group; this has been independently verified analytically. D3 and D4 candidate counts differ, so transferring unchanged nominal alpha does not transfer the same group-level threshold.",
+  "primary_unchanged": "All original 21-grid D3 selection, fixed-nominal-alpha six-arm analyses, K values, cells, panels, references, seeds and development resource gates remain primary and unchanged.",
+  "formula": "alpha_sensitivity = alpha_D3_winner * (N_D3/n_D3_target) / (N_task/n_task_target)",
+  "N_D3": 26000,
+  "n_D3_target": 20,
+  "n_control_all_tasks": 2000,
+  "task_cells": {
+    "D4_Rest": 13780,
+    "D4_Stim8hr": 13220,
+    "D4_Stim_independent": 9900
+  },
+  "n_target_all_tasks": 20,
+  "rank": "Same native-FR D3 winner; no further rank search",
+  "input_reps": {
+    "D4_Rest": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "D4_Stim8hr": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "D4_Stim_independent": [
+      0
+    ]
+  },
+  "inference": "Unchanged official native fitting, fullprecision output and scaling; same fit seed base+rep. No score-driven tuning or effect recalibration.",
+  "six_arms": "raw y; w0*y; wM*y; native F_sensitivity; w0*F_sensitivity; wM*F_sensitivity. Fixed raw-input weights, no new mixing coefficient.",
+  "scoring": "Same frozen panels/references and signed exact-tie P25/P10 scoring; same paired query/bootstrap draws and independent-guide reference draws. Preserve primary and sensitivity reports separately.",
+  "uncertainty": "Sensitivity 95% intervals are descriptive; no additional simultaneous significance claim. Do not present primary-family 99% intervals as multiplicity correction across both families.",
+  "interpretation": "No D4 outcome selects which FR variant is called primary. If the primary PertRank advantage reverses against this native sensitivity, call the finding penalty-transfer-sensitive, not a robust win over FR. The sensitivity cannot retroactively replace a failed primary resource gate.",
+  "budget": "11 additional fixed-parameter fits, sequential with the same memory locks; target <=20min fitting after data are ready. Preserve any failures and mark sensitivity incomplete rather than treating failures as zero."
+}

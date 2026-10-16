@@ -1,0 +1,256 @@
+{
+  "status": "PASS",
+  "scope": "Existing-result replay and software contract tests; no new experiment, raw-source access or model selection.",
+  "modules": {
+    "s3": {
+      "status": "PASS",
+      "seconds": 2.195,
+      "runs": [
+        {
+          "status": "PASS",
+          "seconds": 1.873,
+          "log": "logs/s3_replay.log"
+        },
+        {
+          "status": "PASS",
+          "seconds": 0.123,
+          "log": "logs/s3_independent_audit.log"
+        }
+      ],
+      "comparisons": [
+        {
+          "file": "RESULT.json",
+          "status": "PASS"
+        },
+        {
+          "file": "query_level_results.csv",
+          "status": "PASS"
+        },
+        {
+          "file": "replay_statistics.npz",
+          "arrays": 13,
+          "status": "PASS"
+        },
+        {
+          "file": "block_partition_sensitivity.csv",
+          "status": "PASS"
+        },
+        {
+          "file": "s3_weight_transitions.csv",
+          "status": "PASS"
+        },
+        {
+          "file": "leave_one_block_out.csv",
+          "status": "PASS"
+        },
+        {
+          "file": "s3_alignment_transitions.csv",
+          "status": "PASS"
+        },
+        {
+          "file": "s3_alignment_groups.csv",
+          "status": "PASS"
+        },
+        {
+          "file": "s3_coefficients_summary.csv",
+          "status": "PASS"
+        },
+        {
+          "file": "target_groups.csv",
+          "status": "PASS"
+        }
+      ]
+    },
+    "biology": {
+      "status": "PASS",
+      "seconds": 2.37,
+      "runs": [
+        {
+          "status": "PASS",
+          "seconds": 2.034,
+          "log": "logs/biology.log"
+        }
+      ],
+      "comparisons": [
+        {
+          "file": "nomination_shares.csv",
+          "status": "PASS"
+        },
+        {
+          "file": "subset_comparisons.csv",
+          "status": "PASS"
+        },
+        {
+          "file": "full_pool_contributions.csv",
+          "status": "PASS"
+        },
+        {
+          "file": "RESULTS.json",
+          "status": "PASS"
+        },
+        {
+          "file": "query_scores.npz",
+          "arrays": 3,
+          "status": "PASS"
+        },
+        {
+          "file": "CTLA4_flags.csv",
+          "status": "PASS"
+        },
+        {
+          "file": "target_biology.csv",
+          "status": "PASS"
+        },
+        {
+          "file": "full_pool_scores.csv",
+          "status": "PASS"
+        },
+        {
+          "file": "query_contributions.csv",
+          "status": "PASS"
+        }
+      ]
+    },
+    "transfer": {
+      "status": "PASS",
+      "seconds": 0.564,
+      "runs": [
+        {
+          "status": "PASS",
+          "seconds": 0.526,
+          "log": "logs/transfer.log"
+        }
+      ],
+      "comparisons": [
+        {
+          "file": "transfer_scores.npz",
+          "arrays": 4,
+          "status": "PASS"
+        },
+        {
+          "file": "RESULTS.json",
+          "status": "PASS"
+        },
+        {
+          "file": "query_scores.csv",
+          "status": "PASS"
+        },
+        {
+          "file": "block_influence.csv",
+          "status": "PASS"
+        }
+      ]
+    },
+    "trade": {
+      "status": "PASS",
+      "seconds": 5.266,
+      "runs": [
+        {
+          "status": "PASS",
+          "seconds": 1.623,
+          "log": "logs/trade_replay.log"
+        },
+        {
+          "status": "PASS",
+          "seconds": 3.473,
+          "log": "logs/trade_independent_scores.log"
+        }
+      ],
+      "comparisons": [
+        {
+          "status": "PASS",
+          "fits": 2805,
+          "mixture_moment_max_abs_errors": {
+            "latent_second_moment": 3.9898639947466563e-17,
+            "weight": 8.326672684688674e-16
+          },
+          "scope": "Recomputes moments from fitted mixture parameters; does not refit R mixtures or reconstruct raw-cell standard errors."
+        },
+        {
+          "status": "PRESERVED_NOT_RUN",
+          "analysis": "control replacement",
+          "reason": "Original asset audit reported missing raw input rows; no control-replacement ranking result exists."
+        }
+      ]
+    },
+    "application": {
+      "status": "PASS",
+      "seconds": 4.473,
+      "runs": [
+        {
+          "status": "PASS",
+          "seconds": 1.642,
+          "log": "logs/application_counts.log"
+        },
+        {
+          "status": "PASS",
+          "seconds": 0.458,
+          "log": "logs/ctla4.log"
+        }
+      ],
+      "comparisons": [
+        {
+          "file": "CTLA4_all_candidates.csv",
+          "status": "PASS"
+        },
+        {
+          "file": "CTLA4_summary.csv",
+          "status": "PASS"
+        },
+        {
+          "file": "CTLA4_top25_lists.csv",
+          "status": "PASS"
+        },
+        {
+          "file": "CTLA4_all_groups.csv",
+          "status": "PASS"
+        },
+        {
+          "file": "CTLA4_changed_candidates.csv",
+          "status": "PASS"
+        }
+      ]
+    },
+    "figures": {
+      "status": "PASS",
+      "seconds": 10.119,
+      "runs": [
+        {
+          "status": "PASS",
+          "seconds": 6.504,
+          "log": "logs/draw_main_figures.log"
+        },
+        {
+          "status": "PASS",
+          "seconds": 2.366,
+          "log": "logs/plot_supplement.log"
+        },
+        {
+          "status": "PASS",
+          "seconds": 1.239,
+          "log": "logs/plot_design_attenuation.log"
+        }
+      ],
+      "comparisons": [
+        {
+          "status": "PASS",
+          "main_figures": 6,
+          "supplementary_figures": 5,
+          "output_files": 29,
+          "scope": "Renders archived data; generated image bytes can differ by Matplotlib/font version."
+        }
+      ]
+    }
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "bundled_files_unchanged": true,
+  "lossless_restoration": {
+    "status": "PASS",
+    "restored_array_files": 3,
+    "all_array_bytes_match": true,
+    "precision_changed": false,
+    "core_files_verified": 4
+  },
+  "replay_output_subdirectory": "replay"
+}

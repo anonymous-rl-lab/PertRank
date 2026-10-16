@@ -1,0 +1,5 @@
+predictions,truth,query rule,Unweighted,Euclidean,PertRank
+D2,D3,responsive,0.1670,0.1691,0.1653
+D2,D3,terciles,0.1510,0.1526,0.1537
+D2,D1,responsive,0.1596,0.1743,0.1765
+D2,D1,terciles,0.1379,0.1404,0.1423

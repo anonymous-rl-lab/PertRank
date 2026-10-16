@@ -1,0 +1,259 @@
+{
+  "export_start": "v1.5.0 previously restored full saved states, no raw reads or training",
+  "arrays_unique": 1431,
+  "analyses": [
+    {
+      "analysis": "stage1_energy_source",
+      "script": "repro_v10/same_budget_weight/scripts/stage1_energy_source.py",
+      "script_sha256": "eb06b3908895262c2a1a050c9b059c9952f28b553e56c6fd1968988eafd389c9",
+      "archived_result": "archived_outputs/stage1_results.json",
+      "archived_result_sha256": "c4b6a08fcbb9d3766ea2a8d45c02d5c6cbaaa123cb1323bca1ce0c0f3ec51c4a",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-09,
+      "captured_statistic_calls": 166,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "stage1_reliability",
+      "script": "repro_v10/same_budget_weight/scripts/stage1_reliability.py",
+      "script_sha256": "cbda2e31745af7088e90223fe0f5115544b8c2ff8bc0dc780a18070a3fea2f2a",
+      "archived_result": "archived_outputs/stage1_reliability.json",
+      "archived_result_sha256": "9a692af23ad2c9d82bad077f328cac3ac7818caf43bb037497719ec9bbd5d3b9",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-09,
+      "captured_statistic_calls": 0,
+      "compact_replay_scope": "ARCHIVED_OUTPUT_ONLY"
+    },
+    {
+      "analysis": "evaluate_stage2",
+      "script": "repro_v10/same_budget_weight/stage2/evaluate_stage2.py",
+      "script_sha256": "736f082fd040a957056f91359c9776c4953842e5090b6fb1e37a11b526e83431",
+      "archived_result": "archived_outputs/stage2_results.json",
+      "archived_result_sha256": "60cfced4e5608ef073a37228e60cea5c98f462239cad071befdc94873670e9bd",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-09,
+      "captured_statistic_calls": 300,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "diagnostics_stage2",
+      "script": "repro_v10/same_budget_weight/stage2/diagnostics_stage2.py",
+      "script_sha256": "aad068ca36c99a6635b9cf16804439087205b783b31809ff87203c816c35a07f",
+      "archived_result": "archived_outputs/stage2_diagnostics.json",
+      "archived_result_sha256": "760c568fd364749de6519f9d467b606fe4809ab09c7a70896bc070c22262d0ab",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-09,
+      "captured_statistic_calls": 140,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "evaluate_w1_e4",
+      "script": "repro_v10/same_budget_weight/stage3/evaluate_w1_e4.py",
+      "script_sha256": "daba866ef464135ac973a3faa1ac1f97be350b0f4018bbfcb4a6c8c1f966d1b6",
+      "archived_result": "archived_outputs/stage3_w1_e4.json",
+      "archived_result_sha256": "f89b436f71df3c29847f999765e23f3d84d1a7bb4c2b78f862695d38b77cbe96",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 73,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "evaluate_w1_e4_50",
+      "script": "repro_v10/same_budget_weight/stage3/evaluate_w1_e4_50.py",
+      "script_sha256": "48a3e1e8a3614eff72134433d71515be066b5905aaac974714f2b5a6ab5b9b3e",
+      "archived_result": "archived_outputs/stage3_w1_e4_50.json",
+      "archived_result_sha256": "9533efa0df069d1043f1257198ac35b805e80fe77c508d4547337d7850a7384b",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 49,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "diagnostics_w1_e4",
+      "script": "repro_v10/same_budget_weight/stage3/diagnostics_w1_e4.py",
+      "script_sha256": "164bae98f147e14de7c45089ae771cf6f4c7a6eff526a4e62571d73cf07fbf41",
+      "archived_result": "archived_outputs/stage3_w1_diagnostics.json",
+      "archived_result_sha256": "7eed0831d325a5461d431a0f20e56a2a3ab86ecbe333874568f1ebecf4cd41ba",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 35,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "evaluate_w1_e5",
+      "script": "repro_v10/same_budget_weight/stage3/evaluate_w1_e5.py",
+      "script_sha256": "dc79bf96b6e028a67e75c3a99d388db6cc27da6da9fd0f905e6bc96cb48ba208",
+      "archived_result": "archived_outputs/stage3_w1_e5.json",
+      "archived_result_sha256": "4c8b0a6ea52348b1e8e696e4585561ee8e45b23bad51a97fc6ef702b77d3fe4f",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 55,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "evaluate_d1_confirm",
+      "script": "repro_v10/same_budget_weight/stage3/evaluate_d1_confirm.py",
+      "script_sha256": "107eb464968f467a57544856327b5e71fdd0ef062a4e05104effab6a588ac01c",
+      "archived_result": "archived_outputs/stage3_d1_confirm.json",
+      "archived_result_sha256": "e6c9dcfb1e7e81603f8de2650dd39414c9d7af28487cbe540643bac3c27a4aa6",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 61,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "evaluate_w1_e1",
+      "script": "repro_v10/same_budget_weight/stage3/evaluate_w1_e1.py",
+      "script_sha256": "5cb864bb2fa13400b40499b05172ce330d843145a5e0e9381d97e51177c758cd",
+      "archived_result": "archived_outputs/stage3_w1_e1.json",
+      "archived_result_sha256": "9604691407c8e43b2833024b433bf0bcbc255af769b2e058ff16e1c2a0723419",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 80,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "evaluate_w1_e3",
+      "script": "repro_v10/same_budget_weight/stage3/evaluate_w1_e3.py",
+      "script_sha256": "55a34dbfd81228d7ae939184879a96e96cae7ecf637e7432fc5b2ccf3a191847",
+      "archived_result": "archived_outputs/stage3_w1_e3.json",
+      "archived_result_sha256": "89ebda2e177243f8bbe6ccdb6ce4932ad75db8c17a5d1418aa444316d050b6b8",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 82,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "posthoc_nonquery_decomposition",
+      "script": "repro_v10/same_budget_weight/stage3/posthoc_nonquery_decomposition.py",
+      "script_sha256": "1ef1e68a6818f5f78edb3c1d41f191503cdbd35eb3b24f004ecee1aef9c231d0",
+      "archived_result": "archived_outputs/posthoc_nonquery_decomposition.json",
+      "archived_result_sha256": "f2b7c5840adf4ddc6189e0a1180fa755ee14b51ee2c79fe907cbedfe65981372",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 18,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "correct_d1_self_gene",
+      "script": "repro_v10/same_budget_weight/stage3/correct_d1_self_gene.py",
+      "script_sha256": "c673b72723059190a2ff67af88986cf60596760300d4f0ef3a50c3b29b24ecb0",
+      "archived_result": "archived_outputs/d1_self_gene_correction.json",
+      "archived_result_sha256": "0e93dfc1f3ef8bd4551ce9156f42c825aed3c78b695948fdcaf3851d04ecfcd4",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 48,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "design_ablation_b1",
+      "script": "repro_v10/same_budget_weight/stage3/design_ablation_b1.py",
+      "script_sha256": "1e115321693c8c368abe684e78dd413672ee74de45c0eaadef9b5375decb0eb3",
+      "archived_result": "archived_outputs/b1_design_ablation.json",
+      "archived_result_sha256": "52dd2e50ebf3c7ae00ada9205157a638fd86ec4baf0d49c2d2c1dec89f0aa8dc",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 108,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "cross_donor_b2",
+      "script": "repro_v10/same_budget_weight/stage3/cross_donor_b2.py",
+      "script_sha256": "e1ed791803a4c35264ed7f9bbc60ac4d8352baeca706ab861913ab8e57076ab5",
+      "archived_result": "archived_outputs/b2_cross_donor.json",
+      "archived_result_sha256": "20315ef2a12e4afb6187460f8cb541db860fc8adc3a4f0f0b5b0d18a017cadff",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 48,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "evaluate_b3_baselines",
+      "script": "repro_v10/same_budget_weight/stage3/evaluate_b3_baselines.py",
+      "script_sha256": "e9d6feb1848e72b9ced842d262660a8ee67a6eb818a4b587ee5a33c8e6c19940",
+      "archived_result": "archived_outputs/b3_external_baselines.json",
+      "archived_result_sha256": "54d586307799aa141303943ed6141f638b62ca3a73c9d0e75a34de0bfca483e9",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 92,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "evaluate_b6_entry_shrinkage",
+      "script": "repro_v10/same_budget_weight/stage3/evaluate_b6_entry_shrinkage.py",
+      "script_sha256": "108d5187c84d58532b177b76843d6a868f2a67e243b00ac53464b1342b9c026f",
+      "archived_result": "archived_outputs/b6_entry_shrinkage.json",
+      "archived_result_sha256": "163a40bbe09a63a058cf5c61665c5ef2d0e2153180c167bd8706149aa5811c0d",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 40,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "evaluate_d2_prospective",
+      "script": "repro_v10/same_budget_weight/stage3/evaluate_d2_prospective.py",
+      "script_sha256": "57b02c60bf009a8c41db459fee78117052e12d4f5c85f2614b21f7d452e74f61",
+      "archived_result": "archived_outputs/b7_d2_prospective.json",
+      "archived_result_sha256": "dbd96fb9a354f0d2da6f74e96a2de538931652e5aaaa4b58a26a76b4a0bd6701",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 141,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "direction1_q1_similarity",
+      "script": "repro_v10/same_budget_weight/stage3/direction1_q1_similarity.py",
+      "script_sha256": "fe798f92b7ad771d4cbc3768e225ae47c7f91001ca3697424844ef81b0e26429",
+      "archived_result": "archived_outputs/direction1_similarity.json",
+      "archived_result_sha256": "76915a4c9803703822fef4560219c40f1720ecc9fb0f775c79e633a79f1d1681",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 0,
+      "compact_replay_scope": "ARCHIVED_OUTPUT_ONLY"
+    },
+    {
+      "analysis": "direction1_q2_cases",
+      "script": "repro_v10/same_budget_weight/stage3/direction1_q2_cases.py",
+      "script_sha256": "c885e1136128aa4c3eec084addb76505c90c87f28b10cfa81abfe381c4d59d7a",
+      "archived_result": "archived_outputs/direction1_cases_D1.json",
+      "archived_result_sha256": "654ed0385fe054fb25a36f2a55092439ad6712bba5f25c4bb49ad66ac16f0dac",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 0,
+      "compact_replay_scope": "ARCHIVED_OUTPUT_ONLY"
+    },
+    {
+      "analysis": "evaluate_b8_protein_readout",
+      "script": "repro_v10/same_budget_weight/stage3/evaluate_b8_protein_readout.py",
+      "script_sha256": "64d497ac90e66c93c95e5748197c1cf6af5515955617401d805990633c4f9569",
+      "archived_result": "archived_outputs/b8_protein_readout.json",
+      "archived_result_sha256": "531b1b1bab624c1e1c38dc95155b5d304c6c20ae1a5ac11de0ddb825799817d7",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 36,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "b8_floor_headroom",
+      "script": "repro_v10/same_budget_weight/stage3/b8_floor_headroom.py",
+      "script_sha256": "b2fff7327c4d8056285b9d250c110d66678958d10f1c3ce83dde6586bffe3045",
+      "archived_result": "archived_outputs/b8_floor_headroom.json",
+      "archived_result_sha256": "3d305215000d41b8eceb1bb7760c8c7d3c7301405011d29814097dbd6fc448d5",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 36,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    },
+    {
+      "analysis": "evaluate_depth_ladder",
+      "script": "repro_v10/same_budget_weight/stage3/evaluate_depth_ladder.py",
+      "script_sha256": "a87bbc703daaab5d8f220d86d50d54f457765db985ee531fb1309cd24050cbe7",
+      "archived_result": "archived_outputs/depth_ladder.json",
+      "archived_result_sha256": "c4fe17d4b255cf8ee6191fb73ea568fc8a81ca555a02c26b5cbcc7cd9e251742",
+      "upstream_export_result_comparison": "MATCH",
+      "upstream_comparison_tolerance": 1e-12,
+      "captured_statistic_calls": 42,
+      "compact_replay_scope": "saved query scores to means and query-block bootstrap statistics"
+    }
+  ]
+}

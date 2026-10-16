@@ -1,0 +1,1361 @@
+{
+  "status": "SOURCE_AND_CONFIGURATION_ARCHIVE_NOT_EXECUTED_TRAINING",
+  "created_for": "PertRank v1.5.0 paper reproduction package",
+  "files": [
+    {
+      "path": "benchmark/vendor_work/synthetic_official_LFCs.txt",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/synthetic_official_LFCs.txt",
+      "sha256": "cd4a8b18bb6e996a5de3d5f92b8f3278bce990c690495c3c2ef6e0b6139a6536",
+      "bytes": 45542,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/requirements.txt",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/requirements.txt",
+      "sha256": "a7043498cd999acb793a3128ed58f0687231d8e0838d11cd1735fe697be19a33",
+      "bytes": 459,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/run_development_grid.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/run_development_grid.py",
+      "sha256": "82bb4e0a14b5a8459418c7cdee02d4602dc7daa8692c0de82bb87911f46318bb",
+      "bytes": 2839,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/run_python_atomic_npz.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/run_python_atomic_npz.py",
+      "sha256": "82c273624ff6ab2fd791a75a8d428c4b30745579a52be8550564ef3937537ecc",
+      "bytes": 224,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/RUNNER_SNAPSHOT_MANIFEST.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/RUNNER_SNAPSHOT_MANIFEST.json",
+      "sha256": "12d968779adfd3f701f11646cd2bfd4ff869e212c09b1a3ecc9ea9c4b8079dca",
+      "bytes": 465,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/REAL_SMOKE_SELECTION.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/REAL_SMOKE_SELECTION.json",
+      "sha256": "b3c8dc83fa2a0b7c0b75791a23409ad2ae1d6ebd00daf1aa8b44219057ea32ac",
+      "bytes": 1238,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/export_compact_grid.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/export_compact_grid.py",
+      "sha256": "ce86b4f9f727b10281685b0fe9871878df2eff0a38474007bbb2d20c47faba34",
+      "bytes": 2438,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/run_locked_transfer_atomic_v3.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/run_locked_transfer_atomic_v3.py",
+      "sha256": "61479670a7950fbd76e82b44a3704d64804baa55ebdcfbc0057e9f9750985d2a",
+      "bytes": 5252,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/run_prepared_input.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/run_prepared_input.py",
+      "sha256": "b38fc973085f72c591c234e48c60163f1973099c4ed36153041cc6798678c3ee",
+      "bytes": 2052,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/export_valid_grid_partial.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/export_valid_grid_partial.py",
+      "sha256": "9dc4c9123ff446f565c9597d3b556adb1e1eaa3306c34fb65c8078c4a8671149",
+      "bytes": 1349,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/complete_grid_audit_v2.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/complete_grid_audit_v2.py",
+      "sha256": "2ea1122c0640aa2e1cb7cbe021c4064c4f5a42c44538598b1168213eba86b2b2",
+      "bytes": 4044,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/run_prepared_input_atomic_v3.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/run_prepared_input_atomic_v3.py",
+      "sha256": "5efe3b81dd1f3784f8702c09891b50a467e78b1ff7ff22ce10b2e421940c66f6",
+      "bytes": 3310,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/README_NATIVE.txt",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/README_NATIVE.txt",
+      "sha256": "3acb583b950853fdc07f27d856153eb9bdb0d0faed458428938dfcee6c0cf614",
+      "bytes": 6670,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/run_locked_transfer_audit_v2.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/run_locked_transfer_audit_v2.py",
+      "sha256": "ecce85af50be6576e96a6d03910b0d6de353a1f1ac566e94e44bd2dd76bed085",
+      "bytes": 5251,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/native_recovery_audit.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/native_recovery_audit.py",
+      "sha256": "9994d9eabfa2df9126d0af8809e9e9fdf15b531755e39c36fd35261b04a207ae",
+      "bytes": 3108,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/atomic_npz.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/atomic_npz.py",
+      "sha256": "ec1011ccd4b5d1dec3c11e7a869b954fbe0c3e1fc74d55dd22515a517173f8b3",
+      "bytes": 1776,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/NATIVE_SOLVER_AUDIT_AMENDMENT_V2.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/NATIVE_SOLVER_AUDIT_AMENDMENT_V2.json",
+      "sha256": "106aeab3637b5bf5925bd289cd31c455df0d2638a741734803c1bdd6680126dd",
+      "bytes": 2431,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/fr_native_runner_audit_v2.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/fr_native_runner_audit_v2.py",
+      "sha256": "00f4dbb48888811ad1b41934c71402e98000d5c4482e7bd0db9b4d1ea9cd0aad",
+      "bytes": 15586,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/run_locked_transfer.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/run_locked_transfer.py",
+      "sha256": "f2c4761b6f297aa0491754824d21e7adc67faaa7e68c3d168383cdd2ade803ca",
+      "bytes": 5242,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/synthetic_design.txt",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/synthetic_design.txt",
+      "sha256": "8ca3b33fa131da53ac39b158f04b833ff67f4c126003e620ddd43de5d65cacaf",
+      "bytes": 9331,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/export_compact_fit.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/export_compact_fit.py",
+      "sha256": "9f5db46df0aade30eddc457e1cdb556d669b0ff6362e92a71e14728dbc80f9bf",
+      "bytes": 5851,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/finalize_compact_grid_v2.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/finalize_compact_grid_v2.py",
+      "sha256": "76209e10295e4706516bcf07594bdc710a1dcac254445f0a024bef7de4a0458d",
+      "bytes": 2474,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/SYNTHETIC_REPEAT.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/SYNTHETIC_REPEAT.json",
+      "sha256": "085e289206924d251dce04ed1a17030244322ba34d5ab91463089d47cf679f62",
+      "bytes": 69,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/official_manifest.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/official_manifest.json",
+      "sha256": "e3cad09edac5f77d1ddca7325e0fd96021ca5a8976edfb04903d58470c485732",
+      "bytes": 538,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/audit_existing_grid.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/audit_existing_grid.py",
+      "sha256": "8d45692d1897d242cd6f1fe779b69ec4314c79185a48eaad03784b41445e26bc",
+      "bytes": 1602,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/FR_EXECUTION_RESOURCE_SUMMARY_D3.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/FR_EXECUTION_RESOURCE_SUMMARY_D3.json",
+      "sha256": "437ef09573018301136954097c6a3e6c2367eabfa7a92b42665d2460448a037d",
+      "bytes": 4925,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/export_compact_fit_atomic_v3.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/export_compact_fit_atomic_v3.py",
+      "sha256": "0925a13517f5ae7652ce836faaf634f2fdce461e53065d8f956f91f661e08e3e",
+      "bytes": 482,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/validate_native_cli.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/validate_native_cli.py",
+      "sha256": "479817914c3259c8c3e99a977cb9220e6976ffe590bca8089b1872f65c72336a",
+      "bytes": 2403,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/run_prepared_input_audit_v2.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/run_prepared_input_audit_v2.py",
+      "sha256": "ae65adf02d4b97f56d50189b5f5cdeaf526ce682984a64e1f867673a6b3c8478",
+      "bytes": 2061,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/NATIVE_CLI_IDENTITY.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/NATIVE_CLI_IDENTITY.json",
+      "sha256": "861fb2585f7a7182b630854b6a566c5e540e746692d64baae752d081540c331c",
+      "bytes": 163,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/fr_native_runner.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/fr_native_runner.py",
+      "sha256": "2f60ee745f4788915b509be4c1e1f8f2dc5c2903ff3835b9f033710599157775",
+      "bytes": 15129,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/UNSCORED_GRID_SOLVER_AUDIT.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/UNSCORED_GRID_SOLVER_AUDIT.json",
+      "sha256": "201ec49793e8acc503cc2ff0972e0a69896e75e7fe5f45a06805aba770951652",
+      "bytes": 6345,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/TRANSFER_EXECUTION_SOURCE_LOCK.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/TRANSFER_EXECUTION_SOURCE_LOCK.json",
+      "sha256": "441e469ed0551b322cfc856e87376ec19c95153a6fbe486c9ac5285566e3c827",
+      "bytes": 1129,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/add_native_audit_certificate.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/add_native_audit_certificate.py",
+      "sha256": "6406cb2186c52c59e1bd75455c546bcc60ed654368643a15a0277e030f70e4d2",
+      "bytes": 1530,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/run_all_transfer_fits.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/run_all_transfer_fits.py",
+      "sha256": "0f7cce5ed0523959545af92a495139f969abe4c0b2f46ebe30d2b1ebaccea223",
+      "bytes": 4392,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/FR_NATIVE_METHODS_NOTES.txt",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/FR_NATIVE_METHODS_NOTES.txt",
+      "sha256": "620e46ea1238236978318c80061619e6c5c7212d0f68d902e99487a7efa8c50a",
+      "bytes": 4057,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/ash_work/run_posterior_before_sharding.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/run_posterior_before_sharding.py",
+      "sha256": "a69edb1aaaddb1a4dcf5116ac09bc979409e522a582e9797811fe9930065e5ec",
+      "bytes": 4266,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/ash_work/README.txt",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/README.txt",
+      "sha256": "694a5b46c8ef43d1a61a1215317c524a15e2cc31cf22331755bbc6bfa1e681cd",
+      "bytes": 3858,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/ash_work/posterior_runner_minimal.R",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/posterior_runner_minimal.R",
+      "sha256": "c5fb54beff8050c4d5692ad3328cf12f6bccbf6a1f4e883cf936fde457793a0a",
+      "bytes": 6542,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/ash_work/run_posterior.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/run_posterior.py",
+      "sha256": "5b6c8e6cfcef1517637474a3843a52a2ff23ebe73b4d972b3a183d10473f86d5",
+      "bytes": 4594,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/ash_work/SHARD_EQUIVALENCE_AND_LOCK.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/SHARD_EQUIVALENCE_AND_LOCK.json",
+      "sha256": "d9bb538be68a7bf80bd4dea74ace75df8aba17814067e5135ed2aadc3332062b",
+      "bytes": 1046,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/ash_work/SYNTHETIC_AUDIT.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/SYNTHETIC_AUDIT.json",
+      "sha256": "2bb1614c61ae46322b8eb61ac1a53648ce9c176924165a032b35b37d271a42ce",
+      "bytes": 927,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/ash_work/OUTPUT_SELECTION_PATCH_LOCK.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/OUTPUT_SELECTION_PATCH_LOCK.json",
+      "sha256": "efc0ace78fc1b9ec6854a94f4227796c4d39bc032cc5a615a7f1c9cb763d25e0",
+      "bytes": 533,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/ash_work/select_d3_ash.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/select_d3_ash.py",
+      "sha256": "2de4766b5571f31420d45790400ffc9f7b1bcc5c4b9c11832edf8bcc314f797c",
+      "bytes": 5534,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/ash_work/OUTPUT_SELECTION_EQUIVALENCE.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/OUTPUT_SELECTION_EQUIVALENCE.json",
+      "sha256": "ccbab58ba362e90fcee0b4e2e8e7336a9ae90af153acf8c8377874d5b2c7d9ba",
+      "bytes": 693,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/ash_work/prepare_full_stats.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/prepare_full_stats.py",
+      "sha256": "340660aba5c00211d32fc9941e4bef4664015ebb1eaa730c394a12cc242bf3fc",
+      "bytes": 3458,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/ash_work/posterior_runner_full_output.R",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/posterior_runner_full_output.R",
+      "sha256": "970f66dd2dae513fe15be2b78e78582884c8f8f545f50e51809afa4b14bbd082",
+      "bytes": 6440,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/ash_work/run_sharded.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/run_sharded.py",
+      "sha256": "2610b8847efdd48a44b08eccd700192aa31ed9ab2fa2886ab23e953960aa706d",
+      "bytes": 4774,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/ash_work/posterior_runner.R",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/posterior_runner.R",
+      "sha256": "c5fb54beff8050c4d5692ad3328cf12f6bccbf6a1f4e883cf936fde457793a0a",
+      "bytes": 6542,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/ash_work/D3_REAL_SMOKE_REPORT.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/D3_REAL_SMOKE_REPORT.json",
+      "sha256": "a394abde1ea9824127417f7f865577645cfde5cf5c89798e90dfaf260be60033",
+      "bytes": 2300,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/ash_work/audit_synthetic.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/audit_synthetic.py",
+      "sha256": "9f5b9cc420e9ea81fa493adfab1fc0af4ee393973bef1944b709a4320f0dffbc",
+      "bytes": 2619,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/runner_snapshots/2f60ee745f4788915b509be4c1e1f8f2dc5c2903ff3835b9f033710599157775.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/runner_snapshots/2f60ee745f4788915b509be4c1e1f8f2dc5c2903ff3835b9f033710599157775.py",
+      "sha256": "2f60ee745f4788915b509be4c1e1f8f2dc5c2903ff3835b9f033710599157775",
+      "bytes": 15129,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/runner_snapshots/64ac53b70194b9db9b8f431c12980939a2518d1d25e4374fa1cd7f39ff09fa7d.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/runner_snapshots/64ac53b70194b9db9b8f431c12980939a2518d1d25e4374fa1cd7f39ff09fa7d.py",
+      "sha256": "64ac53b70194b9db9b8f431c12980939a2518d1d25e4374fa1cd7f39ff09fa7d",
+      "bytes": 14894,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/vendor_work/FR-Perturb/compute_pvalues_batched.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/FR-Perturb/compute_pvalues_batched.py",
+      "sha256": "7d2b126301d560ef517d2b800f9b375e28fbe628d1fee1dcbb21bd01e2dd3c4d",
+      "bytes": 4109,
+      "kind": "FR-Perturb_upstream_GPL-3.0"
+    },
+    {
+      "path": "benchmark/vendor_work/FR-Perturb/run_FR_Perturb.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/FR-Perturb/run_FR_Perturb.py",
+      "sha256": "e7d943e472b1748d9286bfaac55cb17bea6bbb2a165e127d6410c7db30480ea2",
+      "bytes": 30106,
+      "kind": "FR-Perturb_upstream_GPL-3.0"
+    },
+    {
+      "path": "benchmark/vendor_work/FR-Perturb/LICENSE",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/FR-Perturb/LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149,
+      "kind": "FR-Perturb_upstream_GPL-3.0"
+    },
+    {
+      "path": "benchmark/vendor_work/FR-Perturb/run_FR_Perturb.R",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/FR-Perturb/run_FR_Perturb.R",
+      "sha256": "74f7ffbac02821244c91b0f03ef5a71376c41884ab17107183e287e519b4f637",
+      "bytes": 15935,
+      "kind": "FR-Perturb_upstream_GPL-3.0"
+    },
+    {
+      "path": "benchmark/vendor_work/FR-Perturb/environment.yml",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/FR-Perturb/environment.yml",
+      "sha256": "457a15bdf6633cc9e4e899d4eac14a5fbca8d8ee31bdf49531a3b98188d394ca",
+      "bytes": 4575,
+      "kind": "FR-Perturb_upstream_GPL-3.0"
+    },
+    {
+      "path": "benchmark/vendor_work/FR-Perturb/FR_Perturb/FR_Perturb.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/FR-Perturb/FR_Perturb/FR_Perturb.py",
+      "sha256": "b47691c5d121e1df5b60cada04535ff931315716c9cff8b66a84a46f947c244c",
+      "bytes": 12560,
+      "kind": "FR-Perturb_upstream_GPL-3.0"
+    },
+    {
+      "path": "benchmark/vendor_work/FR-Perturb/FR_Perturb/utils.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/FR-Perturb/FR_Perturb/utils.py",
+      "sha256": "e4fd06e7c5e7e373a163e5b444556f5fe7354922553e21add055d116315aca5a",
+      "bytes": 7691,
+      "kind": "FR-Perturb_upstream_GPL-3.0"
+    },
+    {
+      "path": "benchmark/vendor_work/FR-Perturb/FR_Perturb/__init__.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/vendor_work/FR-Perturb/FR_Perturb/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "kind": "FR-Perturb_upstream_GPL-3.0"
+    },
+    {
+      "path": "benchmark/pooled_data/checkpoint_indices.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/pooled_data/checkpoint_indices.py",
+      "sha256": "4f347f6a857c1b412926f07c883e24132a03d4c41eac0995c7b4b95a638fb4eb",
+      "bytes": 1717,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/pooled_data/stream_exports.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/pooled_data/stream_exports.py",
+      "sha256": "1433fac4275d778a1f101ac7985fa36317f92f62ef345b7b675ea4e503b7a450",
+      "bytes": 1315,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/pooled_data/prepare_pooled.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/pooled_data/prepare_pooled.py",
+      "sha256": "b5c61dd200a815bf7c82fa0966583911742d56a9ab7cc214f09387c9c36c5f78",
+      "bytes": 5715,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/pooled_data/export_d3.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/pooled_data/export_d3.py",
+      "sha256": "edfa6a8851b0ac3414c9a738dac31ac21ef1c07385e262b227be840284702829",
+      "bytes": 6068,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/pooled_data/prepare_d3.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/pooled_data/prepare_d3.py",
+      "sha256": "bf53c3601756b7a72acbb3f9f5dae6fd91746458afde95d31abe8c61a0c90116",
+      "bytes": 3229,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/pooled_data/read_pooled.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/pooled_data/read_pooled.py",
+      "sha256": "a74bbf5959bfd6cf20b0a99dcfa06942d17f757395af89119386390c928ed8e2",
+      "bytes": 4645,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/pooled_data/summarize_recovery.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/pooled_data/summarize_recovery.py",
+      "sha256": "d85b2f7c680a385273d3b9dc9d82ba89155e347d253a440ef78e2cca3c95abd1",
+      "bytes": 1887,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/pooled_data/export_inputs.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/pooled_data/export_inputs.py",
+      "sha256": "0a12d75e444618b708f3d330b1d567cfba42feb8f929857aa0dd82636b57e9c4",
+      "bytes": 8064,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/evaluation/score_development_grid.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/score_development_grid.py",
+      "sha256": "daea0450474733ab682cd1554416825aac6d7a6913775ebf1723c34016de03ae",
+      "bytes": 3087,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/evaluation/evaluate_nscaled.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/evaluate_nscaled.py",
+      "sha256": "893b738773fd1c95102f0b3e5f4af355c1598ce63fa5f824824bdcf79fdd0b9d",
+      "bytes": 10366,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/evaluation/evaluate_six_arm.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/evaluate_six_arm.py",
+      "sha256": "4acd8cebce3162b25874518942dbed4fae8299cd8fead65da2ef1b789dd95237",
+      "bytes": 27499,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/evaluation/replay_compact.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/replay_compact.py",
+      "sha256": "41869a0d18531fa48bf8180c18180da9ba875abc4f9e98f397003b75f7a803aa",
+      "bytes": 3880,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/evaluation/verify_evaluator.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/verify_evaluator.py",
+      "sha256": "9666d9fbccfb73e75b0917dc66b0c95136caea6d092fe6e6f53d115a79a661d4",
+      "bytes": 3789,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/read_depth.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/posthoc_depth_20261014/read_depth.py",
+      "sha256": "3bc6597555211acfbaadc0452312e8d034aa03a15e3743faec9f09ebc2bd3f3a",
+      "bytes": 1727,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluate_depth_six_arm.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/posthoc_depth_20261014/evaluate_depth_six_arm.py",
+      "sha256": "abc5b2ee1dae2556517f084126697cea2c62676d614456fba455071b348a0ebd",
+      "bytes": 17120,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/verify_depth_score_owner.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/posthoc_depth_20261014/verify_depth_score_owner.py",
+      "sha256": "b0d0bb101300081891a6a74d49da713b96b2df7aff8e742df0c20a1b0cbc914c",
+      "bytes": 2572,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/export_depth.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/posthoc_depth_20261014/export_depth.py",
+      "sha256": "67539c90f1e1c3b38c8c59084e0ef0fcfc1eacf1883dec011d1eaa7f5306e5e4",
+      "bytes": 9408,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/prepare_independent_input.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/prepare_independent_input.py",
+      "sha256": "92fbfc634d11bcdfa44f96e27a518870cca08ef4b69bf9e2a81a704adeeda471",
+      "bytes": 2306,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/freeze_protocol.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/freeze_protocol.py",
+      "sha256": "eb6df3a6659e92541915023bfd5d28cf0a305226b57b150b2a05cf49f9af4803",
+      "bytes": 6185,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/SCORING_CODE_LOCK.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/SCORING_CODE_LOCK.json",
+      "sha256": "5727802cb4006aef4de0617b07ad4c35968ca14246e7c587773c5a3594c7bc57",
+      "bytes": 2161,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/resume_20261014/run_rank_boundary.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/run_rank_boundary.py",
+      "sha256": "4f8477eb091fc768b2935bffc487de777282e1adf6a1e5f8d2d936fc5c535657",
+      "bytes": 9550,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/resume_20261014/run_expanded_rank_transfer.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/run_expanded_rank_transfer.py",
+      "sha256": "7498846570cac4f854e199bf1e68b659784b8c641c5fd215b206fbbb057fbbf4",
+      "bytes": 37037,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/resume_20261014/run_depth_native.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/run_depth_native.py",
+      "sha256": "51586316996ec848f40318eafa0600b18e4df074de3a94ed0553770b6d0c3102",
+      "bytes": 10515,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/resume_20261014/launch_one_native.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/launch_one_native.py",
+      "sha256": "4adf77b0503e584d49fa5b5afc1262c8290981954dffafbec7676fc405d18fb4",
+      "bytes": 1370,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/resume_20261014/verify_native_run.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/verify_native_run.py",
+      "sha256": "215e5b065bc0de76c98334c6162f656963f6698b7fccbeeb97c59fa1c1d32fa3",
+      "bytes": 3082,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/resume_20261014/gperturb_native_pilot.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/gperturb_native_pilot.py",
+      "sha256": "2e2e02beab5344dc11727558256812ffe5dd74f9462d915c974a3d289a79fb8d",
+      "bytes": 20024,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/resume_20261014/prepare_gperturb_real_input.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/prepare_gperturb_real_input.py",
+      "sha256": "5d098b0d4f40adc5b7bb1cc06bb42874f450294f9cbff88eb793534267a04d83",
+      "bytes": 3472,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/resume_20261014/build_gperturb_feasibility.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/build_gperturb_feasibility.py",
+      "sha256": "5cfd81c124753cf926bcb921889cc6c29e88bf07736fe23d0d9818ac55abca75",
+      "bytes": 20790,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/resume_20261014/FR_D3_WINNER_LOCK.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/FR_D3_WINNER_LOCK.json",
+      "sha256": "3b03f312908d7fbad7a84ae8fd1dff29fefb7e7319e95aa9144108cd7a1b8e18",
+      "bytes": 17965,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/resume_20261014/GPerturb_REAL_D3_RESOURCE_GATE_PROTOCOL.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/GPerturb_REAL_D3_RESOURCE_GATE_PROTOCOL.json",
+      "sha256": "51de261840911a2a51cf8adc00bfab23baa683f0a30576faa9815994fbe0341f",
+      "bytes": 3548,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/resume_20261014/GPerturb_REAL_D3_RESOURCE_GATE_RESULT.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/GPerturb_REAL_D3_RESOURCE_GATE_RESULT.json",
+      "sha256": "f7395bf9bcede7b410e247d13204697643a7bfb7aafe3db87df223903567bd09",
+      "bytes": 2934,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/resume_20261014/GPerturb_CPU_ENVIRONMENT.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/GPerturb_CPU_ENVIRONMENT.json",
+      "sha256": "5b5fe4ed6e60e088a19ec29669e691d008e0bfef741a72d7f8e3929e083dc551",
+      "bytes": 1070,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/resume_20261014/GPerturb_RESOURCE_GATE_README.txt",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/GPerturb_RESOURCE_GATE_README.txt",
+      "sha256": "b832008f857fcacf2cb01b800be1f7441dd3286df1c9ba722e0074c0123587c7",
+      "bytes": 2342,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/resume_20261014/GPerturb_REAL_D3_WIDTH700_RESOURCE_GATE_20261014_WORKER_GUARD.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/GPerturb_REAL_D3_WIDTH700_RESOURCE_GATE_20261014_WORKER_GUARD.json",
+      "sha256": "74de66b5d3c59fb5946278eb1f9df524667efc7153b942fad1a6d53278cec1da",
+      "bytes": 199,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/resume_20261014/gperturb_source/SOURCE_MANIFEST.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/gperturb_source/SOURCE_MANIFEST.json",
+      "sha256": "eb3fa07096ab878a3057ddd5818ca0dd456f1cc4bdfe04996620dae93a307bb7",
+      "bytes": 2141,
+      "kind": "source_record"
+    },
+    {
+      "path": "benchmark/resume_20261014/gperturb_source/setup.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/gperturb_source/setup.py",
+      "sha256": "80c1f5d6783e4c1592b35b6894ccba6c800e6c8775b1b4ba21110379f0d65552",
+      "bytes": 914,
+      "kind": "GPerturb_upstream_MIT"
+    },
+    {
+      "path": "benchmark/resume_20261014/gperturb_source/GPerturb/GPerturb_model.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/gperturb_source/GPerturb/GPerturb_model.py",
+      "sha256": "29ab3ef8f27e883d46e0a8e54b4783c6ea7fe677d73e04b873d74de90bcd100d",
+      "bytes": 49001,
+      "kind": "GPerturb_upstream_MIT"
+    },
+    {
+      "path": "benchmark/resume_20261014/gperturb_source/numerical_examples/Replogle_GPerturb.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/gperturb_source/numerical_examples/Replogle_GPerturb.py",
+      "sha256": "913492f455492647bc089b14a8acaa2983c0cc6ac0a9d829c0b70d51edf5a3da",
+      "bytes": 15796,
+      "kind": "GPerturb_upstream_MIT"
+    },
+    {
+      "path": "benchmark/resume_20261014/gperturb_source/numerical_examples/TCells_GPerturb.py",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/resume_20261014/gperturb_source/numerical_examples/TCells_GPerturb.py",
+      "sha256": "1d1b4569d20fc90f3376ff75c5bf0155dd6891094f9390aa98ffaba920a3acfa",
+      "bytes": 24726,
+      "kind": "GPerturb_upstream_MIT"
+    },
+    {
+      "path": "benchmark/resume_20261014/gperturb_source/LICENSE",
+      "source_archive_path": "package_v130/extracted/PertRank_Methods_Reconciliation_20261014/gperturb_source/LICENSE",
+      "sha256": "ff0a907a8552558f3f9c03c98adc70f2e207fd7d67a437ab7ddb045392ce8e03",
+      "bytes": 1068,
+      "kind": "GPerturb_upstream_MIT"
+    },
+    {
+      "path": "benchmark/resume_20261014/gperturb_source/README.md",
+      "source_archive_path": "package_v130/extracted/PertRank_Methods_Reconciliation_20261014/gperturb_source/README.md",
+      "sha256": "9e971dab08926771da6feea7d1a832090f7248378efe7046d7cf4d1ac5f97114",
+      "bytes": 5334,
+      "kind": "GPerturb_upstream_MIT"
+    },
+    {
+      "path": "a19r/code/restore_reference_draws.py",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/code/restore_reference_draws.py",
+      "sha256": "358036a7ac3bc821e6f257858d4bc0060ae1a56e59751ef64a1aa1bc399de530",
+      "bytes": 1198,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/code/run_native.py",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/code/run_native.py",
+      "sha256": "b0fa8e5d3a7331dffa5bbe7ec9b4db82e9660966d47bc739f8601f16a2155cbe",
+      "bytes": 7648,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/code/score_native.py",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/code/score_native.py",
+      "sha256": "55dfc23c9e6e22831c1d13ed20bdb40890030114df4fc6dec09d86ec7d120709",
+      "bytes": 10619,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/code/freeze_predictions.py",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/code/freeze_predictions.py",
+      "sha256": "c4922c5260e9f70e1dd085849229a4062ee7cba7123dd153fd848aab78390c45",
+      "bytes": 2426,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/code/prepare_fr.py",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/code/prepare_fr.py",
+      "sha256": "40a00db802f6f62bcbeaababcf629d8c9325e822603397d65fd2c6ef05a1e84a",
+      "bytes": 4455,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/code/guarded_native.py",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/code/guarded_native.py",
+      "sha256": "0bb52c83a1848c919a5c3fdbd714f1186bb69b920acc2f37bfafad15cc38a0a1",
+      "bytes": 1641,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/code/native_diagnostics.py",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/code/native_diagnostics.py",
+      "sha256": "314ec6b1e6c96a4a5e981f9cd9ca16d85e9e1bfcfd71065b213f1c94d1ffb470",
+      "bytes": 3081,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/code/build_summary.py",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/code/build_summary.py",
+      "sha256": "cb9d68aac3943fc6dbbb43ff2d9dd3e7c35ca820f2b3f2eb4b6044a68ffab130",
+      "bytes": 4360,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/code/prepare_ash.py",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/code/prepare_ash.py",
+      "sha256": "d2186223aea1d56acb89b966ce6e51067981ec0100b7a778d3f384989a3e107a",
+      "bytes": 3550,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/code/reproduce_scores.py",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/code/reproduce_scores.py",
+      "sha256": "1eda4750f715cfa7ef26afeeb1bdfbec957162609a518be14d10f4c13429fda8",
+      "bytes": 1960,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/code/combine_sources.py",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/code/combine_sources.py",
+      "sha256": "7a432fb8353bcf7a14c27d24b25bbb2bd485b75ecf5571ead800f0751206c213",
+      "bytes": 3260,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/records/NATIVE_DIAGNOSTICS.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/records/NATIVE_DIAGNOSTICS.json",
+      "sha256": "6a5cf73d0b02b98e70a9c13b7e0e8fa440415cca74ca6bb39a31084b0747e2f0",
+      "bytes": 653087,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/records/SOURCE_INPUT_DEPENDENCIES.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/records/SOURCE_INPUT_DEPENDENCIES.json",
+      "sha256": "fb830aa595f43a4257a4092b9ba905dbaa1017066587c812d39cc24970b9a8a4",
+      "bytes": 1771,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/records/EXECUTION_LOCK.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/records/EXECUTION_LOCK.json",
+      "sha256": "0b3b24f040e8c3dd15a98cfb985544555abb60b207a7fbfea2c10acdeaf8c4c8",
+      "bytes": 1541,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/records/SCORER_SMOKE.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/records/SCORER_SMOKE.json",
+      "sha256": "01da0699e0f1bf74a49e71a58910df2c1e9467ba1c31ec62903659a9a5a84736",
+      "bytes": 448,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/records/MODEL_PROGRESS.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/records/MODEL_PROGRESS.json",
+      "sha256": "de29f3ab5d879c8630863ed20c9407d60bf56e5cad3d7f54637ce2c2c6160f99",
+      "bytes": 2317,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/records/SELECTED_RUNS_before_D2_queue_recovery.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/records/SELECTED_RUNS_before_D2_queue_recovery.json",
+      "sha256": "6674fd864c27fab79d36bbad7931a6bb0ecd5a2e40af2cd75ab3f4c969ca5fe4",
+      "bytes": 1313,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/records/EXECUTION_SPEC_PREINPUT.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/records/EXECUTION_SPEC_PREINPUT.json",
+      "sha256": "fd2fed690912faf855aede41c72a88fca30f751991df32a47b6d51d05f327e4d",
+      "bytes": 4543,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/records/CONTROL_DEPENDENCY.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/records/CONTROL_DEPENDENCY.json",
+      "sha256": "99342cebe317a7b4c6aace0ce0ced0aea92de5e46671ebfb60844e62b2449917",
+      "bytes": 1618,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/records/SCORING_COMPLETION.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/records/SCORING_COMPLETION.json",
+      "sha256": "b5c4178f78b05d1d000de7c2ab1cceef14eec7ee1d5ac75e0d992cdd7352dd61",
+      "bytes": 3610,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/records/RESOURCE_AMENDMENT_01.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/records/RESOURCE_AMENDMENT_01.json",
+      "sha256": "9bbe987bedfd70eb3d64527ea79f24edaca4fb0a5ca215b85c1dd90362cb65c1",
+      "bytes": 963,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/records/OLD_ENDPOINT_REPLAY.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/records/OLD_ENDPOINT_REPLAY.json",
+      "sha256": "25e7727d6d0e20cc4a8e2a8ff5428751facd0f2530fb2eb84cea9fb774ec9347",
+      "bytes": 670,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/records/REFERENCE_DEPENDENCY.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/records/REFERENCE_DEPENDENCY.json",
+      "sha256": "b562d1a7e0ea5075373483885b3a629deab19d8f207db9f2bc9236285916a990",
+      "bytes": 905,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/records/REFERENCE_IDENTITY.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/records/REFERENCE_IDENTITY.json",
+      "sha256": "ec567e062405433277f95b5087e3c80d9a6fc0ecb23e8d3b2cb851d6fe9981d0",
+      "bytes": 492,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/records/SCORING_AMENDMENT_01.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/records/SCORING_AMENDMENT_01.json",
+      "sha256": "3a51fb736f8333d4bc29b811174939b8aa81ff6c3c20d763e2df25d069b94b9e",
+      "bytes": 445,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/records/SELECTED_RUNS.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/records/SELECTED_RUNS.json",
+      "sha256": "824b54b8769de4d5398f737dd4053c3f75b2d0455eb75e0066bd147d09c21ed4",
+      "bytes": 1484,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/records/ALL_PREDICTIONS_LOCK.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/records/ALL_PREDICTIONS_LOCK.json",
+      "sha256": "341381a696b42d369a181ef36eda0b79372605dbd5c9236405a4923a03a4fe5f",
+      "bytes": 4440,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/input_records/D3_Rest/FR/INPUT_LOCK.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/input_records/D3_Rest/FR/INPUT_LOCK.json",
+      "sha256": "0768e03e807e6a1e07b9b359c4623e3c8e0519b19ddbf9f535d92c666ea11249",
+      "bytes": 3158,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/input_records/D3_Rest/ASH/INPUT_LOCK.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/input_records/D3_Rest/ASH/INPUT_LOCK.json",
+      "sha256": "dc885bcf9b7744db93020616a62dd5719913beb3d901d3dcd669efb53293cd14",
+      "bytes": 2138,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/input_records/D2_Rest/FR/INPUT_LOCK.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/input_records/D2_Rest/FR/INPUT_LOCK.json",
+      "sha256": "790b365c3d01813db700e2a57e1a2b01421ae0257c552768cfdcb09d55271a26",
+      "bytes": 3158,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/input_records/D2_Rest/ASH/INPUT_LOCK.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/input_records/D2_Rest/ASH/INPUT_LOCK.json",
+      "sha256": "b32da9ea0376c64b4793c87781ac154e6535c6cd3f9f7a428761c14354ec070b",
+      "bytes": 2131,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/input_records/D1_Rest/FR/INPUT_LOCK.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/input_records/D1_Rest/FR/INPUT_LOCK.json",
+      "sha256": "a6555f3932fd5535fa388737ac88d466148b828a009782fad43d8a32afaed618",
+      "bytes": 3158,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/input_records/D1_Rest/ASH/INPUT_LOCK.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/input_records/D1_Rest/ASH/INPUT_LOCK.json",
+      "sha256": "bdfd79c78d40c8c5d637d6dd5686f0309a7e81205ef333532171c1f9829d247b",
+      "bytes": 2130,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/incomplete_attempts/D1_Rest_FR_attempt1/START.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/incomplete_attempts/D1_Rest_FR_attempt1/START.json",
+      "sha256": "9e22ea3c283d606e9b46eab23be3aee4e5f27582ab1b8b4ba896f0365765cc55",
+      "bytes": 1338,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/incomplete_attempts/D1_Rest_FR_attempt1/INTERRUPTION_RECORD.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/incomplete_attempts/D1_Rest_FR_attempt1/INTERRUPTION_RECORD.json",
+      "sha256": "9373053fa128848a07f9e56bd70be20b8d788ea0bb67a765578e50036df04ca3",
+      "bytes": 831,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/incomplete_attempts/D2_Rest_FR_attempt1/START.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/incomplete_attempts/D2_Rest_FR_attempt1/START.json",
+      "sha256": "d26ad8876162fb41629f473998f4b77543b6ab9e249d91e15958eb8c6ed7bf99",
+      "bytes": 1338,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/incomplete_attempts/D2_Rest_FR_attempt1/INTERRUPTION_RECORD.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/incomplete_attempts/D2_Rest_FR_attempt1/INTERRUPTION_RECORD.json",
+      "sha256": "8f2adfef3102d4dcc58cec3baec6f458a1ecd499ba7248d34d18d98f812ec45e",
+      "bytes": 697,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/incomplete_attempts/D1_Rest_FR_attempt1/native/fit_report.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/incomplete_attempts/D1_Rest_FR_attempt1/native/fit_report.json",
+      "sha256": "5d21c58b22af69bb70060dbc8a06f095f760a84b7f31a1ffe00dba6cea9d5810",
+      "bytes": 2398,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D3_Rest/FR/NATIVE_SELF_GUARD.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D3_Rest/FR/NATIVE_SELF_GUARD.json",
+      "sha256": "effe4a280afbe3ef036ce9880e97eb4807a083c50591659fb64557b667cc95db",
+      "bytes": 146,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D3_Rest/FR/OWNER_COMPLETION.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D3_Rest/FR/OWNER_COMPLETION.json",
+      "sha256": "a8db13e22c3e3b93381d4f523d06784575c2be06b4d98c00a563b33ba7edd5b8",
+      "bytes": 663,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D3_Rest/FR/START.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D3_Rest/FR/START.json",
+      "sha256": "937fcf07c7151b59aee0d3c05770e1fa9253e931ec8d84acea9919fad7fb427b",
+      "bytes": 1338,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D3_Rest/FR/RUN_RECORD.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D3_Rest/FR/RUN_RECORD.json",
+      "sha256": "59c725e7c8c8214be449a15be1bf8217269d14b4bc11a508b69a94a33cdb14ed",
+      "bytes": 1855,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D3_Rest/ASH/OWNER_COMPLETION.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D3_Rest/ASH/OWNER_COMPLETION.json",
+      "sha256": "964fc54c137f995c8c89a8958c94bfcd44b403f580fe37dc86dae2701ac5a22a",
+      "bytes": 500,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D3_Rest/ASH/START.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D3_Rest/ASH/START.json",
+      "sha256": "71561ea5a0305dde76b7fe3cf024cf0d53290abf0def50e27678ac4af7883620",
+      "bytes": 921,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D3_Rest/ASH/RUN_RECORD.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D3_Rest/ASH/RUN_RECORD.json",
+      "sha256": "06fc30f0201700453dab08f6d9d3346d80284963c9eea7e12b770b1786d0bce7",
+      "bytes": 1072,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D3_Rest/FR/native/NATIVE_SOLVER_OBJECTIVE_AUDIT.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D3_Rest/FR/native/NATIVE_SOLVER_OBJECTIVE_AUDIT.json",
+      "sha256": "6bb77af2ec570af59f76159746b7357c817a2ff9ba2d3825fc1bb6c5e4278d4d",
+      "bytes": 32922,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D3_Rest/FR/native/ATOMIC_SERIALIZATION_INPUT_STABILITY.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D3_Rest/FR/native/ATOMIC_SERIALIZATION_INPUT_STABILITY.json",
+      "sha256": "9200719d23357bae09bae35d9dfa779f834667a4e4129131bd99cca830a77fa5",
+      "bytes": 1285,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D3_Rest/FR/native/fit_report.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D3_Rest/FR/native/fit_report.json",
+      "sha256": "9e9d6450992a0b1ef28f34c41b18ec6ae4cc561503341befc8756eefb7a6a8db",
+      "bytes": 169605,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D3_Rest/ASH/native/execution.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D3_Rest/ASH/native/execution.json",
+      "sha256": "b5f547964e2d1bf00b0ee31cae77d9951d00c2182292419d61bbc71a245e0cf0",
+      "bytes": 1278,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D3_Rest/ASH/native/runtime.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D3_Rest/ASH/native/runtime.json",
+      "sha256": "9ec7f41ab75e0728b13df372a58cc3153208ab996d3b4abf981c4a45bedac42b",
+      "bytes": 1656,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D3_Rest/ASH/native/config.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D3_Rest/ASH/native/config.json",
+      "sha256": "5d5a28c987c2e86879fe5ed9365334409c6fa2991d1d2b1fe30d4477c0ae2569",
+      "bytes": 179,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D2_Rest/FR/NATIVE_SELF_GUARD.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D2_Rest/FR/NATIVE_SELF_GUARD.json",
+      "sha256": "2c4d5071fd9b9478286069f471e69b4d2a12061fd86294f4388396f2ea22594c",
+      "bytes": 146,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D2_Rest/FR/OWNER_COMPLETION.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D2_Rest/FR/OWNER_COMPLETION.json",
+      "sha256": "48a68ff56728b12b4c1ff37885f625b9188386d5445ccd1e49df48583012d813",
+      "bytes": 663,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D2_Rest/FR/START.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D2_Rest/FR/START.json",
+      "sha256": "c8aff938992a03a14b5a5e413a77c7265effb315bbad9c6f8d046930916dbd3f",
+      "bytes": 1338,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D2_Rest/FR/RUN_RECORD.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D2_Rest/FR/RUN_RECORD.json",
+      "sha256": "31d425d26ba2791a5826ff9682526c1060266e39bf0151c77de12452b2d747a4",
+      "bytes": 1853,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D2_Rest/ASH/OWNER_COMPLETION.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D2_Rest/ASH/OWNER_COMPLETION.json",
+      "sha256": "51519544d855b3c6508ab72a2c0539588611f83064ff2acb282d207f47739a72",
+      "bytes": 500,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D2_Rest/ASH/START.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D2_Rest/ASH/START.json",
+      "sha256": "685d2f6777e06e4d7146356431f30a365bc82b84b832c548541e14aeb0238951",
+      "bytes": 921,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D2_Rest/ASH/RUN_RECORD.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D2_Rest/ASH/RUN_RECORD.json",
+      "sha256": "6f485a737c8602dc29440389e78171acda53e3fa9587807d3d12194b5e60c761",
+      "bytes": 1285,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D2_Rest/FR/native/NATIVE_SOLVER_OBJECTIVE_AUDIT.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D2_Rest/FR/native/NATIVE_SOLVER_OBJECTIVE_AUDIT.json",
+      "sha256": "2e0d6ac9611ddff22edf37e2274d7a8c3f7ac53769b5a99132b752897b1179be",
+      "bytes": 33354,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D2_Rest/FR/native/ATOMIC_SERIALIZATION_INPUT_STABILITY.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D2_Rest/FR/native/ATOMIC_SERIALIZATION_INPUT_STABILITY.json",
+      "sha256": "1fcbe49fba1285f24bbd4204f760ff373653b902a53745e159441a98d68bc5cf",
+      "bytes": 1285,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D2_Rest/FR/native/fit_report.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D2_Rest/FR/native/fit_report.json",
+      "sha256": "fa6078abeb68de1b5298aa600b7b41ad3263ff07e8bfcd820d55681e079c4218",
+      "bytes": 179706,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D2_Rest/ASH/native/execution.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D2_Rest/ASH/native/execution.json",
+      "sha256": "83e2cb4fa27007132541dd8127428fcd82c92583a9c0a16deebec73d2f0c70d9",
+      "bytes": 1279,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D2_Rest/ASH/native/runtime.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D2_Rest/ASH/native/runtime.json",
+      "sha256": "2a5f862440ad10e0dbdf3ca3cde203797b343c469fff49e5abe1f41ecfbfba73",
+      "bytes": 1644,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D2_Rest/ASH/native/config.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D2_Rest/ASH/native/config.json",
+      "sha256": "5d5a28c987c2e86879fe5ed9365334409c6fa2991d1d2b1fe30d4477c0ae2569",
+      "bytes": 179,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D1_Rest/FR/NATIVE_SELF_GUARD.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D1_Rest/FR/NATIVE_SELF_GUARD.json",
+      "sha256": "b0d1b741748aaf69603d432fb9e50f76ebbafa2e8233bb918d397f02c45ccde9",
+      "bytes": 146,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D1_Rest/FR/OWNER_COMPLETION.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D1_Rest/FR/OWNER_COMPLETION.json",
+      "sha256": "97cd4342644e95bcdd235d19d71a4e381ea51fcb18d33a23f1cb40fd14544c44",
+      "bytes": 663,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D1_Rest/FR/START.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D1_Rest/FR/START.json",
+      "sha256": "d90aa99af1f1abdc4a4e82ae32c7edbfdcf9bbee8904e7e7616960038bcf728b",
+      "bytes": 1338,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D1_Rest/FR/RUN_RECORD.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D1_Rest/FR/RUN_RECORD.json",
+      "sha256": "dd3c96503e2b17d7f8f49dd59b73f9941bbeff3b18faf11257bc3ddcae0f5584",
+      "bytes": 1855,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D1_Rest/ASH/OWNER_COMPLETION.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D1_Rest/ASH/OWNER_COMPLETION.json",
+      "sha256": "5dd0b9f44093678a761710e734e2b4d684df3858b7f5893dca211a455f7e8df7",
+      "bytes": 500,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D1_Rest/ASH/START.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D1_Rest/ASH/START.json",
+      "sha256": "b59bd30e852890f23bff5b00abf96b43568b0240f61c2a9b8e3cb900fe5c75fb",
+      "bytes": 921,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D1_Rest/ASH/RUN_RECORD.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D1_Rest/ASH/RUN_RECORD.json",
+      "sha256": "833a5cf6d06e6683d5050cff919ffea546e710e1b6dfa6cf06ea115f400da7ae",
+      "bytes": 1287,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D1_Rest/FR/native/NATIVE_SOLVER_OBJECTIVE_AUDIT.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D1_Rest/FR/native/NATIVE_SOLVER_OBJECTIVE_AUDIT.json",
+      "sha256": "4f04116e63ffa2afa880ce71a039b047be23641b2e0e68ac57beaa2095c5a804",
+      "bytes": 33196,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D1_Rest/FR/native/ATOMIC_SERIALIZATION_INPUT_STABILITY.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D1_Rest/FR/native/ATOMIC_SERIALIZATION_INPUT_STABILITY.json",
+      "sha256": "1140edaa94dcdf9fb92b50ea954dd06f584b950d6b4123e2e4f804ee35e3a0df",
+      "bytes": 1285,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D1_Rest/FR/native/fit_report.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D1_Rest/FR/native/fit_report.json",
+      "sha256": "500300bbeba6a1b76c8abc876a353df56241a52ab9764ea2cf10a2c0749c1276",
+      "bytes": 182692,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D1_Rest/ASH/native/execution.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D1_Rest/ASH/native/execution.json",
+      "sha256": "6ddfb596488bdba0161402fef26db8571b197ee4f341db8ed914163a67bb6cbe",
+      "bytes": 1279,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D1_Rest/ASH/native/runtime.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D1_Rest/ASH/native/runtime.json",
+      "sha256": "b9f3307457f6a5f0ad65fd42c9eda73e137709e82a340a8ee13ba53ba97d1e25",
+      "bytes": 1656,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/models/D1_Rest/ASH/native/config.json",
+      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/models/D1_Rest/ASH/native/config.json",
+      "sha256": "5d5a28c987c2e86879fe5ed9365334409c6fa2991d1d2b1fe30d4477c0ae2569",
+      "bytes": 179,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/configs/D3_Rest.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/upgrade_experiments_20261014/external_benchmarks/configs/D3_Rest.json",
+      "sha256": "cd5f2a929e3d0d001b31ead74112007d645ffcd62d2df58c5cd23ce8713efce6",
+      "bytes": 1269,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/configs/D2_Rest_final.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/upgrade_experiments_20261014/external_benchmarks/configs/D2_Rest_final.json",
+      "sha256": "31019a2353ae8da996e875bda925f6983930eca730d7295db172b73275eb7836",
+      "bytes": 1269,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/configs/D1_Rest.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/upgrade_experiments_20261014/external_benchmarks/configs/D1_Rest.json",
+      "sha256": "83a304c16d5a00b5cd0104c59e080887ce16c2e3b7d4aceb0a5e6b5691bf8a73",
+      "bytes": 1269,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/configs/D1_Rest_final.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/upgrade_experiments_20261014/external_benchmarks/configs/D1_Rest_final.json",
+      "sha256": "80cb375814af68834419941510194b348a6d09b4b80e4d28e079837f12900a9d",
+      "bytes": 1269,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/configs/D2_Rest.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/upgrade_experiments_20261014/external_benchmarks/configs/D2_Rest.json",
+      "sha256": "57801fcad43e42914f91d7e33bbf22425313f3fda3d76b42fc9288c2e5be4460",
+      "bytes": 1269,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/configs/D2_Rest_final_before_queue_recovery.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/upgrade_experiments_20261014/external_benchmarks/configs/D2_Rest_final_before_queue_recovery.json",
+      "sha256": "57801fcad43e42914f91d7e33bbf22425313f3fda3d76b42fc9288c2e5be4460",
+      "bytes": 1269,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "a19r/configs/D3_Rest_final.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/upgrade_experiments_20261014/external_benchmarks/configs/D3_Rest_final.json",
+      "sha256": "cd5f2a929e3d0d001b31ead74112007d645ffcd62d2df58c5cd23ce8713efce6",
+      "bytes": 1269,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/ash_work/example_record/config.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/D3_smoke_default/config.json",
+      "sha256": "5d5a28c987c2e86879fe5ed9365334409c6fa2991d1d2b1fe30d4477c0ae2569",
+      "bytes": 179,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/ash_work/example_record/runtime.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/D3_smoke_default/runtime.json",
+      "sha256": "3118c03883d5e25d697ce5782689654fc13f719744cab176ac9b2196b39b070d",
+      "bytes": 1641,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "benchmark/ash_work/example_record/execution.json",
+      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/D3_smoke_default/execution.json",
+      "sha256": "d10dcc2460498b5f6596404e94192cfe4b4e7d72aea82f7c88111345569d744b",
+      "bytes": 1029,
+      "kind": "project_adapter_or_record"
+    },
+    {
+      "path": "trade_scalar/trade_scalar_compact.R",
+      "source_archive_path": "code_v150_release/inputs/PertRank_D1_D4_GitHub_Core/provenance/code/v17_experiments/trade/trade_scalar_compact.R",
+      "sha256": "453a729283e530db8a716472172b7053982f2c8ff93da06185e2db7902556e7f",
+      "bytes": 3608,
+      "kind": "project_scalar_adapter_not_upstream_TRADE"
+    },
+    {
+      "path": "trade_scalar/run_five_predictions.py",
+      "source_archive_path": "code_v150_release/inputs/PertRank_D1_D4_GitHub_Core/provenance/code/v17_experiments/trade/run_five_predictions.py",
+      "sha256": "be6c65fc6fe0d09ed6087b2c0b87ff3cfd0ef400d72e3c1649aaa5672da3401b",
+      "bytes": 12110,
+      "kind": "project_scalar_adapter_not_upstream_TRADE"
+    },
+    {
+      "path": "trade_scalar/run_d4_trade.py",
+      "source_archive_path": "code_v150_release/inputs/PertRank_D1_D4_GitHub_Core/supplements/20261008/d4_trade/source/run_d4_trade.py",
+      "sha256": "68ddb7fc4f12d69c5dad9b101f389feb8310c729f082c5b5831d130a815037a0",
+      "bytes": 13798,
+      "kind": "project_scalar_adapter_not_upstream_TRADE"
+    }
+  ],
+  "excluded_upstream": [
+    {
+      "name": "R_TRADE_univariate.R",
+      "reason": "Upstream redistribution permission not established; file not included",
+      "source_sha256": "b2fc72c0e5d7c2cde9631e73e33a95cdfed23a31b3a93c5d7141332452426320",
+      "official_commit": "3432d108c43325e9df65276563d65144a26b69ce"
+    }
+  ],
+  "new_model_fits": 0,
+  "raw_arrays_copied": 0,
+  "review_packaging_version": "1.5.2"
+}

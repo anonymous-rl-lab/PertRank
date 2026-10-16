@@ -1,0 +1,698 @@
+{
+  "primary_scorecards": {
+    "nonoverlap_min1": {
+      "D_obs": -0.0012081901145851565,
+      "donor_D_obs": [
+        -0.003978763483389784,
+        0.001562383254219471
+      ],
+      "direction_D_obs": {
+        "decreasing_expression": -0.004996872635145271,
+        "increasing_expression": 0.002580492405974956
+      },
+      "binary_net_supported_occurrences": -2.0,
+      "binary_net_supported_per_list": -0.2,
+      "binary_delta_support_fraction_observed": -0.008,
+      "binary_delta_support_fraction_lower": -0.008,
+      "binary_delta_support_fraction_upper": -0.004,
+      "changed_targets_observed": 86,
+      "changed_targets_total": 87,
+      "swaps": {
+        "swap_in": {
+          "total": 49,
+          "observed": 48,
+          "supported": 0
+        },
+        "swap_out": {
+          "total": 49,
+          "observed": 49,
+          "supported": 2
+        }
+      },
+      "leave_one_target_out_D_obs_range": [
+        -0.0031543382437844224,
+        0.0035299103099466892
+      ],
+      "largest_absolute_target_contributions": [
+        {
+          "target_id": "ENSG00000114423",
+          "gene_symbol": "CBLB",
+          "contribution": -0.004738100424531846
+        },
+        {
+          "target_id": "ENSG00000147403",
+          "gene_symbol": "RPL10",
+          "contribution": -0.0036709011368559327
+        },
+        {
+          "target_id": "ENSG00000108039",
+          "gene_symbol": "XPNPEP1",
+          "contribution": -0.0022355444538340904
+        },
+        {
+          "target_id": "ENSG00000107874",
+          "gene_symbol": "CUEDC2",
+          "contribution": 0.0019461481291992658
+        },
+        {
+          "target_id": "ENSG00000163848",
+          "gene_symbol": "ZNF148",
+          "contribution": 0.00158727507694123
+        },
+        {
+          "target_id": "ENSG00000118513",
+          "gene_symbol": "MYB",
+          "contribution": 0.0015522134026227903
+        },
+        {
+          "target_id": "ENSG00000171700",
+          "gene_symbol": "RGS19",
+          "contribution": 0.0015074588732546116
+        },
+        {
+          "target_id": "ENSG00000167566",
+          "gene_symbol": "NCKAP5L",
+          "contribution": 0.0012643446307786129
+        },
+        {
+          "target_id": "ENSG00000131323",
+          "gene_symbol": "TRAF3",
+          "contribution": 0.0012385098260539467
+        },
+        {
+          "target_id": "ENSG00000198818",
+          "gene_symbol": "SFT2D1",
+          "contribution": -0.001220833458952539
+        }
+      ],
+      "conditional_guide_bootstrap": {
+        "draws": 20000,
+        "seed": 20261011,
+        "D_obs_percentile95": [
+          -0.012694020892076023,
+          0.009785773026227197
+        ],
+        "donor_D_obs_percentile95": [
+          [
+            -0.024703485314431013,
+            0.008193334334464059
+          ],
+          [
+            -0.010694198691848377,
+            0.020631529529883178
+          ]
+        ],
+        "binary_observed_delta_percentile95": [
+          -0.008,
+          0.0
+        ],
+        "interpretation": "Paired guide/control resampling, conditional on these two donors and fixed lists; no population coverage claim; missing contributions excluded."
+      }
+    },
+    "nonoverlap_min2": {
+      "D_obs": -0.0007726234793397165,
+      "donor_D_obs": [
+        -0.0027092375444618777,
+        0.0011639905857824446
+      ],
+      "direction_D_obs": {
+        "decreasing_expression": -0.004996872635145271,
+        "increasing_expression": 0.0034516256764658363
+      },
+      "binary_net_supported_occurrences": -2.0,
+      "binary_net_supported_per_list": -0.2,
+      "binary_delta_support_fraction_observed": -0.008,
+      "binary_delta_support_fraction_lower": -0.012,
+      "binary_delta_support_fraction_upper": 0.0,
+      "changed_targets_observed": 84,
+      "changed_targets_total": 87,
+      "swaps": {
+        "swap_in": {
+          "total": 49,
+          "observed": 47,
+          "supported": 0
+        },
+        "swap_out": {
+          "total": 49,
+          "observed": 48,
+          "supported": 2
+        }
+      },
+      "leave_one_target_out_D_obs_range": [
+        -0.0027187716085389823,
+        0.003965476945192129
+      ],
+      "largest_absolute_target_contributions": [
+        {
+          "target_id": "ENSG00000114423",
+          "gene_symbol": "CBLB",
+          "contribution": -0.004738100424531846
+        },
+        {
+          "target_id": "ENSG00000147403",
+          "gene_symbol": "RPL10",
+          "contribution": -0.0036709011368559327
+        },
+        {
+          "target_id": "ENSG00000108039",
+          "gene_symbol": "XPNPEP1",
+          "contribution": -0.0022355444538340904
+        },
+        {
+          "target_id": "ENSG00000107874",
+          "gene_symbol": "CUEDC2",
+          "contribution": 0.0019461481291992658
+        },
+        {
+          "target_id": "ENSG00000163848",
+          "gene_symbol": "ZNF148",
+          "contribution": 0.00158727507694123
+        },
+        {
+          "target_id": "ENSG00000118513",
+          "gene_symbol": "MYB",
+          "contribution": 0.0015522134026227903
+        },
+        {
+          "target_id": "ENSG00000171700",
+          "gene_symbol": "RGS19",
+          "contribution": 0.0015074588732546116
+        },
+        {
+          "target_id": "ENSG00000167566",
+          "gene_symbol": "NCKAP5L",
+          "contribution": 0.0012643446307786129
+        },
+        {
+          "target_id": "ENSG00000131323",
+          "gene_symbol": "TRAF3",
+          "contribution": 0.0012385098260539467
+        },
+        {
+          "target_id": "ENSG00000198818",
+          "gene_symbol": "SFT2D1",
+          "contribution": -0.001220833458952539
+        }
+      ],
+      "conditional_guide_bootstrap": {
+        "draws": 20000,
+        "seed": 20261011,
+        "D_obs_percentile95": [
+          -0.012258454256830587,
+          0.010221339661472635
+        ],
+        "donor_D_obs_percentile95": [
+          [
+            -0.023433959375503105,
+            0.009462860273391964
+          ],
+          [
+            -0.011092591360285403,
+            0.020233136861446153
+          ]
+        ],
+        "binary_observed_delta_percentile95": [
+          -0.008,
+          0.0
+        ],
+        "interpretation": "Paired guide/control resampling, conditional on these two donors and fixed lists; no population coverage claim; missing contributions excluded."
+      }
+    },
+    "all_guides_min1": {
+      "D_obs": -0.0007328121960102109,
+      "donor_D_obs": [
+        -0.005519622114063118,
+        0.004053997722042691
+      ],
+      "direction_D_obs": {
+        "decreasing_expression": -0.005527799288327832,
+        "increasing_expression": 0.004062174896307409
+      },
+      "binary_net_supported_occurrences": -1.0,
+      "binary_net_supported_per_list": -0.1,
+      "binary_delta_support_fraction_observed": -0.004,
+      "binary_delta_support_fraction_lower": -0.004,
+      "binary_delta_support_fraction_upper": 0.0,
+      "changed_targets_observed": 86,
+      "changed_targets_total": 87,
+      "swaps": {
+        "swap_in": {
+          "total": 49,
+          "observed": 48,
+          "supported": 0
+        },
+        "swap_out": {
+          "total": 49,
+          "observed": 49,
+          "supported": 1
+        }
+      },
+      "leave_one_target_out_D_obs_range": [
+        -0.0022231473729640073,
+        0.005228865730567286
+      ],
+      "largest_absolute_target_contributions": [
+        {
+          "target_id": "ENSG00000147403",
+          "gene_symbol": "RPL10",
+          "contribution": -0.005961677926577497
+        },
+        {
+          "target_id": "ENSG00000114423",
+          "gene_symbol": "CBLB",
+          "contribution": -0.005560815602830417
+        },
+        {
+          "target_id": "ENSG00000118513",
+          "gene_symbol": "MYB",
+          "contribution": 0.0014903351769537964
+        },
+        {
+          "target_id": "ENSG00000163848",
+          "gene_symbol": "ZNF148",
+          "contribution": 0.0014190455091448702
+        },
+        {
+          "target_id": "ENSG00000100239",
+          "gene_symbol": "PPP6R2",
+          "contribution": 0.0012232590174049334
+        },
+        {
+          "target_id": "ENSG00000126934",
+          "gene_symbol": "MAP2K2",
+          "contribution": 0.0012196209227900428
+        },
+        {
+          "target_id": "ENSG00000197601",
+          "gene_symbol": "FAR1",
+          "contribution": 0.001193922889613697
+        },
+        {
+          "target_id": "ENSG00000106546",
+          "gene_symbol": "AHR",
+          "contribution": 0.0011651615115675542
+        },
+        {
+          "target_id": "ENSG00000107874",
+          "gene_symbol": "CUEDC2",
+          "contribution": 0.0011008594264417337
+        },
+        {
+          "target_id": "ENSG00000087152",
+          "gene_symbol": "ATXN7L3",
+          "contribution": 0.0010334062218603614
+        }
+      ]
+    }
+  },
+  "mageck_scorecards": {
+    "independent_min1": {
+      "fixed_denominator": 250,
+      "observed_net_supported_occurrences": -1.0,
+      "observed_delta_support_fraction": -0.004,
+      "unknown_net_contribution_bounds_occurrences": [
+        0.0,
+        1.0
+      ],
+      "complete_delta_support_fraction_bounds": [
+        -0.004,
+        0.0
+      ],
+      "unknown_changed_targets": [
+        "ABHD18"
+      ],
+      "observed_net_supported_per_list": -0.1,
+      "full_lists": {
+        "Euclidean": {
+          "nomination_occurrences": 250.0,
+          "observed_occurrences": 249.0,
+          "unknown_occurrences": 1.0,
+          "supported_occurrences": 6.0,
+          "unique_targets": 146,
+          "unique_observed_targets": 145,
+          "unique_supported_targets": 2,
+          "unique_supported_target_direction_pairs": 2
+        },
+        "PertRank": {
+          "nomination_occurrences": 250.0,
+          "observed_occurrences": 248.0,
+          "unknown_occurrences": 2.0,
+          "supported_occurrences": 5.0,
+          "unique_targets": 135,
+          "unique_observed_targets": 133,
+          "unique_supported_targets": 2,
+          "unique_supported_target_direction_pairs": 2
+        }
+      },
+      "changes": {
+        "common": {
+          "nomination_occurrences": 201.0,
+          "observed_occurrences": 200.0,
+          "unknown_occurrences": 1.0,
+          "supported_occurrences": 5.0,
+          "unique_targets": 115,
+          "unique_observed_targets": 114,
+          "unique_supported_targets": 2,
+          "unique_supported_target_direction_pairs": 2
+        },
+        "swap_in": {
+          "nomination_occurrences": 49.0,
+          "observed_occurrences": 48.0,
+          "unknown_occurrences": 1.0,
+          "supported_occurrences": 0.0,
+          "unique_targets": 46,
+          "unique_observed_targets": 45,
+          "unique_supported_targets": 0,
+          "unique_supported_target_direction_pairs": 0
+        },
+        "swap_out": {
+          "nomination_occurrences": 49.0,
+          "observed_occurrences": 49.0,
+          "unknown_occurrences": 0.0,
+          "supported_occurrences": 1.0,
+          "unique_targets": 46,
+          "unique_observed_targets": 46,
+          "unique_supported_targets": 1,
+          "unique_supported_target_direction_pairs": 1
+        }
+      },
+      "unique_changed_targets_total": 87,
+      "unique_changed_targets_observed": 86,
+      "unknown_full_list_targets": [
+        "ABHD18",
+        "GVQW3"
+      ],
+      "directions": {
+        "decreasing_expression": {
+          "fixed_denominator": 125,
+          "observed_net_supported_occurrences": 0.0,
+          "observed_delta_support_fraction": 0.0,
+          "unknown_net_contribution_bounds_occurrences": [
+            0.0,
+            0.0
+          ],
+          "complete_delta_support_fraction_bounds": [
+            0.0,
+            0.0
+          ],
+          "unknown_changed_targets": []
+        },
+        "increasing_expression": {
+          "fixed_denominator": 125,
+          "observed_net_supported_occurrences": -1.0,
+          "observed_delta_support_fraction": -0.008,
+          "unknown_net_contribution_bounds_occurrences": [
+            0.0,
+            1.0
+          ],
+          "complete_delta_support_fraction_bounds": [
+            -0.008,
+            0.0
+          ],
+          "unknown_changed_targets": [
+            "ABHD18"
+          ]
+        }
+      },
+      "supported_target_directions": [
+        {
+          "target_id": "ENSG00000114423",
+          "gene_symbol": "CBLB",
+          "direction": "increasing_expression",
+          "donor_direction_consistent": true,
+          "donor_both_effect_at_least_0_5": true
+        },
+        {
+          "target_id": "ENSG00000104814",
+          "gene_symbol": "MAP4K1",
+          "direction": "increasing_expression",
+          "donor_direction_consistent": true,
+          "donor_both_effect_at_least_0_5": true
+        }
+      ],
+      "donor_consistency_is_filter": false
+    },
+    "independent_min2": {
+      "fixed_denominator": 250,
+      "observed_net_supported_occurrences": -1.0,
+      "observed_delta_support_fraction": -0.004,
+      "unknown_net_contribution_bounds_occurrences": [
+        -1.0,
+        2.0
+      ],
+      "complete_delta_support_fraction_bounds": [
+        -0.008,
+        0.004
+      ],
+      "unknown_changed_targets": [
+        "ABHD18",
+        "NAIF1",
+        "SSBP2"
+      ],
+      "observed_net_supported_per_list": -0.1,
+      "full_lists": {
+        "Euclidean": {
+          "nomination_occurrences": 250.0,
+          "observed_occurrences": 247.0,
+          "unknown_occurrences": 3.0,
+          "supported_occurrences": 6.0,
+          "unique_targets": 146,
+          "unique_observed_targets": 144,
+          "unique_supported_targets": 2,
+          "unique_supported_target_direction_pairs": 2
+        },
+        "PertRank": {
+          "nomination_occurrences": 250.0,
+          "observed_occurrences": 246.0,
+          "unknown_occurrences": 4.0,
+          "supported_occurrences": 5.0,
+          "unique_targets": 135,
+          "unique_observed_targets": 131,
+          "unique_supported_targets": 2,
+          "unique_supported_target_direction_pairs": 2
+        }
+      },
+      "changes": {
+        "common": {
+          "nomination_occurrences": 201.0,
+          "observed_occurrences": 199.0,
+          "unknown_occurrences": 2.0,
+          "supported_occurrences": 5.0,
+          "unique_targets": 115,
+          "unique_observed_targets": 113,
+          "unique_supported_targets": 2,
+          "unique_supported_target_direction_pairs": 2
+        },
+        "swap_in": {
+          "nomination_occurrences": 49.0,
+          "observed_occurrences": 47.0,
+          "unknown_occurrences": 2.0,
+          "supported_occurrences": 0.0,
+          "unique_targets": 46,
+          "unique_observed_targets": 44,
+          "unique_supported_targets": 0,
+          "unique_supported_target_direction_pairs": 0
+        },
+        "swap_out": {
+          "nomination_occurrences": 49.0,
+          "observed_occurrences": 48.0,
+          "unknown_occurrences": 1.0,
+          "supported_occurrences": 1.0,
+          "unique_targets": 46,
+          "unique_observed_targets": 45,
+          "unique_supported_targets": 1,
+          "unique_supported_target_direction_pairs": 1
+        }
+      },
+      "unique_changed_targets_total": 87,
+      "unique_changed_targets_observed": 84,
+      "unknown_full_list_targets": [
+        "ABHD18",
+        "GVQW3",
+        "NAIF1",
+        "SSBP2"
+      ],
+      "directions": {
+        "decreasing_expression": {
+          "fixed_denominator": 125,
+          "observed_net_supported_occurrences": 0.0,
+          "observed_delta_support_fraction": 0.0,
+          "unknown_net_contribution_bounds_occurrences": [
+            0.0,
+            0.0
+          ],
+          "complete_delta_support_fraction_bounds": [
+            0.0,
+            0.0
+          ],
+          "unknown_changed_targets": []
+        },
+        "increasing_expression": {
+          "fixed_denominator": 125,
+          "observed_net_supported_occurrences": -1.0,
+          "observed_delta_support_fraction": -0.008,
+          "unknown_net_contribution_bounds_occurrences": [
+            -1.0,
+            2.0
+          ],
+          "complete_delta_support_fraction_bounds": [
+            -0.016,
+            0.008
+          ],
+          "unknown_changed_targets": [
+            "ABHD18",
+            "NAIF1",
+            "SSBP2"
+          ]
+        }
+      },
+      "supported_target_directions": [
+        {
+          "target_id": "ENSG00000114423",
+          "gene_symbol": "CBLB",
+          "direction": "increasing_expression",
+          "donor_direction_consistent": true,
+          "donor_both_effect_at_least_0_5": true
+        },
+        {
+          "target_id": "ENSG00000104814",
+          "gene_symbol": "MAP4K1",
+          "direction": "increasing_expression",
+          "donor_direction_consistent": true,
+          "donor_both_effect_at_least_0_5": true
+        }
+      ],
+      "donor_consistency_is_filter": false
+    },
+    "all_guides_min1": {
+      "fixed_denominator": 250,
+      "observed_net_supported_occurrences": -1.0,
+      "observed_delta_support_fraction": -0.004,
+      "unknown_net_contribution_bounds_occurrences": [
+        0.0,
+        1.0
+      ],
+      "complete_delta_support_fraction_bounds": [
+        -0.004,
+        0.0
+      ],
+      "unknown_changed_targets": [
+        "ABHD18"
+      ],
+      "observed_net_supported_per_list": -0.1,
+      "full_lists": {
+        "Euclidean": {
+          "nomination_occurrences": 250.0,
+          "observed_occurrences": 249.0,
+          "unknown_occurrences": 1.0,
+          "supported_occurrences": 6.0,
+          "unique_targets": 146,
+          "unique_observed_targets": 145,
+          "unique_supported_targets": 2,
+          "unique_supported_target_direction_pairs": 2
+        },
+        "PertRank": {
+          "nomination_occurrences": 250.0,
+          "observed_occurrences": 248.0,
+          "unknown_occurrences": 2.0,
+          "supported_occurrences": 5.0,
+          "unique_targets": 135,
+          "unique_observed_targets": 133,
+          "unique_supported_targets": 2,
+          "unique_supported_target_direction_pairs": 2
+        }
+      },
+      "changes": {
+        "common": {
+          "nomination_occurrences": 201.0,
+          "observed_occurrences": 200.0,
+          "unknown_occurrences": 1.0,
+          "supported_occurrences": 5.0,
+          "unique_targets": 115,
+          "unique_observed_targets": 114,
+          "unique_supported_targets": 2,
+          "unique_supported_target_direction_pairs": 2
+        },
+        "swap_in": {
+          "nomination_occurrences": 49.0,
+          "observed_occurrences": 48.0,
+          "unknown_occurrences": 1.0,
+          "supported_occurrences": 0.0,
+          "unique_targets": 46,
+          "unique_observed_targets": 45,
+          "unique_supported_targets": 0,
+          "unique_supported_target_direction_pairs": 0
+        },
+        "swap_out": {
+          "nomination_occurrences": 49.0,
+          "observed_occurrences": 49.0,
+          "unknown_occurrences": 0.0,
+          "supported_occurrences": 1.0,
+          "unique_targets": 46,
+          "unique_observed_targets": 46,
+          "unique_supported_targets": 1,
+          "unique_supported_target_direction_pairs": 1
+        }
+      },
+      "unique_changed_targets_total": 87,
+      "unique_changed_targets_observed": 86,
+      "unknown_full_list_targets": [
+        "ABHD18",
+        "GVQW3"
+      ],
+      "directions": {
+        "decreasing_expression": {
+          "fixed_denominator": 125,
+          "observed_net_supported_occurrences": 0.0,
+          "observed_delta_support_fraction": 0.0,
+          "unknown_net_contribution_bounds_occurrences": [
+            0.0,
+            0.0
+          ],
+          "complete_delta_support_fraction_bounds": [
+            0.0,
+            0.0
+          ],
+          "unknown_changed_targets": []
+        },
+        "increasing_expression": {
+          "fixed_denominator": 125,
+          "observed_net_supported_occurrences": -1.0,
+          "observed_delta_support_fraction": -0.008,
+          "unknown_net_contribution_bounds_occurrences": [
+            0.0,
+            1.0
+          ],
+          "complete_delta_support_fraction_bounds": [
+            -0.008,
+            0.0
+          ],
+          "unknown_changed_targets": [
+            "ABHD18"
+          ]
+        }
+      },
+      "supported_target_directions": [
+        {
+          "target_id": "ENSG00000114423",
+          "gene_symbol": "CBLB",
+          "direction": "increasing_expression",
+          "donor_direction_consistent": true,
+          "donor_both_effect_at_least_0_5": true
+        },
+        {
+          "target_id": "ENSG00000104814",
+          "gene_symbol": "MAP4K1",
+          "direction": "increasing_expression",
+          "donor_direction_consistent": true,
+          "donor_both_effect_at_least_0_5": true
+        }
+      ],
+      "donor_consistency_is_filter": false
+    }
+  },
+  "mageck_gene_hashes": {
+    "independent": "4ee12290cf2fcc490a248ee5ec14fdfc0e82f5bacf9902930c5fcb2f40ff829f",
+    "all_guides": "0bd68e513e37b55ec3d35ef7c78e2183eb271b6746aba55335869a37939eb936"
+  }
+}

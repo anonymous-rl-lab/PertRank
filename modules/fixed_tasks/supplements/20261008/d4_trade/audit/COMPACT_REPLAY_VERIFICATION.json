@@ -1,0 +1,53 @@
+{
+  "status": "D4_SUPPLEMENT_REPLAY_PASS",
+  "query_scores_exact": 30000,
+  "original_query_scores_exact": 24000,
+  "all_summary_records_exact": true,
+  "original_H1_H2_and_selected_PR_M_preserved": true,
+  "mixture_replay": {
+    "fits": 2945,
+    "maximum_absolute_errors": {
+      "latent_mean": 6.938893903907228e-17,
+      "TI": 4.683753385137379e-17,
+      "S": 2.0816681711721685e-17,
+      "weights": 1.1102230246251565e-15
+    },
+    "refitting_performed": false,
+    "reconstruction": "two-node Gauss-Legendre quadrature of saved uniform mixture components"
+  },
+  "primary": {
+    "difference": 0.028058791577898704,
+    "conditional_query_block_95_interval": [
+      0.02028357242204658,
+      0.03496841301084284
+    ],
+    "bootstrap_nonpositive_count": 0,
+    "bootstrap_fraction_nonpositive": 0.0,
+    "draws": 2000,
+    "seed": 2026,
+    "query_blocks": 30,
+    "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+    "statistical_direction": "superiority",
+    "practical_equivalence": "not_established",
+    "practical_equivalence_margin": 0.005,
+    "extra_reference_members_per_25": 0.7014697894474676,
+    "real_group_differences": [
+      0.025743411360559153,
+      0.021206721981903348,
+      0.0269988800015194,
+      0.03458747113919127,
+      0.03175747340632037
+    ],
+    "real_group_min_max": [
+      0.021206721981903348,
+      0.03458747113919127
+    ],
+    "real_groups_positive": 5,
+    "real_groups_negative": 0,
+    "real_groups_zero": 0
+  },
+  "scope": "post-hoc descriptive fixed TRADE scalar adaptation; conditional query-block intervals",
+  "base_files_verified": 5,
+  "supplement_files_verified": 341,
+  "elapsed_seconds": 5.255727548999857
+}

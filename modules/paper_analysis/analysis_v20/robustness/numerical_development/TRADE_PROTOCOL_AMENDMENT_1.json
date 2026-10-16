@@ -1,0 +1,7 @@
+{
+  "created_utc": "2026-10-11T15:57:15.996217+00:00",
+  "prior_smoke": "Uniform tol.svd=0 failed on original failure case; no scoring performed",
+  "change": "uniform ashr optmethod=cxxMixSquarem, tol=1e-9 maxiter=20000",
+  "rationale": "Accelerated EM optimizes the same finite mixture weights without the failing SQP linear solve. Same likelihood/component grid/prior/input retained. Any nonconvergence stops complete-cohort scoring.",
+  "validation": "first2 successful targets compare likelihoods and mixture moments; failuretarget allgroups mustconverge"
+}

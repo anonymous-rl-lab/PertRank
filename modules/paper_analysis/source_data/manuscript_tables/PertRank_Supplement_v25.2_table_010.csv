@@ -1,0 +1,6 @@
+setting,prediction-side max boundary tie,truth-side max,orig,exp
+"E4 terciles, 20 cells, real truth","1,199","1,200",-0.0755,+0.0173
+"E4 terciles, 50 cells, real truth","1,197","1,200",-0.0787,+0.0196
+"E4 terciles, 100 cells, real truth","1,197","1,200",-0.0796,+0.0158
+"E4 terciles, 20 cells, surrogate truth","1,199","1,200",-0.1271,+0.0038
+"E5 terciles, 20 cells, surrogate truth, pooled controls",377,249,-0.0095,-0.0009

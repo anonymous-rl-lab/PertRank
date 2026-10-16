@@ -1,0 +1,162 @@
+{
+  "created_utc": "2026-10-14T04:01:58.967451+00:00",
+  "status": "POSTHOC_INPUTS_AND_RULES_FROZEN_BEFORE_INTERACTION_COMPUTATION",
+  "script_sha256": "7c3a20382ea6fe60ec37e7c043172f5072665c914829381b0c2b130022a20a52",
+  "files": {
+    "rest/evaluation_arrays.npz": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/evaluation_arrays.npz",
+      "bytes": 1066594,
+      "sha256": "cab324179b442eb7067de53cc264247fd4701f33053bcf140ae9957d1d9120d7"
+    },
+    "rest/evaluation_report.json": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/evaluation_report.json",
+      "bytes": 34739,
+      "sha256": "67f2da4d6ae3bd13362802ca01f1378d520ddcb3fcf91d3b9db58d12d532bb0f"
+    },
+    "rest/compact.npz": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/compact.npz",
+      "bytes": 14802854,
+      "sha256": "04b92ffd6b94a647ec8385cd8347e5791bbcbddf7fdebcf3496be93ef104086d"
+    },
+    "rest/OWNER_COMPLETION.json": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/OWNER_COMPLETION.json",
+      "bytes": 1583,
+      "sha256": "ec3f699a2d8e5b8cc2b12f4447e79e75b8eed70723279f07c3473ae55c06e969"
+    },
+    "stim/evaluation_arrays.npz": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/evaluation_arrays.npz",
+      "bytes": 1048670,
+      "sha256": "687a31b62a069118c5e73c991d9ca87ab7e716f9a84322b3bec3d88924226b69"
+    },
+    "stim/evaluation_report.json": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/evaluation_report.json",
+      "bytes": 34961,
+      "sha256": "af7a173b8a0e4b4bd058d1ff25b614b6a29b27f3362661debb7ec1c5984b129d"
+    },
+    "stim/compact.npz": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/compact.npz",
+      "bytes": 14122000,
+      "sha256": "d872d7113c7313fa99f7788dbba9434aafd70ecbba4bb1aca813c6ed1878a0d7"
+    },
+    "stim/OWNER_COMPLETION.json": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/OWNER_COMPLETION.json",
+      "bytes": 1587,
+      "sha256": "ddf07c143ec3c1025e8f9c9b9780d8186210e1fec0cc3ee0750a0a7249bcb547"
+    },
+    "equal/equal_state_arrays.npz": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/equal_state_a138dbae-36d3-4bb3-bf39-0d4f9dd5e17c/equal_state_arrays.npz",
+      "bytes": 2252186,
+      "sha256": "05846c04c7a46db85750da4521fb72b08a7088f116921faa1f9ced9273a337a7"
+    },
+    "equal/equal_state_report.json": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/equal_state_a138dbae-36d3-4bb3-bf39-0d4f9dd5e17c/equal_state_report.json",
+      "bytes": 19275,
+      "sha256": "8a3a88e579d4cc76d34bf116da0e0f175caa4199ce411b6d2ba9ad6cd9018780"
+    },
+    "equal/OWNER_COMPLETION.json": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/equal_state_a138dbae-36d3-4bb3-bf39-0d4f9dd5e17c/OWNER_COMPLETION.json",
+      "bytes": 1468,
+      "sha256": "0396f878dbce1cc87088d28b41aa8bea0da9bd7cf4e0935f5cfe3284c583a7ba"
+    },
+    "n20/evaluation_arrays.npz": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n20/evaluation_arrays.npz",
+      "bytes": 1001965,
+      "sha256": "e84780108cb97061874282c6de4447d3c43a5ff10f98847db1c681f143ddf4b6"
+    },
+    "n20/evaluation_report.json": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n20/evaluation_report.json",
+      "bytes": 8949,
+      "sha256": "c0c71e697b8d8e3652b859cf958d2f30e0e3e87699aaef0c164bc5af0ab216e9"
+    },
+    "n20/compact.npz": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n20/compact.npz",
+      "bytes": 1555382,
+      "sha256": "72dd357ebda9f04cbdfc45dbeb2305e4016e041b83baeae3bddc42bc46933336"
+    },
+    "n20/POST_EXEC_VERIFIED.json": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n20/POST_EXEC_VERIFIED.json",
+      "bytes": 159,
+      "sha256": "c0e24a258c42b98baee56ffcceaac3fc3529a5c97e2fe1b015c6a3a82a942c19"
+    },
+    "n20/COMMON_THREE_ARM_MATCH.json": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n20/COMMON_THREE_ARM_MATCH.json",
+      "bytes": 1417,
+      "sha256": "b80d9e8b3cd1ce0c1ebc04660acb8171f2302743b0789fad9a2f1d11265c091d"
+    },
+    "n50/evaluation_arrays.npz": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n50/evaluation_arrays.npz",
+      "bytes": 1002162,
+      "sha256": "5b499ddd8a5249376d641182b035efb969fae17d9958308d337950b90a069303"
+    },
+    "n50/evaluation_report.json": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n50/evaluation_report.json",
+      "bytes": 8941,
+      "sha256": "b2cf41b6413fce208b8ce67a99e37779662b6f9fd2abbda0bcdee5d5eb6a830d"
+    },
+    "n50/compact.npz": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n50/compact.npz",
+      "bytes": 1556893,
+      "sha256": "5e393c7039a6e5e89063fa552681939a8857149bef9f65b31849ddcff25ad859"
+    },
+    "n50/POST_EXEC_VERIFIED.json": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n50/POST_EXEC_VERIFIED.json",
+      "bytes": 159,
+      "sha256": "102affedd07a874d727d3bc57dd9f78485bc299c103ed0814b4ed9f5e9dd513f"
+    },
+    "n50/COMMON_THREE_ARM_MATCH.json": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n50/COMMON_THREE_ARM_MATCH.json",
+      "bytes": 1417,
+      "sha256": "f701946bfc5b58f14c167003d9b8fa51454ebc4d9e30dc7f17e8aa510e512736"
+    },
+    "n100/evaluation_arrays.npz": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n100/evaluation_arrays.npz",
+      "bytes": 1001097,
+      "sha256": "163f84a48ddfc81ba6ab3406b51267fb906fe9b82a75304841867520f339c68e"
+    },
+    "n100/evaluation_report.json": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n100/evaluation_report.json",
+      "bytes": 8945,
+      "sha256": "ae51f3803d26f433c3de3381b91ea676096cdc658909b510f4c1c5e8299170d7"
+    },
+    "n100/compact.npz": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n100/compact.npz",
+      "bytes": 1557360,
+      "sha256": "22c71db745eaf89de2982f6179ca1e07a9c62bad07e6818afce91df0a28743e5"
+    },
+    "n100/POST_EXEC_VERIFIED.json": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n100/POST_EXEC_VERIFIED.json",
+      "bytes": 159,
+      "sha256": "6f15829d1b38d6c95ed70ed4b9c7a067da2d39ec06b980c56288a16ee4472c14"
+    },
+    "n100/COMMON_THREE_ARM_MATCH.json": {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n100/COMMON_THREE_ARM_MATCH.json",
+      "bytes": 1420,
+      "sha256": "f7adfcaf2f64170928cb5e264e48ff6fe42b7088a5d22aba52f89e2090f0a940"
+    }
+  },
+  "planned": {
+    "A": "I=(FRxPertRank-FRxEuclidean)-(PertRank-Euclidean), D4 Rest and Stim separately and equal-state combined; FR rank300. Component gains also reported.",
+    "B": "J=(PertRank-ASH)_20-(PertRank-ASH)_100; n50 shown descriptively without additional selected contrast.",
+    "metrics": {
+      "primary": 25,
+      "secondary": 10
+    },
+    "draws": 2000,
+    "intervals": "Unadjusted descriptive percentile 95% and 99% using numpy quantile linear.",
+    "pairing": "Within each state identical paired query-block draws; combined uses saved independent-state bootstrap streams. Depths use identical saved blocks/weights/query order after exact verification.",
+    "new_random_seed": null,
+    "new_model_fits": 0,
+    "expression_matrices_read": false
+  },
+  "scope": "Known point estimates motivated this analysis. Local freeze is not prospective registration or independent confirmation. All intervals conditional on observed input cells, fixed references, candidate pools, panels and geometry. Same D4 donor in two states, not two biological replicates. Depth uses one nested chain, not donor/chain-population inference. No equivalence, non-inferiority, universal method independence or calibrated method-switching claim.",
+  "amendment": {
+    "time_utc": "2026-10-14T04:02:35.336996+00:00",
+    "reason": "Initial verification rejected floating summation roundoff (max 5.9e-15) before computing any interaction. Verification absolute tolerance set to 1e-12; score formulas, inputs, contrasts, draws unchanged.",
+    "original_freeze_sha256": "008b826d79e7c987313880193bffd6e04aad8c6b0a2482b16b1f91192f6c5ca4"
+  },
+  "amendment2": {
+    "time_utc": "2026-10-14T04:03:33.645958+00:00",
+    "reason": "Stored sampled_query_blocks are zero-based encoded indices; compact block labels are 1..30. Correct independent reconstruction to compare sampled indices to enumeration index i, not label b. Existing draws/scores unchanged; no interactions computed before failed check.",
+    "previous_freeze_sha256": "8a217e56d960c8d9b90bd9d7f3ee8902ad3f9c70fb558df0eb3f64769eee217a"
+  }
+}

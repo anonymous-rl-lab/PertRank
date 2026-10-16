@@ -1,0 +1,38 @@
+{
+  "status": "FROZEN_BEFORE_ANY_D3_FR_PERFORMANCE_SCORING",
+  "created_utc": "2026-10-12T04:45:17.898550+00:00",
+  "title": "Native LASSO convergence acceptance audit correction",
+  "authorization": "Parent approval after independent benchmark_audit and numerical_audit; no performance read",
+  "primary_protocol_sha256": "edd9b8580c27bdc951938146fe90227aff8f54e9835569ce0122d2bfe0432ab6",
+  "original_grid_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/GRID_EXECUTION.json",
+  "original_grid_sha256": "ad29dcf24293934549693962683865e1c170c1d507dba46526a7bf6d03a3826f",
+  "original_fit_results": "19 COMPLETE; two adapter coefficient-precision audit rejections after valid native fits",
+  "affected": [
+    "rank75_lasso_high",
+    "rank100_lasso_high"
+  ],
+  "unchanged": [
+    "all 21 parameter configurations",
+    "official FR source",
+    "native solver tol=1e-4/max_iter=1000",
+    "all native coefficients/effect values",
+    "D3 winner objective and tie rule",
+    "D4 primary/sensitivity protocols"
+  ],
+  "uniform_acceptance": "All 21 require finite values, no ConvergenceWarning, native dual gap <= tol*mean(response^2), independent exact one-hot objective difference <= same tolerance, and objective difference <= reported dual gap. Only float64 roundoff allowance 256*eps*max(1,mean(response^2)) is added.",
+  "legacy_audit": "Absolute coefficient difference remains reported but is not a convergence criterion for an approximate solver.",
+  "rerun": "Only the two adapter-rejected configurations are rerun with identical native parameters/input/seed to complete full-precision output; no extra parameter search.",
+  "append_only_paths": {
+    "original_grid": "fr_outputs/D3_Rest",
+    "effective_grid": "fr_outputs/D3_Rest_audit_v2",
+    "original_runner": "vendor_work/fr_native_runner.py",
+    "new_runner": "vendor_work/fr_native_runner_audit_v2.py"
+  },
+  "sources": {
+    "fr_native_runner.py": "2f60ee745f4788915b509be4c1e1f8f2dc5c2903ff3835b9f033710599157775",
+    "fr_native_runner_audit_v2.py": "00f4dbb48888811ad1b41934c71402e98000d5c4482e7bd0db9b4d1ea9cd0aad",
+    "native_recovery_audit.py": "9994d9eabfa2df9126d0af8809e9e9fdf15b531755e39c36fd35261b04a207ae",
+    "run_prepared_input_audit_v2.py": "ae65adf02d4b97f56d50189b5f5cdeaf526ce682984a64e1f867673a6b3c8478",
+    "run_locked_transfer_audit_v2.py": "ecce85af50be6576e96a6d03910b0d6de353a1f1ac566e94e44bd2dd76bed085"
+  }
+}

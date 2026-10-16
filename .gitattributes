@@ -1,0 +1,3 @@
+# Preserve the exact bytes of archived scientific files on every platform.
+# The reproduction manifests include original LF and CRLF files.
+* -text

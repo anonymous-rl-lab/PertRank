@@ -1,0 +1,10 @@
+item,value
+source,"figshare+ 10.25452/figshare.plus.29190726.v3, file 55021257, 209.4 GB CSR h5ad, HCT116"
+eligibility,"gate 1 counted eligible targets from guide-call metadata alone before any expression value was opened; at the 250-cell floor, 4,207 HCT116 and 6,956 HEK293T"
+cohort,"the first 2,000 eligible in `SHA256(""pertrescue-stage8\|HCT116\|<gene>"")` order, not the deepest 2,000"
+blocks,"one frozen permutation per target: positions 0 to 99 input, 100 to 199 evaluation, disjoint; shallow 10 / 20 / 50 nested inside the input block; full depth median 328, min 250"
+controls,"three disjoint sets of 2,000 non-targeting cells in frozen hash order (planning, input, evaluation) out of 165,777"
+gene set,"12,203 genes detected in at least 5% of the 2,000 planning-control cells. The protocol also required a protein-coding restriction under a named annotation release; the run applied a name-rule approximation instead, so both the as-executed 12,203-gene set and the 11,260-gene protein-coding proxy are reported, and the annotation-pinned recomputation is outstanding (SN9)."
+queries,"100 genes per expression tercile of the planning controls, 300 total, both directions, 30 blocks by complete linkage on correlation distance; the reference is never used"
+integrity,"custodian blind, committed list SHA256 `69d3c371dbad87f5...` reproduced by the evaluator and again by the reproduction bundle"
+noise at 80 and 100 cells,"the 80-cell block's sums of squares were not stored. The noise term of the 80- and 100-cell development arms uses the 20-cell per-cell variance divided by the arm's cell count, and the 80-cell half of the same-budget rule uses a variance derived from the same source. The 20-cell frozen test uses its own block's variance and is exact."

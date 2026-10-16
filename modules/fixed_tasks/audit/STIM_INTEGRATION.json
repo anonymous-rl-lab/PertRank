@@ -1,0 +1,21 @@
+{
+  "status": "BASE_CONTENT_PRESERVATION_PASS",
+  "package_version": "1.2.0",
+  "base_archive": "PertRank_D1_D4_GitHub_Core.zip",
+  "base_archive_sha256": "870d2c5bb54a50da588f682d9e94b4ba0f99c3ab049688b9ab24861268e0fcfb",
+  "base_package_version": "1.1.0",
+  "original_files_identical": 481,
+  "original_file_changes": [
+    "MANIFEST_SHA256.json",
+    "README.md",
+    "VERSION",
+    "reproduce.py",
+    "requirements.txt"
+  ],
+  "manifest_rebuilt_after_integration": true,
+  "all_original_data_results_locks_and_20261008_supplement_unchanged": true,
+  "stim_module": "supplements/20261011_stim",
+  "compaction_scope": "post-result exact fixed-method numerical reproduction; no new raw-data experiment",
+  "size_limit_bytes": 10000000,
+  "size_limit_applies_to": "standalone Stim addition, not the pre-existing D1-D4 core"
+}

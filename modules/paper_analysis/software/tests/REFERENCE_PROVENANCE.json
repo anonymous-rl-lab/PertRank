@@ -1,0 +1,5 @@
+{
+  "origin": "PertRank_Paper_v21_1/application/pertrank/core.py",
+  "sha256": "721ce8dace4f7fcf63aceb1b7ec040c67cfb52b66601471dc414c41a6f2b0544",
+  "purpose": "Immutable v21.1 application engine for adapter regression verification; synthetic software fixtures only."
+}

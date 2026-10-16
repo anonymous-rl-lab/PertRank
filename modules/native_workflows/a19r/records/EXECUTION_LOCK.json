@@ -1,0 +1,22 @@
+{
+  "status": "FROZEN_BEFORE_FIRST_NATIVE_FIT",
+  "created_utc": "2026-10-14T04:07:54.681349+00:00",
+  "preinput_spec_sha256": "fd2fed690912faf855aede41c72a88fca30f751991df32a47b6d51d05f327e4d",
+  "amendments_before_fit": {
+    "query_bootstrap_seed": 2026100502,
+    "reason": "Restore exact original A19-R block bootstrap seed rather than introduce a new one",
+    "reference_sensitivity": "Reuse each original500 float64 reference draws for shared_labels and batch_separate; same draw synchronized across3sources, empirical ranges only"
+  },
+  "root_resource_authorization": "Root approved20261014 before first fit: after exact input alignment; first complete source fit counts once as smoke/formal",
+  "source_sha256": {
+    "run_native.py": "f4e6d7c6a32f6d503a1b24fc2f0f987d76d32b677e7dd97963888ff04a9132e2",
+    "prepare_ash.py": "d2186223aea1d56acb89b966ce6e51067981ec0100b7a778d3f384989a3e107a",
+    "score_native.py": "0f1588732574d82b0fcd97744caa84448aec748e0d9b412f12a0c493efb6760e",
+    "SCORER_SMOKE.json": "01da0699e0f1bf74a49e71a58910df2c1e9467ba1c31ec62903659a9a5a84736"
+  },
+  "ready_input_locks": {
+    "D3_Rest_ASH": "dc885bcf9b7744db93020616a62dd5719913beb3d901d3dcd669efb53293cd14"
+  },
+  "remaining_input_locks": "append per-source exact ready marker; no changing fixed candidate or query pool or method configuration",
+  "prediction_and_scoring_order": "Complete all recoverable native fixed outputs and owner verification before scoring any new arm. Unavailable arms recorded explicitly; failure never zero score."
+}

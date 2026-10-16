@@ -1,0 +1,26 @@
+{
+  "status": "ROOT_AUTHORIZED_TECHNICAL_RECOVERY_RUN_SELECTION_BEFORE_ANY_NEW_SCORE",
+  "created_utc": "2026-10-14T04:43:40.097649+00:00",
+  "reason": "D1attempt1 owner lost, no final effects or score. Root authorized one same-setting attempt2. Both records kept; no performance selection.",
+  "conservative_D1_attempt1_seconds": 600,
+  "D1_attempt2_max_seconds": 600,
+  "D1_total_budget_seconds": 1200,
+  "runs": {
+    "D3_Rest": {
+      "FR": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D3_Rest/FR_attempt1",
+      "ASH": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D3_Rest/ASH_attempt1"
+    },
+    "D1_Rest": {
+      "FR": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D1_Rest/FR_attempt2",
+      "ASH": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D1_Rest/ASH_attempt1"
+    },
+    "D2_Rest": {
+      "FR": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D2_Rest/FR_attempt2",
+      "ASH": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D2_Rest/ASH_attempt1"
+    }
+  },
+  "updated_utc": "2026-10-14T04:47:16.587715+00:00",
+  "D2_conservative_queue_attempt1_seconds": 600,
+  "D2_attempt2_max_seconds": 600,
+  "D2_total_budget_seconds": 1200
+}

@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "mode": "final replay",
+  "fits": 2945,
+  "query_scores_exact": 30000,
+  "all_summary_records_exact": true,
+  "original_baseline_inputs_preserved": true,
+  "original_H1_H2_and_selected_competitor_preserved": true,
+  "weights_sha256": "ed7f24f3162e4cac2c0a761ce40ba71676ff6053cdc00348c54a182ba55206a6",
+  "scope": "post-hoc descriptive TRADE scalar adaptation; five groups within one donor",
+  "created_utc": "2026-10-08T15:55:12Z",
+  "elapsed_seconds": 7.134386978999828,
+  "kit_manifest_sha256": "3a6876d37066854272740e8aed63173f2c74648f999844ba66ab356377a2e0b9"
+}

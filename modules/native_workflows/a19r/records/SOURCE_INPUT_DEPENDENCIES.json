@@ -1,0 +1,35 @@
+{
+  "archives": [
+    {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/restored/PertRank_External_Reference_Method_Differences_20261005.zip",
+      "library_file_id": "libfile_4ece4466a97c81918883a6f26659d420",
+      "version_id_observed": null,
+      "bytes": 186082515,
+      "sha256": "f798330758c82732c398323bd9ba49d8c0d46401c2da679374d0d9bdb7d2f6ee",
+      "needed_members_extracted": true,
+      "active_readers": false,
+      "deletion_allowed_duplicate_archive_only": true
+    },
+    {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/restored/PertRank_Guide_Correction_20261005.zip",
+      "library_file_id": "libfile_2c805de3e77c8191b25ed7826d90e393",
+      "version_id_observed": 1,
+      "bytes": 153861462,
+      "sha256": "70b799ad719a8837e0a4bfffe41d1b4a8f12844f8002a97ee6b06e77fc981137",
+      "needed_members_extracted": true,
+      "active_readers": false,
+      "deletion_allowed_duplicate_archive_only": true
+    },
+    {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/restored/PertRank_External_Reference_Checkpoint_20261005.zip",
+      "library_file_id": "libfile_87370546833c8191885bfcfc60e85be0",
+      "version_id_observed": null,
+      "bytes": 306369871,
+      "sha256": "6bee659e442d73f91cb3614758abb1fa11d2ec04ae972814994240d329666da5",
+      "needed_members_extracted": true,
+      "active_readers": false,
+      "deletion_allowed_duplicate_archive_only": true
+    }
+  ],
+  "note": "The first saved archive contains original A19-R target counts/context/plans. New original control counts are in CONTROL_DEPENDENCY.json. No library version invented when unavailable."
+}

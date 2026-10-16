@@ -1,0 +1,49 @@
+{
+  "official_repo": "https://github.com/hwxing3259/GPerturb",
+  "pinned_commit": "05d5a431413ff9dc443c82b994b571ecc563426d",
+  "commit_source": "git ls-remote HEAD and refs/heads/main agree",
+  "files": [
+    {
+      "path": "GPerturb/GPerturb_model.py",
+      "url": "https://raw.githubusercontent.com/hwxing3259/GPerturb/05d5a431413ff9dc443c82b994b571ecc563426d/GPerturb/GPerturb_model.py",
+      "bytes": 49001,
+      "sha256": "29ab3ef8f27e883d46e0a8e54b4783c6ea7fe677d73e04b873d74de90bcd100d",
+      "status": "DOWNLOADED"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/hwxing3259/GPerturb/05d5a431413ff9dc443c82b994b571ecc563426d/README.md",
+      "bytes": 5334,
+      "sha256": "9e971dab08926771da6feea7d1a832090f7248378efe7046d7cf4d1ac5f97114",
+      "status": "DOWNLOADED"
+    },
+    {
+      "path": "setup.py",
+      "url": "https://raw.githubusercontent.com/hwxing3259/GPerturb/05d5a431413ff9dc443c82b994b571ecc563426d/setup.py",
+      "bytes": 914,
+      "sha256": "80c1f5d6783e4c1592b35b6894ccba6c800e6c8775b1b4ba21110379f0d65552",
+      "status": "DOWNLOADED"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/hwxing3259/GPerturb/05d5a431413ff9dc443c82b994b571ecc563426d/LICENSE",
+      "bytes": 1068,
+      "sha256": "ff0a907a8552558f3f9c03c98adc70f2e207fd7d67a437ab7ddb045392ce8e03",
+      "status": "DOWNLOADED"
+    },
+    {
+      "path": "numerical_examples/TCells_GPerturb.ipynb",
+      "url": "https://raw.githubusercontent.com/hwxing3259/GPerturb/05d5a431413ff9dc443c82b994b571ecc563426d/numerical_examples/TCells_GPerturb.ipynb",
+      "bytes": 846625,
+      "sha256": "a2322b59f535259349cf172c64cb594b3550352ba043bde816e6b799a508f555",
+      "status": "DOWNLOADED"
+    },
+    {
+      "path": "numerical_examples/Replogle_GPerturb.ipynb",
+      "url": "https://raw.githubusercontent.com/hwxing3259/GPerturb/05d5a431413ff9dc443c82b994b571ecc563426d/numerical_examples/Replogle_GPerturb.ipynb",
+      "bytes": 718426,
+      "sha256": "ff6b455866cf12bd7c215af16312c48cdcfb053ee2b7d482c5f276098d334cc2",
+      "status": "DOWNLOADED"
+    }
+  ]
+}

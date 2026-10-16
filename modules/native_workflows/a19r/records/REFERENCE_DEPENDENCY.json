@@ -1,0 +1,18 @@
+{
+  "library_file_id": "libfile_87370546833c8191885bfcfc60e85be0",
+  "library_version": null,
+  "version_note": "Search/download receipt exposed no version; exact identity instead fixed by archive and member SHA256.",
+  "filename": "PertRank_External_Reference_Checkpoint_20261005.zip",
+  "archive_sha256": "6bee659e442d73f91cb3614758abb1fa11d2ec04ae972814994240d329666da5",
+  "archive_bytes": 306369871,
+  "members": {
+    "reference_draws_batch_separate_float64.npz": {
+      "archive_member": "external_uncertainty/results/reference_draws_batch_separate_float64.npz",
+      "sha256": "ac7392406693dd3c7803c6b54ecad73ff97ba1269f42d311e6ad6bf5c3c82e2e"
+    },
+    "reference_draws_shared_labels_float64.npz": {
+      "archive_member": "external_uncertainty/results/reference_draws_shared_labels_float64.npz",
+      "sha256": "14f3e447d5e78422186b58743bf00abf7d499f36bc34702912b01b5c8fd7655a"
+    }
+  }
+}

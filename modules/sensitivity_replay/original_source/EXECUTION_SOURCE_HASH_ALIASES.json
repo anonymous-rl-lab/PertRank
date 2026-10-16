@@ -1,0 +1,99 @@
+{
+  "purpose": "Historical freeze paths may name a source subsequently superseded by an execution-only revision. Resolve its exact bytes by hash in this map. Before-efficiency copies were reconstructed from the known one-line/addendum edits and verified against their earlier recorded hashes; no historical timestamp is asserted.",
+  "sha256_to_available_exact_source": {
+    "a35f9c0997b76fe4ee6c91e94759033c39f2655cdf491b0cdc9479127c01da10": [
+      "evaluate_official_mixscale.py"
+    ],
+    "e9c765447c073df82c475420f6ccf67c0ace3175e4962e658d692c79dc887a9f": [
+      "run_compact_mixscale_before_gc.R"
+    ],
+    "83828a121839f1b818eaeebd3ad567daa5924c8fbab186b370dcbbb7dc875dcb": [
+      "conditional_bootstrap_REPORT.md"
+    ],
+    "c78bbb38d209db6c6f2a1fd786042bcae1a54efcb2a04f4e6520f050612401d6": [
+      "run_with_metrics.py"
+    ],
+    "3d07fa87b42b9b98174b06e5ac7c1f4f17b5682c6497b82976b27e82eb57ab07": [
+      "weight_refit_diagnostics.py"
+    ],
+    "b8da83aeecd8c9d94b6df30f653255d5a0613ac6deae131502ff16d58107b132": [
+      "conditional_cell_bootstrap.py"
+    ],
+    "4436aeefbef1d5b229c2867f02d100c40cf1c3ab763e4b34e5734abf11c7321f": [
+      "REFIT_CELL_BOOTSTRAP_REPORT.md"
+    ],
+    "cb615dff1b483100fdfb7ff361f7436d638cfdfd11dfd19f9131be6f93c690b3": [
+      "run_official_mixscale.R"
+    ],
+    "0ff9c964b1edb518a57085aade15a9a38a7c14034624ffb542523f12e8b5ddd0": [
+      "compact_mixscale_helpers.R"
+    ],
+    "66ffa0300f9392a5da4fa1e8a9935b9d9d120aa8a29ff270cc672979eeaa1d7c": [
+      "refit_cell_bootstrap.py"
+    ],
+    "ebc708166c117d6f62759d56832c2b03d88e70c1603245545061582818700743": [
+      "COMPACT_EXECUTION_PROTOCOL_before_export_efficiency.md"
+    ],
+    "935383ca8507560a904ed74fac030777f011b59c70311303cd3cb7bb40b0bd5f": [
+      "run_compact_mixscale_gc_before_worker3.R"
+    ],
+    "b16fee6973da347ec9157a59d91577f3d12c728f4d1337d4ed64bf639ac5a50e": [
+      "COMPACT_EXECUTION_PROTOCOL.md"
+    ],
+    "70c525337dab9e56bb6806b2903a03bf857c466e7cabb03b08cb9a462b702a89": [
+      "finish_mixscale_checkpoint.py"
+    ],
+    "d5cd2419c8a3c303838bff78da4052278a801fdc4794e4251156989aad219045": [
+      "export_compact_driver.R"
+    ],
+    "b238c97617d1a502bdd0f95eab8399f2be33af796002f5a4273b887f15b30ced": [
+      "MIXSCALE_BOUNDED_PROTOCOL.md"
+    ],
+    "a5c2279a4384e364abb59f3f9c7f67b44f34897290dc08164698baa74c59e3f9": [
+      "EXACT_WEIGHT_REBOOTSTRAP_MINIMUM.md"
+    ],
+    "7c044869040502a3b97878bc008906d4ca696ffdfcecb22d597c825aeba6e2c0": [
+      "validate_compact_mixscale.R"
+    ],
+    "e08ba119373fd084037ce09812f2c869e016a881e618d7adc490b35dd2a9c339": [
+      "CONDITIONAL_CELL_BOOTSTRAP_PROTOCOL.md"
+    ],
+    "b602b6d0bf0e87c5a2554cf231bbbc55464426971e7d37fa2e1b6273472b32a7": [
+      "run_compact_mixscale.R"
+    ],
+    "95cdb63292633da29c98d34697f4f7f33b20de6fbfe15be6db9e789ac068e27a": [
+      "MIXSCALE_EXECUTION_HISTORY.md"
+    ],
+    "52eff2afd1878c22d8ce5b583c295246c0ecb0f4464c4b01cf751cff8c2ac334": [
+      "resume_official_mixscale_fit.R"
+    ],
+    "633396365d4e0c588ad13abaff013c23af1ceb56c643668ea9ab7440de46f395": [
+      "export_compact_driver_before_efficiency.R"
+    ],
+    "839b8524d888fc1fc184ee6ecd7b2f45d63cb69b6317dd4a650646f7d911ada0": [
+      "prepare_official_global.R"
+    ],
+    "84a948d6f51f4fb17e74ede3a71e70cc6458f91906988fb3c00f4c4f5b3d6f75": [
+      "REFIT_BOOTSTRAP_PROTOCOL.md"
+    ],
+    "9e211d973487bccfc4a4cef64c583f11f28930d998c9a6faf0e7861a7de24f17": [
+      "MIXSCALE_OFFLINE_REPRODUCTION.md"
+    ],
+    "f5acf96818176b6a68358811c3a795610c0f6d73e73ac49fac814afd417bff3f": [
+      "run_compact_mixscale_de_released.R"
+    ],
+    "c54e6d30b987ed309e0ecec2ebbf8fbd2f97f5bbc3f0a5cc663ad6439b1e2781": [
+      "REFIT_CELL_BOOTSTRAP_REPORT_before_link_fix.md"
+    ],
+    "cbfb6b8cc0c1c6364836461a528e7aa4bfbc3e2e2b7154fc7bf47a838f5e10d8": [
+      "preflight_cell_states.py"
+    ],
+    "946ac1f7540b09d64d0522bbf5a885d77357e03c4ecd33159631f36f42446685": [
+      "audit_refit_cells.py"
+    ],
+    "295776d7cab22a67918ff60a42e9a791e7262fad1696888f811ebb1d2f3fc479": [
+      "prepare_d3_gram_and_mixscale.py"
+    ]
+  },
+  "report_link_revision": "REFIT_CELL_BOOTSTRAP_REPORT_before_link_fix.md preserves exact prior report bytes (hash verified against prior aliases). The current report changes only ../audit/... to ../ablations/audit/...; no numbers, code or interpretation changed."
+}

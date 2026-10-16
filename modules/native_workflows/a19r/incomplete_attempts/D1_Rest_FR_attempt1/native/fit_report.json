@@ -1,0 +1,50 @@
+{
+  "status": "RUNNING",
+  "official_repository": "https://github.com/douglasyao/FR-Perturb",
+  "official_commit": "24e653b6a5c050ab17f3600ebaf222bef32e2d25",
+  "parameters": {
+    "rank": 300,
+    "spca_alpha": 0.1,
+    "lasso_alpha": 0.0001,
+    "spca_iter": 50,
+    "seed": 20261012,
+    "threads": 2
+  },
+  "preprocessing": "official Scanpy filter_genes(min_cells=1), TP10K, log1p, NTC centering",
+  "output_scale": "official scale_effs LOWESS; preserve before signif(3)",
+  "numerical_precision": "native dtype, without decimal export rounding",
+  "rng_note": "NumPy and Python seeds set; SPAMS exposes no random seed parameter; reproducibility is tested separately",
+  "dictionary_convergence": "native fixed iteration budget; no native convergence flag",
+  "input_provenance": {
+    "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/inputs/D1_Rest/FR",
+    "counts_sha256": "09e0f25ae6e7fbb73fed794cbbf2a238ba860291711f33b2c9e4878b261e8976",
+    "axes_sha256": "7dcc8905b03347be38d30f47390a197323874eed51e1dddacb768a851b29a547",
+    "memory_lock_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/heavy_memory.lock",
+    "memory_lock_wait_seconds": 6.222724914550781e-05,
+    "serialization_wrapper_sha256": "5efe3b81dd1f3784f8702c09891b50a467e78b1ff7ff22ce10b2e421940c66f6",
+    "atomic_npz_helper_sha256": "ec1011ccd4b5d1dec3c11e7a869b954fbe0c3e1fc74d55dd22515a517173f8b3",
+    "scientific_runner_unchanged": "fr_native_runner_audit_v2.py"
+  },
+  "events": [],
+  "warnings": [],
+  "official_source_sha256": {
+    "run_FR_Perturb.py": "e7d943e472b1748d9286bfaac55cb17bea6bbb2a165e127d6410c7db30480ea2",
+    "FR_Perturb/FR_Perturb.py": "b47691c5d121e1df5b60cada04535ff931315716c9cff8b66a84a46f947c244c",
+    "FR_Perturb/utils.py": "e4fd06e7c5e7e373a163e5b444556f5fe7354922553e21add055d116315aca5a",
+    "environment.yml": "457a15bdf6633cc9e4e899d4eac14a5fbca8d8ee31bdf49531a3b98188d394ca"
+  },
+  "runner_sha256": "00f4dbb48888811ad1b41934c71402e98000d5c4482e7bd0db9b4d1ea9cd0aad",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "scanpy": "1.10.4",
+    "anndata": "0.10.9",
+    "spams-bin": "2.6.14",
+    "statsmodels": "0.15.0",
+    "h5py": "3.16.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]"
+}

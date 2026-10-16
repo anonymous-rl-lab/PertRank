@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "precision": "float64",
+  "source_half_means_compressed_bytes": 83819744,
+  "cross_gram_bytes": 1687242,
+  "max_replay_numeric_error": 1.1102230246251565e-16,
+  "files": 47,
+  "total_file_bytes": 3017911
+}

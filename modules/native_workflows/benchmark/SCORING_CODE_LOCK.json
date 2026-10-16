@@ -1,0 +1,45 @@
+{
+  "status": "LOCKED_BEFORE_FIRST_NEW_D3_AND_D4_FR_SCORING",
+  "created_utc": "2026-10-12T03:54:55.557397+00:00",
+  "files_sha256": {
+    "evaluation/evaluate_six_arm.py": "a90fcf05d6a3c552709d0dcc6dff64c639d3e0a80ab796bf38297d67f8d92ca8",
+    "evaluation/verify_evaluator.py": "9666d9fbccfb73e75b0917dc66b0c95136caea6d092fe6e6f53d115a79a661d4",
+    "audit/audit_six_arm.py": "44b5840c8b60ae209fbbc4c7e686c8574ba16d6d3a42fd9bda4713867b6c367a",
+    "audit/audit_result_reports.py": "4f53523746b9a6527f8aee746bcdf1bec2d3f6eacc659983c8e1af8f3a68700a",
+    "ash_work/select_d3_ash.py": "04d5ef599163fac9f8535d05877cc2fcc5019dbdb78fcd6cad58a5e41ce1323d",
+    "independent/execution/evaluate_independent.py": "21cfcbe73404d7560922069de96b25fa706ac75900afb014a8aed1880fbc05cf",
+    "EXECUTION_SPEC.json": "bb04f4c1b635c4dbbb3d2630fd2cc0cee8275768fea46af302c56cf77bdddc57",
+    "AMENDMENT_01_ASH_DEFAULT.lock.json": "e4be5f6c8388d89d6f069623fa43fa3181f86336a90718128561795c45b61cb8",
+    "AMENDMENT_02_DISTINCT_QUERY_PANELS.lock.json": "67de837e59fdc6f7196a2e1312108b57063d923ff45dab018ad8da058ff742e3"
+  },
+  "checks": {
+    "BASELINE_REPLAY_CHECK.json": {
+      "K25_points_max_error": 0.0,
+      "K25_joint_max_error": 0.0,
+      "K10_points_max_error": 0.0,
+      "K10_joint_max_error": 0.0,
+      "query_draws_identical": true,
+      "query_weights_identical": true,
+      "status": "PASS",
+      "new_FR_evaluated": false
+    },
+    "SYNTHETIC_SCORER_CHECK.json": {
+      "status": "PASS",
+      "checks": [
+        "mixed exact ties",
+        "both signs",
+        "own-target exclusion",
+        "two input reps",
+        "unequal query blocks",
+        "K25/K10",
+        "all-zero analytical chance"
+      ]
+    }
+  },
+  "notes": [
+    "No newly fitted FR D3/D4 scores read by primary evaluator before this lock.",
+    "Old independent-guide baseline replay used raw copied into FR slots; all original baseline points and 2000 joint draws at K25/K10 reproduce bitwise.",
+    "This is an internal code timestamp/hash lock, not public preregistration.",
+    "Any later scoring-code bug fix must retain this original lock and write a separate amendment."
+  ]
+}

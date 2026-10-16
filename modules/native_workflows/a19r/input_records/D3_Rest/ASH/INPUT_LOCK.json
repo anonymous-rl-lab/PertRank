@@ -1,0 +1,39 @@
+{
+  "status": "READY_EXACT_A19R_INPUT",
+  "created_utc": "2026-10-14T04:07:38.005241+00:00",
+  "donor": "D3_Rest",
+  "methods": {
+    "ASH": {
+      "files": {
+        "full.npz": {
+          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/inputs/D3_Rest/ASH/full.npz",
+          "sha256": "052aa1a004ad33806bb28f5c8ec5fb4e923ca3042eed01f856a9263babb44411"
+        }
+      }
+    }
+  },
+  "checks": {
+    "same_control_mean_exact": true,
+    "same_control_gene_axis_exact": true,
+    "same_scale_ncontrol_exact": true,
+    "control_trace_error": -2.2737367544323206e-13,
+    "query_effect_maxabs": 1.7763568394002505e-15,
+    "m2_maxabs": 0.0,
+    "mean_target_variance_maxabs": 0.0,
+    "min_SE": 4.0645870508627226e-05,
+    "min_target_variance": 0.0,
+    "targets": 52,
+    "genes": 13390,
+    "queries": 293
+  },
+  "source_sha256": {
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/a19r_restored/external_uncertainty/A19R/D3_Rest/context.npz": "116648ce18e4cee0f06860c3b5805666328fea6d8c8474002dde93e6c6ef0e48",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/a19r_restored/external_uncertainty/A19R/D3_Rest/sufficient_state.npz": "b93e5fac94a2644709eb05c347932ebfcc5ceba2723f3e55e8d691e387cae464",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/a19r_restored/external_uncertainty/A19R/D3_Rest/predictions_locked.npz": "20de63036134d2317e70a624074afa3b2f2600955e001cd773f084943e27561e",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D3_Rest/rep0/full_effect_stats.npz": "fe1e030623de6823025b806e6fc7acd29e4c40e341a54c03ad48f38460fbb9ea",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/prepare_ash.py": "d2186223aea1d56acb89b966ce6e51067981ec0100b7a778d3f384989a3e107a"
+  },
+  "new_benchmark_reference_read": false,
+  "no_perturbation_refit": true,
+  "configuration": "ashr2.2-63 default uniform/fdr; full original control-expressed gene axis; n_target20"
+}

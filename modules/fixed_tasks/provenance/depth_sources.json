@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "identity": "Packaging provenance; not a new experiment, parameter freeze or preregistration",
+  "donors": [
+    {
+      "donor": "D1",
+      "schema": "packed exact signed boundary membership v1",
+      "K": 25,
+      "signs": [
+        1,
+        -1
+      ],
+      "representation": "for every query, positive/negative direction, depth and anchor: complete above-cutoff membership, complete boundary-tie membership, and exact integer slots/tie-size; no hard tie breaking",
+      "scope": "Reproduces frozen P@25 depth curves and inverse intervals. Does not retain below-cutoff rankings or expression magnitudes; no new experiment.",
+      "analysis_identity": "v16b real-cell depth calibration; opened-data development; fixed historical R20 query panels",
+      "panel_warning": "HISTORICAL PANEL SENSITIVITY ONLY. D1 uses the original 595-union-query R20 panel, not the corrected D1 panel in ranking.npz. Its depth-equivalence numbers must not be labeled corrected-panel results.",
+      "source_sha256": {
+        "v16_execution/assets/r20/PertRank_R20_20261006/new_experiment/selection/D1_Rest/context.npz": "2037f7e5f1a517d32b3bb2a394139cdf8f4fe48266c728a0595b9608554c49c8",
+        "v16_execution/assets/r20/PertRank_R20_20261006/new_experiment/read/D1_Rest/aggregate.npz": "71547c3a8fd689af1385c8690467fae01c9581a1e791cbd7a2fcdc863cbf014c",
+        "v16_execution/cell_equivalence/D1_Rest/query_cells.npy": "6c56027e9457e7412f4802215f9bbc402674b592e3cb2b14cdc39b4eaa49f2ab",
+        "v16_execution/cell_equivalence/D1_Rest/ADDITION_LOCK.npz": "50ab305a5bab5a4fbaa43c31dfd6f68cacac882290e31cc9efa6313127ecba8b",
+        "v16_execution/cell_equivalence/D1_Rest/results.json": "c52bd6ec838f8897e27e5d866a2cc2e96ab859025b512a4d1d951d0bc0c54d44",
+        "v16_execution/cell_equivalence/D1_Rest/query_scores_and_bootstrap.npz": "e508f135e2b51f56f442d823f2655e053d2583a5dfed20cba28c0c11e6134a27"
+      },
+      "depth_npz_bytes": 2396076,
+      "row_score_checks": 60000,
+      "all_archived_query_scores_exact": true,
+      "seconds": 12.173967123031616
+    },
+    {
+      "donor": "D2",
+      "schema": "packed exact signed boundary membership v1",
+      "K": 25,
+      "signs": [
+        1,
+        -1
+      ],
+      "representation": "for every query, positive/negative direction, depth and anchor: complete above-cutoff membership, complete boundary-tie membership, and exact integer slots/tie-size; no hard tie breaking",
+      "scope": "Reproduces frozen P@25 depth curves and inverse intervals. Does not retain below-cutoff rankings or expression magnitudes; no new experiment.",
+      "analysis_identity": "v16b real-cell depth calibration; opened-data development; fixed historical R20 query panels",
+      "source_sha256": {
+        "v16_execution/assets/r20/PertRank_R20_20261006/new_experiment/selection/D2_Rest/context.npz": "a725db9909d56438d995766fc68480b5c38d3e2ae1c05902b0ddeaea3f72eb6c",
+        "v16_execution/assets/r20/PertRank_R20_20261006/new_experiment/read/D2_Rest/aggregate.npz": "7c5a7889beef28bcf2d38966ab432f26ebae25230376e68c9e31484ed16a72c7",
+        "v16_execution/cell_equivalence/D2_Rest/query_cells.npy": "9f43490814c0f2dcf4cd0a3963ad27d3cc985f9d581ceacc7ec84ff0a67237cd",
+        "v16_execution/cell_equivalence/D2_Rest/ADDITION_LOCK.npz": "3a7e4164e6f20016929001d4058ba11069d70a12d70f52968a8eb023bfd7fd58",
+        "v16_execution/cell_equivalence/D2_Rest/results.json": "f2b02e2b522c92e16e89d880a241caddd55fc569c6ce91d3a3b491d988fb83bb",
+        "v16_execution/cell_equivalence/D2_Rest/query_scores_and_bootstrap.npz": "f811e5d61ab4dc62ffc5bc503db74a62c8431413ad09c0c6a78a497663a6b4bf"
+      },
+      "depth_npz_bytes": 2513387,
+      "row_score_checks": 60000,
+      "all_archived_query_scores_exact": true,
+      "seconds": 13.071492671966553
+    },
+    {
+      "donor": "D3",
+      "schema": "packed exact signed boundary membership v1",
+      "K": 25,
+      "signs": [
+        1,
+        -1
+      ],
+      "representation": "for every query, positive/negative direction, depth and anchor: complete above-cutoff membership, complete boundary-tie membership, and exact integer slots/tie-size; no hard tie breaking",
+      "scope": "Reproduces frozen P@25 depth curves and inverse intervals. Does not retain below-cutoff rankings or expression magnitudes; no new experiment.",
+      "analysis_identity": "v16b real-cell depth calibration; opened-data development; fixed historical R20 query panels",
+      "source_sha256": {
+        "v16_execution/assets/r20/PertRank_R20_20261006/new_experiment/selection/D3_Rest/context.npz": "1cfba4f2de1f9cd594f37e591556bb6779d6c86ba47fbdfee5b8df04efde9129",
+        "v16_execution/assets/r20/PertRank_R20_20261006/new_experiment/read/D3_Rest/aggregate.npz": "6da8c50be4102973a1bb05bcdeef9dfdfcd0b6d13fe7731ad1121c1bffea8438",
+        "v16_execution/cell_equivalence/D3_Rest/query_cells.npy": "58a4aebdc63752eeae8ee445a0d334ca1d20ee18d6d5e46898ca0299b2ddab85",
+        "v16_execution/cell_equivalence/D3_Rest/ADDITION_LOCK.npz": "ad14494f58a4eb8621813a92f90e446b54772ed9c9a953926bfade01d82aab29",
+        "v16_execution/cell_equivalence/D3_Rest/results.json": "63361ec44792e03ce6ecac5ae0831bc9fc0b1c563d289a3a9978c4cb0f51654c",
+        "v16_execution/cell_equivalence/D3_Rest/query_scores_and_bootstrap.npz": "5f1f5dc19b93c7c7ae785640667978f6d946a9a4ed49c93cd5c07d5de336fa4f"
+      },
+      "depth_npz_bytes": 2446061,
+      "row_score_checks": 60000,
+      "all_archived_query_scores_exact": true,
+      "seconds": 11.44067120552063
+    },
+    {
+      "donor": "D4",
+      "schema": "packed exact signed boundary membership v1",
+      "K": 25,
+      "signs": [
+        1,
+        -1
+      ],
+      "representation": "for every query, positive/negative direction, depth and anchor: complete above-cutoff membership, complete boundary-tie membership, and exact integer slots/tie-size; no hard tie breaking",
+      "scope": "Reproduces frozen P@25 depth curves and inverse intervals. Does not retain below-cutoff rankings or expression magnitudes; no new experiment.",
+      "analysis_identity": "Prespecified secondary D4 ranking-input depth equivalence; fixed released confirmation panel",
+      "source_sha256": {
+        "PertRank_D4_OSF_core_under60MB_20261008/result/data/query_context.npz": "6d86658f85454e7c916a6415c008a78820b44f5b235eb9d38e74ceedcaa44eca",
+        "PertRank_D4_OSF_core_under60MB_20261008/result/data/prediction_core.npz": "a8cb7db42fba0dfd896f25dcc36d8a5f9c8f627bd6f48476229b0b38e4a492b3",
+        "PertRank_D4_OSF_core_under60MB_20261008/result/data/truth.npz": "3ed963d1076079810afeeb0df3e4cfb6ee1cb9ff4da923cc5db462b87c96c09a",
+        "PertRank_D4_OSF_core_under60MB_20261008/result/v18_d4_confirmation/results/D4_RESULT.json": "e89aab5d08a103b3db37b57a230387726bb7933af60328fc6cfa50e36c52e4d0",
+        "PertRank_D4_OSF_core_under60MB_20261008/result/v18_d4_confirmation/results/query_scores_and_depth_bootstrap.npz": "c5fcee361069f2d21eb0da33754a4fc2f27506d2a37edf3f8cbabc16462e4d03"
+      },
+      "depth_npz_bytes": 1768640,
+      "row_score_checks": 60000,
+      "all_archived_query_scores_exact": true,
+      "seconds": 1.910581111907959
+    }
+  ]
+}

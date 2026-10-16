@@ -1,0 +1,42 @@
+{
+ "T cell": {
+  "s20 vs s30 (independent 20 and 30 cells)": {
+   "pearson": 0.581,
+   "spearman": 0.417
+  },
+  "sA vs sB (independent 100 and 100 cells)": {
+   "pearson": 0.894,
+   "spearman": 0.808
+  },
+  "s20 vs sA": {
+   "pearson": 0.666,
+   "spearman": 0.515
+  },
+  "d2 by energy quintile / overall mean": [
+   0.17,
+   0.33,
+   0.66,
+   1.08,
+   2.76
+  ],
+  "d2 by vb quintile / overall mean": [
+   1.45,
+   0.71,
+   0.82,
+   0.66,
+   1.36
+  ]
+ },
+ "KOLF matched": {
+  "s20 vs s30": {
+   "pearson": 0.071,
+   "spearman": 0.015
+  }
+ },
+ "Replogle": {
+  "s20 vs s30": {
+   "pearson": 0.761,
+   "spearman": 0.346
+  }
+ }
+}

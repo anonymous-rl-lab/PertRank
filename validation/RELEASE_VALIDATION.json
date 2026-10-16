@@ -1,0 +1,88 @@
+{
+  "status": "SEVEN_DEFAULT_MODULES_PASS",
+  "package_version": "1.5.2",
+  "modules": [
+    {
+      "name": "fixed_tasks",
+      "status": "PASS",
+      "wall_seconds": 48.660148059999756,
+      "native_statuses": [
+        "D4_SUPPLEMENT_REPLAY_PASS",
+        "EXTERNAL_BENCHMARK_FIXED_RESULT_REPRODUCTION_PASS",
+        "FOUR_DONOR_STIM_UPGRADE_AND_EXTERNAL_BENCHMARK_REPRODUCTION_PASS",
+        "PASS",
+        "PASS_ARCHIVED_D3_RECONCILIATION_SCORE_REPLAY",
+        "PASS_ARCHIVED_SCORE_STATISTICS_REPLAY",
+        "STIM_EXACT_REPRODUCTION_PASS",
+        "SUPPLEMENTS_PASS",
+        "UPGRADE_FIXED_TASK_REPRODUCTION_PASS"
+      ],
+      "level": "Sufficient-statistic and retained-prediction numerical replay"
+    },
+    {
+      "name": "early_intermediates",
+      "status": "PASS",
+      "wall_seconds": 8.487623086999974,
+      "native_statuses": [
+        "RECOMPUTED_DESCRIPTIVE_MATCH",
+        "RECOMPUTED_STATISTICS_MATCH",
+        "STATISTICAL_REPLAY_MATCH"
+      ],
+      "level": "Saved-query score/block to original statistical summary replay"
+    },
+    {
+      "name": "corrected_intermediates",
+      "status": "PASS",
+      "wall_seconds": 17.361419666000074,
+      "native_statuses": [
+        "PASS"
+      ],
+      "level": "Saved intermediate quantities to corrected-evidence statistical comparisons"
+    },
+    {
+      "name": "r20_intermediates",
+      "status": "PASS",
+      "wall_seconds": 4.980020444999809,
+      "native_statuses": [
+        "PASS"
+      ],
+      "level": "Saved per-query scores to original within-screen and independent-RNA statistics"
+    },
+    {
+      "name": "paper_analysis",
+      "status": "PASS",
+      "wall_seconds": 26.69370036700002,
+      "native_statuses": [
+        "PASS",
+        "PRESERVED_NOT_RUN"
+      ],
+      "level": "Existing analysis replay and frozen-source figure regeneration"
+    },
+    {
+      "name": "il2_intermediates",
+      "status": "PASS",
+      "wall_seconds": 3.473409016000005,
+      "native_statuses": [
+        "PASS"
+      ],
+      "level": "Fixed guide/MAGeCK readout scores to original primary and secondary comparisons"
+    },
+    {
+      "name": "sensitivity_replay",
+      "status": "PASS",
+      "wall_seconds": 1.0167484270000386,
+      "native_statuses": [
+        "PASS"
+      ],
+      "level": "Saved-draw summary and fixed-coefficient numerical reconstruction"
+    }
+  ],
+  "successful_module_wall_seconds": 110.67306906799968,
+  "core_per_query_scores": 150000,
+  "core_summary_fields": 10000,
+  "core_summary_max_error": 0.0,
+  "software_installation": "PASS using external copy; no source pollution",
+  "optional_software_tests_repeated": false,
+  "initial_verification_issue": "First core run stopped at a stale base-file hash after registration-alias substitution. The current dependency manifest was updated; a fresh full core run passed. Original numeric inputs and analysis code were unchanged.",
+  "scope": "Documented intermediate-data replay, not raw-count preprocessing or new model fitting. A14 remains archive-only."
+}

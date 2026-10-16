@@ -1,0 +1,21 @@
+{
+  "status": "METADATA_BINDING_ASSERTIONS_ADDED_BEFORE_DEPTH_DATA",
+  "protocol_unchanged": true,
+  "selection_unchanged": true,
+  "selection_sha256": "e57d3af7b8fa498af7a03170230a7df7978bd397caa8a526513ef1fb98dca8ca",
+  "protocol_sha256": "bd529ba31eaf41cfff522716835d2f95aedc61bfd7a3fdae68e4140e7e6bb546",
+  "export_implementation_sha256": "c37a979a50b757347edae096258ac55b425439f13be033cb1c4e8ce86389abf1",
+  "validated_n20_bindings": {
+    "frozen_protocol_and_selection_hashes_verified": true,
+    "original_NTC_target_gene_axes_exact": true,
+    "depth100_cells_equal_exact_original_R20_five_groups": true,
+    "n20_equal_original_rep0": true,
+    "planning_reference_disjointness_evidence": "Strict subset inheritance from hash-verified original selection, archived zero-overlap report and archived selector source. Missing planning/reference row IDs were not independently re-compared this run.",
+    "original_report_planning_overlap": 0,
+    "original_report_reference_overlap": 0,
+    "n20_audit_precedes_deeper_export": false
+  },
+  "numerical_formula_changed": false,
+  "read_implementation_sha256": "3bc6597555211acfbaadc0452312e8d034aa03a15e3743faec9f09ebc2bd3f3a",
+  "extract_smoke_gate": "Unchanged base.Reader.extract asserts SMOKE_PASS status and exact input_identity before any extraction"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "VERIFIED_AFTER_OWNER_EXIT",
+  "owner_session_id": "95898",
+  "owner_exit_code": 0,
+  "run_record_sha256": "dd3c96503e2b17d7f8f49dd59b73f9941bbeff3b18faf11257bc3ddcae0f5584",
+  "input_lock_sha256": "a6555f3932fd5535fa388737ac88d466148b828a009782fad43d8a32afaed618",
+  "method": "FR",
+  "donor": "D1_Rest",
+  "archives": {
+    "effects.npz": {
+      "sha256": "4eb5adb6879ea2a4b63e937f465b57c613cfdedbb4bc3491dd6cf4e6db9bb9f4",
+      "CRC": "PASS",
+      "bytes": 12796345
+    },
+    "native_unscaled.npz": {
+      "sha256": "a1221b58848f4b6dd95aeb73c5c45c7041c771911876a04e0fecdd46a0be8c21",
+      "CRC": "PASS",
+      "bytes": 39956139
+    }
+  }
+}

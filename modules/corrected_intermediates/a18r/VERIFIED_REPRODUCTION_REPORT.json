@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "tier": "stored_membership_to_strict_support_and_paired_intervals",
+  "max_abs_error": 0.0,
+  "seconds": 0.5017855167388916,
+  "not_recomputed": [
+    "effects",
+    "weights",
+    "rankings",
+    "original missing A18 script"
+  ],
+  "identity": "A18-R reconstruction"
+}

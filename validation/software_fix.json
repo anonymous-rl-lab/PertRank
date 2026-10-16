@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "package_version": "1.5.2",
+  "changes": [
+    "Updated root English/Chinese README to v1.5.2 and retained-scientific-payload migration wording.",
+    "Removed obsolete incremental-ZIP assembly instructions.",
+    "Added external-copy software installation commands; requirements-software.txt points to external copy."
+  ],
+  "changed_files": [
+    "README.md",
+    "README_zh.md",
+    "requirements-software.txt"
+  ],
+  "verification_scope": "Offline installation probe only; no dependency installation, pytest, tutorial execution or scientific experiment.",
+  "copy_command": [
+    "python",
+    "-c",
+    "from pathlib import Path; import shutil; shutil.copytree(Path('modules/paper_analysis/software'), Path('../pertrank-software-source'))"
+  ],
+  "seconds": 0.7911858999996184,
+  "checks": {
+    "copy_exit_code": 0,
+    "install_exit_code": 0,
+    "source_release_copy_unchanged": true,
+    "actual_software_release_unchanged": true,
+    "build_files_created_only_in_external_copy": true,
+    "egg_info_files_created_only_in_external_copy": true,
+    "installed_package_present": true
+  },
+  "release_software_files_before": 39,
+  "release_software_files_after": 39,
+  "external_build_artifacts": [
+    "build/lib/pertrank/api.py",
+    "build/lib/pertrank/py.typed",
+    "build/lib/pertrank/datasets.py",
+    "build/lib/pertrank/core.py",
+    "build/lib/pertrank/__init__.py",
+    "build/lib/pertrank/data/replogle_k562.npz",
+    "build/lib/pertrank/data/tcell_d3_rest.provenance.json",
+    "build/lib/pertrank/data/replogle_k562.provenance.json",
+    "build/lib/pertrank/data/tcell_d3_rest.npz",
+    "src/pertrank.egg-info/top_level.txt",
+    "src/pertrank.egg-info/SOURCES.txt",
+    "src/pertrank.egg-info/requires.txt",
+    "src/pertrank.egg-info/dependency_links.txt",
+    "src/pertrank.egg-info/PKG-INFO"
+  ]
+}

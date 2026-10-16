@@ -1,0 +1,8 @@
+source,status,query rule,20 cells,100 cells
+"Replogle K562 genome-wide (2,000; 0.0125)",development; the cohort the weight was found on,reference-variance,"+0.1091 [+0.0963, +0.1182]",
+VIPerturb-seq K562 (719; 0.0348),pre-declared descriptive arm,reference-variance,"+0.0253 [+0.0206, +0.0312]",
+"X-Atlas/Orion HCT116 (2,000; 0.0125)",frozen test at 20 cells,expression terciles,"+0.0025 [+0.0004, +0.0046]","+0.0065 [+0.0040, +0.0088]"
+"CD4+ T cell, donor D3 (1,200; 0.0208)",development probe,expression terciles,"+0.0173 [+0.0095, +0.0248]","+0.0158 [+0.0082, +0.0228]"
+"CD4+ T cell, donor D3",development probe,responsive,"-0.0016 [-0.0173, +0.0090]","-0.0155 [-0.0300, -0.0037]"
+"KOLF2.1J iPSC, batch-matched (1,000; 0.0250)",development probe,expression terciles,"+0.0000 [-0.0028, +0.0032]","+0.0031 [-0.0001, +0.0064]"
+"KOLF2.1J iPSC, batch-matched",development probe,responsive,"+0.0043 [+0.0014, +0.0077]","+0.0089 [+0.0041, +0.0135]"

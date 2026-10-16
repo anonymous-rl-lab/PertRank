@@ -1,0 +1,16 @@
+{
+  "status": "FROZEN_BEFORE_NEW_ANALYSIS",
+  "frozen_at_utc": "2026-10-11T15:55:07.783193+00:00",
+  "protocol_sha256": "860461d62989c182a74d068ccc0950224193c9ba2d9a8d404ff54601f39ac957",
+  "files": {
+    "inputs/alignment_pretruth.npz": "cf41c2eb6a33f0c0db15d6ffcf15e01b068054f92052b4d3ddd54c72a55b7814",
+    "inputs/main_query_context.npz": "a30eb6765d97dd1244271e4fa8c87f761100db521f045fba753aa80ea407fc46",
+    "inputs/main_support.npz": "a65ca128ac5c75bb489f3ee5253479dbc51c538ac552c86fbc169981026e95d5",
+    "inputs/original_evaluation_report.json": "87350eff5a706fcb26c8b618a4783b39130d5b0ad1a4d5ce7c3b22137f60a41b",
+    "inputs/original_membership_audit.json": "610c9b57d1ff4137ab9edd29ac09843cf8ae9617d4973e0ce97326ace347be61",
+    "inputs/original_registered_scores.npz": "acf866f94c8be3e99cb3e5540a67caca9798eb44b7037a1530c28ec4107bfcbe",
+    "frozen/compact_support.py": "e9bc5381f3fd62c55082f156ce52f20a4dd0d147846a3f73d0c54e0d17b04217",
+    "frozen/frozen_engine.py": "1910bf79496cebe51ec6111c6b54acd8daca3fa65c196afa471a6a425a9fb6c8",
+    "frozen/stats_frozen_exact_score.py": "9f940b35031016a5287c0c4e1ce519058cc3357b8567787cc348999cb2ce9683"
+  }
+}

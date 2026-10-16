@@ -1,0 +1,1994 @@
+{
+  "source": "PertRank_Paper_v25.2",
+  "core_before": "v1.4.0",
+  "files": [
+    {
+      "paper_path": "analysis_v20/robustness/trade_eps_runner_execution_v20.py",
+      "sha256": "509dab1b534feee3563c408f2639fe9e2c8e0556d7d45a399334e261e4bd9be4",
+      "size": 12602,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/review_trade_scores_separate.py",
+      "sha256": "d3d4f91ec2dcdc1d18f4f8a20d453c245aa0e0d567d99268a070aaa64bf8d8e5",
+      "size": 3745,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/TRADE_SMOKE_VALIDATION.json",
+      "sha256": "a1f7ce07805e5243fd4261b233ae86443d8f10917e51ee14fb97ac3381f75b46",
+      "size": 675,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/TRADE_SENSITIVITY_MIXTURES.json.gz",
+      "sha256": "e5602e8ef1ecb8e2031aed477c4778435e214b26dc2424562dc11e06a3e8320f",
+      "size": 1855894,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/MODULE_MANIFEST_SHA256.json",
+      "sha256": "2c698df956001c8984aa665f94bda648ddd5878b48adc6a0c6bba567fffd0151",
+      "size": 5059,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/OPTIMIZER_REFERENCE.txt",
+      "sha256": "15189701d02461ae6b65f8151d5c4d0fec7ce2eccba2c8f4c5141d015c6b32f5",
+      "size": 1482,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/TRADE_SENSITIVITY_RESULT.json",
+      "sha256": "2a61191e6dfc1bf139168c1510a02e8a7fec740e7b5463e33650d1d85f271fb2",
+      "size": 9537,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/README.md",
+      "sha256": "e74a00d52b7ee5169d8689a0191f4290f67c376894d2f6dc0d271ea7f989888a",
+      "size": 3516,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/TRADE_SENSITIVITY_FIT_MOMENTS.csv",
+      "sha256": "a6913a79b20374796d12518616f43009a2f86ec542f1075ad8429573d40da4f0",
+      "size": 433261,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/RUNNER_PORTABILITY_VERIFICATION.json",
+      "sha256": "fccb515d6e11ebb2827b6ab8dc463cacb719e43241c4fb954f984652c4cfe198",
+      "size": 172,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/ROBUSTNESS_METHODS_RESULTS.md",
+      "sha256": "56a2db09e08af172cf5a7036629c0884edb8324c51c2578e60e6961bfbc05d55",
+      "size": 5856,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/run_trade_full.py",
+      "sha256": "69b7356651caf78cd6f75e86459a740d5493acacd80c46f7d5957ba8f2924f28",
+      "size": 2136,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/inventory_control_assets.py",
+      "sha256": "9c20d6100f24777e7c6d95e9501b3448b15d1d14996205148ff1f8ab6681ae91",
+      "size": 2778,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/collect_trade_sensitivity.py",
+      "sha256": "920bdd803920f9fd26f8a502d245598cffde2b6f9d60ee103a8dead4f8690055",
+      "size": 5583,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/NUMERICAL_REVIEW.md",
+      "sha256": "067dee193523179283b5d4672325b80090025999f6845bd8f95b0ddf6661c248",
+      "size": 6598,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/NUMERICAL_SELECTION_RECORD.json",
+      "sha256": "132e9189d999a6d4167bfa2283e06c465b9eab7d42e5921281429f70dc339de8",
+      "size": 814,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/trade_eps_runner.py",
+      "sha256": "f7741dcd6dd35968d5be728e078e024fb15957977162b3e75178ad501e2688b1",
+      "size": 551,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/CONTROL_REPLACEMENT_ASSET_REPORT.json",
+      "sha256": "75d0dd5ac355133c88fad015bf8ff55aad59dc9e5b386a26f02ac285217eec59",
+      "size": 1320,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/replay_trade_sensitivity.py",
+      "sha256": "574bce97eb8ef3ac381f8d274c96d9272f3519e55a7703ebeb176e1d61760b4d",
+      "size": 1233,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/R_TRADE_univariate_eps.R",
+      "sha256": "bdadceace22e8d97af7cd5d1665fda834bd17e39d1a413390b4a741b57f6eedc",
+      "size": 12243,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/TRADE_SEPARATE_SCORE_REVIEW.json",
+      "sha256": "b8012aa6d2957e730995adec3d95d7dff810df7d608142bdcda6cb5c26b6008a",
+      "size": 1736,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/TRADE_COMPACT_REPLAY_VERIFICATION.json",
+      "sha256": "53b7d7de47e029ffae13db5a2d0aab3e9bd9f2d4cd32adb3e5b776a291faac01",
+      "size": 92,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/TRADE_SENSITIVITY_SCORES.npz",
+      "sha256": "0eb2cbdf94ab949084ebb33f70a43b182acbfba865163deb8f142da35248f170",
+      "size": 47193,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/TRADE_FULL_COHORT_PROTOCOL.json",
+      "sha256": "67f2ec4ff65716eb18390e6deda0826c950c317801d15cfa1a247454ce7ad421",
+      "size": 2001,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/TRADE_SENSITIVITY_CONTRASTS.csv",
+      "sha256": "c63482fe22147eca4cf722b2a1dc2d8c2d2d5792ad386a8810a60827e8b6741f",
+      "size": 1845,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/TRADE_SENSITIVITY_REPLAY_INPUTS.npz",
+      "sha256": "6ea3dac67279f355563aff98f5a0dad459c34eb4030b00dc42020a07d9f0c010",
+      "size": 13856122,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/PROTOCOL.json",
+      "sha256": "b6016403c35518b1642c75324a3cb88dc7d1bef1b085409e3bb81e17bb06b49f",
+      "size": 1902,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/run_control_replacement.py",
+      "sha256": "f38b87c9be9b870f1eb712d5f8be6a85c5395d8963d9565deca8e0e3c584e398",
+      "size": 5531,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/TRADE_BATCH_PROVENANCE.json",
+      "sha256": "c1f3202496cadc7dbfa353905bc43c7d23cf0ecc8d9e012fb901b62c37df3dbf",
+      "size": 71471,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/transfer/transfer_scores.npz",
+      "sha256": "afb905c15b1cae8a2d132489d720327d9c7e9b64aecb18c09587351d16f9588d",
+      "size": 16648,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/transfer/RESULTS.json",
+      "sha256": "0c2dfc2d7516ddc384b98b39322804b099084c0cb2fed56d03945a38ccabae3d",
+      "size": 2010,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/transfer/README.md",
+      "sha256": "c65e690826eebef0ca501259c33512fc8eb0eb45c185efb6960624d2b5a34a3b",
+      "size": 2924,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/transfer/source_panel.npz",
+      "sha256": "574008fd4723fd626f88f11282adec9b2cc91f2d3956e6f1759ae4729b59acea",
+      "size": 2397,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/transfer/PROVENANCE.json",
+      "sha256": "4ca7fa121a70b14288261dc22ada9aabddfa972047fb676a665a8cfa03609fe9",
+      "size": 412,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/transfer/query_scores.csv",
+      "sha256": "aca8f081a0e95a3b3ff89e90c0d8dc20e443f973c00b6587b91a8373e379c23e",
+      "size": 26677,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/transfer/run_transfer.py",
+      "sha256": "17ae9bfb270bc56cb75f28cc172cb2268b62ac53fcb94990c31804eb14b8c0c6",
+      "size": 5226,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/transfer/block_influence.csv",
+      "sha256": "a1e158a913ac3a50c38a0d2193c2f59085dbd0f9c2f15bd182d45d5cb8308246",
+      "size": 3828,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/transfer/PROTOCOL.json",
+      "sha256": "b2d6b794b96541068d70e6163637ddc9c4f7fcd4efd08a5b9d4594b10f115178",
+      "size": 1867,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/transfer/transfer_inputs.npz",
+      "sha256": "ea29d13c701d9bc99709e550f7861ea06a5d2b8535207cd47f1666b640ff5803",
+      "size": 7631101,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/biology/nomination_shares.csv",
+      "sha256": "5357168481d80fd109b0860a74fd5f3ed39abdabaece6ecbf3bef3cc6eb0a442",
+      "size": 2663,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/biology/subset_comparisons.csv",
+      "sha256": "d18fdab62993ae3c3caf7172b6f01401e1be9e197275394a4b321a9c92fc9391",
+      "size": 2437,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/biology/VERIFICATION.json",
+      "sha256": "4d8b3d2889d9b7c5c7fa7eb5585b41e6873209774aa25acf6627a577b45830c3",
+      "size": 1016,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/biology/full_pool_contributions.csv",
+      "sha256": "464e3b4023cb384189320f054f4ca5a0c08226e230a9d1f37daad8ffc7a59aca",
+      "size": 4323,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/biology/RESULTS.json",
+      "sha256": "9856e73aa5ce85cf8756e73c8da6230599bc315e3044b149d76d49b2f0dd0bd4",
+      "size": 10861,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/biology/query_scores.npz",
+      "sha256": "1690ef408cb760dc19e7487fa4771bf9a6ca776d58f84eee1e116eaa947da6df",
+      "size": 89539,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/biology/README.md",
+      "sha256": "ebfe67c62b7d0ef6479bc5420294a3e050662dc794b8249b1b22b62fd236ad05",
+      "size": 2352,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/biology/CTLA4_flags.csv",
+      "sha256": "f27b8b5ef9848d02b70998b9e41edb9011eca9b67fff51b112eb67632311da65",
+      "size": 11251,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/biology/PROTOCOL_LOCK.json",
+      "sha256": "6977aa7cfdfb181f6b83a85192bbc72225f7712bb209db38b7136e10206743b3",
+      "size": 208,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/biology/INPUT_PROVENANCE.json",
+      "sha256": "4faa8d7ae4ea81a847a583629af9ec4f6620ef4c81bc6a13572cdfadca7727f5",
+      "size": 90160,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/biology/target_biology.csv",
+      "sha256": "a298bde59e270e896ab2317543cbc76b857d89c32b82a7ded0fcc604fa812e49",
+      "size": 295875,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/biology/analyze_biology.py",
+      "sha256": "1d0f66f708625c4c010df39fb56bf18a96cd2b060755b3aa93700fc77fdc6183",
+      "size": 13958,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/biology/compact_inputs.npz",
+      "sha256": "57274f16451ea2f558e8c9ef9d4568b5e8786525a23692c240f261b54f857c2a",
+      "size": 7284427,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/biology/POSTHOC_PROTOCOL.md",
+      "sha256": "0033ac114da54267232b7bab90f2f52ce9588987e046ed807f1194ccebc18fd3",
+      "size": 5407,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/biology/full_pool_scores.csv",
+      "sha256": "38bbf65d1c05fdd2db3491711dee1d9c4c077428a400f66fd9ba344353538180",
+      "size": 495,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/biology/METHODS_RESULTS.md",
+      "sha256": "ef71716d46b1cc91b40fd604235d5984c9505f845e6e66be8c2952330a5b0dd2",
+      "size": 8974,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/biology/query_contributions.csv",
+      "sha256": "e88dc0fb013efb173375b9b02cd987cc2d107feaf9b25c620250dd9e1f6d0dd1",
+      "size": 60941,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/INTERPRETATION.md",
+      "sha256": "3a1ed4347269007d2fa58393ba0ab3a4d87c36b9eaf852f7bd7731ba3d5fe399",
+      "size": 3343,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/replay_s3.py",
+      "sha256": "e90eae26aafe2d55bb9eae69c9eb511b38f953d5573ba7f99f9aad3817d076ad",
+      "size": 17270,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/README.md",
+      "sha256": "e8e936f1a6af92416e2551497f1828536f1bfbe788184c85dececf6c318324ae",
+      "size": 2360,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/PLANNING_EXTRACTION.json",
+      "sha256": "b51b2e0db0ba3960bcd838f0dc41e0623259963f0fe0f1d0fca03615c9f36e9a",
+      "size": 123151,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/CLEAN_REPLAY_VERIFICATION.json",
+      "sha256": "19230cb28da1305687bbddf87d4bcbb57f780cb5ea19012c2cb0dd367893a900",
+      "size": 654,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/CODE_LOCK.json",
+      "sha256": "49e34a9036eb90034ac64d5ca079d7b34a02913939e15ef79f2be8c29b3734bb",
+      "size": 323,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/PROTOCOL_LOCK.json",
+      "sha256": "09fba776ca7d4938dbf25f1cdebaaf6ca3c484b07075e65843ffd360380835c9",
+      "size": 1165,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/AUDIT.json",
+      "sha256": "2d896caa1a3f232f55f8b811499e789662dfe753afd0fcf65759c144b0afbe21",
+      "size": 428,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/audit_s3.py",
+      "sha256": "64ce1333e1bdf04f1aeae37cf95c3b61218d23448004a319bc2178573a0a78be",
+      "size": 2469,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/POSTHOC_PROTOCOL.md",
+      "sha256": "860461d62989c182a74d068ccc0950224193c9ba2d9a8d404ff54601f39ac957",
+      "size": 5209,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/vendor/stim_stats.py",
+      "sha256": "7de2a44d7289755d856d478fc34200e687c501fc58c05153c332540d11efc7a3",
+      "size": 8808,
+      "exact_matches_in_core": [
+        "supplements/20261011_stim/frozen/stim_stats.py"
+      ],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/vendor/stats_frozen_wild_cluster_t.py",
+      "sha256": "ea6a9a5dc6fc073be5f05ca7bb53f86612b8732454bcb9433485fb1a19fd63e1",
+      "size": 5461,
+      "exact_matches_in_core": [
+        "supplements/20261011_stim/frozen/stats_frozen_wild_cluster_t.py"
+      ],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/vendor/stats_frozen_summary.py",
+      "sha256": "08c5f4edade9e5c8756969a1892fea27259a2a86857a17d01c034b065773bdd3",
+      "size": 3823,
+      "exact_matches_in_core": [
+        "supplements/20261011_stim/frozen/stats_frozen_summary.py",
+        "src/vendor/frozen_summary.py"
+      ],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/vendor/stats_frozen_exact_score.py",
+      "sha256": "9f940b35031016a5287c0c4e1ce519058cc3357b8567787cc348999cb2ce9683",
+      "size": 2882,
+      "exact_matches_in_core": [
+        "supplements/20261008/d4_trade/code/exact_score.py",
+        "supplements/20261011_stim/frozen/stats_frozen_exact_score.py",
+        "src/vendor/exact_score.py"
+      ],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/vendor/frozen_engine.py",
+      "sha256": "1910bf79496cebe51ec6111c6b54acd8daca3fa65c196afa471a6a425a9fb6c8",
+      "size": 10988,
+      "exact_matches_in_core": [
+        "supplements/20261008/d4_trade/source/prediction/engine.py",
+        "supplements/20261011_stim/frozen/frozen_engine.py",
+        "provenance/code/d4_prediction_engine.py"
+      ],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/numerical_development/TRADE_PROTOCOL_AMENDMENT_1.json",
+      "sha256": "27abed54da2a04a94deaf4bf41b4c81522f381be84ef1f74f3e729d5e13cb1cb",
+      "size": 563,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/numerical_development/R_TRADE_univariate_rem.R",
+      "sha256": "e42736e31a26c1af9badcbf5d4fb51db71071a6e64e7804fcbf8c165d9d58b44",
+      "size": 12287,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/numerical_development/R_TRADE_univariate_no_svd.R",
+      "sha256": "ccd97fccdbce83b6940bbab96ce6b5a89c44100e169e82580a9c1504076d75b2",
+      "size": 12157,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/numerical_development/trade_cxx_validation_runner.py",
+      "sha256": "4ea0be2d40f74f5fdc81d218ecec838313e0cde918078c00f813f83c6f808698",
+      "size": 12703,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/numerical_development/README.md",
+      "sha256": "ee8d1b7a46fb86c9b2260d55fe35ae6b76fa22736c8ce1d1d88ae787da9bdf3b",
+      "size": 579,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/numerical_development/run_trade_eps_success.py",
+      "sha256": "339b51c9034e92e38045318956dd9d45331dddce2feaaa7725c5b78e6e59e6b4",
+      "size": 540,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/numerical_development/run_trade_cxx_validation.py",
+      "sha256": "a447498803ed5f7de922091c29076a83e0957e46af4b65827d4d00fcbf692406",
+      "size": 553,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/numerical_development/TRADE_NUMERICAL_CANDIDATE_EPS.json",
+      "sha256": "a537a4a2f5f899ce622b818eb182f7faa2ee5b2fdba6a5e84182c5dcf1d07e19",
+      "size": 463,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/numerical_development/TRADE_PROTOCOL_AMENDMENT_2.json",
+      "sha256": "422b1210300ece2a45d116cb1839d6aec33d759f92662700cdbb485cb567ba92",
+      "size": 573,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/numerical_development/R_TRADE_univariate_squarem.R",
+      "sha256": "8a40046717ffbd9019c3250ab16f68d447a6ef78f2924047e8c7e6205663dd2b",
+      "size": 12295,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/numerical_development/run_trade_eps.py",
+      "sha256": "8e6a807837d4a7762722e73d24366711599388a0ca0f5a290533861b2b0e3c2d",
+      "size": 530,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/numerical_development/run_trade_smoke.py",
+      "sha256": "8683c7ae370edb5580662f4996024d8ba6b854f8ab1d453f0ffd409cc9d6a13e",
+      "size": 540,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/numerical_development/trade_numerical_runner.py",
+      "sha256": "e1099e3174a4c500e884473cdc0bcc218cff47b65cce4ec52c745e5546ac7ee3",
+      "size": 12687,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/robustness/numerical_development/NUMERICAL_SMOKE_ARCHIVE.json",
+      "sha256": "a1aa6b8885060d7c2b39b2df7dbb4e6c678701702b6490414054a47672f63a6c",
+      "size": 3331,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/inputs/original_registered_scores.npz",
+      "sha256": "acf866f94c8be3e99cb3e5540a67caca9798eb44b7037a1530c28ec4107bfcbe",
+      "size": 69816,
+      "exact_matches_in_core": [
+        "supplements/20261011_stim/expected/registered_scores.npz"
+      ],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/inputs/main_query_context.npz",
+      "sha256": "a30eb6765d97dd1244271e4fa8c87f761100db521f045fba753aa80ea407fc46",
+      "size": 123360,
+      "exact_matches_in_core": [
+        "supplements/20261011_stim/data/main_query_context.npz"
+      ],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/inputs/planning_responsive_effects.npz",
+      "sha256": "b46dc233b33249f363c610115f610cf958199dd2c4069be96eed686a7d6aa7f7",
+      "size": 1277300,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/inputs/original_membership_audit.json",
+      "sha256": "610c9b57d1ff4137ab9edd29ac09843cf8ae9617d4973e0ce97326ace347be61",
+      "size": 58661,
+      "exact_matches_in_core": [
+        "supplements/20261011_stim/audit/main_COMPACTION.json"
+      ],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/inputs/alignment_pretruth.npz",
+      "sha256": "cf41c2eb6a33f0c0db15d6ffcf15e01b068054f92052b4d3ddd54c72a55b7814",
+      "size": 46002,
+      "exact_matches_in_core": [
+        "supplements/20261011_stim/data/alignment_pretruth.npz"
+      ],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/inputs/main_support.npz",
+      "sha256": "a65ca128ac5c75bb489f3ee5253479dbc51c538ac552c86fbc169981026e95d5",
+      "size": 3134114,
+      "exact_matches_in_core": [
+        "supplements/20261011_stim/data/main_support.npz"
+      ],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/inputs/original_evaluation_report.json",
+      "sha256": "87350eff5a706fcb26c8b618a4783b39130d5b0ad1a4d5ce7c3b22137f60a41b",
+      "size": 124978,
+      "exact_matches_in_core": [
+        "supplements/20261011_stim/expected/EVALUATION_REPORT.json"
+      ],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/results/RESULT.json",
+      "sha256": "0191e8223b926294724af2d3c977963235d6a3dcb9f87bfa5f526b641d5c530a",
+      "size": 18711,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/results/query_level_results.csv",
+      "sha256": "3a6fdcedc47a3d5a1be50224433d78b4547928ac777050107f272ce6045760c6",
+      "size": 76843,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/results/replay_statistics.npz",
+      "sha256": "46984a2c91e9a314a80b37f823d4f68cac2fdf51e738c4d7594b56287f1137f2",
+      "size": 92136,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/results/block_partition_sensitivity.csv",
+      "sha256": "02d87b333f618f8151a05c49a4a827dab806fa023e071b721e1c7233f23260a1",
+      "size": 2297,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/results/s3_weight_transitions.csv",
+      "sha256": "6ddc1a80db3c8ddfb4a2028a08b7e8ac8367ea22ad8f5938ba3d5adad37877ac",
+      "size": 2124,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/results/Methods_Results.md",
+      "sha256": "5a3bd9d51238715c5acfba6332f49e35f19504b48deae043dae056a85965a0e3",
+      "size": 2803,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/results/leave_one_block_out.csv",
+      "sha256": "518e7acb7842bfaf9a9a672552bcbb00633c2efacec01c176d5d489bc6bd2f8f",
+      "size": 5526,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/results/s3_alignment_transitions.csv",
+      "sha256": "e6254a8fe688d83b7390b3758a824044ebc9b588b4901d7fe66024e4b97b1cac",
+      "size": 6335,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/results/s3_alignment_groups.csv",
+      "sha256": "9d1e38a3166cfe0d3225e98be4852937886657bd8eecd1012b9458c2f85a6384",
+      "size": 1887,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/results/s3_coefficients_summary.csv",
+      "sha256": "7717d3097a9dea80516ec802df3c4db0e4d5a71734a29e540a4fe6ef9832a6af",
+      "size": 293,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/results/target_groups.csv",
+      "sha256": "62e80f466a40283e9aea6d2a334a7b3e755a70f1e3de9a7c050da4c7a6d1372f",
+      "size": 42048,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/results/MANIFEST_SHA256.json",
+      "sha256": "b0ef3a15d11898203c3da8f4ba11f8c769d2859f5902839572d7ff7ecec0030c",
+      "size": 1064,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/frozen/stats_frozen_exact_score.py",
+      "sha256": "9f940b35031016a5287c0c4e1ce519058cc3357b8567787cc348999cb2ce9683",
+      "size": 2882,
+      "exact_matches_in_core": [
+        "supplements/20261008/d4_trade/code/exact_score.py",
+        "supplements/20261011_stim/frozen/stats_frozen_exact_score.py",
+        "src/vendor/exact_score.py"
+      ],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/frozen/compact_support.py",
+      "sha256": "e9bc5381f3fd62c55082f156ce52f20a4dd0d147846a3f73d0c54e0d17b04217",
+      "size": 4932,
+      "exact_matches_in_core": [
+        "supplements/20261011_stim/compact_support.py"
+      ],
+      "included": true
+    },
+    {
+      "paper_path": "analysis_v20/s3/frozen/frozen_engine.py",
+      "sha256": "1910bf79496cebe51ec6111c6b54acd8daca3fa65c196afa471a6a425a9fb6c8",
+      "size": 10988,
+      "exact_matches_in_core": [
+        "supplements/20261008/d4_trade/source/prediction/engine.py",
+        "supplements/20261011_stim/frozen/frozen_engine.py",
+        "provenance/code/d4_prediction_engine.py"
+      ],
+      "included": true
+    },
+    {
+      "paper_path": "application/requirements.txt",
+      "sha256": "1487264729be0a5783a6e5c9d0ff4e40934c9343182507873c0805b15a8aba06",
+      "size": 38,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/CTLA4_PROVENANCE.json",
+      "sha256": "91f19bd7e6e6c670015fa7fdad06800771e08b3f35f645a54ffac32ea0308e55",
+      "size": 776,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/CTLA4_all_candidates.csv",
+      "sha256": "e1df2af8a1dcd5f477ecb4cc493f75904648a91513470d6c6da785d1e408b9f6",
+      "size": 187946,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/build_CTLA4_example.py",
+      "sha256": "78fdf7c9bfa0b32090c9fd75e7ca99a8ed406ee5b1acca920dd8bac384e3d3a3",
+      "size": 10048,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/VALIDATION_H5AD_v20.json",
+      "sha256": "cf7a6f6a35d42fba7b9b2b14a6ac1bc9b9a77f660ad9a1c0f4100d987a98b0b8",
+      "size": 792,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/README.md",
+      "sha256": "834e0e57dc8408c15145d0077e3afda518e0699ee958ad648e700e5b7e2c76c7",
+      "size": 9487,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/VALIDATION_v20.json",
+      "sha256": "2ee951d3df438678afc191ed6415d412ddad0629447db49f1cc17fbadfd0b734",
+      "size": 782,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/CTLA4_worked_example.md",
+      "sha256": "c0bfc7878a40cc1980f332fc39941696458ba295eb82b490b414a881e051fcbc",
+      "size": 3320,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/CTLA4_summary.csv",
+      "sha256": "1dc2fa2a81486698ef57d0a12c07a464010b0601b13aafb9da4fb134cb8495df",
+      "size": 242,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/requirements_verified_v20.txt",
+      "sha256": "7c293c43abc452aae995ddd71fe59291ffd97b56b567521f33f055ad1e3da62b",
+      "size": 130,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/run_counts.py",
+      "sha256": "e2d33e42fae4e71ba1b842299891c517bbec4f4ac09eb2563eac23bf93f9b4a9",
+      "size": 8469,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/CTLA4_top25_lists.csv",
+      "sha256": "7caf89da1c1e4a7d842c59c1065ecf44113daa3157df18606479577db4df55f4",
+      "size": 15096,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/CTLA4_all_groups.csv",
+      "sha256": "75c4ab3135684c0cb55b6e9dc9b203ed2f1af82c3fffc7e4bff6435d111599b4",
+      "size": 343,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/SOURCE_PROVENANCE.json",
+      "sha256": "68dacfdcb82ebf1e5049ae460199d6adf27f56e8de1beb1c4e979b965f6870b9",
+      "size": 1241,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/verify_application.py",
+      "sha256": "423fa5cfbb1cdc96af6ed7741d9dd991d099d6a032dcfad18b36a7bbe6b1ac21",
+      "size": 4654,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/make_example.py",
+      "sha256": "7b45066e4535f01f252704ec6beda645ef2a7f1c01efcd03f739e200075f8c29",
+      "size": 1661,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/verify_h5ad.py",
+      "sha256": "f97e141a4a0bb16e8f542d295dbf0f5a7172b62192be52084df9affbd124551e",
+      "size": 3923,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/CTLA4_changed_candidates.csv",
+      "sha256": "d67f357c26388c6554f1b9464d72ca89314be9637929643647b5bfe764d5b342",
+      "size": 4994,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/run_h5ad.py",
+      "sha256": "6fa9178aa518d2c03947ee2db425bdbdde9d92ab1f880f9f71bc3597b8ed3b78",
+      "size": 6352,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/pertrank/cli.py",
+      "sha256": "b8973f76fe8bfc84aac0388f607ef9ead776895dee856d9e6877ab9b03fc3457",
+      "size": 4638,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/pertrank/__init__.py",
+      "sha256": "9b476f6b0d2c20bf7217f5dfe28d0284342ac2fa721f2f74e747996f1cc89d74",
+      "size": 240,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/pertrank/core.py",
+      "sha256": "721ce8dace4f7fcf63aceb1b7ec040c67cfb52b66601471dc414c41a6f2b0544",
+      "size": 11315,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "application/verification/frozen_engine.py",
+      "sha256": "1910bf79496cebe51ec6111c6b54acd8daca3fa65c196afa471a6a425a9fb6c8",
+      "size": 10988,
+      "exact_matches_in_core": [
+        "supplements/20261008/d4_trade/source/prediction/engine.py",
+        "supplements/20261011_stim/frozen/frozen_engine.py",
+        "provenance/code/d4_prediction_engine.py"
+      ],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Main_v25.2_table_003.csv",
+      "sha256": "bfcb6a34ed33f65ba22ddc60640b8185c7661dd90f0d1b85e6e654a765493fdf",
+      "size": 176,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_010.csv",
+      "sha256": "b19432b47365e0ea2d84af19c5e5fd160f27327bc837c97fafb7e6c8a0c2ac74",
+      "size": 431,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_023.csv",
+      "sha256": "31537e2128be327c86fc2311e551d98bfd3bdf14d30dbc2f3de1fd482bf1d33f",
+      "size": 1549,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_048.csv",
+      "sha256": "6b9547fd5eb01777323dd674d8f64359a7979192f622d253bc764793a9fb36bf",
+      "size": 373,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_003.csv",
+      "sha256": "c1a2e36298d9c932e4c3579c44e5ce9f78d4119c8b323ba692d17363d5cdc21c",
+      "size": 1603,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_093.csv",
+      "sha256": "1d2a4249746083dedcebe50d42ba9b84287c18fc09dd2c1cfe45e39e0834bd8d",
+      "size": 713,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_069.csv",
+      "sha256": "f74f180a8fec556d40f72d24dbb6a7f50e42609573ef74c7365e1d623b67e25b",
+      "size": 567,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_043.csv",
+      "sha256": "5cfa85eb34505f07f4a694c79bb87a084e9b73cee9e69d7435e360731c05e26b",
+      "size": 139,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_016.csv",
+      "sha256": "4b82367db39bf962ae18ff662fe6dc8618cd2382a9176dcf2f034fc2504a3034",
+      "size": 1544,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_044.csv",
+      "sha256": "d0c042d7886229a251114c73168fb3a3e738eb606953029cc6e04fb540ccdf9c",
+      "size": 116,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_040.csv",
+      "sha256": "daae53749020f477eb30fc47930d04104129662ffbb2bdfcb15a1dbd46450a8a",
+      "size": 372,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_051.csv",
+      "sha256": "0072ef7db01907b9cf06c8834fa55f096bb7ad753a43518dbdec12f503b33f3a",
+      "size": 237,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_042.csv",
+      "sha256": "550dfc394d16ac514f8ac6fd6076ab992e8d0dc6197ad8c9d178a9f9b6f2b5c2",
+      "size": 485,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_080.csv",
+      "sha256": "7e0dd9673a19bbe648cde9dc06153ccbbdb3b7047522a4415d28845beafa1f09",
+      "size": 496,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_006.csv",
+      "sha256": "b1bc005a4ef552ec22c07e0750b5143c89ee8a92193c0b19125ea57773c8c161",
+      "size": 1396,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_005.csv",
+      "sha256": "e7387182f9cd696242796954a5dcf45d360a679a0aa0add122a8a8f2a61a8616",
+      "size": 1778,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_017.csv",
+      "sha256": "dbdda84348132787c272753d5410e3ca096ba275d7ed2548778f307efef987b8",
+      "size": 264,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_001.csv",
+      "sha256": "94d62c0d32d1dba429180411498db64b4c4281a4f42447020187dca0346c20ba",
+      "size": 724,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_061.csv",
+      "sha256": "e10abb9a02111a42cca78fa4575e4ac11f1b946bcdee4ffd8cad67338f530274",
+      "size": 490,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_002.csv",
+      "sha256": "0822aecf5facabf0dfe5c6e46201e4e4f192d86d57e9680142bdd564abb0fa93",
+      "size": 1589,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_011.csv",
+      "sha256": "ff8f6f8a7613a360461260564feb17555672f480854e82198f5dde9419c178f5",
+      "size": 1017,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_022.csv",
+      "sha256": "03bc2d5d990dd9a853933dc3fda5f16744bc784e8e91660b23c6aea7bd8aa18a",
+      "size": 1337,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_085.csv",
+      "sha256": "5632b6845a965170f5e2f3dc6189a7342246288744639d336f13b9925746f858",
+      "size": 493,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_029.csv",
+      "sha256": "5cc03d3469e9ac04d05651045038893c6ee92049b2b7edbcde9a74d0aa29fe85",
+      "size": 496,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_090.csv",
+      "sha256": "2715a67dacdce67b7a9c210f4846aebfe8dab47a47447d8c0eb88ee05ae7c93c",
+      "size": 377,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_036.csv",
+      "sha256": "f6f09daf4747cb58c0839c7cedea40f139c3160238d61c27e652797e2b9e03d0",
+      "size": 504,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_089.csv",
+      "sha256": "8abb64ffc7c3f917596226c9913e9592ada0050cd4f69f965daf1f16fdb6dbfe",
+      "size": 282,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Main_v25.2_table_001.csv",
+      "sha256": "d98a7fb270e871e3c02c9f7b7039de109ffed2f8d4df9e79dbedb0581edae59e",
+      "size": 307,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_077.csv",
+      "sha256": "bf289768b8a3db9c712b964947c61e2da68aa4f021a97d64fae0ba50034d7e35",
+      "size": 305,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_041.csv",
+      "sha256": "6b9304ab050b2591825acc42b06309874bd2d782bbe4df3658d57738d3a46000",
+      "size": 412,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_021.csv",
+      "sha256": "66d3cfa3ad243aeab8fedd66d1b197649ab397eab7d616c6105a035ba9b39ff3",
+      "size": 422,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_035.csv",
+      "sha256": "628312af9ece8405839c3b943e1cff2d16c95cfc043db2b58692b8a97c5e372e",
+      "size": 738,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_071.csv",
+      "sha256": "5c68c6051a1405bd77e4db9ca66b75e35c97a84003e64b8a29999c1fdde03800",
+      "size": 517,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_056.csv",
+      "sha256": "40ce6a295e78b4440d306d77f0c40d9a07943a4c2858ae9da1cf8019df70420e",
+      "size": 373,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_065.csv",
+      "sha256": "ddddd65b335323e04fd19f8c0fd0c7992c501554dd22210e907e021daa913fde",
+      "size": 886,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_012.csv",
+      "sha256": "b214e03c4f7f575ffae0514791d2b1a98de186c52967264f549fc9a72e040600",
+      "size": 1303,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_058.csv",
+      "sha256": "51d62ac7f1aedc6cd7fab7a93f48bd1ae3974542d66e76cdecd9225bdf99dd5c",
+      "size": 458,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_060.csv",
+      "sha256": "440d0baee12fb20072f00910ebc18d3e1681503fdfe57ef200cce98a02fabaa0",
+      "size": 4813,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_068.csv",
+      "sha256": "7f5585690cb801fdf0b5c6f0946bec352312b368214deae56c5113487ecb5d4d",
+      "size": 227,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_076.csv",
+      "sha256": "5a17817c10a5391542ed97f649c3b844a6a938043342c0605a9bc33fa8ad5d29",
+      "size": 348,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_054.csv",
+      "sha256": "aa57844cb8c334f9ce1d1ca8087d5d9db35a5c4c55c10cc60d0994bed51b17d7",
+      "size": 840,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_049.csv",
+      "sha256": "44076d2672c64d669df5a618d0eceaf6821aca13d5129302fda73de931081413",
+      "size": 119,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/TABLE_INDEX.json",
+      "sha256": "195b240da7a747c40bd2b74f614a8fd9d288d09eab253b574c5385aecff976fb",
+      "size": 69515,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_009.csv",
+      "sha256": "154e9468f2642978ac4178630976be9b6b7a7abaa7f81ab5926ba4cc8feb48f1",
+      "size": 1004,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_013.csv",
+      "sha256": "813f329fcd900d91a6311fc815c768a18112c81d9dc5d9a3d590ac9f294cc25c",
+      "size": 1975,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_025.csv",
+      "sha256": "e26fdec634e96d8bc15571f9f227df09e2313e0f424fe66693730c8a31f4dbc6",
+      "size": 251,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_057.csv",
+      "sha256": "0984e1ea7d312cae5decbc5de6d66ecb4eb55438e7280ef9d00310b38e9e2995",
+      "size": 420,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_032.csv",
+      "sha256": "3e9b91e9c04e96ac779c788f743edfa6d6afef81535eb41aab906ffba8909882",
+      "size": 1205,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_079.csv",
+      "sha256": "59a3826c2ff8adb62bf474fbdbed79e6c22318d7f550df1f0d5abdf8f7cfcd1b",
+      "size": 506,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_074.csv",
+      "sha256": "690b9587655dbff5b767fc81c5055d2175fd83c4f90d370e392a9478b1712e80",
+      "size": 705,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_087.csv",
+      "sha256": "a02d3f0604adca729fa6a2ccab39e6b50263dd5a569e6545c9324f691eb0212e",
+      "size": 226,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_026.csv",
+      "sha256": "e46db01086c55916a209d1fe89b2703e2795aa22ac1aa1c588a4c110455e6e2c",
+      "size": 448,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_091.csv",
+      "sha256": "38a593c72465d02c2e6faf29075ef508c4995f20752c9006b6263c469e541fcb",
+      "size": 1153,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_059.csv",
+      "sha256": "f27edc897ffd786565c43b71f4c7cb9527e4bd727abe91dddf3c4e606327f87f",
+      "size": 247,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_086.csv",
+      "sha256": "2eabec7aa3f72e0b91ca98d24ad82ddd34de5a034558a6ae7c5de9ac2caa0b0e",
+      "size": 882,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_028.csv",
+      "sha256": "48b42d80c93cc84ef7bf88b380c52cb8340c73c463055d031dbf997fe8a42a9a",
+      "size": 483,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_047.csv",
+      "sha256": "c0b051c1cecb78f26d1a97203c28ab6b14681bea9a7c6f5d1e6795f7e50b8810",
+      "size": 212,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_072.csv",
+      "sha256": "4556e77a0482ec197869c0baaf5553bcd23f46b175b501f69730d6d181732b03",
+      "size": 723,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_039.csv",
+      "sha256": "27d008f1684eda43e0879f036288b34c4f14497ab446eb8f36031e10636b8194",
+      "size": 251,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_084.csv",
+      "sha256": "11ef5ed819ec305e79cd51527c9d02e9d21cf3c92f769433b6f761509e67e3e8",
+      "size": 308,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_045.csv",
+      "sha256": "9eb9071bb9d2fa460d7d572a61661127dfb6c739c8f2d68548099909ea1d44be",
+      "size": 186,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_050.csv",
+      "sha256": "aebc7abd119a303f9df1c5ea5c7602dc154b79208d366953b1ebcda0c9843f9e",
+      "size": 97,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_037.csv",
+      "sha256": "a3ffadeff36be4661163479ca7f7017dec0a96b98ac5e6b07e2ed87611bc673a",
+      "size": 363,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_046.csv",
+      "sha256": "94fbb5a4c301b589385fcbc3169d5740ba0183eb101dad22f3b51390127b1001",
+      "size": 153,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_033.csv",
+      "sha256": "b4fb16560b45ee01ccbcad9bfc676bab63df7705a53cae934dcee45a6635ec33",
+      "size": 320,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_083.csv",
+      "sha256": "abfb6640eaa3a8157498240f6b31d0ee1256815eb7c64be51c8639a319943d08",
+      "size": 133,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_081.csv",
+      "sha256": "1d85b59f546913039f8cb447845b7969c3dfa9c45eb4a19a60338de0e9b431ad",
+      "size": 316,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_031.csv",
+      "sha256": "500a95301046feb98b855f3bbf20e883ccbb7906f0d59b24a2d61f44698b6d7b",
+      "size": 1204,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_070.csv",
+      "sha256": "dca8e8f0861f761cf67aebc9b51017d3c13d292ad7c740d50e00644d51492c01",
+      "size": 251,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_082.csv",
+      "sha256": "f64e803fff10323cdf93dfe02d5c4df11eeab5891873dbf1358e357694012117",
+      "size": 605,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_075.csv",
+      "sha256": "f4b90c23ca7081ae2bfadb47d755aef7bfa49aea53e5533c51cc7770ea47f8f5",
+      "size": 1351,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_038.csv",
+      "sha256": "621ccc55d54cf71ae15c087d0d9d7727a88dd2fb52ba4e0b1c9f88dc650d8171",
+      "size": 197,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_024.csv",
+      "sha256": "a733f520236614695aad1ef349f5aed03d969e2f70c992b7946b7fdec1c4ed92",
+      "size": 796,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Main_v25.2_table_002.csv",
+      "sha256": "919854d62d73651c644f6360df52f4b9e4b8bf771ac968026f89a35b77150742",
+      "size": 340,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_088.csv",
+      "sha256": "37666da069c456763d8662ed7d17992f5fe57acefcd5d48d57f9a13bc842a79e",
+      "size": 87,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_078.csv",
+      "sha256": "dae4197f8562844320c975ebb4e018b701c4a5775023f848a86c941d53e8962c",
+      "size": 459,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_007.csv",
+      "sha256": "d30e0e566fb85294ff65fb8d6797fbeec0587bec4434e731c5e03ab84af7c053",
+      "size": 1139,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_092.csv",
+      "sha256": "296165b0504387dd1385e65ee9208cf514186c11b382c1318816364434d13e85",
+      "size": 652,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_008.csv",
+      "sha256": "c119ed4f697aca1c365ea9bb24dddceab6e746e37181513283310facf23fa1fe",
+      "size": 1181,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_066.csv",
+      "sha256": "3668bd7b5f229e320d816c13bfbee8a7a92e5e20925143e0f9f9757af33bfb15",
+      "size": 1258,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_004.csv",
+      "sha256": "c224c7e6282c29050a214d81c8af6666833a789b3e861caaf24b2f7192ceafc5",
+      "size": 2208,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_055.csv",
+      "sha256": "c51780143813e781b2a3555e97efe1b20a43f1d413ff665ef28bee822ee8c27d",
+      "size": 835,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_052.csv",
+      "sha256": "518ddef85301b0d8187df5f1b45f0e844580ec6b651f5189562bc0a7f4adbfd6",
+      "size": 545,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_019.csv",
+      "sha256": "f2dfd6b5208d80bd40c9e637049fe91bd3c51107b338a6078ad6685617d3524e",
+      "size": 977,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_030.csv",
+      "sha256": "050d187c72d8da5e56b8949a0f0b26146044199a8b70dce5a260eb1147b29417",
+      "size": 841,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_094.csv",
+      "sha256": "ea3d00574b1efd08b0c29dbf4b52c02d678ea31941b19eb6f5aecbf34a7b2b8e",
+      "size": 505,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_063.csv",
+      "sha256": "4e5e14f51e9184e5f51466245b515902496f7d31f192ecd444736d70b754ef8b",
+      "size": 654,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_062.csv",
+      "sha256": "19589096ecb5e278b82f7d87e5fe8e198a42ead4db18ee1751cae1f5ed9b0f00",
+      "size": 1030,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_018.csv",
+      "sha256": "b107a179040a5d68a7341b1d45091f7a85743e28daa6e4496babcaef3f66defa",
+      "size": 488,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_027.csv",
+      "sha256": "4453b20beda581b89e0344695627fa777fd4c6cf21877c5fb25201a4a84e6c58",
+      "size": 483,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_053.csv",
+      "sha256": "1badf9cb2e147a5dc746b10962b8fd14f7f124986f645af79826111c72ae7d62",
+      "size": 180,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_020.csv",
+      "sha256": "609b9b80049e5b95b2621ab3da7345ce17dc4e8b4fd5ef4c75e960cc85a6424d",
+      "size": 953,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_014.csv",
+      "sha256": "be26f0e959e37814c7156ba0a8687aafc22ccf237ca606826d3a2724084bc5ef",
+      "size": 1025,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_064.csv",
+      "sha256": "fefa7b6eeb1db39f3c7835b7daa6d74e6e15d62747fb7fb874cf38fc80a0c1e8",
+      "size": 2151,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_034.csv",
+      "sha256": "fb556f1f777248960e1e46145975c3dd5af15d2e6c1bad50ba19306d7b186736",
+      "size": 429,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_015.csv",
+      "sha256": "5344dc146b972170c8f548ad7cb79d3c823b634ad151790b12a2d25072f32156",
+      "size": 297,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_073.csv",
+      "sha256": "7fe073b407bf64ed60754e2dc9cd7489e6cf8d2d62939c81d3bd8dd3f2457fe2",
+      "size": 257,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/manuscript_tables/PertRank_Supplement_v25.2_table_067.csv",
+      "sha256": "4b5bd02f6cf9dff393b7cd4bd9f6eb50f6c851518f26f6de20db3198d332aea2",
+      "size": 874,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/si/SN20_RNA_contrasts.csv",
+      "sha256": "084fc2f45e80bbdd1121a9c9a3d6764f0ff93d7954b34b013f7eaee3ae938a8e",
+      "size": 5608,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/si/SN19_all_native_arm_scores.csv",
+      "sha256": "fa8f8d501de0a6a97e5ef21374bd7d3e3ba98920acd7afc4c3b4747e1cedfb40",
+      "size": 17186,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/si/v24_design_attenuation.json",
+      "sha256": "60327aad5055665b9e87db6c865caaf746b9ac24c7b85ff431c9cfd89033a387",
+      "size": 1158,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/si/SN20_archived_nomination_accounting.csv",
+      "sha256": "dd8fb6d80f5c0d5a4c6015684fea0a3b68aea27a96cf9d0870852cf27326a0ed",
+      "size": 6947,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/si/SN20_reference_sensitivity.csv",
+      "sha256": "5772c09dc3884361a3bc53958e1f0f786d8bef0e43723b6247b9863b386cc411",
+      "size": 12758,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/si/SN19_all_native_contrasts.csv",
+      "sha256": "9edad3a80723f1cb935f913b821a3090f700e3ae69b2fe6a2f3f3496198d69cc",
+      "size": 61475,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/si/README.txt",
+      "sha256": "69f45d3d40769f1c577c156b9d52512695bca4f2357b0d035ba68dd8e1be968f",
+      "size": 2736,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/si/SN21_interactions.csv",
+      "sha256": "19fcddcb75c54d126fd00e2202f68cebccec9983e5a049dc34b901814e2c2caa",
+      "size": 2528,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/si/SN20_RNA_scores.csv",
+      "sha256": "442d9e6d95b8b70b8aa228c4de91561df7a4a0a1b0d70fc26077b3d1f19fd9a2",
+      "size": 1621,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/si/v24_design_attenuation.csv",
+      "sha256": "8ed8c8d67ffb9cc20432e68b54043d664dd19853fa0ae1670b506e4fc92c2f5f",
+      "size": 1015,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/si/SN19_D3_all_21_FR_configurations.csv",
+      "sha256": "76d81349f2bc695e017e0e0eb6c96fa8f523f8d1958e59507126d3a4ea9175fc",
+      "size": 1190,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/donors.csv",
+      "sha256": "4531549282bee28fee2b642b1c0ea2a2fd45cbfe1219fd20d8720a261eb99bc3",
+      "size": 425,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/equivalence.csv",
+      "sha256": "3b6c2d97362766415285f8cd89c1b3d7085a5ce8e6749693d076e84eeae1878c",
+      "size": 143,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/v25_design_geometry.csv",
+      "sha256": "37f284bfffe4db775ba134aa413666a7dc0eb0974ceae647f2a69f03c3792df8",
+      "size": 1626,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/nonquery.csv",
+      "sha256": "9fdeebc47282a6c1370af2bc17b86093f14288b47132568fc82b4a5ad3436b76",
+      "size": 211,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/v24_overview_display.csv",
+      "sha256": "08a66ca4d710bda686ac704e25a5621de7a8623468856bf03d1713583ff571cb",
+      "size": 1502,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/external_rna_contrasts.csv",
+      "sha256": "bee539def77dbfa0a642e7c8706fe5abe8e2988f053802aef98249fcb8fd08bc",
+      "size": 3435,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/figS4_equivalence.csv",
+      "sha256": "2af8d53713ba257aa8a016acdb77488dca469759e890c81ee173667554e12185",
+      "size": 638,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/figS1_refit.csv",
+      "sha256": "63938d74ba606498ffaf489ebbd097eaab4ea2cc6eb198a421533baa8c742f4a",
+      "size": 719,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/README.txt",
+      "sha256": "658f913bfe2b76a85c03787f783a04b554695ebe3068951a50f87e4386ed76a4",
+      "size": 735,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/figure_values.json",
+      "sha256": "756402f7d979aca828cc1f00d5dfc64c7cd2e2f070ee8ee7c9871481c2eea860",
+      "size": 184610,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/alignment_gains_losses.csv",
+      "sha256": "72af8490aa3bbd2791f3377a8dccc7c743bd7e597ab809cc924de3c91ae3718c",
+      "size": 283,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/SUPPLEMENT_FIGURE_DATA_README.txt",
+      "sha256": "1b0f14e7f1d336f0b2a713ca94029f503c1917947d64a16458b9e85662df9b38",
+      "size": 618,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/figS3c_nonquery.csv",
+      "sha256": "660168c5555fa48ed9408bcfe99133a11a07bfe2f92e7cc8d7b6c2611aa65660",
+      "size": 865,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/alignment.csv",
+      "sha256": "cfac5e2ac26c8bc839a5134a9ecc2aaa924a70fdd7c060a3be827dd8e3a5b976",
+      "size": 209,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/figS3b_directions.csv",
+      "sha256": "eafbbfb96e6db3c3cba6afcfa94dcc53cf1412e4076466ee901f359e2ae57ee0",
+      "size": 494,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/v24_design_2x2.csv",
+      "sha256": "b3a3cef75cc9248d392331352d76047de1c28584cce9ffaecdd7dfb0a6f936a1",
+      "size": 527,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/figS3d_adjustments.csv",
+      "sha256": "7ff7291520db434977a9cedcca0e2a0292655f7308691c8a85fbd3560aeb2430",
+      "size": 2095,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/figS4_curves.csv",
+      "sha256": "c77b3bdcd35d3a00080140a829b2e26fb2146476eb0a69788fa113462ec6878e",
+      "size": 3954,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/figS2_mixscale.csv",
+      "sha256": "0808adfab1ac0a45381a2dc6647e04e982396d306289f4fa3c84b48555debd1c",
+      "size": 798,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/geometry_interaction.csv",
+      "sha256": "9968f55f1a059bbf5a7f75fc35f8ca9387c28f1b92ca715efa2ee95633169788",
+      "size": 765,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/v25_design_2x2.csv",
+      "sha256": "ee2f50f36246567cbe862515be34da79f7e4a46bdd920ccb49ea3fd10705e2e7",
+      "size": 664,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/depth_interaction.csv",
+      "sha256": "c663bfd841e9f8e9efed676931506de70f1f1aa3c71b950de8aa3e81e64d4cb6",
+      "size": 323,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/v25_overview_display.csv",
+      "sha256": "3ae6177d44de4a2d02c08cbb14afe043efcdfdaf930fa0385273ce2d9917cada",
+      "size": 1648,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/d4_raw_depth_curve.csv",
+      "sha256": "f0de8a690446bb4e98665342426802f02ac21155bb837a57d6de5fedebbbc64e",
+      "size": 183,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/design.csv",
+      "sha256": "2b0480a7d7a301b8c8e73cc5d04ea2d41d298bd8fb70ced0c72467c4579ad6b5",
+      "size": 1428,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/v24_figure_manifest.json",
+      "sha256": "0c283068165450810ec6f44dc9bc08279ab05e2caca4fafb370acd08af8e8b8a",
+      "size": 1557,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/direction.csv",
+      "sha256": "d6bc95a492ae91723935cd3a718008d53783da3cd8e27f584ac0d69112418cd2",
+      "size": 245,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/figS3a_energy.csv",
+      "sha256": "7b92ff6dbe2618b250c8fbcb8cbce62b1878a2c8d8806470c68402d4e6f54ad8",
+      "size": 254,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/energy.csv",
+      "sha256": "562f33d798f5f202d7ac0d7e076967d2fb0359c0b7bdf6e093ed98ccdc93c166",
+      "size": 131,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/panel_transfer.csv",
+      "sha256": "710cb4811dd5dbdc582dcaa3d3e08c0c90b256fb48e6a7f6816acc3068462764",
+      "size": 728,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/benchmark_scores.csv",
+      "sha256": "ad542a7dcf2d69d1c195e2d6e797276f1cda84630219d4bd56c39e0e984918be",
+      "size": 2165,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/external_rna_scores.csv",
+      "sha256": "97a4687da5483ce9db6e83c36b7987d2e54e7fa362bbf35d625c2063083f4516",
+      "size": 1082,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/v25_figure_manifest.json",
+      "sha256": "b93a26385cef613ac9897ba40905baad821b857f44ea359981c1cc40b110339e",
+      "size": 2120,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/archive/b1_design_ablation.json",
+      "sha256": "52dd2e50ebf3c7ae00ada9205157a638fd86ec4baf0d49c2d2c1dec89f0aa8dc",
+      "size": 25871,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "source_data/figures/archive/figure_values_v24.json",
+      "sha256": "de47239cf449a50999a48890ccdcc8d4cc4b25ab2f73b716d182218602dba050",
+      "size": 181787,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "figure_code/README.txt",
+      "sha256": "5983a5ff180bb5c3743928a2d8eb84a73aaad436ca324407e9c8a651f80d82b1",
+      "size": 1443,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "figure_code/plot_design_attenuation.py",
+      "sha256": "3cdb78eebe37ffbac35e0942ba38337c53d9a6bb87cc6cb83f061eef0af0f5ee",
+      "size": 5151,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "figure_code/draw_main_figures.py",
+      "sha256": "1300b384216fc2f0aa981580db25d857d02ff5741fd6c49daa0e069d43793362",
+      "size": 20947,
+      "exact_matches_in_core": [],
+      "included": true
+    },
+    {
+      "paper_path": "figure_code/plot_supplement.py",
+      "sha256": "87d5b2406264b8e1a6c5c26538aeacdc30f8a35344ce6447c3164a695c9f3ca0",
+      "size": 8736,
+      "exact_matches_in_core": [],
+      "included": true
+    }
+  ],
+  "copy_policy": "Keep internally required files together; exact frozen functions may coincide with existing core and remain byte-identical to satisfy module code locks. No nested release archives or editorial files copied."
+}

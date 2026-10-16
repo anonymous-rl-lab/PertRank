@@ -1,0 +1,6 @@
+Comparison or measure,D4 Rest,D4 Stim8hr
+Added control metric versus Euclidean,0.588,0.379
+Relative precision improvement over Euclidean,6.6%,4.0%
+Difference from Pearson control metric,0.256,0.166
+Complete workflow versus unweighted,1.936,1.920
+Difference from TRADE scalar,"0.701, post hoc","0.618, post hoc numerical sensitivity*"

@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE_BOTH_STATES_AND_COMBINED",
+  "D4_Rest": {
+    "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a",
+    "report": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/evaluation_report.json",
+    "report_sha256": "67f2da4d6ae3bd13362802ca01f1378d520ddcb3fcf91d3b9db58d12d532bb0f",
+    "owner_sha256": "ec3f699a2d8e5b8cc2b12f4447e79e75b8eed70723279f07c3473ae55c06e969"
+  },
+  "D4_Stim8hr": {
+    "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc",
+    "report": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/evaluation_report.json",
+    "report_sha256": "af7a173b8a0e4b4bd058d1ff25b614b6a29b27f3362661debb7ec1c5984b129d",
+    "owner_sha256": "ddf07c143ec3c1025e8f9c9b9780d8186210e1fec0cc3ee0750a0a7249bcb547"
+  },
+  "equal_state": {
+    "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/equal_state_a138dbae-36d3-4bb3-bf39-0d4f9dd5e17c",
+    "report": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/equal_state_a138dbae-36d3-4bb3-bf39-0d4f9dd5e17c/equal_state_report.json",
+    "report_sha256": "8a3a88e579d4cc76d34bf116da0e0f175caa4199ce411b6d2ba9ad6cd9018780",
+    "owner_sha256": "0396f878dbce1cc87088d28b41aa8bea0da9bd7cf4e0935f5cfe3284c583a7ba"
+  }
+}

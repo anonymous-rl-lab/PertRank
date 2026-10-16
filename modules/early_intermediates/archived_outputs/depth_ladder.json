@@ -1,0 +1,382 @@
+{
+ "created_utc": "2026-09-27T04:58:37Z",
+ "integrity": {
+  "amendment_A12_sha256": "d92a460b65252e49caf16ed2eebdfdaa5e2058309c3c90a10ae3b4d6ea850469",
+  "amendment_A12a_sha256": "126d0fc2189b8c959b9be0866f086d053a13fe31bf1cbb56ced6c64a11328582",
+  "amendment_A12b_sha256": "472402b7fba97691c686f5ec364d7eb9f9bb88c25567673430c643c25a2b8e97",
+  "amendment_A13_sha256": "e491178a09d487dd7a729b2c0a8497237c3a6047f7c2a27b96e86ae9e7253564",
+  "amendment_A13a_sha256": "c388da68c0f242e110afe0341f538006b2cbe8e34f8ee821a388456c7074b969",
+  "script_sha256": "a87bbc703daaab5d8f220d86d50d54f457765db985ee531fb1309cd24050cbe7",
+  "sizing_script_sha256": "62da7350968c1a5316e46c14ed46a2ea45a54ec3850bddcded8ca3f5de0b51f5",
+  "scito_matrix_sha256": "04b1272c046ddf7e9388e21752b2cc91f9ab7753335d345cdb8b27fbf880ef3d",
+  "panel_map_sha256": "7816bc252afe9531f5752648de4ad763468c3c5aecffa77940e434bf16d53a9f"
+ },
+ "note": "amendments A13 and A13a; unweighted depth arms only, no W1 or w0y anywhere",
+ "structure": {
+  "records": 110,
+  "distinct_proteins": 52,
+  "blocks_nonempty_total": 53,
+  "clusters": 9
+ },
+ "donors": {
+  "D3": {
+   "candidates": 1126,
+   "queries": 39,
+   "blocks_nonempty": 19,
+   "random_floor": 0.022222222222222223,
+   "centring": "mixed (Y20 uses cm, T uses ce)",
+   "arms": {
+    "signed (primary)": {
+     "rungs": {
+      "20": 0.019070310014048672,
+      "100": 0.02437833058522714
+     },
+     "delta_100_vs_20": {
+      "diff": 0.005308020571178466,
+      "ci95": [
+       -0.0020872688477951633,
+       0.011210581026370493
+      ],
+      "p_one_sided": 0.0705
+     },
+     "deep_minus_floor": {
+      "diff": 0.0021561083630049142,
+      "ci95": [
+       -0.004808559735283874,
+       0.007535314889216879
+      ],
+      "p_one_sided": 0.2665
+     },
+     "shallow_minus_floor": {
+      "diff": -0.0031519122081735515,
+      "ci95": [
+       -0.008082363678230287,
+       0.0024824121025270205
+      ],
+      "p_one_sided": 0.8795
+     }
+    },
+    "magnitude (diagnostic)": {
+     "rungs": {
+      "20": 0.017513322340908553,
+      "100": 0.021396993810786916
+     },
+     "delta_100_vs_20": {
+      "diff": 0.0038836714698783667,
+      "ci95": [
+       -0.007101898969231094,
+       0.012195031712473568
+      ],
+      "p_one_sided": 0.2145
+     },
+     "deep_minus_floor": {
+      "diff": -0.000825228411435309,
+      "ci95": [
+       -0.009223916706675328,
+       0.009001101507713515
+      ],
+      "p_one_sided": 0.6045
+     },
+     "shallow_minus_floor": {
+      "diff": -0.004708899881313676,
+      "ci95": [
+       -0.013419210639210637,
+       0.005881167192600932
+      ],
+      "p_one_sided": 0.8305
+     }
+    }
+   }
+  },
+  "D1": {
+   "candidates": 1061,
+   "queries": 33,
+   "blocks_nonempty": 16,
+   "random_floor": 0.02358490566037736,
+   "centring": "eligible-cell control mean at every rung",
+   "arms": {
+    "signed (primary)": {
+     "rungs": {
+      "20": 0.0262429489702217,
+      "50": 0.027813852813852815,
+      "100": 0.02720779220779221
+     },
+     "delta_100_vs_20": {
+      "diff": 0.000964843237570511,
+      "ci95": [
+       -0.008557846260154382,
+       0.011151504471405775
+      ],
+      "p_one_sided": 0.4195
+     },
+     "deep_minus_floor": {
+      "diff": 0.0036228865474148483,
+      "ci95": [
+       -0.00308490566037736,
+       0.011531284815813109
+      ],
+      "p_one_sided": 0.1595
+     },
+     "shallow_minus_floor": {
+      "diff": 0.0026580433098443374,
+      "ci95": [
+       -0.005002534328006026,
+       0.010295973905525252
+      ],
+      "p_one_sided": 0.239
+     },
+     "shape_50_vs_20": {
+      "diff": 0.001570903843631116,
+      "ci95": [
+       -0.006276325856682998,
+       0.00967880441317941
+      ],
+      "p_one_sided": 0.3485
+     },
+     "shape_100_vs_50": {
+      "diff": -0.0006060606060606065,
+      "ci95": [
+       -0.006666666666666666,
+       0.005716165413533824
+      ],
+      "p_one_sided": 0.5825
+     }
+    },
+    "magnitude (diagnostic)": {
+     "rungs": {
+      "20": 0.023394988849534306,
+      "50": 0.0229004329004329,
+      "100": 0.019264069264069265
+     },
+     "delta_100_vs_20": {
+      "diff": -0.00413091958546504,
+      "ci95": [
+       -0.012751919707276847,
+       0.0032670068027210795
+      ],
+      "p_one_sided": 0.826
+     },
+     "deep_minus_floor": {
+      "diff": -0.0043208363963080955,
+      "ci95": [
+       -0.010361691374663076,
+       0.001839057473263178
+      ],
+      "p_one_sided": 0.917
+     },
+     "shallow_minus_floor": {
+      "diff": -0.00018991681084305537,
+      "ci95": [
+       -0.007114826719710186,
+       0.0069539966278106425
+      ],
+      "p_one_sided": 0.508
+     },
+     "shape_50_vs_20": {
+      "diff": -0.0004945559491014048,
+      "ci95": [
+       -0.010212842712842715,
+       0.009417392462035316
+      ],
+      "p_one_sided": 0.5525
+     },
+     "shape_100_vs_50": {
+      "diff": -0.0036363636363636355,
+      "ci95": [
+       -0.012,
+       0.004762857142857138
+      ],
+      "p_one_sided": 0.7885
+     }
+    }
+   }
+  },
+  "D2": {
+   "candidates": 1114,
+   "queries": 38,
+   "blocks_nonempty": 18,
+   "random_floor": 0.022461814914645103,
+   "centring": "eligible-cell control mean at every rung",
+   "arms": {
+    "signed (primary)": {
+     "rungs": {
+      "20": 0.026676940181154064,
+      "50": 0.02461507662176489,
+      "100": 0.02638510993202069
+     },
+     "delta_100_vs_20": {
+      "diff": -0.00029183024913337764,
+      "ci95": [
+       -0.006160755961039129,
+       0.004790071803693217
+      ],
+      "p_one_sided": 0.544
+     },
+     "deep_minus_floor": {
+      "diff": 0.003923295017375584,
+      "ci95": [
+       -0.002097106048800045,
+       0.011125455578836567
+      ],
+      "p_one_sided": 0.1205
+     },
+     "shallow_minus_floor": {
+      "diff": 0.004215125266508963,
+      "ci95": [
+       -0.0004374407140437845,
+       0.01022412480941506
+      ],
+      "p_one_sided": 0.0355
+     },
+     "shape_50_vs_20": {
+      "diff": -0.0020618635593891766,
+      "ci95": [
+       -0.006276776359523957,
+       0.002605902125877358
+      ],
+      "p_one_sided": 0.807
+     },
+     "shape_100_vs_50": {
+      "diff": 0.001770033310255799,
+      "ci95": [
+       -0.005145770017871859,
+       0.00818465044747751
+      ],
+      "p_one_sided": 0.306
+     }
+    },
+    "magnitude (diagnostic)": {
+     "rungs": {
+      "20": 0.030225563909774437,
+      "50": 0.029172932330827073,
+      "100": 0.03263157894736842
+     },
+     "delta_100_vs_20": {
+      "diff": 0.002406015037593985,
+      "ci95": [
+       -0.007619047619047619,
+       0.010527863777089773
+      ],
+      "p_one_sided": 0.285
+     },
+     "deep_minus_floor": {
+      "diff": 0.010169764032723317,
+      "ci95": [
+       -0.000840193293023481,
+       0.02014723711671626
+      ],
+      "p_one_sided": 0.0385
+     },
+     "shallow_minus_floor": {
+      "diff": 0.007763748995129333,
+      "ci95": [
+       -0.000829437639410687,
+       0.01716980950931803
+      ],
+      "p_one_sided": 0.037
+     },
+     "shape_50_vs_20": {
+      "diff": -0.0010526315789473684,
+      "ci95": [
+       -0.01125,
+       0.007619047619047618
+      ],
+      "p_one_sided": 0.5735
+     },
+     "shape_100_vs_50": {
+      "diff": 0.003458646616541354,
+      "ci95": [
+       -0.003505222734254992,
+       0.008721941216678058
+      ],
+      "p_one_sided": 0.143
+     }
+    }
+   }
+  }
+ },
+ "pooled": {
+  "signed (primary)": {
+   "delta_100_vs_20": {
+    "endpoints (primary)": {
+     "diff": 0.0019936778532051998,
+     "ci95": [
+      -0.005601957022996225,
+      0.009050719100489829
+     ]
+    },
+    "joint": {
+     "diff": 0.0019936778532051998,
+     "ci95": [
+      -0.0026735509868386197,
+      0.006246661734499816
+     ],
+     "groups": 53,
+     "empty_donor_draws": 0,
+     "assumption": "treats records in different donors as independent; optimistic"
+    },
+    "cluster": {
+     "diff": 0.0019936778532051998,
+     "ci95": [
+      0.0013446865897671512,
+      0.01619047619047619
+     ],
+     "groups": 9,
+     "empty_donor_draws": 16,
+     "assumption": "same donor block or same protein, fully dependent inside; pessimistic"
+    }
+   },
+   "deep_minus_floor_endpoints": {
+    "diff": 0.003234096642598449,
+    "ci95": [
+     -0.0033301904814870935,
+     0.01006401842795552
+    ]
+   }
+  },
+  "magnitude (diagnostic)": {
+   "delta_100_vs_20": {
+    "endpoints (primary)": {
+     "diff": 0.000719588974002437,
+     "ci95": [
+      -0.00915762209851852,
+      0.008663300764094807
+     ]
+    },
+    "joint": {
+     "diff": 0.000719588974002437,
+     "ci95": [
+      -0.00473108216356695,
+      0.005477288306354181
+     ],
+     "groups": 53,
+     "empty_donor_draws": 0,
+     "assumption": "treats records in different donors as independent; optimistic"
+    },
+    "cluster": {
+     "diff": 0.000719588974002437,
+     "ci95": [
+      -0.013333333333333332,
+      0.011774891774891773
+     ],
+     "groups": 9,
+     "empty_donor_draws": 16,
+     "assumption": "same donor block or same protein, fully dependent inside; pessimistic"
+    }
+   },
+   "deep_minus_floor_endpoints": {
+    "diff": 0.0016745664083266372,
+    "ci95": [
+     -0.006808600458120629,
+     0.010329132032564317
+    ]
+   }
+  }
+ },
+ "reading": {
+  "branch": 4,
+  "working_bound": 0.009,
+  "text": "undetermined at this resolution; a legitimate result, and no branch is forced",
+  "B8_unchanged": "B8's reading stays 'no support seen in the independent protein readout'; no verdict on W1 follows from this amendment (A13a sections 1 and 6)"
+ }
+}

@@ -1,0 +1,21 @@
+{
+  "scientific": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "pandas": "2.2.3"
+  },
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.16.3",
+    "pandas": "3.0.6",
+    "anndata": "0.12.3",
+    "h5py": "3.16.0",
+    "pytest": "8.4.2",
+    "pertrank": "0.2.0rc1",
+    "package_loaded_from_installed_target": true
+  },
+  "legacy_fixture_adapter": "Object-string metadata convention only; synthetic counts and numeric functions unchanged."
+}

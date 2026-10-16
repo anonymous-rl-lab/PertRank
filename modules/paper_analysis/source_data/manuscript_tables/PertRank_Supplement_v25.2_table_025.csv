@@ -1,0 +1,4 @@
+Reliability calculation,Original readout $y$,Compressed readout $Ay$,"Readout change, $Ay-y$"
+Euclidean weight $w_0$,0.2758,0.2553,-0.0205
+Control-geometry weight $w_M$,0.3114,0.2853,-0.0261
+"Geometry increment, $w_M-w_0$",+0.0356,+0.0300,-0.0056

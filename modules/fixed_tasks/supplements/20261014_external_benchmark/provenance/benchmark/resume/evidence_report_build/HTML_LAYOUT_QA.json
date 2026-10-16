@@ -1,0 +1,10 @@
+{
+  "status": "STRUCTURE_PASS_VISUAL_HTML_RENDER_UNAVAILABLE",
+  "html_sha256": "c3f767068f98b9b0e6f8be63d452b03c8bdf56bf0358a20b9c5c9371df562e6a",
+  "embedded_png_count": 4,
+  "tables": 14,
+  "external_resource_links": [],
+  "figures_visually_inspected": true,
+  "html_browser_render": "Unavailable: no browser executable; no dependency download attempted",
+  "scope": "Does not certify visual HTML page layout"
+}

@@ -1,0 +1,6 @@
+Method,Responsive P@25,Reference members per 25,Tercile P@25
+Unweighted,0.316909,7.9227,0.089950
+Euclidean,0.378579,9.4645,0.124727
+PR_M,0.387090,9.6773,0.127308
+PertRank,0.393727,9.8432,0.129489
+TRADE scalar,Not evaluable,Not evaluable,Not evaluable

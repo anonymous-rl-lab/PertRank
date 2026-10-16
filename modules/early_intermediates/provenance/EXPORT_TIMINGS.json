@@ -1,0 +1,117 @@
+[
+  {
+    "analysis": "design_ablation_b1",
+    "exit_code": 0,
+    "elapsed_seconds": 35.417514936008956
+  },
+  {
+    "analysis": "stage1_energy_source",
+    "exit_code": 0,
+    "elapsed_seconds": 21.73482280698954
+  },
+  {
+    "analysis": "stage1_reliability",
+    "exit_code": 0,
+    "elapsed_seconds": 0.8279879859910579
+  },
+  {
+    "analysis": "evaluate_stage2",
+    "exit_code": 0,
+    "elapsed_seconds": 46.220769660998485
+  },
+  {
+    "analysis": "diagnostics_stage2",
+    "exit_code": 0,
+    "elapsed_seconds": 24.404626425995957
+  },
+  {
+    "analysis": "evaluate_w1_e4",
+    "exit_code": 0,
+    "elapsed_seconds": 13.996109974003048
+  },
+  {
+    "analysis": "evaluate_w1_e4_50",
+    "exit_code": 0,
+    "elapsed_seconds": 10.67762308899546
+  },
+  {
+    "analysis": "diagnostics_w1_e4",
+    "exit_code": 0,
+    "elapsed_seconds": 9.316219795000507
+  },
+  {
+    "analysis": "evaluate_w1_e5",
+    "exit_code": 0,
+    "elapsed_seconds": 9.022553139991942
+  },
+  {
+    "analysis": "evaluate_d1_confirm",
+    "exit_code": 0,
+    "elapsed_seconds": 10.114942694999627
+  },
+  {
+    "analysis": "evaluate_w1_e1",
+    "exit_code": 0,
+    "elapsed_seconds": 23.13179660399328
+  },
+  {
+    "analysis": "evaluate_w1_e3",
+    "exit_code": 0,
+    "elapsed_seconds": 23.22287983399292
+  },
+  {
+    "analysis": "posthoc_nonquery_decomposition",
+    "exit_code": 0,
+    "elapsed_seconds": 5.446220650002942
+  },
+  {
+    "analysis": "correct_d1_self_gene",
+    "exit_code": 0,
+    "elapsed_seconds": 7.617126653000014
+  },
+  {
+    "analysis": "cross_donor_b2",
+    "exit_code": 0,
+    "elapsed_seconds": 3.98118853699998
+  },
+  {
+    "analysis": "evaluate_b3_baselines",
+    "exit_code": 0,
+    "elapsed_seconds": 34.35249073599698
+  },
+  {
+    "analysis": "evaluate_b6_entry_shrinkage",
+    "exit_code": 0,
+    "elapsed_seconds": 9.100339390002773
+  },
+  {
+    "analysis": "evaluate_d2_prospective",
+    "exit_code": 0,
+    "elapsed_seconds": 27.912469682996743
+  },
+  {
+    "analysis": "direction1_q1_similarity",
+    "exit_code": 0,
+    "elapsed_seconds": 1.2372133970056893
+  },
+  {
+    "analysis": "direction1_q2_cases",
+    "exit_code": 0,
+    "elapsed_seconds": 57.39492416800931
+  },
+  {
+    "analysis": "evaluate_b8_protein_readout",
+    "exit_code": 0,
+    "elapsed_seconds": 2.3716166439990047
+  },
+  {
+    "analysis": "b8_floor_headroom",
+    "exit_code": 0,
+    "elapsed_seconds": 2.056824023995432
+  },
+  {
+    "analysis": "evaluate_depth_ladder",
+    "exit_code": 0,
+    "elapsed_seconds": 2.7453913220087998
+  }
+]

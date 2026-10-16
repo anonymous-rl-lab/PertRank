@@ -1,0 +1,38 @@
+{
+  "status": "PERMANENTLY_TERMINATED_BY_AUTHOR",
+  "author_decision_at": "2026-10-14T22:28:54+08:00",
+  "author_instruction": "冻结十组预测实验，到此打止，永不再做实验！！！！！",
+  "recorded_utc": "2026-10-14T14:30:08.605069+00:00",
+  "scope": "All further PertRank/PerturbSeq Next experimental execution, including the registered ten-group D1/D2 Stim extension",
+  "planned_input_groups": 10,
+  "completed_input_prediction_groups": 1,
+  "unexecuted_groups_permanently_cancelled": 9,
+  "completed_group": "D1 Stim8hr rep0; 767 targets; seven method arms",
+  "completed_donor_reference_evaluations": 0,
+  "scientific_outcome_of_registered_extension": "NOT_EVALUATED; no P@25 or superiority conclusion",
+  "stop_reason": "Explicit author decision after concerns about resource consumption, before reference evaluation",
+  "allowed_future_work": [
+    "Manuscript editing using existing results",
+    "Summarization of existing reported results",
+    "Preservation and organization of existing records"
+  ],
+  "prohibited_future_work": [
+    "New experimental runs",
+    "Refitting or rerunning completed models",
+    "Remaining nine input groups",
+    "New expression extraction",
+    "Planning/reference reads",
+    "Reference scoring",
+    "Additional experiments or exploratory probes"
+  ],
+  "registration_handling": "Preserve existing private OSF registration ADDITIONAL_PRIVATE_REGISTRATION and original scientific protocol; no external changes made by this record",
+  "freeze_scope": "Operational termination and archival of existing outputs; NOT a completed ten-group prediction freeze",
+  "supersedes": "All earlier paused/resumable descriptions and experiment continuation plans",
+  "preserve_existing_outputs": true,
+  "checkpoint_library_ids": [
+    "libfile_de9019e5ddf08191aeb2d06e1dba1e65",
+    "libfile_0ca0c25c6cc48191afbef22e18efb549",
+    "libfile_26d3fac605d081918e0e4a85da00e866",
+    "libfile_1fe5066c6b3481918628c6514f2acbe6"
+  ]
+}

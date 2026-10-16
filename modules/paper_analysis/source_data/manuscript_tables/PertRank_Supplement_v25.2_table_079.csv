@@ -1,0 +1,5 @@
+Stratum,Targets,Responsive contribution [95% interval],Tercile contribution [95% interval]
+Own gene unavailable,66,"+0.000304 [-0.000101, 0.000694]","-0.000111 [-0.000610, 0.000422]"
+Low control expression,183,"+0.004231 [0.002992, 0.005576]","+0.001989 [0.001121, 0.002738]"
+Consistent planning suppression,291,"+0.010375 [0.008962, 0.012443]","+0.002695 [0.001391, 0.003878]"
+Above expression threshold; suppression unconfirmed,21,"+0.000238 [-0.000060, 0.000529]","+0.000189 [-0.000009, 0.000389]"

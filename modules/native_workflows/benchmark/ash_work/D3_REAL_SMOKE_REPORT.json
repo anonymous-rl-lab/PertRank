@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "pilot": [
+    {
+      "config": "default",
+      "n_rows": 32,
+      "n_genes": 13390,
+      "seconds_original": 90.97057724000115,
+      "failed": 0,
+      "mixEM_retries": 0,
+      "warnings_primary": 0
+    },
+    {
+      "config": "normal",
+      "n_rows": 32,
+      "n_genes": 13390,
+      "seconds_original": 27.636146572000143,
+      "failed": 0,
+      "mixEM_retries": 0,
+      "warnings_primary": 0
+    },
+    {
+      "config": "shrink",
+      "n_rows": 32,
+      "n_genes": 13390,
+      "seconds_original": 32.196754302000045,
+      "failed": 0,
+      "mixEM_retries": 0,
+      "warnings_primary": 0
+    },
+    {
+      "config": "trade",
+      "n_rows": 32,
+      "n_genes": 13390,
+      "seconds_original": 138.16135838599803,
+      "failed": 0,
+      "mixEM_retries": 0,
+      "warnings_primary": 0
+    }
+  ],
+  "output_selection_equivalence": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/OUTPUT_SELECTION_EQUIVALENCE.json",
+  "shard_equivalence": {
+    "status": "PASS_EXACT",
+    "targets": 32,
+    "genes": 13390,
+    "contiguous_shard_sizes": [
+      16,
+      16
+    ],
+    "posterior_bitwise_identical": true,
+    "mixture_loglik_and_solver_diagnostics_identical": true,
+    "original_wall_seconds": 47.321869022998726,
+    "sharded_wall_seconds": 22.01645903899771,
+    "conservative_combined_fit_peak_RSS_KB": 697480.0,
+    "scores_computed": false,
+    "sharded_runner_sha256": "2610b8847efdd48a44b08eccd700192aa31ed9ab2fa2886ab23e953960aa706d",
+    "transport_previous_sha256": "a69edb1aaaddb1a4dcf5116ac09bc979409e522a582e9797811fe9930065e5ec",
+    "transport_new_sha256": "5b6c8e6cfcef1517637474a3843a52a2ff23ebe73b4d972b3a183d10473f86d5",
+    "native_R_runner_unchanged_sha256": "c5fb54beff8050c4d5692ad3328cf12f6bccbf6a1f4e883cf936fde457793a0a",
+    "created_utc": "2026-10-12T04:24:24.176519+00:00",
+    "transport_change": "Release serialized Python input arrays before native R starts; capture RSS; fixed contiguous target shards, native seed/model/solver unchanged; original row identities restored during merge"
+  },
+  "comparison_scores_computed": false,
+  "formal_plan": "Two single-thread contiguous shards per ASH config; configs serial, same D3 full input; TRADE complete scale deferred until external competition gate decision"
+}

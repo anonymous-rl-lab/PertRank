@@ -1,0 +1,29 @@
+[
+  {
+    "path": "DESCRIPTION",
+    "url": "https://raw.githubusercontent.com/ajaynadig/TRADEtools/3432d108c43325e9df65276563d65144a26b69ce/DESCRIPTION",
+    "http_status": 200,
+    "sha256": "eb52fecacac81ef537f296ead22ca645943897ed5f7046d6ffb43f072c654fc7"
+  },
+  {
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/ajaynadig/TRADEtools/3432d108c43325e9df65276563d65144a26b69ce/LICENSE",
+    "http_status": 404
+  },
+  {
+    "path": "LICENSE.md",
+    "url": "https://raw.githubusercontent.com/ajaynadig/TRADEtools/3432d108c43325e9df65276563d65144a26b69ce/LICENSE.md",
+    "http_status": 404
+  },
+  {
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/ajaynadig/TRADEtools/3432d108c43325e9df65276563d65144a26b69ce/README.md",
+    "http_status": 200,
+    "sha256": "bccdfe21536d8f9d902398a616898c3be17a2b59f4c32ed3b77247b7bad17025"
+  },
+  {
+    "path": "R/R_TRADE_univariate.R",
+    "url": "https://raw.githubusercontent.com/ajaynadig/TRADEtools/3432d108c43325e9df65276563d65144a26b69ce/R/R_TRADE_univariate.R",
+    "http_status": 404
+  }
+]

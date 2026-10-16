@@ -1,0 +1,11 @@
+{
+  "status": "RAW_READ_COMPLETE",
+  "rows": 23840,
+  "batches": 94,
+  "seconds": 99.65910935401917,
+  "selection_sha256": "4b8b04555a9402dcb90e7a6495a1915e71c3826cc471f03cfe297edbb83fe5be",
+  "reader_sha256": "68ed49183aa9ed51668b8d3677f98bc84d116bb61c4e415807fc8df8d6262624",
+  "network_calls": 2601,
+  "network_bytes": 62469824,
+  "retry_events": 0
+}

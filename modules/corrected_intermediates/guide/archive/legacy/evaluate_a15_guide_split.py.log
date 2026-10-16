@@ -1,0 +1,13 @@
+gate D3_Rest: A deep vs B deep overlap median 0.0600, above random +0.0162 [+0.0099, +0.0219], median correlation 0.043 -> passes
+gate D1_Rest: A deep vs B deep overlap median 0.0800, above random +0.0360 [+0.0283, +0.0428], median correlation 0.063 -> passes
+gate D2_Rest: A deep vs B deep overlap median 0.0800, above random +0.0157 [+0.0118, +0.0190], median correlation 0.041 -> passes
+A shallow vs B deep (primary D3_Rest: raw 0.0680 w0y 0.0683 W1 0.0698 (floor 0.0568)  W1-w0y +0.0015 [-0.0024, +0.0051]
+A shallow vs B deep (primary D1_Rest: raw 0.0710 w0y 0.0827 W1 0.0890 (floor 0.0455)  W1-w0y +0.0063 [+0.0029, +0.0092]
+A shallow vs B deep (primary D2_Rest: raw 0.0823 w0y 0.0869 W1 0.0897 (floor 0.0710)  W1-w0y +0.0028 [-0.0010, +0.0068]
+  pooled A shallow vs B deep (primary +0.0035 [-0.0002, +0.0070]  thresholds weak 0.0260 clear 0.0520
+B shallow vs A deep (reverse D3_Rest: raw 0.0747 w0y 0.0764 W1 0.0769 (floor 0.0568)  W1-w0y +0.0006 [-0.0020, +0.0044]
+B shallow vs A deep (reverse D1_Rest: raw 0.0684 w0y 0.0797 W1 0.0835 (floor 0.0455)  W1-w0y +0.0038 [+0.0014, +0.0059]
+B shallow vs A deep (reverse D2_Rest: raw 0.0858 w0y 0.0869 W1 0.0867 (floor 0.0710)  W1-w0y -0.0002 [-0.0031, +0.0024]
+  pooled B shallow vs A deep (reverse +0.0014 [-0.0013, +0.0042]  thresholds weak 0.0260 clear 0.0520
+
+branch 2: no support at the independent-guide level; A15 section 7 branch 2: stop, and do not change the pool threshold, the cell counts, k, beta, the query set or the thresholds [5s]

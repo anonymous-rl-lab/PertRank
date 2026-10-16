@@ -1,0 +1,58 @@
+{
+  "version": "0.2.0rc1",
+  "date": "2026-10-15",
+  "status": "private anonymous installable review release",
+  "public_release": {
+    "pypi": false,
+    "scverse_registry": false,
+    "pertpy_merged": false
+  },
+  "scope": "AnnData software packaging, two archived real-data tutorials and correctness checks",
+  "scientific_experiments_run": 0,
+  "frozen_core_sha256": "721ce8dace4f7fcf63aceb1b7ec040c67cfb52b66601471dc414c41a6f2b0544",
+  "source_paper": "PertRank v21.1",
+  "tests": {
+    "source": 61,
+    "installed_wheel": 61,
+    "failures": 0,
+    "skipped": 0
+  },
+  "tutorials": [
+    {
+      "notebook": "01_replogle.ipynb",
+      "status": "passed",
+      "code_cells": 4,
+      "seconds": 0.779,
+      "errors": 0,
+      "execution_engine": "Sequential plain-Python notebook cells in a fresh namespace; no Jupyter transport"
+    },
+    {
+      "notebook": "02_tcell.ipynb",
+      "status": "passed",
+      "code_cells": 5,
+      "seconds": 0.139,
+      "errors": 0,
+      "execution_engine": "Sequential plain-Python notebook cells in a fresh namespace; no Jupyter transport"
+    }
+  ],
+  "data": {
+    "Replogle": {
+      "candidates": 2000,
+      "query_columns": 300,
+      "weight_genes": 8202
+    },
+    "Tcell": {
+      "candidates": 52,
+      "query_columns": 293,
+      "weight_genes": 13390
+    }
+  },
+  "maximum_weight_absolute_difference": 4.440892098500626e-16,
+  "local_validation_python": "3.12.14",
+  "anndata_version": "0.12.3",
+  "scipy_version": "1.16.3",
+  "data_representation": "Authentic saved sufficient statistics and query effect matrices, not raw cell fixtures",
+  "remote_ci_run": false,
+  "jupyter_transport_tested": false,
+  "tutorial_validation": "Every plain-Python code cell executed in order, then executed again from the isolated installed wheel"
+}

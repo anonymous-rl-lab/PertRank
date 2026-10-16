@@ -1,0 +1,40 @@
+{
+  "status": "ready",
+  "R": "R version 4.4.3 (2025-02-28)",
+  "platform": "x86_64-pc-linux-gnu",
+  "packages": {
+    "ashr": "2.2-63",
+    "jsonlite": "2.0.0",
+    "Matrix": "1.7-6",
+    "lattice": "0.23-1",
+    "Rcpp": "1.1.2",
+    "RcppArmadillo": "15.6.0-1",
+    "irlba": "2.4.1",
+    "mixsqp": "0.3-54",
+    "SQUAREM": "2026.1",
+    "truncnorm": "1.0-9",
+    "etrunct": "0.1",
+    "invgamma": "1.2"
+  },
+  "libraries": ["/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/run/environment/R-library", "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/run/environment/r-binary/opt/R/4.4.3/lib/R/library"],
+  "extSoftVersion": {
+    "zlib": "1.3",
+    "bzlib": "1.0.8, 13-Jul-2019",
+    "xz": "5.4.5",
+    "libdeflate": "1.19",
+    "PCRE": "10.42 2022-12-11",
+    "ICU": "74.2",
+    "TRE": "TRE 0.8.0 R_fixes (BSD)",
+    "iconv": "glibc 2.39",
+    "readline": "8.2",
+    "BLAS": "/usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0"
+  },
+  "thread_settings": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "sessionInfo": ["R version 4.4.3 (2025-02-28)", "Platform: x86_64-pc-linux-gnu", "Running under: Ubuntu 24.04.3 LTS", "", "Matrix products: default", "BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 ", "LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0", "", "locale:", " [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8       ", " [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8   ", " [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C          ", "[10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C   ", "", "time zone: America/Sao_Paulo", "tzcode source: system (glibc)", "", "attached base packages:", "[1] stats     graphics  grDevices utils     datasets  methods   base     ", "", "other attached packages:", "[1] jsonlite_2.0.0 ashr_2.2-63   ", "", "loaded via a namespace (and not attached):", " [1] compiler_4.4.3  Matrix_1.7-6    tools_4.4.3     mixsqp_0.3-54  ", " [5] Rcpp_1.1.2      SQUAREM_2026.1  grid_4.4.3      truncnorm_1.0-9", " [9] irlba_2.4.1     invgamma_1.2    lattice_0.23-1 "]
+}

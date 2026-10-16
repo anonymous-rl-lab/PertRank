@@ -1,0 +1,555 @@
+{
+ "created_utc": "2026-09-26T09:14:40Z",
+ "integrity": {
+  "plan_sha256": "a4980412ee194cb2aee1a4d7d0f9cfdd523166066206fc6d815762dac92f5999",
+  "amendment_A2_sha256": "91fed42ea9ff76e62a2946fbcdbdcd4e15ceabaf0660cf801e784815c91ca117",
+  "amendment_A3_sha256": "dffb3749581f7e63434c486886a2a63da8aa8fcac0c3b1297c676d4d9f76a72b",
+  "amendment_A4_sha256": "39d9434b5d7bb31ae3099d85fcf43fd4e3fe8c6b79a1103bae069fd572b10456",
+  "amendment_A4a_sha256": "b8c81d8fcd05e9612eee80668b0eb0afc1fa4d24d447857c3cd119dcda0fc17a",
+  "amendment_A4b_sha256": "aa8e9305b11c48c24657f0f4eb6988161e99578561f489e2a76d172d3e4d1375",
+  "amendment_A4d_sha256": "e1c0a038ddadf3a92681d12bfd69cc00b82d97596536cf48344dcf30f03c2ac8",
+  "freeze": {
+   "evaluate_w1_e3.py": "55a34dbfd81228d7ae939184879a96e96cae7ecf637e7432fc5b2ccf3a191847",
+   "evaluate_w1_e4.py": "daba866ef464135ac973a3faa1ac1f97be350b0f4018bbfcb4a6c8c1f966d1b6",
+   "read_e3_w1.py": "5af2e0fa851ae5726d0d4c7a08bbe0a6561371818abb9df04ef50e74b324e28e",
+   "read_e4_w1.py": "8eab4828ef25aa2eb482c3fd94473cb12202dad7833d6877e3d16aa6b98a5c71"
+  },
+  "data_sha256": "8b382c3c2909210c2b897f754779b57bfb152347935f6d8e948fc8d8cd0062e5"
+ },
+ "checks": {
+  "beta_zero_reproduces_w0y_20_abs": 0.0,
+  "beta_zero_reproduces_w0y_100_abs": 0.0
+ },
+ "read_checks": {
+  "synthetic": false,
+  "input_sha256": {
+   "stage8_dry/hct116_obs.npz": "1221a9922eebaa197504746cd73b824b9aa8f013840cd0ee4a8615a029c825a1",
+   "stage8_dry/cohort_tags.npz": "bc733fb292492d582cc00258c84fc8a4718ba4aca117d3ef6db02cbbfc8ebb81",
+   "stage8_dry/keep_genes.npy": "a9a226bdfe2adf5bb09c29211c2088249be146de1ad658b9c349faf72e9d9c27",
+   "stage8_dry/ck/w0.npz": "37a16569fcb65c340550da888a3a057a25c5b637501f2212ec285bd7fe6dcc3b",
+   "stage8_dry/ck/w1.npz": "df19edfcb1a79cf211ddeb2eb5de1b1fcacc84b0a533bda6c9e13210c282c8d5",
+   "stage8_dry/ck/w2.npz": "90e0db6bc54148d3b3609b4e2a007fabdb6a70cd3690b33e9eb68689e69144c6",
+   "stage8_dry/ck/w3.npz": "0e67981598e957cd889fe6ed9417a75a00e265e3574ed77338d04c0987352c00",
+   "stage8_dry/hct116_barcodes.npy": "65c90e95a652d31cc4183a0f094c7c03175c4ac065e5644a104ebe6299993031",
+   "e3_orion.npz": "0adfbd63f5d4d20d35afb2f3bf4089de2bda8b873f96415c3aba579476ca0b61"
+  },
+  "gene_axis": {
+   "n_genes": 38606,
+   "token_ids_are_0_to_n": true,
+   "names_differing": 22,
+   "all_differences_are_dedup_suffix": true
+  },
+  "batches_contiguous_in_cell_order": true,
+  "workers": [
+   {
+    "worker": 0,
+    "cells_missing": 0,
+    "cells_with_different_total_or_target": 0,
+    "sh_s": {
+     "n": 24406000,
+     "bit_identical": 24406000,
+     "max_abs_diff": 0.0,
+     "within_tolerance": true
+    },
+    "sh_q": {
+     "n": 24406000,
+     "bit_identical": 24406000,
+     "max_abs_diff": 0.0,
+     "within_tolerance": true
+    },
+    "in_s": {
+     "n": 24406000,
+     "bit_identical": 24406000,
+     "max_abs_diff": 0.0,
+     "within_tolerance": true
+    },
+    "sh_n_equal": true,
+    "in_n_equal": true,
+    "det_equal": true,
+    "control_counts_equal": true,
+    "planning_cells": 533,
+    "planning_cells_identical": 533
+   },
+   {
+    "worker": 1,
+    "cells_missing": 0,
+    "cells_with_different_total_or_target": 0,
+    "sh_s": {
+     "n": 24406000,
+     "bit_identical": 24406000,
+     "max_abs_diff": 0.0,
+     "within_tolerance": true
+    },
+    "sh_q": {
+     "n": 24406000,
+     "bit_identical": 24406000,
+     "max_abs_diff": 0.0,
+     "within_tolerance": true
+    },
+    "in_s": {
+     "n": 24406000,
+     "bit_identical": 24406000,
+     "max_abs_diff": 0.0,
+     "within_tolerance": true
+    },
+    "sh_n_equal": true,
+    "in_n_equal": true,
+    "det_equal": true,
+    "control_counts_equal": true,
+    "planning_cells": 469,
+    "planning_cells_identical": 469
+   },
+   {
+    "worker": 2,
+    "cells_missing": 0,
+    "cells_with_different_total_or_target": 0,
+    "sh_s": {
+     "n": 24406000,
+     "bit_identical": 24406000,
+     "max_abs_diff": 0.0,
+     "within_tolerance": true
+    },
+    "sh_q": {
+     "n": 24406000,
+     "bit_identical": 24406000,
+     "max_abs_diff": 0.0,
+     "within_tolerance": true
+    },
+    "in_s": {
+     "n": 24406000,
+     "bit_identical": 24406000,
+     "max_abs_diff": 0.0,
+     "within_tolerance": true
+    },
+    "sh_n_equal": true,
+    "in_n_equal": true,
+    "det_equal": true,
+    "control_counts_equal": true,
+    "planning_cells": 499,
+    "planning_cells_identical": 499
+   },
+   {
+    "worker": 3,
+    "cells_missing": 0,
+    "cells_with_different_total_or_target": 0,
+    "sh_s": {
+     "n": 24406000,
+     "bit_identical": 24406000,
+     "max_abs_diff": 0.0,
+     "within_tolerance": true
+    },
+    "sh_q": {
+     "n": 24406000,
+     "bit_identical": 24406000,
+     "max_abs_diff": 0.0,
+     "within_tolerance": true
+    },
+    "in_s": {
+     "n": 24406000,
+     "bit_identical": 24406000,
+     "max_abs_diff": 0.0,
+     "within_tolerance": true
+    },
+    "sh_n_equal": true,
+    "in_n_equal": true,
+    "det_equal": true,
+    "control_counts_equal": true,
+    "planning_cells": 499,
+    "planning_cells_identical": 499
+   }
+  ],
+  "control_mean_vs_reduced": {
+   "n": 12203,
+   "bit_identical": 12203,
+   "max_abs_diff": 0.0,
+   "within_tolerance": true
+  },
+  "control_var_vs_reduced": {
+   "n": 12203,
+   "bit_identical": 12203,
+   "max_abs_diff": 0.0,
+   "within_tolerance": true
+  },
+  "gene_set_from_planning_detection": true,
+  "target_sh_s_vs_checkpoints": {
+   "n": 97624000,
+   "bit_identical": 97624000,
+   "max_abs_diff": 0.0,
+   "within_tolerance": true
+  },
+  "target_sh_q_vs_checkpoints": {
+   "n": 97624000,
+   "bit_identical": 97624000,
+   "max_abs_diff": 0.0,
+   "within_tolerance": true
+  },
+  "target_in_s_vs_checkpoints": {
+   "n": 97624000,
+   "bit_identical": 97624000,
+   "max_abs_diff": 0.0,
+   "within_tolerance": true
+  },
+  "control_trace_over_G_vs_reduced_cvm": {
+   "read": 0.17631978050153013,
+   "reduced": 0.17631978050153005,
+   "rel_diff": 4.722483581254468e-16
+  },
+  "eigenvalue_agreement_max_rel": 4.661630799914844e-15,
+  "euclidean_terms_from_checkpoints_vs_reduced_max_rel": 1.5869778479288607e-14,
+  "all_values_bit_identical": true
+ },
+ "setting": {
+  "k": 5,
+  "beta": 0.9,
+  "genes": "the frozen 12,203 genes",
+  "directions": "the 2,000 stage-8 input controls (A4d section 3)",
+  "sigma_j": "the 20-cell block's own cells at both depths, as the frozen w0y's varbar",
+  "data_source": "Xaira's HuggingFace release, each file checked against its published SHA256"
+ },
+ "cells": {
+  "terciles 20": {
+   "role": "gatekeeper",
+   "raw": 0.01741378243431204,
+   "w0y": 0.019933333333333334,
+   "W1": 0.02626666666666667,
+   "W1_vs_w0y": {
+    "diff": 0.006333333333333333,
+    "ci95": [
+     0.004384540636042404,
+     0.008489538803739618
+    ],
+    "p_one_sided": 0.0
+   },
+   "W1_vs_raw": {
+    "diff": 0.008852884232354629,
+    "ci95": [
+     0.005996264929004927,
+     0.011611027749703498
+    ]
+   },
+   "w0y_vs_raw": {
+    "diff": 0.0025195508990212947
+   },
+   "weights": {
+    "mean": 0.012516666838512559,
+    "zero_fraction": 0.4395,
+    "spearman_with_w0y": 0.5467234630041434,
+    "degenerate": false
+   }
+  },
+  "terciles 100": {
+   "role": "gatekeeper",
+   "raw": 0.02846666666666667,
+   "w0y": 0.035,
+   "W1": 0.03673333333333333,
+   "W1_vs_w0y": {
+    "diff": 0.0017333333333333335,
+    "ci95": [
+     -0.0003964691923737827,
+     0.0034504848580299693
+    ],
+    "p_one_sided": 0.058
+   },
+   "W1_vs_raw": {
+    "diff": 0.008266666666666669,
+    "ci95": [
+     0.005131345601366565,
+     0.010796085785281344
+    ]
+   },
+   "w0y_vs_raw": {
+    "diff": 0.006533333333333333
+   },
+   "weights": {
+    "mean": 0.04538358931957602,
+    "zero_fraction": 0.377,
+    "spearman_with_w0y": 0.7652074659176009,
+    "degenerate": false
+   }
+  }
+ },
+ "sensitivity": {
+  "grid_all_genes_20": {
+   "k1_beta0.5": {
+    "diff": 0.0016,
+    "ci95": [
+     0.00025,
+     0.00273
+    ]
+   },
+   "k1_beta0.9": {
+    "diff": 0.00393,
+    "ci95": [
+     0.00207,
+     0.00565
+    ]
+   },
+   "k1_beta0.99": {
+    "diff": 0.0046,
+    "ci95": [
+     0.0027,
+     0.00639
+    ]
+   },
+   "k3_beta0.5": {
+    "diff": 0.00253,
+    "ci95": [
+     0.0014,
+     0.0035
+    ]
+   },
+   "k3_beta0.9": {
+    "diff": 0.006,
+    "ci95": [
+     0.00352,
+     0.00812
+    ]
+   },
+   "k3_beta0.99": {
+    "diff": 0.00593,
+    "ci95": [
+     0.00309,
+     0.00872
+    ]
+   },
+   "k5_beta0.5": {
+    "diff": 0.00247,
+    "ci95": [
+     0.00157,
+     0.00323
+    ]
+   },
+   "k5_beta0.9": {
+    "diff": 0.00633,
+    "ci95": [
+     0.00438,
+     0.00849
+    ]
+   },
+   "k5_beta0.99": {
+    "diff": 0.00627,
+    "ci95": [
+     0.00349,
+     0.00923
+    ]
+   },
+   "k10_beta0.5": {
+    "diff": 0.0014,
+    "ci95": [
+     0.00075,
+     0.00201
+    ]
+   },
+   "k10_beta0.9": {
+    "diff": 0.005,
+    "ci95": [
+     0.00292,
+     0.00755
+    ]
+   },
+   "k10_beta0.99": {
+    "diff": 0.00593,
+    "ci95": [
+     0.00333,
+     0.00929
+    ]
+   },
+   "k20_beta0.5": {
+    "diff": 0.001,
+    "ci95": [
+     0.00036,
+     0.0016
+    ]
+   },
+   "k20_beta0.9": {
+    "diff": 0.00527,
+    "ci95": [
+     0.00321,
+     0.00779
+    ]
+   },
+   "k20_beta0.99": {
+    "diff": 0.00587,
+    "ci95": [
+     0.00344,
+     0.00915
+    ]
+   }
+  },
+  "directions_6_to_20_only_20": {
+   "diff": 7e-05,
+   "ci95": [
+    -0.00053,
+    0.00081
+   ]
+  },
+  "non_query_genes_20": {
+   "diff": 0.0054,
+   "ci95": [
+    0.00333,
+    0.00756
+   ]
+  },
+  "grid_all_genes_100": {
+   "k1_beta0.5": {
+    "diff": 0.00213,
+    "ci95": [
+     0.00103,
+     0.00311
+    ]
+   },
+   "k1_beta0.9": {
+    "diff": 0.00267,
+    "ci95": [
+     0.00036,
+     0.00493
+    ]
+   },
+   "k1_beta0.99": {
+    "diff": 0.00233,
+    "ci95": [
+     0.00014,
+     0.00465
+    ]
+   },
+   "k3_beta0.5": {
+    "diff": 0.00133,
+    "ci95": [
+     7e-05,
+     0.00242
+    ]
+   },
+   "k3_beta0.9": {
+    "diff": 0.00173,
+    "ci95": [
+     -0.0004,
+     0.00349
+    ]
+   },
+   "k3_beta0.99": {
+    "diff": 0.00187,
+    "ci95": [
+     -0.00035,
+     0.00366
+    ]
+   },
+   "k5_beta0.5": {
+    "diff": 0.0018,
+    "ci95": [
+     0.00055,
+     0.0029
+    ]
+   },
+   "k5_beta0.9": {
+    "diff": 0.00173,
+    "ci95": [
+     -0.0004,
+     0.00345
+    ]
+   },
+   "k5_beta0.99": {
+    "diff": 0.00213,
+    "ci95": [
+     0.00015,
+     0.00387
+    ]
+   },
+   "k10_beta0.5": {
+    "diff": 0.00207,
+    "ci95": [
+     0.00087,
+     0.00313
+    ]
+   },
+   "k10_beta0.9": {
+    "diff": 0.00133,
+    "ci95": [
+     -0.00063,
+     0.00306
+    ]
+   },
+   "k10_beta0.99": {
+    "diff": 0.001,
+    "ci95": [
+     -0.0009,
+     0.00252
+    ]
+   },
+   "k20_beta0.5": {
+    "diff": 0.00147,
+    "ci95": [
+     0.00021,
+     0.00252
+    ]
+   },
+   "k20_beta0.9": {
+    "diff": 0.001,
+    "ci95": [
+     -0.001,
+     0.00267
+    ]
+   },
+   "k20_beta0.99": {
+    "diff": 0.00093,
+    "ci95": [
+     -0.00104,
+     0.00265
+    ]
+   }
+  },
+  "directions_6_to_20_only_100": {
+   "diff": -0.00127,
+   "ci95": [
+    -0.00201,
+    -0.00052
+   ]
+  },
+  "non_query_genes_100": {
+   "diff": 0.0014,
+   "ci95": [
+    -0.00067,
+    0.00305
+   ]
+  },
+  "sigma_j_from_the_100_cell_block_100": {
+   "diff": 0.00067,
+   "ci95": [
+    -0.00164,
+    0.0025
+   ]
+  },
+  "control_trace_share_top_k": {
+   "1": 0.0434,
+   "5": 0.0757,
+   "10": 0.0919,
+   "20": 0.1101
+  }
+ },
+ "decision": {
+  "gatekeepers": {
+   "E3 20": {
+    "diff": 0.006333333333333333,
+    "ci95": [
+     0.004384540636042404,
+     0.008489538803739618
+    ],
+    "p_one_sided": 0.0
+   },
+   "E3 100": {
+    "diff": 0.0017333333333333335,
+    "ci95": [
+     -0.0003964691923737827,
+     0.0034504848580299693
+    ],
+    "p_one_sided": 0.058
+   }
+  },
+  "passes": {
+   "E3 20": true,
+   "E3 100": true
+  },
+  "all_pass": true,
+  "degenerate": false,
+  "rule": "a gatekeeper fails only if its 95% interval lies entirely below zero; weights all zero or all equal fail"
+ }
+}

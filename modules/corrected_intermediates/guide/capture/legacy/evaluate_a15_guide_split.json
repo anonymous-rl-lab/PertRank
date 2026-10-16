@@ -1,0 +1,1181 @@
+{
+  "script": "evaluate_a15_guide_split.py",
+  "operations": [
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a33fed9ab0af636b667c193d0",
+        "a8fbcb335e2658393dcf706c1",
+        "a4226b451a18e17479429919d"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.01624299710451528,
+        "ci95": [
+          0.009942974115203049,
+          0.021876077026603918
+        ],
+        "lower_one_sided_95": 0.010954777548453873,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/gate/D3_Rest/above_random",
+        "/gate/D3_Rest/reverse_above_random"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a33fed9ab0af636b667c193d0",
+        "a8fbcb335e2658393dcf706c1",
+        "a4226b451a18e17479429919d"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.01624299710451528,
+        "ci95": [
+          0.009942974115203049,
+          0.021876077026603918
+        ],
+        "lower_one_sided_95": 0.010954777548453873,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/gate/D3_Rest/above_random",
+        "/gate/D3_Rest/reverse_above_random"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "ab7d5a73a345e5abe5e3065de",
+        "a7ec39d899b36ca4358815c05",
+        "ac885442a11df8c96d618e826"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.03603705791436785,
+        "ci95": [
+          0.02829686191034345,
+          0.04283916207351627
+        ],
+        "lower_one_sided_95": 0.029574240256648236,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/gate/D1_Rest/above_random",
+        "/gate/D1_Rest/reverse_above_random"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "ab7d5a73a345e5abe5e3065de",
+        "a7ec39d899b36ca4358815c05",
+        "ac885442a11df8c96d618e826"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.03603705791436785,
+        "ci95": [
+          0.02829686191034345,
+          0.04283916207351627
+        ],
+        "lower_one_sided_95": 0.029574240256648236,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/gate/D1_Rest/above_random",
+        "/gate/D1_Rest/reverse_above_random"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "acc3036fb99091f2566bf455b",
+        "a5ca31b41e28d2898c19d2d34",
+        "a2e73bd1194fb62afeb3093f2"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.015669451444835877,
+        "ci95": [
+          0.011774548832645594,
+          0.01898385030906654
+        ],
+        "lower_one_sided_95": 0.012369454188841427,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/gate/D2_Rest/above_random",
+        "/gate/D2_Rest/reverse_above_random"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "acc3036fb99091f2566bf455b",
+        "a5ca31b41e28d2898c19d2d34",
+        "a2e73bd1194fb62afeb3093f2"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.015669451444835877,
+        "ci95": [
+          0.011774548832645594,
+          0.01898385030906654
+        ],
+        "lower_one_sided_95": 0.012369454188841427,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/gate/D2_Rest/above_random",
+        "/gate/D2_Rest/reverse_above_random"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "ad4b386b389f85246905aa57b",
+        "a2969244574f4e9c1535cca20",
+        "a4226b451a18e17479429919d"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.0014854700854700852,
+        "ci95": [
+          -0.0023967671836453994,
+          0.00510341317890673
+        ],
+        "lower_one_sided_95": -0.0018435890485226341,
+        "p_one_sided": 0.2835
+      },
+      "original_result_paths": [
+        "/donors/D3_Rest/assignments/A shallow vs B deep (primary)/W1_vs_w0y"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "ad4b386b389f85246905aa57b",
+        "a4688fdc56a60c29531555e2e",
+        "a4226b451a18e17479429919d"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.0017448715469179728,
+        "ci95": [
+          -0.0008686857594518015,
+          0.004852497762007562
+        ],
+        "lower_one_sided_95": -0.0005384240090483154,
+        "p_one_sided": 0.1095
+      },
+      "original_result_paths": [
+        "/donors/D3_Rest/assignments/A shallow vs B deep (primary)/W1_vs_raw"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a2969244574f4e9c1535cca20",
+        "a4688fdc56a60c29531555e2e",
+        "a4226b451a18e17479429919d"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.00025940146144788753,
+        "ci95": [
+          -0.0049035220616994064,
+          0.005650656197295945
+        ],
+        "lower_one_sided_95": -0.004168821069578658,
+        "p_one_sided": 0.4315
+      },
+      "original_result_paths": [
+        "/donors/D3_Rest/assignments/A shallow vs B deep (primary)/w0y_vs_raw"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a4688fdc56a60c29531555e2e",
+        "a8fbcb335e2658393dcf706c1",
+        "a4226b451a18e17479429919d"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.011220726743680319,
+        "ci95": [
+          0.004294647521520878,
+          0.018053128387497216
+        ],
+        "lower_one_sided_95": 0.005094991088351482,
+        "p_one_sided": 0.0005
+      },
+      "original_result_paths": [
+        "/donors/D3_Rest/assignments/A shallow vs B deep (primary)/above_random/raw"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a2969244574f4e9c1535cca20",
+        "a8fbcb335e2658393dcf706c1",
+        "a4226b451a18e17479429919d"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.011480128205128207,
+        "ci95": [
+          0.007089028282439134,
+          0.015206831166399455
+        ],
+        "lower_one_sided_95": 0.007981748016902374,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D3_Rest/assignments/A shallow vs B deep (primary)/above_random/w0y"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "ad4b386b389f85246905aa57b",
+        "a8fbcb335e2658393dcf706c1",
+        "a4226b451a18e17479429919d"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.012965598290598292,
+        "ci95": [
+          0.006442092656528129,
+          0.018503454373928644
+        ],
+        "lower_one_sided_95": 0.007444971353011001,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D3_Rest/assignments/A shallow vs B deep (primary)/above_random/W1"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "addb84227682b1652a3002807",
+        "abd7d4e66f43ec5fde3eea8e0",
+        "ac885442a11df8c96d618e826"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.00625019305019305,
+        "ci95": [
+          0.0028622128622128617,
+          0.009150440356322708
+        ],
+        "lower_one_sided_95": 0.0033986014829764837,
+        "p_one_sided": 0.0005
+      },
+      "original_result_paths": [
+        "/donors/D1_Rest/assignments/A shallow vs B deep (primary)/W1_vs_w0y"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "addb84227682b1652a3002807",
+        "aee09a109c5edf84a0127a17d",
+        "ac885442a11df8c96d618e826"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.017959750625261527,
+        "ci95": [
+          0.01281990354004681,
+          0.02249689249173284
+        ],
+        "lower_one_sided_95": 0.013686480329480492,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D1_Rest/assignments/A shallow vs B deep (primary)/W1_vs_raw"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "abd7d4e66f43ec5fde3eea8e0",
+        "aee09a109c5edf84a0127a17d",
+        "ac885442a11df8c96d618e826"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.011709557575068474,
+        "ci95": [
+          0.008089706185835236,
+          0.015483892181970592
+        ],
+        "lower_one_sided_95": 0.008764022302544907,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D1_Rest/assignments/A shallow vs B deep (primary)/w0y_vs_raw"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "aee09a109c5edf84a0127a17d",
+        "a7ec39d899b36ca4358815c05",
+        "ac885442a11df8c96d618e826"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.02558298179105579,
+        "ci95": [
+          0.019635817816982676,
+          0.031786954735874666
+        ],
+        "lower_one_sided_95": 0.020510944825561213,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D1_Rest/assignments/A shallow vs B deep (primary)/above_random/raw"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "abd7d4e66f43ec5fde3eea8e0",
+        "a7ec39d899b36ca4358815c05",
+        "ac885442a11df8c96d618e826"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.037292539366124276,
+        "ci95": [
+          0.03139044632204371,
+          0.04324367174477408
+        ],
+        "lower_one_sided_95": 0.032159527633632,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D1_Rest/assignments/A shallow vs B deep (primary)/above_random/w0y"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "addb84227682b1652a3002807",
+        "a7ec39d899b36ca4358815c05",
+        "ac885442a11df8c96d618e826"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.04354273241631732,
+        "ci95": [
+          0.037752913271869644,
+          0.0495001717790341
+        ],
+        "lower_one_sided_95": 0.03859098211300234,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D1_Rest/assignments/A shallow vs B deep (primary)/above_random/W1"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a1012945709071b9e01ba0e81",
+        "ad20e7039b1467bd79bacbdb0",
+        "a2e73bd1194fb62afeb3093f2"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.0028169118910190342,
+        "ci95": [
+          -0.0009845035980809737,
+          0.006803798107380418
+        ],
+        "lower_one_sided_95": -0.0003947616750749723,
+        "p_one_sided": 0.0725
+      },
+      "original_result_paths": [
+        "/donors/D2_Rest/assignments/A shallow vs B deep (primary)/W1_vs_w0y"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a1012945709071b9e01ba0e81",
+        "a0e12c0cdf450893a57196349",
+        "a2e73bd1194fb62afeb3093f2"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.007388781929198451,
+        "ci95": [
+          0.002392672440777121,
+          0.01208777458241187
+        ],
+        "lower_one_sided_95": 0.0030362729631243034,
+        "p_one_sided": 0.001
+      },
+      "original_result_paths": [
+        "/donors/D2_Rest/assignments/A shallow vs B deep (primary)/W1_vs_raw"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "ad20e7039b1467bd79bacbdb0",
+        "a0e12c0cdf450893a57196349",
+        "a2e73bd1194fb62afeb3093f2"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.004571870038179416,
+        "ci95": [
+          0.0002538017953703414,
+          0.009017317406826639
+        ],
+        "lower_one_sided_95": 0.0008433510352274975,
+        "p_one_sided": 0.02
+      },
+      "original_result_paths": [
+        "/donors/D2_Rest/assignments/A shallow vs B deep (primary)/w0y_vs_raw"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a0e12c0cdf450893a57196349",
+        "a5ca31b41e28d2898c19d2d34",
+        "a2e73bd1194fb62afeb3093f2"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.011318589830703064,
+        "ci95": [
+          0.005598779686478951,
+          0.016452927217845133
+        ],
+        "lower_one_sided_95": 0.0066055571095352235,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D2_Rest/assignments/A shallow vs B deep (primary)/above_random/raw"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "ad20e7039b1467bd79bacbdb0",
+        "a5ca31b41e28d2898c19d2d34",
+        "a2e73bd1194fb62afeb3093f2"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.01589045986888248,
+        "ci95": [
+          0.010365215820002518,
+          0.020778852350006018
+        ],
+        "lower_one_sided_95": 0.011228731540213997,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D2_Rest/assignments/A shallow vs B deep (primary)/above_random/w0y"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a1012945709071b9e01ba0e81",
+        "a5ca31b41e28d2898c19d2d34",
+        "a2e73bd1194fb62afeb3093f2"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.018707371759901514,
+        "ci95": [
+          0.01164769730867487,
+          0.02521633578806136
+        ],
+        "lower_one_sided_95": 0.012629679327856358,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D2_Rest/assignments/A shallow vs B deep (primary)/above_random/W1"
+      ]
+    },
+    {
+      "kind": "donor_mean_bootstrap",
+      "arrays": [
+        "a01a3add62a6fd187293bcd82",
+        "aa7326375f844fac59d6026ec",
+        "a180ddb583633ab0334436ac3"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.003517525008894056,
+        "ci95": [
+          0.001324837433102194,
+          0.005487131375196693
+        ],
+        "groups": 90,
+        "empty_donor_draws": 0
+      },
+      "original_result_paths": [
+        "/pooled/A shallow vs B deep (primary)/joint"
+      ]
+    },
+    {
+      "kind": "donor_mean_bootstrap",
+      "arrays": [
+        "a01a3add62a6fd187293bcd82",
+        "af9d5daf66637e159bfe0c049",
+        "a180ddb583633ab0334436ac3"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.003517525008894056,
+        "ci95": [
+          0.003517525008894056,
+          0.003517525008894056
+        ],
+        "groups": 1,
+        "empty_donor_draws": 0
+      },
+      "original_result_paths": [
+        "/pooled/A shallow vs B deep (primary)/cluster"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a06abedfd3817fc4daea20af4",
+        "a7e33f99f1a6b98549ef42f70",
+        "a4226b451a18e17479429919d"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.0005667607337230399,
+        "ci95": [
+          -0.002045644953282557,
+          0.004381777890365478
+        ],
+        "lower_one_sided_95": -0.0017226116616586118,
+        "p_one_sided": 0.3535
+      },
+      "original_result_paths": [
+        "/donors/D3_Rest/assignments/B shallow vs A deep (reverse)/W1_vs_w0y"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a06abedfd3817fc4daea20af4",
+        "a4ed46e8548acc36ef57455d4",
+        "a4226b451a18e17479429919d"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.002208548211252734,
+        "ci95": [
+          -0.0015148494863245982,
+          0.006292086909257152
+        ],
+        "lower_one_sided_95": -0.0008518319613338492,
+        "p_one_sided": 0.128
+      },
+      "original_result_paths": [
+        "/donors/D3_Rest/assignments/B shallow vs A deep (reverse)/W1_vs_raw"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a7e33f99f1a6b98549ef42f70",
+        "a4ed46e8548acc36ef57455d4",
+        "a4226b451a18e17479429919d"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.001641787477529693,
+        "ci95": [
+          -0.0019079758351723344,
+          0.005009306143222521
+        ],
+        "lower_one_sided_95": -0.0013207614557907159,
+        "p_one_sided": 0.1685
+      },
+      "original_result_paths": [
+        "/donors/D3_Rest/assignments/B shallow vs A deep (reverse)/w0y_vs_raw"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a4ed46e8548acc36ef57455d4",
+        "a8fbcb335e2658393dcf706c1",
+        "a4226b451a18e17479429919d"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.017912811978474052,
+        "ci95": [
+          0.00817184236554377,
+          0.02803536525778745
+        ],
+        "lower_one_sided_95": 0.00926425038785176,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D3_Rest/assignments/B shallow vs A deep (reverse)/above_random/raw"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a7e33f99f1a6b98549ef42f70",
+        "a8fbcb335e2658393dcf706c1",
+        "a4226b451a18e17479429919d"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.019554599456003744,
+        "ci95": [
+          0.009743945861918514,
+          0.028456025165691293
+        ],
+        "lower_one_sided_95": 0.010757883008227359,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D3_Rest/assignments/B shallow vs A deep (reverse)/above_random/w0y"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a06abedfd3817fc4daea20af4",
+        "a8fbcb335e2658393dcf706c1",
+        "a4226b451a18e17479429919d"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.02012136018972678,
+        "ci95": [
+          0.011055099110898624,
+          0.027900563723115453
+        ],
+        "lower_one_sided_95": 0.01226715867801954,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D3_Rest/assignments/B shallow vs A deep (reverse)/above_random/W1"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "ac7c63eaea2b356628e280f20",
+        "a7de17fe57d90f45361a65bfa",
+        "ac885442a11df8c96d618e826"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.0037764066951566947,
+        "ci95": [
+          0.001384709028354559,
+          0.00587537557577314
+        ],
+        "lower_one_sided_95": 0.001721101645265484,
+        "p_one_sided": 0.001
+      },
+      "original_result_paths": [
+        "/donors/D1_Rest/assignments/B shallow vs A deep (reverse)/W1_vs_w0y"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "ac7c63eaea2b356628e280f20",
+        "abb72932d5672d6a161b0631a",
+        "ac885442a11df8c96d618e826"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.01507206690291,
+        "ci95": [
+          0.011200123099192522,
+          0.01874757752290777
+        ],
+        "lower_one_sided_95": 0.01181813690028069,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D1_Rest/assignments/B shallow vs A deep (reverse)/W1_vs_raw"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a7de17fe57d90f45361a65bfa",
+        "abb72932d5672d6a161b0631a",
+        "ac885442a11df8c96d618e826"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.011295660207753305,
+        "ci95": [
+          0.00720623146426441,
+          0.015464999922189844
+        ],
+        "lower_one_sided_95": 0.007945115372017506,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D1_Rest/assignments/B shallow vs A deep (reverse)/w0y_vs_raw"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "abb72932d5672d6a161b0631a",
+        "a7ec39d899b36ca4358815c05",
+        "ac885442a11df8c96d618e826"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.022951396901803804,
+        "ci95": [
+          0.016588074220075057,
+          0.028823105266150527
+        ],
+        "lower_one_sided_95": 0.017534805747713926,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D1_Rest/assignments/B shallow vs A deep (reverse)/above_random/raw"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a7de17fe57d90f45361a65bfa",
+        "a7ec39d899b36ca4358815c05",
+        "ac885442a11df8c96d618e826"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.03424705710955711,
+        "ci95": [
+          0.02543491456531643,
+          0.0422500017393321
+        ],
+        "lower_one_sided_95": 0.026993296215278975,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D1_Rest/assignments/B shallow vs A deep (reverse)/above_random/w0y"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "ac7c63eaea2b356628e280f20",
+        "a7ec39d899b36ca4358815c05",
+        "ac885442a11df8c96d618e826"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.0380234638047138,
+        "ci95": [
+          0.030096985712458273,
+          0.04542559273288439
+        ],
+        "lower_one_sided_95": 0.03135498242499783,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D1_Rest/assignments/B shallow vs A deep (reverse)/above_random/W1"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a6eea2616e742674344c50cd7",
+        "a4598d5a7db25a53fedd129b2",
+        "a2e73bd1194fb62afeb3093f2"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": -0.00015440833290392706,
+        "ci95": [
+          -0.0031229396834137725,
+          0.0024143409386118376
+        ],
+        "lower_one_sided_95": -0.002613384569696191,
+        "p_one_sided": 0.56
+      },
+      "original_result_paths": [
+        "/donors/D2_Rest/assignments/B shallow vs A deep (reverse)/W1_vs_w0y"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a6eea2616e742674344c50cd7",
+        "ab5148c87d104a4822545d83d",
+        "a2e73bd1194fb62afeb3093f2"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.0008975730157451144,
+        "ci95": [
+          -0.0024624924964884156,
+          0.004929811430658071
+        ],
+        "lower_one_sided_95": -0.0019801885797670338,
+        "p_one_sided": 0.3175
+      },
+      "original_result_paths": [
+        "/donors/D2_Rest/assignments/B shallow vs A deep (reverse)/W1_vs_raw"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a4598d5a7db25a53fedd129b2",
+        "ab5148c87d104a4822545d83d",
+        "a2e73bd1194fb62afeb3093f2"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.001051981348649042,
+        "ci95": [
+          -0.0031003977611710897,
+          0.006001723627563286
+        ],
+        "lower_one_sided_95": -0.0023534529566105575,
+        "p_one_sided": 0.3155
+      },
+      "original_result_paths": [
+        "/donors/D2_Rest/assignments/B shallow vs A deep (reverse)/w0y_vs_raw"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "ab5148c87d104a4822545d83d",
+        "a5ca31b41e28d2898c19d2d34",
+        "a2e73bd1194fb62afeb3093f2"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.014823437590665603,
+        "ci95": [
+          0.009470532687835662,
+          0.02058157161410147
+        ],
+        "lower_one_sided_95": 0.010464143526083694,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D2_Rest/assignments/B shallow vs A deep (reverse)/above_random/raw"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a4598d5a7db25a53fedd129b2",
+        "a5ca31b41e28d2898c19d2d34",
+        "a2e73bd1194fb62afeb3093f2"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.015875418939314646,
+        "ci95": [
+          0.011123451880851282,
+          0.020597787089264432
+        ],
+        "lower_one_sided_95": 0.011885787555163113,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D2_Rest/assignments/B shallow vs A deep (reverse)/above_random/w0y"
+      ]
+    },
+    {
+      "kind": "block_bootstrap",
+      "arrays": [
+        "a6eea2616e742674344c50cd7",
+        "a5ca31b41e28d2898c19d2d34",
+        "a2e73bd1194fb62afeb3093f2"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.015721010606410717,
+        "ci95": [
+          0.011097018887730074,
+          0.020442476247406173
+        ],
+        "lower_one_sided_95": 0.011955564735415843,
+        "p_one_sided": 0.0
+      },
+      "original_result_paths": [
+        "/donors/D2_Rest/assignments/B shallow vs A deep (reverse)/above_random/W1"
+      ]
+    },
+    {
+      "kind": "donor_mean_bootstrap",
+      "arrays": [
+        "a00388a1316c3b45b4de56afd",
+        "aa7326375f844fac59d6026ec",
+        "a180ddb583633ab0334436ac3"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.0013962530319919359,
+        "ci95": [
+          -0.00017238592635959144,
+          0.0030463494096408116
+        ],
+        "groups": 90,
+        "empty_donor_draws": 0
+      },
+      "original_result_paths": [
+        "/pooled/B shallow vs A deep (reverse)/joint"
+      ]
+    },
+    {
+      "kind": "donor_mean_bootstrap",
+      "arrays": [
+        "a00388a1316c3b45b4de56afd",
+        "af9d5daf66637e159bfe0c049",
+        "a180ddb583633ab0334436ac3"
+      ],
+      "args": [],
+      "kwargs": {},
+      "expected": {
+        "diff": 0.0013962530319919359,
+        "ci95": [
+          0.0013962530319919359,
+          0.0013962530319919359
+        ],
+        "groups": 1,
+        "empty_donor_draws": 0
+      },
+      "original_result_paths": [
+        "/pooled/B shallow vs A deep (reverse)/cluster"
+      ]
+    }
+  ],
+  "score_means": [
+    {
+      "array": "a33fed9ab0af636b667c193d0",
+      "expected_mean": 0.0730611789226971,
+      "original_result_paths": []
+    },
+    {
+      "array": "a33fed9ab0af636b667c193d0",
+      "expected_mean": 0.0730611789226971,
+      "original_result_paths": []
+    },
+    {
+      "array": "ab7d5a73a345e5abe5e3065de",
+      "expected_mean": 0.0814916033689133,
+      "original_result_paths": []
+    },
+    {
+      "array": "ab7d5a73a345e5abe5e3065de",
+      "expected_mean": 0.0814916033689133,
+      "original_result_paths": []
+    },
+    {
+      "array": "acc3036fb99091f2566bf455b",
+      "expected_mean": 0.08669217871756316,
+      "original_result_paths": []
+    },
+    {
+      "array": "acc3036fb99091f2566bf455b",
+      "expected_mean": 0.08669217871756316,
+      "original_result_paths": []
+    },
+    {
+      "array": "a4688fdc56a60c29531555e2e",
+      "expected_mean": 0.06803890856186215,
+      "original_result_paths": [
+        "/donors/D3_Rest/assignments/A shallow vs B deep (primary)/means/raw"
+      ]
+    },
+    {
+      "array": "a2969244574f4e9c1535cca20",
+      "expected_mean": 0.06829831002331002,
+      "original_result_paths": [
+        "/donors/D3_Rest/assignments/A shallow vs B deep (primary)/means/w0y"
+      ]
+    },
+    {
+      "array": "ad4b386b389f85246905aa57b",
+      "expected_mean": 0.06978378010878011,
+      "original_result_paths": [
+        "/donors/D3_Rest/assignments/A shallow vs B deep (primary)/means/W1"
+      ]
+    },
+    {
+      "array": "aee09a109c5edf84a0127a17d",
+      "expected_mean": 0.07103752724560126,
+      "original_result_paths": [
+        "/donors/D1_Rest/assignments/A shallow vs B deep (primary)/means/raw"
+      ]
+    },
+    {
+      "array": "abd7d4e66f43ec5fde3eea8e0",
+      "expected_mean": 0.08274708482066973,
+      "original_result_paths": [
+        "/donors/D1_Rest/assignments/A shallow vs B deep (primary)/means/w0y"
+      ]
+    },
+    {
+      "array": "addb84227682b1652a3002807",
+      "expected_mean": 0.08899727787086277,
+      "original_result_paths": [
+        "/donors/D1_Rest/assignments/A shallow vs B deep (primary)/means/W1"
+      ]
+    },
+    {
+      "array": "a0e12c0cdf450893a57196349",
+      "expected_mean": 0.08234131710343036,
+      "original_result_paths": [
+        "/donors/D2_Rest/assignments/A shallow vs B deep (primary)/means/raw"
+      ]
+    },
+    {
+      "array": "ad20e7039b1467bd79bacbdb0",
+      "expected_mean": 0.08691318714160975,
+      "original_result_paths": [
+        "/donors/D2_Rest/assignments/A shallow vs B deep (primary)/means/w0y"
+      ]
+    },
+    {
+      "array": "a1012945709071b9e01ba0e81",
+      "expected_mean": 0.0897300990326288,
+      "original_result_paths": [
+        "/donors/D2_Rest/assignments/A shallow vs B deep (primary)/means/W1"
+      ]
+    },
+    {
+      "array": "a4ed46e8548acc36ef57455d4",
+      "expected_mean": 0.07473099379665588,
+      "original_result_paths": [
+        "/donors/D3_Rest/assignments/B shallow vs A deep (reverse)/means/raw"
+      ]
+    },
+    {
+      "array": "a7e33f99f1a6b98549ef42f70",
+      "expected_mean": 0.07637278127418556,
+      "original_result_paths": [
+        "/donors/D3_Rest/assignments/B shallow vs A deep (reverse)/means/w0y"
+      ]
+    },
+    {
+      "array": "a06abedfd3817fc4daea20af4",
+      "expected_mean": 0.0769395420079086,
+      "original_result_paths": [
+        "/donors/D3_Rest/assignments/B shallow vs A deep (reverse)/means/W1"
+      ]
+    },
+    {
+      "array": "abb72932d5672d6a161b0631a",
+      "expected_mean": 0.06840594235634925,
+      "original_result_paths": [
+        "/donors/D1_Rest/assignments/B shallow vs A deep (reverse)/means/raw"
+      ]
+    },
+    {
+      "array": "a7de17fe57d90f45361a65bfa",
+      "expected_mean": 0.07970160256410257,
+      "original_result_paths": [
+        "/donors/D1_Rest/assignments/B shallow vs A deep (reverse)/means/w0y"
+      ]
+    },
+    {
+      "array": "ac7c63eaea2b356628e280f20",
+      "expected_mean": 0.08347800925925926,
+      "original_result_paths": [
+        "/donors/D1_Rest/assignments/B shallow vs A deep (reverse)/means/W1"
+      ]
+    },
+    {
+      "array": "ab5148c87d104a4822545d83d",
+      "expected_mean": 0.08584616486339289,
+      "original_result_paths": [
+        "/donors/D2_Rest/assignments/B shallow vs A deep (reverse)/means/raw"
+      ]
+    },
+    {
+      "array": "a4598d5a7db25a53fedd129b2",
+      "expected_mean": 0.08689814621204192,
+      "original_result_paths": [
+        "/donors/D2_Rest/assignments/B shallow vs A deep (reverse)/means/w0y"
+      ]
+    },
+    {
+      "array": "a6eea2616e742674344c50cd7",
+      "expected_mean": 0.08674373787913799,
+      "original_result_paths": [
+        "/donors/D2_Rest/assignments/B shallow vs A deep (reverse)/means/W1"
+      ]
+    }
+  ]
+}

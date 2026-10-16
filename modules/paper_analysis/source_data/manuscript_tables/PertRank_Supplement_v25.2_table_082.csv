@@ -1,0 +1,10 @@
+Quantity,Responsive,Expression terciles
+Unweighted mean,0.316909,0.089950
+Euclidean mean,0.378579,0.124727
+TRADE sensitivity mean,0.369019,0.121206
+PR_M mean,0.387090,0.127308
+PertRank mean,0.393727,0.129489
+PertRank−TRADE sensitivity,"+0.024708 [0.022485, 0.027249]","+0.008283 [0.004639, 0.011109]"
+TRADE sensitivity−Euclidean,"-0.009560 [-0.011683, -0.006545]","-0.003522 [-0.005238, -0.001138]"
+TRADE sensitivity−Unweighted,"+0.052110 [0.046349, 0.058134]","+0.031256 [0.021513, 0.038911]"
+TRADE sensitivity−PR_M,"-0.018071 [-0.020434, -0.015581]","-0.006102 [-0.008142, -0.003493]"

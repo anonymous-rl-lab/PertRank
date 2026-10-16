@@ -1,0 +1,86 @@
+[
+  {
+    "package": "lattice",
+    "version": "0.23-1",
+    "url": "https://cloud.r-project.org/src/contrib/lattice_0.23-1.tar.gz",
+    "sha256": "34e9b2fc023582c4246959b543c331233c62118efd922bcc1ba72b4888adc590",
+    "bytes": 682686
+  },
+  {
+    "package": "Matrix",
+    "version": "1.7-6",
+    "url": "https://cloud.r-project.org/src/contrib/Matrix_1.7-6.tar.gz",
+    "sha256": "694239dbe47e659d6d39a49af95157f46bd94977c283df00c4e8a016601cf143",
+    "bytes": 2527103
+  },
+  {
+    "package": "Rcpp",
+    "version": "1.1.2",
+    "url": "https://cloud.r-project.org/src/contrib/Rcpp_1.1.2.tar.gz",
+    "sha256": "2746cf2fb188e5f0a84dbf5c8f68915b54564ed33e5754572f174e7b32e7f4f3",
+    "bytes": 1892159
+  },
+  {
+    "package": "RcppArmadillo",
+    "version": "15.6.0-1",
+    "url": "https://cloud.r-project.org/src/contrib/RcppArmadillo_15.6.0-1.tar.gz",
+    "sha256": "6efa1bb020a5a0b791ce87234649d309a7144961221526846230b3ef6c0b12e3",
+    "bytes": 1096426
+  },
+  {
+    "package": "irlba",
+    "version": "2.4.1",
+    "url": "https://cloud.r-project.org/src/contrib/irlba_2.4.1.tar.gz",
+    "sha256": "00650af430b1549d54ee39c19a9cce125421c72b851ba2c4fbf6ddacccc3cad1",
+    "bytes": 383723
+  },
+  {
+    "package": "mixsqp",
+    "version": "0.3-54",
+    "url": "https://cloud.r-project.org/src/contrib/mixsqp_0.3-54.tar.gz",
+    "sha256": "f7d0de918a221c58b3618dc3290a0ebe052256999ee3be35a19384f26b1dfb8e",
+    "bytes": 221349
+  },
+  {
+    "package": "SQUAREM",
+    "version": "2026.1",
+    "url": "https://cloud.r-project.org/src/contrib/SQUAREM_2026.1.tar.gz",
+    "sha256": "e9b32a384876b3a6646ea4262aedd738292220cd1852b2a289855606f56cfcad",
+    "bytes": 240392
+  },
+  {
+    "package": "truncnorm",
+    "version": "1.0-9",
+    "url": "https://cloud.r-project.org/src/contrib/truncnorm_1.0-9.tar.gz",
+    "sha256": "5156acc4d63243bf95326d6285b0ba3cdf710697d67c233a12ae56f3d87ec708",
+    "bytes": 11629
+  },
+  {
+    "package": "etrunct",
+    "version": "0.1",
+    "url": "https://cloud.r-project.org/src/contrib/etrunct_0.1.tar.gz",
+    "sha256": "19b36c739e382be2f19bdbe4107337935d52a1ab8eb301326612318afdfbca2b",
+    "bytes": 2319
+  },
+  {
+    "package": "invgamma",
+    "version": "1.2",
+    "url": "https://cloud.r-project.org/src/contrib/invgamma_1.2.tar.gz",
+    "sha256": "f74229bad5f14cadb4e0b1acc85072a08dc8b6de1b93f1384fcb6c448ad56601",
+    "bytes": 2603382
+  },
+  {
+    "package": "jsonlite",
+    "version": "2.0.0",
+    "url": "https://cloud.r-project.org/src/contrib/jsonlite_2.0.0.tar.gz",
+    "sha256": "75eb910c82b350ec33f094779da0f87bff154c232e4ae39c9896a9b89f3ac82d",
+    "bytes": 1055849
+  },
+  {
+    "package": "ashr",
+    "version": "2.2-63",
+    "url": "https://cloud.r-project.org/src/contrib/ashr_2.2-63.tar.gz",
+    "sha256": "7fa1957ed3cf0f1f20939b6ebf71fc04ab983ca77616f7b80ce9e9e6fad457c9",
+    "bytes": 935117
+  }
+]

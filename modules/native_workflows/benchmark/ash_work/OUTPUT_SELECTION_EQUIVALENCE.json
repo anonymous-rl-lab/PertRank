@@ -1,0 +1,14 @@
+{
+  "status": "PASS_EXACT",
+  "targets": 32,
+  "genes": 13390,
+  "posterior_binary_sha256": "388411e389766f3165906f92b356e3b177bb2400ec3b1c550184c058d2a3be93",
+  "native_mixture_loglik_solver_diagnostics_identical": true,
+  "original_runner_sha256": "970f66dd2dae513fe15be2b78e78582884c8f8f545f50e51809afa4b14bbd082",
+  "optimized_runner_sha256": "c5fb54beff8050c4d5692ad3328cf12f6bccbf6a1f4e883cf936fde457793a0a",
+  "original_wall_seconds": 90.97057724000115,
+  "optimized_wall_seconds": 47.321869022998726,
+  "optimized_peak_RSS_KB": 340824,
+  "scores_computed": false,
+  "patch": "Output selection only: fitted_g,PosteriorMean,fit_details,loglik; native model/prior/grid/solver unchanged"
+}

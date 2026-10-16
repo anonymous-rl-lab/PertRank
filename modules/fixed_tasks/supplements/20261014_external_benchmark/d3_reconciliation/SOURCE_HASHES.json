@@ -1,0 +1,10 @@
+{
+  "scope": "Fixed-score numerical replay of D3 input-repetition reconciliation only. The historical 32 raw-input and task checks are preserved as historical evidence and are not rerun by this compact score replay.",
+  "files": {
+    "D3_TASK_RECONCILIATION.json": "67cc34f3b4398c124ac45ec707313f09e88c7c67ea82e8cd6dff3f254d155e6d",
+    "D3_TASK_RECONCILIATION_Methods.txt": "3f6a20e972f80f71122726ee67c78fcb30d9d7bdb8e93bccb8d966aa3a1ff093",
+    "D3_TASK_RECONCILIATION_SCORES.npz": "4e0acb8d4e33d38383581cf31b859e8c8fba1c803ecb32b7df23adc7a9a2f0e9"
+  },
+  "no_new_experiments": true,
+  "requires_expression_matrices": false
+}

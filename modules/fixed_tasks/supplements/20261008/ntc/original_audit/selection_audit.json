@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "selection_sha256": "4b8b04555a9402dcb90e7a6495a1915e71c3826cc471f03cfe297edbb83fe5be",
+  "ntc_guides": 468,
+  "target_pairs": 64,
+  "selected_cells": 23840,
+  "unique_cells": true,
+  "no_half_or_arm_overlap": true,
+  "all_QC_pass": true,
+  "all_eligible_NTC_guides_included": true,
+  "guide_and_target_identities_match": true,
+  "gene_axis": 13390,
+  "normalization_scale": 8261.5,
+  "ntc_perfect_lane_half_balance": 426,
+  "ntc_max_half_lane_TV": 0.35,
+  "target_guide_perfect_lane_half_balance": 128,
+  "target_guide_max_half_lane_TV": 0.0,
+  "target_pair_between_guide_lane_TV": {
+    "median": 0.55,
+    "min": 0.35,
+    "max": 0.75
+  },
+  "inference_scope": "Conditional on fixed gene axis, scale, QC, selected cells, and donor/state. Lane-associated expression differences remain possible."
+}

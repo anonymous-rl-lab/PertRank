@@ -1,0 +1,503 @@
+{
+  "status": "COMPLETE",
+  "analysis_label": "POSTHOC_DESCRIPTIVE",
+  "donor": "D3_Rest",
+  "n_queries": 293,
+  "n_targets": 52,
+  "K": 10,
+  "n_directions": 2,
+  "scope": "Conditional on original A19-R cells, query panel, candidate pool and fixed external mean RNA reference. Sources share external reference and queries; no donor-level population or pooled-CI claim.",
+  "means": {
+    "raw": {
+      "P10": 0.24504320091295165,
+      "expected_members_per_10": 2.4504320091295164
+    },
+    "Euclidean": {
+      "P10": 0.25341296928327645,
+      "expected_members_per_10": 2.5341296928327646
+    },
+    "PertRank": {
+      "P10": 0.2566552901023891,
+      "expected_members_per_10": 2.5665529010238908
+    },
+    "FR": {
+      "P10": 0.2419795221843003,
+      "expected_members_per_10": 2.419795221843003
+    },
+    "FR_x_Euclidean": {
+      "P10": 0.2486348122866894,
+      "expected_members_per_10": 2.486348122866894
+    },
+    "FR_x_PertRank": {
+      "P10": 0.2511945392491468,
+      "expected_members_per_10": 2.511945392491468
+    },
+    "ASH": {
+      "P10": 0.2551194539249147,
+      "expected_members_per_10": 2.551194539249147
+    }
+  },
+  "contrasts": {
+    "PertRank_minus_FR": {
+      "P10_difference": 0.014675767918088736,
+      "expected_members_difference": 0.14675767918088736,
+      "conditional_query_block_95_interval": [
+        0.006091069446646617,
+        0.02209002399409383
+      ],
+      "conditional_query_block_99_interval": [
+        0.002939385717386631,
+        0.025000377643504462
+      ],
+      "bootstrap_draws": 2000,
+      "seed": 2026100502,
+      "query_blocks": 30,
+      "confirmatory": false
+    },
+    "PertRank_minus_ASH": {
+      "P10_difference": 0.0015358361774744026,
+      "expected_members_difference": 0.015358361774744027,
+      "conditional_query_block_95_interval": [
+        -0.004670050550400784,
+        0.006448221247563308
+      ],
+      "conditional_query_block_99_interval": [
+        -0.006798500961307427,
+        0.008403998566251155
+      ],
+      "bootstrap_draws": 2000,
+      "seed": 2026100502,
+      "query_blocks": 30,
+      "confirmatory": false
+    },
+    "FR_x_PertRank_minus_FR": {
+      "P10_difference": 0.009215017064846417,
+      "expected_members_difference": 0.09215017064846417,
+      "conditional_query_block_95_interval": [
+        0.002777140672782867,
+        0.014781730954470532
+      ],
+      "conditional_query_block_99_interval": [
+        0.00021922216254920303,
+        0.01651656991719752
+      ],
+      "bootstrap_draws": 2000,
+      "seed": 2026100502,
+      "query_blocks": 30,
+      "confirmatory": false
+    },
+    "FR_x_PertRank_minus_FR_x_Euclidean": {
+      "P10_difference": 0.002559726962457337,
+      "expected_members_difference": 0.02559726962457337,
+      "conditional_query_block_95_interval": [
+        -0.0036325096899225222,
+        0.010082815406730925
+      ],
+      "conditional_query_block_99_interval": [
+        -0.005833712121212145,
+        0.012167586321381112
+      ],
+      "bootstrap_draws": 2000,
+      "seed": 2026100502,
+      "query_blocks": 30,
+      "confirmatory": false
+    },
+    "PertRank_minus_FR_x_PertRank": {
+      "P10_difference": 0.00546075085324232,
+      "expected_members_difference": 0.0546075085324232,
+      "conditional_query_block_95_interval": [
+        -0.0011520937055476631,
+        0.012308123249299708
+      ],
+      "conditional_query_block_99_interval": [
+        -0.003712744803450237,
+        0.014679097660749034
+      ],
+      "bootstrap_draws": 2000,
+      "seed": 2026100502,
+      "query_blocks": 30,
+      "confirmatory": false
+    },
+    "FR_minus_raw": {
+      "P10_difference": -0.0030636787286512767,
+      "expected_members_difference": -0.030636787286512767,
+      "conditional_query_block_95_interval": [
+        -0.011189883189875039,
+        0.006790774293910687
+      ],
+      "conditional_query_block_99_interval": [
+        -0.014197231064041938,
+        0.009676972797369694
+      ],
+      "bootstrap_draws": 2000,
+      "seed": 2026100502,
+      "query_blocks": 30,
+      "confirmatory": false
+    },
+    "FR_minus_Euclidean": {
+      "P10_difference": -0.01143344709897611,
+      "expected_members_difference": -0.1143344709897611,
+      "conditional_query_block_95_interval": [
+        -0.020646139919127577,
+        -0.000171104878714793
+      ],
+      "conditional_query_block_99_interval": [
+        -0.023361402127890608,
+        0.004136840527577876
+      ],
+      "bootstrap_draws": 2000,
+      "seed": 2026100502,
+      "query_blocks": 30,
+      "confirmatory": false
+    },
+    "ASH_minus_raw": {
+      "P10_difference": 0.010076253011963056,
+      "expected_members_difference": 0.10076253011963056,
+      "conditional_query_block_95_interval": [
+        0.005077802479058332,
+        0.016460165237217033
+      ],
+      "conditional_query_block_99_interval": [
+        0.0037234158550223566,
+        0.018718115463194428
+      ],
+      "bootstrap_draws": 2000,
+      "seed": 2026100502,
+      "query_blocks": 30,
+      "confirmatory": false
+    },
+    "PertRank_minus_Euclidean": {
+      "P10_difference": 0.003242320819112627,
+      "expected_members_difference": 0.03242320819112627,
+      "conditional_query_block_95_interval": [
+        -0.002174661636124129,
+        0.009641820853902134
+      ],
+      "conditional_query_block_99_interval": [
+        -0.0036165428655007686,
+        0.011555290297937355
+      ],
+      "bootstrap_draws": 2000,
+      "seed": 2026100502,
+      "query_blocks": 30,
+      "confirmatory": false
+    },
+    "Euclidean_minus_raw": {
+      "P10_difference": 0.008369768370324833,
+      "expected_members_difference": 0.08369768370324833,
+      "conditional_query_block_95_interval": [
+        0.0011435909893252356,
+        0.01537506397720082
+      ],
+      "conditional_query_block_99_interval": [
+        -0.0013477117432088594,
+        0.017238428479126464
+      ],
+      "bootstrap_draws": 2000,
+      "seed": 2026100502,
+      "query_blocks": 30,
+      "confirmatory": false
+    }
+  },
+  "nomination_redistribution": {
+    "PertRank_minus_FR": {
+      "mean_slots_moved": 3.513651877133106,
+      "mean_reference_members_added": 0.8378839590443686,
+      "mean_reference_members_removed": 0.6911262798634812,
+      "net_mean_reference_members": 0.14675767918088736,
+      "definition": "Changes in marginal top-K probabilities; reference membership denotes ranking agreement, not validated true positives"
+    },
+    "PertRank_minus_ASH": {
+      "mean_slots_moved": 2.2901023890784984,
+      "mean_reference_members_added": 0.515358361774744,
+      "mean_reference_members_removed": 0.5,
+      "net_mean_reference_members": 0.015358361774744027,
+      "definition": "Changes in marginal top-K probabilities; reference membership denotes ranking agreement, not validated true positives"
+    },
+    "FR_x_PertRank_minus_FR": {
+      "mean_slots_moved": 2.255972696245734,
+      "mean_reference_members_added": 0.5494880546075085,
+      "mean_reference_members_removed": 0.45733788395904434,
+      "net_mean_reference_members": 0.09215017064846416,
+      "definition": "Changes in marginal top-K probabilities; reference membership denotes ranking agreement, not validated true positives"
+    },
+    "FR_x_PertRank_minus_FR_x_Euclidean": {
+      "mean_slots_moved": 1.4505119453924915,
+      "mean_reference_members_added": 0.30204778156996587,
+      "mean_reference_members_removed": 0.2764505119453925,
+      "net_mean_reference_members": 0.025597269624573378,
+      "definition": "Changes in marginal top-K probabilities; reference membership denotes ranking agreement, not validated true positives"
+    },
+    "PertRank_minus_FR_x_PertRank": {
+      "mean_slots_moved": 2.508532423208191,
+      "mean_reference_members_added": 0.5665529010238908,
+      "mean_reference_members_removed": 0.5119453924914675,
+      "net_mean_reference_members": 0.05460750853242321,
+      "definition": "Changes in marginal top-K probabilities; reference membership denotes ranking agreement, not validated true positives"
+    },
+    "FR_minus_raw": {
+      "mean_slots_moved": 2.9930892671655394,
+      "mean_reference_members_added": 0.6256699630438315,
+      "mean_reference_members_removed": 0.6563067503303444,
+      "net_mean_reference_members": -0.030636787286512764,
+      "definition": "Changes in marginal top-K probabilities; reference membership denotes ranking agreement, not validated true positives"
+    },
+    "FR_minus_Euclidean": {
+      "mean_slots_moved": 3.409556313993174,
+      "mean_reference_members_added": 0.6791808873720137,
+      "mean_reference_members_removed": 0.7935153583617748,
+      "net_mean_reference_members": -0.11433447098976109,
+      "definition": "Changes in marginal top-K probabilities; reference membership denotes ranking agreement, not validated true positives"
+    },
+    "ASH_minus_raw": {
+      "mean_slots_moved": 1.3652036122358129,
+      "mean_reference_members_added": 0.33828938163780126,
+      "mean_reference_members_removed": 0.2375268515181707,
+      "net_mean_reference_members": 0.10076253011963057,
+      "definition": "Changes in marginal top-K probabilities; reference membership denotes ranking agreement, not validated true positives"
+    },
+    "PertRank_minus_Euclidean": {
+      "mean_slots_moved": 1.469283276450512,
+      "mean_reference_members_added": 0.31399317406143346,
+      "mean_reference_members_removed": 0.2815699658703072,
+      "net_mean_reference_members": 0.032423208191126277,
+      "definition": "Changes in marginal top-K probabilities; reference membership denotes ranking agreement, not validated true positives"
+    },
+    "Euclidean_minus_raw": {
+      "mean_slots_moved": 2.3447562694761834,
+      "mean_reference_members_added": 0.548745221489694,
+      "mean_reference_members_removed": 0.4650475377864456,
+      "net_mean_reference_members": 0.08369768370324832,
+      "definition": "Changes in marginal top-K probabilities; reference membership denotes ranking agreement, not validated true positives"
+    }
+  },
+  "reference_sensitivity": {
+    "shared_labels": {
+      "scope": "empirical external-reference sensitivity range, not population confidence interval; exact original 500 shared reference draws",
+      "contrasts": {
+        "PertRank_minus_FR": {
+          "units": "expected members per 10-name list",
+          "median": 0.12286689419795227,
+          "empirical_2p5_97p5": [
+            0.08020477815699634,
+            0.17325085324232062
+          ],
+          "fraction_positive": 1.0
+        },
+        "PertRank_minus_ASH": {
+          "units": "expected members per 10-name list",
+          "median": 0.03754266211604085,
+          "empirical_2p5_97p5": [
+            0.007636518771331016,
+            0.06996587030716706
+          ],
+          "fraction_positive": 0.986
+        },
+        "FR_x_PertRank_minus_FR": {
+          "units": "expected members per 10-name list",
+          "median": 0.0819112627986347,
+          "empirical_2p5_97p5": [
+            0.056313993174061494,
+            0.11433447098976135
+          ],
+          "fraction_positive": 1.0
+        },
+        "FR_x_PertRank_minus_FR_x_Euclidean": {
+          "units": "expected members per 10-name list",
+          "median": 0.023890784982935287,
+          "empirical_2p5_97p5": [
+            -0.010238907849829282,
+            0.061433447098976135
+          ],
+          "fraction_positive": 0.896
+        },
+        "PertRank_minus_FR_x_PertRank": {
+          "units": "expected members per 10-name list",
+          "median": 0.04095563139931757,
+          "empirical_2p5_97p5": [
+            0.00341296928327649,
+            0.07849829351535842
+          ],
+          "fraction_positive": 0.984
+        },
+        "FR_minus_raw": {
+          "units": "expected members per 10-name list",
+          "median": -0.004603180491665526,
+          "empirical_2p5_97p5": [
+            -0.045646167652400045,
+            0.03454288823408884
+          ],
+          "fraction_positive": 0.414
+        },
+        "FR_minus_Euclidean": {
+          "units": "expected members per 10-name list",
+          "median": -0.08532423208191142,
+          "empirical_2p5_97p5": [
+            -0.1416382252559727,
+            -0.03924914675767921
+          ],
+          "fraction_positive": 0.0
+        },
+        "ASH_minus_raw": {
+          "units": "expected members per 10-name list",
+          "median": 0.0810354970004028,
+          "empirical_2p5_97p5": [
+            0.05708092862089187,
+            0.10607117021389376
+          ],
+          "fraction_positive": 1.0
+        },
+        "PertRank_minus_Euclidean": {
+          "units": "expected members per 10-name list",
+          "median": 0.03754266211604085,
+          "empirical_2p5_97p5": [
+            0.010238907849829282,
+            0.061433447098976135
+          ],
+          "fraction_positive": 0.998
+        },
+        "Euclidean_minus_raw": {
+          "units": "expected members per 10-name list",
+          "median": 0.08407285417505794,
+          "empirical_2p5_97p5": [
+            0.03868845570206124,
+            0.12008015487319683
+          ],
+          "fraction_positive": 1.0
+        }
+      }
+    },
+    "batch_separate": {
+      "scope": "empirical external-reference sensitivity range, not population confidence interval; exact original 500 shared reference draws",
+      "contrasts": {
+        "PertRank_minus_FR": {
+          "units": "expected members per 10-name list",
+          "median": 0.12457337883959019,
+          "empirical_2p5_97p5": [
+            0.07849829351535842,
+            0.17918088737201376
+          ],
+          "fraction_positive": 1.0
+        },
+        "PertRank_minus_ASH": {
+          "units": "expected members per 10-name list",
+          "median": 0.03754266211604085,
+          "empirical_2p5_97p5": [
+            0.007636518771330782,
+            0.06825938566552914
+          ],
+          "fraction_positive": 0.996
+        },
+        "FR_x_PertRank_minus_FR": {
+          "units": "expected members per 10-name list",
+          "median": 0.08361774744027306,
+          "empirical_2p5_97p5": [
+            0.048592150170648586,
+            0.12034982935153586
+          ],
+          "fraction_positive": 1.0
+        },
+        "FR_x_PertRank_minus_FR_x_Euclidean": {
+          "units": "expected members per 10-name list",
+          "median": 0.023890784982934843,
+          "empirical_2p5_97p5": [
+            -0.010238907849829282,
+            0.056313993174061494
+          ],
+          "fraction_positive": 0.884
+        },
+        "PertRank_minus_FR_x_PertRank": {
+          "units": "expected members per 10-name list",
+          "median": 0.03924914675767921,
+          "empirical_2p5_97p5": [
+            0.0017064846416381286,
+            0.08451365187713293
+          ],
+          "fraction_positive": 0.982
+        },
+        "FR_minus_raw": {
+          "units": "expected members per 10-name list",
+          "median": -0.007615143549629444,
+          "empirical_2p5_97p5": [
+            -0.04802739605635999,
+            0.03273198960916929
+          ],
+          "fraction_positive": 0.374
+        },
+        "FR_minus_Euclidean": {
+          "units": "expected members per 10-name list",
+          "median": -0.08703071672354934,
+          "empirical_2p5_97p5": [
+            -0.14424061433447075,
+            -0.037542662116041056
+          ],
+          "fraction_positive": 0.0
+        },
+        "ASH_minus_raw": {
+          "units": "expected members per 10-name list",
+          "median": 0.0801316872646074,
+          "empirical_2p5_97p5": [
+            0.0557201020711001,
+            0.10491347451578935
+          ],
+          "fraction_positive": 1.0
+        },
+        "PertRank_minus_Euclidean": {
+          "units": "expected members per 10-name list",
+          "median": 0.03668941979522189,
+          "empirical_2p5_97p5": [
+            0.008532423208191364,
+            0.0631399317406145
+          ],
+          "fraction_positive": 1.0
+        },
+        "Euclidean_minus_raw": {
+          "units": "expected members per 10-name list",
+          "median": 0.08155375779930618,
+          "empirical_2p5_97p5": [
+            0.03825112484896026,
+            0.12116499153823868
+          ],
+          "fraction_positive": 1.0
+        }
+      }
+    }
+  },
+  "original_prediction_regression": {
+    "raw": {
+      "legacy_membership_maxabs": 0.0,
+      "P10": 0.24504320091295165,
+      "legacy_expected_members_error": 4.440892098500626e-16
+    },
+    "Euclidean": {
+      "legacy_membership_maxabs": 0.0,
+      "P10": 0.25341296928327645,
+      "legacy_expected_members_error": 0.0
+    },
+    "PertRank": {
+      "legacy_membership_maxabs": 0.0,
+      "P10": 0.2566552901023891,
+      "legacy_expected_members_error": 0.0
+    }
+  },
+  "unevaluated": {},
+  "source_sha256": {
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/a19r_restored/external_uncertainty/A19R/D3_Rest/predictions_locked.npz": "20de63036134d2317e70a624074afa3b2f2600955e001cd773f084943e27561e",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/reference_restored/external_uncertainty/results/query_reference.npz": "d1636d01e9728427232d57d70156762f86364e2ac8dd4f20b4bead34d6a48ce9",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/configs/D3_Rest_final.json": "cd5f2a929e3d0d001b31ead74112007d645ffcd62d2df58c5cd23ce8713efce6",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/score_native.py": "55dfc23c9e6e22831c1d13ed20bdb40890030114df4fc6dec09d86ec7d120709",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D3_Rest/FR_attempt1/native/effects.npz": "d95a9ee9d910f042f6e614f10f7fa0a33a73fcfcdd1b09662afeadb18dd6ecd5",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D3_Rest/FR_attempt1/OWNER_COMPLETION.json": "a8db13e22c3e3b93381d4f523d06784575c2be06b4d98c00a563b33ba7edd5b8",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D3_Rest/ASH_attempt1/native/posterior.npz": "a5e3afafce510946b9446ad60cf6cdd768830765ef9676e00d9f54255366da52",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D3_Rest/ASH_attempt1/OWNER_COMPLETION.json": "964fc54c137f995c8c89a8958c94bfcd44b403f580fe37dc86dae2701ac5a22a",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/a19r_restored/external_uncertainty/A19R/point_results.json": "266d517c1f3504ea781de1b8520c6e938d3e5c60dcfe882bd6309145ab8e6f9b",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/reference_restored/external_uncertainty/results/reference_draws_shared_labels_float64.npz": "14f3e447d5e78422186b58743bf00abf7d499f36bc34702912b01b5c8fd7655a",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/reference_restored/external_uncertainty/results/reference_draws_batch_separate_float64.npz": "ac7392406693dd3c7803c6b54ecad73ff97ba1269f42d311e6ad6bf5c3c82e2e"
+  },
+  "output_sha256": {
+    "reference_propagation_batch_separate.npz": "4bdf739ee434feea7bbc3402cae143a329df2d72e89966e736c3d45a7f27e145",
+    "reference_propagation_shared_labels.npz": "beb680b3ddca51a96c1c2e1c4dc91fc67ab5a834c2314101f515e45cb80a3ef1",
+    "scores.npz": "6f38fb740377761e10f23ff42d0e8971d850a061e9070a09ee9019bb27804d77",
+    "candidate_changes.tsv.gz": "217968e264b110f122763f71ea2a99047bf192410af2436cee18324fb9c85799"
+  }
+}

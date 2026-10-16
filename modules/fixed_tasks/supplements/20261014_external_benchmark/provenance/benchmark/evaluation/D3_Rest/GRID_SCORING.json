@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETE",
+  "reports": [
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/default/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank10/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank50/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/lasso_low/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/lasso_high/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank50_lasso_high/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank5_lasso_low/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank5_default_lasso/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank5_lasso_high/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank10_lasso_low/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank10_lasso_high/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank40_lasso_low/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank40_default_lasso/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank40_lasso_high/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank50_lasso_low/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank75_lasso_low/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank75_default_lasso/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank75_lasso_high/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank100_lasso_low/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank100_default_lasso/evaluation_report.json",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/evaluation/D3_Rest/rank100_lasso_high/evaluation_report.json"
+  ],
+  "winner_config_id": "rank100_default_lasso",
+  "winner_P25": 0.2706176243256671,
+  "winner_lock_sha256": "3b03f312908d7fbad7a84ae8fd1dff29fefb7e7319e95aa9144108cd7a1b8e18",
+  "elapsed_seconds": 77.24550221800018,
+  "score_driver_sha256": "daea0450474733ab682cd1554416825aac6d7a6913775ebf1723c34016de03ae",
+  "protocol_sha256": "edd9b8580c27bdc951938146fe90227aff8f54e9835569ce0122d2bfe0432ab6"
+}

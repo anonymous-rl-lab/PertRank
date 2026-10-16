@@ -1,0 +1,1052 @@
+{
+  "identity": "R20 development stability analysis on newly selected real cell groups in opened donors",
+  "donor": "D2_Rest",
+  "created_utc": "2026-10-06T23:36:16Z",
+  "prediction_lock_sha256": "b643afba950abc7c9a3adf70143f63262052ce6fb04d8282ac9d5ae5568bd5ec",
+  "prediction_record": {
+    "record_path": "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/predictions/D2_Rest_prediction_record.json",
+    "record_sha256": "a3a876775b0290d59e0e4e62b96eb52fcd78cb006ed75647ac5e62af1f7e5e73",
+    "identity": "R20 input-only prediction, all three donors must be locked before new scoring",
+    "donor": "D2_Rest",
+    "created_utc": "2026-10-06T23:36:04Z",
+    "state_path": "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/read/D2_Rest/aggregate.npz",
+    "state_sha256": "7c5a7889beef28bcf2d38966ab432f26ebae25230376e68c9e31484ed16a72c7",
+    "context_path": "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/selection/D2_Rest/context.npz",
+    "context_sha256": "a725db9909d56438d995766fc68480b5c38d3e2ae1c05902b0ddeaea3f72eb6c",
+    "freeze_record_path": "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/EXECUTION_FREEZE_SHA256.txt",
+    "freeze_record_sha256": "6a2b1f25962d5b3c44ce63b85ad9868f31844b91138df42c56f1adf7b0be3231",
+    "script_sha256": "7bb192ca17187d667967ce99803f645bcde3ce2cd514db6d21ffc49a3919d5d9",
+    "verified_frozen_inputs": {
+      "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/evaluation/evaluate_real_cells.py": "7bb192ca17187d667967ce99803f645bcde3ce2cd514db6d21ffc49a3919d5d9",
+      "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/selection/D2_Rest/context.npz": "a725db9909d56438d995766fc68480b5c38d3e2ae1c05902b0ddeaea3f72eb6c",
+      "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/selection/D2_Rest/selection.npz": "09fe3134dd9b9e4100f42f0ac3a1bea4a55fa1ea0b222e74ee050675ec5dff3b",
+      "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/evaluation/reference/external_uncertainty/results/query_reference.npz": "d1636d01e9728427232d57d70156762f86364e2ac8dd4f20b4bead34d6a48ce9",
+      "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/evaluation/reference/external_uncertainty/A19R/D2_Rest/predictions_locked.npz": "e9c412d6277aaf4895015f87184e671b8eb9960851a2d4859625c743e3360d1d"
+    },
+    "parameters": {
+      "directions": 5,
+      "beta": 0.9,
+      "cells_per_target_per_repetition": 20,
+      "bootstrap_seed": 20261006,
+      "bootstrap_draws": 2000
+    },
+    "weight_checks": {
+      "internal_beta0_maxabs": 0.0,
+      "external_beta0_maxabs": 0.0,
+      "internal_W1_zero_fraction_by_repetition": [
+        0.006666666666666667,
+        0.005833333333333334,
+        0.004166666666666667,
+        0.006666666666666667,
+        0.005
+      ],
+      "internal_w0y_zero_fraction_by_repetition": [
+        0.04416666666666667,
+        0.04583333333333333,
+        0.045,
+        0.041666666666666664,
+        0.03666666666666667
+      ],
+      "internal_W1_mean_by_repetition": [
+        0.134675385091641,
+        0.13260362643204607,
+        0.13395685738701127,
+        0.13373819667119843,
+        0.1321623096280276
+      ],
+      "internal_degenerate_W1_repetitions": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "external_W1_zero_fraction_by_repetition": [
+        0.0,
+        0.0
+      ],
+      "external_w0y_zero_fraction_by_repetition": [
+        0.031746031746031744,
+        0.015873015873015872
+      ],
+      "external_W1_mean_by_repetition": [
+        0.13427278076519694,
+        0.13936620485348844
+      ],
+      "external_degenerate_W1_repetitions": [
+        false,
+        false
+      ]
+    },
+    "prediction_path": "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/predictions/D2_Rest_predictions.npz",
+    "prediction_sha256": "6cd799329eac05b53bd975aa84a717af9c038414d9d192a96913b3b3e8109a13"
+  },
+  "scope": "new target-cell replacement with freshly estimated target weights; fixed original controls and metric. Shared queries/reference/donor are not independent replicates.",
+  "internal": {
+    "responsive": {
+      "repetitions": [
+        {
+          "repetition": 0,
+          "means": {
+            "raw": 0.33722046242957127,
+            "w0y": 0.3508414362288554,
+            "W1": 0.36190846601557863
+          },
+          "W1_minus_w0y": {
+            "difference": 0.011067029786723222,
+            "conditional_query_block_95_interval": [
+              0.005126783735313311,
+              0.01766835724232123
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.27667574466808054
+          },
+          "W1_minus_raw": {
+            "difference": 0.024688003586007364,
+            "conditional_query_block_95_interval": [
+              0.013992129682153768,
+              0.03233443283831694
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.6172000896501841
+          },
+          "w0y_minus_raw": {
+            "difference": 0.013620973799284144,
+            "conditional_query_block_95_interval": [
+              0.00042253375894280243,
+              0.024141591142207316
+            ],
+            "bootstrap_nonpositive_count": 43,
+            "bootstrap_fraction_nonpositive": 0.0215,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.3405243449821036
+          }
+        },
+        {
+          "repetition": 1,
+          "means": {
+            "raw": 0.33910316908213917,
+            "w0y": 0.34932674381092,
+            "W1": 0.3653349541671378
+          },
+          "W1_minus_w0y": {
+            "difference": 0.016008210356217772,
+            "conditional_query_block_95_interval": [
+              0.011478227856038643,
+              0.02069635768843568
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.40020525890544434
+          },
+          "W1_minus_raw": {
+            "difference": 0.026231785084998495,
+            "conditional_query_block_95_interval": [
+              0.013920423219532924,
+              0.037601537115261416
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.6557946271249624
+          },
+          "w0y_minus_raw": {
+            "difference": 0.010223574728780733,
+            "conditional_query_block_95_interval": [
+              -0.00023972617566206785,
+              0.01965279182102785
+            ],
+            "bootstrap_nonpositive_count": 58,
+            "bootstrap_fraction_nonpositive": 0.029,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.25558936821951833
+          }
+        },
+        {
+          "repetition": 2,
+          "means": {
+            "raw": 0.3350339803285832,
+            "w0y": 0.3532310096635169,
+            "W1": 0.36476635377241495
+          },
+          "W1_minus_w0y": {
+            "difference": 0.011535344108898069,
+            "conditional_query_block_95_interval": [
+              0.006531506623934137,
+              0.01744184451784112
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.2883836027224517
+          },
+          "W1_minus_raw": {
+            "difference": 0.029732373443831665,
+            "conditional_query_block_95_interval": [
+              0.016880308013771522,
+              0.04029375134206219
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.7433093360957916
+          },
+          "w0y_minus_raw": {
+            "difference": 0.018197029334933598,
+            "conditional_query_block_95_interval": [
+              0.0036908052048561083,
+              0.02998068149682386
+            ],
+            "bootstrap_nonpositive_count": 11,
+            "bootstrap_fraction_nonpositive": 0.0055,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.45492573337333997
+          }
+        },
+        {
+          "repetition": 3,
+          "means": {
+            "raw": 0.33813525660206506,
+            "w0y": 0.3444309862305957,
+            "W1": 0.3627164265910425
+          },
+          "W1_minus_w0y": {
+            "difference": 0.01828544036044682,
+            "conditional_query_block_95_interval": [
+              0.013581479313691695,
+              0.02332424219806502
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.4571360090111705
+          },
+          "W1_minus_raw": {
+            "difference": 0.024581169988977466,
+            "conditional_query_block_95_interval": [
+              0.014488895193707772,
+              0.03414448655273699
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.6145292497244367
+          },
+          "w0y_minus_raw": {
+            "difference": 0.006295729628530646,
+            "conditional_query_block_95_interval": [
+              -0.0025714330653426156,
+              0.013892094078141728
+            ],
+            "bootstrap_nonpositive_count": 164,
+            "bootstrap_fraction_nonpositive": 0.082,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.15739324071326616
+          }
+        },
+        {
+          "repetition": 4,
+          "means": {
+            "raw": 0.3389672282780731,
+            "w0y": 0.3434822673808254,
+            "W1": 0.36255796612329816
+          },
+          "W1_minus_w0y": {
+            "difference": 0.019075698742472808,
+            "conditional_query_block_95_interval": [
+              0.013443562541071482,
+              0.02528332876615064
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.4768924685618202
+          },
+          "W1_minus_raw": {
+            "difference": 0.023590737845225158,
+            "conditional_query_block_95_interval": [
+              0.009887601211787531,
+              0.03428698865181053
+            ],
+            "bootstrap_nonpositive_count": 2,
+            "bootstrap_fraction_nonpositive": 0.001,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.589768446130629
+          },
+          "w0y_minus_raw": {
+            "difference": 0.004515039102752349,
+            "conditional_query_block_95_interval": [
+              -0.009285857519590388,
+              0.016788245612429434
+            ],
+            "bootstrap_nonpositive_count": 638,
+            "bootstrap_fraction_nonpositive": 0.319,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.11287597756880874
+          }
+        }
+      ],
+      "repetition_average": {
+        "means": {
+          "raw": 0.3376920193440864,
+          "w0y": 0.3482624886629427,
+          "W1": 0.3634568333338944
+        },
+        "W1_minus_w0y": {
+          "difference": 0.015194344670951735,
+          "conditional_query_block_95_interval": [
+            0.011562445564234861,
+            0.019201761868514963
+          ],
+          "bootstrap_nonpositive_count": 0,
+          "bootstrap_fraction_nonpositive": 0.0,
+          "draws": 2000,
+          "seed": 20261006,
+          "query_blocks": 30,
+          "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+          "extra_expected_members_per_list": 0.3798586167737934,
+          "realized_group_differences": [
+            0.01106702978672322,
+            0.01600821035621777,
+            0.011535344108898067,
+            0.018285440360446818,
+            0.019075698742472808
+          ],
+          "realized_group_min_max": [
+            0.01106702978672322,
+            0.019075698742472808
+          ],
+          "realized_groups_positive": 5,
+          "realized_groups_negative": 0,
+          "realized_groups_zero": 0
+        },
+        "W1_minus_raw": {
+          "difference": 0.02576481398980803,
+          "conditional_query_block_95_interval": [
+            0.014956007331608592,
+            0.03450464517243742
+          ],
+          "bootstrap_nonpositive_count": 0,
+          "bootstrap_fraction_nonpositive": 0.0,
+          "draws": 2000,
+          "seed": 20261006,
+          "query_blocks": 30,
+          "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+          "extra_expected_members_per_list": 0.6441203497452008,
+          "realized_group_differences": [
+            0.024688003586007375,
+            0.026231785084998502,
+            0.02973237344383166,
+            0.02458116998897747,
+            0.023590737845225154
+          ],
+          "realized_group_min_max": [
+            0.023590737845225154,
+            0.02973237344383166
+          ],
+          "realized_groups_positive": 5,
+          "realized_groups_negative": 0,
+          "realized_groups_zero": 0
+        },
+        "w0y_minus_raw": {
+          "difference": 0.010570469318856295,
+          "conditional_query_block_95_interval": [
+            -0.0005458673523087573,
+            0.020067221409521926
+          ],
+          "bootstrap_nonpositive_count": 60,
+          "bootstrap_fraction_nonpositive": 0.03,
+          "draws": 2000,
+          "seed": 20261006,
+          "query_blocks": 30,
+          "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+          "extra_expected_members_per_list": 0.26426173297140737,
+          "realized_group_differences": [
+            0.013620973799284149,
+            0.010223574728780731,
+            0.018197029334933598,
+            0.006295729628530646,
+            0.004515039102752353
+          ],
+          "realized_group_min_max": [
+            0.004515039102752353,
+            0.018197029334933598
+          ],
+          "realized_groups_positive": 5,
+          "realized_groups_negative": 0,
+          "realized_groups_zero": 0
+        }
+      },
+      "role": "primary",
+      "top_k": 25,
+      "queries": 300,
+      "targets": 1200,
+      "own_exclusions": 35,
+      "random_precision": 0.020835360485589843,
+      "nomination_probability_redistribution": {
+        "definition": "For each signed query, sum max(p_W1-p_comparator,0); equal to removed probability mass. This is movement of marginal top-K nomination probability, not expected turnover of two independently tie-broken lists.",
+        "W1_vs_w0y": {
+          "mean_probability_slots_moved_by_repetition": [
+            5.465,
+            5.385,
+            4.953333333333333,
+            5.73,
+            5.48
+          ],
+          "repetition_average_probability_slots_moved": 5.402666666666667,
+          "repetition_average_fraction_of_K": 0.21610666666666667
+        },
+        "W1_vs_raw": {
+          "mean_probability_slots_moved_by_repetition": [
+            13.020489682218367,
+            12.948069998068938,
+            13.098160102259342,
+            12.798410880884587,
+            12.97247373349487
+          ],
+          "repetition_average_probability_slots_moved": 12.967520879385223,
+          "repetition_average_fraction_of_K": 0.5187008351754089
+        }
+      }
+    },
+    "terciles": {
+      "repetitions": [
+        {
+          "repetition": 0,
+          "means": {
+            "raw": 0.07152511511197114,
+            "w0y": 0.09181728390435259,
+            "W1": 0.09387966150847166
+          },
+          "W1_minus_w0y": {
+            "difference": 0.0020623776041190553,
+            "conditional_query_block_95_interval": [
+              -0.0006332305378227086,
+              0.004886854992051412
+            ],
+            "bootstrap_nonpositive_count": 112,
+            "bootstrap_fraction_nonpositive": 0.056,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.05155944010297638
+          },
+          "W1_minus_raw": {
+            "difference": 0.0223545463965005,
+            "conditional_query_block_95_interval": [
+              0.01610546661394757,
+              0.02815794242972182
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.5588636599125124
+          },
+          "w0y_minus_raw": {
+            "difference": 0.020292168792381444,
+            "conditional_query_block_95_interval": [
+              0.013827753801119912,
+              0.026338364810462585
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.5073042198095361
+          }
+        },
+        {
+          "repetition": 1,
+          "means": {
+            "raw": 0.06640908363621606,
+            "w0y": 0.08793726012110209,
+            "W1": 0.09191024134305634
+          },
+          "W1_minus_w0y": {
+            "difference": 0.003972981221954242,
+            "conditional_query_block_95_interval": [
+              0.000608016982677437,
+              0.0075551476411291636
+            ],
+            "bootstrap_nonpositive_count": 21,
+            "bootstrap_fraction_nonpositive": 0.0105,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.09932453054885605
+          },
+          "W1_minus_raw": {
+            "difference": 0.02550115770684027,
+            "conditional_query_block_95_interval": [
+              0.0179999343486944,
+              0.033059184740457916
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.6375289426710068
+          },
+          "w0y_minus_raw": {
+            "difference": 0.021528176484886027,
+            "conditional_query_block_95_interval": [
+              0.014520771778635994,
+              0.028502257182662666
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.5382044121221506
+          }
+        },
+        {
+          "repetition": 2,
+          "means": {
+            "raw": 0.0665145660336736,
+            "w0y": 0.08784937612338295,
+            "W1": 0.0916472903275983
+          },
+          "W1_minus_w0y": {
+            "difference": 0.0037979142042153793,
+            "conditional_query_block_95_interval": [
+              0.0020476186581203197,
+              0.005840242128492703
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.09494785510538448
+          },
+          "W1_minus_raw": {
+            "difference": 0.02513272429392471,
+            "conditional_query_block_95_interval": [
+              0.019704251363314967,
+              0.03018412334531547
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.6283181073481178
+          },
+          "w0y_minus_raw": {
+            "difference": 0.02133481008970933,
+            "conditional_query_block_95_interval": [
+              0.01659155414396387,
+              0.02587977025230467
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.5333702522427333
+          }
+        },
+        {
+          "repetition": 3,
+          "means": {
+            "raw": 0.06723231424786447,
+            "w0y": 0.08467886873554581,
+            "W1": 0.0895201365223209
+          },
+          "W1_minus_w0y": {
+            "difference": 0.004841267786775078,
+            "conditional_query_block_95_interval": [
+              0.0020555085140197176,
+              0.008003249315450484
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.12103169466937695
+          },
+          "W1_minus_raw": {
+            "difference": 0.02228782227445643,
+            "conditional_query_block_95_interval": [
+              0.016066567284548493,
+              0.02803995737166319
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.5571955568614108
+          },
+          "w0y_minus_raw": {
+            "difference": 0.017446554487681346,
+            "conditional_query_block_95_interval": [
+              0.010520877058399542,
+              0.024525040016586685
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.4361638621920337
+          }
+        },
+        {
+          "repetition": 4,
+          "means": {
+            "raw": 0.06530075713644548,
+            "w0y": 0.08581232077279921,
+            "W1": 0.08753739925774383
+          },
+          "W1_minus_w0y": {
+            "difference": 0.00172507848494462,
+            "conditional_query_block_95_interval": [
+              -0.0013569248765743214,
+              0.005541702761567609
+            ],
+            "bootstrap_nonpositive_count": 304,
+            "bootstrap_fraction_nonpositive": 0.152,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.0431269621236155
+          },
+          "W1_minus_raw": {
+            "difference": 0.022236642121298344,
+            "conditional_query_block_95_interval": [
+              0.015160651596856284,
+              0.028366540068266544
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.5559160530324586
+          },
+          "w0y_minus_raw": {
+            "difference": 0.020511563636353723,
+            "conditional_query_block_95_interval": [
+              0.014236736246438987,
+              0.02641128582009158
+            ],
+            "bootstrap_nonpositive_count": 0,
+            "bootstrap_fraction_nonpositive": 0.0,
+            "draws": 2000,
+            "seed": 20261006,
+            "query_blocks": 30,
+            "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+            "extra_expected_members_per_list": 0.5127890909088431
+          }
+        }
+      ],
+      "repetition_average": {
+        "means": {
+          "raw": 0.06739636723323415,
+          "w0y": 0.08761902193143653,
+          "W1": 0.0908989457918382
+        },
+        "W1_minus_w0y": {
+          "difference": 0.0032799238604016745,
+          "conditional_query_block_95_interval": [
+            0.001368829815436238,
+            0.005539274799053411
+          ],
+          "bootstrap_nonpositive_count": 0,
+          "bootstrap_fraction_nonpositive": 0.0,
+          "draws": 2000,
+          "seed": 20261006,
+          "query_blocks": 30,
+          "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+          "extra_expected_members_per_list": 0.08199809651004186,
+          "realized_group_differences": [
+            0.0020623776041190553,
+            0.003972981221954242,
+            0.0037979142042153793,
+            0.004841267786775079,
+            0.00172507848494462
+          ],
+          "realized_group_min_max": [
+            0.00172507848494462,
+            0.004841267786775079
+          ],
+          "realized_groups_positive": 5,
+          "realized_groups_negative": 0,
+          "realized_groups_zero": 0
+        },
+        "W1_minus_raw": {
+          "difference": 0.02350257855860405,
+          "conditional_query_block_95_interval": [
+            0.01756375298613943,
+            0.029175779991094563
+          ],
+          "bootstrap_nonpositive_count": 0,
+          "bootstrap_fraction_nonpositive": 0.0,
+          "draws": 2000,
+          "seed": 20261006,
+          "query_blocks": 30,
+          "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+          "extra_expected_members_per_list": 0.5875644639651013,
+          "realized_group_differences": [
+            0.022354546396500502,
+            0.025501157706840267,
+            0.025132724293924706,
+            0.02228782227445643,
+            0.022236642121298337
+          ],
+          "realized_group_min_max": [
+            0.022236642121298337,
+            0.025501157706840267
+          ],
+          "realized_groups_positive": 5,
+          "realized_groups_negative": 0,
+          "realized_groups_zero": 0
+        },
+        "w0y_minus_raw": {
+          "difference": 0.020222654698202374,
+          "conditional_query_block_95_interval": [
+            0.01453414717690356,
+            0.02569561491832196
+          ],
+          "bootstrap_nonpositive_count": 0,
+          "bootstrap_fraction_nonpositive": 0.0,
+          "draws": 2000,
+          "seed": 20261006,
+          "query_blocks": 30,
+          "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+          "extra_expected_members_per_list": 0.5055663674550593,
+          "realized_group_differences": [
+            0.020292168792381444,
+            0.021528176484886027,
+            0.02133481008970933,
+            0.01744655448768135,
+            0.02051156363635372
+          ],
+          "realized_group_min_max": [
+            0.01744655448768135,
+            0.021528176484886027
+          ],
+          "realized_groups_positive": 5,
+          "realized_groups_negative": 0,
+          "realized_groups_zero": 0
+        }
+      },
+      "role": "secondary",
+      "top_k": 25,
+      "queries": 300,
+      "targets": 1200,
+      "own_exclusions": 19,
+      "random_precision": 0.020834433787415438,
+      "nomination_probability_redistribution": {
+        "definition": "For each signed query, sum max(p_W1-p_comparator,0); equal to removed probability mass. This is movement of marginal top-K nomination probability, not expected turnover of two independently tie-broken lists.",
+        "W1_vs_w0y": {
+          "mean_probability_slots_moved_by_repetition": [
+            6.544182389937107,
+            6.6762424242424245,
+            5.979444444444444,
+            6.937266666666668,
+            6.570530303030304
+          ],
+          "repetition_average_probability_slots_moved": 6.541533245664189,
+          "repetition_average_fraction_of_K": 0.26166132982656753
+        },
+        "W1_vs_raw": {
+          "mean_probability_slots_moved_by_repetition": [
+            16.865524176226202,
+            16.875892477555062,
+            16.974283908797243,
+            16.69746887361351,
+            16.905115519990744
+          ],
+          "repetition_average_probability_slots_moved": 16.863656991236553,
+          "repetition_average_fraction_of_K": 0.6745462796494621
+        }
+      }
+    }
+  },
+  "external": {
+    "repetitions": [
+      {
+        "repetition": 0,
+        "means": {
+          "raw": 0.23582591082900292,
+          "w0y": 0.27404844290657443,
+          "W1": 0.27162629757785467
+        },
+        "W1_minus_w0y": {
+          "difference": -0.002422145328719722,
+          "conditional_query_block_95_interval": [
+            -0.006999999999999998,
+            0.0025842396581860507
+          ],
+          "bootstrap_nonpositive_count": 1632,
+          "bootstrap_fraction_nonpositive": 0.816,
+          "draws": 2000,
+          "seed": 20261006,
+          "query_blocks": 30,
+          "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+          "extra_expected_members_per_list": -0.02422145328719722
+        },
+        "W1_minus_raw": {
+          "difference": 0.035800386748851776,
+          "conditional_query_block_95_interval": [
+            0.028811867907331767,
+            0.04392152921628159
+          ],
+          "bootstrap_nonpositive_count": 0,
+          "bootstrap_fraction_nonpositive": 0.0,
+          "draws": 2000,
+          "seed": 20261006,
+          "query_blocks": 30,
+          "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+          "extra_expected_members_per_list": 0.35800386748851776
+        },
+        "w0y_minus_raw": {
+          "difference": 0.03822253207757149,
+          "conditional_query_block_95_interval": [
+            0.029625792928464508,
+            0.04646681966854229
+          ],
+          "bootstrap_nonpositive_count": 0,
+          "bootstrap_fraction_nonpositive": 0.0,
+          "draws": 2000,
+          "seed": 20261006,
+          "query_blocks": 30,
+          "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+          "extra_expected_members_per_list": 0.38222532077571486
+        }
+      },
+      {
+        "repetition": 1,
+        "means": {
+          "raw": 0.23361105657795753,
+          "w0y": 0.2622837370242215,
+          "W1": 0.2666089965397924
+        },
+        "W1_minus_w0y": {
+          "difference": 0.004325259515570935,
+          "conditional_query_block_95_interval": [
+            3.28421477220137e-19,
+            0.008419336363300448
+          ],
+          "bootstrap_nonpositive_count": 49,
+          "bootstrap_fraction_nonpositive": 0.0245,
+          "draws": 2000,
+          "seed": 20261006,
+          "query_blocks": 30,
+          "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+          "extra_expected_members_per_list": 0.043252595155709346
+        },
+        "W1_minus_raw": {
+          "difference": 0.03299793996183491,
+          "conditional_query_block_95_interval": [
+            0.02760876426505522,
+            0.037572468557546194
+          ],
+          "bootstrap_nonpositive_count": 0,
+          "bootstrap_fraction_nonpositive": 0.0,
+          "draws": 2000,
+          "seed": 20261006,
+          "query_blocks": 30,
+          "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+          "extra_expected_members_per_list": 0.3299793996183491
+        },
+        "w0y_minus_raw": {
+          "difference": 0.028672680446263966,
+          "conditional_query_block_95_interval": [
+            0.022609940035796926,
+            0.03418055730203566
+          ],
+          "bootstrap_nonpositive_count": 0,
+          "bootstrap_fraction_nonpositive": 0.0,
+          "draws": 2000,
+          "seed": 20261006,
+          "query_blocks": 30,
+          "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+          "extra_expected_members_per_list": 0.28672680446263965
+        }
+      }
+    ],
+    "repetition_average": {
+      "means": {
+        "raw": 0.2347184837034802,
+        "w0y": 0.2681660899653979,
+        "W1": 0.2691176470588236
+      },
+      "W1_minus_w0y": {
+        "difference": 0.0009515570934256075,
+        "conditional_query_block_95_interval": [
+          -0.0021400861494589815,
+          0.004242591890746044
+        ],
+        "bootstrap_nonpositive_count": 526,
+        "bootstrap_fraction_nonpositive": 0.263,
+        "draws": 2000,
+        "seed": 20261006,
+        "query_blocks": 30,
+        "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+        "extra_expected_members_per_list": 0.009515570934256076,
+        "realized_group_differences": [
+          -0.002422145328719722,
+          0.004325259515570935
+        ],
+        "realized_group_min_max": [
+          -0.002422145328719722,
+          0.004325259515570935
+        ],
+        "realized_groups_positive": 1,
+        "realized_groups_negative": 1,
+        "realized_groups_zero": 0
+      },
+      "W1_minus_raw": {
+        "difference": 0.03439916335534334,
+        "conditional_query_block_95_interval": [
+          0.029688108279551182,
+          0.03945522813117174
+        ],
+        "bootstrap_nonpositive_count": 0,
+        "bootstrap_fraction_nonpositive": 0.0,
+        "draws": 2000,
+        "seed": 20261006,
+        "query_blocks": 30,
+        "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+        "extra_expected_members_per_list": 0.34399163355343343,
+        "realized_group_differences": [
+          0.03580038674885177,
+          0.03299793996183491
+        ],
+        "realized_group_min_max": [
+          0.03299793996183491,
+          0.03580038674885177
+        ],
+        "realized_groups_positive": 2,
+        "realized_groups_negative": 0,
+        "realized_groups_zero": 0
+      },
+      "w0y_minus_raw": {
+        "difference": 0.033447606261917735,
+        "conditional_query_block_95_interval": [
+          0.02832100492593204,
+          0.03889346142998452
+        ],
+        "bootstrap_nonpositive_count": 0,
+        "bootstrap_fraction_nonpositive": 0.0,
+        "draws": 2000,
+        "seed": 20261006,
+        "query_blocks": 30,
+        "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+        "extra_expected_members_per_list": 0.33447606261917734,
+        "realized_group_differences": [
+          0.03822253207757149,
+          0.028672680446263966
+        ],
+        "realized_group_min_max": [
+          0.028672680446263966,
+          0.03822253207757149
+        ],
+        "realized_groups_positive": 2,
+        "realized_groups_negative": 0,
+        "realized_groups_zero": 0
+      }
+    },
+    "top_k": 10,
+    "queries": 289,
+    "targets": 63,
+    "own_exclusions": 3,
+    "random_precision": 0.1587567348254925,
+    "reference": "fixed separately generated arrayed-knockout RNA reference, same A19R pool; not a new independent reference",
+    "reference_sha256": "d1636d01e9728427232d57d70156762f86364e2ac8dd4f20b4bead34d6a48ce9",
+    "nomination_probability_redistribution": {
+      "definition": "For each signed query, sum max(p_W1-p_comparator,0); equal to removed probability mass. This is movement of marginal top-K nomination probability, not expected turnover of two independently tie-broken lists.",
+      "W1_vs_w0y": {
+        "mean_probability_slots_moved_by_repetition": [
+          1.5674740484429066,
+          1.467128027681661
+        ],
+        "repetition_average_probability_slots_moved": 1.5173010380622838,
+        "repetition_average_fraction_of_K": 0.15173010380622837
+      },
+      "W1_vs_raw": {
+        "mean_probability_slots_moved_by_repetition": [
+          2.7457114323636596,
+          2.6727280692821225
+        ],
+        "repetition_average_probability_slots_moved": 2.709219750822891,
+        "repetition_average_fraction_of_K": 0.2709219750822891
+      }
+    }
+  },
+  "query_scores_sha256": "669556ca8ce4f527d89b54e2bebbb3e30352ebff7b2184e416703e8b17c27c10"
+}

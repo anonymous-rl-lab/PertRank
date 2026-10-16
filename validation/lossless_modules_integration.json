@@ -1,0 +1,22 @@
+[
+  {
+    "module": "paper_analysis",
+    "status": "PASS_INTEGRATION_MANIFEST",
+    "manifest_files": 342,
+    "scientific_rerun_performed_in_this_check": false,
+    "module_validation_files": [
+      "validation/V151_LOSSLESS_RESTORATION.json",
+      "validation/V151_REPLAY_REPORT.json"
+    ]
+  },
+  {
+    "module": "sensitivity_replay",
+    "status": "PASS_INTEGRATION_MANIFEST",
+    "manifest_files": 48,
+    "scientific_rerun_performed_in_this_check": false,
+    "module_validation_files": [
+      "validation/V151_LOSSLESS_RESTORATION.json",
+      "validation/V151_REPLAY_REPORT.json"
+    ]
+  }
+]

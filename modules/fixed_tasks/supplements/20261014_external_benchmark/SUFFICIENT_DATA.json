@@ -1,0 +1,1805 @@
+{
+  "format": "PertRank fixed-score benchmark replay v1",
+  "archive_sha256": "6c9423d05330bd6c528438f05259575d4bfe0f8330ba7ce0db1ebe35c4b861b7",
+  "arrays": {
+    "a0000": {
+      "dtype": "<i8",
+      "shape": [
+        2000,
+        30
+      ],
+      "array_sha256": "532ff16075d5e49df48ed43539f6f1cc93c5947677a9393871074fa1529a1ad8",
+      "codec": "narrow_integer"
+    },
+    "a0001": {
+      "dtype": "<f8",
+      "shape": [
+        2000,
+        300
+      ],
+      "array_sha256": "afcc4f0c24d80e973b9298f2219971e693d2ced1d5e8bcb15a1701fb65f0c03d",
+      "codec": "column_dictionary"
+    },
+    "a0002": {
+      "dtype": "<f8",
+      "shape": [
+        5,
+        6,
+        300
+      ],
+      "array_sha256": "4b29c85c6b5c8420ce0363c3c5fd5b9f9f804b79806ed6772f3d135eadcebe2f",
+      "codec": "dictionary"
+    },
+    "a0003": {
+      "dtype": "<f8",
+      "shape": [
+        5,
+        6,
+        300
+      ],
+      "array_sha256": "a0ba7cd1552441ac5f40fb25526e3648d603db57613791f6c014353c447e38d4",
+      "codec": "dictionary"
+    },
+    "a0004": {
+      "dtype": "<U15",
+      "shape": [
+        300
+      ],
+      "array_sha256": "307dc7f6e9f0d61850ed93160da3326015787df157069d84b95f58d1d85b3296",
+      "codec": "raw"
+    },
+    "a0005": {
+      "dtype": "<U15",
+      "shape": [
+        589
+      ],
+      "array_sha256": "5ed81774badf437a26751f8d3f66fee7996b4f7e2a3655d2c50d150996f4e4b4",
+      "codec": "raw"
+    },
+    "a0006": {
+      "dtype": "<i4",
+      "shape": [
+        300
+      ],
+      "array_sha256": "5e64204823259982a5df84252e1c8eea99e3ef5eb5831c8d05529efcdb1d5704",
+      "codec": "narrow_integer"
+    },
+    "a0007": {
+      "dtype": "<i8",
+      "shape": [
+        5
+      ],
+      "array_sha256": "6d4978bf15ac2259a88d1260fbb6e4f0c0f81d728bad21e8dcca7ce08a0b38f4",
+      "codec": "narrow_integer"
+    },
+    "a0008": {
+      "dtype": "<f8",
+      "shape": [
+        2000,
+        300
+      ],
+      "array_sha256": "9cfb6b643753587036af1f8549511cf96f1279a6c488ec8bbe3224aa208808c2",
+      "codec": "column_dictionary"
+    },
+    "a0009": {
+      "dtype": "<f8",
+      "shape": [
+        5,
+        6,
+        300
+      ],
+      "array_sha256": "6610985afac76251913bb2540e68490f1526132f3b814b7b73c080da32e73616",
+      "codec": "dictionary"
+    },
+    "a0010": {
+      "dtype": "<f8",
+      "shape": [
+        5,
+        6,
+        300
+      ],
+      "array_sha256": "e20abb12f06fc52c4aad3c7ccd437d23c2fcadda5683382c29e09121d29f6451",
+      "codec": "dictionary"
+    },
+    "a0011": {
+      "dtype": "<U15",
+      "shape": [
+        300
+      ],
+      "array_sha256": "de54034c7c000188bad7e20e65c25ce205d9522a8aed4b61f2c0c234588c7795",
+      "codec": "raw"
+    },
+    "a0012": {
+      "dtype": "<U15",
+      "shape": [
+        561
+      ],
+      "array_sha256": "1fab71e2487c1b3f2938a820a041e30deec8891c5897b1bc10906abf3bad6b8a",
+      "codec": "raw"
+    },
+    "a0013": {
+      "dtype": "<i4",
+      "shape": [
+        300
+      ],
+      "array_sha256": "2cc9b41d88fbcb71fde2d3c9453fa168aa390540300369fc3ae0d01f2abaaaa0",
+      "codec": "narrow_integer"
+    },
+    "a0014": {
+      "dtype": "<i8",
+      "shape": [
+        2000,
+        30
+      ],
+      "array_sha256": "3001cc642633b8812a0446b68086f3865ab4e5bab69fe21937d6a97b13025706",
+      "codec": "narrow_integer"
+    },
+    "a0015": {
+      "dtype": "<f8",
+      "shape": [
+        2000,
+        300
+      ],
+      "array_sha256": "7bae7a7d222c3d8d340a00e9c9a19eddb0cf8fd97cb2af1efaeaf1ea2e9fe675",
+      "codec": "column_dictionary"
+    },
+    "a0016": {
+      "dtype": "<i8",
+      "shape": [
+        2000,
+        30
+      ],
+      "array_sha256": "ee5191c54752fc5286a4851bd5f1c988e583e90495dc73f7313e604b70f00617",
+      "codec": "narrow_integer"
+    },
+    "a0017": {
+      "dtype": "<f8",
+      "shape": [
+        2000,
+        300
+      ],
+      "array_sha256": "e05acb589220f82ebf92fb26828a95b3af2ba8863ce24be2d02427a01340861d",
+      "codec": "column_dictionary"
+    },
+    "a0018": {
+      "dtype": "<f8",
+      "shape": [
+        5,
+        6,
+        300
+      ],
+      "array_sha256": "f5a348ee57ad660db942789fcd7fe203c4377770bf9a84ec8ea61c5724f87e2c",
+      "codec": "dictionary"
+    },
+    "a0019": {
+      "dtype": "<f8",
+      "shape": [
+        5,
+        6,
+        300
+      ],
+      "array_sha256": "802dbeaa1903952fad5829a44fba386fb80e50c0332215b22a9cfe8e27297ae6",
+      "codec": "dictionary"
+    },
+    "a0020": {
+      "dtype": "<f8",
+      "shape": [
+        5,
+        6,
+        300
+      ],
+      "array_sha256": "6189c8fce1f5f24baf4f60017cc9a2f2e7eac4b204898b0b007fbe9e8ba6364d",
+      "codec": "dictionary"
+    },
+    "a0021": {
+      "dtype": "<f8",
+      "shape": [
+        5,
+        6,
+        300
+      ],
+      "array_sha256": "6d6e3f5f93888a2476435ff6d2f2992eed20d892238770918f2c47c803100636",
+      "codec": "dictionary"
+    },
+    "a0022": {
+      "dtype": "<f8",
+      "shape": [
+        2000,
+        300
+      ],
+      "array_sha256": "0b72a532a47d4ea2ac790cf3c511480958f6a787c8893095251d32f0bc91fc54",
+      "codec": "column_dictionary"
+    },
+    "a0023": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        4,
+        300
+      ],
+      "array_sha256": "cc96797aa8b31df8a85af44b06ccdedabf85ef9004f047942cab1f07d0a0daca",
+      "codec": "dictionary"
+    },
+    "a0024": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        4,
+        300
+      ],
+      "array_sha256": "54bcab84fd000c2b94a4224c472b73c4f7e6f2159df8bf73a4ca366b0b3337a0",
+      "codec": "dictionary"
+    },
+    "a0025": {
+      "dtype": "<U15",
+      "shape": [
+        300
+      ],
+      "array_sha256": "66c0261e6f91e4d66e9ed030e43ab05a21c6542aae4ba4791d6f64ac030488f0",
+      "codec": "raw"
+    },
+    "a0026": {
+      "dtype": "<U15",
+      "shape": [
+        250
+      ],
+      "array_sha256": "94ca6eba416d42ae3be6af032bd1eceeeafe51743df757ba6bdf09175e1d402d",
+      "codec": "raw"
+    },
+    "a0027": {
+      "dtype": "<i4",
+      "shape": [
+        300
+      ],
+      "array_sha256": "f294c8923a3e29080b5874d7b90f620fb673fa4e3c142b8430c80cccdf6eb88b",
+      "codec": "narrow_integer"
+    },
+    "a0028": {
+      "dtype": "<i8",
+      "shape": [
+        1
+      ],
+      "array_sha256": "80e3d9e3195bd4113859d2c3825a4b754dd1342e204f51177866664328ca8c6a",
+      "codec": "narrow_integer"
+    },
+    "a0029": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        4,
+        300
+      ],
+      "array_sha256": "2aed9d1dff4757316a538bbef06e318df8aee564b5ad585b39606b383eaa6ed5",
+      "codec": "dictionary"
+    },
+    "a0030": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        4,
+        300
+      ],
+      "array_sha256": "16233d1c6dadd533f5650f0b40ff1779790727b3746427d7cbb53e227014a346",
+      "codec": "dictionary"
+    },
+    "a0031": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        4,
+        300
+      ],
+      "array_sha256": "6827b58da86c4ad15801d054944856388ecbcdc7db2e79ab7b6953df21016e80",
+      "codec": "dictionary"
+    },
+    "a0032": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        4,
+        300
+      ],
+      "array_sha256": "cc031968a7e1c793b539b563314ee5a97fccc86ecd98cb3943a0d58e9d846975",
+      "codec": "dictionary"
+    },
+    "a0033": {
+      "dtype": "<f8",
+      "shape": [
+        2000,
+        4
+      ],
+      "array_sha256": "244ecd7422f6c691dfc82a0cf808e8a9a02408820024ed7904bb06b2d93b4928",
+      "codec": "raw"
+    },
+    "a0034": {
+      "dtype": "<f8",
+      "shape": [
+        2000,
+        4
+      ],
+      "array_sha256": "2aa9f1c58365641b30c53feffc217f797fb0e80b3666f957ab93cba26bbfea0f",
+      "codec": "raw"
+    },
+    "a0035": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        4,
+        300
+      ],
+      "array_sha256": "a99e7a28c59caecb56f6f8750cfac427a1bc4959662366361ed0e1732cb38850",
+      "codec": "dictionary"
+    },
+    "a0036": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        4,
+        300
+      ],
+      "array_sha256": "2da373c39f93eb200e408f6b750daca84086a82b0bb5495c7f6de03bb93cad60",
+      "codec": "dictionary"
+    },
+    "a0037": {
+      "dtype": "<U15",
+      "shape": [
+        395
+      ],
+      "array_sha256": "b70699714c1ceeb36b2473f7aa3e2dd644d3e932191cdcf194d29f9400930ad7",
+      "codec": "raw"
+    },
+    "a0038": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        6,
+        300
+      ],
+      "array_sha256": "f8dec50f272c4e2d37052be77632642cd00c6aadb53dca20fcf5db3a30fd23f5",
+      "codec": "dictionary"
+    },
+    "a0039": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        6,
+        300
+      ],
+      "array_sha256": "554ce30d8782373c3e1a6addda602f8c9e75f80a7169d02a1e8291aab7c435d4",
+      "codec": "dictionary"
+    },
+    "a0040": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        6,
+        300
+      ],
+      "array_sha256": "e0b0647b25055b2771a4bf0362ab1f705f302dbba3c9d1d307d519ed639d184a",
+      "codec": "dictionary"
+    },
+    "a0041": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        6,
+        300
+      ],
+      "array_sha256": "45604fce77fc26885b54b203fdc729319196b736fd1606c1ccba5f7d27306611",
+      "codec": "dictionary"
+    },
+    "a0042": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        6,
+        300
+      ],
+      "array_sha256": "c83dfc06f39f6b07490be1510651840201ddc8309a1126a6296d144ceba8ecca",
+      "codec": "dictionary"
+    },
+    "a0043": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        6,
+        300
+      ],
+      "array_sha256": "0f65ce3142a311735825edcccb8e8c28f0108badbb503e4023e99fced408f564",
+      "codec": "dictionary"
+    },
+    "a0044": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        6,
+        300
+      ],
+      "array_sha256": "39b45afed42c4b7d4fb235f370ba93a6d86b7275620cbe3ee329d1bdd60915cc",
+      "codec": "dictionary"
+    },
+    "a0045": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        6,
+        300
+      ],
+      "array_sha256": "6a0eb95690626b1c6d4c1894e650250130b4ead381261fba486edc01cf1788fe",
+      "codec": "dictionary"
+    },
+    "a0046": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        6,
+        300
+      ],
+      "array_sha256": "d5575a112f539529f4e5502de9e9994b58ef0921dcff9d40f21b7986bdf43096",
+      "codec": "dictionary"
+    },
+    "a0047": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        6,
+        300
+      ],
+      "array_sha256": "a30b798dccc6079db4f47ba56c69ad4023ebe528d0b344285136588d86748396",
+      "codec": "dictionary"
+    },
+    "a0048": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        6,
+        300
+      ],
+      "array_sha256": "706ce83cd5f29e7313d6a26a6f089f93660c0be32d2460d59d52f6bc97797050",
+      "codec": "dictionary"
+    },
+    "a0049": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        6,
+        300
+      ],
+      "array_sha256": "5dfc5ca93a5635f952146bea8769889ceff5d45dbf27ebf8f761b096136a231c",
+      "codec": "dictionary"
+    },
+    "a0050": {
+      "dtype": "<f8",
+      "shape": [
+        5,
+        4,
+        300
+      ],
+      "array_sha256": "c756f88cbaa3c60029319b8b1be7a67585c2f5914d7e613d5e3a1ea433012ea7",
+      "codec": "dictionary"
+    },
+    "a0051": {
+      "dtype": "<f8",
+      "shape": [
+        5,
+        4,
+        300
+      ],
+      "array_sha256": "84cbc27fb5d000f097835d7d6367de747b017da026269860fee1305a48ff2974",
+      "codec": "dictionary"
+    },
+    "a0052": {
+      "dtype": "<f8",
+      "shape": [
+        5,
+        4,
+        300
+      ],
+      "array_sha256": "c8ff55d3ae47f946ab2e9444a356ddc36e96fbacc3a8c2a02ef5ee7894d86403",
+      "codec": "dictionary"
+    },
+    "a0053": {
+      "dtype": "<f8",
+      "shape": [
+        5,
+        4,
+        300
+      ],
+      "array_sha256": "95577a4584923638f5b0b9bd38db76f3588718251a27b40fde9b11f6959da445",
+      "codec": "dictionary"
+    },
+    "a0054": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        6,
+        300
+      ],
+      "array_sha256": "25ddefde3d4e20ee3b2f1d082470c6ff6821ed5fdc7e63ab0892a514484c8850",
+      "codec": "dictionary"
+    },
+    "a0055": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        6,
+        300
+      ],
+      "array_sha256": "92d16f5d1ee048ee85d1985896948d27090ca4488ccbf3201e8270d2e6d79fb3",
+      "codec": "dictionary"
+    },
+    "a0056": {
+      "dtype": "<U15",
+      "shape": [
+        1200
+      ],
+      "array_sha256": "343052928682a066bc0efd03fb1586cff19992db65ba4fa23761bc32625e66f6",
+      "codec": "raw"
+    },
+    "a0057": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        6,
+        300
+      ],
+      "array_sha256": "42e474484cdb96dfe874408fd06ce4a7f54bbbc909f9b08c03de763171df5867",
+      "codec": "dictionary"
+    },
+    "a0058": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        6,
+        300
+      ],
+      "array_sha256": "79b28f289519d364342c9e890d4fa8b144eaaf3c78feb78f706b9b57c29ff553",
+      "codec": "dictionary"
+    },
+    "a0059": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        6,
+        300
+      ],
+      "array_sha256": "23e882dce37130f1285fb8a1446776359e4ec6193ca3dea72817ffc3b5b42452",
+      "codec": "dictionary"
+    },
+    "a0060": {
+      "dtype": "<f8",
+      "shape": [
+        1,
+        6,
+        300
+      ],
+      "array_sha256": "feee8ac0bb04dd688987ca379bb3d0f45677d6622618645209b084dac89cf821",
+      "codec": "dictionary"
+    }
+  },
+  "bindings": {
+    "g000/sampled_query_blocks": "a0000",
+    "g000/query_weights": "a0001",
+    "g000/six_arm_p25": "a0002",
+    "g000/six_arm_p10": "a0003",
+    "g000/queries": "a0004",
+    "g000/candidates": "a0005",
+    "g000/blocks": "a0006",
+    "g000/input_reps": "a0007",
+    "g001/sampled_query_blocks": "a0000",
+    "g001/query_weights": "a0008",
+    "g001/six_arm_p25": "a0009",
+    "g001/six_arm_p10": "a0010",
+    "g001/queries": "a0011",
+    "g001/candidates": "a0012",
+    "g001/blocks": "a0013",
+    "g001/input_reps": "a0007",
+    "g002/state_0_sampled_blocks": "a0014",
+    "g002/state_0_query_weights": "a0015",
+    "g002/state_1_sampled_blocks": "a0016",
+    "g002/state_1_query_weights": "a0017",
+    "g003/sampled_query_blocks": "a0000",
+    "g003/query_weights": "a0001",
+    "g003/six_arm_p25": "a0018",
+    "g003/six_arm_p10": "a0019",
+    "g003/queries": "a0004",
+    "g003/candidates": "a0005",
+    "g003/blocks": "a0006",
+    "g003/input_reps": "a0007",
+    "g004/sampled_query_blocks": "a0000",
+    "g004/query_weights": "a0008",
+    "g004/six_arm_p25": "a0020",
+    "g004/six_arm_p10": "a0021",
+    "g004/queries": "a0011",
+    "g004/candidates": "a0012",
+    "g004/blocks": "a0013",
+    "g004/input_reps": "a0007",
+    "g005/state_0_sampled_blocks": "a0014",
+    "g005/state_0_query_weights": "a0015",
+    "g005/state_1_sampled_blocks": "a0016",
+    "g005/state_1_query_weights": "a0017",
+    "g006/sampled_query_blocks": "a0000",
+    "g006/query_weights": "a0022",
+    "g006/four_arm_p25": "a0023",
+    "g006/four_arm_p10": "a0024",
+    "g006/queries": "a0025",
+    "g006/candidates": "a0026",
+    "g006/blocks": "a0027",
+    "g006/input_reps": "a0028",
+    "g007/sampled_query_blocks": "a0000",
+    "g007/query_weights": "a0022",
+    "g007/four_arm_p25": "a0029",
+    "g007/four_arm_p10": "a0030",
+    "g007/queries": "a0025",
+    "g007/candidates": "a0026",
+    "g007/blocks": "a0027",
+    "g007/input_reps": "a0028",
+    "g008/sampled_query_blocks": "a0000",
+    "g008/query_weights": "a0022",
+    "g008/four_arm_p25": "a0031",
+    "g008/four_arm_p10": "a0032",
+    "g008/queries": "a0025",
+    "g008/candidates": "a0026",
+    "g008/blocks": "a0027",
+    "g008/input_reps": "a0028",
+    "g009/sampled_query_blocks": "a0000",
+    "g009/query_weights": "a0022",
+    "g009/joint_bootstrap_p25": "a0033",
+    "g009/joint_bootstrap_p10": "a0034",
+    "g009/four_arm_p25": "a0035",
+    "g009/four_arm_p10": "a0036",
+    "g009/queries": "a0025",
+    "g009/candidates": "a0037",
+    "g009/blocks": "a0027",
+    "g009/input_reps": "a0028",
+    "g010/sampled_query_blocks": "a0000",
+    "g010/query_weights": "a0022",
+    "g010/six_arm_p25": "a0038",
+    "g010/six_arm_p10": "a0039",
+    "g010/queries": "a0025",
+    "g010/candidates": "a0026",
+    "g010/blocks": "a0027",
+    "g010/input_reps": "a0028",
+    "g011/sampled_query_blocks": "a0000",
+    "g011/query_weights": "a0022",
+    "g011/six_arm_p25": "a0040",
+    "g011/six_arm_p10": "a0041",
+    "g011/queries": "a0025",
+    "g011/candidates": "a0026",
+    "g011/blocks": "a0027",
+    "g011/input_reps": "a0028",
+    "g012/sampled_query_blocks": "a0000",
+    "g012/query_weights": "a0022",
+    "g012/six_arm_p25": "a0042",
+    "g012/six_arm_p10": "a0043",
+    "g012/queries": "a0025",
+    "g012/candidates": "a0026",
+    "g012/blocks": "a0027",
+    "g012/input_reps": "a0028",
+    "g013/sampled_query_blocks": "a0000",
+    "g013/query_weights": "a0022",
+    "g013/six_arm_p25": "a0044",
+    "g013/six_arm_p10": "a0045",
+    "g013/queries": "a0025",
+    "g013/candidates": "a0026",
+    "g013/blocks": "a0027",
+    "g013/input_reps": "a0028",
+    "g014/sampled_query_blocks": "a0000",
+    "g014/query_weights": "a0022",
+    "g014/six_arm_p25": "a0046",
+    "g014/six_arm_p10": "a0047",
+    "g014/queries": "a0025",
+    "g014/candidates": "a0026",
+    "g014/blocks": "a0027",
+    "g014/input_reps": "a0028",
+    "g015/sampled_query_blocks": "a0000",
+    "g015/query_weights": "a0022",
+    "g015/six_arm_p25": "a0048",
+    "g015/six_arm_p10": "a0049",
+    "g015/queries": "a0025",
+    "g015/candidates": "a0026",
+    "g015/blocks": "a0027",
+    "g015/input_reps": "a0028",
+    "g016/sampled_query_blocks": "a0000",
+    "g016/query_weights": "a0008",
+    "g016/four_arm_p25": "a0050",
+    "g016/four_arm_p10": "a0051",
+    "g016/queries": "a0011",
+    "g016/candidates": "a0012",
+    "g016/blocks": "a0013",
+    "g016/input_reps": "a0007",
+    "g017/sampled_query_blocks": "a0000",
+    "g017/query_weights": "a0001",
+    "g017/four_arm_p25": "a0052",
+    "g017/four_arm_p10": "a0053",
+    "g017/queries": "a0004",
+    "g017/candidates": "a0005",
+    "g017/blocks": "a0006",
+    "g017/input_reps": "a0007",
+    "g018/state_0_sampled_blocks": "a0014",
+    "g018/state_0_query_weights": "a0015",
+    "g018/state_1_sampled_blocks": "a0016",
+    "g018/state_1_query_weights": "a0017",
+    "g019/sampled_query_blocks": "a0000",
+    "g019/query_weights": "a0022",
+    "g019/six_arm_p25": "a0054",
+    "g019/six_arm_p10": "a0055",
+    "g019/queries": "a0025",
+    "g019/candidates": "a0056",
+    "g019/blocks": "a0027",
+    "g019/input_reps": "a0028",
+    "g020/sampled_query_blocks": "a0000",
+    "g020/query_weights": "a0022",
+    "g020/six_arm_p25": "a0057",
+    "g020/six_arm_p10": "a0058",
+    "g020/queries": "a0025",
+    "g020/candidates": "a0056",
+    "g020/blocks": "a0027",
+    "g020/input_reps": "a0028",
+    "g021/sampled_query_blocks": "a0000",
+    "g021/query_weights": "a0022",
+    "g021/six_arm_p25": "a0059",
+    "g021/six_arm_p10": "a0060",
+    "g021/queries": "a0025",
+    "g021/candidates": "a0056",
+    "g021/blocks": "a0027",
+    "g021/input_reps": "a0028"
+  },
+  "groups": [
+    {
+      "id": "g000",
+      "kind": "task",
+      "original_report": "original_reports/g000.json",
+      "report_sha256": "e9308b5c4038c39ae172dff04f1ee2f5a76d19d92f59edcf9a8a08e1b45a7c75",
+      "source_path": "package_v130/extracted/PertRank_FR_D4_Rest_primary_20261014/resume_20261014/evaluation/D4_Rest/evaluation_report.json",
+      "source_arrays_sha256": "1051a9b605db8362097cb9844eedf1307bc8ac75434ec4c3b70560b0afb7246f",
+      "source_arrays_path": "package_v130/extracted/PertRank_FR_D4_Rest_primary_20261014/resume_20261014/evaluation/D4_Rest/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "six_arm_p25",
+        "six_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "cf4a53d851f7a052502e8166a43c4c2f6ef684ca809d7161ff2e65a2a3429555",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "9f981474d8f1f9347fd0e01298fb988e5c0507a37c8aff5f61b62e815a38acc1",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": "D4_Rest",
+      "depth": null,
+      "curve": null,
+      "config_id": "rank100_default_lasso",
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "fr",
+        "fr_euclidean",
+        "fr_pertrank"
+      ],
+      "source_compact_sha256": "747f7b0e6031b447913fb2aee1a11c15d673a95d5870f4513a27e1c4bf7aae78",
+      "extra_reports": [
+        {
+          "path": "original_reports/g000_requested_extra_contrasts.json",
+          "sha256": "2d2d8b1470a864e90e8df4af62a93859ab32d1069ea5460c6afb8b7ecf490b55",
+          "source_path": "package_v130/extracted/PertRank_FR_D4_Rest_primary_20261014/resume_20261014/evaluation/D4_Rest/requested_extra_contrasts.json"
+        }
+      ]
+    },
+    {
+      "id": "g001",
+      "kind": "task",
+      "original_report": "original_reports/g001.json",
+      "report_sha256": "04a4747ff178d81494a8abeef07ffaee45a2ccbecafc68e433ad2d51f1c182e6",
+      "source_path": "package_v130/extracted/PertRank_FR_D4_Stim8hr_primary_20261014/resume_20261014/evaluation/D4_Stim8hr/evaluation_report.json",
+      "source_arrays_sha256": "695162a4421f2b7849355fba6cc0ffee3a0934a1e9366849e47ad544cb58a53f",
+      "source_arrays_path": "package_v130/extracted/PertRank_FR_D4_Stim8hr_primary_20261014/resume_20261014/evaluation/D4_Stim8hr/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "six_arm_p25",
+        "six_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "7658cea6e296c7decd172bc721d79926e3b2c5571355848f43ef25c4c5d4507c",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "e5be1ea5bd4cc91e12582d7136138f8a1ce9bcc492a170df735b776520318e9f",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": "D4_Stim8hr",
+      "depth": null,
+      "curve": null,
+      "config_id": "rank100_default_lasso",
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "fr",
+        "fr_euclidean",
+        "fr_pertrank"
+      ],
+      "source_compact_sha256": "f1543c708bdbc0bcbce3a9b1fa284259aacac583277fc7cd52b6c21c681f48b4",
+      "extra_reports": [
+        {
+          "path": "original_reports/g001_requested_extra_contrasts.json",
+          "sha256": "361b37ba5e985452747e117a1cf881e1c42c368704eee8229a1fdfa2db1dad03",
+          "source_path": "package_v130/extracted/PertRank_FR_D4_Stim8hr_primary_20261014/resume_20261014/evaluation/D4_Stim8hr/requested_extra_contrasts.json"
+        }
+      ]
+    },
+    {
+      "id": "g002",
+      "kind": "equal_state",
+      "original_report": "original_reports/g002.json",
+      "report_sha256": "46c264be0db448946ce3150ae4821d29b4da293a0e892a13b7490dd2feba3efc",
+      "source_path": "package_v130/extracted/PertRank_FR_D4_Pooled_Summary_20261014/resume_20261014/evaluation/equal_state/equal_state_report.json",
+      "source_arrays_sha256": "29c665ff28b93b49848f6eb2f60613a97b7c2d6e48f8c6f4858455ca8e352974",
+      "source_arrays_path": "package_v130/extracted/PertRank_FR_D4_Pooled_Summary_20261014/resume_20261014/evaluation/equal_state/equal_state_arrays.npz",
+      "array_keys": [
+        "state_0_sampled_blocks",
+        "state_0_query_weights",
+        "state_1_sampled_blocks",
+        "state_1_query_weights"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "state_0_query_bootstrap_p25": {
+          "array_sha256": "287e21cf5dd76df862f2138074d892f54b3cad9d3173998d94e46aba2b8c3230",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "state_1_query_bootstrap_p25": {
+          "array_sha256": "0c3e397e54004ef467ecdbd47c588146a1e82154e376a8255e9354d6c30c9627",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "equal_state_bootstrap_p25": {
+          "array_sha256": "fa97d164a174babf2cf4449720ed6e826e5bd38ba22a577ecd4be612f70fa4bb",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "state_0_query_bootstrap_p10": {
+          "array_sha256": "cda5b1a0dba4ec59c69ae658eff1419d175bbbd438e8c2e664bd7aa4b9e0040e",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "state_1_query_bootstrap_p10": {
+          "array_sha256": "1afec40bd9d9b43ff6a4af11751306fa569cfa19846df9820aee1112c90550b3",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "equal_state_bootstrap_p10": {
+          "array_sha256": "179c3d5fddaf1fc1f4cb6da05aaa7b9d32b9a8a3393973efc09318de69e55ae3",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": null,
+      "depth": null,
+      "curve": null,
+      "config_id": "rank100_default_lasso",
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "fr",
+        "fr_euclidean",
+        "fr_pertrank"
+      ],
+      "source_compact_sha256": null,
+      "extra_reports": [
+        {
+          "path": "original_reports/g002_requested_extra_contrasts.json",
+          "sha256": "2cbb07b01b00917eaf1cceeaeace21a1757ff082d882e856d092998095300d04",
+          "source_path": "package_v130/extracted/PertRank_FR_D4_Pooled_Summary_20261014/resume_20261014/evaluation/equal_state/requested_extra_contrasts.json"
+        }
+      ],
+      "state_report_sha256": [
+        "e9308b5c4038c39ae172dff04f1ee2f5a76d19d92f59edcf9a8a08e1b45a7c75",
+        "04a4747ff178d81494a8abeef07ffaee45a2ccbecafc68e433ad2d51f1c182e6"
+      ],
+      "states": [
+        "g000",
+        "g001"
+      ]
+    },
+    {
+      "id": "g003",
+      "kind": "task",
+      "original_report": "original_reports/g003.json",
+      "report_sha256": "67f2da4d6ae3bd13362802ca01f1378d520ddcb3fcf91d3b9db58d12d532bb0f",
+      "source_path": "package_v130/extracted/FR_K300_D4_Rest_Scoring_20261014/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/evaluation_report.json",
+      "source_arrays_sha256": "cab324179b442eb7067de53cc264247fd4701f33053bcf140ae9957d1d9120d7",
+      "source_arrays_path": "package_v130/extracted/FR_K300_D4_Rest_Scoring_20261014/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "six_arm_p25",
+        "six_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "7f982ab340deca95bbb545ca455e7ede13569cc9b3f3741c7a4fa2d5ef93bb57",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "8b9b5ff09cd78d161acebae82643e95b1cf1a7b26db5cb604e2ad4ce144e46af",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": "D4_Rest",
+      "depth": null,
+      "curve": null,
+      "config_id": "rank300_default_lasso",
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "fr",
+        "fr_euclidean",
+        "fr_pertrank"
+      ],
+      "source_compact_sha256": "04b92ffd6b94a647ec8385cd8347e5791bbcbddf7fdebcf3496be93ef104086d",
+      "extra_reports": []
+    },
+    {
+      "id": "g004",
+      "kind": "task",
+      "original_report": "original_reports/g004.json",
+      "report_sha256": "af7a173b8a0e4b4bd058d1ff25b614b6a29b27f3362661debb7ec1c5984b129d",
+      "source_path": "package_v130/extracted/FR_K300_D4_Stim8hr_Scoring_20261014/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/evaluation_report.json",
+      "source_arrays_sha256": "687a31b62a069118c5e73c991d9ca87ab7e716f9a84322b3bec3d88924226b69",
+      "source_arrays_path": "package_v130/extracted/FR_K300_D4_Stim8hr_Scoring_20261014/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "six_arm_p25",
+        "six_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "54436abc7d2f83fb45eb99f538bf074ffb3f3ce6bdc9bda2cb0caede9243e658",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "5af889feaca6e6c0fe3fed7d0f0e4f57ddbb205f139cd8907e28a4980f586dcd",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": "D4_Stim8hr",
+      "depth": null,
+      "curve": null,
+      "config_id": "rank300_default_lasso",
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "fr",
+        "fr_euclidean",
+        "fr_pertrank"
+      ],
+      "source_compact_sha256": "d872d7113c7313fa99f7788dbba9434aafd70ecbba4bb1aca813c6ed1878a0d7",
+      "extra_reports": []
+    },
+    {
+      "id": "g005",
+      "kind": "equal_state",
+      "original_report": "original_reports/g005.json",
+      "report_sha256": "8a3a88e579d4cc76d34bf116da0e0f175caa4199ce411b6d2ba9ad6cd9018780",
+      "source_path": "package_v130/extracted/FR_K300_D4_Combined_Scoring_20261014/resume_20261014/expanded_rank_transfer/evaluation/equal_state_a138dbae-36d3-4bb3-bf39-0d4f9dd5e17c/equal_state_report.json",
+      "source_arrays_sha256": "05846c04c7a46db85750da4521fb72b08a7088f116921faa1f9ced9273a337a7",
+      "source_arrays_path": "package_v130/extracted/FR_K300_D4_Combined_Scoring_20261014/resume_20261014/expanded_rank_transfer/evaluation/equal_state_a138dbae-36d3-4bb3-bf39-0d4f9dd5e17c/equal_state_arrays.npz",
+      "array_keys": [
+        "state_0_sampled_blocks",
+        "state_0_query_weights",
+        "state_1_sampled_blocks",
+        "state_1_query_weights"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "state_0_query_bootstrap_p25": {
+          "array_sha256": "9f4cc784544d88d3ed3841df9a54d001320b43b534ceafe45cede25e369e0f90",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "state_1_query_bootstrap_p25": {
+          "array_sha256": "770a92e7164dc1f677d0636ae8e31e5e4f522dd4d855c2399a6e719e6eaedd1a",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "equal_state_bootstrap_p25": {
+          "array_sha256": "2836bad856a0dcb37c363899899550520b27cbebb95f4ec0682d56044632033e",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "state_0_query_bootstrap_p10": {
+          "array_sha256": "281a92df9e0ac086c78173dfddcd5aec3a8933cc708627d05c5b800c4d4210b8",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "state_1_query_bootstrap_p10": {
+          "array_sha256": "c4f4530b147d66569b5cad135ae05fbc34f3147618f2ac843245af2d06c9eaca",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "equal_state_bootstrap_p10": {
+          "array_sha256": "b3fb1578a5c5781fb1dbcdb10fb812a62061ef0ada319dfb637a74aeb7821b5f",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": null,
+      "depth": null,
+      "curve": null,
+      "config_id": "rank300_default_lasso",
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "fr",
+        "fr_euclidean",
+        "fr_pertrank"
+      ],
+      "source_compact_sha256": null,
+      "extra_reports": [],
+      "state_report_sha256": [
+        "67f2da4d6ae3bd13362802ca01f1378d520ddcb3fcf91d3b9db58d12d532bb0f",
+        "af7a173b8a0e4b4bd058d1ff25b614b6a29b27f3362661debb7ec1c5984b129d"
+      ],
+      "states": [
+        "g003",
+        "g004"
+      ]
+    },
+    {
+      "id": "g006",
+      "kind": "task",
+      "original_report": "original_reports/g006.json",
+      "report_sha256": "c0c71e697b8d8e3652b859cf958d2f30e0e3e87699aaef0c164bc5af0ab216e9",
+      "source_path": "package_v130/extracted/ASH_Posthoc_Depth20_Scoring_20261014/ash_work/resume_20261014/depth_evaluation/n20/evaluation_report.json",
+      "source_arrays_sha256": "e84780108cb97061874282c6de4447d3c43a5ff10f98847db1c681f143ddf4b6",
+      "source_arrays_path": "package_v130/extracted/ASH_Posthoc_Depth20_Scoring_20261014/ash_work/resume_20261014/depth_evaluation/n20/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "four_arm_p25",
+        "four_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "caf68376fb79cfbb4f2baeefc9b6fb192212ceb8d5c166000bcda59334b7d66a",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "d1a34d66ea466897647515a9b88237ea2ed6080b92efb27059cfc18dea449bb7",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": null,
+      "depth": 20,
+      "curve": null,
+      "config_id": "default_uniform_fdr",
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "ash"
+      ],
+      "source_compact_sha256": "72dd357ebda9f04cbdfc45dbeb2305e4016e041b83baeae3bddc42bc46933336",
+      "extra_reports": []
+    },
+    {
+      "id": "g007",
+      "kind": "task",
+      "original_report": "original_reports/g007.json",
+      "report_sha256": "b2cf41b6413fce208b8ce67a99e37779662b6f9fd2abbda0bcdee5d5eb6a830d",
+      "source_path": "package_v130/extracted/ASH_Posthoc_Depth50_Scoring_20261014/ash_work/resume_20261014/depth_evaluation/n50/evaluation_report.json",
+      "source_arrays_sha256": "5b499ddd8a5249376d641182b035efb969fae17d9958308d337950b90a069303",
+      "source_arrays_path": "package_v130/extracted/ASH_Posthoc_Depth50_Scoring_20261014/ash_work/resume_20261014/depth_evaluation/n50/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "four_arm_p25",
+        "four_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "6669a5d35b04d17b9824e30f9d26524f952b099b95825362acaa0d00f926f43d",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "2c1ab95e0ae3455c8f7db6251aa24b57a01315f5eeb6733fc49ef0e14a914b64",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": null,
+      "depth": 50,
+      "curve": null,
+      "config_id": "default_uniform_fdr",
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "ash"
+      ],
+      "source_compact_sha256": "5e393c7039a6e5e89063fa552681939a8857149bef9f65b31849ddcff25ad859",
+      "extra_reports": []
+    },
+    {
+      "id": "g008",
+      "kind": "task",
+      "original_report": "original_reports/g008.json",
+      "report_sha256": "ae51f3803d26f433c3de3381b91ea676096cdc658909b510f4c1c5e8299170d7",
+      "source_path": "package_v130/extracted/ASH_Posthoc_Depth100_Scoring_20261014/ash_work/resume_20261014/depth_evaluation/n100/evaluation_report.json",
+      "source_arrays_sha256": "163f84a48ddfc81ba6ab3406b51267fb906fe9b82a75304841867520f339c68e",
+      "source_arrays_path": "package_v130/extracted/ASH_Posthoc_Depth100_Scoring_20261014/ash_work/resume_20261014/depth_evaluation/n100/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "four_arm_p25",
+        "four_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "0066cc79e07f243e70ce77b66115085e552ad55caa9035cd895250ff42cc78f4",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "b94cc82a0434718f646bc906ab7423cef032fa2f736535115157f5cd97a91897",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": null,
+      "depth": 100,
+      "curve": null,
+      "config_id": "default_uniform_fdr",
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "ash"
+      ],
+      "source_compact_sha256": "22c71db745eaf89de2982f6179ca1e07a9c62bad07e6818afce91df0a28743e5",
+      "extra_reports": []
+    },
+    {
+      "id": "g009",
+      "kind": "task",
+      "original_report": "original_reports/g009.json",
+      "report_sha256": "4f9107191ec070d3fc740ae57cd84563f9bb996930f7d6af8ddab3851037e1be",
+      "source_path": "package_v140/extracted/ASH_D4_Stim_Independent_Scoring_20261014/ash_work/resume_20261014/D4_scores/D4_Stim8hr_independent/evaluation_report.json",
+      "source_arrays_sha256": "8833ea88feff1f8343581e3c61f84f161d1e9433315233f4e7236aebac5b7910",
+      "source_arrays_path": "package_v140/extracted/ASH_D4_Stim_Independent_Scoring_20261014/ash_work/resume_20261014/D4_scores/D4_Stim8hr_independent/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "joint_bootstrap_p25",
+        "joint_bootstrap_p10",
+        "four_arm_p25",
+        "four_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "71e0f4e4946df9e034dc0fba3b20ce386cdf68cfd92c1666c988bd1d8f3b37ec",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "4fcbf5de658006c67d4d74b106d2f406412bb92e3de464c2eb536948d000414b",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": "D4_Stim8hr",
+      "depth": null,
+      "curve": null,
+      "config_id": "default_uniform_fdr",
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "ash"
+      ],
+      "source_compact_sha256": "91d3538367b55b52626b3bc26a450c4578f293347d34099088c75298d4947c0b",
+      "extra_reports": []
+    },
+    {
+      "id": "g010",
+      "kind": "task",
+      "original_report": "original_reports/g010.json",
+      "report_sha256": "3e2e8ccaca62486d124d9ad2f5469028ce3de266195771ccd81367589b3bd438",
+      "source_path": "package_v140/extracted/FR_Depth_Six_Verified_Scores_20261014/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n100/evaluation_report.json",
+      "source_arrays_sha256": "744a95fc3d737e720a3a20262970c6f7d1121fd60ca69971d94e32301ba91d0c",
+      "source_arrays_path": "package_v140/extracted/FR_Depth_Six_Verified_Scores_20261014/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n100/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "six_arm_p25",
+        "six_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "bd563504a83c03e954f8ed7c78ba727fc1143969f24aaecf3277ceebf2a054a8",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "1b2372d81baeb66e0f30fbef79ac11f97aff9ab1d25b1088324a64a7b866d3fe",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": "D3_Rest",
+      "depth": 100,
+      "curve": "A_native_default_penalty",
+      "config_id": null,
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "fr",
+        "fr_euclidean",
+        "fr_pertrank"
+      ],
+      "source_compact_sha256": "22984d806e41c5e1de5b737d7d0224c097e8869462243df535296deb606a0110",
+      "extra_reports": [
+        {
+          "path": "original_reports/g010_descriptive_relative_to_raw.json",
+          "sha256": "29180c5c397421e61502fe8d6fc1235a4aa90010979c37ed1064f81b3bbfbf6e",
+          "source_path": "package_v140/extracted/FR_Depth_Six_Verified_Scores_20261014/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n100/descriptive_relative_to_raw.json"
+        }
+      ]
+    },
+    {
+      "id": "g011",
+      "kind": "task",
+      "original_report": "original_reports/g011.json",
+      "report_sha256": "e072bff9f4def8ad8d6e97cd4ffdfd5850741a39a8fa49f20dac2239ae966666",
+      "source_path": "package_v140/extracted/FR_Depth_Six_Verified_Scores_20261014/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n20/evaluation_report.json",
+      "source_arrays_sha256": "37173cee2d61e5bb55a9ea1c9de65bc46ce9240ab23d6280941a43c2a72211fa",
+      "source_arrays_path": "package_v140/extracted/FR_Depth_Six_Verified_Scores_20261014/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n20/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "six_arm_p25",
+        "six_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "e5b949eaea52c7b7eb42d228a59b310cfa3a21a2a43d7413c8a304cbc1b0c9eb",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "4687edad8dec1da00938c2a62fc9e804d932157f0a55c8e96137ca979056636a",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": "D3_Rest",
+      "depth": 20,
+      "curve": "A_native_default_penalty",
+      "config_id": null,
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "fr",
+        "fr_euclidean",
+        "fr_pertrank"
+      ],
+      "source_compact_sha256": "1e7a5746c21914ad4d417f35799b651e8fee9be99410f9b65d2a4a030e8d1d7c",
+      "extra_reports": [
+        {
+          "path": "original_reports/g011_descriptive_relative_to_raw.json",
+          "sha256": "fba0a9090a7c9a61f86fe0b76e528b8923ac75c8c4d1e8aba157fc4562c46234",
+          "source_path": "package_v140/extracted/FR_Depth_Six_Verified_Scores_20261014/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n20/descriptive_relative_to_raw.json"
+        }
+      ]
+    },
+    {
+      "id": "g012",
+      "kind": "task",
+      "original_report": "original_reports/g012.json",
+      "report_sha256": "2af87462d324fa0a5eb1cac3b45ccaeb822ae50bbe589910a359c3dc79a8290a",
+      "source_path": "package_v140/extracted/FR_Depth_Six_Verified_Scores_20261014/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n50/evaluation_report.json",
+      "source_arrays_sha256": "2de0eca71de66902c4ada30078d257fa115124c1e6725ccaf70fca572abe19b2",
+      "source_arrays_path": "package_v140/extracted/FR_Depth_Six_Verified_Scores_20261014/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n50/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "six_arm_p25",
+        "six_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "bd38e99f77610c3a574c837c5a9732e4aff6f99f976d1d2fd48f423685f474dd",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "388ffc940dd183bac72b328e5926c77d73dd6ea7c7dd50cebe6fda162534f703",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": "D3_Rest",
+      "depth": 50,
+      "curve": "A_native_default_penalty",
+      "config_id": null,
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "fr",
+        "fr_euclidean",
+        "fr_pertrank"
+      ],
+      "source_compact_sha256": "1e298230759f042ce7bee229ceec2b0a0742f9f1e9b8fae77a89e94cee65dec8",
+      "extra_reports": [
+        {
+          "path": "original_reports/g012_descriptive_relative_to_raw.json",
+          "sha256": "e33e4dcb3adb95b1839998eb464cb9b6f09fe72a60799a898a2313e7498ed528",
+          "source_path": "package_v140/extracted/FR_Depth_Six_Verified_Scores_20261014/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n50/descriptive_relative_to_raw.json"
+        }
+      ]
+    },
+    {
+      "id": "g013",
+      "kind": "task",
+      "original_report": "original_reports/g013.json",
+      "report_sha256": "a060d244a9a6cc9a8fe0ef4b5ab4526963a3caa8f504eb1a2c14dcb7c79992f3",
+      "source_path": "package_v140/extracted/FR_Depth_Six_Verified_Scores_20261014/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n100/evaluation_report.json",
+      "source_arrays_sha256": "1a9b89192431e5207a0158e2d9ff1ae47bb1574ce4da593aa06ea51f9fe9ef29",
+      "source_arrays_path": "package_v140/extracted/FR_Depth_Six_Verified_Scores_20261014/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n100/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "six_arm_p25",
+        "six_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "10c64d1fc0e4721183ca590675015321131e38c5e4446a61890f747199625efc",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "2c52b9008e4f3961bdb5d7f4bc42318a1804cdb691e72b44b7aac795cc7a488d",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": "D3_Rest",
+      "depth": 100,
+      "curve": "B_effective_penalty_sensitivity",
+      "config_id": null,
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "fr",
+        "fr_euclidean",
+        "fr_pertrank"
+      ],
+      "source_compact_sha256": "31bf041994dc47c0031085a52918534ea40118c744d96c376533031832cf88f5",
+      "extra_reports": [
+        {
+          "path": "original_reports/g013_descriptive_relative_to_raw.json",
+          "sha256": "1f01a6f6c6d4531a37b7986a1ec007718932605f8fdb72b87c5a009ddfd51316",
+          "source_path": "package_v140/extracted/FR_Depth_Six_Verified_Scores_20261014/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n100/descriptive_relative_to_raw.json"
+        }
+      ]
+    },
+    {
+      "id": "g014",
+      "kind": "task",
+      "original_report": "original_reports/g014.json",
+      "report_sha256": "94366f13b19ec013ac61539cfd9fb1bca3ef5e8ec5f8bcf73e79d2ec8f39f40d",
+      "source_path": "package_v140/extracted/FR_Depth_Six_Verified_Scores_20261014/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n20/evaluation_report.json",
+      "source_arrays_sha256": "b67abe8679c7b0c6c897814263705e46b6d89c4062a88350f9268b24ec526dcc",
+      "source_arrays_path": "package_v140/extracted/FR_Depth_Six_Verified_Scores_20261014/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n20/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "six_arm_p25",
+        "six_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "be509adc35347b794bce793fb3ad672eedf29d8f9e6e11a7308a8d57226246ee",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "a7aca1ea584799291804f5e53febbff6620dbc27378dddcdbfa538b3cf88bd6c",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": "D3_Rest",
+      "depth": 20,
+      "curve": "B_effective_penalty_sensitivity",
+      "config_id": null,
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "fr",
+        "fr_euclidean",
+        "fr_pertrank"
+      ],
+      "source_compact_sha256": "34c9ffa371a24c8c7ed6e7a4b71e170ab9988da4df7264c091ccece43797d8a1",
+      "extra_reports": [
+        {
+          "path": "original_reports/g014_descriptive_relative_to_raw.json",
+          "sha256": "5787b989cf380b3bfb2749b4752ef6104eb4933ff3d9586c932120a0b6fcfbde",
+          "source_path": "package_v140/extracted/FR_Depth_Six_Verified_Scores_20261014/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n20/descriptive_relative_to_raw.json"
+        }
+      ]
+    },
+    {
+      "id": "g015",
+      "kind": "task",
+      "original_report": "original_reports/g015.json",
+      "report_sha256": "76450248a41b2778da4f3ad0fed2afdad1dd8f87e56c9719164df41d44473946",
+      "source_path": "package_v140/extracted/FR_Depth_Six_Verified_Scores_20261014/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n50/evaluation_report.json",
+      "source_arrays_sha256": "403e2cb6ca0947905c8a6fdda60523e22ae3007a08541e72a3521efce79e6a44",
+      "source_arrays_path": "package_v140/extracted/FR_Depth_Six_Verified_Scores_20261014/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n50/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "six_arm_p25",
+        "six_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "85fa7e4fe14e9955366cff7af719a5bf3287fb2d5ba85e97ee1c3ace44ec3347",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "bc4fc33662796c798a40649ab76abd78a05c5d6fc92885a72bb4e8a71d3c6651",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": "D3_Rest",
+      "depth": 50,
+      "curve": "B_effective_penalty_sensitivity",
+      "config_id": null,
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "fr",
+        "fr_euclidean",
+        "fr_pertrank"
+      ],
+      "source_compact_sha256": "44055ab36bd6f29bb0a63117644e1ff3ebd71ce6102b3e3310597ab0dccb44ee",
+      "extra_reports": [
+        {
+          "path": "original_reports/g015_descriptive_relative_to_raw.json",
+          "sha256": "2b778d0b894aca11701c21a7d71c6161fb5587e65f0494ce1e1da2488116045c",
+          "source_path": "package_v140/extracted/FR_Depth_Six_Verified_Scores_20261014/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n50/descriptive_relative_to_raw.json"
+        }
+      ]
+    },
+    {
+      "id": "g016",
+      "kind": "task",
+      "original_report": "original_reports/g016.json",
+      "report_sha256": "9cd5a42329fc7b610272684512eed31567748169c4069e1c4fd942a19339745d",
+      "source_path": "package_v140/extracted/ASH_D4_Stim_5rep_Scoring_20261014/ash_work/resume_20261014/D4_scores/D4_Stim8hr_pooled/evaluation_report.json",
+      "source_arrays_sha256": "ce7f88ee1c12031ad8b046975e549e33f43da62ffa87cb50b922e90f9b0b145c",
+      "source_arrays_path": "package_v140/extracted/ASH_D4_Stim_5rep_Scoring_20261014/ash_work/resume_20261014/D4_scores/D4_Stim8hr_pooled/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "four_arm_p25",
+        "four_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "7bb31fb54f39ef9f87ed47e1459607eed103b5c49ddaa96c964463da307b10de",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "b983e71cd669696fa88cac406b6d12e730285fca35613f2329d7d3888b305a64",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": "D4_Stim8hr",
+      "depth": null,
+      "curve": null,
+      "config_id": "default_uniform_fdr",
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "ash"
+      ],
+      "source_compact_sha256": "f12c4a5dae4b1ff8a546aedd227f6219a78bbbb74052aebf74038fe16b9d0ac1",
+      "extra_reports": []
+    },
+    {
+      "id": "g017",
+      "kind": "task",
+      "original_report": "original_reports/g017.json",
+      "report_sha256": "90ef19233b0f19bbe09e49effa9728d5b51e7c909adedc6367be11dc5368f3d9",
+      "source_path": "package_v140/extracted/ASH_D4_Rest_5rep_Scoring_20261014/ash_work/resume_20261014/D4_scores/D4_Rest_pooled/evaluation_report.json",
+      "source_arrays_sha256": "be9c7531e8774852da9ac5f6cf7d0d3325017cf87142c70816ae1117ce34ec46",
+      "source_arrays_path": "package_v140/extracted/ASH_D4_Rest_5rep_Scoring_20261014/ash_work/resume_20261014/D4_scores/D4_Rest_pooled/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "four_arm_p25",
+        "four_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "521960c1531aac0a46a9863c6c17102773953935f82d5e828fe11481a798999e",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "2c3a84b77ea05af1e95f5a76660b44245a3f4e56cb253e8e49c6c588eff6bec6",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": "D4_Rest",
+      "depth": null,
+      "curve": null,
+      "config_id": "default_uniform_fdr",
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "ash"
+      ],
+      "source_compact_sha256": "ade3f8cf8b32331badd001747d6b388d58b6b78a6c5b453484f171a7613f7e60",
+      "extra_reports": []
+    },
+    {
+      "id": "g018",
+      "kind": "equal_state",
+      "original_report": "original_reports/g018.json",
+      "report_sha256": "c168264e36cb0bc4029ce254d25d8945a9b72e83de0f53a2a684ac09d61cb033",
+      "source_path": "package_v140/extracted/ASH_D4_Pooled_Combined_Scoring_20261014/ash_work/resume_20261014/D4_scores/D4_pooled_combined/equal_state_report.json",
+      "source_arrays_sha256": "863a1bb42a09c5115bbbc8549d2b62bc7d7e0cbe225bd03352f5274a71dace95",
+      "source_arrays_path": "package_v140/extracted/ASH_D4_Pooled_Combined_Scoring_20261014/ash_work/resume_20261014/D4_scores/D4_pooled_combined/equal_state_arrays.npz",
+      "array_keys": [
+        "state_0_sampled_blocks",
+        "state_0_query_weights",
+        "state_1_sampled_blocks",
+        "state_1_query_weights"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "state_0_query_bootstrap_p25": {
+          "array_sha256": "038786b18d6b9829c5e43b629c72c2a2f372436d02ba291ac38ce1bd4462e087",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "state_1_query_bootstrap_p25": {
+          "array_sha256": "b29b57190f6f2cc7c0e5c98f816461bd30c8decc4f0bc818933fc4a4c64470e4",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "equal_state_bootstrap_p25": {
+          "array_sha256": "877f21f5155f33c3195d0d84bcc673744f347f5c467cb684e23952a87e30a6f7",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "state_0_query_bootstrap_p10": {
+          "array_sha256": "8b32da2796b71a547eeafd1c2c717354a8884b7b56fc7719abd68cc2cc3671bf",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "state_1_query_bootstrap_p10": {
+          "array_sha256": "0e94958fad9115cc21c03af81d72d39acdcef774c5af780e3bccf53f8e9a3653",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "equal_state_bootstrap_p10": {
+          "array_sha256": "8711c223cbbf3b848f286db16b491892b3e1a765118c2ce174a9da36f682a093",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": null,
+      "depth": null,
+      "curve": null,
+      "config_id": "default_uniform_fdr",
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "ash"
+      ],
+      "source_compact_sha256": null,
+      "extra_reports": [],
+      "state_report_sha256": [
+        "90ef19233b0f19bbe09e49effa9728d5b51e7c909adedc6367be11dc5368f3d9",
+        "9cd5a42329fc7b610272684512eed31567748169c4069e1c4fd942a19339745d"
+      ],
+      "states": [
+        "g017",
+        "g016"
+      ]
+    },
+    {
+      "id": "g019",
+      "kind": "task",
+      "original_report": "original_reports/g019.json",
+      "report_sha256": "c80da27bcba861c7732ec27ff1d83daa808350962f44150037984d1974d29b91",
+      "source_path": "package_v140/extracted/D3_RANK_BOUNDARY_COMPLETE_20261014T010048Z_d7ed80e1cd6641cbb0f691ab46b3221f/resume_20261014/atomic_runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/rank_boundary_evaluation/rank150_default_lasso/evaluation_report.json",
+      "source_arrays_sha256": "211f4dd800ebfe9376addf7adecb28d71a75628f12a96cb52cba841ca8e74bd8",
+      "source_arrays_path": "package_v140/extracted/D3_RANK_BOUNDARY_COMPLETE_20261014T010048Z_d7ed80e1cd6641cbb0f691ab46b3221f/resume_20261014/atomic_runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/rank_boundary_evaluation/rank150_default_lasso/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "six_arm_p25",
+        "six_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "eea22bea39606d65531e57665f7c0bb82eae6b96c7095baea84aab4eaa9075e5",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "d5d9f2405f20788605d06ffade7ff4d8ba0dce0c905a25e8e24c5f6a42a6bb3b",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": "D3_Rest",
+      "depth": null,
+      "curve": null,
+      "config_id": "rank150_default_lasso",
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "fr",
+        "fr_euclidean",
+        "fr_pertrank"
+      ],
+      "source_compact_sha256": "b9f5b51eceef8fd92ccd8af3b86c06a7ffd7cbbebf09241a0d1c2ce6f852413f",
+      "extra_reports": []
+    },
+    {
+      "id": "g020",
+      "kind": "task",
+      "original_report": "original_reports/g020.json",
+      "report_sha256": "b68848b16313372b7de9840f561ed40a13afe36b7702ffda317aa6f75a92e369",
+      "source_path": "package_v140/extracted/D3_RANK_BOUNDARY_COMPLETE_20261014T010048Z_d7ed80e1cd6641cbb0f691ab46b3221f/resume_20261014/atomic_runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/rank_boundary_evaluation/rank300_default_lasso/evaluation_report.json",
+      "source_arrays_sha256": "b8f4d0d380c6f9047394036466bad0a06cb72f92426bfd500205fb31dcba4bed",
+      "source_arrays_path": "package_v140/extracted/D3_RANK_BOUNDARY_COMPLETE_20261014T010048Z_d7ed80e1cd6641cbb0f691ab46b3221f/resume_20261014/atomic_runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/rank_boundary_evaluation/rank300_default_lasso/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "six_arm_p25",
+        "six_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "0bd7e44c2c1e7dc008bc02df58755f5d1fe4535a8d92acdd5d022856c73b6053",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "8e14043e8a59f0ac4935185912d744183f08159a6ed32b84aa5d82063fe6417f",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": "D3_Rest",
+      "depth": null,
+      "curve": null,
+      "config_id": "rank300_default_lasso",
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "fr",
+        "fr_euclidean",
+        "fr_pertrank"
+      ],
+      "source_compact_sha256": "f04f49b13e1896d188b3cc5e8b35698e4e2bfe95401d90e3e6557696e1d46d19",
+      "extra_reports": []
+    },
+    {
+      "id": "g021",
+      "kind": "task",
+      "original_report": "original_reports/g021.json",
+      "report_sha256": "1b31eac0a5444b25dee5ef1abf3899fb3f7500bdc16edcd5f5c7f43242af2d07",
+      "source_path": "package_v140/extracted/D3_RANK_BOUNDARY_COMPLETE_20261014T010048Z_d7ed80e1cd6641cbb0f691ab46b3221f/resume_20261014/atomic_runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/rank_boundary_evaluation/rank200_default_lasso/evaluation_report.json",
+      "source_arrays_sha256": "680971d2f927a945ca18573bd8f17ce5dcba5d40f8e3579a9cdfdf985172ef1a",
+      "source_arrays_path": "package_v140/extracted/D3_RANK_BOUNDARY_COMPLETE_20261014T010048Z_d7ed80e1cd6641cbb0f691ab46b3221f/resume_20261014/atomic_runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/rank_boundary_evaluation/rank200_default_lasso/evaluation_arrays.npz",
+      "array_keys": [
+        "sampled_query_blocks",
+        "query_weights",
+        "six_arm_p25",
+        "six_arm_p10",
+        "queries",
+        "candidates",
+        "blocks",
+        "input_reps"
+      ],
+      "reconstructible_bootstrap_arrays": {
+        "query_only_bootstrap_p25": {
+          "array_sha256": "3b7867d9680eca9621c59c5fa02fd9a29c8b2377a6125296bc4d92e79755417c",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        },
+        "query_only_bootstrap_p10": {
+          "array_sha256": "59f9346139ebae3c420c8d72bbef26b461acc61cedf5a6f1b925c2a3cca92dd3",
+          "max_abs_tolerance_for_numeric_reconstruction": 1e-12
+        }
+      },
+      "dataset": "D3_Rest",
+      "depth": null,
+      "curve": null,
+      "config_id": "rank200_default_lasso",
+      "arms": [
+        "raw",
+        "euclidean",
+        "pertrank",
+        "fr",
+        "fr_euclidean",
+        "fr_pertrank"
+      ],
+      "source_compact_sha256": "bc08fc1b9c06fcbef8e26d556e74d1546513167df8ac99a1d275fdf4ba31cac7",
+      "extra_reports": []
+    }
+  ],
+  "packaging_scope": "Existing score arrays/axes only. No expression arrays read; no scores, bootstrap statistics, or models recomputed during build.",
+  "lossless_identity_check": {
+    "unique_arrays": 61,
+    "logical_arrays": 166,
+    "all_array_dtype_shape_bytes_identical": true
+  },
+  "omitted_arrays": "Only query/equal-state bootstrap means reproducible exactly within 1e-12 from saved scores and saved weights. Joint reference-bootstrap scores retained."
+}

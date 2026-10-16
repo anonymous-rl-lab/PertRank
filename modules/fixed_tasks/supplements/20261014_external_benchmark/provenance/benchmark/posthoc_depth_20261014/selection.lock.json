@@ -1,0 +1,17 @@
+{
+  "task": "D3_Rest_POSTHOC_DEPTH_250",
+  "selection_sha256": "e57d3af7b8fa498af7a03170230a7df7978bd397caa8a526513ef1fb98dca8ca",
+  "source_identity": {
+    "url": "https://genome-scale-tcell-perturb-seq.s3.amazonaws.com/marson2025_data/D3_Rest.assigned_guide.h5ad",
+    "etag": "\"15a555deb21fe5cb8e0579344a86e52a-8235\"",
+    "size": 138149946574
+  },
+  "parent_original_selection_sha256": "d515ab21d2aeff4efec128686961d314c995f04efcdb787364057949aac56b78",
+  "metadata_proposal_sha256": "180d78e13b4792e9d180b8e2c5a304ccae771221a2525d32bb59991048ac9be4",
+  "roles_allowed": [
+    "NTC_input",
+    "A_input"
+  ],
+  "authorization": "Root authorized 2026-10-14 after metadata-only plan; same existing per-target input positions100:200, no new targets or reference",
+  "no_D1_D2_Stim": true
+}

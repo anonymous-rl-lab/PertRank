@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "all_new_native_outputs_untouched": true,
+  "checks": {
+    "D3_Rest": {
+      "all_four_means_match": true,
+      "query_interval_maxabs": {
+        "W1_minus_raw": 2.7755575615628914e-17,
+        "W1_minus_w0y": 3.469446951953614e-18
+      }
+    },
+    "D1_Rest": {
+      "all_four_means_match": true,
+      "query_interval_maxabs": {
+        "W1_minus_raw": 5.551115123125783e-17,
+        "W1_minus_w0y": 2.7755575615628914e-17
+      }
+    },
+    "D2_Rest": {
+      "all_four_means_match": true,
+      "query_interval_maxabs": {
+        "W1_minus_raw": 1.6653345369377348e-16,
+        "W1_minus_w0y": 1.734723475976807e-18
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+measure,arm,value
+P@25 gain over Euclidean,PertRank,0.0356
+P@25 gain over Euclidean,Deep energy,0.0528
+Pearson correlation,Euclidean,0.619
+Pearson correlation,PertRank,0.736
+Spearman correlation,Euclidean,0.529
+Spearman correlation,PertRank,0.668

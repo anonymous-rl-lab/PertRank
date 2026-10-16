@@ -1,0 +1,92 @@
+{
+  "status": "FROZEN_POSTHOC_DIAGNOSTIC_BEFORE_NEW_DEPTH_PAYLOAD",
+  "freeze_date_utc": "2026-10-14T00:21:38Z",
+  "scope": "Separate reduced-target depth diagnostic, not full1200-target main benchmark; absolute score levels must not be compared directly to main table",
+  "depths": [
+    20,
+    50,
+    100
+  ],
+  "target_count": 250,
+  "target_selection": {
+    "salt": "PertRank_FR_ASH_D3_depth_20261014|target|",
+    "algorithm": "SHA256(salt + stable target_id), take 250 smallest hexadecimal hashes; preserve original target order thereafter",
+    "effect_or_score_data_used": false
+  },
+  "cell_roles": {
+    "same_2000_original_NTC": true,
+    "n20": "original R20rep0 positions100:120",
+    "n50": "positions100:150",
+    "n100": "positions100:200",
+    "planning_untouched": "positions0:100",
+    "reference_untouched": "same existing positions200:300 reference effects",
+    "nested": true,
+    "one_chain_only": true
+  },
+  "fixed_axes": {
+    "genes": 18130,
+    "original_weight_genes": 13390,
+    "all_queries": 593,
+    "responsive_queries": 300,
+    "query_blocks_and_terciles": "original frozen definitions",
+    "reference": "original D3 truth restricted to the same250 target rows"
+  },
+  "weights": {
+    "must_recompute_by_n": true,
+    "geometry": "Original historical control center, scale, control trace, fixed first5 covariance axes, eigenvalues and projected control center",
+    "w0": "clip(1-(vb/n+trC/(G*2000))/max(m2,1e-300),0,1)",
+    "wM": "clip(1-(vb/n+trC/(G*2000)-0.9*sum(pv/n+lam/2000)/G)/max(m2-0.9*sum(pm^2)/G,1e-300),0,1)",
+    "n20_audit": "match original frozen R20rep0 weights for the selected250 targets",
+    "standard_errors": "sqrt(target_var/n+actual_original_control_var/2000), ddof1"
+  },
+  "FR": {
+    "rank": 100,
+    "spca_alpha": 0.1,
+    "spca_iterations": 50,
+    "seed": 20261012,
+    "full_gene_raw_input": true,
+    "curves": {
+      "A_native_default_penalty": {
+        "lasso_alpha_by_depth": {
+          "20": 0.0001,
+          "50": 0.0001,
+          "100": 0.0001
+        },
+        "role": "primary depth diagnostic"
+      },
+      "B_effective_penalty_sensitivity": {
+        "frozen_effective_alpha": 0.13,
+        "rationale": "Original complete D3n20 alpha*N/n = 0.0001*26000/20 =0.13",
+        "formula": "lasso_alpha=0.13*n/(250*n+2000)",
+        "lasso_alpha_by_depth": {
+          "20": 0.00037142857142857143,
+          "50": 0.0004482758620689655,
+          "100": 0.0004814814814814815
+        },
+        "role": "prespecified effective-penalty sensitivity; cannot replace primaryA"
+      }
+    }
+  },
+  "ASH": {
+    "prior": "default",
+    "mixcompdist": "uniform",
+    "control_method": "fdr",
+    "keep_original_frozen_parameters": true
+  },
+  "execution": {
+    "max_fit_seconds": 900,
+    "memory_limit_GiB": 8,
+    "heavy_memory_lock": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/heavy_memory.lock",
+    "transport_workers": 32,
+    "single_source_channel": "unchanged existing proxy and source identity",
+    "smoke_required_before_extract": true,
+    "order": "after D4 pooled raw recovery; no D1/D2 expression read"
+  },
+  "inference_limits": "Single nested cell chain, same donor, no independent100-cell replicate; original five20 groups cannot become five independent100 groups; paired query-block summaries describe query heterogeneity, not independent donor replication",
+  "files_sha256": {
+    "selection.npz": "e57d3af7b8fa498af7a03170230a7df7978bd397caa8a526513ef1fb98dca8ca",
+    "selection.lock.json": "bd15199f9397f9fa7658afc2cdcc9f33d0743c31611e202e47f2caf5c2a246d3",
+    "metadata_proposal.npz": "180d78e13b4792e9d180b8e2c5a304ccae771221a2525d32bb59991048ac9be4"
+  },
+  "main_protocol_modified": false
+}

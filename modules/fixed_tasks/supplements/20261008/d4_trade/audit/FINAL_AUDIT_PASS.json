@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "all_2945_D4_fits": true,
+  "all_NTC_selected_rows": true,
+  "all_D4_query_scores_and_summaries_replayed": true,
+  "network_reads": 0,
+  "model_refits": 0,
+  "seconds": 23.96164986599979,
+  "stages": {
+    "selection": {
+      "path": "selection_final.log",
+      "sha256": "08d174b51485ecbbcb764d6b5a4855957b7e2f720b68d1a9be8d7fdd4f426102"
+    },
+    "statistics": {
+      "path": "statistics_final.log",
+      "sha256": "bb4209ecedbdf30b78d4aeb26672105c8def26d68a247776d52d3db0adb83c7c"
+    },
+    "d4_checkpoints": {
+      "path": "d4_checkpoints_final.log",
+      "sha256": "8373c70281af72cc83e55eea7f6422683ac153856d3d1970fae8ef7a4b9c2d28"
+    },
+    "d4_mixtures": {
+      "path": "d4_mixtures_final.log",
+      "sha256": "604cce4fc7687f8c67283802c57a7afcc89aca6a07807f637af0f6fc1bddbd1a"
+    },
+    "ntc_empirical": {
+      "path": "ntc_empirical_final.log",
+      "sha256": "04bcf8fc1516fa237c85af8ab8b36d2f3b1ad77048d20192848f40f43bb633a7"
+    },
+    "d4_scores": {
+      "path": "d4_scores_final.log",
+      "sha256": "f7cbb1319289afc38c523e38be121ec5fd2634425e322eec0f5d51b23d6c591e"
+    }
+  },
+  "auditor_source_sha256": {
+    "audit_selection.py": "a0b95af343db01790f5d73421d5a42d96a513b1a783bf8518ea8148d049ab96f",
+    "run_final_audit.py": "237e90fbf464e6b8963226e0bc4bdc46cb3f67678dec586735373b95bc03f1e8",
+    "audit_ntc_empirical.py": "d3b393451ee18c5f35a267bf3e5de3fef03b1daf9dd72ee074f2d78231afd880",
+    "audit_ntc_statistics.py": "df119edfdc293dbf7b5fe488e43910bc8e2deb39c811a29b795b8de4d5236c0d",
+    "audit_d4_checkpoints.py": "4fccf1c7dace225a6c0c32bca99b19ad83387e8291441a54c4217ea593e6ad8e",
+    "audit_d4_mixtures.R": "0473691ba418f94e731a372f8abfa8b0ecbc774f63609a2b3e2937af578d9552",
+    "replay_ntc_compact.py": "b35de248f83798a70ec43df347af32db2d126282822a09fc3b24a6a4a15b020d"
+  },
+  "audited_D4_weight_sha256": "ed7f24f3162e4cac2c0a761ce40ba71676ff6053cdc00348c54a182ba55206a6",
+  "audited_NTC_result_sha256": "7e66be1e23f5e5a26a2e7ec30c0e855ee033e8f67f727fa3ecf64977186f308d",
+  "audited_D4_scoring_complete_sha256": "c5363b11ced37aabb3dfcbc9ea867b34c3b041ea7a36d09421b0ccf400fc4e85"
+}

@@ -1,0 +1,58 @@
+{
+  "trade_smoke_eps": {
+    "metadata_sha256": {
+      "COMPLETE.json": "2abd92771f3ad388ba5d2ae41646d8d014b0f499078aef7cd2c44ae580b55b4a",
+      "STARTED.json": "160c1ec7ec7db3ef7d81c7b29b3161d0fa6ddf500aa7e25e5642db7a5ef67282",
+      "result_weights.tsv": "cd751c0251f9fc81b9b62532573f646148ae9d4466cb0c80719a2e565850b37e",
+      "result_runtime.json": "7afe7cb139bfa63ceda52cf42cac5a1529c86aca393f70d4672d7ba3db27f434",
+      "result_mixtures.json": "a9971e2a2ae55c8fe7e1e8c25eca67faa5b8fec1c54fced3982afabd87ee7704",
+      "INDEPENDENT_VALIDATION.json": "78020418a00044cf41e1712819398e4a687d8b1ca9b7c0e3c5296923ae6acb86",
+      "result_mixtures.rds": "79a37f79f48d7b0d93b40529353e0f17ec7d19b0245ac3538debb86f6e3d95b7",
+      "run.log": "d1aa67b73285e461ec95a073a856bd793eb5db71a9c3f38e0e457d7bd1b616a7"
+    },
+    "archived_under": "paper_v20_20261011/work_robustness/numerical_smoke/trade_smoke_eps"
+  },
+  "trade_smoke": {
+    "metadata_sha256": {
+      "STARTED.json": "5695eb8a9c37c4a5934a6a3b6eeab1ee220e580376d1a205284909ec0ca41db6",
+      "run.log": "13cf7133dc47e987a4ac23c83fcb47ed84f12414bf28bc45bb4ee12c4907065a",
+      "FAILED.json": "9465db51b396f7855eb1ed01909c674be6de3e35cac2ae79758afb8370f68c68"
+    },
+    "archived_under": "paper_v20_20261011/work_robustness/numerical_smoke/trade_smoke"
+  },
+  "trade_smoke_eps_success": {
+    "metadata_sha256": {
+      "COMPLETE.json": "036d271f85c7f49a91710539f9b39631d8443309e88caa5430270369ef6b2d7d",
+      "STARTED.json": "87aca1b04be8013e04fa261e9e406a5910a6bdd131ef41ceb36dda8fe5b9c6bd",
+      "result_weights.tsv": "30a2893843b384315c75a716dd4e179a5a147230e3302fda67690bfc03b63047",
+      "result_runtime.json": "7afe7cb139bfa63ceda52cf42cac5a1529c86aca393f70d4672d7ba3db27f434",
+      "result_mixtures.json": "a80b8f16075322d1ca6fd59c6e37528f7f0c29a6972e06dc3021353a221b3197",
+      "INDEPENDENT_VALIDATION.json": "2ae1525aa05cb545e7f271d8999d642491a41f24613977929b8601505bcf6940",
+      "result_mixtures.rds": "5101954b47e8c5088438401f4eb9946837f067dbcd3994661a25d8c49dd76417",
+      "run.log": "d1aa67b73285e461ec95a073a856bd793eb5db71a9c3f38e0e457d7bd1b616a7"
+    },
+    "archived_under": "paper_v20_20261011/work_robustness/numerical_smoke/trade_smoke_eps_success"
+  },
+  "trade_smoke_rem": {
+    "metadata_sha256": {
+      "STARTED.json": "73fc64154776aa9734203cfe491226c9fd2f41a4bad6a09ee4cf6f03d1c084df",
+      "run.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "archived_under": "paper_v20_20261011/work_robustness/numerical_smoke/trade_smoke_rem"
+  },
+  "trade_smoke_squarem": {
+    "metadata_sha256": {
+      "STARTED.json": "92a8cabfafd6d4e5c9a336d7ae7e8bdac87ebf155c54d73705d46a4a7602959e",
+      "run.log": "6ea646a46e8db50af5bb498af2ce03db53168d23dd8f2df1228fd5572a9ded32",
+      "FAILED.json": "b447ad3ae1d2f48741350e94819952018fd28dc9b600e9727a75c29bbf053613"
+    },
+    "archived_under": "paper_v20_20261011/work_robustness/numerical_smoke/trade_smoke_squarem"
+  },
+  "trade_smoke_cxx_checked": {
+    "metadata_sha256": {
+      "STARTED.json": "c1e1d93bf546417e2f98149e0628e79cef89931bc79197395d7d2c47fa4a75e8",
+      "run.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "archived_under": "paper_v20_20261011/work_robustness/numerical_smoke/trade_smoke_cxx_checked"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "status": "SMOKE_PASS",
+  "rows": [
+    33,
+    3577,
+    397812,
+    400548,
+    792704,
+    834044,
+    1189133,
+    1262491,
+    1598342,
+    1637924,
+    1979508,
+    2095739,
+    2386892,
+    2447104,
+    2778073,
+    2778450
+  ],
+  "n_rows": 16,
+  "source_identity": {
+    "url": "https://genome-scale-tcell-perturb-seq.s3.amazonaws.com/marson2025_data/D3_Rest.assigned_guide.h5ad",
+    "etag": "\"15a555deb21fe5cb8e0579344a86e52a-8235\"",
+    "size": 138149946574
+  },
+  "selected_source_rows_exact_vs_h5py": 3,
+  "rows_exact_vs_archived_raw": 8,
+  "raw_total_UMI_exact": true,
+  "source_gene_axis_exact": true,
+  "payload_seconds": 6.965895175933838,
+  "payload_rows_per_second": 2.296905077652861,
+  "projected_23840_row_payload_seconds": 10379.183812141418,
+  "payload_network_calls": 32,
+  "payload_network_bytes": 716124,
+  "elapsed_total_seconds": 17.22294783592224,
+  "raw_sha256": "11c180dd998d66cb07550afb2413046ce614a9ae783ff43ed8ec07fd074c8712",
+  "selection_sha256": "4b8b04555a9402dcb90e7a6495a1915e71c3826cc471f03cfe297edbb83fe5be",
+  "reader_sha256": "68ed49183aa9ed51668b8d3677f98bc84d116bb61c4e415807fc8df8d6262624"
+}

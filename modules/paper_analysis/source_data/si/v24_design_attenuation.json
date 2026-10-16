@@ -1,0 +1,30 @@
+{
+  "source": "Supplementary Information v24, SN3.1; displayed table precision",
+  "identity": "Post hoc descriptive derivation from existing results; no new experiment",
+  "csv_sha256": "8ed8c8d67ffb9cc20432e68b54043d664dd19853fa0ae1670b506e4fc92c2f5f",
+  "settings": 14,
+  "experimental_sources": [
+    "T cells (D3 and D1)",
+    "KOLF iPSCs",
+    "Replogle K562",
+    "Orion HCT116"
+  ],
+  "absolute_cost_definition": "P@K(w_M y) minus P@K(w_M A y)",
+  "relative_cost_definition": "absolute cost divided by P@K(w_M y)",
+  "spearman_absolute_cost": 0.9472527472527472,
+  "spearman_relative_cost": 0.621978021978022,
+  "uncertainty": "No p value or interval. Settings are correlated across sources, panels and depths.",
+  "d3_responsive_20_example": {
+    "precision": "derived from displayed scores and contrasts in SN3.1 and SN3.2",
+    "w0_y": 0.2758,
+    "wM_y": 0.3114,
+    "w0_Ay": 0.2553,
+    "wM_Ay": 0.2853,
+    "geometry_at_y": 0.0356,
+    "geometry_at_Ay": 0.03,
+    "readout_at_w0": -0.0205,
+    "readout_at_wM": -0.0261,
+    "difference_in_differences": -0.0056,
+    "uncertainty": "Point contrast only; no interaction interval or test."
+  }
+}

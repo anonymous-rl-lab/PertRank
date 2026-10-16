@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "algorithm": "sha256",
+  "description": "Root MANIFEST_SHA256.json contains every release payload file including nested manifests. Exclude only the root manifest itself and root .git metadata (not release payload). Reject symlinks in the payload. files maps relative POSIX path to either SHA256 string or object with sha256 and optional bytes.",
+  "example": {
+    "schema_version": 1,
+    "algorithm": "sha256",
+    "files": {
+      "VERSION": {
+        "sha256": "<64 lowercase hexadecimal characters>",
+        "bytes": 6
+      }
+    }
+  }
+}

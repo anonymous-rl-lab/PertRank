@@ -1,0 +1,23 @@
+{
+  "identity": "descriptive equal-source summary; donors share queries and external reference, no pooled CI",
+  "donors": [
+    "D3_Rest",
+    "D1_Rest",
+    "D2_Rest"
+  ],
+  "responsive": {
+    "W1_minus_w0y": 0.024330908479597815,
+    "W1_minus_raw": 0.03790495020933996,
+    "w0y_minus_raw": 0.013574041729742156
+  },
+  "terciles": {
+    "W1_minus_w0y": 0.004244358489653716,
+    "W1_minus_raw": 0.023138620383283237,
+    "w0y_minus_raw": 0.018894261893629527
+  },
+  "external": {
+    "W1_minus_w0y": 0.0037699139081450697,
+    "W1_minus_raw": 0.029633127201768666,
+    "w0y_minus_raw": 0.025863213293623604
+  }
+}

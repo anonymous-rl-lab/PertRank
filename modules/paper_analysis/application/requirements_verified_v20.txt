@@ -1,0 +1,6 @@
+# Exactly verified v20 application environment; Python 3.12
+numpy==2.3.5
+scipy==1.18.1
+anndata==0.13.4
+h5py==3.16.0
+pandas==3.0.6

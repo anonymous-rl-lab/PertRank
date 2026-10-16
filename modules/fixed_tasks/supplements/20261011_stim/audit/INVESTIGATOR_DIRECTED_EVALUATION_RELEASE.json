@@ -1,0 +1,23 @@
+{
+  "status": "INVESTIGATOR_DIRECTED_EVALUATION_AUTHORIZED",
+  "condition": "D4_Stim8hr",
+  "recorded_utc": "2026-10-11T10:56:07.383271+00:00",
+  "protocol_status": "investigator_directed_deviation",
+  "independent_e4_registration_verified": false,
+  "investigator_instruction_receipt": {
+    "path": "registration/INVESTIGATOR_DIRECTED_EVALUATION_RECEIPT.json",
+    "sha256": "9af093c1dd79fcab538c4fba4546268f184c26f2e2b2aaa45500743fb45674c4"
+  },
+  "prediction_lock_manifest": {
+    "path": "output/prediction_lock_export/PREDICTION_LOCK_MANIFEST.json",
+    "sha256": "1e9facee2137befd6e354055d10e96ba5d64da7545d7fcaf7d22181359913bc8"
+  },
+  "evaluation_source_manifest": {
+    "path": "evaluation_investigator_directed/SOURCE_MANIFEST.json",
+    "sha256": "dcd11a01ebdc03b40c0004ea5e0d4bb198936d72be3a0c9926cd32d7424ea337"
+  },
+  "evaluation_audit": {
+    "path": "audit/EVALUATION_INVESTIGATOR_DIRECTED_INDEPENDENT_REVIEW.json",
+    "sha256": "df23957700566cdc6dcf7ae5aa8db349f34c6aa3bda1ea50fdc10f67f8fa99c4"
+  }
+}

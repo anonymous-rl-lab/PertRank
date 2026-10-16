@@ -1,0 +1,10 @@
+include README.md READ_FIRST.zh.md LICENSE CHANGELOG.md INTEGRATION.md requirements-tested.txt
+recursive-include docs *.md
+recursive-include tutorials *.ipynb *.py *.md *.html
+recursive-include tests *.py *.json
+recursive-include scripts *.py *.md
+recursive-include src/pertrank/data *.npz *.json *.csv *.md
+exclude tutorials/outputs/*
+recursive-include validation *.json *.txt *.log
+recursive-include provenance *.json *.txt
+global-exclude __pycache__ *.py[cod]

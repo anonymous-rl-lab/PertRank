@@ -1,0 +1,30 @@
+{
+  "identity": "Readout-score to comparison reconstruction; no raw-count preprocessing or MAGeCK fitting.",
+  "guide_rows": 4330,
+  "guide_source": "results/candidate_and_control_guide_effects.tsv.gz",
+  "guide_source_sha256": "c3eb7267e786f8334c35ea62e02fae6cb5022afbacd37ecd54626f7ea510622e",
+  "guide_scalar_definition": "Two donor log2((high+1)/(low+1)) ratios; eligibility, guide ordering, guide/target/library IDs fixed from the previous completed analysis. Raw counts are omitted.",
+  "primary_adaptation": "Replace raw-count/sequence-overlap preprocessing with archived ratio/eligibility inputs; omit count-total display columns. Target medians, nomination comparison, paired 20000 guide/control bootstrap with seed20261011 and scientific scorecards retained.",
+  "original_primary_script_sha256": "dc2d9ff6ebe1ebdbf5a7a127c9df7ad24246dcd6b6ba0a4fbd99d8f133f5d7ef",
+  "secondary_script_unchanged_sha256": "03156bc37c32529f04c01a7cfec6283e6b5b0c9bff3bfe07aa9843a72f72a41a",
+  "mageck_projection": {
+    "independent": {
+      "original_rows": 18930,
+      "retained_rows": 557,
+      "original_sha256": "4ee12290cf2fcc490a248ee5ec14fdfc0e82f5bacf9902930c5fcb2f40ff829f",
+      "retained_sha256": "54d5e273cfbae8f00b05890d780baf3321e7baa0220a0fed6206ce915967ebcd",
+      "rule": "All available candidate-mapped genes; only the six columns consumed by the fixed scoring script. No refitting or favorable candidate filtering."
+    },
+    "all_guides": {
+      "original_rows": 18939,
+      "retained_rows": 558,
+      "original_sha256": "0bd68e513e37b55ec3d35ef7c78e2183eb271b6746aba55335869a37939eb936",
+      "retained_sha256": "865dbded7f84adec8eb6045ba1e0639a6fba780f010dcdce9866cd2431886618",
+      "rule": "All available candidate-mapped genes; only the six columns consumed by the fixed scoring script. No refitting or favorable candidate filtering."
+    }
+  },
+  "all_candidate_pool": 561,
+  "query": "IL2",
+  "fixed_lists": 10,
+  "list_length": 25
+}

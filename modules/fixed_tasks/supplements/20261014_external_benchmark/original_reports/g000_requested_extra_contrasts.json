@@ -1,0 +1,50 @@
+{
+  "status": "COMPLETE",
+  "label": "Post hoc descriptive contrast, excluded from original five-contrast family",
+  "interpretation": "No preregistered superiority, noninferiority or equivalence test is claimed.",
+  "source": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evaluation/D4_Rest/evaluation_report.json",
+  "source_sha256": "e9308b5c4038c39ae172dff04f1ee2f5a76d19d92f59edcf9a8a08e1b45a7c75",
+  "arrays_sha256": "1051a9b605db8362097cb9844eedf1307bc8ac75434ec4c3b70560b0afb7246f",
+  "results": {
+    "25": {
+      "pertrank_minus_fr_pertrank": {
+        "point": 0.001997538023888523,
+        "input_rep_points": [
+          -0.0006384633413364371,
+          0.006579231804732855,
+          0.007403716459796095,
+          -0.0008634775677510698,
+          -0.002493317235998549
+        ],
+        "query_only_95_interval": [
+          -0.0053087937153184234,
+          0.014216749479633426
+        ],
+        "query_only_99_interval": [
+          -0.007124238616838365,
+          0.02003966407939659
+        ]
+      }
+    },
+    "10": {
+      "pertrank_minus_fr_pertrank": {
+        "point": 0.014726367269965623,
+        "input_rep_points": [
+          0.01932566010683512,
+          0.01336498737517916,
+          0.016433110933635087,
+          0.010793675910823697,
+          0.013714402023354832
+        ],
+        "query_only_95_interval": [
+          0.003879544213005509,
+          0.03149177137145016
+        ],
+        "query_only_99_interval": [
+          0.002081360357406234,
+          0.038578964195329905
+        ]
+      }
+    }
+  }
+}

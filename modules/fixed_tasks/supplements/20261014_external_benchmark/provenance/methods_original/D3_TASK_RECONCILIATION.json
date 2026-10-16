@@ -1,0 +1,367 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-14T00:23:13.600160+00:00",
+  "scope": "D3 Rest only; archived input/statistic/ranking reconciliation, no model refit, no raw expression reread, no D1/D2 Stim access",
+  "conclusion": "For raw, Euclidean and PertRank P@25, the numerical discrepancy is explained by using original input repetition 0 rather than the equal average of all five original disjoint 20-cell input repetitions. Candidate/query/weight-gene axes, controls, reference, weights and scoring rule are unchanged. Tiny effect reconstruction and floating-point scoring-order differences were measured and do not materially alter scores.",
+  "task": {
+    "targets": 1200,
+    "responsive_queries": 300,
+    "query_blocks": 30,
+    "union_queries": 593,
+    "full_gene_axis": 18130,
+    "weight_genes": 13390,
+    "controls": 2000,
+    "target_cells_per_input": 20,
+    "original_input_repetitions": 5,
+    "native_development_input_repetitions": [
+      0
+    ],
+    "normalization": "log1p(count * 8261.5 / cell_total), fixed historical control centering for the three scalar arms",
+    "scale": 8261.5,
+    "reference": "Same archived 100-cell target mean minus archived reference-control mean; full reference content hash matches original Core compaction provenance",
+    "reference_cell_role": "original deterministic target positions [200:300], from frozen R20 selection code; input cells are [100:200] split into five groups",
+    "input_rep0_cell_role": "original deterministic target positions [100:120]",
+    "weight_parameters": {
+      "directions": 5,
+      "beta": 0.9
+    },
+    "self_target_exclusion": true,
+    "ties": "exact independent boundary membership in each signed list",
+    "P25": "mean of positive/negative top-25 reference overlap, then 300 queries; main-text result also averages five input groups"
+  },
+  "scores": {
+    "raw": {
+      "per_rep_P25": [
+        0.27714277780097235,
+        0.2748390572520519,
+        0.28772709733333085,
+        0.2869450232221972,
+        0.2887045700789177
+      ],
+      "five_rep_average_P25": 0.2830717051374939,
+      "native_benchmark_rep0_P25": 0.27714277780097235,
+      "five_rep_minus_rep0": 0.005928927336521561
+    },
+    "Euclidean": {
+      "per_rep_P25": [
+        0.2762491901095954,
+        0.2707659073968113,
+        0.2837725916123073,
+        0.2860704669170791,
+        0.2919860153849901
+      ],
+      "five_rep_average_P25": 0.28176883428415667,
+      "native_benchmark_rep0_P25": 0.2762491901095954,
+      "five_rep_minus_rep0": 0.0055196441745612446
+    },
+    "PertRank": {
+      "per_rep_P25": [
+        0.3051450054054106,
+        0.30790909294689345,
+        0.31155821907507353,
+        0.3210797419332507,
+        0.3198022234100098
+      ],
+      "five_rep_average_P25": 0.31309885655412767,
+      "native_benchmark_rep0_P25": 0.3051450054054106,
+      "five_rep_minus_rep0": 0.00795385114871705
+    }
+  },
+  "checks": {
+    "candidate_ids_task_context": {
+      "pass": true,
+      "shape": [
+        1200
+      ]
+    },
+    "candidate_ids_task_core": {
+      "pass": true,
+      "shape": [
+        1200
+      ]
+    },
+    "candidate_ids_task_weight_statistics": {
+      "pass": true,
+      "shape": [
+        1200
+      ]
+    },
+    "union_query_ids_task_core": {
+      "pass": true,
+      "shape": [
+        593
+      ]
+    },
+    "union_query_ids_task_context": {
+      "pass": true,
+      "shape": [
+        593
+      ]
+    },
+    "full_gene_axis_task_context": {
+      "pass": true,
+      "shape": [
+        18130
+      ]
+    },
+    "full_gene_axis_task_selection": {
+      "pass": true,
+      "shape": [
+        18130
+      ]
+    },
+    "weight_gene_axis_context_statistics": {
+      "pass": true,
+      "shape": [
+        13390
+      ]
+    },
+    "responsive_positions_task_core": {
+      "pass": true,
+      "shape": [
+        300
+      ]
+    },
+    "responsive_positions_task_context": {
+      "pass": true,
+      "shape": [
+        300
+      ]
+    },
+    "tercile_positions_task_core": {
+      "pass": true,
+      "shape": [
+        300
+      ]
+    },
+    "tercile_positions_task_context": {
+      "pass": true,
+      "shape": [
+        300
+      ]
+    },
+    "blocks_responsive_task_core": {
+      "pass": true,
+      "shape": [
+        300
+      ]
+    },
+    "blocks_responsive_task_context": {
+      "pass": true,
+      "shape": [
+        300
+      ]
+    },
+    "blocks_terciles_task_core": {
+      "pass": true,
+      "shape": [
+        300
+      ]
+    },
+    "blocks_terciles_task_context": {
+      "pass": true,
+      "shape": [
+        300
+      ]
+    },
+    "input_cells_selection_original_r20": {
+      "pass": true,
+      "shape": [
+        1200,
+        5,
+        20
+      ]
+    },
+    "input_cells_selection_core": {
+      "pass": true,
+      "shape": [
+        1200,
+        5,
+        20
+      ]
+    },
+    "input_controls_same_set": {
+      "pass": true,
+      "shape": [
+        2000
+      ]
+    },
+    "rep0_target_cells": {
+      "pass": true,
+      "shape": [
+        1200,
+        20
+      ]
+    },
+    "reference_full_effects": {
+      "pass": true,
+      "shape": [
+        593,
+        1200
+      ]
+    },
+    "r20_context_file_identical": {
+      "pass": true
+    },
+    "reference_full_content_matches_core_compaction_provenance": {
+      "pass": true,
+      "array_sha256": "7bf082e099148629f4b73975276b03427aeafcfed4a2a7f743e46c5e723ac81b"
+    },
+    "Euclidean_all_five_weights_from_original_statistics": {
+      "pass": true,
+      "shape": [
+        5,
+        1200
+      ]
+    },
+    "Euclidean_rep0_weight_task_core": {
+      "pass": true,
+      "shape": [
+        1200
+      ]
+    },
+    "PertRank_all_five_weights_from_original_statistics": {
+      "pass": true,
+      "shape": [
+        5,
+        1200
+      ]
+    },
+    "PertRank_rep0_weight_task_core": {
+      "pass": true,
+      "shape": [
+        1200
+      ]
+    },
+    "all_five_three_arm_query_direction_scores_vs_archived": {
+      "pass": true,
+      "shape": [
+        3,
+        5,
+        300,
+        2
+      ]
+    },
+    "rep0_effect_support": {
+      "pass": true,
+      "maximum_absolute_error": 2.220446049250313e-15,
+      "bitwise_identical": false
+    },
+    "self_target_exclusion_indices": {
+      "pass": true,
+      "shape": [
+        300
+      ]
+    },
+    "rep0_full_effect_original_scorer_vs_compact_scores": {
+      "pass": true,
+      "shape": [
+        3,
+        300,
+        2
+      ]
+    },
+    "native_benchmark_scorer_rep0_vs_original": {
+      "pass": true,
+      "max_abs_query_score_error": 1.1102230246251565e-16,
+      "reason_for_nonbitwise_arithmetic_if_any": "einsum sums signed overlaps then divides by 2K; original sums per sign then averages"
+    }
+  },
+  "limitations": [
+    "This reconciliation covers the three common scalar arms and their P@25 point estimates. Native FR uses its own official preprocessing (including TP10K), so identical method preprocessing is not claimed.",
+    "The native FR fitting axis can differ from the 13,390-gene PertRank weighting axis; this does not explain the scalar-arm score discrepancy.",
+    "Five-group scores were recomputed from the original lossless fixed-arm top-25 compact representation, not by fetching all raw cells again.",
+    "Historical and new bootstrap implementations/seeds differ; equality of confidence intervals is not claimed.",
+    "No manuscript content was edited."
+  ],
+  "sources": {
+    "resume_20261014/reconcile_d3_tasks.py": {
+      "sha256": "0eadda478a5e713fdd796c9cd8ccf0d9cc0e75e7a32707da71f13842e7aacd52",
+      "bytes": 12772
+    },
+    "pooled_data/D3_Rest/frozen_task.npz": {
+      "sha256": "b39c8361168c70e363b4453ac4523ba6a30727b24d53dea3e6e0f020c794b730",
+      "bytes": 8218723
+    },
+    "pooled_data/D3_Rest/selection.npz": {
+      "sha256": "4fbd305116589ea88689e3d7ed3323e45e91ff9ce7748fce5b0d4995e03e5892",
+      "bytes": 731424
+    },
+    "pooled_data/D3_Rest/selection.lock.json": {
+      "sha256": "e1394e5fadee3005f1df366bd4c34236355866c5fe6152a1fd013d983212aff9",
+      "bytes": 740
+    },
+    "pooled_data/D3_Rest/r20_context.npz": {
+      "sha256": "1cfba4f2de1f9cd594f37e591556bb6779d6c86ba47fbdfee5b8df04efde9129",
+      "bytes": 12136078
+    },
+    "inputs/D3_Rest/rep0/INPUT_AUDIT.json": {
+      "sha256": "46df62b60bb403e9fc97ec602b84f7a79608a9d25e18e2c18cedd00bff0cb26f",
+      "bytes": 1526
+    },
+    "inputs/D3_Rest/rep0/axes.npz": {
+      "sha256": "752d9f232b7c4a2ad2dd53f4fcbe12d03f0efb5c3ee40e1cc0a0102096aabb59",
+      "bytes": 12922423
+    },
+    "pooled_data/export_d3.py": {
+      "sha256": "edfa6a8851b0ac3414c9a738dac31ac21ef1c07385e262b227be840284702829",
+      "bytes": 6068
+    },
+    "evaluation/evaluate_six_arm.py": {
+      "sha256": "4acd8cebce3162b25874518942dbed4fae8299cd8fead65da2ef1b789dd95237",
+      "bytes": 27499
+    },
+    "independent/execution/evaluate_independent.py": {
+      "sha256": "21cfcbe73404d7560922069de96b25fa706ac75900afb014a8aed1880fbc05cf",
+      "bytes": 24611
+    },
+    "archives/R20_Frozen_Design_20261006/research_round_20261006/new_experiment/selection/D3_Rest/context.npz": {
+      "sha256": "1cfba4f2de1f9cd594f37e591556bb6779d6c86ba47fbdfee5b8df04efde9129",
+      "bytes": 12136078
+    },
+    "archives/R20_Frozen_Design_20261006/research_round_20261006/new_experiment/selection/D3_Rest/selection.npz": {
+      "sha256": "d515ab21d2aeff4efec128686961d314c995f04efcdb787364057949aac56b78",
+      "bytes": 2114914
+    },
+    "archives/R20_Frozen_Design_20261006/research_round_20261006/new_experiment/selection/D3_Rest/selection_report.json": {
+      "sha256": "70d020f1baa5fd572541dbbffe692acf3c03c48e81ef1a375d1d75c5adc128e9",
+      "bytes": 1995
+    },
+    "archives/R20_Frozen_Design_20261006/research_round_20261006/new_experiment/reader/read_real_cells.py": {
+      "sha256": "2fb2871c2bfd351c6b628ef551f38a9a67d779872a7ffea35fed168d436e919c",
+      "bytes": 29965
+    },
+    "archives/R20_Frozen_Design_20261006/research_round_20261006/new_experiment/reader/make_selection.py": {
+      "sha256": "0b315a3779bf09f9f07a9fbbe01336dfa5ee0177cb626e5885d301d77a4439f9",
+      "bytes": 15752
+    },
+    "archives/R20_Frozen_Design_20261006/research_round_20261006/new_experiment/evaluation/evaluate_real_cells.py": {
+      "sha256": "7bb192ca17187d667967ce99803f645bcde3ce2cd514db6d21ffc49a3919d5d9",
+      "bytes": 27459
+    },
+    "archives/PertRank_D1_D4_GitHub_Core_v1.2.0/PertRank_D1_D4_GitHub_Core/data/D3/ranking.npz": {
+      "sha256": "6db7519ee742ea55080a7532be4530902e44ff0edc8e575266dd53808b3a4557",
+      "bytes": 3875504
+    },
+    "archives/PertRank_D1_D4_GitHub_Core_v1.2.0/PertRank_D1_D4_GitHub_Core/data/D3/weight_stats.npz": {
+      "sha256": "25b8ee4bc7e6253fd8a85069663fdd678acabff0ed918251d682281690cf86bf",
+      "bytes": 1796548
+    },
+    "archives/PertRank_D1_D4_GitHub_Core_v1.2.0/PertRank_D1_D4_GitHub_Core/data/D3/RANKING_COMPACTION.json": {
+      "sha256": "5ac2ab2ab9956f8998b9dabfc800cf56985b4ffdc4781907fdf3135af134f12f",
+      "bytes": 2698
+    },
+    "archives/PertRank_D1_D4_GitHub_Core_v1.2.0/PertRank_D1_D4_GitHub_Core/reference_results/D3_query_scores.npz": {
+      "sha256": "aa859f7f93c26a44d936d0028ecb273db848ab8c26fb0ab35daaa53720e8d6fb",
+      "bytes": 58131
+    },
+    "archives/PertRank_D1_D4_GitHub_Core_v1.2.0/PertRank_D1_D4_GitHub_Core/src/replay_scores.py": {
+      "sha256": "1d3e8e19a76778bd61d77e4c541b3ddfabc5669b7848a01b9526113edea66747",
+      "bytes": 12013
+    },
+    "archives/PertRank_D1_D4_GitHub_Core_v1.2.0/PertRank_D1_D4_GitHub_Core/src/reproduce_development_weights.py": {
+      "sha256": "251b73591bbae618ed7520d8e7a9351270c689740a32ca558a7298c58cd57f23",
+      "bytes": 4165
+    }
+  }
+}

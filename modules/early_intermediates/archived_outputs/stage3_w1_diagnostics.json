@@ -1,0 +1,111 @@
+{
+ "note": "post hoc adversarial checks, not part of the A4 decision",
+ "primary_cell": "E4 responsive 20",
+ "w0y": 0.2757554779794853,
+ "raw": 0.2773123584257502,
+ "W1_primary_setting": 0.3113689768996245,
+ "C1_direction_sets": {
+  "1..5 (the primary setting)": {
+   "diff": 0.03561,
+   "ci95": [
+    0.02386,
+    0.04874
+   ],
+   "control_trace_share": 0.1003,
+   "n_directions": 5
+  },
+  "6..20": {
+   "diff": -0.01166,
+   "ci95": [
+    -0.01466,
+    -0.00929
+   ],
+   "control_trace_share": 0.0399,
+   "n_directions": 15
+  },
+  "16..20": {
+   "diff": -0.00187,
+   "ci95": [
+    -0.00287,
+    -0.00107
+   ],
+   "control_trace_share": 0.0089,
+   "n_directions": 5
+  },
+  "1 only": {
+   "diff": 0.0314,
+   "ci95": [
+    0.02041,
+    0.04214
+   ],
+   "control_trace_share": 0.0581,
+   "n_directions": 1
+  },
+  "11..20": {
+   "diff": -0.00566,
+   "ci95": [
+    -0.00724,
+    -0.00446
+   ],
+   "control_trace_share": 0.02,
+   "n_directions": 10
+  }
+ },
+ "C2_pearson_with_deepA_weight": {
+  "w0y": 0.6194,
+  "W1": 0.7362
+ },
+ "C2_spearman_with_deepA_weight": {
+  "w0y": 0.5292,
+  "W1": 0.6677
+ },
+ "C3_drop_most_moved_targets": {
+  "0": {
+   "diff": 0.03561,
+   "ci95": [
+    0.02386,
+    0.04874
+   ]
+  },
+  "25": {
+   "diff": 0.02507,
+   "ci95": [
+    0.01598,
+    0.03634
+   ]
+  },
+  "50": {
+   "diff": 0.01846,
+   "ci95": [
+    0.00849,
+    0.03047
+   ]
+  },
+  "100": {
+   "diff": 0.01656,
+   "ci95": [
+    0.01045,
+    0.02443
+   ]
+  },
+  "200": {
+   "diff": 0.01268,
+   "ci95": [
+    0.00871,
+    0.0181
+   ]
+  }
+ },
+ "C4_oracle": {
+  "oracle_vs_w0y": 0.05281,
+  "W1_vs_w0y": 0.03561,
+  "share_of_oracle_gain": 0.674,
+  "W1_vs_oracle": {
+   "diff": -0.01719,
+   "ci95": [
+    -0.02815,
+    -0.00568
+   ]
+  }
+ }
+}

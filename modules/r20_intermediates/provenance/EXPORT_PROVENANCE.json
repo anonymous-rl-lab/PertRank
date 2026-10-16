@@ -1,0 +1,101 @@
+{
+  "scope": "Existing per-query scores and query definitions only; no new experiment",
+  "statistical_code_sha256": "7bb192ca17187d667967ce99803f645bcde3ce2cd514db6d21ffc49a3919d5d9",
+  "seed": 20261006,
+  "bootstrap_draws": 2000,
+  "sources": [
+    {
+      "donor": "D3_Rest",
+      "scores_source": "code_v150_release/staging/r20_external/new_experiment/results/D3_Rest_query_scores.npz",
+      "scores_sha256": "9dbc84a2304eabb1bf7dbac38f4308b369e733c8eaeaccb631b88a77b4bedcb9",
+      "context_source": "code_v150_release/staging/r20_external/new_experiment/selection/D3_Rest/context.npz",
+      "context_sha256": "1cfba4f2de1f9cd594f37e591556bb6779d6c86ba47fbdfee5b8df04efde9129",
+      "external_query_source": "code_v150_release/staging/r20_external/new_experiment/evaluation/reference/external_uncertainty/A19R/D3_Rest/predictions_locked.npz",
+      "external_query_source_sha256": "20de63036134d2317e70a624074afa3b2f2600955e001cd773f084943e27561e",
+      "export_sha256": "1ca8f7b0e59398c5177710880891957e21b1849009b2da2b4c29451b435c0c3f",
+      "export_rule": "Query IDs and blocks copied without recalculation; original score NPZ copied byte-for-byte",
+      "score_shapes": {
+        "internal_responsive_scores": [
+          3,
+          5,
+          300,
+          2
+        ],
+        "internal_terciles_scores": [
+          3,
+          5,
+          300,
+          2
+        ],
+        "external_scores": [
+          3,
+          2,
+          293,
+          2
+        ]
+      }
+    },
+    {
+      "donor": "D1_Rest",
+      "scores_source": "code_v150_release/staging/r20_external/new_experiment/results/D1_Rest_query_scores.npz",
+      "scores_sha256": "d00be95000b16890b8eabae901a17afcf631769638861bc5bab3eae4fb970618",
+      "context_source": "code_v150_release/staging/r20_external/new_experiment/selection/D1_Rest/context.npz",
+      "context_sha256": "2037f7e5f1a517d32b3bb2a394139cdf8f4fe48266c728a0595b9608554c49c8",
+      "external_query_source": "code_v150_release/staging/r20_external/new_experiment/evaluation/reference/external_uncertainty/A19R/D1_Rest/predictions_locked.npz",
+      "external_query_source_sha256": "cd3044f825c1623e0c1ec90220d8a11fdab7c862b657f0c6bbcd97baf87b18fa",
+      "export_sha256": "ed204af1613d39efc9d750da56e20c1932df5f6901e6d76a6dede942d6bc3e66",
+      "export_rule": "Query IDs and blocks copied without recalculation; original score NPZ copied byte-for-byte",
+      "score_shapes": {
+        "internal_responsive_scores": [
+          3,
+          5,
+          300,
+          2
+        ],
+        "internal_terciles_scores": [
+          3,
+          5,
+          300,
+          2
+        ],
+        "external_scores": [
+          3,
+          2,
+          289,
+          2
+        ]
+      }
+    },
+    {
+      "donor": "D2_Rest",
+      "scores_source": "code_v150_release/staging/r20_external/new_experiment/results/D2_Rest_query_scores.npz",
+      "scores_sha256": "669556ca8ce4f527d89b54e2bebbb3e30352ebff7b2184e416703e8b17c27c10",
+      "context_source": "code_v150_release/staging/r20_external/new_experiment/selection/D2_Rest/context.npz",
+      "context_sha256": "a725db9909d56438d995766fc68480b5c38d3e2ae1c05902b0ddeaea3f72eb6c",
+      "external_query_source": "code_v150_release/staging/r20_external/new_experiment/evaluation/reference/external_uncertainty/A19R/D2_Rest/predictions_locked.npz",
+      "external_query_source_sha256": "e9c412d6277aaf4895015f87184e671b8eb9960851a2d4859625c743e3360d1d",
+      "export_sha256": "c9287659372641210297720b4218307cdb441fc7c14711e69588b5ad38f8ff47",
+      "export_rule": "Query IDs and blocks copied without recalculation; original score NPZ copied byte-for-byte",
+      "score_shapes": {
+        "internal_responsive_scores": [
+          3,
+          5,
+          300,
+          2
+        ],
+        "internal_terciles_scores": [
+          3,
+          5,
+          300,
+          2
+        ],
+        "external_scores": [
+          3,
+          2,
+          289,
+          2
+        ]
+      }
+    }
+  ]
+}

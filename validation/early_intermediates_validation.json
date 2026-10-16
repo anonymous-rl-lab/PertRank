@@ -1,0 +1,162 @@
+{
+  "status": "STATISTICAL_REPLAY_MATCH",
+  "reproduction_level": "per-query score and target-statistic intermediates to means, paired bootstrap intervals and factorial contrasts",
+  "analysis_count": 23,
+  "archived_only_analysis_count": 0,
+  "current_paper_geometry_rows": 14,
+  "statistic_calls": 1650,
+  "factorial_settings": 14,
+  "factorial_arms": 6,
+  "elapsed_seconds": 8.24663069100643,
+  "analyses": [
+    {
+      "analysis": "stage1_energy_source",
+      "statistic_calls": 166,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "stage1_reliability",
+      "statistic_calls": 0,
+      "status": "RECOMPUTED_DESCRIPTIVE_MATCH",
+      "mismatches": [],
+      "descriptive_replay": true
+    },
+    {
+      "analysis": "evaluate_stage2",
+      "statistic_calls": 300,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "diagnostics_stage2",
+      "statistic_calls": 140,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "evaluate_w1_e4",
+      "statistic_calls": 73,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "evaluate_w1_e4_50",
+      "statistic_calls": 49,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "diagnostics_w1_e4",
+      "statistic_calls": 35,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "evaluate_w1_e5",
+      "statistic_calls": 55,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "evaluate_d1_confirm",
+      "statistic_calls": 61,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "evaluate_w1_e1",
+      "statistic_calls": 80,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "evaluate_w1_e3",
+      "statistic_calls": 82,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "posthoc_nonquery_decomposition",
+      "statistic_calls": 18,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "correct_d1_self_gene",
+      "statistic_calls": 48,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "design_ablation_b1",
+      "statistic_calls": 108,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "cross_donor_b2",
+      "statistic_calls": 48,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "evaluate_b3_baselines",
+      "statistic_calls": 92,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "evaluate_b6_entry_shrinkage",
+      "statistic_calls": 40,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "evaluate_d2_prospective",
+      "statistic_calls": 141,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "direction1_q1_similarity",
+      "statistic_calls": 0,
+      "status": "RECOMPUTED_DESCRIPTIVE_MATCH",
+      "mismatches": [],
+      "descriptive_replay": true
+    },
+    {
+      "analysis": "direction1_q2_cases",
+      "statistic_calls": 0,
+      "status": "RECOMPUTED_DESCRIPTIVE_MATCH",
+      "mismatches": [],
+      "descriptive_replay": true
+    },
+    {
+      "analysis": "evaluate_b8_protein_readout",
+      "statistic_calls": 36,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "b8_floor_headroom",
+      "statistic_calls": 36,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    },
+    {
+      "analysis": "evaluate_depth_ladder",
+      "statistic_calls": 42,
+      "status": "RECOMPUTED_STATISTICS_MATCH",
+      "mismatches": []
+    }
+  ],
+  "mismatches": [],
+  "not_recomputed": [
+    "raw-cell preprocessing",
+    "gene effects or weights from full expression states",
+    "rank construction from candidate-by-gene scores",
+    "A14 missing per-cell protein input",
+    "scientific fields outside captured mean/bootstrap/target-statistic operations"
+  ]
+}

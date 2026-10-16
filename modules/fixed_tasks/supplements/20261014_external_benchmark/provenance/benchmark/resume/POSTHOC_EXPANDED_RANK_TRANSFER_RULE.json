@@ -1,0 +1,64 @@
+{
+  "status": "FROZEN_BEFORE_ANY_NEW_HIGH_RANK_FIT_OR_SCORE",
+  "created_utc": "2026-10-14T00:27:23.706629+00:00",
+  "analysis_label": "posthoc expanded-rank transfer",
+  "authorization": "Root instruction: conditionally transfer stronger posthoc D3 expanded rank to both D4 pooled states; primary remains locked",
+  "original_winner_lock_sha256": "3b03f312908d7fbad7a84ae8fd1dff29fefb7e7319e95aa9144108cd7a1b8e18",
+  "original_rank_boundary_protocol_sha256": "aafa69c2d13127a90cf531d91489ce2c116e67b9b3d9344ec9687faac0e67060",
+  "original_winner": {
+    "rank": 100,
+    "lasso_alpha": 0.0001,
+    "native_fr_P25": 0.2706176243256671
+  },
+  "candidate_ranks": [
+    150,
+    200,
+    300
+  ],
+  "eligibility": "All three planned rank fits and native audits/scoring must complete before choosing highest-in-expanded-set; otherwise label sensitivity incomplete and do not treat failures as zero.",
+  "trigger": "max(new native D3 responsive signed P25) > original frozen rank100 P25 + 1e-12",
+  "selection": "Highest native D3 P25 among only predeclared K150/200/300; ties within1e-12 choose smallest K. No D4 score is used to select rank.",
+  "trigger_false": "No additional expanded-rank D4 fits",
+  "transfer": {
+    "datasets": [
+      "D4_Rest",
+      "D4_Stim8hr"
+    ],
+    "input_reps": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "n_additional_fits_if_triggered": 10,
+    "spca_alpha": 0.1,
+    "lasso_alpha": 0.0001,
+    "spca_iter": 50,
+    "seed_base": 20261012,
+    "threads": 2,
+    "native_core_commit": "24e653b6a5c050ab17f3600ebaf222bef32e2d25",
+    "original_frozen_inputs_weights_references_scoring": true,
+    "arms": [
+      "raw",
+      "euclidean",
+      "pertrank",
+      "fr",
+      "fr_euclidean",
+      "fr_pertrank"
+    ],
+    "independent_guide_extra_fits": false,
+    "Nscaled_extra_fits": false
+  },
+  "resource_budget": {
+    "per_fit_seconds": 900,
+    "maximum_additional_fits": 10,
+    "same_heavy_memory_lock": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/heavy_memory.lock",
+    "sequential": true,
+    "no_ranks_beyond_300": true,
+    "failure_policy": "Retain failures and mark incomplete, never zero-score or silently change algorithm."
+  },
+  "inference": "D3 and D4 had already been opened; this is posthoc sensitivity, not an independent confirmatory transfer. Does not replace original rank100 primary, Nscaled sensitivity, or original continuation gate. Any intervals are descriptive across expanded-rank selection.",
+  "full_capacity_limit": "9.379531860351562GiB proven native conversion overlap lower bound at K15616 exceeds8GiB; rank1200/identity is not called native full expression rank.",
+  "new_high_rank_results_seen": false
+}

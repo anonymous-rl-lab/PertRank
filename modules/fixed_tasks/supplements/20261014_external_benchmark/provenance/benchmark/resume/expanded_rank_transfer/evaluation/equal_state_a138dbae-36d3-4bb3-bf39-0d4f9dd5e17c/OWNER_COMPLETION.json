@@ -1,0 +1,32 @@
+{
+  "analysis_label": "posthoc expanded-rank transfer",
+  "audit_result_sha256": "d18ea9db4c02a328c0386a343c62f7625ba0f9a4e095b8a916dab75bd65a0eb2",
+  "created_utc": "2026-10-14T02:16:03.629292+00:00",
+  "execution_sha256": "1dcb526feefcecc2ad243c433a153baa1be22cf0c7ced03fd7fccd4d1ff78c31",
+  "expanded_selection_sha256": "9f6180331c52b334782f6a5c4951a40e80164a210118b6d7b5a0475de0ed062a",
+  "independent_audit_pass": true,
+  "mode": "combine",
+  "npz_crc": "PASS",
+  "npz_files": {
+    "audit/equal_state_K10.npz": {
+      "npz_crc_pass": true,
+      "sha256": "fd29d30674cda458848fbd6582c226ea296a427e26de622becc65734f3f4a19f"
+    },
+    "audit/equal_state_K25.npz": {
+      "npz_crc_pass": true,
+      "sha256": "b5a8eed6e8a3567c8f12f28c1dc8e972ee7aa5eb4da0747ef2e382c9829aa43a"
+    },
+    "equal_state_arrays.npz": {
+      "npz_crc_pass": true,
+      "sha256": "05846c04c7a46db85750da4521fb72b08a7088f116921faa1f9ced9273a337a7"
+    }
+  },
+  "original_primary_unchanged": true,
+  "owner_exit_code": 0,
+  "owner_session_id": "82710",
+  "primary_continuation_gate_computed": false,
+  "report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/equal_state_a138dbae-36d3-4bb3-bf39-0d4f9dd5e17c/equal_state_report.json",
+  "report_sha256": "8a3a88e579d4cc76d34bf116da0e0f175caa4199ce411b6d2ba9ad6cd9018780",
+  "separate_tool_call_after_owner_exit_zero": true,
+  "status": "OWNER_EXECUTION_ENDED_INTEGRITY_VERIFIED"
+}

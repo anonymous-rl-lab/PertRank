@@ -1,0 +1,270 @@
+{
+  "status": "PASS",
+  "donors": {
+    "D1": {
+      "schema_version": 1,
+      "donor": "D1",
+      "identity": "retrospective exact fixed-method top-25 sufficient-input compaction",
+      "source_files": {
+        "v18_d4_confirmation/d1_correction/corrected_panel_predictions_locked.npz": {
+          "sha256": "713dc4e224ceef424967650e63d1291068f82d419d9a88d5b5044e18847c768f",
+          "bytes": 54076721
+        },
+        "v18_d4_confirmation/d1_correction/D1_corrected_query_scores.npz": {
+          "sha256": "0bf80b21e5551df28c223c5d6721a23cc31cea1fcc2f4a983eedcd2df6ee04c1",
+          "bytes": 52257
+        }
+      },
+      "output_file": "ranking.npz",
+      "output_sha256": "214860288c7f17893a18af3f60b48d7a370e96762cba7158290df1b74d8cb75d",
+      "output_bytes": 3923457,
+      "k": 25,
+      "groups": 5,
+      "queries": 595,
+      "candidates": 1127,
+      "arms": [
+        "raw",
+        "Euclidean",
+        "PertRank",
+        "diagonal",
+        "TRADE_scalar",
+        "PR_E",
+        "PR_M"
+      ],
+      "full_Y_entries": 3352825,
+      "retained_Y_entries": 824677,
+      "retained_fraction": 0.24596482071089304,
+      "retained_candidates_per_row_percentiles": [
+        91.0,
+        129.0,
+        143.0,
+        162.0,
+        1127.0
+      ],
+      "full_source_weights_content_sha256": "8eb4b6ad24b2bf007d1b233228aa3b6a3a3a5e9a35d0913291b416ac1c9267da",
+      "full_source_Y_content_sha256": "2d826566286ffdea5a74d1cb1279cdcbdc1117c6aa5fc27bdf4e29257d0a985d",
+      "full_source_truth_content_sha256": "8d037041b4504569d3d60f6b77f9a2030c54dfda653286145a1559931fe2243b",
+      "prediction_membership_values_compared": 46939550,
+      "truth_membership_values_compared": 1341130,
+      "all_memberships_exact": true,
+      "independent_full_sort_memberships_exact": true,
+      "full_prediction_membership_stream_sha256": "ef6040121aa03295b7276548ab5be8aa3accb6ebc94d8beddf41bfff3527743b",
+      "compact_prediction_membership_stream_sha256": "ef6040121aa03295b7276548ab5be8aa3accb6ebc94d8beddf41bfff3527743b",
+      "original_official_query_scores_exact": {
+        "responsive": {
+          "values": 21000,
+          "maximum_absolute_difference": 0.0
+        },
+        "terciles": {
+          "values": 21000,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "source_arrays_modified": false,
+      "float_quantization": false,
+      "supported_scope": "Rebuild frozen scalar weights from separately retained statistics; rerank retained original float64 raw effects using those exact weights; reproduce every fixed signed top-25 membership, query score and subsequent paired bootstrap. All tied candidates at every frozen boundary are retained.",
+      "unsupported_scope": "The omitted interior candidates cannot support arbitrary new weights, a changed K, a changed candidate/query pool, control refitting or raw UMI preprocessing. The compaction is post-result and is not a replacement prospective lock.",
+      "elapsed_seconds": 5.4066078970063245
+    },
+    "D2": {
+      "schema_version": 1,
+      "donor": "D2",
+      "identity": "retrospective exact fixed-method top-25 sufficient-input compaction",
+      "source_files": {
+        "v17_experiments/delivery/compact/D2_Rest_state.npz": {
+          "sha256": "79bcb6efb229891696ee26429c54fe595aa7c25e1e980c2524bdb3813bc1a778",
+          "bytes": 28813137
+        },
+        "v17_experiments/evaluation/results/combined/D2_Rest_query_scores.npz": {
+          "sha256": "52b43a5d8a8191ca290782505d85d49c54b561e9cef31f3699c8d6c52d60750f",
+          "bytes": 58026
+        }
+      },
+      "output_file": "ranking.npz",
+      "output_sha256": "980be4999c7cf1b831828114b3a54798c93e25fe70c20bb5a0f3a1d39044fa4f",
+      "output_bytes": 3825047,
+      "k": 25,
+      "groups": 5,
+      "queries": 596,
+      "candidates": 1200,
+      "arms": [
+        "raw",
+        "Euclidean",
+        "PertRank",
+        "diagonal",
+        "TRADE_scalar",
+        "PR_E",
+        "PR_M"
+      ],
+      "full_Y_entries": 3576000,
+      "retained_Y_entries": 859333,
+      "retained_fraction": 0.24030564876957494,
+      "retained_candidates_per_row_percentiles": [
+        78.0,
+        120.0,
+        138.0,
+        158.0,
+        1200.0
+      ],
+      "full_source_weights_content_sha256": "c975ce2ebc4fc57c71ca26ac194638ace962bad51fbff3d653dbf863806855a4",
+      "full_source_Y_content_sha256": "13ebe7de9af80c9ad4bcd7ec11c4a7eccb6b94d57e7e71a423ba1b51944e4e56",
+      "full_source_truth_content_sha256": "ab909399077ad6e8c591783f8ffed9e58a535e601023ecac5e59d044d4e948fa",
+      "prediction_membership_values_compared": 50064000,
+      "truth_membership_values_compared": 1430400,
+      "all_memberships_exact": true,
+      "independent_full_sort_memberships_exact": true,
+      "full_prediction_membership_stream_sha256": "8dae45fad866840d2309ec13ccb07c18d80acba70c8ab509ff1abdf40c019297",
+      "compact_prediction_membership_stream_sha256": "8dae45fad866840d2309ec13ccb07c18d80acba70c8ab509ff1abdf40c019297",
+      "original_official_query_scores_exact": {
+        "responsive": {
+          "values": 21000,
+          "maximum_absolute_difference": 0.0
+        },
+        "terciles": {
+          "values": 21000,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "source_arrays_modified": false,
+      "float_quantization": false,
+      "supported_scope": "Rebuild frozen scalar weights from separately retained statistics; rerank retained original float64 raw effects using those exact weights; reproduce every fixed signed top-25 membership, query score and subsequent paired bootstrap. All tied candidates at every frozen boundary are retained.",
+      "unsupported_scope": "The omitted interior candidates cannot support arbitrary new weights, a changed K, a changed candidate/query pool, control refitting or raw UMI preprocessing. The compaction is post-result and is not a replacement prospective lock.",
+      "elapsed_seconds": 5.250581756001338
+    },
+    "D3": {
+      "schema_version": 1,
+      "donor": "D3",
+      "identity": "retrospective exact fixed-method top-25 sufficient-input compaction",
+      "source_files": {
+        "v17_experiments/delivery/compact/D3_Rest_state.npz": {
+          "sha256": "489c984ecdceddbe98ac68277aa25eaea1ef0ac72bc8b60d6b0bc165d7cdbca2",
+          "bytes": 27112885
+        },
+        "v17_experiments/evaluation/results/combined/D3_Rest_query_scores.npz": {
+          "sha256": "aa859f7f93c26a44d936d0028ecb273db848ab8c26fb0ab35daaa53720e8d6fb",
+          "bytes": 58131
+        }
+      },
+      "output_file": "ranking.npz",
+      "output_sha256": "6db7519ee742ea55080a7532be4530902e44ff0edc8e575266dd53808b3a4557",
+      "output_bytes": 3875504,
+      "k": 25,
+      "groups": 5,
+      "queries": 593,
+      "candidates": 1200,
+      "arms": [
+        "raw",
+        "Euclidean",
+        "PertRank",
+        "diagonal",
+        "TRADE_scalar",
+        "PR_E",
+        "PR_M"
+      ],
+      "full_Y_entries": 3558000,
+      "retained_Y_entries": 875708,
+      "retained_fraction": 0.24612366498032603,
+      "retained_candidates_per_row_percentiles": [
+        96.0,
+        128.0,
+        141.0,
+        164.0,
+        1200.0
+      ],
+      "full_source_weights_content_sha256": "40317ee87e24cb8d9b916c761669ba198e78ad181b164bb6f0927755f7a20308",
+      "full_source_Y_content_sha256": "1eef32104e43931f20054a5946948fabeff960f26729a5bd0aec8f5d8e5d36d0",
+      "full_source_truth_content_sha256": "7bf082e099148629f4b73975276b03427aeafcfed4a2a7f743e46c5e723ac81b",
+      "prediction_membership_values_compared": 49812000,
+      "truth_membership_values_compared": 1423200,
+      "all_memberships_exact": true,
+      "independent_full_sort_memberships_exact": true,
+      "full_prediction_membership_stream_sha256": "0f518e735d7c3320a93f24fbf5684191bfd67e30713b1343933373d91c7ced71",
+      "compact_prediction_membership_stream_sha256": "0f518e735d7c3320a93f24fbf5684191bfd67e30713b1343933373d91c7ced71",
+      "original_official_query_scores_exact": {
+        "responsive": {
+          "values": 21000,
+          "maximum_absolute_difference": 0.0
+        },
+        "terciles": {
+          "values": 21000,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "source_arrays_modified": false,
+      "float_quantization": false,
+      "supported_scope": "Rebuild frozen scalar weights from separately retained statistics; rerank retained original float64 raw effects using those exact weights; reproduce every fixed signed top-25 membership, query score and subsequent paired bootstrap. All tied candidates at every frozen boundary are retained.",
+      "unsupported_scope": "The omitted interior candidates cannot support arbitrary new weights, a changed K, a changed candidate/query pool, control refitting or raw UMI preprocessing. The compaction is post-result and is not a replacement prospective lock.",
+      "elapsed_seconds": 5.250591721996898
+    },
+    "D4": {
+      "schema_version": 1,
+      "donor": "D4",
+      "identity": "retrospective exact fixed-method top-25 sufficient-input compaction",
+      "source_files": {
+        "PertRank_D4_OSF_core_under60MB_20261008/result/data/prediction_core.npz": {
+          "sha256": "a8cb7db42fba0dfd896f25dcc36d8a5f9c8f627bd6f48476229b0b38e4a492b3",
+          "bytes": 25407130
+        },
+        "PertRank_D4_OSF_core_under60MB_20261008/result/data/query_context.npz": {
+          "sha256": "6d86658f85454e7c916a6415c008a78820b44f5b235eb9d38e74ceedcaa44eca",
+          "bytes": 121128
+        },
+        "PertRank_D4_OSF_core_under60MB_20261008/result/data/truth.npz": {
+          "sha256": "3ed963d1076079810afeeb0df3e4cfb6ee1cb9ff4da923cc5db462b87c96c09a",
+          "bytes": 4946051
+        },
+        "PertRank_D4_OSF_core_under60MB_20261008/result/v18_d4_confirmation/results/query_scores_and_depth_bootstrap.npz": {
+          "sha256": "c5fcee361069f2d21eb0da33754a4fc2f27506d2a37edf3f8cbabc16462e4d03",
+          "bytes": 451143
+        }
+      },
+      "output_file": "ranking.npz",
+      "output_sha256": "d2f98d7874fe3fbc2a8093984aad7ed215e9e65ad9d25e6adb070e37ca297154",
+      "output_bytes": 3179996,
+      "k": 25,
+      "groups": 5,
+      "queries": 593,
+      "candidates": 589,
+      "arms": [
+        "raw",
+        "Euclidean",
+        "PertRank",
+        "PR_M"
+      ],
+      "full_Y_entries": 1746385,
+      "retained_Y_entries": 576919,
+      "retained_fraction": 0.3303504095603203,
+      "retained_candidates_per_row_percentiles": [
+        73.0,
+        116.0,
+        129.0,
+        147.0,
+        589.0
+      ],
+      "full_source_weights_content_sha256": "e2cbac205814e7662d59a2b48f6e227816d0489914565dece96bef7c29d725b1",
+      "full_source_Y_content_sha256": "df050fd6ed65e6a462604019b3549c5a55045bf10233597b0034ccba593eaa7f",
+      "full_source_truth_content_sha256": "ed95f668b2225ee7a0a185bfd1f4c410526d6e02beb5d9109603ae1417d69cd3",
+      "prediction_membership_values_compared": 13971080,
+      "truth_membership_values_compared": 698554,
+      "all_memberships_exact": true,
+      "independent_full_sort_memberships_exact": true,
+      "full_prediction_membership_stream_sha256": "4cad88e90929b3723fd4a4d8df60cdce8a4db14a2b9fcefd808ed7fd6de2303a",
+      "compact_prediction_membership_stream_sha256": "4cad88e90929b3723fd4a4d8df60cdce8a4db14a2b9fcefd808ed7fd6de2303a",
+      "original_official_query_scores_exact": {
+        "responsive": {
+          "values": 12000,
+          "maximum_absolute_difference": 0.0
+        },
+        "terciles": {
+          "values": 12000,
+          "maximum_absolute_difference": 0.0
+        }
+      },
+      "source_arrays_modified": false,
+      "float_quantization": false,
+      "supported_scope": "Rebuild frozen scalar weights from separately retained statistics; rerank retained original float64 raw effects using those exact weights; reproduce every fixed signed top-25 membership, query score and subsequent paired bootstrap. All tied candidates at every frozen boundary are retained.",
+      "unsupported_scope": "The omitted interior candidates cannot support arbitrary new weights, a changed K, a changed candidate/query pool, control refitting or raw UMI preprocessing. The compaction is post-result and is not a replacement prospective lock.",
+      "elapsed_seconds": 2.461885759999859
+    }
+  }
+}

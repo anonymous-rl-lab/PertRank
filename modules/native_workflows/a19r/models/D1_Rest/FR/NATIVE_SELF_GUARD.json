@@ -1,0 +1,6 @@
+{
+  "status": "ENDED",
+  "guard": "native process self ru_maxrss and wall time",
+  "peak_RSS_bytes": 939819008,
+  "seconds": 166.06106032599928
+}

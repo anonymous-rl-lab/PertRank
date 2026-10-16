@@ -1,0 +1,12 @@
+{
+  "status": "PASS_LOSSLESS_COMPRESSION_ONLY",
+  "logical_arrays": 39,
+  "unique_arrays": 27,
+  "decoded_dtype_shape_and_bytes_equal": true,
+  "new_model_fits": 0,
+  "statistical_analysis_executed": false,
+  "replay_executed": false,
+  "syntax_check": "AST_PASS",
+  "scores_npz_bytes": 400976,
+  "derived_bootstrap_arrays_omitted": 16
+}

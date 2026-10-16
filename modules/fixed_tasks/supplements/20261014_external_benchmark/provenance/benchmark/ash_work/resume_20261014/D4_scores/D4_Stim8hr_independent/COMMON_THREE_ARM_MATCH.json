@@ -1,0 +1,131 @@
+{
+  "status": "FROZEN_SCALAR_COMMON_THREE_ARMS_BITWISE_PASS",
+  "utc": "2026-10-14T01:45:43.197923+00:00",
+  "FR_rank100_comparison": "NOT_AVAILABLE; not rerun solely for cross-check under user instruction.",
+  "frozen_scalar_report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/independent/execution/D4_Stim8hr/evaluation/evaluation_report.json",
+  "frozen_scalar_report_sha256": "e374a1ad845651aa07b79104fb2f6f9342c6441c47230e4ff303fb106c91ca0d",
+  "frozen_scalar_arrays_sha256": "581a013d600e900be96e42277509f72dd1ca8af8e8cc6ef47cf93542b0db85dc",
+  "checks": {
+    "queries": {
+      "exact_array_equal": true,
+      "shape": [
+        300
+      ],
+      "dtype": "<U15",
+      "sha256": "4d81f16914ee6f2c2cfa0c76af387dff4c8149f99b8f7336f9e438e33fb89618"
+    },
+    "candidates": {
+      "exact_array_equal": true,
+      "shape": [
+        395
+      ],
+      "dtype": "<U15",
+      "sha256": "991296ff8bb17be8a26b8fd8a411d88f682ef0c19027230ee7966bb4761b056a"
+    },
+    "blocks": {
+      "exact_array_equal": true,
+      "shape": [
+        300
+      ],
+      "dtype": "int32",
+      "sha256": "b7a6afb9b00ff4a00cdf5402a85ad89deaab6e01801a1754c5e17ad3b032f9a9"
+    },
+    "raw_effects_from_frozen_prediction": {
+      "exact_array_equal": true,
+      "shape": [
+        395,
+        300
+      ],
+      "dtype": "float64",
+      "sha256": "cd6188977aeaa9f754dc7e37a3a506ddb4813e1b0406f42859b7d08bccfe2dab"
+    },
+    "w0_from_frozen_prediction": {
+      "exact_array_equal": true,
+      "shape": [
+        395
+      ],
+      "dtype": "float64",
+      "sha256": "f7d6b840b881f94f847ffb70ab836fcffdfdf942244bf31be3457af05e483d2e"
+    },
+    "wm_from_frozen_prediction": {
+      "exact_array_equal": true,
+      "shape": [
+        395
+      ],
+      "dtype": "float64",
+      "sha256": "7b0e25343ac4be01ce1f951f6d903710c0ce90a6feaa278cb25edeaad501b79f"
+    },
+    "sampled_query_blocks": {
+      "exact_array_equal": true,
+      "shape": [
+        2000,
+        30
+      ],
+      "dtype": "int64",
+      "sha256": "a8247410c8ad24fbaa0b4c3d4abbed86a827b8009e63143d675792354d2faa79"
+    },
+    "query_weights": {
+      "exact_array_equal": true,
+      "shape": [
+        2000,
+        300
+      ],
+      "dtype": "float64",
+      "sha256": "734b5a764ae97e1a0d8714ec4094aad74c627391f5b18f9a813cdc245788584f"
+    },
+    "common_query_p25": {
+      "exact_array_equal": true,
+      "shape": [
+        3,
+        300
+      ],
+      "dtype": "float64",
+      "sha256": "baa905e6dd47d809ee722eb2f5560157ab40bc01fdf8321b7592caabd864e176"
+    },
+    "common_joint_bootstrap_p25": {
+      "exact_array_equal": true,
+      "shape": [
+        2000,
+        3
+      ],
+      "dtype": "float64",
+      "sha256": "341c04bb7bbf3a2e7936a7cd47f4ff73aa536965b7f82c6baa9a839403f6ccf3"
+    },
+    "common_query_p10": {
+      "exact_array_equal": true,
+      "shape": [
+        3,
+        300
+      ],
+      "dtype": "float64",
+      "sha256": "f4ad88cda0b071dab68bf21d7f7d6e8a1e82d9cc63333468bc54663bf409cb9c"
+    },
+    "common_joint_bootstrap_p10": {
+      "exact_array_equal": true,
+      "shape": [
+        2000,
+        3
+      ],
+      "dtype": "float64",
+      "sha256": "535d910dccbbd8978ab45aa8c4cd1db5c119817e763a5c801bb6526565447bf9"
+    }
+  },
+  "exact_common_arm_points_P25_and_P10": true,
+  "frozen_input_provenance": {
+    "prediction_sha256": "19c4d3560e563f53b9b4bf447e7389bde0d08e04cd45570a1500659871dc5528",
+    "reference_sha256": "f44d9656f5000e533af9338fed42aa2e307fdf6a4f3a9f17194d6972e7b861f6",
+    "source_panel_sha256": "574008fd4723fd626f88f11282adec9b2cc91f2d3956e6f1759ae4729b59acea",
+    "evaluator_sha256": "21cfcbe73404d7560922069de96b25fa706ac75900afb014a8aed1880fbc05cf"
+  },
+  "historical_quality_gates_unchanged": {
+    "reference_stability_pass": true,
+    "cross_guide_signal_pass": false,
+    "quality_pass": false,
+    "D4_metric_continue_pass": false,
+    "D4_continue": false,
+    "individual_fixed_task_replication_pass": false
+  },
+  "ASH_report_sha256": "4f9107191ec070d3fc740ae57cd84563f9bb996930f7d6af8ddab3851037e1be",
+  "verification_source_sha256": "c01f6a31bf49005bd809b3963fc4e573098ddc8ce20c692bc43a7ace4c4aadb2",
+  "scope": "Same frozen independent-guide 395-target task, original input/control geometry and within-lane reference-cell/query RNG. Historical scalar source only; no new FR comparison or donor-population claim."
+}

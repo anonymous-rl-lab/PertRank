@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-10-11T15:55:39.264459+00:00",
+  "classification": "post hoc sensitivity; original registered H2b unchanged",
+  "trade": {
+    "numerical_change": "ashr mixSQP control tol.svd=0 disables low-rank likelihood approximation; complete original likelihood matrix is optimized",
+    "unchanged": [
+      "halfuniform mixture",
+      "uniform prior",
+      "adaptive grid and grange",
+      "complete 13394 gene axis",
+      "all 561 targets and five groups",
+      "scalar S/(S+nu)",
+      "all scoring rules"
+    ],
+    "smoke": "first 2 successful targets and failing target index8 all five groups; compare old successful weights and likelihoods; failure blocks full run; no scores before full cohort",
+    "fallback": "No dropping, default weights, missing fit imputation, or success subset scoring. Any change after this rule requires documented new numerical sensitivity and unchanged outcome-blind numerical criterion."
+  },
+  "controls": {
+    "dataset": "opened D4 Stim8hr only",
+    "axis": "original 13394 genes and normalization scale fixed",
+    "k": 5,
+    "beta": 0.9,
+    "sets": [
+      "independent set: mechanism_a1000 + mechanism_b1000",
+      "balanced replacement: original first1000 + mechanism_a first500 + mechanism_b first500"
+    ],
+    "models": [
+      "direction-only: replace U, retain original cm/cv and recompute original-control projected covariance and target projections",
+      "full fixed-axis: replace cm/cv/U and projected control variance, recompute effects and target projected variances"
+    ],
+    "constant": [
+      "targets",
+      "original responsive/tercile panels and blocks",
+      "original 100-cell references/evaluation controls",
+      "five disjoint20cellinputs"
+    ],
+    "score": "all candidates full ranking; PertRank minus Euclidean within each configuration",
+    "interval": "existing paired query block bootstrap"
+  }
+}

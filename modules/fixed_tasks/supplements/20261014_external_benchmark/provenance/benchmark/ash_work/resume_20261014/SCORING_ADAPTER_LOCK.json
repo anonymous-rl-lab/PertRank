@@ -1,0 +1,21 @@
+{
+  "status": "LOCKED_BEFORE_RECOVERED_D4_ASH_SCORING",
+  "created_utc": "2026-10-14T00:26:44.616882+00:00",
+  "arms": [
+    "raw",
+    "euclidean",
+    "pertrank",
+    "ash"
+  ],
+  "scientific_scoring": "Original pure score_arrays and original independent scoring primitives unchanged. Four effects/names adapter only; no ASH weighted variants.",
+  "files_sha256": {
+    "evaluate_ash_adapter.py": "bf074c077e1f46a0447d32412343f37a7829a5f34a816ab78aa78b503c954830",
+    "combine_ash.py": "87b65454ec30593c0256a77a033e7b8ae08c21fdd93a286ce9333e20fd203cd2",
+    "verify_adapter.py": "8b68ba74ceeb75f8bdb36ec917f99f33bc03b60f600d8e1c4d1250d8fb5e7411",
+    "confirm_default_replay.py": "d1b09a72abf0fb7112a8596c6e378b9a21fbf070774eaad2b77c53032a9efc11",
+    "ADAPTER_EQUIVALENCE_SYNTHETIC.json": "87883fb68fcb06478d96adcb0f5b4fd8df7b6d2c70864cdcc85bea6ea4af9ab3"
+  },
+  "pure_evaluator_sha256": "4acd8cebce3162b25874518942dbed4fae8299cd8fead65da2ef1b789dd95237",
+  "score_primitive_sha256": "21cfcbe73404d7560922069de96b25fa706ac75900afb014a8aed1880fbc05cf",
+  "recovery_plan_sha256": "294fbb38a69f5c27cc54c0b9e2d4e7bdd32f97bfdb7025f7d67730f971884d24"
+}

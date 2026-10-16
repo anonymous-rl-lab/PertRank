@@ -1,0 +1,9 @@
+item,value
+raw single-cell file,"figshare 35773219, `K562_essential_raw_singlecell_01.h5ad`, MD5 `4f1122ce1c7f`"
+supplementary workbook,"Replogle 2022 Table S, MD5 `f828f90e1595`"
+preprocessing,"CausalBench 1.1.2 rules regenerated from that package's own code: strong-perturbation filter, 10th-percentile knockdown filter, more than 100 cells per perturbation, `sklearn.train_test_split(random_state=0, stratify=perturbation)`. The filtered dataset was not downloaded; regenerating it is what fixes the perturbation order and therefore every downstream checksum."
+reference,"422 K562 essential-gene perturbations, day 6, their own held-out cells, profiles centred on their own control (C_ref, 6,553 cells). `reference.npz` MD5 `5541e45a72a0`. Never refitted."
+genome-wide input,"the K562 genome-wide screen (1,989,578 cells, 8,248 genes, 9,866 perturbations) streamed from its 61.3 GiB public h5ad by HTTP range requests; per-perturbation cells permuted once with a seed derived from `SHA256(""pertrescue-stage6-v1\|gwps\|<gene id>"")`; positions 0 to 19 form the 20-cell input, 0 to 49 the 50-cell input, 50 onward the evaluation profile (median 178 cells)."
+stage-6 cohort,"perturbations with at least 150 cells and no reference entry, the first 2,000 in hash order; the 266 with a reference entry form a separate shared set, never pooled."
+controls,"C_input 2,000 non-targeting cells in hash order (disjoint from C_ref); C_test the remaining non-targeting cells, used only to centre the truth."
+genes,"the 8,202 genes shared by the reference and the genome-wide export, in reference order."

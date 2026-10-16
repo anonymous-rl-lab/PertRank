@@ -1,0 +1,9 @@
+predictions,truth,queries,n,random
+D3,D1 (cross),responsive,226,0.142
+D3,D3 (within),responsive,226,0.142
+D3,D1 (cross),terciles,277,0.142
+D3,D3 (within),terciles,277,0.142
+D1,D3 (cross),responsive,224,0.142
+D1,D1 (within),responsive,224,0.142
+D1,D3 (cross),terciles,277,0.142
+D1,D1 (within),terciles,277,0.142

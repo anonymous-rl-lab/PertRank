@@ -1,0 +1,9 @@
+predictions,truth,queries,"support, added","support, removed"
+D3,D1 (cross),responsive,0.171,0.128
+D3,D3 (within),responsive,0.342,0.218
+D3,D1 (cross),terciles,0.136,0.136
+D3,D3 (within),terciles,0.164,0.160
+D1,D3 (cross),responsive,0.159,0.150
+D1,D1 (within),responsive,0.274,0.204
+D1,D3 (cross),terciles,0.142,0.139
+D1,D1 (within),terciles,0.160,0.139

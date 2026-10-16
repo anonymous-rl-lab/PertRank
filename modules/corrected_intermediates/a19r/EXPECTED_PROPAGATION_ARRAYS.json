@@ -1,0 +1,52 @@
+{
+  "shared_labels": {
+    "source_names": {
+      "shape": [
+        3
+      ],
+      "dtype": "<U7",
+      "sha256_array_bytes": "8de7550bef8d8aba76860932b372fc048fdbf2a0b52621448ca80b8d89a666e6"
+    },
+    "arm_names": {
+      "shape": [
+        4
+      ],
+      "dtype": "<U4",
+      "sha256_array_bytes": "fd3f95e52923d59ab4c34baa1f249666caf627e12dda348793d6702b1f81f18a"
+    },
+    "expected_members": {
+      "shape": [
+        500,
+        3,
+        4
+      ],
+      "dtype": "float64",
+      "sha256_array_bytes": "f8b3db383eb6fee6a18f530a9e3646505b35c95cdec57189f923bc9abd679d9f"
+    }
+  },
+  "batch_separate": {
+    "source_names": {
+      "shape": [
+        3
+      ],
+      "dtype": "<U7",
+      "sha256_array_bytes": "8de7550bef8d8aba76860932b372fc048fdbf2a0b52621448ca80b8d89a666e6"
+    },
+    "arm_names": {
+      "shape": [
+        4
+      ],
+      "dtype": "<U4",
+      "sha256_array_bytes": "fd3f95e52923d59ab4c34baa1f249666caf627e12dda348793d6702b1f81f18a"
+    },
+    "expected_members": {
+      "shape": [
+        500,
+        3,
+        4
+      ],
+      "dtype": "float64",
+      "sha256_array_bytes": "4b31e8ccb0c5da3b9fb9e3203d0b0c2e37beb75dd470fd96e22b15310d5d83d2"
+    }
+  }
+}

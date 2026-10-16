@@ -1,0 +1,9 @@
+{
+  "status": "PASS_SOURCE_HASHES_AND_PYTHON_SYNTAX_ONLY",
+  "file_count": 194,
+  "python_files_parsed": 81,
+  "native_model_fits_executed": 0,
+  "raw_arrays_copied": 0,
+  "excluded_upstream_TRADE_present": false,
+  "bytes": 2191626
+}

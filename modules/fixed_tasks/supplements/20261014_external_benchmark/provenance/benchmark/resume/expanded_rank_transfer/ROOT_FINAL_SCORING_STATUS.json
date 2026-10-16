@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE_VERIFIED_AND_SAVED",
+  "sources": {
+    "Rest": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a",
+    "Stim": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc",
+    "combined": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/equal_state_a138dbae-36d3-4bb3-bf39-0d4f9dd5e17c"
+  },
+  "completed_owner_sessions": [
+    "1301",
+    "19770",
+    "82710"
+  ],
+  "saved_receipts": [
+    "16",
+    "19"
+  ],
+  "active_native_or_scoring_owners": 0,
+  "old_fixed_queue": "PAUSED",
+  "unplanned_additional_experiments_started": false
+}

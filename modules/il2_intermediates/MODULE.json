@@ -1,0 +1,21 @@
+{
+  "name": "il2_intermediates",
+  "entrypoint": [
+    "python",
+    "reproduce.py",
+    "--output-dir",
+    "NEW_EXTERNAL_DIRECTORY"
+  ],
+  "report": "REPRODUCTION_REPORT.json",
+  "dependencies": [
+    "numpy==2.3.5",
+    "pandas==2.2.3"
+  ],
+  "scope": "Fixed guide readout/MAGeCK score to primary and secondary comparison; true recomputation of the original paired guide/control bootstrap.",
+  "raw_counts_included": false,
+  "model_fitting": false,
+  "retained_candidates": 561,
+  "retained_guide_readouts": 4330,
+  "fixed_lists": 10,
+  "expected_list_length": 25
+}

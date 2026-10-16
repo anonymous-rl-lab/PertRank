@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "path": "EXPECTED_PROPAGATION_ARRAYS.json",
+      "bytes": 1204,
+      "sha256": "cbac81f4ea409ba61dc4a673ce45b3af755357d6db6e86ab1ee97cdc4255821c"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 2887,
+      "sha256": "a043b43e252cbcacd499a0a9c9c437dc728cf49af89b8caaeecee82e85bc92b5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3156,
+      "sha256": "413b57a16a0c4842069bc5ef59011a6aaadd762df4dc23a4af4172a667dc115f"
+    },
+    {
+      "path": "VERIFIED_REPRODUCTION_REPORT.json",
+      "bytes": 3077,
+      "sha256": "1b4255e4ff76a5635c242da6af4a9b640bbae1ee6ec83fcec9a85ec1a60ad147"
+    },
+    {
+      "path": "archive/PROTOCOL_A19R.md",
+      "bytes": 3540,
+      "sha256": "59acf1b90f4790114072dcd92e77fed95144b1e7655b8a3f90b010b5d1f590e8"
+    },
+    {
+      "path": "archive/evaluate_a19r.py",
+      "bytes": 11754,
+      "sha256": "9d37c437c32e622bb498d7ccfb28a25c5f0b38eff1988da2c4d8602f2ed313cd"
+    },
+    {
+      "path": "diagnostic_memberships.npz",
+      "bytes": 49546,
+      "sha256": "b24cecfdfd62cfa8ca6cebd0e351cbff975dd5cd2ed77dee9c1582f5b38610bd"
+    },
+    {
+      "path": "expected/point_results.json",
+      "bytes": 5093,
+      "sha256": "266d517c1f3504ea781de1b8520c6e938d3e5c60dcfe882bd6309145ab8e6f9b"
+    },
+    {
+      "path": "expected/reference_propagation_results.json",
+      "bytes": 5228,
+      "sha256": "22d8581993b222f562783813b94f1fe5dde44a21e8479b9a50ba477de7eee85e"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 10527,
+      "sha256": "2ccb4c1d8538893ffae2fea5e85c825144682f3154b1a75c4363e0e77f5f19be"
+    }
+  ]
+}

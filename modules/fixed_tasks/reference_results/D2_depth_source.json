@@ -1,0 +1,558 @@
+{
+  "donor": "D2_Rest",
+  "identity": "v16b real-cell depth calibration, opened-data development, fixed R20 panels",
+  "script_sha256": "5a8bb584926b7fa545673c0607de2676fb47c0021cda4a109f756876ccc7131a",
+  "freeze_record_sha256": "42c899999ac300f4b6fe9f04df07e1728c42d855c1f034027eba0545f39c571f",
+  "panels": {
+    "responsive": {
+      "raw_curve": [
+        0.3376920193440864,
+        0.36445010589216725,
+        0.3882399362845176,
+        0.40847514646001876,
+        0.4267552374456608,
+        0.44111011094821395,
+        0.45302565443304466
+      ],
+      "raw_curves_by_anchor": [
+        [
+          0.33722046242957127,
+          0.3648132914333748,
+          0.38834031854163875,
+          0.40845190562947836,
+          0.4265140455873256,
+          0.4411992820155488,
+          0.4545527915520929
+        ],
+        [
+          0.33910316908213917,
+          0.36466013219959487,
+          0.38912279986007603,
+          0.40696736531724564,
+          0.4254531933200788,
+          0.4400329459263374,
+          0.4500773461473554
+        ],
+        [
+          0.3350339803285832,
+          0.36569834401917567,
+          0.3921362412647709,
+          0.41225854826740643,
+          0.42756803055059067,
+          0.44061705676391116,
+          0.4527400412088419
+        ],
+        [
+          0.33813525660206506,
+          0.3619506787846068,
+          0.3843813302405418,
+          0.40604281678928456,
+          0.4267719814484434,
+          0.4396732549357356,
+          0.45424078374554777
+        ],
+        [
+          0.3389672282780731,
+          0.3651280830240842,
+          0.38721899151556055,
+          0.40865509629667884,
+          0.42746893632186567,
+          0.4440280150995367,
+          0.45351730951138536
+        ]
+      ],
+      "method20_scores": {
+        "raw": 0.3376920193440864,
+        "Euclidean": 0.3482624886629426,
+        "PertRank": 0.36345683333389434
+      },
+      "nonmonotone_raw_steps": [],
+      "methods": {
+        "Euclidean": {
+          "target_score": 0.3482624886629426,
+          "raw_scores": [
+            0.3376920193440864,
+            0.36445010589216725,
+            0.3882399362845176,
+            0.40847514646001876,
+            0.4267552374456608,
+            0.44111011094821395,
+            0.45302565443304466
+          ],
+          "nonmonotone_steps": [],
+          "all_crossings": [
+            21.975191555618608
+          ],
+          "plateau_intervals": [],
+          "multiple_crossings": false,
+          "crossing_range": [
+            21.975191555618608,
+            21.975191555618608
+          ],
+          "state": "identified",
+          "n_equivalent": 21.975191555618608,
+          "measured_bracket": [
+            20,
+            25
+          ],
+          "bootstrap_state_counts": {
+            "left_boundary": 46,
+            "identified": 1954,
+            "not_attained": 0
+          },
+          "bootstrap_state_fractions": {
+            "left_boundary": 0.023,
+            "identified": 0.977,
+            "not_attained": 0.0
+          },
+          "conditional_inverse_95_endpoints": [
+            {
+              "state": "finite",
+              "value": 20.068076853698884
+            },
+            {
+              "state": "finite",
+              "value": 24.243892361395535
+            }
+          ],
+          "relative_extra_ranking_input_cells": 0.09875957778093047,
+          "arithmetic_reduction_relative_to_equivalent_depth": 0.08988279126575316
+        },
+        "PertRank": {
+          "target_score": 0.36345683333389434,
+          "raw_scores": [
+            0.3376920193440864,
+            0.36445010589216725,
+            0.3882399362845176,
+            0.40847514646001876,
+            0.4267552374456608,
+            0.44111011094821395,
+            0.45302565443304466
+          ],
+          "nonmonotone_steps": [],
+          "all_crossings": [
+            24.81439768563269
+          ],
+          "plateau_intervals": [],
+          "multiple_crossings": false,
+          "crossing_range": [
+            24.81439768563269,
+            24.81439768563269
+          ],
+          "state": "identified",
+          "n_equivalent": 24.81439768563269,
+          "measured_bracket": [
+            20,
+            25
+          ],
+          "bootstrap_state_counts": {
+            "left_boundary": 0,
+            "identified": 2000,
+            "not_attained": 0
+          },
+          "bootstrap_state_fractions": {
+            "left_boundary": 0.0,
+            "identified": 1.0,
+            "not_attained": 0.0
+          },
+          "conditional_inverse_95_endpoints": [
+            {
+              "state": "finite",
+              "value": 22.696784009748175
+            },
+            {
+              "state": "finite",
+              "value": 27.219061056437216
+            }
+          ],
+          "relative_extra_ranking_input_cells": 0.2407198842816345,
+          "arithmetic_reduction_relative_to_equivalent_depth": 0.19401630241543943
+        }
+      },
+      "depths": [
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50
+      ],
+      "bootstrap_draws": 2000,
+      "bootstrap_seed": 2026,
+      "query_blocks": 30,
+      "scope": "conditional on realized100-cell reservoir, fixed controls, queries, candidate pool and reference; nested/overlapping anchors are not independent experiments; no sequencing-cost claim",
+      "paired_metric_equivalent_depth_difference": {
+        "point": 2.839206130014084,
+        "identified_draws": 1954,
+        "unidentified_draws": 46,
+        "conservative_conditional_inverse_95_envelope": [
+          {
+            "state": "finite",
+            "value": 1.9537864484633929
+          },
+          {
+            "state": "finite",
+            "value": 3.7932454057582263
+          }
+        ],
+        "definition": "paired finite difference when both crossings are identifiable; each other draw retained as interval[-infinity,+infinity], not discarded"
+      },
+      "PertRank_minus_Euclidean_P25": {
+        "point": 0.015194344670951739,
+        "paired_query_block_95_interval": [
+          0.01156433284030053,
+          0.018902994181553542
+        ]
+      },
+      "PertRank_minus_raw20_P25": {
+        "point": 0.02576481398980803,
+        "paired_query_block_95_interval": [
+          0.015494684579194474,
+          0.03449135945207684
+        ]
+      },
+      "PertRank20_minus_raw_by_depth": [
+        {
+          "depth": 20,
+          "point": 0.02576481398980803,
+          "paired_query_block_95_interval": [
+            0.015494684579194343,
+            0.03449135945207672
+          ]
+        },
+        {
+          "depth": 25,
+          "point": -0.0009932725582728738,
+          "paired_query_block_95_interval": [
+            -0.013291247491807833,
+            0.010173205495324395
+          ]
+        },
+        {
+          "depth": 30,
+          "point": -0.024783102950623224,
+          "paired_query_block_95_interval": [
+            -0.03717449924266415,
+            -0.01269209382393852
+          ]
+        },
+        {
+          "depth": 35,
+          "point": -0.04501831312612437,
+          "paired_query_block_95_interval": [
+            -0.056568439663083774,
+            -0.0337755513571956
+          ]
+        },
+        {
+          "depth": 40,
+          "point": -0.06329840411176643,
+          "paired_query_block_95_interval": [
+            -0.07440318038059976,
+            -0.052577284804981195
+          ]
+        },
+        {
+          "depth": 45,
+          "point": -0.07765327761431952,
+          "paired_query_block_95_interval": [
+            -0.08869353178079029,
+            -0.06723268914835866
+          ]
+        },
+        {
+          "depth": 50,
+          "point": -0.08956882109915028,
+          "paired_query_block_95_interval": [
+            -0.10088289319534754,
+            -0.07860504780406315
+          ]
+        }
+      ]
+    },
+    "terciles": {
+      "raw_curve": [
+        0.06739636723323414,
+        0.07239047551254081,
+        0.07847980763776996,
+        0.08270149068920445,
+        0.0873695607774662,
+        0.09175941419793994,
+        0.09459673423925799
+      ],
+      "raw_curves_by_anchor": [
+        [
+          0.07152511511197114,
+          0.07445293754222455,
+          0.07959021427797963,
+          0.08395513700755766,
+          0.08704568530017116,
+          0.09075055309963972,
+          0.09572907272853179
+        ],
+        [
+          0.06640908363621606,
+          0.07104825503537773,
+          0.07732704804596349,
+          0.08260002538541386,
+          0.08991807659445933,
+          0.09291231011136748,
+          0.09253995821857895
+        ],
+        [
+          0.0665145660336736,
+          0.07288565373665078,
+          0.0797790125695606,
+          0.08388275521781997,
+          0.08808645267627639,
+          0.0927164827400215,
+          0.09749328787154773
+        ],
+        [
+          0.06723231424786447,
+          0.0713872304582074,
+          0.07801965993386169,
+          0.08301436526770131,
+          0.08685772663873363,
+          0.09199761216796155,
+          0.09562298437120899
+        ],
+        [
+          0.06530075713644548,
+          0.07217830079024364,
+          0.07768310336148437,
+          0.0800551705675294,
+          0.08493986267769049,
+          0.09042011287070946,
+          0.09159836800642251
+        ]
+      ],
+      "method20_scores": {
+        "raw": 0.06739636723323414,
+        "Euclidean": 0.08761902193143653,
+        "PertRank": 0.09089894579183821
+      },
+      "nonmonotone_raw_steps": [],
+      "methods": {
+        "Euclidean": {
+          "target_score": 0.08761902193143653,
+          "raw_scores": [
+            0.06739636723323414,
+            0.07239047551254081,
+            0.07847980763776996,
+            0.08270149068920445,
+            0.0873695607774662,
+            0.09175941419793994,
+            0.09459673423925799
+          ],
+          "nonmonotone_steps": [],
+          "all_crossings": [
+            40.28413380821199
+          ],
+          "plateau_intervals": [],
+          "multiple_crossings": false,
+          "crossing_range": [
+            40.28413380821199,
+            40.28413380821199
+          ],
+          "state": "identified",
+          "n_equivalent": 40.28413380821199,
+          "measured_bracket": [
+            40,
+            45
+          ],
+          "bootstrap_state_counts": {
+            "left_boundary": 0,
+            "identified": 1999,
+            "not_attained": 1
+          },
+          "bootstrap_state_fractions": {
+            "left_boundary": 0.0,
+            "identified": 0.9995,
+            "not_attained": 0.0005
+          },
+          "conditional_inverse_95_endpoints": [
+            {
+              "state": "finite",
+              "value": 35.707067246200396
+            },
+            {
+              "state": "finite",
+              "value": 45.54948368522936
+            }
+          ],
+          "relative_extra_ranking_input_cells": 1.0142066904105995,
+          "arithmetic_reduction_relative_to_equivalent_depth": 0.5035266217906622
+        },
+        "PertRank": {
+          "target_score": 0.09089894579183821,
+          "raw_scores": [
+            0.06739636723323414,
+            0.07239047551254081,
+            0.07847980763776996,
+            0.08270149068920445,
+            0.0873695607774662,
+            0.09175941419793994,
+            0.09459673423925799
+          ],
+          "nonmonotone_steps": [],
+          "all_crossings": [
+            44.01993492301064
+          ],
+          "plateau_intervals": [],
+          "multiple_crossings": false,
+          "crossing_range": [
+            44.01993492301064,
+            44.01993492301064
+          ],
+          "state": "identified",
+          "n_equivalent": 44.01993492301064,
+          "measured_bracket": [
+            40,
+            45
+          ],
+          "bootstrap_state_counts": {
+            "left_boundary": 0,
+            "identified": 1966,
+            "not_attained": 34
+          },
+          "bootstrap_state_fractions": {
+            "left_boundary": 0.0,
+            "identified": 0.983,
+            "not_attained": 0.017
+          },
+          "conditional_inverse_95_endpoints": [
+            {
+              "state": "finite",
+              "value": 40.10447772963656
+            },
+            {
+              "state": "finite",
+              "value": 49.115234302319124
+            }
+          ],
+          "relative_extra_ranking_input_cells": 1.200996746150532,
+          "arithmetic_reduction_relative_to_equivalent_depth": 0.5456603914799212
+        }
+      },
+      "depths": [
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50
+      ],
+      "bootstrap_draws": 2000,
+      "bootstrap_seed": 2026,
+      "query_blocks": 30,
+      "scope": "conditional on realized100-cell reservoir, fixed controls, queries, candidate pool and reference; nested/overlapping anchors are not independent experiments; no sequencing-cost claim",
+      "paired_metric_equivalent_depth_difference": {
+        "point": 3.7358011147986474,
+        "identified_draws": 1966,
+        "unidentified_draws": 34,
+        "conservative_conditional_inverse_95_envelope": [
+          {
+            "state": "finite",
+            "value": 1.3871529928185256
+          },
+          {
+            "state": "finite",
+            "value": 6.476729807558046
+          }
+        ],
+        "definition": "paired finite difference when both crossings are identifiable; each other draw retained as interval[-infinity,+infinity], not discarded"
+      },
+      "PertRank_minus_Euclidean_P25": {
+        "point": 0.0032799238604016745,
+        "paired_query_block_95_interval": [
+          0.0013137523663834987,
+          0.005462153556812581
+        ]
+      },
+      "PertRank_minus_raw20_P25": {
+        "point": 0.02350257855860405,
+        "paired_query_block_95_interval": [
+          0.017297732992197227,
+          0.02900046026314162
+        ]
+      },
+      "PertRank20_minus_raw_by_depth": [
+        {
+          "depth": 20,
+          "point": 0.02350257855860405,
+          "paired_query_block_95_interval": [
+            0.017297732992197216,
+            0.029000460263141615
+          ]
+        },
+        {
+          "depth": 25,
+          "point": 0.018508470279297383,
+          "paired_query_block_95_interval": [
+            0.013317246618161646,
+            0.02327750913720618
+          ]
+        },
+        {
+          "depth": 30,
+          "point": 0.01241913815406824,
+          "paired_query_block_95_interval": [
+            0.008265412417552027,
+            0.016498612640675626
+          ]
+        },
+        {
+          "depth": 35,
+          "point": 0.00819745510263376,
+          "paired_query_block_95_interval": [
+            0.0045606988611838865,
+            0.01154728057274398
+          ]
+        },
+        {
+          "depth": 40,
+          "point": 0.0035293850143720035,
+          "paired_query_block_95_interval": [
+            9.508063253046361e-05,
+            0.006532296953307295
+          ]
+        },
+        {
+          "depth": 45,
+          "point": -0.0008604684061017452,
+          "paired_query_block_95_interval": [
+            -0.0045441546268183,
+            0.002346601510043661
+          ]
+        },
+        {
+          "depth": 50,
+          "point": -0.0036977884474197866,
+          "paired_query_block_95_interval": [
+            -0.007821603161573832,
+            -0.00041909995497032036
+          ]
+        }
+      ]
+    }
+  },
+  "original_score_parity": {
+    "responsive": {
+      "all_original_arms_query_score_maxabs": 0.0,
+      "all_original_arms_bitwise_equal": true,
+      "reconstructed_raw20_query_score_maxabs": 0.0
+    },
+    "terciles": {
+      "all_original_arms_query_score_maxabs": 0.0,
+      "all_original_arms_bitwise_equal": true,
+      "reconstructed_raw20_query_score_maxabs": 0.0
+    }
+  },
+  "seconds": 24.394287672001155,
+  "max_rss_MiB": 923.125,
+  "scores_sha256": "f811e5d61ab4dc62ffc5bc503db74a62c8431413ad09c0c6a78a497663a6b4bf",
+  "addition_lock_sha256": "3a7e4164e6f20016929001d4058ba11069d70a12d70f52968a8eb023bfd7fd58"
+}

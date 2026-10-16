@@ -1,0 +1,28 @@
+GPerturb 资源门与比较范围：独立只读复核
+2026-10-14；未读取表达矩阵、未执行拟合、未更改锁定方案。
+
+结论
+全 15616 个输入阳性基因与 26 个技术协变量是本基准公开 adapter 的约束，不是 GPerturb 唯一原生要求。其资源门失败只能表述为“当前全基因配置在当前资源预算下未获资格”，不能据此宣布 GPerturb 整体无法比较、算法不适用或弱于 PertRank。但也不能反向声称全基因输入天然不公平：原论文确实包含 15668 个基因的实例。风险在于把我们选择的一项严格任务配置误当成算法适用范围的全部。
+
+基因选择：已确认与尚未确认的事实
+1. Pinned commit 05d5a431413ff9dc443c82b994b571ecc563426d 的 TCells_GPerturb.ipynb 第 2 个（从 0 编号）代码单元读取 TCells_dev_filtered_raw.csv，保存输出为 (24955, 6000)。对应 .py 27–30 行直接读取已处理的矩阵，并以其列数决定 output_dim；没有要求所有输入阳性基因必须入模。
+2. 论文 Methods 的 Single gene perturbation 说明 Replogle 输入经既往流程过滤后有 1187 个基因；Multigene perturbation prediction 说明 Norman 为 5045，Yao 为 15668 个基因。T-cell 分析为 6000 个基因。这证明官方实例允许不同基因面板，同时也做过接近本任务基因数的分析。[论文来源 S1、S2]
+3. 当前本地 pinned 示例直接读入预处理后的 CSV/h5ad，未包含上述基因筛选规则的完整实现；不能仅凭“filtered”文件名把 6000 个基因断言成某一种 HVG/deviance 筛选。已查到的官方材料没有给出所有数据集统一“必须用 HVG”或“必须保留全部阳性基因”的规则。因此不应编造一个“官方默认 2000/5000 HVG”配置。
+
+原生模型允许的替代路径及覆盖限制（事实性选项，非本轮变更指令）
+可为后续单列分析，先明确、冻结仅依赖允许训练输入的基因过滤规则，再调用不变的原生 Gaussian 模型；仍保留所有目标细胞、对照与 1200 个扰动候选。过滤的是被建模的输出基因轴，不必同时删掉扰动候选。与示例相似的较小基因面板有原生使用先例，但其在当前机器上能否充分训练尚未实测，不能保证可运行或优于全基因。
+纯过滤面板可能漏掉部分冻结的 300 个 query，覆盖率目前未计算。漏掉的 query 不能自动补零或从主评估中悄悄移除。合法、可说明的两种设计是：a) 输入选出的面板并入预先固定的全部 query 身份，报告新增个数，确保完整 300-query 输出；b) 原始过滤面板只评估实际覆盖 query，并让所有方法在同一交集重算，明确它是改变了评价面板的次要任务。a) 是我们公开定义的 query-complete adapter，不能冒称作者原样推荐；b) 不能替代原 300-query 主终点。两者都不应使用 reference 的表达/效应排序选基因，归一化也不应无说明地改成对子集重新计算的文库量。
+当前锁定主方案禁止用 query-only 或减少候选的任务替代全任务；本复核不要求撤销该约束或立即训练。只需将其识别为本基准的范围选择，并承认还有尚未评估的合法 gene-filtered GPerturb adapter。
+
+技术协变量：26 维不是算法硬约束
+TCells_GPerturb.py 36–43 行先取 lib_size、umi_count、percent_mt、doner、stimulated，按 stimulated 分组后只传前 4 列。Replogle_GPerturb.py 118–121 行使用另一套 4 列，包括 core_scale_factor。论文还有 2 维和 3 维的实例；具体协变量随数据集而变。[本地源码；论文来源 S1]
+GPerturb_Gaussian 的 __init__ 接受任意 base_dim；65–73 行显式设有 base_dim==0 的常数基线分支，forward 和 normal_loss 也接受 cell_info=None。须同时说明：官方 GPerturb_train helper 直接对 cell_info 索引，因此不能不加处理就向该 helper 传 None；无协变量训练需要诚实披露的 wrapper 适配并保留原生 loss，而不是现成示例的逐字复现。
+我们的 26 维方案由技术量与 lane one-hot 组成，是一种有依据、但数据集特定的输入设计；它既非官方固定 26 维要求，也非唯一原生合法实现。不能将“某项协变量不可得”自动等同算法无法训练。另一方面，删掉协变量改变基线调整和所估计的扰动效应，不保证性能不变；26→较低维也只减少部分网络输入负担，不能假定足以解决由大输出维度和完整验证集驱动的内存问题。
+
+建议报告一句话
+“GPerturb 的原生模型可用于经过基因过滤的输入及不同的细胞协变量设计。本研究当前资源资格评估针对预先定义的全基因、完整 query 覆盖 adapter；未通过该配置的资源门不构成对其他合法 GPerturb 配置的性能或可运行性判断。未充分执行的 GPerturb 不计为比较失败。”
+
+证据定位
+S1: Xing & Yau, Nature Communications 16, 5423 (2025), DOI 10.1038/s41467-025-61165-7；Methods: Single gene perturbation / Multigene perturbation prediction。原文官方存档 https://pmc.ncbi.nlm.nih.gov/articles/PMC12215016/ 。本轮检索可读主文内容来源 turn70search1（PMC）；没有依赖第三方评论。
+S2: 同一论文 Results: Comparisons to linear models。https://www.nature.com/articles/s41467-025-61165-7 ，本轮检索 turn70search0（Nature）。Nature 直接 open 被身份重定向阻断，PMC 直接 open 出现验证页；上述具体段落通过 primary-source 搜索索引获得。
+本地 pinned 源：gperturb_source/numerical_examples/TCells_GPerturb.ipynb（加载单元及保存的 shape 输出）；TCells_GPerturb.py 27–58；Replogle_GPerturb.py 112–150；GPerturb/GPerturb_model.py 46–100 与 151–190；README.md 91–92。已有 GPerturb_EXECUTION_FEASIBILITY.json 中的全基因/26-cov 约束被作为本任务方案读取，不作为官方通用规范。

@@ -1,0 +1,36 @@
+{
+  "name": "paper_analysis",
+  "scientific_release": "PertRank paper v25.2",
+  "repository_release": "1.5.0",
+  "entrypoint": "reproduce.py",
+  "default_modules": [
+    "s3",
+    "biology",
+    "transfer",
+    "trade",
+    "application",
+    "figures"
+  ],
+  "optional_module": "software",
+  "requires_new_output_directory": true,
+  "network_required_for_replay": false,
+  "new_experiments_run": 0,
+  "scientific_validation": "validation/relocated_REPLAY_REPORT.json",
+  "software_validation": "validation/software_REPLAY_REPORT.json",
+  "original_source_scripts_unchanged": true,
+  "limits": [
+    "No full raw-cell source preprocessing",
+    "No R mixture refit",
+    "No control-replacement ranking exists",
+    "No current-source public registry publication"
+  ],
+  "distribution_version": "1.5.1",
+  "lossless_materialization": {
+    "array_archive": "array_payload.tar.xz",
+    "layout": "COMPACT_LAYOUT.json",
+    "restoration_receipt": "LOSSLESS_RESTORATION.json",
+    "unchanged_scientific_launcher": "replay_original.py",
+    "precision_changed": false,
+    "core_dependency": "../fixed_tasks"
+  }
+}

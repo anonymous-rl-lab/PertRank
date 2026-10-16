@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETE_PENDING_SEPARATE_VERIFICATION",
+  "donor": "D3_Rest",
+  "method": "ASH",
+  "created_utc": "2026-10-14T04:07:54.720743+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/run_posterior.py",
+    "--input",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/inputs/D3_Rest/ASH/full.npz",
+    "--output",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D3_Rest/ASH_attempt1/native",
+    "--mode",
+    "ash",
+    "--retry-mixem",
+    "--seed",
+    "20261012"
+  ],
+  "input_lock_sha256": "dc885bcf9b7744db93020616a62dd5719913beb3d901d3dcd669efb53293cd14",
+  "wrapper_sha256": "f4e6d7c6a32f6d503a1b24fc2f0f987d76d32b677e7dd97963888ff04a9132e2",
+  "timeout_seconds": 600,
+  "RSS_limit_GiB": 5.5,
+  "reference_read": false,
+  "score_computed": false,
+  "returncode": 0,
+  "stop_reason": null,
+  "wall_seconds": 62.14158905500153,
+  "process_tree_peak_RSS_bytes": 262144
+}

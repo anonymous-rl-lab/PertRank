@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-07T15:18:31Z",
+  "identity": "independent D1 full-axis correction and score audit; no D4 access",
+  "query_rule": "full keep-gene planning panel with corrected own Ensembl zeroing; original unzeroed planning correlation blocks",
+  "number_replaced": 4,
+  "input_and_truth_max_abs_error": 0.0,
+  "score_count": 84000,
+  "score_max_abs_error": 0.0,
+  "panels": {
+    "responsive": {
+      "scores_checked": 42000,
+      "contrasts_checked": 126,
+      "max_absolute_summary_error": 2.7755575615628914e-17,
+      "independent_bootstrap": "block multiplicities with query-count denominator; same registered random draws"
+    },
+    "terciles": {
+      "scores_checked": 42000,
+      "contrasts_checked": 126,
+      "max_absolute_summary_error": 6.938893903907228e-18,
+      "independent_bootstrap": "block multiplicities with query-count denominator; same registered random draws"
+    }
+  },
+  "source_sha256": {
+    "v18_d4_confirmation/audit_protocol/audit_d1_correction.py": "1b03a421b00a5ccb8689c163ddf46ed0b44c1164a7065a7e73c7d1097fd002e9",
+    "v16_execution/assets/canonical/Pertrescue_v6/code/repro_v10/same_budget_weight/stage3/data/d1_confirm_state.npz": "db3876aedd0614f86de96da29e40d0ecd46f96f7bbd6ff4770e5873d4cf69e94",
+    "v16_execution/assets/canonical/Pertrescue_v6/code/repro_v10/same_budget_weight/stage3/data/d1_own_gene_map.npz": "932a884898019f7669532f4b49e767d56abe1179d62f3261c77389c720338180",
+    "v17_experiments/delivery/compact/D1_Rest_state.npz": "190c3c7cbe0dbb19fdd8ef364f1b079f39791c865b91d4392c8b80b95af9b886",
+    "v16_execution/inventory/stage1200/D1_Rest/full_gene_moments_smoke.npz": "c18191a63886c901248c57dad2e7f45dcd4462512ecae8b4e4467e275ca81629",
+    "v18_d4_confirmation/d1_correction/full_planning_truth.npz": "b30789ca9eb5157535221c8553a9d8e748328bb0d2395aae1d368b0e5e5cc0d3",
+    "v18_d4_confirmation/d1_correction/PANEL_PREDICTION_LOCK.json": "dbbc7d60f77062a35d79cceee87eda80b6b348d44c1a5b20ec78010aedb498c8",
+    "v18_d4_confirmation/d1_correction/corrected_panel_predictions_locked.npz": "713dc4e224ceef424967650e63d1291068f82d419d9a88d5b5044e18847c768f",
+    "v18_d4_confirmation/d1_correction/D1_corrected_results.json": "09e1d7ffda5187e16bcf5f8a501bd1c54b9154d3cb0697e4da7bc6fc2760b7aa",
+    "v18_d4_confirmation/d1_correction/D1_corrected_query_scores.npz": "0bf80b21e5551df28c223c5d6721a23cc31cea1fcc2f4a983eedcd2df6ee04c1"
+  },
+  "elapsed_seconds": 17.42264552200504
+}

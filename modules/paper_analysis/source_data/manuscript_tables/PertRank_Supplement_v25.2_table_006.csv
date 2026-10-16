@@ -1,0 +1,8 @@
+item,value
+source,"public bucket `genome-scale-tcell-perturb-seq/marson2025_data/D3_Rest.assigned_guide.h5ad`, one donor, resting condition, 18,130 genes"
+probe cohort,"1,200 targets with at least 300 qualifying cells, last 1,200 in `SHA256(""pertrescue-tcell-probe\|D3_Rest\|<gene>"")` order, permanently excluded from any future frozen T cell cohort (`repro_v10/custodian/e4_tcell/tprobe_reserved.json`)"
+blocks,"one seeded permutation per target: 0 to 19, 20 to 49, 50 to 99 (shallow inputs), 100 to 199 (deep A), 200 to 299 (deep B, the truth)"
+controls,"2,000 non-targeting input cells and 2,000 truth cells in hash order"
+weight genes,"13,390 genes with non-zero mean in the 2,000 input control cells. This is the widest gene rule of the five screens (SN8.4)."
+own-gene mapping,"targets are gene symbols, the gene axis is Ensembl; the corrected mapping goes through `perturbed_gene_id` in obs, placing 1,142 of 1,200 target genes on the axis and 1,050 inside the weight gene set. 24 tercile queries and 34 responsive queries are themselves probe targets. E4 numbers in the main text are scored with this corrected mapping; the responsive query list is the original one, with the list re-derived under own-target zeroing reported as a sensitivity check (SN8.4, SN9)."
+batch,"24 lanes, each target's 100 input cells spread over a median of 24 (uniform expectation 23.6). Not nested."

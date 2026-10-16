@@ -1,0 +1,10 @@
+{
+  "K25_points_max_error": 0.0,
+  "K25_joint_max_error": 0.0,
+  "K10_points_max_error": 0.0,
+  "K10_joint_max_error": 0.0,
+  "query_draws_identical": true,
+  "query_weights_identical": true,
+  "status": "PASS",
+  "new_FR_evaluated": false
+}

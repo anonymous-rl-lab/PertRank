@@ -1,0 +1,249 @@
+{
+  "classification": "posthoc uniformly regularized numerical sensitivity",
+  "original_H2b_status": "not_evaluable; unchanged",
+  "uniform_optimizer_control": {
+    "eps": 0.0001
+  },
+  "fit_count": 2805,
+  "runtime": {
+    "completed_fits": 2805,
+    "planned_fits": 2805,
+    "elapsed_seconds": 1896.9243478775024,
+    "failures": [],
+    "status": "complete"
+  },
+  "moment_validation_maxabs": {
+    "S": 3.9898639947466563e-17,
+    "weight": 5.551115123125783e-16,
+    "nu": 2.7755575615628914e-17
+  },
+  "unchanged_arm_score_replay_maxabs": 0.0,
+  "panels": {
+    "responsive": {
+      "means": {
+        "raw": 0.31690940013306584,
+        "Euclidean": 0.37857917562451,
+        "TRADE_scalar": 0.36901949554723423,
+        "PR_M": 0.387090282816916,
+        "PertRank": 0.39372749325212164
+      },
+      "contrasts": {
+        "PertRank_minus_TRADE_scalar": {
+          "difference": 0.024707997704887418,
+          "conditional_query_block_95_interval": [
+            0.022485358219614088,
+            0.027249059663158985
+          ],
+          "conditional_query_block_97_5_interval": [
+            0.022141391032110106,
+            0.027579711977610704
+          ],
+          "bootstrap_nonpositive_count": 0,
+          "bootstrap_fraction_nonpositive": 0.0,
+          "draws": 2000,
+          "seed": 2026,
+          "query_blocks": 30,
+          "scope": "conditional on realized input cell groups, fixed controls, query panel, candidate pool and reference; not population or cell-sampling uncertainty"
+        },
+        "TRADE_scalar_minus_Euclidean": {
+          "difference": -0.009559680077275683,
+          "conditional_query_block_95_interval": [
+            -0.01168309806605804,
+            -0.006544857307046184
+          ],
+          "conditional_query_block_97_5_interval": [
+            -0.011936975019980929,
+            -0.006040641941720836
+          ],
+          "bootstrap_nonpositive_count": 2000,
+          "bootstrap_fraction_nonpositive": 1.0,
+          "draws": 2000,
+          "seed": 2026,
+          "query_blocks": 30,
+          "scope": "conditional on realized input cell groups, fixed controls, query panel, candidate pool and reference; not population or cell-sampling uncertainty"
+        },
+        "TRADE_scalar_minus_raw": {
+          "difference": 0.052110095414168445,
+          "conditional_query_block_95_interval": [
+            0.04634854205557931,
+            0.05813390761988951
+          ],
+          "conditional_query_block_97_5_interval": [
+            0.045473560693907115,
+            0.05902944025051741
+          ],
+          "bootstrap_nonpositive_count": 0,
+          "bootstrap_fraction_nonpositive": 0.0,
+          "draws": 2000,
+          "seed": 2026,
+          "query_blocks": 30,
+          "scope": "conditional on realized input cell groups, fixed controls, query panel, candidate pool and reference; not population or cell-sampling uncertainty"
+        },
+        "TRADE_scalar_minus_PR_M": {
+          "difference": -0.018070787269681747,
+          "conditional_query_block_95_interval": [
+            -0.020434393243234178,
+            -0.015581235046689157
+          ],
+          "conditional_query_block_97_5_interval": [
+            -0.02082382796824945,
+            -0.015247250763076614
+          ],
+          "bootstrap_nonpositive_count": 2000,
+          "bootstrap_fraction_nonpositive": 1.0,
+          "draws": 2000,
+          "seed": 2026,
+          "query_blocks": 30,
+          "scope": "conditional on realized input cell groups, fixed controls, query panel, candidate pool and reference; not population or cell-sampling uncertainty"
+        },
+        "PertRank_minus_Euclidean": {
+          "difference": 0.015148317627611737,
+          "conditional_query_block_95_interval": [
+            0.013088416892031402,
+            0.01786980510502405
+          ],
+          "conditional_query_block_97_5_interval": [
+            0.01279903903847982,
+            0.018200941696349515
+          ],
+          "bootstrap_nonpositive_count": 0,
+          "bootstrap_fraction_nonpositive": 0.0,
+          "draws": 2000,
+          "seed": 2026,
+          "query_blocks": 30,
+          "scope": "conditional on realized input cell groups, fixed controls, query panel, candidate pool and reference; not population or cell-sampling uncertainty"
+        },
+        "PertRank_minus_PR_M": {
+          "difference": 0.006637210435205674,
+          "conditional_query_block_95_interval": [
+            0.005372105323881389,
+            0.008126853541756043
+          ],
+          "conditional_query_block_97_5_interval": [
+            0.005179610390424323,
+            0.008419997472488547
+          ],
+          "bootstrap_nonpositive_count": 0,
+          "bootstrap_fraction_nonpositive": 0.0,
+          "draws": 2000,
+          "seed": 2026,
+          "query_blocks": 30,
+          "scope": "conditional on realized input cell groups, fixed controls, query panel, candidate pool and reference; not population or cell-sampling uncertainty"
+        }
+      }
+    },
+    "terciles": {
+      "means": {
+        "raw": 0.08995007420850967,
+        "Euclidean": 0.12472720825172894,
+        "TRADE_scalar": 0.12120570401540237,
+        "PR_M": 0.12730806000325645,
+        "PertRank": 0.12948904826731222
+      },
+      "contrasts": {
+        "PertRank_minus_TRADE_scalar": {
+          "difference": 0.008283344251909838,
+          "conditional_query_block_95_interval": [
+            0.0046388109459148084,
+            0.011109106714324158
+          ],
+          "conditional_query_block_97_5_interval": [
+            0.004177031131432636,
+            0.011460275695964448
+          ],
+          "bootstrap_nonpositive_count": 0,
+          "bootstrap_fraction_nonpositive": 0.0,
+          "draws": 2000,
+          "seed": 2026,
+          "query_blocks": 30,
+          "scope": "conditional on realized input cell groups, fixed controls, query panel, candidate pool and reference; not population or cell-sampling uncertainty"
+        },
+        "TRADE_scalar_minus_Euclidean": {
+          "difference": -0.0035215042363265538,
+          "conditional_query_block_95_interval": [
+            -0.005238395989983826,
+            -0.001137567174506866
+          ],
+          "conditional_query_block_97_5_interval": [
+            -0.005450266395771777,
+            -0.0007406625514616618
+          ],
+          "bootstrap_nonpositive_count": 1992,
+          "bootstrap_fraction_nonpositive": 0.996,
+          "draws": 2000,
+          "seed": 2026,
+          "query_blocks": 30,
+          "scope": "conditional on realized input cell groups, fixed controls, query panel, candidate pool and reference; not population or cell-sampling uncertainty"
+        },
+        "TRADE_scalar_minus_raw": {
+          "difference": 0.03125562980689269,
+          "conditional_query_block_95_interval": [
+            0.02151291766386247,
+            0.0389109157932893
+          ],
+          "conditional_query_block_97_5_interval": [
+            0.02051243367260064,
+            0.03947669939492686
+          ],
+          "bootstrap_nonpositive_count": 0,
+          "bootstrap_fraction_nonpositive": 0.0,
+          "draws": 2000,
+          "seed": 2026,
+          "query_blocks": 30,
+          "scope": "conditional on realized input cell groups, fixed controls, query panel, candidate pool and reference; not population or cell-sampling uncertainty"
+        },
+        "TRADE_scalar_minus_PR_M": {
+          "difference": -0.0061023559878540575,
+          "conditional_query_block_95_interval": [
+            -0.008141989906231007,
+            -0.0034931513930734205
+          ],
+          "conditional_query_block_97_5_interval": [
+            -0.008333160778754298,
+            -0.003129013545731308
+          ],
+          "bootstrap_nonpositive_count": 2000,
+          "bootstrap_fraction_nonpositive": 1.0,
+          "draws": 2000,
+          "seed": 2026,
+          "query_blocks": 30,
+          "scope": "conditional on realized input cell groups, fixed controls, query panel, candidate pool and reference; not population or cell-sampling uncertainty"
+        },
+        "PertRank_minus_Euclidean": {
+          "difference": 0.004761840015583285,
+          "conditional_query_block_95_interval": [
+            0.003150435668892368,
+            0.006196813393725441
+          ],
+          "conditional_query_block_97_5_interval": [
+            0.002952912796769407,
+            0.0063476788770836234
+          ],
+          "bootstrap_nonpositive_count": 0,
+          "bootstrap_fraction_nonpositive": 0.0,
+          "draws": 2000,
+          "seed": 2026,
+          "query_blocks": 30,
+          "scope": "conditional on realized input cell groups, fixed controls, query panel, candidate pool and reference; not population or cell-sampling uncertainty"
+        },
+        "PertRank_minus_PR_M": {
+          "difference": 0.0021809882640557807,
+          "conditional_query_block_95_interval": [
+            0.0003914533390400254,
+            0.0036038355912414986
+          ],
+          "conditional_query_block_97_5_interval": [
+            0.00022897363745102097,
+            0.0037114847378585574
+          ],
+          "bootstrap_nonpositive_count": 14,
+          "bootstrap_fraction_nonpositive": 0.007,
+          "draws": 2000,
+          "seed": 2026,
+          "query_blocks": 30,
+          "scope": "conditional on realized input cell groups, fixed controls, query panel, candidate pool and reference; not population or cell-sampling uncertainty"
+        }
+      }
+    }
+  }
+}

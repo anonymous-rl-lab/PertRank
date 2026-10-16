@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "new_experiments": 0,
+  "new_model_fits": 0,
+  "network_reads": 0,
+  "d4": {
+    "new_delta_entries": 6089,
+    "all_five_arm_memberships_exact": true,
+    "membership_values_compared": 17463850,
+    "truth_membership_values_compared": 698554,
+    "panel_scores_exact": 30000,
+    "independent_membership_implementation": "np.partition threshold with all ties and full eligible candidate axis"
+  },
+  "ntc": {
+    "full_archived_half_means_sha256": "54a0ac0b254cacd6a164a963661e5771741320e66b7d884506a914343b1da675",
+    "cross_gram_dtype": "float64",
+    "cross_gram_maximum_absolute_difference": 0.0,
+    "all_64_target_energy_maximum_absolute_difference": 1.734723475976807e-18,
+    "raw_half_means_reconstructed": false,
+    "scope": "Compare compact inputs to already completed locally archived gene-level means"
+  },
+  "elapsed_seconds": 2.2720513620006386
+}

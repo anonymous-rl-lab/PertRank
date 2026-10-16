@@ -1,0 +1,12 @@
+{
+  "frozen_utc": "2026-10-07T07:04:33.893762+00:00",
+  "scope": "fit runner and unchanged core before full new fit; no new performance score",
+  "timing_wording_correction": "Clarified scorer freezes before scoring, not necessarily before fitting; previous freeze retained. No scientific rule changed. Smoke cached fits remained exactly equal.",
+  "master_protocol_sha256": "9f0963a2206bac8b84b5aa6e8ecde249ce0afa5f07de886b00cf691fc328e784",
+  "files": {
+    "run_five_predictions.py": "be6c65fc6fe0d09ed6087b2c0b87ff3cfd0ef400d72e3c1649aaa5672da3401b",
+    "trade_scalar_compact.R": "453a729283e530db8a716472172b7053982f2c8ff93da06185e2db7902556e7f",
+    "R_TRADE_univariate.R": "b2fc72c0e5d7c2cde9631e73e33a95cdfed23a31b3a93c5d7141332452426320",
+    "TRADE_EXTENSION_RULES.md": "304f260c0cf1404c4a7d24152aa5b3d8a11e9adc1a8979a4d91c6b0321b5ce44"
+  }
+}

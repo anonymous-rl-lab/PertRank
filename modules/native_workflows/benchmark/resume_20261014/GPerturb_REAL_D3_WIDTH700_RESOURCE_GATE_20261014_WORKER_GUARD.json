@@ -1,0 +1,8 @@
+{
+  "status": "RESOURCE_MEMORY_GUARD",
+  "worker_pid": 6,
+  "worker_max_rss_bytes": 7121305600,
+  "elapsed_seconds": 29.58302140199976,
+  "memory_guard_bytes": 6979321856,
+  "budget_seconds": 3600
+}

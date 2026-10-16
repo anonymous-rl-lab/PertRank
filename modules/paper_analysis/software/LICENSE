@@ -1,0 +1,14 @@
+Private review distribution
+
+This anonymous release is supplied for installation, examination and
+reproduction of the accompanying method during private review. Copyright
+and other rights remain with their respective owners. No new public
+open-source license is granted by this packaging step.
+
+Before a public PyPI release or scverse submission, the authors must select
+and apply an OSI-approved license to their software. Third-party datasets
+retain their original terms and attribution; the tutorial provenance files
+identify the sources. Public dataset redistribution must respect those terms.
+
+This notice describes the current distribution status and does not replace
+any existing license or rights attached to a third-party component.

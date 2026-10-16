@@ -1,0 +1,35 @@
+{
+  "data": {
+    "object_address": 6248,
+    "dtype": "<f4",
+    "length": 11469097211,
+    "itemsize": 4,
+    "chunk_size": 7789,
+    "compression": null,
+    "shuffle": false,
+    "fletcher32": false,
+    "scaleoffset": null
+  },
+  "indices": {
+    "object_address": 15979680,
+    "dtype": "<i8",
+    "length": 11469097211,
+    "itemsize": 8,
+    "chunk_size": 7789,
+    "compression": null,
+    "shuffle": false,
+    "fletcher32": false,
+    "scaleoffset": null
+  },
+  "indptr": {
+    "object_address": 47904656,
+    "dtype": "<i8",
+    "length": 2778525,
+    "itemsize": 8,
+    "chunk_size": 1001,
+    "compression": null,
+    "shuffle": false,
+    "fletcher32": false,
+    "scaleoffset": null
+  }
+}

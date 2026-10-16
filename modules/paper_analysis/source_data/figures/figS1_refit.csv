@@ -1,0 +1,5 @@
+panel,contrast,original,refit_mean,empirical_low,empirical_high,fixed_weight_mean,source
+Responsive,PertRank − Euclidean,0.03561,-0.00344,-0.00759,-0.00032,0.02963,Supplement v20 Table SN8.2 and following fixed-weight paragraph; reported precision
+Responsive,PertRank − Unweighted,0.03406,-0.00383,-0.00999,0.00287,,Supplement v20 Table SN8.2 and following fixed-weight paragraph; reported precision
+Terciles,PertRank − Euclidean,0.00554,-0.00208,-0.00369,-0.00053,0.00388,Supplement v20 Table SN8.2 and following fixed-weight paragraph; reported precision
+Terciles,PertRank − Unweighted,0.02286,0.00163,-0.00065,0.00389,,Supplement v20 Table SN8.2 and following fixed-weight paragraph; reported precision

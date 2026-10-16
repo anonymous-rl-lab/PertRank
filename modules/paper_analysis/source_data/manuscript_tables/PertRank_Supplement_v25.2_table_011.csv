@@ -1,0 +1,7 @@
+Analysis,Varied,Held fixed,Interval label
+Original method comparison,Query blocks,"Cells, controls, directions, candidate pool, reference",Conditional paired query-block 95% interval
+Fixed-weight cell resampling,Target-cell multiplicities and effects,Original weights and remaining design,Empirical fixed-weight sensitivity range
+D3 refit resampling,"Target-cell multiplicities, effects and both weights","Input controls, directions, queries, pool, deep reference",Empirical refit sensitivity range
+A19-R reference propagation,"External donor contributions and matched controls, hence reference ranking","Source predictions, cells, queries, pool",Reference-side empirical range
+R20 real-cell replacement,Disjoint target-cell groups; effects and both weights re-estimated,"Controls, directions, query panel, pool, reference",Query-block interval conditional on realised groups
+Source endpoint averaging,No additional joint sampling model,Dependence between sources unresolved,Descriptive endpoint-average range

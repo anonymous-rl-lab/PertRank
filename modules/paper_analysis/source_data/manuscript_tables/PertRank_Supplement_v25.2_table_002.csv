@@ -1,0 +1,9 @@
+Analysis,Source / reference,Configuration timing,Exposure at design,Endpoint status,Inference unit
+Matched six-arm design,Four sources; within-source deep RNA,Shared geometry and matched arms,Opened analysis resources,Recorded design contrasts,Query blocks within setting
+D1/D2 original confirmation,Same-study donors; deep RNA,Original rules before first access,Initially unopened,Original confirmation rules,Query blocks within donor
+D1/D2 later comparisons,Same donors and reference,Inputs/arms fixed before new scoring,Opened; D1 panel corrected,Opened-data comparisons,Query blocks; inputs averaged
+D4 Rest original task,Held-out same-study donor; deep RNA,Method and selected PR_M before access,Closed at original design,Primary and gated competition,Query blocks; five inputs averaged
+D4 Stim original task,Second state of D4; deep RNA,Plan and fixed parameters before access,Original access sequence in SN14.6,H1/H2; secondary S1–S3,"Query blocks, not biological replicates"
+D4 native-method extension,Same D4 states and references,Rank 100 before new scores; rank 300 later,Both states already opened,Subsequent comparison/sensitivity,State-specific query blocks
+Independent RNA extension,Three inputs; one separate knockout experiment,Native configurations fixed before extension scoring,External reference already opened,Post hoc native comparison,Source query blocks; separate reference draws
+Geometry/depth interactions,Existing paired score arrays,Defined after point results were known,Opened scores,Post hoc descriptive contrasts,Paired query blocks within task

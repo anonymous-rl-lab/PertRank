@@ -1,0 +1,34 @@
+{
+  "status": "DEPTH_COMMON_THREE_ARMS_BOTH_FR_SPECIFICATIONS_MATCH",
+  "utc": "2026-10-14T01:42:52.059070+00:00",
+  "depth": 20,
+  "main_benchmark": false,
+  "ash_report_sha256": "c0c71e697b8d8e3652b859cf958d2f30e0e3e87699aaef0c164bc5af0ab216e9",
+  "matched_keys": [
+    "raw_scores",
+    "reference_scores",
+    "w0",
+    "wm",
+    "queries",
+    "candidates",
+    "blocks",
+    "three_arm_query_p25",
+    "three_arm_query_p10"
+  ],
+  "checks": [
+    {
+      "FR_specification": "A_native_default_penalty",
+      "FR_report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n20/evaluation_report.json",
+      "FR_report_sha256": "e072bff9f4def8ad8d6e97cd4ffdfd5850741a39a8fa49f20dac2239ae966666",
+      "all_nine_common_arm_fingerprints_match": true
+    },
+    {
+      "FR_specification": "B_effective_penalty_sensitivity",
+      "FR_report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n20/evaluation_report.json",
+      "FR_report_sha256": "94366f13b19ec013ac61539cfd9fb1bca3ef5e8ec5f8bcf73e79d2ec8f39f40d",
+      "all_nine_common_arm_fingerprints_match": true
+    }
+  ],
+  "source_sha256": "9ec0eda6ecc02eccc8b13aea65ada7e5610857a0389ff9faf0b5a84164cdab07",
+  "scope": "Read-only identity check on the same separate 250-target universe; no scoring or ASH parameter changes."
+}

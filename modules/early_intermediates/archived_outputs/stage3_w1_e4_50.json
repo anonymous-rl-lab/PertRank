@@ -1,0 +1,248 @@
+{
+ "created_utc": "2026-09-26T02:54:17Z",
+ "integrity": {
+  "plan_sha256": "a4980412ee194cb2aee1a4d7d0f9cfdd523166066206fc6d815762dac92f5999",
+  "amendment_A2_sha256": "91fed42ea9ff76e62a2946fbcdbdcd4e15ceabaf0660cf801e784815c91ca117",
+  "amendment_A3_sha256": "dffb3749581f7e63434c486886a2a63da8aa8fcac0c3b1297c676d4d9f76a72b",
+  "amendment_A4_sha256": "39d9434b5d7bb31ae3099d85fcf43fd4e3fe8c6b79a1103bae069fd572b10456",
+  "amendment_A4a_sha256": "b8c81d8fcd05e9612eee80668b0eb0afc1fa4d24d447857c3cd119dcda0fc17a",
+  "amendment_A4b_sha256": "aa8e9305b11c48c24657f0f4eb6988161e99578561f489e2a76d172d3e4d1375",
+  "freeze": {
+   "evaluate_w1_e4.py": "daba866ef464135ac973a3faa1ac1f97be350b0f4018bbfcb4a6c8c1f966d1b6",
+   "evaluate_w1_e4_50.py": "48a3e1e8a3614eff72134433d71515be066b5905aaac974714f2b5a6ab5b9b3e",
+   "read_e4_block1.py": "1938851e01cca9f7111f2885302781ac01e01ff0871bad57c3904d1c97daea71",
+   "read_e4_w1.py": "8eab4828ef25aa2eb482c3fd94473cb12202dad7833d6877e3d16aa6b98a5c71"
+  },
+  "data_sha256": {
+   "block0": "d552c95c72d40b613a74caf7f60a72e3411e862543cf7579be01ab2ac6b5673a",
+   "block1": "52019d637a9d5bf400efefaf219761841296ad0f8874f46ab87c2420d7b88bca"
+  }
+ },
+ "checks": {
+  "block1_checks": "{\"block1_query_gene_sums\": 1.1675243107224306e-07, \"varbar_30\": 4.6898950774132295e-08, \"m2_30\": 4.634791088635734e-08}",
+  "varbar_30_vs_reduced": 4.6898950774132295e-08,
+  "beta_zero_reproduces_w0y_50_abs": 1.7789644202181876e-09
+ },
+ "setting": {
+  "k": 5,
+  "beta": 0.9,
+  "genes": "all weight genes",
+  "cells": 50
+ },
+ "cells": {
+  "terciles 50": {
+   "role_this_round": "gatekeeper",
+   "raw": 0.08408856127303332,
+   "w0y": 0.10364335205028646,
+   "W1": 0.10401095523392205,
+   "W1_vs_w0y": {
+    "diff": 0.0003676031836355988,
+    "ci95": [
+     -0.0034294147316691463,
+     0.0043998611981152305
+    ],
+    "p_one_sided": 0.4035
+   },
+   "W1_vs_raw": {
+    "diff": 0.019922393960888747,
+    "ci95": [
+     0.012069366786257753,
+     0.026995540870041093
+    ]
+   },
+   "w0y_vs_raw": {
+    "diff": 0.019554790777253146
+   },
+   "weights": {
+    "mean": 0.2306322819141452,
+    "zero_fraction": 0.0,
+    "spearman_with_w0y": 0.8526708411094094,
+    "degenerate": false
+   }
+  },
+  "responsive 50": {
+   "role_this_round": "descriptive",
+   "raw": 0.39183499840817687,
+   "w0y": 0.3830673033822427,
+   "W1": 0.3974496876962999,
+   "W1_vs_w0y": {
+    "diff": 0.01438238431405719,
+    "ci95": [
+     0.0038345462949930993,
+     0.02550688097006029
+    ],
+    "p_one_sided": 0.004
+   },
+   "W1_vs_raw": {
+    "diff": 0.005614689288122982,
+    "ci95": [
+     -0.006607112799713582,
+     0.014300767036595035
+    ]
+   },
+   "w0y_vs_raw": {
+    "diff": -0.008767695025934203
+   },
+   "weights": {
+    "mean": 0.2306322819141452,
+    "zero_fraction": 0.0,
+    "spearman_with_w0y": 0.8526708411094094,
+    "degenerate": false
+   }
+  },
+  "responsive 20 (re-reported)": {
+   "W1_vs_w0y": {
+    "diff": 0.03561349892013915,
+    "ci95": [
+     0.023863735899247684,
+     0.04873618201104612
+    ]
+   }
+  },
+  "terciles 20 (re-reported)": {
+   "W1_vs_w0y": {
+    "diff": 0.0055393885889641285,
+    "ci95": [
+     0.0027592398235517144,
+     0.009056087452519528
+    ]
+   }
+  }
+ },
+ "sensitivity": {
+  "all_weight_genes_terciles_50": {
+   "k1_beta0.5": {
+    "diff": 7e-05,
+    "ci95": [
+     -0.00118,
+     0.00153
+    ]
+   },
+   "k1_beta0.9": {
+    "diff": 0.00051,
+    "ci95": [
+     -0.00308,
+     0.00417
+    ]
+   },
+   "k1_beta0.99": {
+    "diff": -0.00145,
+    "ci95": [
+     -0.00637,
+     0.00319
+    ]
+   },
+   "k3_beta0.5": {
+    "diff": 0.00048,
+    "ci95": [
+     -0.00078,
+     0.00205
+    ]
+   },
+   "k3_beta0.9": {
+    "diff": 0.0009,
+    "ci95": [
+     -0.00279,
+     0.00499
+    ]
+   },
+   "k3_beta0.99": {
+    "diff": -0.00077,
+    "ci95": [
+     -0.00574,
+     0.00428
+    ]
+   },
+   "k5_beta0.5": {
+    "diff": 0.00058,
+    "ci95": [
+     -0.00086,
+     0.00218
+    ]
+   },
+   "k5_beta0.9": {
+    "diff": 0.00037,
+    "ci95": [
+     -0.00343,
+     0.0044
+    ]
+   },
+   "k5_beta0.99": {
+    "diff": -0.00074,
+    "ci95": [
+     -0.00482,
+     0.00357
+    ]
+   },
+   "k10_beta0.5": {
+    "diff": 0.00074,
+    "ci95": [
+     -0.00064,
+     0.00237
+    ]
+   },
+   "k10_beta0.9": {
+    "diff": 0.00199,
+    "ci95": [
+     -0.00196,
+     0.00619
+    ]
+   },
+   "k10_beta0.99": {
+    "diff": -0.0001,
+    "ci95": [
+     -0.00508,
+     0.00509
+    ]
+   },
+   "k20_beta0.5": {
+    "diff": 0.00071,
+    "ci95": [
+     -0.00071,
+     0.00246
+    ]
+   },
+   "k20_beta0.9": {
+    "diff": 0.00147,
+    "ci95": [
+     -0.00233,
+     0.00554
+    ]
+   },
+   "k20_beta0.99": {
+    "diff": -0.00013,
+    "ci95": [
+     -0.00533,
+     0.005
+    ]
+   }
+  },
+  "non_query_genes": {
+   "computable": false,
+   "note": "needs both blocks' per-gene sums; the first read kept only derived scalars, so this is not approximated"
+  }
+ },
+ "matches_previous_round": {
+  "responsive 20": true,
+  "terciles 20": true
+ },
+ "decision": {
+  "gatekeeper": "E4 terciles 50",
+  "diff": 0.0003676031836355988,
+  "ci95": [
+   -0.0034294147316691463,
+   0.0043998611981152305
+  ],
+  "passes": true,
+  "rule": "a gatekeeper fails only if its 95% interval lies entirely below zero",
+  "gatekeepers_still_not_computed": [
+   "E1 20",
+   "E1 50",
+   "E5 responsive 20",
+   "E5 responsive 50",
+   "E3 20",
+   "E3 100"
+  ],
+  "note": "E4 responsive 50 is descriptive (A4b section 4) and does not enter any gatekeeper"
+ }
+}

@@ -1,0 +1,13 @@
+task,donor,Euclidean,PertRank,up only,down only
+"cross-guide, A 20 cells to B 100",D3,0.0679,0.0694,0.0684,0.0685
+"cross-guide, A 20 cells to B 100",D1,0.0821,0.0883,0.0821,0.0881
+"cross-guide, A 20 cells to B 100",D2,0.0869,0.0897,0.0870,0.0881
+"cross-guide, B 20 cells to A 100",D3,0.0762,0.0767,0.0763,0.0757
+"cross-guide, B 20 cells to A 100",D1,0.0792,0.0827,0.0804,0.0832
+"cross-guide, B 20 cells to A 100",D2,0.0869,0.0867,0.0862,0.0883
+"same guide, A 20 cells to A 80",D3,0.3751,0.3939,0.3778,0.3917
+"same guide, A 20 cells to A 80",D1,0.2948,0.3202,0.2980,0.3162
+"same guide, A 20 cells to A 80",D2,0.3721,0.3897,0.3779,0.3861
+"same guide, B 20 cells to B 80",D3,0.3556,0.3775,0.3619,0.3737
+"same guide, B 20 cells to B 80",D1,0.3075,0.3314,0.3134,0.3270
+"same guide, B 20 cells to B 80",D2,0.4059,0.4189,0.4107,0.4164

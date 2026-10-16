@@ -1,0 +1,47 @@
+{
+  "provenance": {
+    "query_id": "ENSG00000163599",
+    "query_symbol": "CTLA4",
+    "input_group_zero_based": 0,
+    "selection": "Previously named biological query; first input group; both directions; no selection by gain",
+    "top_k": 25,
+    "query_in_responsive": true,
+    "query_in_tercile": false,
+    "all_ten_query_scores_match_registered": true,
+    "all_groups_mean_delta_P25": 0.028000000000000004,
+    "sources": {
+      "predictions": "05538b6425858a86c30717eab7dacf0db1eae4d5d509bf7150749f5d1bdfae6c",
+      "reference": "a2f797665d50060aefc3e3849de046b0210816b38b82dc5388b0f68d8664c189",
+      "query_context": "a30eb6765d97dd1244271e4fa8c87f761100db521f045fba753aa80ea407fc46"
+    },
+    "outcome": "Descriptive reuse of completed internal RNA task, not independent support or a new hypothesis test"
+  },
+  "summary": [
+    {
+      "direction": "up",
+      "candidates": 561,
+      "common": 19,
+      "swapped_in": 6,
+      "swapped_out": 6,
+      "raw_P25": 0.44,
+      "Euclidean_P25": 0.52,
+      "PertRank_P25": 0.64,
+      "delta_P25": 0.12,
+      "boundary_fractional_candidates_E": 0,
+      "boundary_fractional_candidates_P": 0
+    },
+    {
+      "direction": "down",
+      "candidates": 561,
+      "common": 17,
+      "swapped_in": 8,
+      "swapped_out": 8,
+      "raw_P25": 0.16,
+      "Euclidean_P25": 0.2,
+      "PertRank_P25": 0.28,
+      "delta_P25": 0.08,
+      "boundary_fractional_candidates_E": 0,
+      "boundary_fractional_candidates_P": 0
+    }
+  ]
+}

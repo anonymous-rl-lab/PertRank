@@ -1,0 +1,650 @@
+{
+ "note": "post hoc, written after the pre-registered evaluation; not part of the A2 4.5 decision",
+ "scalars_sha256": "0a19be8081355cd38f7eebb26cbb7a746d213763d292eb3e779b109e43505b5e",
+ "D1_oracle_by_metric_E4": {
+  "responsive": {
+   "w0y_score": 0.27576,
+   "20_cells": {
+    "V0": {
+     "diff": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "V1_x1": {
+     "diff": -0.00344,
+     "ci95": [
+      -0.0059,
+      -0.00025
+     ]
+    },
+    "V1_x0.25": {
+     "diff": -0.00244,
+     "ci95": [
+      -0.00582,
+      0.00113
+     ]
+    },
+    "V1_x4": {
+     "diff": -0.00232,
+     "ci95": [
+      -0.00373,
+      -0.00043
+     ]
+    },
+    "V2": {
+     "diff": -0.00047,
+     "ci95": [
+      -0.0014,
+      0.00019
+     ]
+    }
+   },
+   "oracle_deepA": {
+    "V0": {
+     "diff": 0.05281,
+     "ci95": [
+      0.04582,
+      0.05901
+     ]
+    },
+    "V1_x1": {
+     "diff": 0.04791,
+     "ci95": [
+      0.03999,
+      0.05475
+     ]
+    },
+    "V1_x0.25": {
+     "diff": 0.04798,
+     "ci95": [
+      0.04076,
+      0.05456
+     ]
+    },
+    "V1_x4": {
+     "diff": 0.04925,
+     "ci95": [
+      0.04159,
+      0.05566
+     ]
+    },
+    "V2": {
+     "diff": 0.05313,
+     "ci95": [
+      0.04579,
+      0.05935
+     ]
+    }
+   },
+   "decomposition_vs_V0": {
+    "V1_x1": {
+     "metric_part": {
+      "diff": -0.00489,
+      "ci95": [
+       -0.00722,
+       -0.00313
+      ]
+     },
+     "estimation_part": {
+      "diff": 0.00145,
+      "ci95": [
+       -0.00199,
+       0.006
+      ]
+     }
+    },
+    "V1_x0.25": {
+     "metric_part": {
+      "diff": -0.00483,
+      "ci95": [
+       -0.00679,
+       -0.00264
+      ]
+     },
+     "estimation_part": {
+      "diff": 0.00238,
+      "ci95": [
+       -0.0011,
+       0.00678
+      ]
+     }
+    },
+    "V1_x4": {
+     "metric_part": {
+      "diff": -0.00355,
+      "ci95": [
+       -0.0056,
+       -0.00199
+      ]
+     },
+     "estimation_part": {
+      "diff": 0.00123,
+      "ci95": [
+       -0.0011,
+       0.00452
+      ]
+     }
+    },
+    "V2": {
+     "metric_part": {
+      "diff": 0.00032,
+      "ci95": [
+       -0.0006,
+       0.00114
+      ]
+     },
+     "estimation_part": {
+      "diff": -0.00079,
+      "ci95": [
+       -0.00201,
+       0.00032
+      ]
+     }
+    }
+   }
+  },
+  "terciles": {
+   "w0y_score": 0.07467,
+   "20_cells": {
+    "V0": {
+     "diff": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "V1_x1": {
+     "diff": 0.00165,
+     "ci95": [
+      0.00059,
+      0.00271
+     ]
+    },
+    "V1_x0.25": {
+     "diff": 0.00227,
+     "ci95": [
+      0.00108,
+      0.00345
+     ]
+    },
+    "V1_x4": {
+     "diff": 0.0011,
+     "ci95": [
+      0.00031,
+      0.00204
+     ]
+    },
+    "V2": {
+     "diff": 1e-05,
+     "ci95": [
+      -0.00025,
+      0.00027
+     ]
+    }
+   },
+   "oracle_deepA": {
+    "V0": {
+     "diff": 0.00962,
+     "ci95": [
+      0.00481,
+      0.014
+     ]
+    },
+    "V1_x1": {
+     "diff": 0.00988,
+     "ci95": [
+      0.00471,
+      0.01486
+     ]
+    },
+    "V1_x0.25": {
+     "diff": 0.01021,
+     "ci95": [
+      0.00512,
+      0.01481
+     ]
+    },
+    "V1_x4": {
+     "diff": 0.00956,
+     "ci95": [
+      0.00472,
+      0.01409
+     ]
+    },
+    "V2": {
+     "diff": 0.00956,
+     "ci95": [
+      0.00486,
+      0.01389
+     ]
+    }
+   },
+   "decomposition_vs_V0": {
+    "V1_x1": {
+     "metric_part": {
+      "diff": 0.00026,
+      "ci95": [
+       -0.00114,
+       0.00128
+      ]
+     },
+     "estimation_part": {
+      "diff": 0.00139,
+      "ci95": [
+       -6e-05,
+       0.00303
+      ]
+     }
+    },
+    "V1_x0.25": {
+     "metric_part": {
+      "diff": 0.00059,
+      "ci95": [
+       -0.00073,
+       0.00166
+      ]
+     },
+     "estimation_part": {
+      "diff": 0.00168,
+      "ci95": [
+       0.00051,
+       0.00299
+      ]
+     }
+    },
+    "V1_x4": {
+     "metric_part": {
+      "diff": -6e-05,
+      "ci95": [
+       -0.00083,
+       0.00054
+      ]
+     },
+     "estimation_part": {
+      "diff": 0.00116,
+      "ci95": [
+       0.00011,
+       0.00237
+      ]
+     }
+    },
+    "V2": {
+     "metric_part": {
+      "diff": -6e-05,
+      "ci95": [
+       -0.00051,
+       0.00038
+      ]
+     },
+     "estimation_part": {
+      "diff": 7e-05,
+      "ci95": [
+       -0.00046,
+       0.00069
+      ]
+     }
+    }
+   }
+  }
+ },
+ "D2_whose_weight_V1_moves_E4": {
+  "responsive": {
+   "targets_with_both_weights_positive": 1079,
+   "median_log_ratio_V1_over_V0_all": -0.2574,
+   "median_log_ratio_hit_weighted": -0.2388,
+   "spearman_log_ratio_vs_hit_count": 0.0939,
+   "median_log_ratio_top_decile_by_hits": -0.2138
+  },
+  "terciles": {
+   "targets_with_both_weights_positive": 1079,
+   "median_log_ratio_V1_over_V0_all": -0.2574,
+   "median_log_ratio_hit_weighted": -0.2558,
+   "spearman_log_ratio_vs_hit_count": 0.1123,
+   "median_log_ratio_top_decile_by_hits": -0.2197
+  }
+ },
+ "D1_oracle_by_metric_E5": {
+  "responsive": {
+   "w0y_score": 0.03293,
+   "20_cells": {
+    "V0": {
+     "diff": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "V1_x1": {
+     "diff": -0.00087,
+     "ci95": [
+      -0.00179,
+      0.00013
+     ]
+    },
+    "V1_x0.25": {
+     "diff": -0.0012,
+     "ci95": [
+      -0.0029,
+      0.00046
+     ]
+    },
+    "V1_x4": {
+     "diff": 0.00047,
+     "ci95": [
+      -0.00023,
+      0.00144
+     ]
+    }
+   },
+   "oracle_deepA": {
+    "V0": {
+     "diff": 0.0076,
+     "ci95": [
+      0.00308,
+      0.01107
+     ]
+    },
+    "V1_x1": {
+     "diff": 0.0076,
+     "ci95": [
+      0.00333,
+      0.01077
+     ]
+    },
+    "V1_x0.25": {
+     "diff": 0.00787,
+     "ci95": [
+      0.00358,
+      0.01122
+     ]
+    },
+    "V1_x4": {
+     "diff": 0.0078,
+     "ci95": [
+      0.00342,
+      0.01108
+     ]
+    }
+   },
+   "decomposition_vs_V0": {
+    "V1_x1": {
+     "metric_part": {
+      "diff": 0.0,
+      "ci95": [
+       -0.00087,
+       0.00079
+      ]
+     },
+     "estimation_part": {
+      "diff": -0.00087,
+      "ci95": [
+       -0.00226,
+       0.00072
+      ]
+     }
+    },
+    "V1_x0.25": {
+     "metric_part": {
+      "diff": 0.00027,
+      "ci95": [
+       -0.00086,
+       0.00145
+      ]
+     },
+     "estimation_part": {
+      "diff": -0.00147,
+      "ci95": [
+       -0.00344,
+       0.0004
+      ]
+     }
+    },
+    "V1_x4": {
+     "metric_part": {
+      "diff": 0.0002,
+      "ci95": [
+       -0.00038,
+       0.00072
+      ]
+     },
+     "estimation_part": {
+      "diff": 0.00027,
+      "ci95": [
+       -0.00075,
+       0.00164
+      ]
+     }
+    }
+   }
+  },
+  "terciles": {
+   "w0y_score": 0.02647,
+   "20_cells": {
+    "V0": {
+     "diff": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "V1_x1": {
+     "diff": -0.00027,
+     "ci95": [
+      -0.00148,
+      0.00113
+     ]
+    },
+    "V1_x0.25": {
+     "diff": -0.0004,
+     "ci95": [
+      -0.00193,
+      0.00155
+     ]
+    },
+    "V1_x4": {
+     "diff": -0.0008,
+     "ci95": [
+      -0.00165,
+      0.00024
+     ]
+    }
+   },
+   "oracle_deepA": {
+    "V0": {
+     "diff": 0.0028,
+     "ci95": [
+      -0.00043,
+      0.006
+     ]
+    },
+    "V1_x1": {
+     "diff": 0.003,
+     "ci95": [
+      -0.00025,
+      0.00634
+     ]
+    },
+    "V1_x0.25": {
+     "diff": 0.00267,
+     "ci95": [
+      -0.00046,
+      0.00609
+     ]
+    },
+    "V1_x4": {
+     "diff": 0.003,
+     "ci95": [
+      -7e-05,
+      0.00628
+     ]
+    }
+   },
+   "decomposition_vs_V0": {
+    "V1_x1": {
+     "metric_part": {
+      "diff": 0.0002,
+      "ci95": [
+       -0.00036,
+       0.00085
+      ]
+     },
+     "estimation_part": {
+      "diff": -0.00047,
+      "ci95": [
+       -0.00178,
+       0.001
+      ]
+     }
+    },
+    "V1_x0.25": {
+     "metric_part": {
+      "diff": -0.00013,
+      "ci95": [
+       -0.00114,
+       0.00117
+      ]
+     },
+     "estimation_part": {
+      "diff": -0.00027,
+      "ci95": [
+       -0.00189,
+       0.00164
+      ]
+     }
+    },
+    "V1_x4": {
+     "metric_part": {
+      "diff": 0.0002,
+      "ci95": [
+       -0.00043,
+       0.00116
+      ]
+     },
+     "estimation_part": {
+      "diff": -0.001,
+      "ci95": [
+       -0.00211,
+       -5e-05
+      ]
+     }
+    }
+   }
+  }
+ },
+ "D2_whose_weight_V1_moves_E5": {
+  "responsive": {
+   "targets_with_both_weights_positive": 425,
+   "median_log_ratio_V1_over_V0_all": -0.2194,
+   "median_log_ratio_hit_weighted": -0.1533,
+   "spearman_log_ratio_vs_hit_count": -0.0126,
+   "median_log_ratio_top_decile_by_hits": -0.2399
+  },
+  "terciles": {
+   "targets_with_both_weights_positive": 425,
+   "median_log_ratio_V1_over_V0_all": -0.2194,
+   "median_log_ratio_hit_weighted": -0.1476,
+   "spearman_log_ratio_vs_hit_count": 0.0226,
+   "median_log_ratio_top_decile_by_hits": -0.2262
+  }
+ },
+ "D3_kappa_by_energy_quintile_E1": {
+  "overall": 3.686,
+  "by_quintile_low_to_high": [
+   1.204,
+   1.215,
+   1.721,
+   2.283,
+   10.122
+  ]
+ },
+ "D3_kappa_by_energy_quintile_E4": {
+  "overall": 25.528,
+  "by_quintile_low_to_high": [
+   5.183,
+   9.576,
+   16.359,
+   24.404,
+   58.025
+  ]
+ },
+ "D3_kappa_by_energy_quintile_E5": {
+  "overall": 1.702,
+  "by_quintile_low_to_high": [
+   0.885,
+   0.951,
+   1.131,
+   1.48,
+   3.934
+  ]
+ },
+ "D4_L1_weights_E1": {
+  "kappa": 3.686,
+  "share_of_targets_w0y_zero": 0.37,
+  "L1": {
+   "spearman_with_w0y": 0.9723,
+   "max_abs_diff_from_w0y": 0.0254,
+   "mean_weight_where_w0y_zero": 0.0006,
+   "mean_weight_elsewhere": 0.0391
+  },
+  "L1kappa": {
+   "spearman_with_w0y": 0.4138,
+   "max_abs_diff_from_w0y": 0.0923,
+   "mean_weight_where_w0y_zero": 0.0149,
+   "mean_weight_elsewhere": 0.0287
+  },
+  "w0y_mean_weight_elsewhere": 0.0507
+ },
+ "D4_L1_weights_E4": {
+  "kappa": 25.528,
+  "share_of_targets_w0y_zero": 0.0883,
+  "L1": {
+   "spearman_with_w0y": 0.9991,
+   "max_abs_diff_from_w0y": 0.0173,
+   "mean_weight_where_w0y_zero": 0.0009,
+   "mean_weight_elsewhere": 0.1491
+  },
+  "L1kappa": {
+   "spearman_with_w0y": 0.4879,
+   "max_abs_diff_from_w0y": 0.1505,
+   "mean_weight_where_w0y_zero": 0.117,
+   "mean_weight_elsewhere": 0.138
+  },
+  "w0y_mean_weight_elsewhere": 0.1507
+ },
+ "D4_L1_weights_E5": {
+  "kappa": 1.702,
+  "share_of_targets_w0y_zero": 0.541,
+  "L1": {
+   "spearman_with_w0y": 0.909,
+   "max_abs_diff_from_w0y": 0.036,
+   "mean_weight_where_w0y_zero": 0.0,
+   "mean_weight_elsewhere": 0.0103
+  },
+  "L1kappa": {
+   "spearman_with_w0y": 0.8996,
+   "max_abs_diff_from_w0y": 0.0585,
+   "mean_weight_where_w0y_zero": 0.0,
+   "mean_weight_elsewhere": 0.0048
+  },
+  "w0y_mean_weight_elsewhere": 0.0267
+ },
+ "D5_query_genes_under_V1_E4": {
+  "all_genes_median_control_variance": 0.0999,
+  "responsive": {
+   "median_control_variance": 0.4573,
+   "mean_V1_gene_weight_relative_to_average": 0.321,
+   "share_of_genes": 0.0224,
+   "share_of_V1_metric_mass": 0.0072,
+   "share_of_across_target_effect_variance": 0.2595
+  },
+  "terciles": {
+   "median_control_variance": 0.1021,
+   "mean_V1_gene_weight_relative_to_average": 1.004,
+   "share_of_genes": 0.0224,
+   "share_of_V1_metric_mass": 0.0225,
+   "share_of_across_target_effect_variance": 0.0197
+  }
+ }
+}

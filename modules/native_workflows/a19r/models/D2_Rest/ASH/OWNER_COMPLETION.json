@@ -1,0 +1,16 @@
+{
+  "status": "VERIFIED_AFTER_OWNER_EXIT",
+  "owner_session_id": "80015",
+  "owner_exit_code": 0,
+  "run_record_sha256": "6f485a737c8602dc29440389e78171acda53e3fa9587807d3d12194b5e60c761",
+  "input_lock_sha256": "b32da9ea0376c64b4793c87781ac154e6535c6cd3f9f7a428761c14354ec070b",
+  "method": "ASH",
+  "donor": "D2_Rest",
+  "archives": {
+    "posterior.npz": {
+      "sha256": "49dc6426a034322701d3ae35c5aebd0c150fc97b685dd88b6c2f9656859f700a",
+      "CRC": "PASS",
+      "bytes": 6245049
+    }
+  }
+}

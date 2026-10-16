@@ -1,0 +1,9 @@
+predictions,truth,queries,Unweighted,Euclidean,PertRank
+D3,D1 (cross),responsive,0.1767,0.1820,0.1907
+D3,D3 (within),responsive,0.4365,0.4302,0.4552
+D3,D1 (cross),terciles,0.1498,0.1564,0.1563
+D3,D3 (within),terciles,0.1949,0.2114,0.2123
+D1,D3 (cross),responsive,0.1768,0.1832,0.1849
+D1,D1 (within),responsive,0.3546,0.3608,0.3753
+D1,D3 (cross),terciles,0.1486,0.1542,0.1548
+D1,D1 (within),terciles,0.1746,0.1794,0.1846

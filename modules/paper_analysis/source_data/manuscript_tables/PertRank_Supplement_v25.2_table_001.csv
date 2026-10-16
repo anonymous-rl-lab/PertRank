@@ -1,0 +1,11 @@
+Main-text topic,Supplementary Methods,Supplementary Notes
+"Data, preprocessing and query panels",SM1–SM3,SN9
+Reliability weights and matched readouts,SM4–SM5,SN3
+Sampling uncertainty and repeated inputs,SM6,"SN1, SN8"
+Scalar and gene-wise comparators,SM7,"SN2, SN11–SN12, SN18"
+"Donor, guide and independent experimental support",SM8,"SN5–SN8, SN13"
+Native estimators and independent RNA comparison,SM9,SN19–SN20
+"Energy, alignment and target suppression",SM5,"SN4, SN14–SN16"
+Ranking-input efficiency and depth dependence,SM6,"SN10–SN11, SN19, SN21"
+Fixed-setting confirmation and panel transfer,SM8,"SN11, SN14, SN17"
+Registration and computational reproducibility,SM1–SM9,"SN9, SN11.5, SN14.6"

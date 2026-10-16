@@ -1,0 +1,322 @@
+{
+ "created_utc": "2026-09-26T06:54:55Z",
+ "integrity": {
+  "amendment_A5_sha256": "5106c1d5e02bfa5d83a37d3d11dae00f32ccf046c6cc49235436ab2118607128",
+  "freeze": {
+   "evaluate_d1_confirm.py": "107eb464968f467a57544856327b5e71fdd0ef062a4e05104effab6a588ac01c",
+   "read_d1_confirm.py": "04a41a5607d784d003fc43e89bbefce5567548432889a33d80a92d29ce7c6b96"
+  },
+  "state_sha256": "db3876aedd0614f86de96da29e40d0ecd46f96f7bbd6ff4770e5873d4cf69e94",
+  "donor": "D1_Rest"
+ },
+ "checks": {
+  "beta_zero_reproduces_w0y_20_abs": 0.0,
+  "beta_zero_reproduces_w0y_50_abs": 0.0
+ },
+ "cohort": {
+  "targets": 1127,
+  "weight_genes": 12794,
+  "eligible": 1127,
+  "cells": 3074496,
+  "control_trace": 1600.2363547106352,
+  "top20_trace_share": 0.1107
+ },
+ "setting": {
+  "k": 5,
+  "beta": 0.9,
+  "genes": "all weight genes",
+  "directions": "this donor's own 2,000 input controls"
+ },
+ "cells": {
+  "responsive 20": {
+   "role": "primary",
+   "raw": 0.25689734082897586,
+   "w0y": 0.2884723964382501,
+   "W1": 0.31454699961285326,
+   "W1_vs_w0y": {
+    "diff": 0.026074603174603174,
+    "ci95": [
+     0.021499098941853957,
+     0.03154471544715447
+    ],
+    "p_one_sided": 0.0
+   },
+   "W1_vs_raw": {
+    "diff": 0.05764965878387738,
+    "ci95": [
+     0.0473101256027551,
+     0.06545355355276833
+    ]
+   },
+   "w0y_vs_raw": {
+    "diff": 0.03157505560927421
+   },
+   "weights": {
+    "mean": 0.0774771990868248,
+    "zero_fraction": 0.055900621118012424,
+    "spearman_with_w0y": 0.8230258934715229,
+    "degenerate": false
+   }
+  },
+  "responsive 50": {
+   "role": "descriptive",
+   "raw": 0.3658685625562106,
+   "w0y": 0.37978368176538907,
+   "W1": 0.38516163375919477,
+   "W1_vs_w0y": {
+    "diff": 0.005377951993805653,
+    "ci95": [
+     -0.0011321396622426677,
+     0.011232213454351572
+    ],
+    "p_one_sided": 0.0535
+   },
+   "W1_vs_raw": {
+    "diff": 0.019293071202984152,
+    "ci95": [
+     0.008616120441725635,
+     0.028416151801626682
+    ]
+   },
+   "w0y_vs_raw": {
+    "diff": 0.0139151192091785
+   },
+   "weights": {
+    "mean": 0.16130559306742615,
+    "zero_fraction": 0.0044365572315882874,
+    "spearman_with_w0y": 0.8972504578997628,
+    "degenerate": false
+   }
+  },
+  "terciles 20": {
+   "role": "gatekeeper",
+   "raw": 0.05283032841400356,
+   "w0y": 0.07312891439583603,
+   "W1": 0.07579178147971197,
+   "W1_vs_w0y": {
+    "diff": 0.0026628670838759368,
+    "ci95": [
+     -0.00019396981815024254,
+     0.006075522735552853
+    ],
+    "p_one_sided": 0.0385
+   },
+   "W1_vs_raw": {
+    "diff": 0.022961453065708407,
+    "ci95": [
+     0.01714293161100751,
+     0.028690519398773467
+    ]
+   },
+   "w0y_vs_raw": {
+    "diff": 0.02029858598183247
+   },
+   "weights": {
+    "mean": 0.0774771990868248,
+    "zero_fraction": 0.055900621118012424,
+    "spearman_with_w0y": 0.8230258934715229,
+    "degenerate": false
+   }
+  },
+  "terciles 50": {
+   "role": "gatekeeper",
+   "raw": 0.07327973839459294,
+   "w0y": 0.09238390442959321,
+   "W1": 0.0939692134159066,
+   "W1_vs_w0y": {
+    "diff": 0.001585308986313393,
+    "ci95": [
+     -0.0015879295185602118,
+     0.004806095810497356
+    ],
+    "p_one_sided": 0.163
+   },
+   "W1_vs_raw": {
+    "diff": 0.020689475021313655,
+    "ci95": [
+     0.01475088296100174,
+     0.02564106278849355
+    ]
+   },
+   "w0y_vs_raw": {
+    "diff": 0.019104166035000262
+   },
+   "weights": {
+    "mean": 0.16130559306742615,
+    "zero_fraction": 0.0044365572315882874,
+    "spearman_with_w0y": 0.8972504578997628,
+    "degenerate": false
+   }
+  }
+ },
+ "sensitivity": {
+  "primary_grid": {
+   "k1_beta0.5": {
+    "diff": 0.01794,
+    "ci95": [
+     0.01529,
+     0.0207
+    ]
+   },
+   "k1_beta0.9": {
+    "diff": 0.02225,
+    "ci95": [
+     0.01862,
+     0.0259
+    ]
+   },
+   "k1_beta0.99": {
+    "diff": 0.02452,
+    "ci95": [
+     0.02114,
+     0.02789
+    ]
+   },
+   "k3_beta0.5": {
+    "diff": 0.01774,
+    "ci95": [
+     0.01498,
+     0.02076
+    ]
+   },
+   "k3_beta0.9": {
+    "diff": 0.02398,
+    "ci95": [
+     0.02,
+     0.02877
+    ]
+   },
+   "k3_beta0.99": {
+    "diff": 0.02305,
+    "ci95": [
+     0.01898,
+     0.02808
+    ]
+   },
+   "k5_beta0.5": {
+    "diff": 0.01741,
+    "ci95": [
+     0.01447,
+     0.02088
+    ]
+   },
+   "k5_beta0.9": {
+    "diff": 0.02607,
+    "ci95": [
+     0.0215,
+     0.03154
+    ]
+   },
+   "k5_beta0.99": {
+    "diff": 0.02474,
+    "ci95": [
+     0.02005,
+     0.03024
+    ]
+   },
+   "k10_beta0.5": {
+    "diff": 0.01481,
+    "ci95": [
+     0.01225,
+     0.01788
+    ]
+   },
+   "k10_beta0.9": {
+    "diff": 0.02421,
+    "ci95": [
+     0.0206,
+     0.02893
+    ]
+   },
+   "k10_beta0.99": {
+    "diff": 0.02421,
+    "ci95": [
+     0.02009,
+     0.02928
+    ]
+   },
+   "k20_beta0.5": {
+    "diff": 0.01387,
+    "ci95": [
+     0.01137,
+     0.01665
+    ]
+   },
+   "k20_beta0.9": {
+    "diff": 0.02321,
+    "ci95": [
+     0.01945,
+     0.02793
+    ]
+   },
+   "k20_beta0.99": {
+    "diff": 0.02288,
+    "ci95": [
+     0.0189,
+     0.02768
+    ]
+   }
+  },
+  "direction_set_control": {
+   "1..5": {
+    "diff": 0.02607,
+    "ci95": [
+     0.0215,
+     0.03154
+    ],
+    "control_trace_share": 0.0753
+   },
+   "6..20": {
+    "diff": -0.01027,
+    "ci95": [
+     -0.01287,
+     -0.00768
+    ],
+    "control_trace_share": 0.0354
+   },
+   "1 only": {
+    "diff": 0.02225,
+    "ci95": [
+     0.01862,
+     0.0259
+    ],
+    "control_trace_share": 0.0432
+   }
+  }
+ },
+ "decision": {
+  "donor": "D1_Rest",
+  "primary_cell": "responsive 20",
+  "diff": 0.026074603174603174,
+  "ci95": [
+   0.021499098941853957,
+   0.03154471544715447
+  ],
+  "reading": "confirmed, at the finalising level",
+  "gatekeepers": {
+   "terciles 20": {
+    "diff": 0.0026628670838759368,
+    "ci95": [
+     -0.00019396981815024254,
+     0.006075522735552853
+    ],
+    "p_one_sided": 0.0385
+   },
+   "terciles 50": {
+    "diff": 0.001585308986313393,
+    "ci95": [
+     -0.0015879295185602118,
+     0.004806095810497356
+    ],
+    "p_one_sided": 0.163
+   }
+  },
+  "gatekeepers_pass": {
+   "terciles 20": true,
+   "terciles 50": true
+  },
+  "all_gatekeepers_pass": true,
+  "scope": "an unseen-donor confirmation within the same study, not an external confirmation on a new laboratory or platform (A5 section 1)",
+  "does_not_replace": "the four E1 and E3 gatekeepers of A4 (A5 section 9)"
+ }
+}

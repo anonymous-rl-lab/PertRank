@@ -1,0 +1,7 @@
+Euclidean to PertRank weight,Target-input observations,Net reference members per 25 [95% interval]
+Zero to zero,215,"-0.000007 [-0.000027, 0.000000]"
+Zero to positive,447,"+0.008915 [0.004377, 0.013873]"
+Positive to zero,82,"-0.000333 [-0.001042, 0.000000]"
+Both positive; PertRank lower,1475,"-0.087618 [-0.125250, -0.043013]"
+Both positive; equal,0,"+0.000000 [0.000000, 0.000000]"
+Both positive; PertRank higher,586,"+0.457752 [0.420992, 0.507264]"

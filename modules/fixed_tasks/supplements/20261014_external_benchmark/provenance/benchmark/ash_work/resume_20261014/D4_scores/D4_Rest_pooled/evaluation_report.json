@@ -1,0 +1,409 @@
+{
+  "status": "COMPLETE",
+  "created_utc": "2026-10-14T01:31:52.955167+00:00",
+  "recovery_replay": true,
+  "dataset": "D4_Rest",
+  "kind": "pooled",
+  "config_id": "default_uniform_fdr",
+  "arms": [
+    "raw",
+    "euclidean",
+    "pertrank",
+    "ash"
+  ],
+  "input_reps": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "shape": {
+    "input_reps": 5,
+    "queries": 300,
+    "candidates": 589,
+    "blocks": 30
+  },
+  "primary_K": 25,
+  "sensitivity_K": 10,
+  "bootstrap_draws": 2000,
+  "query_seed": 20261012,
+  "reference_seed": null,
+  "reference_batch_size": null,
+  "results": {
+    "25": {
+      "arms": {
+        "raw": {
+          "point": 0.301750884910793,
+          "input_rep_points": [
+            0.31237273548195443,
+            0.298035927428207,
+            0.30253793264719175,
+            0.2970018209959261,
+            0.2988060080006855
+          ],
+          "query_only_95_interval": [
+            0.26656918651356365,
+            0.33378490662974364
+          ]
+        },
+        "euclidean": {
+          "point": 0.3556499310037844,
+          "input_rep_points": [
+            0.36918419526134105,
+            0.3571004968332412,
+            0.3544704956968836,
+            0.3515778835332453,
+            0.34591658369421063
+          ],
+          "query_only_95_interval": [
+            0.323479475635509,
+            0.3825651728188943
+          ]
+        },
+        "pertrank": {
+          "point": 0.37917332608905385,
+          "input_rep_points": [
+            0.3873728992287851,
+            0.37242535092820217,
+            0.3828157814888151,
+            0.380006119261524,
+            0.373246479537943
+          ],
+          "query_only_95_interval": [
+            0.3455114516815665,
+            0.40831275450184873
+          ]
+        },
+        "ash": {
+          "point": 0.3122899761660174,
+          "input_rep_points": [
+            0.3249535027583404,
+            0.3133135497192743,
+            0.3163298831554702,
+            0.3033819932134556,
+            0.3034709519835464
+          ],
+          "query_only_95_interval": [
+            0.2876426161721015,
+            0.3348700876180204
+          ]
+        }
+      },
+      "contrasts": {
+        "ash_minus_raw": {
+          "point": 0.010539091255224398,
+          "input_rep_points": [
+            0.012580767276385962,
+            0.015277622291067272,
+            0.013791950508278472,
+            0.006380172217529512,
+            0.004664943982860881
+          ],
+          "query_only_95_interval": [
+            -0.003244514859015536,
+            0.022762552672301584
+          ],
+          "query_only_99_interval": [
+            -0.008136020384082045,
+            0.026965303337419182
+          ],
+          "in_prespecified_five_contrast_family": false
+        },
+        "ash_minus_euclidean": {
+          "point": -0.043359954837767,
+          "input_rep_points": [
+            -0.04423069250300066,
+            -0.04378694711396691,
+            -0.03814061254141338,
+            -0.048195890319789714,
+            -0.04244563171066423
+          ],
+          "query_only_95_interval": [
+            -0.05190512972363941,
+            -0.033987000120419705
+          ],
+          "query_only_99_interval": [
+            -0.054502437880497696,
+            -0.031626277624441805
+          ],
+          "in_prespecified_five_contrast_family": false
+        },
+        "pertrank_minus_ash": {
+          "point": 0.06688334992303646,
+          "input_rep_points": [
+            0.0624193964704447,
+            0.059111801208927894,
+            0.0664858983333449,
+            0.0766241260480684,
+            0.06977552755439659
+          ],
+          "query_only_95_interval": [
+            0.05659443055747136,
+            0.0763997830860139
+          ],
+          "query_only_99_interval": [
+            0.05380532616136207,
+            0.07895172165356033
+          ],
+          "in_prespecified_five_contrast_family": false
+        },
+        "pertrank_minus_euclidean": {
+          "point": 0.02352339508526946,
+          "input_rep_points": [
+            0.018188703967444042,
+            0.015324854094960982,
+            0.028345285791931518,
+            0.028428235728278684,
+            0.027329895843732355
+          ],
+          "query_only_95_interval": [
+            0.021322738375291504,
+            0.026336047102253065
+          ],
+          "query_only_99_interval": [
+            0.02076067635963387,
+            0.027598513806022604
+          ],
+          "in_prespecified_five_contrast_family": false
+        }
+      }
+    },
+    "10": {
+      "arms": {
+        "raw": {
+          "point": 0.2847079987892008,
+          "input_rep_points": [
+            0.2927037608478292,
+            0.2923868277628241,
+            0.2810331754340809,
+            0.28481209202858954,
+            0.2726041378726803
+          ],
+          "query_only_95_interval": [
+            0.25043802331446485,
+            0.312837260013165
+          ]
+        },
+        "euclidean": {
+          "point": 0.33173996698418445,
+          "input_rep_points": [
+            0.342739774597413,
+            0.3399103788547479,
+            0.3240727227941117,
+            0.33285218334267397,
+            0.3191247753319756
+          ],
+          "query_only_95_interval": [
+            0.30734379669091433,
+            0.3534228998966311
+          ]
+        },
+        "pertrank": {
+          "point": 0.3513874491063035,
+          "input_rep_points": [
+            0.36759426640578324,
+            0.35144370537312786,
+            0.3515611175230725,
+            0.34955870463856525,
+            0.3367794515909684
+          ],
+          "query_only_95_interval": [
+            0.32711158469742385,
+            0.37404239584352167
+          ]
+        },
+        "ash": {
+          "point": 0.2940085460831694,
+          "input_rep_points": [
+            0.3061856448753346,
+            0.30009612681223696,
+            0.2957015924447225,
+            0.2878147360518294,
+            0.2802446302317236
+          ],
+          "query_only_95_interval": [
+            0.2768104867870573,
+            0.30886226670375727
+          ]
+        }
+      },
+      "contrasts": {
+        "ash_minus_raw": {
+          "point": 0.00930054729396862,
+          "input_rep_points": [
+            0.013481884027505442,
+            0.0077092990494128655,
+            0.014668417010641588,
+            0.0030026440232398532,
+            0.007640492359043294
+          ],
+          "query_only_95_interval": [
+            -0.00608612326034963,
+            0.027916233453948
+          ],
+          "query_only_99_interval": [
+            -0.011791017113437509,
+            0.03360192505598731
+          ],
+          "in_prespecified_five_contrast_family": false
+        },
+        "ash_minus_euclidean": {
+          "point": -0.037731420901015056,
+          "input_rep_points": [
+            -0.03655412972207839,
+            -0.039814252042510934,
+            -0.028371130349389206,
+            -0.04503744729084458,
+            -0.038880145100252006
+          ],
+          "query_only_95_interval": [
+            -0.04841736961306521,
+            -0.028548098512746433
+          ],
+          "query_only_99_interval": [
+            -0.05305154871557806,
+            -0.025333601331855055
+          ],
+          "in_prespecified_five_contrast_family": false
+        },
+        "pertrank_minus_ash": {
+          "point": 0.05737890302313409,
+          "input_rep_points": [
+            0.061408621530448626,
+            0.051347578560890894,
+            0.055859525078350014,
+            0.061743968586735865,
+            0.05653482135924481
+          ],
+          "query_only_95_interval": [
+            0.04829272017728482,
+            0.0684738573475491
+          ],
+          "query_only_99_interval": [
+            0.04544999247517524,
+            0.07241661832158697
+          ],
+          "in_prespecified_five_contrast_family": false
+        },
+        "pertrank_minus_euclidean": {
+          "point": 0.01964748212211903,
+          "input_rep_points": [
+            0.024854491808370238,
+            0.01153332651837996,
+            0.027488394728960808,
+            0.016706521295891286,
+            0.017654676258992807
+          ],
+          "query_only_95_interval": [
+            0.01659501569938874,
+            0.023356933988084555
+          ],
+          "query_only_99_interval": [
+            0.01570601702607274,
+            0.024809982243671237
+          ],
+          "in_prespecified_five_contrast_family": false
+        }
+      }
+    }
+  },
+  "elapsed_seconds": 1.0062475869999616,
+  "scope": "Conditional on fixed observed cells/reference and original query panels; original query-block bootstrap, averaged over five fixed input repetitions.",
+  "simultaneous_intervals": "ASH contrasts and intervals are descriptive; no new simultaneous family or performance-dependent choice.",
+  "provenance": {
+    "task_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/pooled_data/D4_Rest/frozen_task.npz",
+    "task_sha256": "76d5d40b463a2912049a12c22c50695a04e69c22fc31c3842a544e4a45595fe6",
+    "ash": [
+      {
+        "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep0",
+        "posterior_sha256": "11dff63bd37cebf24a625d631007b7f2121429debe63bb36fba7d771c49a150e",
+        "input_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_Rest/rep0/full.npz",
+        "input_sha256": "a432029a6daaace2683938102fc0c7ef82f1d2ec646349251ef08d56581e9cb8",
+        "input_recovery_audit_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_Rest/rep0/RECOVERY_INPUT_AUDIT.json",
+        "input_recovery_audit_sha256": "4514dbb5e46bd5219963adc627cec7cbbff28447de7d456eca4145d7698756e5",
+        "execution_sha256": "c753d5d3e544886f52ea16f7959593ea77139a4ba06c6f9535cd7bf29f447b9c",
+        "runtime_sha256": "5edd4b4e5a3beb1ba88fad8876ca45534ec6a6f5645b4e6351d4fa1f604ce7ef",
+        "fit_rows_sha256": "cbbd5f52f68201f80703e54cf78d9c32dd6deed84c7671ce45a24944a0f347e8",
+        "n_rows": 589,
+        "n_genes": 13209,
+        "warnings": 0,
+        "mixEM_retries": 0,
+        "runtime_seconds": 334.1923974379997
+      },
+      {
+        "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep1",
+        "posterior_sha256": "5cc0abe1d54e5d1056adced749cbbc312cc90e05b3b1cd67c3a8da7525279e69",
+        "input_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_Rest/rep1/full.npz",
+        "input_sha256": "5a87645048cd60c4b75b15b0b74aaa9b1b75d07c16dd64888a808921af5096be",
+        "input_recovery_audit_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_Rest/rep1/RECOVERY_INPUT_AUDIT.json",
+        "input_recovery_audit_sha256": "7ef20df8d4b9e9e9f5baee22ecea33da7381a7d8b82a60cfd7c3328445bf031d",
+        "execution_sha256": "273563aa5f6f996649a8b76770e9205299fb3354d00e0f2a5690a47af857bf11",
+        "runtime_sha256": "3b91eb501216600e156973b5a133b0f0b39cb8f2fb17d9192ed78639abd340ac",
+        "fit_rows_sha256": "7e0fea73f25e07ef8ab088d95b0e6647c42be6ad17a0e6fde06dd8348dd312cf",
+        "n_rows": 589,
+        "n_genes": 13209,
+        "warnings": 0,
+        "mixEM_retries": 0,
+        "runtime_seconds": 350.8646919060002
+      },
+      {
+        "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep2",
+        "posterior_sha256": "b3cc8d0116fbc2081c45b5e8ed9a974e0ea48a6ea3cf88ef640b27cb3f276a67",
+        "input_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_Rest/rep2/full.npz",
+        "input_sha256": "5a36152890dd5e897dde197f5d68824e52808f7db98c7a1bcd94ddb838e29160",
+        "input_recovery_audit_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_Rest/rep2/RECOVERY_INPUT_AUDIT.json",
+        "input_recovery_audit_sha256": "f8e2fb009f7b004051bb725bfa8ee86fb0604e7291c16a5462599f5bcf8dc43e",
+        "execution_sha256": "8cdd4d8f6d9eb8e0a4b19b1d928b37b99f17cd041e7e663570ce10dfd9c11874",
+        "runtime_sha256": "7d69d020021a28adb2d7924b9ac170c86dce0f6426449a5600739f42dd050d87",
+        "fit_rows_sha256": "b453f3333542dce54910c9cde1c6877eff58cf34fead291d70012c3b402611da",
+        "n_rows": 589,
+        "n_genes": 13209,
+        "warnings": 0,
+        "mixEM_retries": 0,
+        "runtime_seconds": 320.0977421630005
+      },
+      {
+        "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep3",
+        "posterior_sha256": "3a55e8040ff1c89733bf1793763532cbcb196a4eb2cf8e4cbb198e7864f54960",
+        "input_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_Rest/rep3/full.npz",
+        "input_sha256": "13c6e116bb1193990c1b1a09bd4f31a115662c0849eda823ada716002a0561c3",
+        "input_recovery_audit_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_Rest/rep3/RECOVERY_INPUT_AUDIT.json",
+        "input_recovery_audit_sha256": "dcf23a616b640fd18b01013c93dab671a9e1a3a5761cfa73602d2962b776f14f",
+        "execution_sha256": "269aab7a277ba21d2b8ffe1adbceda352804410ef6aac2112fc65bf579b76894",
+        "runtime_sha256": "66871ad53ce755747c07adec7f6fca316a500a74831da322fb154b45ebd5d9c5",
+        "fit_rows_sha256": "4c8e7137dbc6a829f08bac587aca31a2eb07e0044f7aa911699f5a20c237dfde",
+        "n_rows": 589,
+        "n_genes": 13209,
+        "warnings": 0,
+        "mixEM_retries": 0,
+        "runtime_seconds": 336.37564628699965
+      },
+      {
+        "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep4",
+        "posterior_sha256": "a2333f68190c0f7d5b2d3ac5b364dfe8ed8cce27bad5f74d1233164ccbe7aa74",
+        "input_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_Rest/rep4/full.npz",
+        "input_sha256": "d644bb001f7a29e27ebddb37ca0ed1ff54cc8e1c33a76e4602e9aa04628da2ad",
+        "input_recovery_audit_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_Rest/rep4/RECOVERY_INPUT_AUDIT.json",
+        "input_recovery_audit_sha256": "241734185b93929e93aab9a03beaf1a7fa5e405ae2e4c132c6f1e3f8d5d2e288",
+        "execution_sha256": "ea715d13dec50c9a0d0939267dd5755cb4166c02ec12a9d5c3f08cf83e15b211",
+        "runtime_sha256": "916ad1523a963150dc31e7d405578516eaa1686971eb62654ac1dd9250e78d0c",
+        "fit_rows_sha256": "1c70d5581ea8262e80acbb83778b6bccb5e5daa921c90e81e291de27c99714d0",
+        "n_rows": 589,
+        "n_genes": 13209,
+        "warnings": 0,
+        "mixEM_retries": 0,
+        "runtime_seconds": 336.02977499700046
+      }
+    ],
+    "D3_replay_confirmation_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D3_DEFAULT_REPLAY_CONFIRMATION.json",
+    "D3_replay_confirmation_sha256": "146834963f209db14fc92404eba8053feaec8b471967fda472bb3c10a30c955d",
+    "recovery_lock_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/RECOVERY_PLAN.json",
+    "recovery_lock_sha256": "294fbb38a69f5c27cc54c0b9e2d4e7bdd32f97bfdb7025f7d67730f971884d24",
+    "adapter_sha256": "bf074c077e1f46a0447d32412343f37a7829a5f34a816ab78aa78b503c954830",
+    "unchanged_pure_evaluator_sha256": "4acd8cebce3162b25874518942dbed4fae8299cd8fead65da2ef1b789dd95237",
+    "unchanged_score_primitive_sha256": "21cfcbe73404d7560922069de96b25fa706ac75900afb014a8aed1880fbc05cf"
+  },
+  "compact_sha256": "ade3f8cf8b32331badd001747d6b388d58b6b78a6c5b453484f171a7613f7e60",
+  "evaluation_arrays_sha256": "be9c7531e8774852da9ac5f6cf7d0d3325017cf87142c70816ae1117ce34ec46"
+}

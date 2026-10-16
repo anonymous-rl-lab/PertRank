@@ -1,0 +1,200 @@
+{
+ "created_utc": "2026-09-27T04:17:54Z",
+ "integrity": {
+  "amendment_A12b_sha256": "472402b7fba97691c686f5ec364d7eb9f9bb88c25567673430c643c25a2b8e97",
+  "script_sha256": "b2fff7327c4d8056285b9d250c110d66678958d10f1c3ce83dde6586bffe3045",
+  "amendment_A12_sha256": "d92a460b65252e49caf16ed2eebdfdaa5e2058309c3c90a10ae3b4d6ea850469",
+  "amendment_A12a_sha256": "126d0fc2189b8c959b9be0866f086d053a13fe31bf1cbb56ced6c64a11328582",
+  "freeze_A12": {
+   "compute_scito_zscores.py": "3dfafc6ca4a621b5d0c6a4e4dddb6aab988908fe305dfda46d8410106ab961c9",
+   "evaluate_b8_protein_readout.py": "64d497ac90e66c93c95e5748197c1cf6af5515955617401d805990633c4f9569"
+  },
+  "scito_matrix_sha256": "04b1272c046ddf7e9388e21752b2cc91f9ab7753335d345cdb8b27fbf880ef3d",
+  "panel_map_sha256": "7816bc252afe9531f5752648de4ad763468c3c5aecffa77940e434bf16d53a9f"
+ },
+ "note": "amendment A12b section 3; a statement about the truth as an instrument, never about W1. B8's own numbers are unchanged.",
+ "donors": {
+  "D3": {
+   "decidable": true,
+   "candidates": 1126,
+   "queries": 39,
+   "random_floor": 0.022222222222222223,
+   "arms": {
+    "signed (primary)": {
+     "raw": {
+      "diff": -0.0031519122081735515,
+      "ci95": [
+       -0.008082363678230287,
+       0.0024824121025270205
+      ],
+      "p_one_sided": 0.8795
+     },
+     "w0y": {
+      "diff": -6.149385459730467e-05,
+      "ci95": [
+       -0.005293533694864281,
+       0.00543802827217461
+      ],
+      "p_one_sided": 0.4995
+     },
+     "W1": {
+      "diff": 0.00010482631172286253,
+      "ci95": [
+       -0.004206069050795218,
+       0.00451434717569386
+      ],
+      "p_one_sided": 0.4655
+     }
+    },
+    "magnitude (diagnostic)": {
+     "raw": {
+      "diff": -0.004708899881313676,
+      "ci95": [
+       -0.013419210639210637,
+       0.005881167192600932
+      ],
+      "p_one_sided": 0.8305
+     },
+     "w0y": {
+      "diff": 0.0005607729745660771,
+      "ci95": [
+       -0.008317282800041419,
+       0.010373331589302532
+      ],
+      "p_one_sided": 0.4575
+     },
+     "W1": {
+      "diff": -0.0026576178300316243,
+      "ci95": [
+       -0.011159891654572505,
+       0.007838315352970523
+      ],
+      "p_one_sided": 0.711
+     }
+    }
+   }
+  },
+  "D1": {
+   "decidable": true,
+   "candidates": 1061,
+   "queries": 33,
+   "random_floor": 0.02358490566037736,
+   "arms": {
+    "signed (primary)": {
+     "raw": {
+      "diff": 0.0026580433098443374,
+      "ci95": [
+       -0.005002534328006026,
+       0.010295973905525252
+      ],
+      "p_one_sided": 0.239
+     },
+     "w0y": {
+      "diff": 0.0003807246688893339,
+      "ci95": [
+       -0.00661754663051833,
+       0.007851750358335111
+      ],
+      "p_one_sided": 0.4805
+     },
+     "W1": {
+      "diff": 0.0053761333006616,
+      "ci95": [
+       -0.00233490566037736,
+       0.014198569485166752
+      ],
+      "p_one_sided": 0.091
+     }
+    },
+    "magnitude (diagnostic)": {
+     "raw": {
+      "diff": 0.0010222044012781564,
+      "ci95": [
+       -0.005654095091635757,
+       0.007884639743078342
+      ],
+      "p_one_sided": 0.3895
+     },
+     "w0y": {
+      "diff": 0.0016098995344278355,
+      "ci95": [
+       -0.009530851606323306,
+       0.014392618970164505
+      ],
+      "p_one_sided": 0.4075
+     },
+     "W1": {
+      "diff": 0.008882626807155108,
+      "ci95": [
+       -0.0026336069590786586,
+       0.02262660720563861
+      ],
+      "p_one_sided": 0.0635
+     }
+    }
+   }
+  },
+  "D2": {
+   "decidable": true,
+   "candidates": 1114,
+   "queries": 38,
+   "random_floor": 0.022461814914645103,
+   "arms": {
+    "signed (primary)": {
+     "raw": {
+      "diff": 0.004215125266508963,
+      "ci95": [
+       -0.0004374407140437845,
+       0.01022412480941506
+      ],
+      "p_one_sided": 0.0355
+     },
+     "w0y": {
+      "diff": 0.006335177566557905,
+      "ci95": [
+       -0.001422853875684064,
+       0.015376505548675354
+      ],
+      "p_one_sided": 0.052
+     },
+     "W1": {
+      "diff": 0.006335177566557905,
+      "ci95": [
+       -0.0021048898275370887,
+       0.017056622948304918
+      ],
+      "p_one_sided": 0.081
+     }
+    },
+    "magnitude (diagnostic)": {
+     "raw": {
+      "diff": 0.007763748995129333,
+      "ci95": [
+       -0.0014008052476203975,
+       0.018379157838092353
+      ],
+      "p_one_sided": 0.05
+     },
+     "w0y": {
+      "diff": 0.003853974559039107,
+      "ci95": [
+       -0.005876449060986566,
+       0.014461262008431817
+      ],
+      "p_one_sided": 0.2235
+     },
+     "W1": {
+      "diff": 0.007011869295881212,
+      "ci95": [
+       -0.004687305110723534,
+       0.018714655673590187
+      ],
+      "p_one_sided": 0.119
+     }
+    }
+   }
+  }
+ },
+ "arms_clearing_the_floor": [],
+ "reading": "no arm's interval excludes the floor on any donor: the truth's discriminating power is NOT established, which is not the same as showing it has none; the three explanations of amendment A12b section 2 stay unseparated"
+}

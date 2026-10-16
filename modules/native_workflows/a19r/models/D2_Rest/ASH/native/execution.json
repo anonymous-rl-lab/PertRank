@@ -1,0 +1,27 @@
+{
+  "input_sha256": "d5861f30b56d4d952cc55106eb9a09cc90d240fe7d2bd63069f69ff7597dab3e",
+  "command": [
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/environment/bin/R",
+    "--vanilla",
+    "--slave",
+    "--file=/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/posterior_runner.R",
+    "--args",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D2_Rest/ASH_attempt1/native/input",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D2_Rest/ASH_attempt1/native",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D2_Rest/ASH_attempt1/native/config.json"
+  ],
+  "returncode": 0,
+  "seconds": 62.641968199000985,
+  "runner_sha256": "c5fb54beff8050c4d5692ad3328cf12f6bccbf6a1f4e883cf936fde457793a0a",
+  "config": {
+    "mode": "ash",
+    "seed": 20261012,
+    "ash_options": {},
+    "trade_source": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/R_TRADE_univariate.R",
+    "retry_mixem": true
+  },
+  "parent_resident_before_R_KB": 25192.0,
+  "peak_R_child_RSS_KB": 342548,
+  "posterior_npz_sha256": "49dc6426a034322701d3ae35c5aebd0c150fc97b685dd88b6c2f9656859f700a",
+  "finite_rows": 63
+}

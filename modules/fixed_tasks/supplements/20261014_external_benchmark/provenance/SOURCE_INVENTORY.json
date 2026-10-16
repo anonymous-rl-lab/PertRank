@@ -1,0 +1,3212 @@
+{
+  "format": 1,
+  "files": [
+    {
+      "path": "benchmark/AMENDMENT_01_ASH_DEFAULT.txt",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "AMENDMENT_01_ASH_DEFAULT.txt",
+      "bytes": 892,
+      "sha256": "5763a471ad457e501ab54df54bd5e67a1582fde678ed9266da8ba159c96e9056",
+      "roles": [
+        "original protocol or implementation"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/AMENDMENT_02_DISTINCT_QUERY_PANELS.lock.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "AMENDMENT_02_DISTINCT_QUERY_PANELS.lock.json",
+      "bytes": 169,
+      "sha256": "67de837e59fdc6f7196a2e1312108b57063d923ff45dab018ad8da058ff742e3",
+      "roles": [
+        "original protocol or implementation"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/AMENDMENT_03_FR_SEARCH_21.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "AMENDMENT_03_FR_SEARCH_21.json",
+      "bytes": 9717,
+      "sha256": "edd9b8580c27bdc951938146fe90227aff8f54e9835569ce0122d2bfe0432ab6",
+      "roles": [
+        "original protocol or implementation"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/AMENDMENT_04_FR_EFFECTIVE_PENALTY.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "AMENDMENT_04_FR_EFFECTIVE_PENALTY.json",
+      "bytes": 2632,
+      "sha256": "8e8d61122a445792432752f9d16d7d34ec99ab6e71313b80b121a494ceeec67d",
+      "roles": [
+        "original protocol or implementation"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/EXECUTION_SPEC.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "EXECUTION_SPEC.json",
+      "bytes": 6506,
+      "sha256": "bb04f4c1b635c4dbbb3d2630fd2cc0cee8275768fea46af302c56cf77bdddc57",
+      "roles": [
+        "original protocol or implementation"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/EXECUTION_SPEC.sha256",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "EXECUTION_SPEC.sha256",
+      "bytes": 86,
+      "sha256": "e19adb49871e142c602c254923cce916cae45bf6479ef035b504bed939ef43da",
+      "roles": [
+        "original protocol or implementation"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/FR_D3_WINNER_LOCK.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "FR_D3_WINNER_LOCK.json",
+      "bytes": 17965,
+      "sha256": "3b03f312908d7fbad7a84ae8fd1dff29fefb7e7319e95aa9144108cd7a1b8e18",
+      "roles": [
+        "original protocol or implementation"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/SCORING_CODE_AMENDMENT_02_FR_GRID21.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "SCORING_CODE_AMENDMENT_02_FR_GRID21.json",
+      "bytes": 842,
+      "sha256": "0967b5e0e19c20efcf9a542027075440f3ee824595dee29548d27aedf04beeda",
+      "roles": [
+        "original protocol or implementation"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/SCORING_CODE_AMENDMENT_04_NSCALED_WRAPPER.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "SCORING_CODE_AMENDMENT_04_NSCALED_WRAPPER.json",
+      "bytes": 2339,
+      "sha256": "5013330d37b955851adaff5959877de5373647971d255a9a5a49fa0c8e9249e2",
+      "roles": [
+        "original protocol or implementation"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/OUTPUT_SELECTION_EQUIVALENCE.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/OUTPUT_SELECTION_EQUIVALENCE.json",
+      "bytes": 693,
+      "sha256": "ccbab58ba362e90fcee0b4e2e8e7336a9ae90af153acf8c8377874d5b2c7d9ba",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/OUTPUT_SELECTION_PATCH_LOCK.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/OUTPUT_SELECTION_PATCH_LOCK.json",
+      "bytes": 533,
+      "sha256": "efc0ace78fc1b9ec6854a94f4227796c4d39bc032cc5a615a7f1c9cb763d25e0",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/README.txt",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/README.txt",
+      "bytes": 3858,
+      "sha256": "694a5b46c8ef43d1a61a1215317c524a15e2cc31cf22331755bbc6bfa1e681cd",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/SHARD_EQUIVALENCE_AND_LOCK.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/SHARD_EQUIVALENCE_AND_LOCK.json",
+      "bytes": 1046,
+      "sha256": "d9bb538be68a7bf80bd4dea74ace75df8aba17814067e5135ed2aadc3332062b",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/ash_current_source_reference.R",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/ash_current_source_reference.R",
+      "bytes": 34194,
+      "sha256": "491a553c4e081a4e03f9c7a98c1153519ca6ac3de509ef1d59fdacd220fc23b5",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/posterior_runner.R",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/posterior_runner.R",
+      "bytes": 6542,
+      "sha256": "c5fb54beff8050c4d5692ad3328cf12f6bccbf6a1f4e883cf936fde457793a0a",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/posterior_runner_minimal.R",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/posterior_runner_minimal.R",
+      "bytes": 6542,
+      "sha256": "c5fb54beff8050c4d5692ad3328cf12f6bccbf6a1f4e883cf936fde457793a0a",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/prepare_full_stats.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/prepare_full_stats.py",
+      "bytes": 3458,
+      "sha256": "340660aba5c00211d32fc9941e4bef4664015ebb1eaa730c394a12cc242bf3fc",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/ASH_COMPLETION_MANIFEST_20261014.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/ASH_COMPLETION_MANIFEST_20261014.json",
+      "bytes": 71801,
+      "sha256": "d83843292f0c98306619176b4fdafa5d56d5b1f6fa73e62668c97d29c9d2f52e",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/D3_DEFAULT_REPLAY_CONFIRMATION.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/D3_DEFAULT_REPLAY_CONFIRMATION.json",
+      "bytes": 1593,
+      "sha256": "146834963f209db14fc92404eba8053feaec8b471967fda472bb3c10a30c955d",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/D3_REPLAY_EXECUTION_LOCK.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/D3_REPLAY_EXECUTION_LOCK.json",
+      "bytes": 1098,
+      "sha256": "ad3007d92239675ad51d49808768675598fc4b7f264a2854bdbf076fdda2c096",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/D3_SENSITIVITY_REPLAY_NOT_RUN.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/D3_SENSITIVITY_REPLAY_NOT_RUN.json",
+      "bytes": 943,
+      "sha256": "ae76aa367d201da127b432eab72cfb1f5e5286307902a2d226b5a0ed2e3094dd",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/D4_scores/D4_Rest_pooled/COMMON_THREE_ARM_MATCH.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/D4_scores/D4_Rest_pooled/COMMON_THREE_ARM_MATCH.json",
+      "bytes": 3815,
+      "sha256": "701fc3aa7fd201e82009c6063c654bac13ef7a45e8318be187d0ff0e29963d7e",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/D4_scores/D4_Rest_pooled/POST_EXEC_VERIFIED.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/D4_scores/D4_Rest_pooled/POST_EXEC_VERIFIED.json",
+      "bytes": 150,
+      "sha256": "add0bcc591ad354233a071098132ba4a60f25ea586b6f20422d341700ed5de33",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/D4_scores/D4_Rest_pooled/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/D4_scores/D4_Rest_pooled/evaluation_report.json",
+      "bytes": 15704,
+      "sha256": "90ef19233b0f19bbe09e49effa9728d5b51e7c909adedc6367be11dc5368f3d9",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_independent/COMMON_THREE_ARM_MATCH.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/D4_scores/D4_Stim8hr_independent/COMMON_THREE_ARM_MATCH.json",
+      "bytes": 4365,
+      "sha256": "816c4018f45cc4e7c370c8f18de04af7d02a77eb931f638de1f191a3cbd7e05a",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_independent/POST_EXEC_VERIFIED.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/D4_scores/D4_Stim8hr_independent/POST_EXEC_VERIFIED.json",
+      "bytes": 150,
+      "sha256": "39e861c928f41d078992b742cead4b7978807d9629fd266a509fdda695cbb8e9",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_independent/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/D4_scores/D4_Stim8hr_independent/evaluation_report.json",
+      "bytes": 12243,
+      "sha256": "4f9107191ec070d3fc740ae57cd84563f9bb996930f7d6af8ddab3851037e1be",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_pooled/COMMON_THREE_ARM_MATCH.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/D4_scores/D4_Stim8hr_pooled/COMMON_THREE_ARM_MATCH.json",
+      "bytes": 3821,
+      "sha256": "8b1495802a9628e2cf6b951509f8364a979fd1fda303e4e186522c839ac36611",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_pooled/POST_EXEC_VERIFIED.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/D4_scores/D4_Stim8hr_pooled/POST_EXEC_VERIFIED.json",
+      "bytes": 150,
+      "sha256": "8b772ee31bf9ddaacbd6dfc1e1fe2a558388fd8159aa8d4ee7e26d432d81d5fd",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_pooled/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/D4_scores/D4_Stim8hr_pooled/evaluation_report.json",
+      "bytes": 15753,
+      "sha256": "9cd5a42329fc7b610272684512eed31567748169c4069e1c4fd942a19339745d",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/D4_scores/D4_pooled_combined/COMMON_THREE_ARM_MATCH.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/D4_scores/D4_pooled_combined/COMMON_THREE_ARM_MATCH.json",
+      "bytes": 2094,
+      "sha256": "8f7b2c52b6d5dac3e7bd32286d3159befdd7f7b96d606014ef47d1b541f42f0e",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/D4_scores/D4_pooled_combined/POST_EXEC_VERIFIED.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/D4_scores/D4_pooled_combined/POST_EXEC_VERIFIED.json",
+      "bytes": 159,
+      "sha256": "18b1650198d9e98ab3516356525c0ac6a1666ca800ca0627a4e2ae48961203d2",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/D4_scores/D4_pooled_combined/equal_state_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/D4_scores/D4_pooled_combined/equal_state_report.json",
+      "bytes": 10024,
+      "sha256": "c168264e36cb0bc4029ce254d25d8945a9b72e83de0f53a2a684ac09d61cb033",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/DEPTH_ASH_ADAPTER_LOCK_V2.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/DEPTH_ASH_ADAPTER_LOCK_V2.json",
+      "bytes": 1432,
+      "sha256": "cf1c3ea1d4ffb0c986122b45e45424d0b7dac78b11ccf93493cf4effa601cf4d",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/EXPERIMENT_STATUS.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/EXPERIMENT_STATUS.json",
+      "bytes": 1251,
+      "sha256": "c4333b13c9477926aab56d26d5f933adaf9c9f3714835493a191bc011fed0f41",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/SCORING_ADAPTER_LOCK.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/SCORING_ADAPTER_LOCK.json",
+      "bytes": 1151,
+      "sha256": "c93b549ef079a3a1b43fdf0d672152f8ebc319d0ef51c6c24656a694820cfc24",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/combine_ash.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/combine_ash.py",
+      "bytes": 3087,
+      "sha256": "87b65454ec30593c0256a77a033e7b8ae08c21fdd93a286ce9333e20fd203cd2",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/depth_evaluation/n100/COMMON_THREE_ARM_MATCH.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/depth_evaluation/n100/COMMON_THREE_ARM_MATCH.json",
+      "bytes": 1420,
+      "sha256": "f7adfcaf2f64170928cb5e264e48ff6fe42b7088a5d22aba52f89e2090f0a940",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/depth_evaluation/n100/POST_EXEC_VERIFIED.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/depth_evaluation/n100/POST_EXEC_VERIFIED.json",
+      "bytes": 159,
+      "sha256": "6f15829d1b38d6c95ed70ed4b9c7a067da2d39ec06b980c56288a16ee4472c14",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/depth_evaluation/n100/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/depth_evaluation/n100/evaluation_report.json",
+      "bytes": 8945,
+      "sha256": "ae51f3803d26f433c3de3381b91ea676096cdc658909b510f4c1c5e8299170d7",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/depth_evaluation/n20/COMMON_THREE_ARM_MATCH.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/depth_evaluation/n20/COMMON_THREE_ARM_MATCH.json",
+      "bytes": 1417,
+      "sha256": "b80d9e8b3cd1ce0c1ebc04660acb8171f2302743b0789fad9a2f1d11265c091d",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/depth_evaluation/n20/POST_EXEC_VERIFIED.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/depth_evaluation/n20/POST_EXEC_VERIFIED.json",
+      "bytes": 159,
+      "sha256": "c0e24a258c42b98baee56ffcceaac3fc3529a5c97e2fe1b015c6a3a82a942c19",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/depth_evaluation/n20/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/depth_evaluation/n20/evaluation_report.json",
+      "bytes": 8949,
+      "sha256": "c0c71e697b8d8e3652b859cf958d2f30e0e3e87699aaef0c164bc5af0ab216e9",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/depth_evaluation/n50/COMMON_THREE_ARM_MATCH.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/depth_evaluation/n50/COMMON_THREE_ARM_MATCH.json",
+      "bytes": 1417,
+      "sha256": "f701946bfc5b58f14c167003d9b8fa51454ebc4d9e30dc7f17e8aa510e512736",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/depth_evaluation/n50/POST_EXEC_VERIFIED.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/depth_evaluation/n50/POST_EXEC_VERIFIED.json",
+      "bytes": 159,
+      "sha256": "102affedd07a874d727d3bc57dd9f78485bc299c103ed0814b4ed9f5e9dd513f",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/depth_evaluation/n50/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/depth_evaluation/n50/evaluation_report.json",
+      "bytes": 8941,
+      "sha256": "b2cf41b6413fce208b8ce67a99e37779662b6f9fd2abbda0bcdee5d5eb6a830d",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/evaluate_ash_adapter.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/evaluate_ash_adapter.py",
+      "bytes": 9127,
+      "sha256": "bf074c077e1f46a0447d32412343f37a7829a5f34a816ab78aa78b503c954830",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/evaluate_depth_ash.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/evaluate_depth_ash.py",
+      "bytes": 5139,
+      "sha256": "82476c22b2de0116dd7224ac5d6108219a8635417975b9660f5a19c4468c2442",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/prepare_restored_full_stats.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/prepare_restored_full_stats.py",
+      "bytes": 14519,
+      "sha256": "d4328d7e6e9421dcec176848c215161094036058d972f5615fadf02e6d49d2f0",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/prepare_restored_full_stats_from_source.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/prepare_restored_full_stats_from_source.py",
+      "bytes": 14638,
+      "sha256": "dddede44d4ab219824786a9ddc8e09126c9dadcaa530950c441ea4b4c7aed710",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/recover_independent_full_stats.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/recover_independent_full_stats.py",
+      "bytes": 16597,
+      "sha256": "b167246a929d5fd41f83d2e7c477ca6000913e49a4ca9dab15b2fb815ab33048",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/run_one_depth.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/run_one_depth.py",
+      "bytes": 5433,
+      "sha256": "22ffb15d9b7a5b840437fa6e58abc3e665c6e711e0b6642788b19e3c5501b57e",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/run_one_transfer.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/run_one_transfer.py",
+      "bytes": 3171,
+      "sha256": "129508cb518b84828c4e838af3706ae5acfb41e2cead6356a0d40173d9e14c07",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/verify_common_three_arms.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/verify_common_three_arms.py",
+      "bytes": 2657,
+      "sha256": "aefb9b15edc426871c95619f0a0753a2fa7ad6fc06e2a4b5a91f5b9cd97a0b42",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/verify_depth_common.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/verify_depth_common.py",
+      "bytes": 1806,
+      "sha256": "9ec0eda6ecc02eccc8b13aea65ada7e5610857a0389ff9faf0b5a84164cdab07",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/resume_20261014/verify_independent_scalar.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/resume_20261014/verify_independent_scalar.py",
+      "bytes": 3661,
+      "sha256": "c01f6a31bf49005bd809b3963fc4e573098ddc8ce20c692bc43a7ace4c4aadb2",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/run_posterior.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/run_posterior.py",
+      "bytes": 4594,
+      "sha256": "5b6c8e6cfcef1517637474a3843a52a2ff23ebe73b4d972b3a183d10473f86d5",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/run_sharded.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/run_sharded.py",
+      "bytes": 4774,
+      "sha256": "2610b8847efdd48a44b08eccd700192aa31ed9ab2fa2886ab23e953960aa706d",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/ash_work/select_d3_ash.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "ash_work/select_d3_ash.py",
+      "bytes": 5534,
+      "sha256": "2de4766b5571f31420d45790400ffc9f7b1bcc5c4b9c11832edf8bcc314f797c",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/BASELINE_REPLAY_CHECK.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/BASELINE_REPLAY_CHECK.json",
+      "bytes": 242,
+      "sha256": "72e42fb9471d070e99dc850a98bbbada8bc039a155222945ca2d0fcfe4027fd1",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/GRID_SCORING.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/GRID_SCORING.json",
+      "bytes": 2754,
+      "sha256": "b3d51652264555fed2deb990d107b1b8f6790038c91d3df82a5b308b9ea67e2c",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/default/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/default/evaluation_report.json",
+      "bytes": 12471,
+      "sha256": "c1afe70e9142974e039c5077d7a9f307b510e666da7d5cb206e4111f773d2ba2",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/lasso_high/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/lasso_high/evaluation_report.json",
+      "bytes": 12491,
+      "sha256": "99950c2f2e13932228bb5f28260fd09bf240e9c36a111f48f01f5bddd6eb4fdf",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/lasso_low/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/lasso_low/evaluation_report.json",
+      "bytes": 12484,
+      "sha256": "aa751da3ea077a453e3c74afc82eb902cd0f4d8ebe212f0e22099581396ea522",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/rank10/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/rank10/evaluation_report.json",
+      "bytes": 12463,
+      "sha256": "19c50d0cd6e72162d71a19cfe7c48161a4a02f5add2aeb4e27c2fe9382619885",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/rank100_default_lasso/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/rank100_default_lasso/evaluation_report.json",
+      "bytes": 12710,
+      "sha256": "06efaccaf79a6eff5f9920d3ee766d88cded7b57e34d5a84f938bdbaf207b16e",
+      "roles": [
+        "complete 21-configuration development selection record",
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/rank100_lasso_high/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/rank100_lasso_high/evaluation_report.json",
+      "bytes": 12712,
+      "sha256": "07dee40a45ab7930bd248857ee32e87aa9b804afed0e05f3b078ab59a99be117",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/rank100_lasso_low/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/rank100_lasso_low/evaluation_report.json",
+      "bytes": 12696,
+      "sha256": "f3a497f842235bdd246590fd9d6a6814beac99a34f1f6a906d6135b7b81f0d5d",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/rank10_lasso_high/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/rank10_lasso_high/evaluation_report.json",
+      "bytes": 12523,
+      "sha256": "94a4b7d883d17a6c6e42147f751832877ee0c0fee48a6dff5d4f02a4a19f35dc",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/rank10_lasso_low/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/rank10_lasso_low/evaluation_report.json",
+      "bytes": 12514,
+      "sha256": "b0ddf1ef591798c66be39ae3465fb311365b2447cf7d7ab323f8566986b1024a",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/rank40_default_lasso/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/rank40_default_lasso/evaluation_report.json",
+      "bytes": 12702,
+      "sha256": "211ddf485205ae2c61cb49a2b2d0d5583d442859bdafe64d96b292eb982a8bc5",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/rank40_lasso_high/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/rank40_lasso_high/evaluation_report.json",
+      "bytes": 12687,
+      "sha256": "433f2fd63d91f73e98486d3cc46fa6fc19ac9e0723983328701231d847e51652",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/rank40_lasso_low/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/rank40_lasso_low/evaluation_report.json",
+      "bytes": 12521,
+      "sha256": "4a8c9e0c45eb3f9159da7f7b54cfb3a6632bbd8e7b76fa93d6e8221f5bdfefb2",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/rank50/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/rank50/evaluation_report.json",
+      "bytes": 12483,
+      "sha256": "b64f69ad374bf2180e2a32822bada89f13347a281132ddeb5eec535ae1d19293",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/rank50_lasso_high/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/rank50_lasso_high/evaluation_report.json",
+      "bytes": 12518,
+      "sha256": "371278a0c68581047bd2d501a06520068b8e9559847cc329706f0a1e044aaa73",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/rank50_lasso_low/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/rank50_lasso_low/evaluation_report.json",
+      "bytes": 12699,
+      "sha256": "bf0c42b2e2fe019dfd2c2e9a38d31eff42d00e3ff39041a5ed5f3594adb7aec1",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/rank5_default_lasso/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/rank5_default_lasso/evaluation_report.json",
+      "bytes": 12517,
+      "sha256": "ba569a90dde7e05d0622a8b35bb6fca121e7b9ef2712f4ec9b9f5043a0d33eb0",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/rank5_lasso_high/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/rank5_lasso_high/evaluation_report.json",
+      "bytes": 12514,
+      "sha256": "0bfa511f8a4669d56ca820fb3d6e307f5811bddec63caf363d7c35322d7b2e0f",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/rank5_lasso_low/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/rank5_lasso_low/evaluation_report.json",
+      "bytes": 12499,
+      "sha256": "5ab770c397177fa597ba08ce7bfc76e8d46c86a1fd12e8e3363f87f17a088010",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/rank75_default_lasso/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/rank75_default_lasso/evaluation_report.json",
+      "bytes": 12712,
+      "sha256": "f845828b8ba11aa897eb5abca96c3a413b4f8e0f2ce596daf3fba08f608332b0",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/rank75_lasso_high/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/rank75_lasso_high/evaluation_report.json",
+      "bytes": 12704,
+      "sha256": "57efb3037c819ad269ec7ee574073c1cc60697cab15fa7f8f71ddc81ea6c26fd",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/D3_Rest/rank75_lasso_low/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/D3_Rest/rank75_lasso_low/evaluation_report.json",
+      "bytes": 12676,
+      "sha256": "0257c601c10c57520d57d37148d4bcad75744bbd024a3f8e137b4c477690cd93",
+      "roles": [
+        "complete 21-configuration development selection record"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/README_EVALUATION.txt",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/README_EVALUATION.txt",
+      "bytes": 5927,
+      "sha256": "0e95bf8bca3731ccd5191baece017cffc1a87cad339906957ffa124eccd873cd",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/code_snapshots/3189569a57216b3b097b8474f969a822d1848ba534310e63b47e550560335d01.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/code_snapshots/3189569a57216b3b097b8474f969a822d1848ba534310e63b47e550560335d01.py",
+      "bytes": 25813,
+      "sha256": "3189569a57216b3b097b8474f969a822d1848ba534310e63b47e550560335d01",
+      "roles": [
+        "historical scorer identity"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/code_snapshots/4acd8cebce3162b25874518942dbed4fae8299cd8fead65da2ef1b789dd95237.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/code_snapshots/4acd8cebce3162b25874518942dbed4fae8299cd8fead65da2ef1b789dd95237.py",
+      "bytes": 27499,
+      "sha256": "4acd8cebce3162b25874518942dbed4fae8299cd8fead65da2ef1b789dd95237",
+      "roles": [
+        "historical scorer identity"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/code_snapshots/a90fcf05d6a3c552709d0dcc6dff64c639d3e0a80ab796bf38297d67f8d92ca8.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/code_snapshots/a90fcf05d6a3c552709d0dcc6dff64c639d3e0a80ab796bf38297d67f8d92ca8.py",
+      "bytes": 25192,
+      "sha256": "a90fcf05d6a3c552709d0dcc6dff64c639d3e0a80ab796bf38297d67f8d92ca8",
+      "roles": [
+        "historical scorer identity"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/code_snapshots/evaluate_six_arm_3189569a57216b3b097b8474f969a822d1848ba534310e63b47e550560335d01.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/code_snapshots/evaluate_six_arm_3189569a57216b3b097b8474f969a822d1848ba534310e63b47e550560335d01.py",
+      "bytes": 25813,
+      "sha256": "3189569a57216b3b097b8474f969a822d1848ba534310e63b47e550560335d01",
+      "roles": [
+        "historical scorer identity"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/code_snapshots/score_development_grid_636f2567899bde99314f3a550974d433600bf1afdd3d830b3aabf831c3d1c220.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/code_snapshots/score_development_grid_636f2567899bde99314f3a550974d433600bf1afdd3d830b3aabf831c3d1c220.py",
+      "bytes": 3080,
+      "sha256": "636f2567899bde99314f3a550974d433600bf1afdd3d830b3aabf831c3d1c220",
+      "roles": [
+        "historical scorer identity"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/evaluate_nscaled.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/evaluate_nscaled.py",
+      "bytes": 10366,
+      "sha256": "893b738773fd1c95102f0b3e5f4af355c1598ce63fa5f824824bdcf79fdd0b9d",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/evaluate_six_arm.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/evaluate_six_arm.py",
+      "bytes": 27499,
+      "sha256": "4acd8cebce3162b25874518942dbed4fae8299cd8fead65da2ef1b789dd95237",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/old_baseline_replay.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/old_baseline_replay.json",
+      "bytes": 11628,
+      "sha256": "0e9d9806540340ab782ce51f7d483bc0e10c876c3a2ea6370ced1af37363f18f",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/replay_compact.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/replay_compact.py",
+      "bytes": 3880,
+      "sha256": "41869a0d18531fa48bf8180c18180da9ba875abc4f9e98f397003b75f7a803aa",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/score_development_grid.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/score_development_grid.py",
+      "bytes": 3087,
+      "sha256": "daea0450474733ab682cd1554416825aac6d7a6913775ebf1723c34016de03ae",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/evaluation/verify_evaluator.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "evaluation/verify_evaluator.py",
+      "bytes": 3789,
+      "sha256": "9666d9fbccfb73e75b0917dc66b0c95136caea6d092fe6e6f53d115a79a661d4",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/default_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/default_rep0/fit_report.json",
+      "bytes": 79567,
+      "sha256": "4a4ae5396d45c658f9e94e6669fe5ad036f5e285471d3ce12acea9229705606b",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/lasso_high_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/lasso_high_rep0/fit_report.json",
+      "bytes": 79477,
+      "sha256": "eaeeeb4888d8f13c45cd5fb7e3e1a91fc48f43a002611020cb776dec6c978f1b",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/lasso_low_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/lasso_low_rep0/fit_report.json",
+      "bytes": 79571,
+      "sha256": "c8f3c3aa1dd5c03a99166c1db5a7a58dd9a7246eb9cf0d2f414c66b9daebf287",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/rank100_default_lasso_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/rank100_default_lasso_rep0/fit_report.json",
+      "bytes": 83906,
+      "sha256": "4729d292d45ee96a59842b68e1ff7caa81eee603f7edb10d8e7b5126dda97781",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/rank100_lasso_high_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/rank100_lasso_high_rep0/fit_report.json",
+      "bytes": 81173,
+      "sha256": "7aaa393121cb01b3e508d7ba6d0d794769a81e10fbde0cc06efe8a721ee3d0e6",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/rank100_lasso_low_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/rank100_lasso_low_rep0/fit_report.json",
+      "bytes": 83907,
+      "sha256": "a5643a44b1efb9557205a40b4ce0c097b704d2a82f3a6a4b6e232b5fa39e00c3",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/rank10_lasso_high_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/rank10_lasso_high_rep0/fit_report.json",
+      "bytes": 78974,
+      "sha256": "0b00804c5fd481546785a4041e30ed7cfd82f9e9c317dfc74c04d8e06664141d",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/rank10_lasso_low_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/rank10_lasso_low_rep0/fit_report.json",
+      "bytes": 78998,
+      "sha256": "f4ad5bded1be6179efb05d84b2b90a97bd567a2860b303aa1226aed3e7a38226",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/rank10_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/rank10_rep0/fit_report.json",
+      "bytes": 78998,
+      "sha256": "f20d94dbfd8c64d038655bd8255f2b006bd36dd752429ea091a3c6e6fd5e9350",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/rank40_default_lasso_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/rank40_default_lasso_rep0/fit_report.json",
+      "bytes": 80652,
+      "sha256": "73f9cc179fd81d6cd68b81aee4f86947fa8aca7a08c3e8d594843acb988393fc",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/rank40_lasso_high_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/rank40_lasso_high_rep0/fit_report.json",
+      "bytes": 80561,
+      "sha256": "c76e01946a452c28a099cd88f7fb0f9445a957f3da11e5688f023210da99bbfc",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/rank40_lasso_low_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/rank40_lasso_low_rep0/fit_report.json",
+      "bytes": 80607,
+      "sha256": "e66dcd95ec3505d1f8b80442d158c292ff04949504149a257209b3815742a122",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/rank50_lasso_high_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/rank50_lasso_high_rep0/fit_report.json",
+      "bytes": 81060,
+      "sha256": "1c056ae2db3469dc926cc78dce0a3bb947ac98738e27f0000b759e74e81477bf",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/rank50_lasso_low_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/rank50_lasso_low_rep0/fit_report.json",
+      "bytes": 81328,
+      "sha256": "d987bd6e9feaaec3a9b9cbce63b6d7bd17d811383522698160e4bfb8c9fb3415",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/rank50_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/rank50_rep0/fit_report.json",
+      "bytes": 81110,
+      "sha256": "9dd1e515f12f7b7237c5036dbce00d1732d2177a957b701b327f6cd9ea0b7364",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/rank5_default_lasso_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/rank5_default_lasso_rep0/fit_report.json",
+      "bytes": 78728,
+      "sha256": "ffc918474e5eda19692eb4f4dbedd58deb5d6258ae5bf6a593623b78edc8169f",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/rank5_lasso_high_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/rank5_lasso_high_rep0/fit_report.json",
+      "bytes": 78744,
+      "sha256": "5885b39188f8549c4d8aee690e82dba93ca8b1ea4801a396687fc2adc2e2df0e",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/rank5_lasso_low_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/rank5_lasso_low_rep0/fit_report.json",
+      "bytes": 78728,
+      "sha256": "921df3f2dbff89d1b4e0ef3bc62329e81be4632b2af5a378fa0dcbe4d6154dc9",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/rank75_default_lasso_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/rank75_default_lasso_rep0/fit_report.json",
+      "bytes": 82538,
+      "sha256": "baa4d90f95e24da61d2ffcb1ebfaaf90501d5ef3ba61819c5a7ad841c91607aa",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/rank75_lasso_high_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/rank75_lasso_high_rep0/fit_report.json",
+      "bytes": 80654,
+      "sha256": "9fa5a15293f005ca49e81389462e52ef2ef50569d41dca3e9ce5c5905c4b9be3",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest/rank75_lasso_low_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest/rank75_lasso_low_rep0/fit_report.json",
+      "bytes": 82601,
+      "sha256": "97b7dd5aafcbbb7cab4da569eb4df9a7c8397829d8ee9f6e42652197433f9325",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest_audit_v2/rank100_lasso_high_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest_audit_v2/rank100_lasso_high_rep0/fit_report.json",
+      "bytes": 95226,
+      "sha256": "c841b087590bc2a8ea0fd7d2b12fd04bb09af6b9c944d23eb03f68a12336d936",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/fr_outputs/D3_Rest_audit_v2/rank75_lasso_high_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "fr_outputs/D3_Rest_audit_v2/rank75_lasso_high_rep0/fit_report.json",
+      "bytes": 91922,
+      "sha256": "e023af8a80be4dd5bca944481f98bcaac4e9328a9f07d74b90d2c6708a5c05b3",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/freeze_protocol.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "freeze_protocol.py",
+      "bytes": 6185,
+      "sha256": "eb6df3a6659e92541915023bfd5d28cf0a305226b57b150b2a05cf49f9af4803",
+      "roles": [
+        "original protocol or implementation"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/make_result_deliverables.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "make_result_deliverables.py",
+      "bytes": 8026,
+      "sha256": "00414f9726034254efe24fad83060b3c3a0191c0f60c1fc36d986014cef79a28",
+      "roles": [
+        "original protocol or implementation"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/DEPTH_SCORE_ADAPTER_FREEZE.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/DEPTH_SCORE_ADAPTER_FREEZE.json",
+      "bytes": 1071,
+      "sha256": "407c86f352b19f963b32a5bf8eff49d0f4fb34701ee484fd945a6289ed3f2acd",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/DEPTH_SIX_TASK_Methods.txt",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/DEPTH_SIX_TASK_Methods.txt",
+      "bytes": 2204,
+      "sha256": "f68810e4c35671ef3242b0205ff40250a9ddc0f3d14a4c0bb4e7ca61cd3ec161",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/DEPTH_SIX_TASK_README.txt",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/DEPTH_SIX_TASK_README.txt",
+      "bytes": 2216,
+      "sha256": "f490aa92b24a2bc23174df59d01a076ba1e7d2f87262e9ad2b9a077af8b5f012",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/DEPTH_SIX_TASK_SUMMARY.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/DEPTH_SIX_TASK_SUMMARY.json",
+      "bytes": 142534,
+      "sha256": "c35c928402fd1db60132d8892ebb74bb12f8efb2d6a6d5fc1244cde2cb87c3e2",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/IMPLEMENTATION_BINDING_REVIEW.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/IMPLEMENTATION_BINDING_REVIEW.json",
+      "bytes": 1313,
+      "sha256": "d1990104c019d8031f5f03b618c0ed5f6fd5b455203d4707f08ddfa70c8be6ad",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/IMPLEMENTATION_FINAL_HASHES.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/IMPLEMENTATION_FINAL_HASHES.json",
+      "bytes": 1034,
+      "sha256": "bb836fb5fec139623d781e518f380de091adaf2427aa7f90b250702e83e815e0",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/POSTHOC_DEPTH_PROTOCOL.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/POSTHOC_DEPTH_PROTOCOL.json",
+      "bytes": 3706,
+      "sha256": "bd529ba31eaf41cfff522716835d2f95aedc61bfd7a3fdae68e4140e7e6bb546",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluate_depth_six_arm.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluate_depth_six_arm.py",
+      "bytes": 17120,
+      "sha256": "abc5b2ee1dae2556517f084126697cea2c62676d614456fba455071b348a0ebd",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n100/SCORE_OWNER_COMPLETION.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluation/A_native_default_penalty/n100/SCORE_OWNER_COMPLETION.json",
+      "bytes": 903,
+      "sha256": "27ec93365fbc548c31ff2aeab19d2444bb6d7c64da1d2ff1e9360c79286a9d6f",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n100/descriptive_relative_to_raw.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluation/A_native_default_penalty/n100/descriptive_relative_to_raw.json",
+      "bytes": 3996,
+      "sha256": "29180c5c397421e61502fe8d6fc1235a4aa90010979c37ed1064f81b3bbfbf6e",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n100/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluation/A_native_default_penalty/n100/evaluation_report.json",
+      "bytes": 21526,
+      "sha256": "3e2e8ccaca62486d124d9ad2f5469028ce3de266195771ccd81367589b3bd438",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n20/SCORE_OWNER_COMPLETION.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluation/A_native_default_penalty/n20/SCORE_OWNER_COMPLETION.json",
+      "bytes": 904,
+      "sha256": "d0bc693df6c92666ea723624de3a2eea09de06f35b6298179679db5768724903",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n20/descriptive_relative_to_raw.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluation/A_native_default_penalty/n20/descriptive_relative_to_raw.json",
+      "bytes": 3994,
+      "sha256": "fba0a9090a7c9a61f86fe0b76e528b8923ac75c8c4d1e8aba157fc4562c46234",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n20/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluation/A_native_default_penalty/n20/evaluation_report.json",
+      "bytes": 21501,
+      "sha256": "e072bff9f4def8ad8d6e97cd4ffdfd5850741a39a8fa49f20dac2239ae966666",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n50/SCORE_OWNER_COMPLETION.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluation/A_native_default_penalty/n50/SCORE_OWNER_COMPLETION.json",
+      "bytes": 904,
+      "sha256": "e2cf9010e0eb648845f45852327f354f87675fe40b6483385f3efd0815a85ce2",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n50/descriptive_relative_to_raw.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluation/A_native_default_penalty/n50/descriptive_relative_to_raw.json",
+      "bytes": 3990,
+      "sha256": "e33e4dcb3adb95b1839998eb464cb9b6f09fe72a60799a898a2313e7498ed528",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n50/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluation/A_native_default_penalty/n50/evaluation_report.json",
+      "bytes": 21492,
+      "sha256": "2af87462d324fa0a5eb1cac3b45ccaeb822ae50bbe589910a359c3dc79a8290a",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n100/SCORE_OWNER_COMPLETION.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n100/SCORE_OWNER_COMPLETION.json",
+      "bytes": 903,
+      "sha256": "c4cb84a94876ab86434f547e89990e1725c484e410a25384a0759be5bd59c239",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n100/descriptive_relative_to_raw.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n100/descriptive_relative_to_raw.json",
+      "bytes": 3996,
+      "sha256": "1f01a6f6c6d4531a37b7986a1ec007718932605f8fdb72b87c5a009ddfd51316",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n100/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n100/evaluation_report.json",
+      "bytes": 21612,
+      "sha256": "a060d244a9a6cc9a8fe0ef4b5ab4526963a3caa8f504eb1a2c14dcb7c79992f3",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n20/SCORE_OWNER_COMPLETION.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n20/SCORE_OWNER_COMPLETION.json",
+      "bytes": 964,
+      "sha256": "63067b465ca9f8f9e51cfde1589bff8beb44014d6ba0480eabe976d60d08ecff",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n20/descriptive_relative_to_raw.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n20/descriptive_relative_to_raw.json",
+      "bytes": 3996,
+      "sha256": "5787b989cf380b3bfb2749b4752ef6104eb4933ff3d9586c932120a0b6fcfbde",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n20/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n20/evaluation_report.json",
+      "bytes": 21628,
+      "sha256": "94366f13b19ec013ac61539cfd9fb1bca3ef5e8ec5f8bcf73e79d2ec8f39f40d",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n50/SCORE_OWNER_COMPLETION.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n50/SCORE_OWNER_COMPLETION.json",
+      "bytes": 904,
+      "sha256": "fdffec6e0483cc502fcf449a49c8202d64f904142198460cc78dcbfc1d2dc6fd",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n50/descriptive_relative_to_raw.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n50/descriptive_relative_to_raw.json",
+      "bytes": 3999,
+      "sha256": "2b778d0b894aca11701c21a7d71c6161fb5587e65f0494ce1e1da2488116045c",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n50/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n50/evaluation_report.json",
+      "bytes": 21630,
+      "sha256": "76450248a41b2778da4f3ad0fed2afdad1dd8f87e56c9719164df41d44473946",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/export_depth.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/export_depth.py",
+      "bytes": 9408,
+      "sha256": "67539c90f1e1c3b38c8c59084e0ef0fcfc1eacf1883dec011d1eaa7f5306e5e4",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/read_depth.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/read_depth.py",
+      "bytes": 1727,
+      "sha256": "3bc6597555211acfbaadc0452312e8d034aa03a15e3743faec9f09ebc2bd3f3a",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/posthoc_depth_20261014/selection.lock.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "posthoc_depth_20261014/selection.lock.json",
+      "bytes": 794,
+      "sha256": "bd15199f9397f9fa7658afc2cdcc9f33d0743c31611e202e47f2caf5c2a246d3",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/prepare_independent_input.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "prepare_independent_input.py",
+      "bytes": 2306,
+      "sha256": "92fbfc634d11bcdfa44f96e27a518870cca08ef4b69bf9e2a81a704adeeda471",
+      "roles": [
+        "original protocol or implementation"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/D3_TASK_RECONCILIATION.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/D3_TASK_RECONCILIATION.json",
+      "bytes": 11670,
+      "sha256": "67cc34f3b4398c124ac45ec707313f09e88c7c67ea82e8cd6dff3f254d155e6d",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/EXTERNAL_BENCHMARK_METHODS_DRAFT_20261014.txt",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/EXTERNAL_BENCHMARK_METHODS_DRAFT_20261014.txt",
+      "bytes": 13903,
+      "sha256": "dddc73a22c969a1df48b87134a8b7278926f3080f9d11a709cb4d9a3dfde33ef",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/FR_WORK_CLASSIFICATION_AND_PAUSE_LEDGER.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/FR_WORK_CLASSIFICATION_AND_PAUSE_LEDGER.json",
+      "bytes": 40862,
+      "sha256": "012e2a535c874f12a9a1c50a67b2de8ec74bd355c366194eae019848be0eff35",
+      "roles": [
+        "original code, lock, method description or execution status",
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/GPerturb_CPU_ENVIRONMENT.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/GPerturb_CPU_ENVIRONMENT.json",
+      "bytes": 1070,
+      "sha256": "5b5fe4ed6e60e088a19ec29669e691d008e0bfef741a72d7f8e3929e083dc551",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/GPerturb_EXECUTION_FEASIBILITY.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/GPerturb_EXECUTION_FEASIBILITY.json",
+      "bytes": 22245,
+      "sha256": "a78d7fabf1b2c4bad86bd88a5cc053a7108e4eb1011ec1fb2f1d58c0e56ea300",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/GPerturb_EXECUTION_FEASIBILITY_Methods.txt",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/GPerturb_EXECUTION_FEASIBILITY_Methods.txt",
+      "bytes": 2632,
+      "sha256": "6ffc59f829365a42afff64de941c4c10ddc510dbb9b41b41239ff1b5ea2729fa",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/GPerturb_FAIRNESS_SCOPE_REVIEW.txt",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/GPerturb_FAIRNESS_SCOPE_REVIEW.txt",
+      "bytes": 6001,
+      "sha256": "e191e8d87cdb2f5b8609c5823263d5eb57820969946f385c692d11c6ec691660",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/GPerturb_REAL_D3_RESOURCE_GATE_PROTOCOL.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/GPerturb_REAL_D3_RESOURCE_GATE_PROTOCOL.json",
+      "bytes": 3548,
+      "sha256": "51de261840911a2a51cf8adc00bfab23baa683f0a30576faa9815994fbe0341f",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/GPerturb_REAL_D3_RESOURCE_GATE_RESULT.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/GPerturb_REAL_D3_RESOURCE_GATE_RESULT.json",
+      "bytes": 2934,
+      "sha256": "f7395bf9bcede7b410e247d13204697643a7bfb7aafe3db87df223903567bd09",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/GPerturb_REAL_D3_WIDTH700_RESOURCE_GATE_20261014_SUPERVISOR.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/GPerturb_REAL_D3_WIDTH700_RESOURCE_GATE_20261014_SUPERVISOR.json",
+      "bytes": 713,
+      "sha256": "2aba321f7d1db668860246422d8c76ba0c43e285c9549582f0b8f3b4b9a0c507",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/GPerturb_REAL_D3_WIDTH700_RESOURCE_GATE_20261014_WORKER_GUARD.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/GPerturb_REAL_D3_WIDTH700_RESOURCE_GATE_20261014_WORKER_GUARD.json",
+      "bytes": 199,
+      "sha256": "74de66b5d3c59fb5946278eb1f9df524667efc7153b942fad1a6d53278cec1da",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/GPerturb_RESOURCE_GATE_README.txt",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/GPerturb_RESOURCE_GATE_README.txt",
+      "bytes": 2342,
+      "sha256": "b832008f857fcacf2cb01b800be1f7441dd3286df1c9ba722e0074c0123587c7",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/NATIVE_FULL_RANK_MATH_RESOURCE_AUDIT.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/NATIVE_FULL_RANK_MATH_RESOURCE_AUDIT.json",
+      "bytes": 1978,
+      "sha256": "aafa294f0119f2d2ffd64d942116fd44933cbb896b4adc54dd81687d0a6456e7",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/POSTHOC_D3_RANK_BOUNDARY.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/POSTHOC_D3_RANK_BOUNDARY.json",
+      "bytes": 9831,
+      "sha256": "aafa69c2d13127a90cf531d91489ce2c116e67b9b3d9344ec9687faac0e67060",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/POSTHOC_EXPANDED_RANK_TRANSFER_RULE.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/POSTHOC_EXPANDED_RANK_TRANSFER_RULE.json",
+      "bytes": 2694,
+      "sha256": "9925d185212de1d4b71a07d6cfb50b2574f168abe5aa2444e75d2cb017e1bd82",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/RANK_BOUNDARY_EXECUTION.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/RANK_BOUNDARY_EXECUTION.json",
+      "bytes": 4285,
+      "sha256": "c054b0f444360b00ebb2a524bc5a73011102c1cc2ba687e13139a05dedaffc24",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/add_requested_contrasts.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/add_requested_contrasts.py",
+      "bytes": 2040,
+      "sha256": "19d57b20d54c0103722c42247ecbfe145d386fb10803f93345e0eef56ef2d870",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/D4_Rest_sensitivity_rep0_f0e98e6b-053e-4e4d-9b04-c0c5fb19cc7b/fr_compact_sensitivity/D4_Rest/rank100_default_lasso_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/D4_Rest_sensitivity_rep0_f0e98e6b-053e-4e4d-9b04-c0c5fb19cc7b/fr_compact_sensitivity/D4_Rest/rank100_default_lasso_rep0/fit_report.json",
+      "bytes": 112987,
+      "sha256": "da8d6cc5cbaab02e008d39e1708e0197be30e39d208627f3e335429d05ea9137",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/D4_Rest_sensitivity_rep0_f0e98e6b-053e-4e4d-9b04-c0c5fb19cc7b/fr_outputs_sensitivity/D4_Rest/rank100_default_lasso_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/D4_Rest_sensitivity_rep0_f0e98e6b-053e-4e4d-9b04-c0c5fb19cc7b/fr_outputs_sensitivity/D4_Rest/rank100_default_lasso_rep0/fit_report.json",
+      "bytes": 112987,
+      "sha256": "da8d6cc5cbaab02e008d39e1708e0197be30e39d208627f3e335429d05ea9137",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/D4_Rest_sensitivity_rep1_0d1ee448-f776-4a68-9bee-581d8cec2099/fr_compact_sensitivity/D4_Rest/rank100_default_lasso_rep1/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/D4_Rest_sensitivity_rep1_0d1ee448-f776-4a68-9bee-581d8cec2099/fr_compact_sensitivity/D4_Rest/rank100_default_lasso_rep1/fit_report.json",
+      "bytes": 111847,
+      "sha256": "9627a22c4b2ebd50168a07ab137438fb48cee44607cb322dff19ca5e5d0402bf",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/D4_Rest_sensitivity_rep1_0d1ee448-f776-4a68-9bee-581d8cec2099/fr_outputs_sensitivity/D4_Rest/rank100_default_lasso_rep1/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/D4_Rest_sensitivity_rep1_0d1ee448-f776-4a68-9bee-581d8cec2099/fr_outputs_sensitivity/D4_Rest/rank100_default_lasso_rep1/fit_report.json",
+      "bytes": 111847,
+      "sha256": "9627a22c4b2ebd50168a07ab137438fb48cee44607cb322dff19ca5e5d0402bf",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/D4_Stim8hr_primary_rep0_95a64e7d-d507-4c4c-b14d-f6d421436ebf/fr_compact/D4_Stim8hr/rank100_default_lasso_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/D4_Stim8hr_primary_rep0_95a64e7d-d507-4c4c-b14d-f6d421436ebf/fr_compact/D4_Stim8hr/rank100_default_lasso_rep0/fit_report.json",
+      "bytes": 106000,
+      "sha256": "5f42a80a43de1ba57f1b7f9f73f34a482e416099f9e77752fa63d7153958645e",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/D4_Stim8hr_primary_rep0_95a64e7d-d507-4c4c-b14d-f6d421436ebf/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/D4_Stim8hr_primary_rep0_95a64e7d-d507-4c4c-b14d-f6d421436ebf/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep0/fit_report.json",
+      "bytes": 106000,
+      "sha256": "5f42a80a43de1ba57f1b7f9f73f34a482e416099f9e77752fa63d7153958645e",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/D4_Stim8hr_primary_rep1_5487004e-58d4-4833-bcad-0f4eb15b9c3d/fr_compact/D4_Stim8hr/rank100_default_lasso_rep1/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/D4_Stim8hr_primary_rep1_5487004e-58d4-4833-bcad-0f4eb15b9c3d/fr_compact/D4_Stim8hr/rank100_default_lasso_rep1/fit_report.json",
+      "bytes": 104949,
+      "sha256": "4e01ad2bba6a28724a65649f9da1391f0bf0ad8c9455a1146de64aa18109059c",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/D4_Stim8hr_primary_rep1_5487004e-58d4-4833-bcad-0f4eb15b9c3d/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep1/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/D4_Stim8hr_primary_rep1_5487004e-58d4-4833-bcad-0f4eb15b9c3d/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep1/fit_report.json",
+      "bytes": 104949,
+      "sha256": "4e01ad2bba6a28724a65649f9da1391f0bf0ad8c9455a1146de64aa18109059c",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/D4_Stim8hr_primary_rep2_92d407a6-0fb8-46a3-9f18-7f0a3f84c787/fr_compact/D4_Stim8hr/rank100_default_lasso_rep2/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/D4_Stim8hr_primary_rep2_92d407a6-0fb8-46a3-9f18-7f0a3f84c787/fr_compact/D4_Stim8hr/rank100_default_lasso_rep2/fit_report.json",
+      "bytes": 102078,
+      "sha256": "c49671ec4d6c43d9248293e3d519297e13443b54f355eb152f7328ce60d09c29",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/D4_Stim8hr_primary_rep2_92d407a6-0fb8-46a3-9f18-7f0a3f84c787/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep2/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/D4_Stim8hr_primary_rep2_92d407a6-0fb8-46a3-9f18-7f0a3f84c787/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep2/fit_report.json",
+      "bytes": 102078,
+      "sha256": "c49671ec4d6c43d9248293e3d519297e13443b54f355eb152f7328ce60d09c29",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/D4_Stim8hr_primary_rep3_49a280e6-3ae5-4f7b-b852-8ceb39de15af/fr_compact/D4_Stim8hr/rank100_default_lasso_rep3/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/D4_Stim8hr_primary_rep3_49a280e6-3ae5-4f7b-b852-8ceb39de15af/fr_compact/D4_Stim8hr/rank100_default_lasso_rep3/fit_report.json",
+      "bytes": 107511,
+      "sha256": "091653a4b059e17963fa80d09951642872d66aede84b2ff0dfab7de841f7a49b",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/D4_Stim8hr_primary_rep3_49a280e6-3ae5-4f7b-b852-8ceb39de15af/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep3/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/D4_Stim8hr_primary_rep3_49a280e6-3ae5-4f7b-b852-8ceb39de15af/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep3/fit_report.json",
+      "bytes": 107511,
+      "sha256": "091653a4b059e17963fa80d09951642872d66aede84b2ff0dfab7de841f7a49b",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/D4_Stim8hr_primary_rep4_dfef6ecf-f9b5-4bc2-bc71-d8a7af106204/fr_compact/D4_Stim8hr/rank100_default_lasso_rep4/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/D4_Stim8hr_primary_rep4_dfef6ecf-f9b5-4bc2-bc71-d8a7af106204/fr_compact/D4_Stim8hr/rank100_default_lasso_rep4/fit_report.json",
+      "bytes": 105147,
+      "sha256": "f9999f6b6d211ccfdc1f6faddb12875cd7c5a70741fa163a28bb91a4d94d943a",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/D4_Stim8hr_primary_rep4_dfef6ecf-f9b5-4bc2-bc71-d8a7af106204/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep4/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/D4_Stim8hr_primary_rep4_dfef6ecf-f9b5-4bc2-bc71-d8a7af106204/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep4/fit_report.json",
+      "bytes": 105147,
+      "sha256": "f9999f6b6d211ccfdc1f6faddb12875cd7c5a70741fa163a28bb91a4d94d943a",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/depth_0526b733-2229-4c3a-a582-f4d1eca807de/native_fr_compact/A_native_default_penalty/n20/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/depth_0526b733-2229-4c3a-a582-f4d1eca807de/native_fr_compact/A_native_default_penalty/n20/fit_report.json",
+      "bytes": 118258,
+      "sha256": "29ab5b57eac1189274c27c5df2d8667edeb4422f6392616fa4b05e77fcf92556",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/depth_0526b733-2229-4c3a-a582-f4d1eca807de/native_fr_outputs/A_native_default_penalty/n20/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/depth_0526b733-2229-4c3a-a582-f4d1eca807de/native_fr_outputs/A_native_default_penalty/n20/fit_report.json",
+      "bytes": 118258,
+      "sha256": "29ab5b57eac1189274c27c5df2d8667edeb4422f6392616fa4b05e77fcf92556",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/depth_179b4fdd-48c3-4a09-8a52-523cfad2e31a/native_fr_compact/A_native_default_penalty/n100/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/depth_179b4fdd-48c3-4a09-8a52-523cfad2e31a/native_fr_compact/A_native_default_penalty/n100/fit_report.json",
+      "bytes": 87811,
+      "sha256": "f028c0f8e358b3638f15fadac7fef6fe1fa2781079b9ebad40037a7fa8f64f1d",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/depth_179b4fdd-48c3-4a09-8a52-523cfad2e31a/native_fr_outputs/A_native_default_penalty/n100/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/depth_179b4fdd-48c3-4a09-8a52-523cfad2e31a/native_fr_outputs/A_native_default_penalty/n100/fit_report.json",
+      "bytes": 87811,
+      "sha256": "f028c0f8e358b3638f15fadac7fef6fe1fa2781079b9ebad40037a7fa8f64f1d",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/depth_603515b0-19d5-419c-8ef5-4d6729cd52c9/native_fr_compact/A_native_default_penalty/n50/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/depth_603515b0-19d5-419c-8ef5-4d6729cd52c9/native_fr_compact/A_native_default_penalty/n50/fit_report.json",
+      "bytes": 101828,
+      "sha256": "4eb4129d7b3bbe2d341e4722ddba52d9888f7c0d099f7030c3f1d997795ad64b",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/depth_603515b0-19d5-419c-8ef5-4d6729cd52c9/native_fr_outputs/A_native_default_penalty/n50/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/depth_603515b0-19d5-419c-8ef5-4d6729cd52c9/native_fr_outputs/A_native_default_penalty/n50/fit_report.json",
+      "bytes": 101828,
+      "sha256": "4eb4129d7b3bbe2d341e4722ddba52d9888f7c0d099f7030c3f1d997795ad64b",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/depth_80adb280-5096-4acc-8713-8c5b478611ca/native_fr_compact/B_effective_penalty_sensitivity/n20/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/depth_80adb280-5096-4acc-8713-8c5b478611ca/native_fr_compact/B_effective_penalty_sensitivity/n20/fit_report.json",
+      "bytes": 118188,
+      "sha256": "2b2a54841f0422640845378c77a6870d45c861216d01642626e62600ac78237f",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/depth_80adb280-5096-4acc-8713-8c5b478611ca/native_fr_outputs/B_effective_penalty_sensitivity/n20/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/depth_80adb280-5096-4acc-8713-8c5b478611ca/native_fr_outputs/B_effective_penalty_sensitivity/n20/fit_report.json",
+      "bytes": 118188,
+      "sha256": "2b2a54841f0422640845378c77a6870d45c861216d01642626e62600ac78237f",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/depth_966bea6c-1edf-49cc-a0ba-13c03b7add77/native_fr_compact/B_effective_penalty_sensitivity/n100/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/depth_966bea6c-1edf-49cc-a0ba-13c03b7add77/native_fr_compact/B_effective_penalty_sensitivity/n100/fit_report.json",
+      "bytes": 87586,
+      "sha256": "f24db9dcd62dc0fb0ecab1b9c07e160b13e659ce9782c9ab4480d11578669e3c",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/depth_966bea6c-1edf-49cc-a0ba-13c03b7add77/native_fr_outputs/B_effective_penalty_sensitivity/n100/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/depth_966bea6c-1edf-49cc-a0ba-13c03b7add77/native_fr_outputs/B_effective_penalty_sensitivity/n100/fit_report.json",
+      "bytes": 87586,
+      "sha256": "f24db9dcd62dc0fb0ecab1b9c07e160b13e659ce9782c9ab4480d11578669e3c",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/depth_a032e7fb-8345-445b-a433-fbe92020b1da/native_fr_compact/B_effective_penalty_sensitivity/n50/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/depth_a032e7fb-8345-445b-a433-fbe92020b1da/native_fr_compact/B_effective_penalty_sensitivity/n50/fit_report.json",
+      "bytes": 101223,
+      "sha256": "ad2c4d11ef2d9cd48d1210a0e63baa043707f9455f0468ec7b7343ce6f36e998",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/depth_a032e7fb-8345-445b-a433-fbe92020b1da/native_fr_outputs/B_effective_penalty_sensitivity/n50/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/depth_a032e7fb-8345-445b-a433-fbe92020b1da/native_fr_outputs/B_effective_penalty_sensitivity/n50/fit_report.json",
+      "bytes": 101223,
+      "sha256": "ad2c4d11ef2d9cd48d1210a0e63baa043707f9455f0468ec7b7343ce6f36e998",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/rank_boundary_compact/rank150_default_lasso_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/rank_boundary_compact/rank150_default_lasso_rep0/fit_report.json",
+      "bytes": 106127,
+      "sha256": "7e43865993333ad91a29a8d4ada5998a8f4f0780ae9161942e8f65581aa70325",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/rank_boundary_evaluation/rank150_default_lasso/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/rank_boundary_evaluation/rank150_default_lasso/evaluation_report.json",
+      "bytes": 13257,
+      "sha256": "c80da27bcba861c7732ec27ff1d83daa808350962f44150037984d1974d29b91",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/rank_boundary_outputs/rank150_default_lasso_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/rank_boundary_outputs/rank150_default_lasso_rep0/fit_report.json",
+      "bytes": 106127,
+      "sha256": "7e43865993333ad91a29a8d4ada5998a8f4f0780ae9161942e8f65581aa70325",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/rank_boundary_compact/rank300_default_lasso_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/rank_boundary_compact/rank300_default_lasso_rep0/fit_report.json",
+      "bytes": 131663,
+      "sha256": "be161a25a9f055acb006e65219ab4c9f1374a385fcf8fbb257c51cdbd4e399e3",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/rank_boundary_evaluation/rank300_default_lasso/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/rank_boundary_evaluation/rank300_default_lasso/evaluation_report.json",
+      "bytes": 13236,
+      "sha256": "b68848b16313372b7de9840f561ed40a13afe36b7702ffda317aa6f75a92e369",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/rank_boundary_outputs/rank300_default_lasso_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/rank_boundary_outputs/rank300_default_lasso_rep0/fit_report.json",
+      "bytes": 131663,
+      "sha256": "be161a25a9f055acb006e65219ab4c9f1374a385fcf8fbb257c51cdbd4e399e3",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/rank_boundary_compact/rank200_default_lasso_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/rank_boundary_compact/rank200_default_lasso_rep0/fit_report.json",
+      "bytes": 114416,
+      "sha256": "5275730697c42cdcc8bca4507be6385ba0fa17b7957db7c41ba20d3d1dab6e31",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/rank_boundary_evaluation/rank200_default_lasso/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/rank_boundary_evaluation/rank200_default_lasso/evaluation_report.json",
+      "bytes": 13252,
+      "sha256": "1b31eac0a5444b25dee5ef1abf3899fb3f7500bdc16edcd5f5c7f43242af2d07",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/rank_boundary_outputs/rank200_default_lasso_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/atomic_runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/rank_boundary_outputs/rank200_default_lasso_rep0/fit_report.json",
+      "bytes": 114416,
+      "sha256": "5275730697c42cdcc8bca4507be6385ba0fa17b7957db7c41ba20d3d1dab6e31",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/compare_shared_pooled_arms.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/compare_shared_pooled_arms.py",
+      "bytes": 2424,
+      "sha256": "03b29a27d374d08c42ef2ec9e10fb0ca72fde41762b46b8643ca6fbd8c68e965",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/depth_relative_to_raw.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/depth_relative_to_raw.py",
+      "bytes": 2627,
+      "sha256": "82077c6c253475e3eac9975e980f2ea68993e7901f119491061e72482e099214",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/evaluation/D4_Rest/audit/AUDIT_RESULT.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/evaluation/D4_Rest/audit/AUDIT_RESULT.json",
+      "bytes": 14240,
+      "sha256": "b1892af7598865b459bde8f88717595db3e92f26244a0a4220befc1014530405",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/evaluation/D4_Rest/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/evaluation/D4_Rest/evaluation_report.json",
+      "bytes": 23689,
+      "sha256": "e9308b5c4038c39ae172dff04f1ee2f5a76d19d92f59edcf9a8a08e1b45a7c75",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/evaluation/D4_Stim8hr/audit/AUDIT_RESULT.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/evaluation/D4_Stim8hr/audit/AUDIT_RESULT.json",
+      "bytes": 14496,
+      "sha256": "2aa502b369286378b28ce44942522432ec9bd66117765a0c7d28bb0819722320",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/evaluation/D4_Stim8hr/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/evaluation/D4_Stim8hr/evaluation_report.json",
+      "bytes": 26390,
+      "sha256": "04a4747ff178d81494a8abeef07ffaee45a2ccbecafc68e433ad2d51f1c182e6",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/evaluation/equal_state/OWNER_COMPLETION.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/evaluation/equal_state/OWNER_COMPLETION.json",
+      "bytes": 1947,
+      "sha256": "ed6746e69b319e254d08795585b2cf1870fccd0ceec05c5b9e9bbbcf4d218429",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/evaluation/equal_state/equal_state_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/evaluation/equal_state/equal_state_report.json",
+      "bytes": 13646,
+      "sha256": "46c264be0db448946ce3150ae4821d29b4da293a0e892a13b7490dd2feba3efc",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/evaluation/equal_state/requested_extra_contrasts.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/evaluation/equal_state/requested_extra_contrasts.json",
+      "bytes": 1631,
+      "sha256": "2cbb07b01b00917eaf1cceeaeace21a1757ff082d882e856d092998095300d04",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/evidence_report_build/ASSEMBLY_VERIFICATION.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/evidence_report_build/ASSEMBLY_VERIFICATION.json",
+      "bytes": 20017,
+      "sha256": "01d5372ff227fe265e9867a71dd6112025defcba5bb7dff7232b020e5bd46fb5",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/evidence_report_build/EXPANDED_RESULT_SOURCES.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/evidence_report_build/EXPANDED_RESULT_SOURCES.json",
+      "bytes": 1682,
+      "sha256": "663b669a8b6daf9c8a0265094b65c0663cd1ab59cc5c11ca8093f27067c01cdf",
+      "roles": [
+        "original code, lock, method description or execution status",
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/evidence_report_build/HTML_LAYOUT_QA.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/evidence_report_build/HTML_LAYOUT_QA.json",
+      "bytes": 415,
+      "sha256": "072a6217c56b17cec6505eeae2e56e3db98951ac9f5b21b57d0defb32b22bd48",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/evidence_report_build/build_evidence.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/evidence_report_build/build_evidence.py",
+      "bytes": 34369,
+      "sha256": "25df625f18fb86ed9e6a5b38a34aba390519edf48ed70b11cc2360129541aeaf",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/evidence_report_build/evidence_manifest_20261014.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/evidence_report_build/evidence_manifest_20261014.json",
+      "bytes": 46425,
+      "sha256": "dae60b2626d0a2f66634e1dc046ae71efc003a4c1fb58971194b56e4a3b94fbf",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_posthoc_audit.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_posthoc_audit.py",
+      "bytes": 13728,
+      "sha256": "23dcd135cba3e9135cc3e31c81b8c2920c323deb06443fef1e847d7cd8058498",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/EXPANDED_NATIVE_COMPLETION_LEDGER.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/EXPANDED_NATIVE_COMPLETION_LEDGER.json",
+      "bytes": 17449,
+      "sha256": "c3c2aca13cecc973b07f195128e6203f54d35d6453aa0947279b7efde4376f02",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/POSTHOC_EXPANDED_RANK_WINNER.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/POSTHOC_EXPANDED_RANK_WINNER.json",
+      "bytes": 4410,
+      "sha256": "9f6180331c52b334782f6a5c4951a40e80164a210118b6d7b5a0475de0ed062a",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/ROOT_FINAL_SCORING_STATUS.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/ROOT_FINAL_SCORING_STATUS.json",
+      "bytes": 785,
+      "sha256": "fa7385d9e7c068587ab55bf14c324581df3c918ec37be23da48b3929745e4262",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/COMMON_THREE_ARMS_VS_ORIGINAL.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/COMMON_THREE_ARMS_VS_ORIGINAL.json",
+      "bytes": 1980,
+      "sha256": "328dbb0ef14c64d27240b670df4e840948d5a8a511e4c604e6e24998d3350054",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/OWNER_COMPLETION.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/OWNER_COMPLETION.json",
+      "bytes": 1583,
+      "sha256": "ec3f699a2d8e5b8cc2b12f4447e79e75b8eed70723279f07c3473ae55c06e969",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/evaluation_report.json",
+      "bytes": 34739,
+      "sha256": "67f2da4d6ae3bd13362802ca01f1378d520ddcb3fcf91d3b9db58d12d532bb0f",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/COMMON_THREE_ARMS_VS_ORIGINAL.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/COMMON_THREE_ARMS_VS_ORIGINAL.json",
+      "bytes": 1998,
+      "sha256": "9737e230e17c1cd9d82ea35a2887821073c0b142b4af2379b680823267e1101a",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/OWNER_COMPLETION.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/OWNER_COMPLETION.json",
+      "bytes": 1587,
+      "sha256": "ddf07c143ec3c1025e8f9c9b9780d8186210e1fec0cc3ee0750a0a7249bcb547",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/evaluation_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/evaluation_report.json",
+      "bytes": 34961,
+      "sha256": "af7a173b8a0e4b4bd058d1ff25b614b6a29b27f3362661debb7ec1c5984b129d",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/evaluation/equal_state_a138dbae-36d3-4bb3-bf39-0d4f9dd5e17c/OWNER_COMPLETION.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/evaluation/equal_state_a138dbae-36d3-4bb3-bf39-0d4f9dd5e17c/OWNER_COMPLETION.json",
+      "bytes": 1468,
+      "sha256": "0396f878dbce1cc87088d28b41aa8bea0da9bd7cf4e0935f5cfe3284c583a7ba",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/evaluation/equal_state_a138dbae-36d3-4bb3-bf39-0d4f9dd5e17c/equal_state_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/evaluation/equal_state_a138dbae-36d3-4bb3-bf39-0d4f9dd5e17c/equal_state_report.json",
+      "bytes": 19275,
+      "sha256": "8a3a88e579d4cc76d34bf116da0e0f175caa4199ce411b6d2ba9ad6cd9018780",
+      "roles": [
+        "uploaded report source"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/20b7d480-eaf1-4014-9b24-dbe0c2f2233c/fr_compact/D4_Stim8hr/rank300_default_lasso_rep2/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/20b7d480-eaf1-4014-9b24-dbe0c2f2233c/fr_compact/D4_Stim8hr/rank300_default_lasso_rep2/fit_report.json",
+      "bytes": 136558,
+      "sha256": "9600690700291d750a145bbee54c793235b52a4f248176e4dae00561d4a6e587",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/20b7d480-eaf1-4014-9b24-dbe0c2f2233c/fr_outputs/D4_Stim8hr/rank300_default_lasso_rep2/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/20b7d480-eaf1-4014-9b24-dbe0c2f2233c/fr_outputs/D4_Stim8hr/rank300_default_lasso_rep2/fit_report.json",
+      "bytes": 136558,
+      "sha256": "9600690700291d750a145bbee54c793235b52a4f248176e4dae00561d4a6e587",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/26494d81-1714-4476-9b65-c7952e6c6cd4/fr_compact/D4_Rest/rank300_default_lasso_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/26494d81-1714-4476-9b65-c7952e6c6cd4/fr_compact/D4_Rest/rank300_default_lasso_rep0/fit_report.json",
+      "bytes": 147317,
+      "sha256": "419dbaff6f865b428d8253f6f8f9e5b4e59ccdbdf4310276b223647c67fe80c5",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/26494d81-1714-4476-9b65-c7952e6c6cd4/fr_outputs/D4_Rest/rank300_default_lasso_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/26494d81-1714-4476-9b65-c7952e6c6cd4/fr_outputs/D4_Rest/rank300_default_lasso_rep0/fit_report.json",
+      "bytes": 147317,
+      "sha256": "419dbaff6f865b428d8253f6f8f9e5b4e59ccdbdf4310276b223647c67fe80c5",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/47df944a-2066-43ac-ae7a-de332b093ed6/fr_compact/D4_Rest/rank300_default_lasso_rep2/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/47df944a-2066-43ac-ae7a-de332b093ed6/fr_compact/D4_Rest/rank300_default_lasso_rep2/fit_report.json",
+      "bytes": 145434,
+      "sha256": "082ed95b09cb38b3498e18c498eee7e528d40601ffb57582d31d9f6104506fd8",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/47df944a-2066-43ac-ae7a-de332b093ed6/fr_outputs/D4_Rest/rank300_default_lasso_rep2/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/47df944a-2066-43ac-ae7a-de332b093ed6/fr_outputs/D4_Rest/rank300_default_lasso_rep2/fit_report.json",
+      "bytes": 145434,
+      "sha256": "082ed95b09cb38b3498e18c498eee7e528d40601ffb57582d31d9f6104506fd8",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/5d627a24-121f-48d5-af3e-2c0c4b4a2b58/fr_compact/D4_Stim8hr/rank300_default_lasso_rep3/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/5d627a24-121f-48d5-af3e-2c0c4b4a2b58/fr_compact/D4_Stim8hr/rank300_default_lasso_rep3/fit_report.json",
+      "bytes": 142044,
+      "sha256": "b5420ee5ab9c03007ed8a5b0d12563402798554087d9a628db1acf821b515dae",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/5d627a24-121f-48d5-af3e-2c0c4b4a2b58/fr_outputs/D4_Stim8hr/rank300_default_lasso_rep3/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/5d627a24-121f-48d5-af3e-2c0c4b4a2b58/fr_outputs/D4_Stim8hr/rank300_default_lasso_rep3/fit_report.json",
+      "bytes": 142044,
+      "sha256": "b5420ee5ab9c03007ed8a5b0d12563402798554087d9a628db1acf821b515dae",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/643d4fb6-c1bf-4425-a519-8bb361ae78ef/fr_compact/D4_Stim8hr/rank300_default_lasso_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/643d4fb6-c1bf-4425-a519-8bb361ae78ef/fr_compact/D4_Stim8hr/rank300_default_lasso_rep0/fit_report.json",
+      "bytes": 140076,
+      "sha256": "dfae2e4aab79ec2c66e3d84b9a339a72bea122e45f44be2d1eae4fcdda5e1c28",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/643d4fb6-c1bf-4425-a519-8bb361ae78ef/fr_outputs/D4_Stim8hr/rank300_default_lasso_rep0/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/643d4fb6-c1bf-4425-a519-8bb361ae78ef/fr_outputs/D4_Stim8hr/rank300_default_lasso_rep0/fit_report.json",
+      "bytes": 140076,
+      "sha256": "dfae2e4aab79ec2c66e3d84b9a339a72bea122e45f44be2d1eae4fcdda5e1c28",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/846e5018-932c-4061-b13c-f2f3359ecb4f/fr_compact/D4_Rest/rank300_default_lasso_rep1/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/846e5018-932c-4061-b13c-f2f3359ecb4f/fr_compact/D4_Rest/rank300_default_lasso_rep1/fit_report.json",
+      "bytes": 146155,
+      "sha256": "7963c769cdea42600a125e86634364174a15d1714b3269158c1fbe09c744bf4a",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/846e5018-932c-4061-b13c-f2f3359ecb4f/fr_outputs/D4_Rest/rank300_default_lasso_rep1/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/846e5018-932c-4061-b13c-f2f3359ecb4f/fr_outputs/D4_Rest/rank300_default_lasso_rep1/fit_report.json",
+      "bytes": 146155,
+      "sha256": "7963c769cdea42600a125e86634364174a15d1714b3269158c1fbe09c744bf4a",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/c28b12e7-45e8-4cdf-9081-a044b2c77a66/fr_compact/D4_Rest/rank300_default_lasso_rep4/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/c28b12e7-45e8-4cdf-9081-a044b2c77a66/fr_compact/D4_Rest/rank300_default_lasso_rep4/fit_report.json",
+      "bytes": 147069,
+      "sha256": "28c439159551fe72e7d943dcb2ee77f55681573232ea6848d1334328bbeb4e5d",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/c28b12e7-45e8-4cdf-9081-a044b2c77a66/fr_outputs/D4_Rest/rank300_default_lasso_rep4/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/c28b12e7-45e8-4cdf-9081-a044b2c77a66/fr_outputs/D4_Rest/rank300_default_lasso_rep4/fit_report.json",
+      "bytes": 147069,
+      "sha256": "28c439159551fe72e7d943dcb2ee77f55681573232ea6848d1334328bbeb4e5d",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/c8b0e3c4-4481-4a5b-993c-6d704244c20f/fr_compact/D4_Stim8hr/rank300_default_lasso_rep4/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/c8b0e3c4-4481-4a5b-993c-6d704244c20f/fr_compact/D4_Stim8hr/rank300_default_lasso_rep4/fit_report.json",
+      "bytes": 139789,
+      "sha256": "e8258a30283b3c5b5cc0d4b524250f611d6088db8b0d33a21afa26c376898ddb",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/c8b0e3c4-4481-4a5b-993c-6d704244c20f/fr_outputs/D4_Stim8hr/rank300_default_lasso_rep4/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/c8b0e3c4-4481-4a5b-993c-6d704244c20f/fr_outputs/D4_Stim8hr/rank300_default_lasso_rep4/fit_report.json",
+      "bytes": 139789,
+      "sha256": "e8258a30283b3c5b5cc0d4b524250f611d6088db8b0d33a21afa26c376898ddb",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/df577fbb-d92d-452b-9005-e3c898a995df/fr_compact/D4_Stim8hr/rank300_default_lasso_rep1/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/df577fbb-d92d-452b-9005-e3c898a995df/fr_compact/D4_Stim8hr/rank300_default_lasso_rep1/fit_report.json",
+      "bytes": 138991,
+      "sha256": "59fea825d44a0b8267060c0138c04a2b1d195cfea396f8270f60a9d782bb2cb4",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/df577fbb-d92d-452b-9005-e3c898a995df/fr_outputs/D4_Stim8hr/rank300_default_lasso_rep1/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/df577fbb-d92d-452b-9005-e3c898a995df/fr_outputs/D4_Stim8hr/rank300_default_lasso_rep1/fit_report.json",
+      "bytes": 138991,
+      "sha256": "59fea825d44a0b8267060c0138c04a2b1d195cfea396f8270f60a9d782bb2cb4",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/e709a364-f9a6-4df0-a124-c88d878f3b63/fr_compact/D4_Rest/rank300_default_lasso_rep3/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/e709a364-f9a6-4df0-a124-c88d878f3b63/fr_compact/D4_Rest/rank300_default_lasso_rep3/fit_report.json",
+      "bytes": 146350,
+      "sha256": "59513b8c05f344a9be4d79a1d327b44cf0160f623cf5a10af4bce0e1eb3fe011",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/expanded_rank_transfer/runs/e709a364-f9a6-4df0-a124-c88d878f3b63/fr_outputs/D4_Rest/rank300_default_lasso_rep3/fit_report.json",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/expanded_rank_transfer/runs/e709a364-f9a6-4df0-a124-c88d878f3b63/fr_outputs/D4_Rest/rank300_default_lasso_rep3/fit_report.json",
+      "bytes": 146350,
+      "sha256": "59513b8c05f344a9be4d79a1d327b44cf0160f623cf5a10af4bce0e1eb3fe011",
+      "roles": [
+        "native fit and configuration provenance"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/gperturb_native_pilot.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/gperturb_native_pilot.py",
+      "bytes": 20024,
+      "sha256": "2e2e02beab5344dc11727558256812ffe5dd74f9462d915c974a3d289a79fb8d",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/plot_rank_boundary.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/plot_rank_boundary.py",
+      "bytes": 3703,
+      "sha256": "db6f2ea1674cf27429a1942c24a3410fea937727a5302842de6060c145f8dcf5",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/prepare_gperturb_real_input.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/prepare_gperturb_real_input.py",
+      "bytes": 3472,
+      "sha256": "5d098b0d4f40adc5b7bb1cc06bb42874f450294f9cbff88eb793534267a04d83",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/reconcile_d3_tasks.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/reconcile_d3_tasks.py",
+      "bytes": 12772,
+      "sha256": "0eadda478a5e713fdd796c9cd8ccf0d9cc0e75e7a32707da71f13842e7aacd52",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/run_depth_native.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/run_depth_native.py",
+      "bytes": 10515,
+      "sha256": "51586316996ec848f40318eafa0600b18e4df074de3a94ed0553770b6d0c3102",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/run_expanded_rank_transfer.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/run_expanded_rank_transfer.py",
+      "bytes": 37037,
+      "sha256": "7498846570cac4f854e199bf1e68b659784b8c641c5fd215b206fbbb057fbbf4",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/run_rank_boundary.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/run_rank_boundary.py",
+      "bytes": 9550,
+      "sha256": "4f8477eb091fc768b2935bffc487de777282e1adf6a1e5f8d2d936fc5c535657",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/score_expanded_rank_transfer.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/score_expanded_rank_transfer.py",
+      "bytes": 28932,
+      "sha256": "2dcd8f4060b1c878a7cd9a691beb4f225c84be3397d53fc5271986879a6f0c23",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/score_one_rank.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/score_one_rank.py",
+      "bytes": 1668,
+      "sha256": "981a2299f3ba32317d44301fc0696473bba1b698d1800786ce8e2a15c84f2447",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/score_one_recovered_task.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/score_one_recovered_task.py",
+      "bytes": 4387,
+      "sha256": "e831579acd184f86aa5809fc428edc48000d8eae6127143d6bcfdc3a6efe4bbc",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/resume/score_recovered_transfer.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "resume_20261014/score_recovered_transfer.py",
+      "bytes": 3778,
+      "sha256": "bac504ff8492a2d549a34654a4e9e4cfcda152a4d781cd0ec2bea6220a15d2d0",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/FR-Perturb/FR_Perturb/FR_Perturb.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/FR-Perturb/FR_Perturb/FR_Perturb.py",
+      "bytes": 12560,
+      "sha256": "b47691c5d121e1df5b60cada04535ff931315716c9cff8b66a84a46f947c244c",
+      "roles": [
+        "vendored original FR source and license"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/FR-Perturb/FR_Perturb/__init__.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/FR-Perturb/FR_Perturb/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "roles": [
+        "vendored original FR source and license"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/FR-Perturb/FR_Perturb/utils.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/FR-Perturb/FR_Perturb/utils.py",
+      "bytes": 7691,
+      "sha256": "e4fd06e7c5e7e373a163e5b444556f5fe7354922553e21add055d116315aca5a",
+      "roles": [
+        "vendored original FR source and license"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/FR-Perturb/LICENSE",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/FR-Perturb/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "roles": [
+        "vendored original FR source and license"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/FR-Perturb/compute_pvalues_batched.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/FR-Perturb/compute_pvalues_batched.py",
+      "bytes": 4109,
+      "sha256": "7d2b126301d560ef517d2b800f9b375e28fbe628d1fee1dcbb21bd01e2dd3c4d",
+      "roles": [
+        "vendored original FR source and license"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/FR-Perturb/environment.yml",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/FR-Perturb/environment.yml",
+      "bytes": 4575,
+      "sha256": "457a15bdf6633cc9e4e899d4eac14a5fbca8d8ee31bdf49531a3b98188d394ca",
+      "roles": [
+        "vendored original FR source and license"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/FR-Perturb/run_FR_Perturb.R",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/FR-Perturb/run_FR_Perturb.R",
+      "bytes": 15935,
+      "sha256": "74f7ffbac02821244c91b0f03ef5a71376c41884ab17107183e287e519b4f637",
+      "roles": [
+        "vendored original FR source and license"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/FR-Perturb/run_FR_Perturb.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/FR-Perturb/run_FR_Perturb.py",
+      "bytes": 30106,
+      "sha256": "e7d943e472b1748d9286bfaac55cb17bea6bbb2a165e127d6410c7db30480ea2",
+      "roles": [
+        "vendored original FR source and license"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/atomic_npz.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/atomic_npz.py",
+      "bytes": 1776,
+      "sha256": "ec1011ccd4b5d1dec3c11e7a869b954fbe0c3e1fc74d55dd22515a517173f8b3",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/fr_native_runner.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/fr_native_runner.py",
+      "bytes": 15129,
+      "sha256": "2f60ee745f4788915b509be4c1e1f8f2dc5c2903ff3835b9f033710599157775",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/fr_native_runner_audit_v2.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/fr_native_runner_audit_v2.py",
+      "bytes": 15586,
+      "sha256": "00f4dbb48888811ad1b41934c71402e98000d5c4482e7bd0db9b4d1ea9cd0aad",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/native_recovery_audit.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/native_recovery_audit.py",
+      "bytes": 3108,
+      "sha256": "9994d9eabfa2df9126d0af8809e9e9fdf15b531755e39c36fd35261b04a207ae",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/run_development_grid.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/run_development_grid.py",
+      "bytes": 2839,
+      "sha256": "82bb4e0a14b5a8459418c7cdee02d4602dc7daa8692c0de82bb87911f46318bb",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/run_locked_transfer.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/run_locked_transfer.py",
+      "bytes": 5242,
+      "sha256": "f2c4761b6f297aa0491754824d21e7adc67faaa7e68c3d168383cdd2ade803ca",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/run_locked_transfer_audit_v2.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/run_locked_transfer_audit_v2.py",
+      "bytes": 5251,
+      "sha256": "ecce85af50be6576e96a6d03910b0d6de353a1f1ac566e94e44bd2dd76bed085",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/run_prepared_input.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/run_prepared_input.py",
+      "bytes": 2052,
+      "sha256": "b38fc973085f72c591c234e48c60163f1973099c4ed36153041cc6798678c3ee",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/run_prepared_input_audit_v2.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/run_prepared_input_audit_v2.py",
+      "bytes": 2061,
+      "sha256": "ae65adf02d4b97f56d50189b5f5cdeaf526ce682984a64e1f867673a6b3c8478",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/runner_snapshots/2f60ee745f4788915b509be4c1e1f8f2dc5c2903ff3835b9f033710599157775.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/runner_snapshots/2f60ee745f4788915b509be4c1e1f8f2dc5c2903ff3835b9f033710599157775.py",
+      "bytes": 15129,
+      "sha256": "2f60ee745f4788915b509be4c1e1f8f2dc5c2903ff3835b9f033710599157775",
+      "roles": [
+        "historical native runner identity"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/runner_snapshots/64ac53b70194b9db9b8f431c12980939a2518d1d25e4374fa1cd7f39ff09fa7d.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/runner_snapshots/64ac53b70194b9db9b8f431c12980939a2518d1d25e4374fa1cd7f39ff09fa7d.py",
+      "bytes": 14894,
+      "sha256": "64ac53b70194b9db9b8f431c12980939a2518d1d25e4374fa1cd7f39ff09fa7d",
+      "roles": [
+        "historical native runner identity"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "benchmark/vendor_work/validate_native_cli.py",
+      "original_archive": "PertRank_External_Benchmark_Code_20261012.zip",
+      "original_archive_member": "vendor_work/validate_native_cli.py",
+      "bytes": 2403,
+      "sha256": "479817914c3259c8c3e99a977cb9220e6976ffe590bca8089b1872f65c72336a",
+      "roles": [
+        "original code, lock, method description or execution status"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "methods_original/D3_TASK_RECONCILIATION.json",
+      "original_archive": "PertRank_Methods_Reconciliation_20261014.zip",
+      "original_archive_member": "D3_TASK_RECONCILIATION.json",
+      "bytes": 11670,
+      "sha256": "67cc34f3b4398c124ac45ec707313f09e88c7c67ea82e8cd6dff3f254d155e6d",
+      "roles": [
+        "task reconciliation and resource feasibility"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "methods_original/D3_TASK_RECONCILIATION_Methods.txt",
+      "original_archive": "PertRank_Methods_Reconciliation_20261014.zip",
+      "original_archive_member": "D3_TASK_RECONCILIATION_Methods.txt",
+      "bytes": 1486,
+      "sha256": "3f6a20e972f80f71122726ee67c78fcb30d9d7bdb8e93bccb8d966aa3a1ff093",
+      "roles": [
+        "task reconciliation and resource feasibility"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "methods_original/GPerturb_EXECUTION_FEASIBILITY.json",
+      "original_archive": "PertRank_Methods_Reconciliation_20261014.zip",
+      "original_archive_member": "GPerturb_EXECUTION_FEASIBILITY.json",
+      "bytes": 22245,
+      "sha256": "a78d7fabf1b2c4bad86bd88a5cc053a7108e4eb1011ec1fb2f1d58c0e56ea300",
+      "roles": [
+        "task reconciliation and resource feasibility"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "methods_original/GPerturb_EXECUTION_FEASIBILITY_Methods.txt",
+      "original_archive": "PertRank_Methods_Reconciliation_20261014.zip",
+      "original_archive_member": "GPerturb_EXECUTION_FEASIBILITY_Methods.txt",
+      "bytes": 2632,
+      "sha256": "6ffc59f829365a42afff64de941c4c10ddc510dbb9b41b41239ff1b5ea2729fa",
+      "roles": [
+        "task reconciliation and resource feasibility"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "methods_original/MANIFEST.json",
+      "original_archive": "PertRank_Methods_Reconciliation_20261014.zip",
+      "original_archive_member": "MANIFEST.json",
+      "bytes": 1783,
+      "sha256": "a8383661901efcd4c82c8ec26365ef740b6ab185c6c79a8256ca850b72643366",
+      "roles": [
+        "task reconciliation and resource feasibility"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "methods_original/gperturb_source/GPerturb/GPerturb_model.py",
+      "original_archive": "PertRank_Methods_Reconciliation_20261014.zip",
+      "original_archive_member": "gperturb_source/GPerturb/GPerturb_model.py",
+      "bytes": 49001,
+      "sha256": "29ab3ef8f27e883d46e0a8e54b4783c6ea7fe677d73e04b873d74de90bcd100d",
+      "roles": [
+        "official GPerturb source identity and licensing"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "methods_original/gperturb_source/LICENSE",
+      "original_archive": "PertRank_Methods_Reconciliation_20261014.zip",
+      "original_archive_member": "gperturb_source/LICENSE",
+      "bytes": 1068,
+      "sha256": "ff0a907a8552558f3f9c03c98adc70f2e207fd7d67a437ab7ddb045392ce8e03",
+      "roles": [
+        "official GPerturb source identity and licensing"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "methods_original/gperturb_source/README.md",
+      "original_archive": "PertRank_Methods_Reconciliation_20261014.zip",
+      "original_archive_member": "gperturb_source/README.md",
+      "bytes": 5334,
+      "sha256": "9e971dab08926771da6feea7d1a832090f7248378efe7046d7cf4d1ac5f97114",
+      "roles": [
+        "official GPerturb source identity and licensing"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "methods_original/gperturb_source/SOURCE_MANIFEST.json",
+      "original_archive": "PertRank_Methods_Reconciliation_20261014.zip",
+      "original_archive_member": "gperturb_source/SOURCE_MANIFEST.json",
+      "bytes": 2141,
+      "sha256": "eb3fa07096ab878a3057ddd5818ca0dd456f1cc4bdfe04996620dae93a307bb7",
+      "roles": [
+        "official GPerturb source identity and licensing"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "methods_original/gperturb_source/numerical_examples/Replogle_GPerturb.py",
+      "original_archive": "PertRank_Methods_Reconciliation_20261014.zip",
+      "original_archive_member": "gperturb_source/numerical_examples/Replogle_GPerturb.py",
+      "bytes": 15796,
+      "sha256": "913492f455492647bc089b14a8acaa2983c0cc6ac0a9d829c0b70d51edf5a3da",
+      "roles": [
+        "official GPerturb source identity and licensing"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "methods_original/gperturb_source/numerical_examples/TCells_GPerturb.py",
+      "original_archive": "PertRank_Methods_Reconciliation_20261014.zip",
+      "original_archive_member": "gperturb_source/numerical_examples/TCells_GPerturb.py",
+      "bytes": 24726,
+      "sha256": "1d1b4569d20fc90f3376ff75c5bf0155dd6891094f9390aa98ffaba920a3acfa",
+      "roles": [
+        "official GPerturb source identity and licensing"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "methods_original/gperturb_source/setup.py",
+      "original_archive": "PertRank_Methods_Reconciliation_20261014.zip",
+      "original_archive_member": "gperturb_source/setup.py",
+      "bytes": 914,
+      "sha256": "80c1f5d6783e4c1592b35b6894ccba6c800e6c8775b1b4ba21110379f0d65552",
+      "roles": [
+        "official GPerturb source identity and licensing"
+      ],
+      "byte_original": true
+    },
+    {
+      "path": "methods_original/reconcile_d3_tasks.py",
+      "original_archive": "PertRank_Methods_Reconciliation_20261014.zip",
+      "original_archive_member": "reconcile_d3_tasks.py",
+      "bytes": 12772,
+      "sha256": "0eadda478a5e713fdd796c9cd8ccf0d9cc0e75e7a32707da71f13842e7aacd52",
+      "roles": [
+        "task reconciliation and resource feasibility"
+      ],
+      "byte_original": true
+    }
+  ],
+  "source_count": 291,
+  "uncompressed_bytes": 10334853,
+  "omitted_requested_files": []
+}

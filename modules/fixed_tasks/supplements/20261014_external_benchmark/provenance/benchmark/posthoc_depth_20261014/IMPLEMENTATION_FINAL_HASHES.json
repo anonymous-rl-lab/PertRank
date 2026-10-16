@@ -1,0 +1,15 @@
+{
+  "status": "IMPLEMENTATION_HASH_SNAPSHOT",
+  "scientific_protocol_unchanged": true,
+  "files_sha256": {
+    "POSTHOC_DEPTH_PROTOCOL.json": "bd529ba31eaf41cfff522716835d2f95aedc61bfd7a3fdae68e4140e7e6bb546",
+    "selection.npz": "e57d3af7b8fa498af7a03170230a7df7978bd397caa8a526513ef1fb98dca8ca",
+    "selection.lock.json": "bd15199f9397f9fa7658afc2cdcc9f33d0743c31611e202e47f2caf5c2a246d3",
+    "read_depth.py": "3bc6597555211acfbaadc0452312e8d034aa03a15e3743faec9f09ebc2bd3f3a",
+    "export_depth.py": "67539c90f1e1c3b38c8c59084e0ef0fcfc1eacf1883dec011d1eaa7f5306e5e4",
+    "publish_depth.py": "d4e513d5199c121e745fcb1aa7d43d9b2aedd273e4561454283a166fa3963da5",
+    "package_depth_inputs.py": "5eac59d0484e2349021181db61b3f067d52106782fed13a3fdcac28dbe240dd7"
+  },
+  "note": "Protocol/selection frozen before reads. Later changes only enforce metadata bindings, use exact archived n20 counts, atomic IO, and post-owner publication/packaging checks. Original revisions retained in amendment JSONs.",
+  "time": 1791940533.5561113
+}

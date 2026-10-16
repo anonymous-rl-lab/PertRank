@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETE_SEPARATE_CALL_CRC_SHA_VERIFIED",
+  "tool_exits": {
+    "D3": "exit0 chunk3ab256",
+    "D1": "exit0 chunk9349d8",
+    "D2": "exit0 chunkb89258",
+    "equal_source": "exit0 chunkd38707"
+  },
+  "all_prediction_lock_sha256": "341381a696b42d369a181ef36eda0b79372605dbd5c9236405a4923a03a4fe5f",
+  "files_sha256": {
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D3_Rest/reference_propagation_batch_separate.npz": "4bdf739ee434feea7bbc3402cae143a329df2d72e89966e736c3d45a7f27e145",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D3_Rest/reference_propagation_shared_labels.npz": "beb680b3ddca51a96c1c2e1c4dc91fc67ab5a834c2314101f515e45cb80a3ef1",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D3_Rest/scores.npz": "6f38fb740377761e10f23ff42d0e8971d850a061e9070a09ee9019bb27804d77",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D3_Rest/report.json": "c694115125ece18c2e0504d7c725da46da2d6e2773b3216b19ea48331b345775",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D3_Rest/candidate_changes.tsv.gz": "217968e264b110f122763f71ea2a99047bf192410af2436cee18324fb9c85799",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D1_Rest/reference_propagation_batch_separate.npz": "7a4031458f70eeb8d02196af45c8fe892c1745967f528c8d664a92a42ee73bd4",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D1_Rest/reference_propagation_shared_labels.npz": "c9fcc10045c93d99e0343a5aa07abacc7880322280377e24984e75e0026b11dd",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D1_Rest/scores.npz": "12860473a8bb1d192af8ca07b11df6ec560a300ba60137f8f8374d857271def2",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D1_Rest/report.json": "5745d6e6b80a3b912732c1f07b64b7d0c83b1c9ba4ae350b5c8d9fda8e5cc5b9",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D1_Rest/candidate_changes.tsv.gz": "f32af7e44d66239600e6407c2804676f9b4ae17be8bced57e3c57148da94a4e3",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D2_Rest/reference_propagation_batch_separate.npz": "df2892dc3fb0f2b335ace4987e4d621b3fb74d0b8e83fe6b6e329236a8f5be0f",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D2_Rest/reference_propagation_shared_labels.npz": "fb24e2a91b7a00559a2a50df5d59ad63b894cc389f60bf76c8005b2258787cd6",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D2_Rest/scores.npz": "8534d25940994141eeff8965d736262059de7d82a7ae19f19d3c52ca419e5111",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D2_Rest/report.json": "bc00576211a7482e71f82a5ac75d01a265694bc527606e006060fa33f25344c2",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D2_Rest/candidate_changes.tsv.gz": "5ee899fa8807074731e48df38e5c999b83fb6b36ba1afeb75b1dcfcc6c533b1d",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/equal_source/equal_source_reference_shared_labels.npz": "213d2fbdf5beda79840eb31d52748c02dab2d68cf02a510bf2ee4cb439f62074",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/equal_source/report.json": "6c4b7ca4bbaf0fe73f4307b59f49a7df126f913ef9d231d7f875196b217cd000",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/equal_source/equal_source_reference_batch_separate.npz": "64bdd6e1db4786e5ff7d8d9228698cd68664066b3c7e7e6f56559a0e9db6aa69"
+  },
+  "new_model_refits_after_scoring": 0
+}

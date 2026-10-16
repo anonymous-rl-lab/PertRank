@@ -1,0 +1,12 @@
+{
+  "status": "PASS_ARCHIVED_SCORE_STATISTICS_REPLAY",
+  "groups": 22,
+  "numeric_values_compared": 3668,
+  "absolute_tolerance": 1e-12,
+  "original_data_sha256": "6c9423d05330bd6c528438f05259575d4bfe0f8330ba7ce0db1ebe35c4b861b7",
+  "new_model_fits": 0,
+  "expression_matrices_read": false,
+  "new_bootstrap_draws": 0,
+  "numpy_version": "2.3.5",
+  "scope": "Recomputes fixed-task score summaries and intervals from archived per-query scores and saved bootstrap designs. Joint reference-bootstrap score draws retained. Does not refit methods from raw expression."
+}

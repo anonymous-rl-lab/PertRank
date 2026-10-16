@@ -1,0 +1,6 @@
+{
+  "created_utc": "2026-10-11T16:03:20.543834+00:00",
+  "classification": "numerical smoke candidate only; no outcome scoring",
+  "candidate": "mixSQP uniform eps=1e-4 (installed ashr default1e-6); installed mixsqp docs explicitly recommend modest eps increase for numerical nonconvergence",
+  "criterion": "original failure input mustconverge, finite valid mixture and objective/moment checks; successfulfitscompareold; all2805receivesamehandling ifselected"
+}

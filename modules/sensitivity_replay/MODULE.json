@@ -1,0 +1,40 @@
+{
+  "name": "sensitivity_replay",
+  "entrypoint": "reproduce.py --output-dir NEW_DIR",
+  "receipt": "REPLAY_REPORT.json",
+  "dependency": "numpy==2.3.5",
+  "tested_python": "3.12.14",
+  "raw_cell_reads": 0,
+  "cell_resampling_or_refits_run": 0,
+  "saved_draw_arrays": 4,
+  "draws_per_array": 200,
+  "mixscale_query_direction_values": 2400,
+  "mixscale_query_block_draws": 2000,
+  "scope": [
+    "SN8 saved-draw summary replay",
+    "SN2.5 completed Mixscale coefficient scoring",
+    "Supplementary Figure 1 rounded display check"
+  ],
+  "full_D3_counts_duplicated": false,
+  "archived_diagnosis_only": [
+    {
+      "path": "data/refit_D3_weight_diagnostics.json",
+      "source_sha256": "4c26936d20746f4c137048f06a369b78ad7d968bb0d14bddf8e43fe35119c48f",
+      "recomputed_by_launcher": false
+    },
+    {
+      "path": "data/refit_D3_weight_diagnostics.npz",
+      "source_sha256": "8b7b5c38f26513b9bd7f59af40dcc926066c0a0323f9b536f681f35fca7285a7",
+      "recomputed_by_launcher": false
+    }
+  ],
+  "distribution_version": "1.5.1",
+  "lossless_materialization": {
+    "array_archive": "array_payload.tar.xz",
+    "layout": "COMPACT_LAYOUT.json",
+    "restoration_receipt": "LOSSLESS_RESTORATION.json",
+    "unchanged_scientific_launcher": "replay_original.py",
+    "precision_changed": false,
+    "core_dependency": null
+  }
+}

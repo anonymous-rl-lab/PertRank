@@ -1,0 +1,35 @@
+{
+  "uploaded_report": {
+    "name": "PertRank_External_Benchmark_Evidence_20261014 (1).html",
+    "bytes": 1051852,
+    "sha256": "c3f767068f98b9b0e6f8be63d452b03c8bdf56bf0358a20b9c5c9371df562e6a"
+  },
+  "report_source_records_verified": 64,
+  "included_scope": [
+    "D3 original FR 21 configuration development grid",
+    "D3 rank 150/200/300 sensitivity",
+    "D3 one-input versus five-input reconciliation",
+    "D4 rank 100 original five inputs per state and equal state summary",
+    "D4 post hoc rank 300 five inputs per state and equal state summary",
+    "D4 default ASH pooled and independent-guide comparisons",
+    "D3 native FR depth A/B with n20/n50/n100",
+    "D3 default ASH depth n20/n50/n100",
+    "GPerturb full-input resource gate status and original source"
+  ],
+  "native_models_refit_during_packaging": false,
+  "new_expression_read": false,
+  "new_scientific_analysis": false,
+  "historical_status_notice": "Historical records contain paused or unstarted queues. The later author decision permanently terminates all additional experiments and abandons the D1/D2 Stim extension. No historical launcher in this directory is called by the reproduction entry point.",
+  "limitations": [
+    "These byte-original scripts document raw-input preparation and native fitting; raw cell counts and full model fits are not duplicated in this compact provenance directory.",
+    "Numerical sufficient data and fixed-result replay are provided separately by the compact benchmark module.",
+    "GPerturb has no performance or convergence result; resource failure is preserved as a status outcome.",
+    "D4 independent-guide rank100 FR completion is not established and is excluded from completed comparisons."
+  ],
+  "missing_requested_paths": [],
+  "excluded_other_experiments": [
+    "Later independent knockout RNA A19-R and interaction upgrade (already in total code v1.3.0)",
+    "Terminated D1/D2 Stim deployment",
+    "Uncompleted alternative-reference-scale analysis"
+  ]
+}

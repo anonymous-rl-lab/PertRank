@@ -1,0 +1,50 @@
+{
+  "status": "COMPLETE",
+  "label": "Post hoc descriptive contrast, excluded from original five-contrast family",
+  "interpretation": "No preregistered superiority, noninferiority or equivalence test is claimed.",
+  "source": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evaluation/equal_state/equal_state_report.json",
+  "source_sha256": "46c264be0db448946ce3150ae4821d29b4da293a0e892a13b7490dd2feba3efc",
+  "arrays_sha256": "29c665ff28b93b49848f6eb2f60613a97b7c2d6e48f8c6f4858455ca8e352974",
+  "results": {
+    "25": {
+      "pertrank_minus_fr_pertrank": {
+        "point": 0.00011085424222301299,
+        "input_rep_points": [
+          -0.0018378328955376277,
+          0.0035316316438796513,
+          0.0032656145921468593,
+          -0.0021713535242440796,
+          -0.0022337886051292943
+        ],
+        "task_stratified_query_95_interval": [
+          -0.004653549911195034,
+          0.007711375040847594
+        ],
+        "task_stratified_query_99_interval": [
+          -0.005821068349376631,
+          0.010213226365988416
+        ]
+      }
+    },
+    "10": {
+      "pertrank_minus_fr_pertrank": {
+        "point": 0.010989940876314774,
+        "input_rep_points": [
+          0.013271645479628835,
+          0.010364019836008986,
+          0.010564594682503758,
+          0.012486502140045319,
+          0.008262942243386695
+        ],
+        "task_stratified_query_95_interval": [
+          0.004519458122818417,
+          0.02086009420814359
+        ],
+        "task_stratified_query_99_interval": [
+          0.00249910157952311,
+          0.02374374525785401
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "original_zip_sha256": "d7c6df048e4d279e9ac9699c88604fd164970e3053c9379285f0bcf8b2076e37",
+  "original_release": "0.2.0rc1",
+  "scientific_source_unchanged": true,
+  "files": [
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/.github/workflows/tests.yml",
+      "sha256": "e7c3b8405bb01fc398911b31207a38d950f4ff261f49e10eab11adfcc400a0a9",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/.gitignore",
+      "sha256": "732ecd0838f4b537b15e7177b6a903cc2b7863636611fefbe647f46f377834c6",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/LICENSE",
+      "sha256": "dd9156e85390dc9e1eed246cc772bc610f098e9196c3cd44d09d3be83ce9bd05",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/MANIFEST.in",
+      "sha256": "ad1904a4a8609110337cfb0e4dbf0929a889a79937f581a591daf0e9665d0de0",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/README.md",
+      "sha256": "77ac030da21e55e9efaa5ed1eb07596ca8afef44d8964f801480d7384a35b471",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": false
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/READ_FIRST.zh.md",
+      "sha256": "8a8bf8c99a860de3aef4824e23612a88b91f1796d8cad0678e22bd8220afddd6",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": false
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/RELEASE.json",
+      "sha256": "7080a6536c32d20d9a6f9b882099c301a235826aa737c4bd681b58706c4ff92c",
+      "included_at_original_relative_path": false,
+      "included_bytes_identical": false
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/SHA256SUMS.txt",
+      "sha256": "6bbc4cadd334bb3227dc821b7a8ebb5d454e0c5fccdb3ce329110631687c5414",
+      "included_at_original_relative_path": false,
+      "included_bytes_identical": false
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/dist/pertrank-0.2.0rc1-py3-none-any.whl",
+      "sha256": "feb5913fd7c85a3e090831017a791728aa1a691ec961098970ec4a0a9a029ce0",
+      "included_at_original_relative_path": false,
+      "included_bytes_identical": false
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/dist/pertrank-0.2.0rc1.tar.gz",
+      "sha256": "f575cd4ad7573359534e7c18de7a2350d3c029a1a3be6197cd0c9a0c596345aa",
+      "included_at_original_relative_path": false,
+      "included_bytes_identical": false
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/docs/api.md",
+      "sha256": "88fedb4768eaece6574166681309bfc58c3ad7c29bf3f874e0044b6f4a769c53",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/docs/community_integration.md",
+      "sha256": "12649204d20d5893340af65363d225e0943127b905b8cc4bcec31e76d884ae1a",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/docs/input_contracts.md",
+      "sha256": "988264ff3785e055f5eb1481aa05ade735db6429f60968ea09515dfb11212295",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": false
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/docs/release_process.md",
+      "sha256": "076520c93d36d9e830e1306f62dc610a3209b5eea014ab7fa0344e9ae9844ad6",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": false
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/pyproject.toml",
+      "sha256": "c9eb55769c9beb3b436184e502821f90c2c225a3eb6d983ca56dfeb051cb25cd",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/scripts/README.md",
+      "sha256": "26b81d8aa950489e6fc82b6d580e43519095a8725bd4c3edf3ccb6ad0fdbc553",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/scripts/check_tutorials.py",
+      "sha256": "35ddb2cee30bd460263d30def304bd9a5c4e2ba83b0c38e4e8b014238247c93c",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/scripts/curate_replogle.py",
+      "sha256": "1e7ca479cefb7dc7d203e21992d40ca8e4f1c4d6044a2ede63535578904e8441",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/scripts/curate_tcell.py",
+      "sha256": "a545b6f7960c1187a5f0bfb7c9ec19b1dcbdd803a2531edc4bb167335842b11d",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/src/pertrank/__init__.py",
+      "sha256": "ef7fc0e8cf42e8f0e09fd95d6747631aea44a2743b00952f1b8650beff0fb083",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/src/pertrank/api.py",
+      "sha256": "af00951f5ddd8b3ae4aadbc4fb84be453642b39eb093ca662a738e175b3e0492",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/src/pertrank/core.py",
+      "sha256": "721ce8dace4f7fcf63aceb1b7ec040c67cfb52b66601471dc414c41a6f2b0544",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/src/pertrank/data/replogle_k562.npz",
+      "sha256": "0087e4d915105caac801069499428d58032ec64ab89e224230216404fda51dff",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/src/pertrank/data/replogle_k562.provenance.json",
+      "sha256": "7b52486b05225941d08b8a3f8d7132c9882c754bae6932214c0ec72f203b040c",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/src/pertrank/data/tcell_d3_rest.npz",
+      "sha256": "6e80c7819e659fe3b901ba2a6e5e6030ccd25a3cd4b65443afbb8f8c4edc7ca8",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/src/pertrank/data/tcell_d3_rest.provenance.json",
+      "sha256": "dac812728e90eceb3e54ca295f9a7c0ee29b1cfcb74ce70078a65eabea598a9e",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/src/pertrank/datasets.py",
+      "sha256": "f866a38be73986e698e5d11c42c828e84670f211bdbd69289cd8942417c1b751",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/src/pertrank/py.typed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/tests/REFERENCE_PROVENANCE.json",
+      "sha256": "348110e5a48b6c0223305d3f81103e543f12ea45415dc41d97c18d3321c94e9e",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/tests/conftest.py",
+      "sha256": "e67c94f94f3159c53a066ea0df1bcc10f64562c397551a922ecae5e62a0fdaed",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/tests/reference_core_v21_1.py",
+      "sha256": "721ce8dace4f7fcf63aceb1b7ec040c67cfb52b66601471dc414c41a6f2b0544",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/tests/test_anndata_api.py",
+      "sha256": "3bf06fc513372aac8311d52cad96a9867e7d5880648c27315330b55defee2c21",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/tests/test_core_contract.py",
+      "sha256": "7c464888d922f1d7a9f83d1d8707a9ca52ab41fe2b2ac6afdd525a0c627c15ae",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/tests/test_packaged_data.py",
+      "sha256": "7c915c4b0d493706e3116d962eb4125fd0286c821a66b0595045bbf0e5e1fa45",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/tutorials/00_anndata_quickstart.py",
+      "sha256": "13b2ea4e65329395e9707404b4b1f63db04efdbb4697694f691bb239e67cde19",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/tutorials/01_replogle.html",
+      "sha256": "de03a9eac4878c15b51303e231f265f81fff62a6e3a992a22074b910a7e67ef2",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/tutorials/01_replogle.ipynb",
+      "sha256": "6e7b2d5681cf0e085ef04d6fcda618e7e773a4f63223ceb65bd0e63d3bebf170",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/tutorials/02_tcell.html",
+      "sha256": "d432b3eb17de129279de4b3c81615016b226c0ba7b24dc47a9042c9c3af087b7",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/tutorials/02_tcell.ipynb",
+      "sha256": "0e9758c4d30cee85cadd2c93e544ccfcc9815f81c2eb1698852ac7bd7bfc593b",
+      "included_at_original_relative_path": true,
+      "included_bytes_identical": true
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/validation/installed_tutorials.log",
+      "sha256": "469b00b679a1f8862c512454069bda85509001e93bd3f7a05a1ca6216baf25d5",
+      "included_at_original_relative_path": false,
+      "included_bytes_identical": false
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/validation/notebooks.json",
+      "sha256": "8c1687d7bc430fc43326639f222cc3dd148ae41a7e94a831655170bf8b078b16",
+      "included_at_original_relative_path": false,
+      "included_bytes_identical": false
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/validation/requirements-tested.txt",
+      "sha256": "cf9a97b58bde8601adb62a2e0251bb0be8d05c7ee4c49df47408115217edb47b",
+      "included_at_original_relative_path": false,
+      "included_bytes_identical": false
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/validation/software_tests_final.json",
+      "sha256": "cd0172312bd862e363bbbc3932e215753542d939d1d0a2e05b912f107b0ec316",
+      "included_at_original_relative_path": false,
+      "included_bytes_identical": false
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/validation/wheel_smoke.json",
+      "sha256": "2cb5bd20e9280cb34f0e018618bfda41c7614cbbf43ad1a3530a5d38f241c66e",
+      "included_at_original_relative_path": false,
+      "included_bytes_identical": false
+    },
+    {
+      "original_member": "PertRank_AnnData_v0.2.0rc1/validation/wheel_tests.log",
+      "sha256": "a4b594fcd7798ce04feeda85092f41196f7ad3974a74ca8fba0aaf372e1f1683",
+      "included_at_original_relative_path": false,
+      "included_bytes_identical": false
+    }
+  ],
+  "documentation_edits": [
+    {
+      "path": "software/README.md",
+      "before": "Alternatively, install the wheel provided with the release:\n\n```bash\npython -m pip install /path/to/pertrank-0.2.0rc1-py3-none-any.whl\n```",
+      "after": "This integrated source tree omits duplicate prebuilt distributions. To create a wheel locally:\n\n```bash\npython -m pip wheel --no-deps . --wheel-dir dist\n```",
+      "reason": "Source-only integration; omitted duplicate wheel/log references corrected."
+    },
+    {
+      "path": "software/READ_FIRST.zh.md",
+      "before": "\u4e5f\u53ef\u5b89\u88c5 `dist/` \u5185\u7684 wheel\uff1a\n\n```bash\npython -m pip install dist/pertrank-0.2.0rc1-py3-none-any.whl\n```",
+      "after": "\u672c\u6574\u5408\u5305\u4e0d\u91cd\u590d\u643a\u5e26\u9884\u6784\u5efa wheel\uff1b\u5982\u9700 wheel\uff0c\u53ef\u4ece\u5f53\u524d\u6e90\u4ee3\u7801\u6784\u5efa\uff1a\n\n```bash\npython -m pip wheel --no-deps . --wheel-dir dist\n```",
+      "reason": "Source-only integration; omitted duplicate wheel/log references corrected."
+    },
+    {
+      "path": "software/READ_FIRST.zh.md",
+      "before": "validation/requirements-tested.txt",
+      "after": "requirements-tested.txt",
+      "reason": "Source-only integration; omitted duplicate wheel/log references corrected."
+    },
+    {
+      "path": "software/docs/input_contracts.md",
+      "before": "validation/requirements-tested.txt",
+      "after": "requirements-tested.txt",
+      "reason": "Source-only integration; omitted duplicate wheel/log references corrected."
+    },
+    {
+      "path": "software/docs/release_process.md",
+      "before": "Install from the supplied wheel or source tree.",
+      "after": "Install from this source tree; duplicate prebuilt distributions are omitted from the integrated repository.",
+      "reason": "Source-only integration; omitted duplicate wheel/log references corrected."
+    },
+    {
+      "path": "software/docs/release_process.md",
+      "before": "Compare the shipped verification report and fixture checksums with the version being evaluated.",
+      "after": "Compare the integration verification report in `../validation/` and fixture checksums with the version being evaluated. The original separate-release metadata and manifest are retained in `provenance/`; that original manifest also lists omitted distribution files.",
+      "reason": "Source-only integration; omitted duplicate wheel/log references corrected."
+    }
+  ],
+  "historical_metadata_moved": {
+    "RELEASE.json": "software/provenance/ORIGINAL_RELEASE.json",
+    "SHA256SUMS.txt": "software/provenance/ORIGINAL_SHA256SUMS.txt"
+  },
+  "no_new_license_or_public_release": true
+}

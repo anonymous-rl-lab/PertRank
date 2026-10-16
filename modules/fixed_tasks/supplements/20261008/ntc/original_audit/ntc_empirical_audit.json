@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "raw_rows_reconstructed": 23840,
+  "ntc_guides": 468,
+  "target_pairs": 64,
+  "genes": 13390,
+  "bootstrap_draws": 2000,
+  "permutation_draws": 2000,
+  "errors": {
+    "ntc_sparse_half_reconstruction": 0.0,
+    "target_sparse_half_reconstruction": 0.0,
+    "NTC_point": 5.594483210025203e-17,
+    "NTC_bootstrap_all_draws": 4.3151246464923076e-16,
+    "NTC_permutation_all_draws": 9.325493936090945e-17,
+    "NTC_bootstrap_interval": 6.982261990806649e-17,
+    "NTC_permutation_interval": 3.461315435659973e-17,
+    "NTC_p_greater": 0.0,
+    "NTC_p_two_sided": 0.0,
+    "target_pair_energies": 1.734723475976807e-18,
+    "target_bootstrap_all_draws": 8.673617379884035e-19,
+    "target_point": 0.0,
+    "target_interval": 0.0
+  },
+  "method": "independent sparse raw-count normalization and uncentered Gram resampling",
+  "result_sha256": "7e66be1e23f5e5a26a2e7ec30c0e855ee033e8f67f727fa3ecf64977186f308d",
+  "half_means_sha256": "54a0ac0b254cacd6a164a963661e5771741320e66b7d884506a914343b1da675",
+  "network_reads": 0,
+  "model_fits": 0
+}

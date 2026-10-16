@@ -1,0 +1,126 @@
+{
+  "version": "1.5.1",
+  "records": {
+    "analysis_v20/robustness/TRADE_SENSITIVITY_REPLAY_INPUTS.npz": {
+      "kind": "trade",
+      "arrays": {
+        "effects": "3919d07a1bd87e4ee27b2f4d6549532b0bafcde5d111d998a9be7ed2a0a0685c",
+        "reference": "0c2c4dd422c8955f1ac9c78f5ca716247fe9f4ce5082d069449187805046511d",
+        "target_ids": "82458163a9d6112e6129d3c9f4ec28e4ce59a75ced817e83badc9e115e202ecb",
+        "query_gene_ids": "c7cd825fb65f8c147048076a1a9dd1f408ea4e14806aaa320a4760aef309e413",
+        "responsive_positions": "4223aff802f20e252d1111926314a31116831d2be2b89337acd8b14345edfbb4",
+        "tercile_positions": "bcd82e423be717e5991c5f23910d70d759642586ec3451c4da54c68f3f121d5d",
+        "blocks_responsive": "2f6b942dd7450a6cc7c725f1347abf1fd1d52626d21196c3923a961667417164",
+        "blocks_terciles": "fe78c7d33738b99f7be97261c8ca02cdfd069e16dcb69dfd76b8a5d5faf2d587",
+        "weight_raw": "df74895ab98b89e70e32580d1e5a79e834a517168853794f91094beff5758137",
+        "weight_Euclidean": "28bd7523e261878f414cbe2d7d1685be9af98524794bb66a431f424c75d6649b",
+        "weight_PR_M": "3a418ab9155c380bcf66ee29d3b816291b86a09c2c72bb278c84be514f08f735",
+        "weight_PertRank": "70a32fb90a65e5666da4afd60e31603d18e9b7adde07188217d7464ecc2cadc6",
+        "weight_TRADE_scalar": "6f54f6526f0a650fc85a02184b6ee86a4d575eb17759b5160dc4c580ba21d9ce"
+      },
+      "array_orders": {
+        "effects": "C",
+        "reference": "C",
+        "target_ids": "C",
+        "query_gene_ids": "C",
+        "responsive_positions": "C",
+        "tercile_positions": "C",
+        "blocks_responsive": "C",
+        "blocks_terciles": "C",
+        "weight_raw": "C",
+        "weight_Euclidean": "C",
+        "weight_PR_M": "C",
+        "weight_PertRank": "C",
+        "weight_TRADE_scalar": "C"
+      }
+    },
+    "analysis_v20/biology/compact_inputs.npz": {
+      "kind": "biology",
+      "arrays": {
+        "target_ids": "82458163a9d6112e6129d3c9f4ec28e4ce59a75ced817e83badc9e115e202ecb",
+        "target_names": "e881010d80afc8f139b06d30636e2eb25076ae68016d6806b9046dd18eeae34b",
+        "query_gene_ids": "c7cd825fb65f8c147048076a1a9dd1f408ea4e14806aaa320a4760aef309e413",
+        "rank_codes": "761d322ed7c9ae209aa1304382d774f2fed2c86b3f6a0f4fa295361c8e872cee",
+        "reference_rank_codes": "1c87883643caf77413e4ca540659ba65b769a215187f7d24bd4b6ad7d8276bc3",
+        "registered_scores": "aaaefa7b44f2001a9210a11e96c6158c5c8e403e6125b3fdcafd49379d60fc18",
+        "responsive_positions": "4223aff802f20e252d1111926314a31116831d2be2b89337acd8b14345edfbb4",
+        "tercile_positions": "bcd82e423be717e5991c5f23910d70d759642586ec3451c4da54c68f3f121d5d",
+        "blocks_responsive": "2f6b942dd7450a6cc7c725f1347abf1fd1d52626d21196c3923a961667417164",
+        "blocks_terciles": "fe78c7d33738b99f7be97261c8ca02cdfd069e16dcb69dfd76b8a5d5faf2d587",
+        "control_own_half_means": "7756ca76748fdc21d8e9f18c0e10a183c0663253dec8cddcf961fbe704d87228",
+        "planning_own_half_means": "e4b575b7f2c7fd50ffa2e783d755c8a4fa5a29fa4ec1387593916dfb082db750",
+        "available": "979c7c72ca18026d970f0c7ea9085093fd6bc21d382bde5d92ad0b264b3ed163",
+        "stratum": "0ddb775579f49e4e67c82635f2216c18e1984e8109256b50fdbc828c669ade87",
+        "weights": "9e03d3de77301168e4bdbc39ea83a3329fa8e74cbd6938f75df8f17236d9cafa",
+        "ctla4_effects": "412b9cd23e59e805751002e0a9bf105529e2759b2a0d56bae47e9bce5620f6be",
+        "ctla4_reference_effects": "562a12777a0f9f10a83d90fe1a38e9061ba6d366c435c39a0681f0691e81a2cc",
+        "alignment_A": "37d28f3d77a0ae1756df488136354e3da0b9e97c2afed1234ae20cd9ac9ecfde",
+        "alignment_R": "e9c5d958cac02b77aad3b5e63684b2a9920ef2a399eba2f73434525408c0bcff",
+        "alignment_d_I": "987fb2cd0e8f71b77c6ca19746ae5000758be6b259e7bbbb3f7ee3bb196707dd"
+      },
+      "array_orders": {
+        "target_ids": "C",
+        "target_names": "C",
+        "query_gene_ids": "C",
+        "rank_codes": "C",
+        "reference_rank_codes": "C",
+        "registered_scores": "C",
+        "responsive_positions": "C",
+        "tercile_positions": "C",
+        "blocks_responsive": "C",
+        "blocks_terciles": "C",
+        "control_own_half_means": "C",
+        "planning_own_half_means": "C",
+        "available": "C",
+        "stratum": "C",
+        "weights": "C",
+        "ctla4_effects": "C",
+        "ctla4_reference_effects": "C",
+        "alignment_A": "C",
+        "alignment_R": "C",
+        "alignment_d_I": "C"
+      }
+    },
+    "analysis_v20/transfer/transfer_inputs.npz": {
+      "kind": "transfer",
+      "arrays": {
+        "effects": "36aa928b22822809d28ba4dba7a1e22f8da4a83c17ef4fc1021cc3440da7639a",
+        "truth": "5b11faf49d4f3d702324c1663a3ffae0deab4423ebcdac01e534e18c84edb5ac",
+        "weights": "3ec0cea73c2344a7e68fd3019183cc3977bb2917e3c10ce7abe340633da48e4b",
+        "target_ids": "82458163a9d6112e6129d3c9f4ec28e4ce59a75ced817e83badc9e115e202ecb",
+        "query_ids": "4d81f16914ee6f2c2cfa0c76af387dff4c8149f99b8f7336f9e438e33fb89618",
+        "source_blocks": "b7a6afb9b00ff4a00cdf5402a85ad89deaab6e01801a1754c5e17ad3b032f9a9"
+      },
+      "array_orders": {
+        "effects": "C",
+        "truth": "F",
+        "weights": "C",
+        "target_ids": "C",
+        "query_ids": "C",
+        "source_blocks": "C"
+      }
+    },
+    "analysis_v20/s3/inputs/main_support.npz": {
+      "kind": "core",
+      "path": "supplements/20261011_stim/data/main_support.npz",
+      "sha256": "a65ca128ac5c75bb489f3ee5253479dbc51c538ac552c86fbc169981026e95d5"
+    },
+    "analysis_v20/s3/inputs/main_query_context.npz": {
+      "kind": "core",
+      "path": "supplements/20261011_stim/data/main_query_context.npz",
+      "sha256": "a30eb6765d97dd1244271e4fa8c87f761100db521f045fba753aa80ea407fc46"
+    },
+    "analysis_v20/s3/inputs/alignment_pretruth.npz": {
+      "kind": "core",
+      "path": "supplements/20261011_stim/data/alignment_pretruth.npz",
+      "sha256": "cf41c2eb6a33f0c0db15d6ffcf15e01b068054f92052b4d3ddd54c72a55b7814"
+    },
+    "analysis_v20/s3/inputs/original_registered_scores.npz": {
+      "kind": "core",
+      "path": "supplements/20261011_stim/expected/registered_scores.npz",
+      "sha256": "acf866f94c8be3e99cb3e5540a67caca9798eb44b7037a1530c28ec4107bfcbe"
+    }
+  },
+  "scientific_scope_unchanged": true,
+  "float_precision_changed": false
+}

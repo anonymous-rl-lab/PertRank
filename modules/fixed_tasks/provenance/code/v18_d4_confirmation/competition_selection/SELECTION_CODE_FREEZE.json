@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-07T13:36:13Z",
+  "identity": "competition selector frozen before corrected D1 scores; no D4 access",
+  "files": {
+    "v18_d4_confirmation/competition_selection/select_competitor.py": "05cfa9e9056a8eb181c241cd924f2bea5b7b2341ee7202c14071fb26e6249f5b",
+    "v18_d4_confirmation/competition_selection/SELECTION_RULE.md": "8db7a0f92328e015be1f81f51f2ed8d0596439b1d04fbbc165b1e25d259ded2f",
+    "v18_d4_confirmation/competition_selection/README.md": "72f211fafdb8ab7035d56a4e5f713a0a04c0ded5e8d59df190173a738d4eb98b"
+  }
+}

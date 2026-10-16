@@ -1,0 +1,4 @@
+setting,gene-set change: Euclidean (non-query) - Euclidean,metric change: PertRank (non-query) - Euclidean (non-query),reported sensitivity: PertRank (non-query) - Euclidean
+"Replogle, 20","-0.0122 [-0.0181, -0.0072]","+0.0103 [+0.0048, +0.0167]","-0.0019 [-0.0074, +0.0042]"
+"Replogle, 50","-0.0037 [-0.0082, -0.0000]","+0.0019 [-0.0009, +0.0053]","-0.0017 [-0.0059, +0.0022]"
+"T cell D3 responsive, 20","-0.0226 [-0.0265, -0.0192]","+0.0460 [+0.0324, +0.0595]","+0.0234 [+0.0120, +0.0358]"

@@ -1,0 +1,9 @@
+{
+  "status": "ROOT_REQUESTED_CONTRAST_ADDED_BEFORE_ANY_NEW_SCORE",
+  "created_utc": "2026-10-14T04:17:18.515636+00:00",
+  "added_contrast": "FR_minus_Euclidean",
+  "rationale": "Three-layer external benchmark report requested by root; no new results observed or method selected",
+  "all_other_settings_unchanged": true,
+  "score_native_sha256": "55dfc23c9e6e22831c1d13ed20bdb40890030114df4fc6dec09d86ec7d120709",
+  "native_fits_refit": false
+}

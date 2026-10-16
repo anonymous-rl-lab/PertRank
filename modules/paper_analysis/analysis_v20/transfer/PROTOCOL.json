@@ -1,0 +1,22 @@
+{
+  "analysis": "D3 Rest responsive panel transferred to D4 Stim8hr",
+  "version": "v20",
+  "status": "post hoc application analysis; panel rule frozen before computation",
+  "frozen_utc": "2026-10-11T15:54:38.263290+00:00",
+  "source": "D3 current responsive 300-query panel from core/data/D3/ranking.npz",
+  "source_sha256": "6db7519ee742ea55080a7532be4530902e44ff0edc8e575266dd53808b3a4557",
+  "source_panel_ids_sha256": "ffad4e693b84423397c74129e3f59b8891e518158f48b55203ad105ff0469317",
+  "eligibility": "Keep exact source Ensembl IDs found in frozen Stim weight gene axis; do not replenish missing genes; exclude queried target itself per query.",
+  "target": "All 561 frozen D4 Stim candidates, five existing 20-cell groups, same 100-cell independent reference and controls.",
+  "normalization": "Use existing original-coordinate full-axis log effects, original frozen raw/Euclidean/PertRank/PR_M scalar weights and evaluation control mean.",
+  "endpoint": "P@25 tie-expected overlap; average five groups and up/down then query mean.",
+  "comparison_order": [
+    "PertRank - Euclidean",
+    "PertRank - raw",
+    "PertRank - PR_M"
+  ],
+  "source_block_analysis": "Paired source-planning block bootstrap, 10,000 draws, seed 20261012; 30 source blocks retained after coverage filter. Ratios of resampled block sums and sizes. Conditional descriptive percentile interval; no new confirmation threshold.",
+  "robustness": "Leave one source block out for PertRank-Euclidean; list all results.",
+  "verification": "Exactly reconstruct original registered Stim raw/Euclidean/PertRank/PR_M scores before calculating transferred-panel outcomes.",
+  "resources": "No target-task planning expression used to choose queries; target input/evaluation controls and target reference roles unchanged. All source and target outcomes already open; analysis remains post hoc."
+}

@@ -1,0 +1,36 @@
+{
+  "analysis_label": "posthoc expanded-rank transfer",
+  "audit_result_sha256": "f125309d5cc1a5c9dcf36b973410b3892f3e24c173c5e004fb5363c152f505f4",
+  "created_utc": "2026-10-14T02:14:41.541255+00:00",
+  "execution_sha256": "f45145a0044751d41e83c66ffcac187cd04b30f1b7cb3dab8356c6d4d3667fde",
+  "expanded_selection_sha256": "9f6180331c52b334782f6a5c4951a40e80164a210118b6d7b5a0475de0ed062a",
+  "independent_audit_pass": true,
+  "mode": "task",
+  "npz_crc": "PASS",
+  "npz_files": {
+    "audit/task_K10.npz": {
+      "npz_crc_pass": true,
+      "sha256": "5544cacf039913afcbd6129537a10cf8b80268f1aabd69876c00e319d79bce60"
+    },
+    "audit/task_K25.npz": {
+      "npz_crc_pass": true,
+      "sha256": "405785a8d477e47bb33ecfc2fd32a884088da82175635d907dc5eac74ade05b5"
+    },
+    "compact.npz": {
+      "npz_crc_pass": true,
+      "sha256": "d872d7113c7313fa99f7788dbba9434aafd70ecbba4bb1aca813c6ed1878a0d7"
+    },
+    "evaluation_arrays.npz": {
+      "npz_crc_pass": true,
+      "sha256": "687a31b62a069118c5e73c991d9ca87ab7e716f9a84322b3bec3d88924226b69"
+    }
+  },
+  "original_primary_unchanged": true,
+  "owner_exit_code": 0,
+  "owner_session_id": "19770",
+  "primary_continuation_gate_computed": false,
+  "report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/evaluation_report.json",
+  "report_sha256": "af7a173b8a0e4b4bd058d1ff25b614b6a29b27f3362661debb7ec1c5984b129d",
+  "separate_tool_call_after_owner_exit_zero": true,
+  "status": "OWNER_EXECUTION_ENDED_INTEGRITY_VERIFIED"
+}

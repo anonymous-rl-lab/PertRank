@@ -1,0 +1,204 @@
+{
+  "grid_source": "fr_benchmark/fr_outputs/D3_Rest_audit_v2/GRID_EXECUTION.json",
+  "n_configurations": 21,
+  "all_native_outputs_available": true,
+  "original_adapter_rejections_preserved": 2,
+  "extra_parameter_configurations": 0,
+  "sum_effective_fit_seconds": 1292.683608531952,
+  "max_effective_fit_seconds": 114.95349884033203,
+  "max_rss_kib": 6250996,
+  "original_grid_wall_seconds": 1537.4742178916931,
+  "audit_correction_wall_seconds": 145.26769971847534,
+  "fits": [
+    {
+      "id": "default",
+      "rank": 20,
+      "alpha": 0.0001,
+      "fit_seconds": 73.66014194488525,
+      "max_rss_kib": 6212220,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "rank10",
+      "rank": 10,
+      "alpha": 0.0001,
+      "fit_seconds": 46.37107276916504,
+      "max_rss_kib": 6247416,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "rank50",
+      "rank": 50,
+      "alpha": 0.0001,
+      "fit_seconds": 67.8380377292633,
+      "max_rss_kib": 6248544,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "lasso_low",
+      "rank": 20,
+      "alpha": 1e-05,
+      "fit_seconds": 52.34969615936279,
+      "max_rss_kib": 6243600,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "lasso_high",
+      "rank": 20,
+      "alpha": 0.001,
+      "fit_seconds": 45.15338444709778,
+      "max_rss_kib": 6249724,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "rank50_lasso_high",
+      "rank": 50,
+      "alpha": 0.001,
+      "fit_seconds": 60.020501136779785,
+      "max_rss_kib": 6247612,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "rank5_lasso_low",
+      "rank": 5,
+      "alpha": 1e-05,
+      "fit_seconds": 46.346277713775635,
+      "max_rss_kib": 6246376,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "rank5_default_lasso",
+      "rank": 5,
+      "alpha": 0.0001,
+      "fit_seconds": 40.99232482910156,
+      "max_rss_kib": 6250444,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "rank5_lasso_high",
+      "rank": 5,
+      "alpha": 0.001,
+      "fit_seconds": 41.14458465576172,
+      "max_rss_kib": 6250504,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "rank10_lasso_low",
+      "rank": 10,
+      "alpha": 1e-05,
+      "fit_seconds": 43.86049032211304,
+      "max_rss_kib": 6242256,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "rank10_lasso_high",
+      "rank": 10,
+      "alpha": 0.001,
+      "fit_seconds": 49.40977668762207,
+      "max_rss_kib": 6225844,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "rank40_lasso_low",
+      "rank": 40,
+      "alpha": 1e-05,
+      "fit_seconds": 55.49777317047119,
+      "max_rss_kib": 6250996,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "rank40_default_lasso",
+      "rank": 40,
+      "alpha": 0.0001,
+      "fit_seconds": 71.80539560317993,
+      "max_rss_kib": 6245076,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "rank40_lasso_high",
+      "rank": 40,
+      "alpha": 0.001,
+      "fit_seconds": 64.96677160263062,
+      "max_rss_kib": 6228552,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "rank50_lasso_low",
+      "rank": 50,
+      "alpha": 1e-05,
+      "fit_seconds": 57.119701623916626,
+      "max_rss_kib": 6245348,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "rank75_lasso_low",
+      "rank": 75,
+      "alpha": 1e-05,
+      "fit_seconds": 82.93223786354065,
+      "max_rss_kib": 6234608,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "rank75_default_lasso",
+      "rank": 75,
+      "alpha": 0.0001,
+      "fit_seconds": 65.97049069404602,
+      "max_rss_kib": 6245448,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "rank75_lasso_high",
+      "rank": 75,
+      "alpha": 0.001,
+      "fit_seconds": 57.762598276138306,
+      "max_rss_kib": 6221008,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "rank100_lasso_low",
+      "rank": 100,
+      "alpha": 1e-05,
+      "fit_seconds": 83.81190633773804,
+      "max_rss_kib": 6245832,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "rank100_default_lasso",
+      "rank": 100,
+      "alpha": 0.0001,
+      "fit_seconds": 114.95349884033203,
+      "max_rss_kib": 6250504,
+      "warnings": [],
+      "uniform_audit_pass": true
+    },
+    {
+      "id": "rank100_lasso_high",
+      "rank": 100,
+      "alpha": 0.001,
+      "fit_seconds": 70.71694612503052,
+      "max_rss_kib": 6238428,
+      "warnings": [],
+      "uniform_audit_pass": true
+    }
+  ],
+  "no_performance_metrics_read": true
+}

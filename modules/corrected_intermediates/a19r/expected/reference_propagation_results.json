@@ -1,0 +1,192 @@
+{
+  "identity": "A19-R external-reference uncertainty sensitivity, not population confidence intervals",
+  "shared_reference_per_draw": true,
+  "source_cells_queries_candidates_controls_fixed": true,
+  "draws": 500,
+  "schemes": {
+    "shared_labels": {
+      "D3_Rest": {
+        "W1_minus_raw": {
+          "median": 0.1209760261872963,
+          "empirical_2p5_97p5": [
+            0.07938386365081734,
+            0.15627769062811328
+          ],
+          "fraction_positive": 1.0
+        },
+        "W1_minus_w0y": {
+          "median": 0.03754266211604085,
+          "empirical_2p5_97p5": [
+            0.010238907849829282,
+            0.061433447098976135
+          ],
+          "fraction_positive": 0.998
+        }
+      },
+      "D1_Rest": {
+        "W1_minus_raw": {
+          "median": 0.30529274899608194,
+          "empirical_2p5_97p5": [
+            0.21998500043027422,
+            0.3569952059969814
+          ],
+          "fraction_positive": 1.0
+        },
+        "W1_minus_w0y": {
+          "median": 0.08477508650519017,
+          "empirical_2p5_97p5": [
+            0.043252595155709006,
+            0.10990484429065736
+          ],
+          "fraction_positive": 1.0
+        }
+      },
+      "D2_Rest": {
+        "W1_minus_raw": {
+          "median": 0.3103928363280717,
+          "empirical_2p5_97p5": [
+            0.24815592645658935,
+            0.35422117254395147
+          ],
+          "fraction_positive": 1.0
+        },
+        "W1_minus_w0y": {
+          "median": 0.05017301038062261,
+          "empirical_2p5_97p5": [
+            0.012110726643598468,
+            0.08741349480968848
+          ],
+          "fraction_positive": 0.996
+        }
+      },
+      "equal_source_mean": {
+        "W1_minus_raw": {
+          "median": 0.24357390359768294,
+          "empirical_2p5_97p5": [
+            0.19820415736243996,
+            0.2732859460884188
+          ],
+          "fraction_positive": 1.0
+        },
+        "W1_minus_w0y": {
+          "median": 0.05685329743220269,
+          "empirical_2p5_97p5": [
+            0.040250599336301485,
+            0.07070672476981164
+          ],
+          "fraction_positive": 1.0
+        }
+      }
+    },
+    "batch_separate": {
+      "D3_Rest": {
+        "W1_minus_raw": {
+          "median": 0.11948748931238873,
+          "empirical_2p5_97p5": [
+            0.08025530140829155,
+            0.15160058013411623
+          ],
+          "fraction_positive": 1.0
+        },
+        "W1_minus_w0y": {
+          "median": 0.03668941979522189,
+          "empirical_2p5_97p5": [
+            0.008532423208191364,
+            0.0631399317406145
+          ],
+          "fraction_positive": 1.0
+        }
+      },
+      "D1_Rest": {
+        "W1_minus_raw": {
+          "median": 0.30669378174386375,
+          "empirical_2p5_97p5": [
+            0.22298606510953972,
+            0.3550409494590884
+          ],
+          "fraction_positive": 1.0
+        },
+        "W1_minus_w0y": {
+          "median": 0.08304498269896188,
+          "empirical_2p5_97p5": [
+            0.05017301038062261,
+            0.11418685121107242
+          ],
+          "fraction_positive": 1.0
+        }
+      },
+      "D2_Rest": {
+        "W1_minus_raw": {
+          "median": 0.3079919788234078,
+          "empirical_2p5_97p5": [
+            0.24467709501005827,
+            0.3568562729299165
+          ],
+          "fraction_positive": 1.0
+        },
+        "W1_minus_w0y": {
+          "median": 0.04844290657439432,
+          "empirical_2p5_97p5": [
+            0.00947231833910033,
+            0.08477508650519017
+          ],
+          "fraction_positive": 0.996
+        }
+      },
+      "equal_source_mean": {
+        "W1_minus_raw": {
+          "median": 0.24383182366300393,
+          "empirical_2p5_97p5": [
+            0.1981254097131501,
+            0.2741567854008821
+          ],
+          "fraction_positive": 1.0
+        },
+        "W1_minus_w0y": {
+          "median": 0.055817990717668575,
+          "empirical_2p5_97p5": [
+            0.038606705480827265,
+            0.07072995028165842
+          ],
+          "fraction_positive": 1.0
+        }
+      }
+    }
+  },
+  "author_bad_controls_excluded_point_sensitivity": {
+    "D3_Rest": {
+      "means": {
+        "raw": 2.4555514630544306,
+        "w0y": 2.539249146757679,
+        "W1": 2.5597269624573378,
+        "deep": 2.645491577672575
+      },
+      "W1_minus_raw": 0.10417549940290716,
+      "W1_minus_w0y": 0.020477815699658564
+    },
+    "D1_Rest": {
+      "means": {
+        "raw": 2.2081958289388632,
+        "w0y": 2.4515570934256057,
+        "W1": 2.550173010380623,
+        "deep": 2.653530693323081
+      },
+      "W1_minus_raw": 0.3419771814417598,
+      "W1_minus_w0y": 0.09861591695501737
+    },
+    "D2_Rest": {
+      "means": {
+        "raw": 2.363457342712419,
+        "w0y": 2.643598615916955,
+        "W1": 2.688581314878893,
+        "deep": 2.5736226379096534
+      },
+      "W1_minus_raw": 0.32512397216647404,
+      "W1_minus_w0y": 0.04498269896193774
+    }
+  },
+  "reference_float64_files_sha256": {
+    "shared_labels": "14f3e447d5e78422186b58743bf00abf7d499f36bc34702912b01b5c8fd7655a",
+    "batch_separate": "ac7392406693dd3c7803c6b54ecad73ff97ba1269f42d311e6ad6bf5c3c82e2e"
+  }
+}

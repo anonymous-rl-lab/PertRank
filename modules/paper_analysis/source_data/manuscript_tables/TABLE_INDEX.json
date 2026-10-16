@@ -1,0 +1,887 @@
+[
+  {
+    "file": "PertRank_Main_v25.2_table_001.csv",
+    "manuscript": "PertRank_Main_v25.2.md",
+    "section": "Native-method advantages extend to independent knockout RNA support",
+    "caption": "**Table 1. Native-method comparison against one independent knockout RNA reference.** P@10 uses all eligible candidates and the original fixed shallow input in each source. The final column weights the three input sources equally.",
+    "source_line": 66,
+    "data_rows": 7,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Main_v25.2_table_002.csv",
+    "manuscript": "PertRank_Main_v25.2.md",
+    "section": "Measured depth connects reliability gains to ranking-input efficiency",
+    "caption": "**Table 2. PertRank gains in the two D4 responsive tasks.** Differences in precision are expressed as additional deep-reference members per 25 positions. The relative metric gain divides the PertRank–Euclidean contrast by Euclidean precision.",
+    "source_line": 162,
+    "data_rows": 5,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Main_v25.2_table_003.csv",
+    "manuscript": "PertRank_Main_v25.2.md",
+    "section": "Measured depth connects reliability gains to ranking-input efficiency",
+    "caption": "**Table 3. Measured ranking-input equivalents for 20-cell PertRank.** Each value is the unweighted input depth matching average PertRank shortlist precision within that task. Brackets are conditional 95% inverse intervals.",
+    "source_line": 176,
+    "data_rows": 3,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_001.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "Supplementary Information",
+    "caption": "",
+    "source_line": 13,
+    "data_rows": 10,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_002.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "Supplementary Information",
+    "caption": "**Supplementary Table 1. Analysis design and evidence identity.** Source independence, configuration timing, prior data access, endpoint status and inference unit describe different aspects of an analysis. A held-out donor can support an original prespecified task and subsequent post hoc comparisons.",
+    "source_line": 28,
+    "data_rows": 8,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_003.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SM1.1. Replogle K562",
+    "caption": "**Supplementary Table 1. Analysis design and evidence identity.** Source independence, configuration timing, prior data access, endpoint status and inference unit describe different aspects of an analysis. A held-out donor can support an original prespecified task and subsequent post hoc comparisons.",
+    "source_line": 47,
+    "data_rows": 8,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_004.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SM1.2. VIPerturb-seq K562",
+    "caption": "**Supplementary Table 1. Analysis design and evidence identity.** Source independence, configuration timing, prior data access, endpoint status and inference unit describe different aspects of an analysis. A held-out donor can support an original prespecified task and subsequent post hoc comparisons.",
+    "source_line": 60,
+    "data_rows": 8,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_005.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SM1.3. X-Atlas/Orion HCT116",
+    "caption": "**Supplementary Table 1. Analysis design and evidence identity.** Source independence, configuration timing, prior data access, endpoint status and inference unit describe different aspects of an analysis. A held-out donor can support an original prespecified task and subsequent post hoc comparisons.",
+    "source_line": 73,
+    "data_rows": 9,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_006.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SM1.4. T-cell development population",
+    "caption": "**Supplementary Table 1. Analysis design and evidence identity.** Source independence, configuration timing, prior data access, endpoint status and inference unit describe different aspects of an analysis. A held-out donor can support an original prespecified task and subsequent post hoc comparisons.",
+    "source_line": 87,
+    "data_rows": 7,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_007.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SM1.5. KOLF2.1J iPSC",
+    "caption": "**Supplementary Table 1. Analysis design and evidence identity.** Source independence, configuration timing, prior data access, endpoint status and inference unit describe different aspects of an analysis. A held-out donor can support an original prespecified task and subsequent post hoc comparisons.",
+    "source_line": 99,
+    "data_rows": 7,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_008.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SM2.1. D2 population and checks",
+    "caption": "**Supplementary Table 1. Analysis design and evidence identity.** Source independence, configuration timing, prior data access, endpoint status and inference unit describe different aspects of an analysis. A held-out donor can support an original prespecified task and subsequent post hoc comparisons.",
+    "source_line": 122,
+    "data_rows": 9,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_009.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SM3. Query panels and the ranking budget",
+    "caption": "**Supplementary Table 1. Analysis design and evidence identity.** Source independence, configuration timing, prior data access, endpoint status and inference unit describe different aspects of an analysis. A held-out donor can support an original prespecified task and subsequent post hoc comparisons.",
+    "source_line": 144,
+    "data_rows": 5,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_010.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SM6. Tie scores, random baselines and uncertainty",
+    "caption": "**Implementation interface.** `application/README.md` specifies the runnable cell-level interface, normalization, identifier mapping, control inputs and output tables. `application/run_h5ad.py` accepts AnnData counts through `fit_anndata()`, supporting dense or CSR matrices in memory or backed storage. Full-axis library totals precede gene selection; control and target-cell moments are estimated from the supplied cells. The interface takes a supplied query list and requires no deep reference for nomination. `METHOD_INTERFACE.md` describes the input and sufficient-statistic contracts, including target-directional variance. Dense/sparse/backed and frozen-engine parity checks test implementation consistency. Historical saved-moment replays for D3 and Orion remain separate in the analysis archives (SN9); they reproduce weights and lists but do not reconstruct raw-cell preprocessing.",
+    "source_line": 391,
+    "data_rows": 5,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_011.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SM6.4. External-reference propagation and coverage of uncertainty",
+    "caption": "**Table SM6.1. What is varied and held fixed.**",
+    "source_line": 446,
+    "data_rows": 6,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_012.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN1. Shallow gains, donor confirmation and real-cell repeats",
+    "caption": "**Table SN1.1. Full within-source results.**",
+    "source_line": 661,
+    "data_rows": 20,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_013.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN1. Shallow gains, donor confirmation and real-cell repeats",
+    "caption": "**Table SN1.1. Full within-source results.**",
+    "source_line": 686,
+    "data_rows": 20,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_014.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN1. Shallow gains, donor confirmation and real-cell repeats",
+    "caption": "**Table SN1.1. Full within-source results.**",
+    "source_line": 711,
+    "data_rows": 20,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_015.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN1.1. Real disjoint-cell inputs retain the within-screen gain",
+    "caption": "**Table SN1.2. Fixed external-reference support.** Each donor uses two disjoint 20-cell inputs and the original A19-R candidate pool. Units are additional expected reference members per list of 10. Intervals condition on the realised inputs and fixed external effects; the three source donors do not constitute three external studies.",
+    "source_line": 745,
+    "data_rows": 3,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_016.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN2.1. scMAGeCK and single-gene statistics",
+    "caption": "**Table SN1.2. Fixed external-reference support.** Each donor uses two disjoint 20-cell inputs and the original A19-R candidate pool. Units are additional expected reference members per list of 10. Intervals condition on the realised inputs and fixed external effects; the three source donors do not constitute three external studies.",
+    "source_line": 766,
+    "data_rows": 16,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_017.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN2.2. Per-entry shrinkage",
+    "caption": "**Table SN1.2. Fixed external-reference support.** Each donor uses two disjoint 20-cell inputs and the original A19-R candidate pool. Units are additional expected reference members per list of 10. Intervals condition on the realised inputs and fixed external effects; the three source donors do not constitute three external studies.",
+    "source_line": 793,
+    "data_rows": 4,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_018.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN2.2. Per-entry shrinkage",
+    "caption": "**Table SN1.2. Fixed external-reference support.** Each donor uses two disjoint 20-cell inputs and the original A19-R candidate pool. Units are additional expected reference members per list of 10. Intervals condition on the realised inputs and fixed external effects; the three source donors do not constitute three external studies.",
+    "source_line": 802,
+    "data_rows": 4,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_019.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN2.3. Unchanged implementations on D2",
+    "caption": "**What is shown and what is not.** That the rule reorders targets only through their noise differences is an identity; that this reordering lowered precision on both donors is the observation. Whether it does so because true hits with large effects also have a large cell-to-cell spread and are moved down has not been tested: an unstable 20-cell variance, an ill-fitting zero-centred prior and the truncation of `tau^2` at zero could each contribute. On D2 the rule was run unchanged (SN5.2).",
+    "source_line": 817,
+    "data_rows": 10,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_020.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN2.4. Earlier Euclidean-weight results",
+    "caption": "**Table SN2.1. Euclidean weighting against the unweighted shallow profile.** Gain in precision at 25, tie-expectation score, 300 query genes in both directions, paired bootstrap over 30 query blocks, 2,000 resamples, seed 2026. Candidates and chance level in parentheses. Sources: `repro_v10/expected/e1_stage6.json`, `e2_stage7.json`, `e3_orion.json`, `repro_v10/corrections/e4_self_gene/e4_tcell_corrected.json`, `repro_v10/expected/e5_kolf.json`.",
+    "source_line": 834,
+    "data_rows": 7,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_021.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN2.5. Official Mixscale native-coefficient comparison on D3",
+    "caption": "**Table SN2.2. D3 responsive-query nomination, 20 cells per target.** All methods use 1,200 candidates, the same responsive queries and deep reference, own-gene exclusion and exact tie-expectation P@25. Intervals are paired query-block intervals at these fixed inputs.",
+    "source_line": 849,
+    "data_rows": 7,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_022.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN3.1. Separating shrinkage geometry from output coordinates",
+    "caption": "**Table SN3.1. Complete factorial contrasts.**",
+    "source_line": 875,
+    "data_rows": 14,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_023.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN3.1. Separating shrinkage geometry from output coordinates",
+    "caption": "**Table SN3.1. Complete factorial contrasts.**",
+    "source_line": 894,
+    "data_rows": 14,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_024.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN3.1. Separating shrinkage geometry from output coordinates",
+    "caption": "**Table SN3.1. Complete factorial contrasts.**",
+    "source_line": 919,
+    "data_rows": 14,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_025.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN3.1. Separating shrinkage geometry from output coordinates",
+    "caption": "**Table SN3.1. Complete factorial contrasts.**",
+    "source_line": 940,
+    "data_rows": 3,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_026.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN3.2. Directions, parameter grid and gene sets",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 960,
+    "data_rows": 5,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_027.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN3.2. Directions, parameter grid and gene sets",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 978,
+    "data_rows": 5,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_028.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN3.2. Directions, parameter grid and gene sets",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 990,
+    "data_rows": 5,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_029.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN3.2. Directions, parameter grid and gene sets",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1002,
+    "data_rows": 3,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_030.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN3.3. Upward-only and downward-only re-ranking",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1020,
+    "data_rows": 12,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_031.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN3.3. Upward-only and downward-only re-ranking",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1037,
+    "data_rows": 12,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_032.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN3.3. Upward-only and downward-only re-ranking",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1054,
+    "data_rows": 12,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_033.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.1. Reciprocal transfer between D3 and D1",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1124,
+    "data_rows": 8,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_034.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.1. Reciprocal transfer between D3 and D1",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1137,
+    "data_rows": 8,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_035.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.1. Reciprocal transfer between D3 and D1",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1150,
+    "data_rows": 8,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_036.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.1. Reciprocal transfer between D3 and D1",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1163,
+    "data_rows": 8,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_037.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.1. Reciprocal transfer between D3 and D1",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1176,
+    "data_rows": 8,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_038.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.2. Locked D3/D1 lists evaluated on D2",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1195,
+    "data_rows": 6,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_039.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.2. Locked D3/D1 lists evaluated on D2",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1206,
+    "data_rows": 6,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_040.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.2. Locked D3/D1 lists evaluated on D2",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1217,
+    "data_rows": 6,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_041.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.2. Locked D3/D1 lists evaluated on D2",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1228,
+    "data_rows": 6,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_042.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.2. Locked D3/D1 lists evaluated on D2",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1239,
+    "data_rows": 6,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_043.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.3. Relation-level descriptions and reverse source analyses",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1256,
+    "data_rows": 2,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_044.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.3. Relation-level descriptions and reverse source analyses",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1263,
+    "data_rows": 2,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_045.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.3. Relation-level descriptions and reverse source analyses",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1270,
+    "data_rows": 2,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_046.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.3. Relation-level descriptions and reverse source analyses",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1281,
+    "data_rows": 4,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_047.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.3. Relation-level descriptions and reverse source analyses",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1290,
+    "data_rows": 4,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_048.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.3. Relation-level descriptions and reverse source analyses",
+    "caption": "**Supplementary Figure 5 | Query-row attenuation tracks readout cost across the existing design settings.** Each point is one SN3.1 setting, coloured by its experimental source; T-cell D3 and D1 belong to one source. **a**, Median query-row energy attenuation by $A$ versus the absolute loss in P@K from replacing $w_My$ with $w_MAy$. **b**, The same attenuation versus relative loss, using the PertRank score as denominator. Both Spearman coefficients are descriptive calculations from the displayed table precision. The 14 settings are correlated and are not independent experiments. The descriptive analysis uses no trend fit, uncertainty interval or hypothesis test. Source data retain the individual setting identities and the full derivation.",
+    "source_line": 1299,
+    "data_rows": 4,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_049.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.4. Strict support across guide and donor",
+    "caption": "**Table SN5.1. Strictly replicated relations per list of 25.** Responsive queries, both directions, own-gene candidates excluded; intervals from the paired block bootstrap over the source donor's 30 query blocks, the donor-mean row (brackets: endpoint-average ranges) averaging the two sources' endpoints. Original adopted source: `own_gene_corrected/a18_strict_replication.json`; matching current reconstruction: A18-R. Unrounded PertRank − Unweighted differences are 0.074924 and 0.243837; PertRank − Euclidean differences are 0.033434 and 0.031182.",
+    "source_line": 1314,
+    "data_rows": 3,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_050.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.4. Strict support across guide and donor",
+    "caption": "**Table SN5.1. Strictly replicated relations per list of 25.** Responsive queries, both directions, own-gene candidates excluded; intervals from the paired block bootstrap over the source donor's 30 query blocks, the donor-mean row (brackets: endpoint-average ranges) averaging the two sources' endpoints. Original adopted source: `own_gene_corrected/a18_strict_replication.json`; matching current reconstruction: A18-R. Unrounded PertRank − Unweighted differences are 0.074924 and 0.243837; PertRank − Euclidean differences are 0.033434 and 0.031182.",
+    "source_line": 1322,
+    "data_rows": 3,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_051.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN5.4. Strict support across guide and donor",
+    "caption": "**Table SN5.1. Strictly replicated relations per list of 25.** Responsive queries, both directions, own-gene candidates excluded; intervals from the paired block bootstrap over the source donor's 30 query blocks, the donor-mean row (brackets: endpoint-average ranges) averaging the two sources' endpoints. Original adopted source: `own_gene_corrected/a18_strict_replication.json`; matching current reconstruction: A18-R. Unrounded PertRank − Unweighted differences are 0.074924 and 0.243837; PertRank − Euclidean differences are 0.033434 and 0.031182.",
+    "source_line": 1330,
+    "data_rows": 3,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_052.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN6.2. Independent-guide nomination",
+    "caption": "**Table SN6.1. Corrected independent-guide results.** Each guide has 20 input cells and the other guide supplies its 100-cell reference. Units are P@25; each interval is conditional on the source population and query blocks. Both fixed assignments are shown.",
+    "source_line": 1361,
+    "data_rows": 6,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_053.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN7.1. Query-specific random baseline and the original gate",
+    "caption": "**Table SN6.1. Corrected independent-guide results.** Each guide has 20 input cells and the other guide supplies its 100-cell reference. Units are P@25; each interval is conditional on the source population and query blocks. Both fixed assignments are shown.",
+    "source_line": 1396,
+    "data_rows": 3,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_054.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN7.2. Original A19 primary and sensitivity comparisons",
+    "caption": "**Table SN7.1. PertRank against the unweighted ranking and against Euclidean weighting.** Differences per list of *k* names, with source-specific 95% intervals from the paired query-block bootstrap. The two descriptive-mean columns contain endpoint-average ranges, not joint confidence intervals. The first row is the original primary reading; the others are its secondary/sensitivity readings. These are archived A19 results, not outputs of A19-R. Source: `a19_virtual_closed_loop.json` (original execution); its source prediction lock and cell-selection seed were not fully recovered for the current reproduction.",
+    "source_line": 1412,
+    "data_rows": 6,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_055.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN7.2. Original A19 primary and sensitivity comparisons",
+    "caption": "**Table SN7.1. PertRank against the unweighted ranking and against Euclidean weighting.** Differences per list of *k* names, with source-specific 95% intervals from the paired query-block bootstrap. The two descriptive-mean columns contain endpoint-average ranges, not joint confidence intervals. The first row is the original primary reading; the others are its secondary/sensitivity readings. These are archived A19 results, not outputs of A19-R. Source: `a19_virtual_closed_loop.json` (original execution); its source prediction lock and cell-selection seed were not fully recovered for the current reproduction.",
+    "source_line": 1423,
+    "data_rows": 6,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_056.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN7.3. A19-R reconstruction and reference-side sensitivity",
+    "caption": "**Table SN7.2. Reconstructed fixed-cell results, members per 10-name list.** Brackets are conditional paired query-block 95% intervals with the external point reference fixed. D2's PertRank–Euclidean lower endpoint is zero, not a clearly positive bound.",
+    "source_line": 1449,
+    "data_rows": 3,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_057.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN8.4. Gene sets and earlier depth dependence",
+    "caption": "**Table SN7.2. Reconstructed fixed-cell results, members per 10-name list.** Brackets are conditional paired query-block 95% intervals with the external point reference fixed. D2's PertRank–Euclidean lower endpoint is zero, not a clearly positive bound.",
+    "source_line": 1497,
+    "data_rows": 5,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_058.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN8.5. D3 empirical target-cell resampling with weight refitting",
+    "caption": "**Table SN8.1. Re-estimation on every draw.** B=200; each target contributes 20 samples with replacement from its original 20 cells. All differences are P@25. The percentile range describes these draws, not a population confidence interval.",
+    "source_line": 1522,
+    "data_rows": 4,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_059.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN8.5. D3 empirical target-cell resampling with weight refitting",
+    "caption": "**Table SN8.3. Weight-distribution sensitivity.** The resampling column averages the 200 draws.",
+    "source_line": 1533,
+    "data_rows": 3,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_060.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN9.2. What is reproduced",
+    "caption": "**Table SN9.1. Current reproduction scope.**",
+    "source_line": 1561,
+    "data_rows": 22,
+    "scope": "Verbatim manuscript Table SN9.1: historical computational completion and validation record. It is not the current package execution-scope declaration; see MODULES.json and docs/REPRODUCTION_SCOPE.md."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_061.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN10.1. Seven measured depths and boundary-aware cell equivalence",
+    "caption": "**Table SN10.1. Seven measured Unweighted depths, both panels.** Values are five-anchor mean P@25; “response” denotes the responsive panel. The mean curves below have no decreasing adjacent step. All 30 individual anchor curves are retained in each donor's JSON/score archive rather than treated as 30 new independent studies.",
+    "source_line": 1621,
+    "data_rows": 6,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_062.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN10.1. Seven measured depths and boundary-aware cell equivalence",
+    "caption": "**Table SN10.2. Full and Euclidean method depth equivalents.** Brackets are conditional inverse-calibration 95% endpoints; measured depth brackets are a different quantity. L/U below are bootstrap fractions left of/above the tested grid.",
+    "source_line": 1632,
+    "data_rows": 12,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_063.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN10.1. Seven measured depths and boundary-aware cell equivalence",
+    "caption": "**Table SN10.3. Paired increment of the control metric in depth units.** The score contrast remains defined even if the depth contrast is not.",
+    "source_line": 1649,
+    "data_rows": 6,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_064.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN10.1. Seven measured depths and boundary-aware cell equivalence",
+    "caption": "**Table SN10.4. Direct comparisons with every measured depth.** PertRank at 20 cells minus Unweighted at the indicated actual depth. These paired P@25 contrasts expose the observed grid behind the inverse summaries.",
+    "source_line": 1664,
+    "data_rows": 42,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_065.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN11.1. Full five-input family and corrected D1",
+    "caption": "**Table SN11.1. Development and original D4 Rest absolute P@25.** Values average five groups and both signs within query, then queries. “Not tested” in the D4 column means not included in the original prospective stage; the later TRADE arm is in Table SN12.1.",
+    "source_line": 1724,
+    "data_rows": 14,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_066.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN11.1. Full five-input family and corrected D1",
+    "caption": "**Table SN11.2. Development and original D4 Rest responsive-panel contrasts.** D4 primary is PertRank − Euclidean; its gated competitor is PR_M. Development contrasts do not acquire confirmatory status from positive intervals.",
+    "source_line": 1743,
+    "data_rows": 9,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_067.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN11.1. Full five-input family and corrected D1",
+    "caption": "**Table SN11.3. Corresponding tercile-panel contrasts.** The panel is secondary; no new primary endpoint is introduced.",
+    "source_line": 1757,
+    "data_rows": 6,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_068.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN11.2. Pearson comparisons and competitor selection",
+    "caption": "**Table SN11.4. Locked opponent selection.** The criterion is highest equal-donor responsive mean over corrected D1, D2 and D3; each donor first averages its five groups and two signs within query. Tie tolerance is 1e−12, followed by lexicographic arm ID. No interval is assigned to this selection mean.",
+    "source_line": 1776,
+    "data_rows": 5,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_069.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN11.3. D4 prospective primary and gated comparison",
+    "caption": "**Table SN11.5. D4 individual real-input responsive differences.**",
+    "source_line": 1796,
+    "data_rows": 5,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_070.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN12.1. Fixed task, completion and comparison identity",
+    "caption": "**Table SN12.1. Five-arm D4 Rest absolute scores and shortlist yield.**",
+    "source_line": 1837,
+    "data_rows": 5,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_071.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN12.1. Fixed task, completion and comparison identity",
+    "caption": "**Table SN12.2. D4 Rest fifth-arm contrasts and task conditions.** All intervals are nominal paired query-block 95% intervals conditional on the fixed task; the new TRADE rows are supplemental comparisons.",
+    "source_line": 1847,
+    "data_rows": 5,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_072.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN13.1. Selection and cross-half definition",
+    "caption": "**Table SN13.1. Completed guide-structure diagnostic.**",
+    "source_line": 1871,
+    "data_rows": 8,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_073.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN14.1. Task and pre-reference locks",
+    "caption": "**Supplementary Table 20. Stim absolute scores.** Both signs and five groups are averaged within query, then queries. TRADE failure applies to both panels.",
+    "source_line": 1906,
+    "data_rows": 5,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_074.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN14.2. H1 primary and gated competitive results",
+    "caption": "**Supplementary Table 21. Main contrasts and inference identity.** The displayed intervals are nominal paired query-block 95% percentile intervals (2,000 draws, seed 2026). Formal H2 uses the separate restricted wild-cluster p value, not the sign of these intervals.",
+    "source_line": 1920,
+    "data_rows": 6,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_075.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN14.6. Registration and actual access sequence",
+    "caption": "**Supplementary Table 22. Stim timing (UTC, 11 October 2026).** Times are recorded events, rounded to the displayed precision; absence of an independently verified approval time is not replaced by an inferred timestamp.",
+    "source_line": 1967,
+    "data_rows": 15,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_076.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN15.1. Post hoc contribution accounting",
+    "caption": "**Supplementary Table 23. Observed alignment-group gains and costs.** Intervals are post hoc nominal paired query-block intervals. Stratum net contributions sum to 0.378708 reference members per 25.",
+    "source_line": 2004,
+    "data_rows": 4,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_077.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN15.2. Reference-neutral diagnostic and weight-transition accounting",
+    "caption": "**Supplementary Table 24. Alignment slopes under observed and uniform reference support.** Coefficients are target-level P@25 contributions per unit normalized alignment rank after adjustment for normalized signal-to-noise rank.",
+    "source_line": 2019,
+    "data_rows": 3,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_078.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN15.2. Reference-neutral diagnostic and weight-transition accounting",
+    "caption": "**Supplementary Table 25. Weight transitions and supported net contribution.** Counts are target-by-input observations, with targets reused across inputs; they are not independent biological replicates.",
+    "source_line": 2031,
+    "data_rows": 6,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_079.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN16.1. Outcome-independent definitions within an opened-data analysis",
+    "caption": "**Supplementary Table 26. Full-pool contributions by own-gene planning evidence.** Contributions sum exactly to the original metric contrast; values are P@25 differences.",
+    "source_line": 2058,
+    "data_rows": 4,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_080.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN16.1. Outcome-independent definitions within an opened-data analysis",
+    "caption": "**Supplementary Table 27. Matched eligibility-subset comparisons.** All methods and the deep reference use the same subset. The changed candidate pool changes the ranking task, so absolute scores across rows are not evidence that exclusion itself improves biological accuracy.",
+    "source_line": 2069,
+    "data_rows": 4,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_081.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN17. Transfer of an existing query panel to Stim",
+    "caption": "**Supplementary Table 28. Fixed D3 Rest panel evaluated in D4 Stim.**",
+    "source_line": 2094,
+    "data_rows": 7,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_082.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN18.3. Complete-cohort numerical-sensitivity results",
+    "caption": "**Supplementary Table 29. Complete Stim TRADE numerical sensitivity.** TRADE here denotes the uniformly regularized post hoc scalar adapter (\\(\\epsilon=10^{-4}\\)), with the scope defined in SN18.2. Means are P@25; contrast intervals are conditional 95% intervals.",
+    "source_line": 2128,
+    "data_rows": 9,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_083.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN19.1. Matched D3 development and rank extension",
+    "caption": "Displayed table in SN19.1: matched D3 first-input and five-input mean P@25 for Unweighted, Euclidean and PertRank.",
+    "source_line": 2149,
+    "data_rows": 3,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately.",
+    "caption_kind": "Descriptive index label; no separate numbered table caption is assigned in this manuscript section."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_084.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN19.1. Matched D3 development and rank extension",
+    "caption": "Displayed table in SN19.1: D3 FR rank-100 configuration and rank-150/200/300 extensions, FR with PertRank weighting, and conditional PertRank–FR contrasts.",
+    "source_line": 2158,
+    "data_rows": 4,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately.",
+    "caption_kind": "Descriptive index label; no separate numbered table caption is assigned in this manuscript section."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_085.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN19.2. D4 native competition and estimator combinations",
+    "caption": "Displayed table in SN19.2: D4 Rest, Stim8hr and equal-state P@25 for native estimators and estimator–weight combinations.",
+    "source_line": 2172,
+    "data_rows": 10,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately.",
+    "caption_kind": "Descriptive index label; no separate numbered table caption is assigned in this manuscript section."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_086.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN19.2. D4 native competition and estimator combinations",
+    "caption": "Displayed table in SN19.2: equal-state D4 P@25 contrasts and conditional 95% intervals for native estimators and weighted combinations.",
+    "source_line": 2185,
+    "data_rows": 14,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately.",
+    "caption_kind": "Descriptive index label; no separate numbered table caption is assigned in this manuscript section."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_087.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN19.3. Matched 20-, 50- and 100-cell diagnostics",
+    "caption": "Displayed table in SN19.3: matched 20-, 50- and 100-cell P@25 on the nested 250-candidate D3 task; FR A and B retain the distinct penalty conventions defined in SM9.4.",
+    "source_line": 2209,
+    "data_rows": 3,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately.",
+    "caption_kind": "Descriptive index label; no separate numbered table caption is assigned in this manuscript section."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_088.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN19.4. Larger independent-guide task",
+    "caption": "Displayed table in SN19.4: P@25 for Unweighted, Euclidean, PertRank and ASH on the 395-candidate independent-guide task.",
+    "source_line": 2220,
+    "data_rows": 4,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately.",
+    "caption_kind": "Descriptive index label; no separate numbered table caption is assigned in this manuscript section."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_089.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN19.4. Larger independent-guide task",
+    "caption": "Displayed table in SN19.4: independent-guide P@25 contrasts with joint reference/query 95% intervals.",
+    "source_line": 2227,
+    "data_rows": 4,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately.",
+    "caption_kind": "Descriptive index label; no separate numbered table caption is assigned in this manuscript section."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_090.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN20.1. Complete matched candidate pools and seven-arm scores",
+    "caption": "Displayed table in SN20.1: seven-arm P@10 for D3, D1 and D2 inputs and the descriptive equal-source mean against one independent knockout RNA reference.",
+    "source_line": 2249,
+    "data_rows": 7,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately.",
+    "caption_kind": "Descriptive index label; no separate numbered table caption is assigned in this manuscript section."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_091.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN20.2. Source-specific paired differences",
+    "caption": "Displayed table in SN20.2: source-specific P@10 differences and conditional 95% intervals for native-method, weighting and geometry comparisons.",
+    "source_line": 2264,
+    "data_rows": 18,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately.",
+    "caption_kind": "Descriptive index label; no separate numbered table caption is assigned in this manuscript section."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_092.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN20.3. Shared-reference sensitivity",
+    "caption": "Displayed table in SN20.3: equal-source contrasts in expected reference members per ten nominations across 500 fixed-prediction reference draws, under shared-label and batch-separate conventions.",
+    "source_line": 2294,
+    "data_rows": 8,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately.",
+    "caption_kind": "Descriptive index label; no separate numbered table caption is assigned in this manuscript section."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_093.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN21.1. Geometry on raw and FR effect estimates",
+    "caption": "Displayed table in SN21.1: geometry increments on original and rank-300 FR effects and their paired interaction in D4 Rest, Stim8hr and the equal-state summary.",
+    "source_line": 2314,
+    "data_rows": 9,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately.",
+    "caption_kind": "Descriptive index label; no separate numbered table caption is assigned in this manuscript section."
+  },
+  {
+    "file": "PertRank_Supplement_v25.2_table_094.csv",
+    "manuscript": "PertRank_Supplement_v25.2.md",
+    "section": "SN21.2. PertRank relative to ASH across input depths",
+    "caption": "Displayed table in SN21.2: PertRank–ASH contrasts at 20, 50 and 100 cells and the paired 20-cell minus 100-cell difference, for P@25 and P@10.",
+    "source_line": 2331,
+    "data_rows": 8,
+    "scope": "Verbatim displayed manuscript values; full-precision figure data supplied separately.",
+    "caption_kind": "Descriptive index label; no separate numbered table caption is assigned in this manuscript section."
+  }
+]

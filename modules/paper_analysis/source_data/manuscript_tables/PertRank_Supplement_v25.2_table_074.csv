@@ -1,0 +1,7 @@
+Contrast,Difference [95% interval],Additional reference members per 25,Decision
+"PertRank − Euclidean, responsive","+0.01515 [0.01309, 0.01787]",+0.3787,H1 confirmed; below 0.02 grade
+"PertRank − PR_M, responsive","+0.00664 [0.00537, 0.00813]",+0.1659,"Gated H2a superiority, p=0.0001"
+PertRank − TRADE scalar,Not evaluable,Not evaluable,H2b not established; SN14.5
+"PertRank − Unweighted, responsive","+0.07682 [0.07049, 0.08332]",+1.9205,Descriptive complete-procedure gain
+"PertRank − Euclidean, terciles","+0.00476 [0.00315, 0.00620]",+0.1190,Prespecified secondary estimate
+"PertRank − PR_M, terciles","+0.00218 [0.00039, 0.00360]",+0.0545,Interval within ±0.005 equivalence band

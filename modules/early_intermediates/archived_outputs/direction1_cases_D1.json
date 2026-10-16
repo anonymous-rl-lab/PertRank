@@ -1,0 +1,606 @@
+{
+ "created_utc": "2026-09-27T01:55:07Z",
+ "integrity": {
+  "amendment_A11_sha256": "0222b03e7590cb00ccabfb2f41d1d8d75e17c67b7d642a1e4020249e3328a024",
+  "script_sha256": "c885e1136128aa4c3eec084addb76505c90c87f28b10cfa81abfe381c4d59d7a"
+ },
+ "note": "amendment A11 question 2; D1 source; responsive list; direction 1 = the first stored input-control direction of D1 (its sign is opposite to D3's, see direction1_similarity.json)",
+ "targets": {
+  "TP53": {
+   "c1 (block-0 projection on direction 1)": -3.5457115901185663,
+   "share of block-0 responsive energy carried by direction 1": 0.27261812592608153,
+   "groups": {
+    "along direction 1": {
+     "genes": 65,
+     "share of block-0 responsive energy": 0.12000732200745459,
+     "block 1 (independent cells)": {
+      "genes": 65,
+      "sign_agreement": 0.8153846153846154,
+      "spearman": 0.6872814685314685
+     },
+     "D1 deep truth": {
+      "genes": 65,
+      "sign_agreement": 0.8461538461538461,
+      "spearman": 0.8171765734265733
+     },
+     "D3 truth": {
+      "genes": 49,
+      "sign_agreement": 0.8775510204081632,
+      "spearman": 0.7856122448979591
+     },
+     "D2 truth": {
+      "genes": 65,
+      "sign_agreement": 0.9538461538461539,
+      "spearman": 0.8547202797202798
+     }
+    },
+    "not along direction 1": {
+     "genes": 235,
+     "share of block-0 responsive energy": 0.8799926779925454,
+     "block 1 (independent cells)": {
+      "genes": 235,
+      "sign_agreement": 0.6595744680851063,
+      "spearman": 0.5770331123378364
+     },
+     "D1 deep truth": {
+      "genes": 235,
+      "sign_agreement": 0.7319148936170212,
+      "spearman": 0.7264760002589068
+     },
+     "D3 truth": {
+      "genes": 175,
+      "sign_agreement": 0.6285714285714286,
+      "spearman": 0.47270040304523064
+     },
+     "D2 truth": {
+      "genes": 235,
+      "sign_agreement": 0.5914893617021276,
+      "spearman": 0.32098994886589544
+     }
+    }
+   },
+   "w0y-specific relations split": {
+    "not along direction 1": {
+     "relations": 51,
+     "D2 rank support": 4,
+     "D2 effect support": 19,
+     "other donor measurable": 44,
+     "other donor support": 12,
+     "D2 rank support rate": 0.0784313725490196,
+     "D2 effect support rate": 0.37254901960784315,
+     "other donor support rate": 0.2727272727272727
+    }
+   },
+   "largest responses along direction 1": [
+    {
+     "symbol": "H1-2",
+     "block0": 0.329,
+     "component": 0.306,
+     "block1": 0.296,
+     "D1 truth": 0.276,
+     "D3 truth": 0.138,
+     "D2 truth": 0.205
+    },
+    {
+     "symbol": "MCM4",
+     "block0": 0.312,
+     "component": 0.22,
+     "block1": 0.22,
+     "D1 truth": 0.315,
+     "D3 truth": 0.295,
+     "D2 truth": 0.386
+    },
+    {
+     "symbol": "TMEM106C",
+     "block0": 0.31,
+     "component": 0.234,
+     "block1": -0.009,
+     "D1 truth": 0.157,
+     "D3 truth": 0.152,
+     "D2 truth": 0.304
+    },
+    {
+     "symbol": "UHRF1",
+     "block0": 0.309,
+     "component": 0.273,
+     "block1": 0.097,
+     "D1 truth": 0.273,
+     "D3 truth": 0.176,
+     "D2 truth": 0.405
+    },
+    {
+     "symbol": "HELLS",
+     "block0": 0.303,
+     "component": 0.22,
+     "block1": 0.018,
+     "D1 truth": 0.223,
+     "D3 truth": 0.223,
+     "D2 truth": 0.285
+    },
+    {
+     "symbol": "TYMS",
+     "block0": 0.301,
+     "component": 0.445,
+     "block1": 0.244,
+     "D1 truth": 0.273,
+     "D3 truth": 0.243,
+     "D2 truth": 0.446
+    },
+    {
+     "symbol": "CDK1",
+     "block0": 0.293,
+     "component": 0.363,
+     "block1": 0.24,
+     "D1 truth": 0.371,
+     "D3 truth": 0.19,
+     "D2 truth": 0.248
+    },
+    {
+     "symbol": "KIFC1",
+     "block0": 0.266,
+     "component": 0.262,
+     "block1": 0.209,
+     "D1 truth": 0.2,
+     "D3 truth": null,
+     "D2 truth": 0.208
+    },
+    {
+     "symbol": "MCM5",
+     "block0": 0.265,
+     "component": 0.157,
+     "block1": 0.132,
+     "D1 truth": 0.196,
+     "D3 truth": 0.253,
+     "D2 truth": 0.298
+    },
+    {
+     "symbol": "RRM2",
+     "block0": 0.249,
+     "component": 0.314,
+     "block1": 0.214,
+     "D1 truth": 0.345,
+     "D3 truth": 0.247,
+     "D2 truth": 0.211
+    },
+    {
+     "symbol": "NCAPG2",
+     "block0": 0.248,
+     "component": 0.251,
+     "block1": 0.343,
+     "D1 truth": 0.283,
+     "D3 truth": 0.175,
+     "D2 truth": 0.279
+    },
+    {
+     "symbol": "TACC3",
+     "block0": 0.243,
+     "component": 0.271,
+     "block1": 0.219,
+     "D1 truth": 0.318,
+     "D3 truth": 0.157,
+     "D2 truth": 0.272
+    },
+    {
+     "symbol": "H1-5",
+     "block0": 0.241,
+     "component": 0.527,
+     "block1": 0.479,
+     "D1 truth": 0.678,
+     "D3 truth": 0.34,
+     "D2 truth": 0.505
+    },
+    {
+     "symbol": "H2BC9",
+     "block0": 0.235,
+     "component": 0.376,
+     "block1": 0.201,
+     "D1 truth": 0.303,
+     "D3 truth": 0.278,
+     "D2 truth": 0.247
+    },
+    {
+     "symbol": "H2AX",
+     "block0": 0.206,
+     "component": 0.277,
+     "block1": 0.257,
+     "D1 truth": 0.285,
+     "D3 truth": 0.075,
+     "D2 truth": 0.257
+    },
+    {
+     "symbol": "TUBA1B",
+     "block0": 0.201,
+     "component": 0.455,
+     "block1": 0.598,
+     "D1 truth": 0.627,
+     "D3 truth": 0.144,
+     "D2 truth": 0.566
+    },
+    {
+     "symbol": "CD27",
+     "block0": -0.189,
+     "component": -0.111,
+     "block1": -0.135,
+     "D1 truth": -0.186,
+     "D3 truth": -0.24,
+     "D2 truth": -0.098
+    },
+    {
+     "symbol": "TUBB4B",
+     "block0": 0.168,
+     "component": 0.237,
+     "block1": 0.249,
+     "D1 truth": 0.207,
+     "D3 truth": 0.202,
+     "D2 truth": 0.208
+    },
+    {
+     "symbol": "TOP2A",
+     "block0": 0.163,
+     "component": 0.334,
+     "block1": 0.264,
+     "D1 truth": 0.284,
+     "D3 truth": 0.117,
+     "D2 truth": 0.25
+    },
+    {
+     "symbol": "CKS1B",
+     "block0": 0.149,
+     "component": 0.244,
+     "block1": 0.387,
+     "D1 truth": 0.388,
+     "D3 truth": 0.178,
+     "D2 truth": 0.272
+    },
+    {
+     "symbol": "AQP3",
+     "block0": -0.143,
+     "component": -0.076,
+     "block1": -0.055,
+     "D1 truth": -0.1,
+     "D3 truth": -0.397,
+     "D2 truth": -0.238
+    },
+    {
+     "symbol": "EBP",
+     "block0": 0.139,
+     "component": 0.118,
+     "block1": 0.363,
+     "D1 truth": 0.361,
+     "D3 truth": 0.163,
+     "D2 truth": 0.068
+    },
+    {
+     "symbol": "SMC1A",
+     "block0": 0.136,
+     "component": 0.178,
+     "block1": 0.13,
+     "D1 truth": 0.188,
+     "D3 truth": 0.071,
+     "D2 truth": 0.295
+    },
+    {
+     "symbol": "HMGB2",
+     "block0": 0.133,
+     "component": 0.359,
+     "block1": 0.419,
+     "D1 truth": 0.362,
+     "D3 truth": 0.17,
+     "D2 truth": 0.426
+    },
+    {
+     "symbol": "CENPM",
+     "block0": 0.123,
+     "component": 0.292,
+     "block1": 0.248,
+     "D1 truth": 0.29,
+     "D3 truth": 0.226,
+     "D2 truth": 0.335
+    }
+   ]
+  },
+  "RFX5": {
+   "c1 (block-0 projection on direction 1)": -5.346406819873209,
+   "share of block-0 responsive energy carried by direction 1": 0.4433647905576454,
+   "groups": {
+    "along direction 1": {
+     "genes": 111,
+     "share of block-0 responsive energy": 0.39694249102982454,
+     "block 1 (independent cells)": {
+      "genes": 111,
+      "sign_agreement": 0.7657657657657657,
+      "spearman": 0.743015093015093
+     },
+     "D1 deep truth": {
+      "genes": 111,
+      "sign_agreement": 0.7837837837837838,
+      "spearman": 0.7518778518778518
+     },
+     "D3 truth": {
+      "genes": 89,
+      "sign_agreement": 0.6966292134831461,
+      "spearman": 0.47919645897173996
+     },
+     "D2 truth": {
+      "genes": 111,
+      "sign_agreement": 0.8108108108108109,
+      "spearman": 0.6989118989118989
+     }
+    },
+    "not along direction 1": {
+     "genes": 189,
+     "share of block-0 responsive energy": 0.6030575089701754,
+     "block 1 (independent cells)": {
+      "genes": 189,
+      "sign_agreement": 0.656084656084656,
+      "spearman": 0.43271832062425575
+     },
+     "D1 deep truth": {
+      "genes": 189,
+      "sign_agreement": 0.6613756613756614,
+      "spearman": 0.46005794628415014
+     },
+     "D3 truth": {
+      "genes": 135,
+      "sign_agreement": 0.5333333333333333,
+      "spearman": 0.22111501316944693
+     },
+     "D2 truth": {
+      "genes": 189,
+      "sign_agreement": 0.5767195767195767,
+      "spearman": 0.2220711352850211
+     }
+    }
+   },
+   "w0y-specific relations split": {
+    "not along direction 1": {
+     "relations": 56,
+     "D2 rank support": 0,
+     "D2 effect support": 11,
+     "other donor measurable": 41,
+     "other donor support": 3,
+     "D2 rank support rate": 0.0,
+     "D2 effect support rate": 0.19642857142857142,
+     "other donor support rate": 0.07317073170731707
+    },
+    "along direction 1": {
+     "relations": 29,
+     "D2 rank support": 0,
+     "D2 effect support": 6,
+     "other donor measurable": 25,
+     "other donor support": 6,
+     "D2 rank support rate": 0.0,
+     "D2 effect support rate": 0.20689655172413793,
+     "other donor support rate": 0.24
+    }
+   },
+   "largest responses along direction 1": [
+    {
+     "symbol": "TYMS",
+     "block0": 0.851,
+     "component": 0.671,
+     "block1": 0.559,
+     "D1 truth": 0.298,
+     "D3 truth": 0.044,
+     "D2 truth": 0.438
+    },
+    {
+     "symbol": "H1-5",
+     "block0": 0.76,
+     "component": 0.795,
+     "block1": 0.505,
+     "D1 truth": 0.149,
+     "D3 truth": 0.272,
+     "D2 truth": 0.303
+    },
+    {
+     "symbol": "H1-2",
+     "block0": 0.549,
+     "component": 0.461,
+     "block1": 0.165,
+     "D1 truth": 0.086,
+     "D3 truth": 0.084,
+     "D2 truth": 0.098
+    },
+    {
+     "symbol": "RRM2",
+     "block0": 0.523,
+     "component": 0.474,
+     "block1": 0.326,
+     "D1 truth": 0.142,
+     "D3 truth": 0.16,
+     "D2 truth": 0.183
+    },
+    {
+     "symbol": "UHRF1",
+     "block0": 0.487,
+     "component": 0.412,
+     "block1": 0.354,
+     "D1 truth": 0.13,
+     "D3 truth": 0.03,
+     "D2 truth": 0.112
+    },
+    {
+     "symbol": "TUBA1B",
+     "block0": 0.483,
+     "component": 0.686,
+     "block1": 0.537,
+     "D1 truth": 0.215,
+     "D3 truth": 0.043,
+     "D2 truth": 0.163
+    },
+    {
+     "symbol": "HMGB2",
+     "block0": 0.483,
+     "component": 0.541,
+     "block1": 0.219,
+     "D1 truth": 0.247,
+     "D3 truth": 0.031,
+     "D2 truth": 0.129
+    },
+    {
+     "symbol": "H2BC9",
+     "block0": 0.482,
+     "component": 0.567,
+     "block1": 0.325,
+     "D1 truth": 0.214,
+     "D3 truth": 0.175,
+     "D2 truth": 0.067
+    },
+    {
+     "symbol": "TMEM106C",
+     "block0": 0.481,
+     "component": 0.353,
+     "block1": 0.314,
+     "D1 truth": 0.026,
+     "D3 truth": 0.007,
+     "D2 truth": 0.118
+    },
+    {
+     "symbol": "CRIP1",
+     "block0": 0.477,
+     "component": 0.298,
+     "block1": 0.521,
+     "D1 truth": 0.207,
+     "D3 truth": 0.288,
+     "D2 truth": 0.237
+    },
+    {
+     "symbol": "MCM4",
+     "block0": 0.472,
+     "component": 0.332,
+     "block1": 0.341,
+     "D1 truth": 0.138,
+     "D3 truth": 0.048,
+     "D2 truth": 0.248
+    },
+    {
+     "symbol": "SLFN5",
+     "block0": -0.466,
+     "component": -0.271,
+     "block1": -0.133,
+     "D1 truth": -0.069,
+     "D3 truth": -0.036,
+     "D2 truth": -0.1
+    },
+    {
+     "symbol": "CDK1",
+     "block0": 0.456,
+     "component": 0.547,
+     "block1": 0.466,
+     "D1 truth": 0.163,
+     "D3 truth": 0.088,
+     "D2 truth": 0.171
+    },
+    {
+     "symbol": "H4C3",
+     "block0": 0.453,
+     "component": 0.463,
+     "block1": 0.291,
+     "D1 truth": 0.113,
+     "D3 truth": 0.203,
+     "D2 truth": 0.192
+    },
+    {
+     "symbol": "HELLS",
+     "block0": 0.432,
+     "component": 0.331,
+     "block1": 0.299,
+     "D1 truth": 0.225,
+     "D3 truth": -0.064,
+     "D2 truth": 0.256
+    },
+    {
+     "symbol": "CENPF",
+     "block0": 0.415,
+     "component": 0.341,
+     "block1": 0.25,
+     "D1 truth": 0.113,
+     "D3 truth": null,
+     "D2 truth": 0.045
+    },
+    {
+     "symbol": "MKI67",
+     "block0": 0.372,
+     "component": 0.568,
+     "block1": 0.342,
+     "D1 truth": 0.208,
+     "D3 truth": 0.034,
+     "D2 truth": 0.079
+    },
+    {
+     "symbol": "MCM7",
+     "block0": 0.361,
+     "component": 0.36,
+     "block1": 0.276,
+     "D1 truth": 0.183,
+     "D3 truth": -0.036,
+     "D2 truth": 0.246
+    },
+    {
+     "symbol": "TOP2A",
+     "block0": 0.349,
+     "component": 0.504,
+     "block1": 0.475,
+     "D1 truth": 0.149,
+     "D3 truth": 0.102,
+     "D2 truth": 0.165
+    },
+    {
+     "symbol": "CENPM",
+     "block0": 0.336,
+     "component": 0.441,
+     "block1": 0.349,
+     "D1 truth": 0.155,
+     "D3 truth": 0.003,
+     "D2 truth": 0.231
+    },
+    {
+     "symbol": "VIM",
+     "block0": 0.335,
+     "component": 0.171,
+     "block1": 0.22,
+     "D1 truth": 0.199,
+     "D3 truth": -0.022,
+     "D2 truth": 0.068
+    },
+    {
+     "symbol": "MCM5",
+     "block0": 0.328,
+     "component": 0.237,
+     "block1": 0.24,
+     "D1 truth": 0.159,
+     "D3 truth": -0.051,
+     "D2 truth": 0.153
+    },
+    {
+     "symbol": "NCAPG2",
+     "block0": 0.309,
+     "component": 0.379,
+     "block1": 0.352,
+     "D1 truth": 0.167,
+     "D3 truth": -0.03,
+     "D2 truth": 0.128
+    },
+    {
+     "symbol": "SMC1A",
+     "block0": 0.308,
+     "component": 0.268,
+     "block1": 0.161,
+     "D1 truth": 0.101,
+     "D3 truth": -0.003,
+     "D2 truth": 0.009
+    },
+    {
+     "symbol": "IL7R",
+     "block0": -0.306,
+     "component": -0.193,
+     "block1": 0.185,
+     "D1 truth": -0.002,
+     "D3 truth": -0.156,
+     "D2 truth": -0.17
+    }
+   ]
+  }
+ }
+}

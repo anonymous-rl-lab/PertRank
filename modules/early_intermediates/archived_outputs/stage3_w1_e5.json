@@ -1,0 +1,301 @@
+{
+ "created_utc": "2026-09-26T04:10:28Z",
+ "integrity": {
+  "plan_sha256": "a4980412ee194cb2aee1a4d7d0f9cfdd523166066206fc6d815762dac92f5999",
+  "amendment_A2_sha256": "91fed42ea9ff76e62a2946fbcdbdcd4e15ceabaf0660cf801e784815c91ca117",
+  "amendment_A3_sha256": "dffb3749581f7e63434c486886a2a63da8aa8fcac0c3b1297c676d4d9f76a72b",
+  "amendment_A4_sha256": "39d9434b5d7bb31ae3099d85fcf43fd4e3fe8c6b79a1103bae069fd572b10456",
+  "amendment_A4a_sha256": "b8c81d8fcd05e9612eee80668b0eb0afc1fa4d24d447857c3cd119dcda0fc17a",
+  "amendment_A4b_sha256": "aa8e9305b11c48c24657f0f4eb6988161e99578561f489e2a76d172d3e4d1375",
+  "amendment_A4c_sha256": "00223179c146ca249543c3207715cc4d3806cafaf1e10d954ab7ea21b288666d",
+  "freeze": {
+   "evaluate_w1_e4.py": "daba866ef464135ac973a3faa1ac1f97be350b0f4018bbfcb4a6c8c1f966d1b6",
+   "evaluate_w1_e4_50.py": "48a3e1e8a3614eff72134433d71515be066b5905aaac974714f2b5a6ab5b9b3e",
+   "evaluate_w1_e5.py": "dc79bf96b6e028a67e75c3a99d388db6cc27da6da9fd0f905e6bc96cb48ba208",
+   "read_e4_block1.py": "1938851e01cca9f7111f2885302781ac01e01ff0871bad57c3904d1c97daea71",
+   "read_e4_w1.py": "8eab4828ef25aa2eb482c3fd94473cb12202dad7833d6877e3d16aa6b98a5c71",
+   "read_e5_w1.py": "616f87383d4974722c3c9fc2877ee6f86376e84cc4e16d288cdece4a1e14a407"
+  },
+  "data_sha256": "853f787997984c9c18e26ba080a5d144eda68f1aa2ef661d67795f7ac1b2364a"
+ },
+ "checks": {
+  "beta_zero_reproduces_w0y_20_abs": 4.5174541885018016e-10,
+  "beta_zero_reproduces_w0y_50_abs": 9.379529375408424e-10
+ },
+ "setting": {
+  "k": 5,
+  "beta": 0.9,
+  "genes": "all 10,940 detected genes",
+  "directions": "the target's own batch's 2,000 input controls (A4c section 2)"
+ },
+ "cells": {
+  "terciles 20": {
+   "role": "descriptive",
+   "raw": 0.02642433163063905,
+   "w0y": 0.026466666666666666,
+   "W1": 0.028933333333333332,
+   "W1_vs_w0y": {
+    "diff": 0.0024666666666666665,
+    "ci95": [
+     0.0001240333981687935,
+     0.004585355731225295
+    ],
+    "p_one_sided": 0.0185
+   },
+   "W1_vs_raw": {
+    "diff": 0.0025090017026942833,
+    "ci95": [
+     -9.556714887808735e-05,
+     0.0050390542249431
+    ]
+   },
+   "w0y_vs_raw": {
+    "diff": 4.233503602761572e-05
+   },
+   "weights": {
+    "mean": 0.00891386524232723,
+    "zero_fraction": 0.463,
+    "spearman_with_w0y": 0.6771274619116325,
+    "degenerate": false
+   }
+  },
+  "terciles 50": {
+   "role": "descriptive",
+   "raw": 0.028518406802329217,
+   "w0y": 0.029133333333333334,
+   "W1": 0.03173333333333333,
+   "W1_vs_w0y": {
+    "diff": 0.0026,
+    "ci95": [
+     0.0010569105691056908,
+     0.003867126417586421
+    ],
+    "p_one_sided": 0.001
+   },
+   "W1_vs_raw": {
+    "diff": 0.0032149265310041173,
+    "ci95": [
+     0.0001073468549693084,
+     0.0067547568165309095
+    ]
+   },
+   "w0y_vs_raw": {
+    "diff": 0.0006149265310041167
+   },
+   "weights": {
+    "mean": 0.01141307250696313,
+    "zero_fraction": 0.423,
+    "spearman_with_w0y": 0.6774657718252817,
+    "degenerate": false
+   }
+  },
+  "responsive 20": {
+   "role": "gatekeeper",
+   "raw": 0.028666666666666667,
+   "w0y": 0.032933333333333335,
+   "W1": 0.035199999999999995,
+   "W1_vs_w0y": {
+    "diff": 0.0022666666666666664,
+    "ci95": [
+     -0.0009019199374192232,
+     0.00517273307790549
+    ],
+    "p_one_sided": 0.093
+   },
+   "W1_vs_raw": {
+    "diff": 0.006533333333333334,
+    "ci95": [
+     0.004255168464830329,
+     0.009042587680518712
+    ]
+   },
+   "w0y_vs_raw": {
+    "diff": 0.004266666666666667
+   },
+   "weights": {
+    "mean": 0.00891386524232723,
+    "zero_fraction": 0.463,
+    "spearman_with_w0y": 0.6771274619116325,
+    "degenerate": false
+   }
+  },
+  "responsive 50": {
+   "role": "gatekeeper",
+   "raw": 0.0336,
+   "w0y": 0.04146666666666667,
+   "W1": 0.04226666666666667,
+   "W1_vs_w0y": {
+    "diff": 0.0008000000000000001,
+    "ci95": [
+     -0.0009253495170310117,
+     0.002425772872077892
+    ],
+    "p_one_sided": 0.186
+   },
+   "W1_vs_raw": {
+    "diff": 0.008666666666666666,
+    "ci95": [
+     0.004403118617693778,
+     0.01295491390009308
+    ]
+   },
+   "w0y_vs_raw": {
+    "diff": 0.007866666666666668
+   },
+   "weights": {
+    "mean": 0.01141307250696313,
+    "zero_fraction": 0.423,
+    "spearman_with_w0y": 0.6774657718252817,
+    "degenerate": false
+   }
+  }
+ },
+ "sensitivity": {
+  "all_genes_responsive_20": {
+   "k1_beta0.5": {
+    "diff": 0.00087,
+    "ci95": [
+     -0.00082,
+     0.00218
+    ]
+   },
+   "k1_beta0.9": {
+    "diff": 0.0006,
+    "ci95": [
+     -0.0024,
+     0.00308
+    ]
+   },
+   "k1_beta0.99": {
+    "diff": 0.00107,
+    "ci95": [
+     -0.00206,
+     0.00368
+    ]
+   },
+   "k3_beta0.5": {
+    "diff": 0.00087,
+    "ci95": [
+     -0.00104,
+     0.00282
+    ]
+   },
+   "k3_beta0.9": {
+    "diff": 0.0018,
+    "ci95": [
+     -0.00142,
+     0.00463
+    ]
+   },
+   "k3_beta0.99": {
+    "diff": 0.00207,
+    "ci95": [
+     -0.00103,
+     0.00513
+    ]
+   },
+   "k5_beta0.5": {
+    "diff": 0.00093,
+    "ci95": [
+     -0.00075,
+     0.00231
+    ]
+   },
+   "k5_beta0.9": {
+    "diff": 0.00227,
+    "ci95": [
+     -0.0009,
+     0.00517
+    ]
+   },
+   "k5_beta0.99": {
+    "diff": 0.0024,
+    "ci95": [
+     -0.00093,
+     0.00558
+    ]
+   },
+   "k10_beta0.5": {
+    "diff": 0.00093,
+    "ci95": [
+     -0.00074,
+     0.00229
+    ]
+   },
+   "k10_beta0.9": {
+    "diff": 0.0018,
+    "ci95": [
+     -0.0011,
+     0.00418
+    ]
+   },
+   "k10_beta0.99": {
+    "diff": 0.00227,
+    "ci95": [
+     -0.00029,
+     0.0047
+    ]
+   },
+   "k20_beta0.5": {
+    "diff": 0.00093,
+    "ci95": [
+     -0.00105,
+     0.00258
+    ]
+   },
+   "k20_beta0.9": {
+    "diff": 0.0016,
+    "ci95": [
+     -0.00126,
+     0.0043
+    ]
+   },
+   "k20_beta0.99": {
+    "diff": 0.00193,
+    "ci95": [
+     -0.00095,
+     0.00444
+    ]
+   }
+  },
+  "control_trace_share_top20_by_batch": [
+   0.0548,
+   0.0582,
+   0.0518
+  ]
+ },
+ "decision": {
+  "gatekeepers": {
+   "responsive 20": {
+    "diff": 0.0022666666666666664,
+    "ci95": [
+     -0.0009019199374192232,
+     0.00517273307790549
+    ],
+    "p_one_sided": 0.093
+   },
+   "responsive 50": {
+    "diff": 0.0008000000000000001,
+    "ci95": [
+     -0.0009253495170310117,
+     0.002425772872077892
+    ],
+    "p_one_sided": 0.186
+   }
+  },
+  "passes": {
+   "responsive 20": true,
+   "responsive 50": true
+  },
+  "all_pass": true,
+  "degenerate": false,
+  "rule": "a gatekeeper fails only if its 95% interval lies entirely below zero",
+  "gatekeepers_still_not_computed": [
+   "E1 20",
+   "E1 50",
+   "E3 20",
+   "E3 100"
+  ],
+  "note": "E1 and E3 were unreadable when this ran; see A4c section 1"
+ }
+}

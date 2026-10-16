@@ -1,0 +1,494 @@
+{
+  "status": "PASS_FOR_AVAILABLE_COMPLETED_CHECKPOINTS",
+  "complete_formal_result": true,
+  "aggregate_weights_match_all_saved_fits": true,
+  "moments_targets": 589,
+  "completed_fits": 2945,
+  "errors": {
+    "query_effect": 0.0,
+    "raw_energy": 0.0,
+    "trace_target": 1.3642420526593924e-12,
+    "euclidean_noise": 6.071532165918825e-18,
+    "euclidean_weight": 9.992007221626409e-16,
+    "fit_nu": 6.071532165918825e-18,
+    "fit_second_moment": 4.5102810375396984e-17,
+    "fit_weight": 1.0824674490095276e-15
+  },
+  "checkpoints": [
+    {
+      "lo": 0,
+      "hi": 8,
+      "moments_sha256": "5a994cc6b296bb34edb38f1bcd9682ac3bc13a3871e75096ce51bb1fef357353",
+      "completed_fits": 40
+    },
+    {
+      "lo": 8,
+      "hi": 16,
+      "moments_sha256": "22a9823f5a26f56e49f5cdcd1d5eea4e6292a8a95dd9bb6a5e437c213af8bedb",
+      "completed_fits": 40
+    },
+    {
+      "lo": 16,
+      "hi": 24,
+      "moments_sha256": "bde5a14688c8bb987ee1e445608085dc9f582ab13e292ca1d066fc2257970923",
+      "completed_fits": 40
+    },
+    {
+      "lo": 24,
+      "hi": 32,
+      "moments_sha256": "21a2db279c0a2f987023696333db55a3ba45a67007c7f72c317f3e1aef211c02",
+      "completed_fits": 40
+    },
+    {
+      "lo": 32,
+      "hi": 40,
+      "moments_sha256": "30bbc48763c26b01864ddc3f63e20d05adea1ff4272fc9fa1092a1d66a9e2850",
+      "completed_fits": 40
+    },
+    {
+      "lo": 40,
+      "hi": 48,
+      "moments_sha256": "e6441cee95f94b9695afc04ddcce0d372bf227811212b48b10950cc99ff692fe",
+      "completed_fits": 40
+    },
+    {
+      "lo": 48,
+      "hi": 56,
+      "moments_sha256": "936ce41debc0631adb07335d5159ae16a117f9a89d322a2e28cad4f33e646643",
+      "completed_fits": 40
+    },
+    {
+      "lo": 56,
+      "hi": 64,
+      "moments_sha256": "485b745f3b7daebebd7f1ce794e812ec00bc71d7aac93809a5d66c92bb6dcaba",
+      "completed_fits": 40
+    },
+    {
+      "lo": 64,
+      "hi": 72,
+      "moments_sha256": "4f11829e89be93b1ad78f5420eb42be68ace0d0ffc9aca60a808c0c07a1efc93",
+      "completed_fits": 40
+    },
+    {
+      "lo": 72,
+      "hi": 80,
+      "moments_sha256": "e08b0b6f3dcd89db787c735477c779b847692158e098a16bb6c4bc5648959c08",
+      "completed_fits": 40
+    },
+    {
+      "lo": 80,
+      "hi": 88,
+      "moments_sha256": "0732919e4458f6bc0c2bf03aa9b1c318f5d58dddceef5e76735e6686b1500f7c",
+      "completed_fits": 40
+    },
+    {
+      "lo": 88,
+      "hi": 96,
+      "moments_sha256": "868fb74b2a17e7607a0dc836ac6a03c97741d00418a742124eb36c21f113d581",
+      "completed_fits": 40
+    },
+    {
+      "lo": 96,
+      "hi": 104,
+      "moments_sha256": "24801ade4afb42bc3b4a83ab37e8cd0d30552b1fc59c240d79f90e5dfcae244c",
+      "completed_fits": 40
+    },
+    {
+      "lo": 104,
+      "hi": 112,
+      "moments_sha256": "2459551daebf89ff3414d0124e70abd0adedf41ed7fe9dab0321ae54bf81c532",
+      "completed_fits": 40
+    },
+    {
+      "lo": 112,
+      "hi": 120,
+      "moments_sha256": "5958af5223dd72db816ccb0c886b73bf50f8a12b84b9f258d6b5ba87b3251d72",
+      "completed_fits": 40
+    },
+    {
+      "lo": 120,
+      "hi": 128,
+      "moments_sha256": "68cee99314826e3b3738eb82a7a675f45c37bbc06dfe99cba3ec6202539e7beb",
+      "completed_fits": 40
+    },
+    {
+      "lo": 128,
+      "hi": 136,
+      "moments_sha256": "3475dab1283696a31277c5defe0501d0fb13c443f153f30b8084f26c0b766b16",
+      "completed_fits": 40
+    },
+    {
+      "lo": 136,
+      "hi": 144,
+      "moments_sha256": "332c79c9bd0b8207661aca25cfd8f342fc8fc7acdcf73cf1906a016ef3b56204",
+      "completed_fits": 40
+    },
+    {
+      "lo": 144,
+      "hi": 152,
+      "moments_sha256": "16bec9a25fdc7ffd97ca943928e48d4b783e11c283462452e438f4a6fbaed8da",
+      "completed_fits": 40
+    },
+    {
+      "lo": 152,
+      "hi": 160,
+      "moments_sha256": "8d2c19410f7ee693ed859e97f08785969c523b448ab9f664f69aeea53d4a2588",
+      "completed_fits": 40
+    },
+    {
+      "lo": 160,
+      "hi": 168,
+      "moments_sha256": "71c58c169aea6f7367cc7c2f0300ef804ffdbd720a2df6679b01df6b682ac481",
+      "completed_fits": 40
+    },
+    {
+      "lo": 168,
+      "hi": 176,
+      "moments_sha256": "1240e3a002f52f99fc97fd105dee1aecfecd6083b7e37350a2df3eb0b7ec1c49",
+      "completed_fits": 40
+    },
+    {
+      "lo": 176,
+      "hi": 184,
+      "moments_sha256": "bbf1058be9f7426165e1fea479662281059625820d6589af972c797c9f29bf05",
+      "completed_fits": 40
+    },
+    {
+      "lo": 184,
+      "hi": 192,
+      "moments_sha256": "4d0a5da0bae7b4d0a2a4a8f51d5a721f37b6fa9353d733d0f941cf497f3cf7e2",
+      "completed_fits": 40
+    },
+    {
+      "lo": 192,
+      "hi": 200,
+      "moments_sha256": "a9f0b0f58a0356bcc6d86bb4e2de4baef17cdea2c0ea127753e7870b52e6a970",
+      "completed_fits": 40
+    },
+    {
+      "lo": 200,
+      "hi": 208,
+      "moments_sha256": "499dde80a75efa3abca8c097e2bb00f6c732f60cc440611246d30ec015382dff",
+      "completed_fits": 40
+    },
+    {
+      "lo": 208,
+      "hi": 216,
+      "moments_sha256": "113f385e55a4cb72f8ebabbd6459191c75a61ba34ffc1f5a6ff00b637979b811",
+      "completed_fits": 40
+    },
+    {
+      "lo": 216,
+      "hi": 224,
+      "moments_sha256": "0f1b530d518c57ac34e8b687fae6ed403683f42100141fcb726ede2725a02772",
+      "completed_fits": 40
+    },
+    {
+      "lo": 224,
+      "hi": 232,
+      "moments_sha256": "d93a6e58063d50ac3fa708ad6591eebc16762d8e7c73d433683c627016e3039f",
+      "completed_fits": 40
+    },
+    {
+      "lo": 232,
+      "hi": 240,
+      "moments_sha256": "8329291665ced6cbb4cf69c3d5452fce9a24f87ff56f8b5bce73b5fc7b06070f",
+      "completed_fits": 40
+    },
+    {
+      "lo": 240,
+      "hi": 248,
+      "moments_sha256": "42786eeade166fc8390eb0521f6b6145ec0118b0c9ab132157ba82801d6e9711",
+      "completed_fits": 40
+    },
+    {
+      "lo": 248,
+      "hi": 256,
+      "moments_sha256": "f4c22666eb910b3367726f75a0395a5756cb455700a004a7422ece4a02f9b6ba",
+      "completed_fits": 40
+    },
+    {
+      "lo": 256,
+      "hi": 264,
+      "moments_sha256": "3f9ddfe4ccd097ec31b2bf5e56fb5cf4db4ab5faad3f33cee52987bee3263574",
+      "completed_fits": 40
+    },
+    {
+      "lo": 264,
+      "hi": 272,
+      "moments_sha256": "61dcc1179324d8f338d3307c261c2299ed0ae0eb5f5231a28a85497651d6ed70",
+      "completed_fits": 40
+    },
+    {
+      "lo": 272,
+      "hi": 280,
+      "moments_sha256": "210bb27269a2c43d0374ebb3af1becab3b5c70e2cd2ff2e38c7f556a42157fcf",
+      "completed_fits": 40
+    },
+    {
+      "lo": 280,
+      "hi": 288,
+      "moments_sha256": "fd768dca84c7ea1e78c07fa1fa5afbf590fde15321f729001eef14a753cf2cc4",
+      "completed_fits": 40
+    },
+    {
+      "lo": 288,
+      "hi": 296,
+      "moments_sha256": "37b78bdcfdad623222c034696a6e8dcdae6d333a05055c602f8751dc74360726",
+      "completed_fits": 40
+    },
+    {
+      "lo": 296,
+      "hi": 304,
+      "moments_sha256": "1c15892d2037fbc3783a89befb45b37a2ab6fdb81f8dbcff50682525c0631347",
+      "completed_fits": 40
+    },
+    {
+      "lo": 304,
+      "hi": 312,
+      "moments_sha256": "fe770321e90b5b375ac1fe1a18f70e3e7efe482dd0eb6795db44f6d94eca66af",
+      "completed_fits": 40
+    },
+    {
+      "lo": 312,
+      "hi": 320,
+      "moments_sha256": "c42128a854170d7eebca07905543ec854aad1fe5ee16a4a5cda3b6291d773441",
+      "completed_fits": 40
+    },
+    {
+      "lo": 320,
+      "hi": 328,
+      "moments_sha256": "b3b2b5bd6d577d384933a929ee156823daee027dcaed99b83b57c47ccff1657d",
+      "completed_fits": 40
+    },
+    {
+      "lo": 328,
+      "hi": 336,
+      "moments_sha256": "d0ec60a1d89a4696992c1901fdba0ed7d2bc1827baca2e1868930d3c5f60d134",
+      "completed_fits": 40
+    },
+    {
+      "lo": 336,
+      "hi": 344,
+      "moments_sha256": "d36b62ff13bb7861860ee5e9d69f26cdecd45680cbd29be6430280c354d0260a",
+      "completed_fits": 40
+    },
+    {
+      "lo": 344,
+      "hi": 352,
+      "moments_sha256": "cd7cd92bbcf994d160420b76fb927f6851f46b70054fc82bb6dd871c9a8bc05e",
+      "completed_fits": 40
+    },
+    {
+      "lo": 352,
+      "hi": 360,
+      "moments_sha256": "933a059ce4eac69f38755176ce214a27b174f817b631214974549cad03796e35",
+      "completed_fits": 40
+    },
+    {
+      "lo": 360,
+      "hi": 368,
+      "moments_sha256": "9475777e644d41147f29efaec98d1bf4234441885ce49b5bc906961adf221bf1",
+      "completed_fits": 40
+    },
+    {
+      "lo": 368,
+      "hi": 376,
+      "moments_sha256": "28b3fdc8abb79686090f459104e2395dfb8ffe002a955eb8d54a0300c88d673f",
+      "completed_fits": 40
+    },
+    {
+      "lo": 376,
+      "hi": 384,
+      "moments_sha256": "bf0b796025a64d82ac5bbe7c97aba280331e0c9c90abe2044109b83f481d3072",
+      "completed_fits": 40
+    },
+    {
+      "lo": 384,
+      "hi": 392,
+      "moments_sha256": "4cadd19eaec243b05a7bc65624b18f025bd52773a6c122bab39a15629a5759f7",
+      "completed_fits": 40
+    },
+    {
+      "lo": 392,
+      "hi": 400,
+      "moments_sha256": "2c37811fd2fbdc377a86b40b8b66c0243bf4b5e79f94dce89afeb98e17d14b0c",
+      "completed_fits": 40
+    },
+    {
+      "lo": 400,
+      "hi": 408,
+      "moments_sha256": "9b4d0b40c0de519783bfd85af7578b6bf4d0cfb8fb7e8f3e8ff81ffef0ec7722",
+      "completed_fits": 40
+    },
+    {
+      "lo": 408,
+      "hi": 416,
+      "moments_sha256": "7e6fcbfe9b16894903253012570394c15e44616ed3be9f3aff8f74bac7b25927",
+      "completed_fits": 40
+    },
+    {
+      "lo": 416,
+      "hi": 424,
+      "moments_sha256": "4540c388e1eb5d40a696592302cece99cb93394550292d64b50aed23099be6c3",
+      "completed_fits": 40
+    },
+    {
+      "lo": 424,
+      "hi": 432,
+      "moments_sha256": "c76d87e5253cdabe48fb35cad34374eacb7f590ac0799bda9d36ae2ea0f256aa",
+      "completed_fits": 40
+    },
+    {
+      "lo": 432,
+      "hi": 440,
+      "moments_sha256": "692ea7547955613991e37f8199de1f15155113b5004a958d4beb1651d703e9d5",
+      "completed_fits": 40
+    },
+    {
+      "lo": 440,
+      "hi": 448,
+      "moments_sha256": "39f6ae63e3056ce6d2e7c615ca398a124ac060e1aba99dc04603e1fb8c3abc56",
+      "completed_fits": 40
+    },
+    {
+      "lo": 448,
+      "hi": 456,
+      "moments_sha256": "da6e1d2d0a6177cf680a879eb1736d2a6d9d79c48a0874cacdbe089de16acff8",
+      "completed_fits": 40
+    },
+    {
+      "lo": 456,
+      "hi": 464,
+      "moments_sha256": "0f4dcfa029d98f7b88e1e21d2b6e8c119838853a6246e20b3a239fee90fd1ac1",
+      "completed_fits": 40
+    },
+    {
+      "lo": 464,
+      "hi": 472,
+      "moments_sha256": "9f00cddcf8508ce1308b3b578ba6ea958baf13fc91a4281f688d23c7b6d3b7d3",
+      "completed_fits": 40
+    },
+    {
+      "lo": 472,
+      "hi": 480,
+      "moments_sha256": "4d43402b086011ba2466d13e90ca43d303deb543ece8dab0350a1e5e22468a6e",
+      "completed_fits": 40
+    },
+    {
+      "lo": 480,
+      "hi": 488,
+      "moments_sha256": "6fb45f397a3650e09ecf114dc9070a5468f00dd8e6bbc934d6eb1c54e5ea881f",
+      "completed_fits": 40
+    },
+    {
+      "lo": 488,
+      "hi": 496,
+      "moments_sha256": "dc08298b3afdeddfecf7f1ff1bb969c61c5dcec247f6826a208235f9305b5110",
+      "completed_fits": 40
+    },
+    {
+      "lo": 496,
+      "hi": 504,
+      "moments_sha256": "fe780386386ea156f3bd4c8f4955ee67de1be43b2976e5882ef3b27c328150d1",
+      "completed_fits": 40
+    },
+    {
+      "lo": 504,
+      "hi": 512,
+      "moments_sha256": "b6c690ccf890617d69bf6fc77b6c4f4d92e7e670199258cab7ba444f2e256da6",
+      "completed_fits": 40
+    },
+    {
+      "lo": 512,
+      "hi": 520,
+      "moments_sha256": "ec66d80f0f86a5025a98ba59cca1fbb4a10667e37b4a9fd78ca1e965cf2c0750",
+      "completed_fits": 40
+    },
+    {
+      "lo": 520,
+      "hi": 528,
+      "moments_sha256": "cb66f7d7b21bea4ec5403dc4c46511c1e6035b757d70f180dc0570323068a85a",
+      "completed_fits": 40
+    },
+    {
+      "lo": 528,
+      "hi": 536,
+      "moments_sha256": "7ed91c19a18341fec57d6f32672123e016a1add7f8751731bff27ab054934778",
+      "completed_fits": 40
+    },
+    {
+      "lo": 536,
+      "hi": 544,
+      "moments_sha256": "4744f34863d5df7e369a22a67ec2ee153f41e0742918f1377399e475d58e37bc",
+      "completed_fits": 40
+    },
+    {
+      "lo": 544,
+      "hi": 552,
+      "moments_sha256": "512c830622fdaece3b16af35ee8e691ce117396a1e7e7f727bc4783f798dca9d",
+      "completed_fits": 40
+    },
+    {
+      "lo": 552,
+      "hi": 560,
+      "moments_sha256": "da5dacdda80d9ce9b8b973143c76dcac75d4efd234112cd78a4c08e1137fc1de",
+      "completed_fits": 40
+    },
+    {
+      "lo": 560,
+      "hi": 568,
+      "moments_sha256": "3f35ca8801259732a20079d32c2282b31e66cef0fe5faa8e357b8f5b413f93f8",
+      "completed_fits": 40
+    },
+    {
+      "lo": 568,
+      "hi": 576,
+      "moments_sha256": "cbb2d32f2738d60fa2fdefe88f5b851e445bfa9944e08d1615557ce7df86dfbd",
+      "completed_fits": 40
+    },
+    {
+      "lo": 576,
+      "hi": 584,
+      "moments_sha256": "82c9aba39557d4cefed587de7fce5c6f1b53ea5d191cde1780bebdbbd8daf893",
+      "completed_fits": 40
+    },
+    {
+      "lo": 584,
+      "hi": 589,
+      "moments_sha256": "11e87d216a6745ffafd8ee1c08b39d8563835dfc965172a9a252557656d5d8fe",
+      "completed_fits": 25
+    }
+  ],
+  "unique_R_runtimes": [
+    {
+      "R": "R version 4.4.3 (2025-02-28)",
+      "ashr": "2.2.63",
+      "component_family": "halfuniform",
+      "jsonlite": "2.0.0",
+      "prior": "uniform",
+      "upstream_commit": "3432d108c43325e9df65276563d65144a26b69ce"
+    }
+  ],
+  "source_formula_review": {
+    "effect": "float64 log1p(full-count-normalized selected raw input) mean minus archived cm",
+    "SE_squared": "unbiased target sample variance /20 + archived control variance /2000",
+    "gene_axis": "complete original D4 control-derived keep axis; no query or significance filtering",
+    "latent_second_moment": "S = mixture variance + mixture mean squared",
+    "weight": "S/(S+mean(SE_squared))",
+    "prediction": "weight times original gene effect",
+    "identity": "original frozen input cells and group order; post-hoc comparison"
+  },
+  "python_dependency_hashes": {
+    "restored/v18_d4_confirmation/prediction/engine.py": "1910bf79496cebe51ec6111c6b54acd8daca3fa65c196afa471a6a425a9fb6c8",
+    "restored/v18_d4_confirmation/reader/vendor/row_transport.py": "2e43efbcb6fca551c9031cc936e407954efb07baaa8cbb81eee3b93422ae0059",
+    "restored/v18_d4_confirmation/reader/vendor/hdf5_chunk_index.py": "99cbecbd3056175d43bbf91c5dfa90c6abcc5ad0aa480cc9a606d0f58781fe77"
+  },
+  "core_sha256": "b2fc72c0e5d7c2cde9631e73e33a95cdfed23a31b3a93c5d7141332452426320",
+  "adapter_sha256": "453a729283e530db8a716472172b7053982f2c8ff93da06185e2db7902556e7f",
+  "accepted_runner_hashes": [
+    "68ddb7fc4f12d69c5dad9b101f389feb8310c729f082c5b5831d130a815037a0",
+    "dc2c03d20c49b0e42d730dd34e231eeda19848b454235d7113e51b28eeb70740"
+  ],
+  "scope": "Input moment and saved checkpoint audit only. Does not independently re-download raw rows or refit TRADE."
+}

@@ -1,0 +1,144 @@
+{
+  "status": "PASS",
+  "net_reference_members": {
+    "estimate": 0.3787079406902934,
+    "lower": 0.3272104223007851,
+    "upper": 0.4467451276256013
+  },
+  "alignment_groups": [
+    {
+      "group": "low",
+      "target_count": 179,
+      "supported_gain": 0.3311593391668769,
+      "supported_loss": 0.09575953051204307,
+      "net_supported": 0.23539980865483376,
+      "net_supported_lower": 0.200441374689578,
+      "net_supported_upper": 0.2825657149919184
+    },
+    {
+      "group": "middle",
+      "target_count": 180,
+      "supported_gain": 0.5183339666396902,
+      "supported_loss": 0.2065211119167554,
+      "net_supported": 0.3118128547229348,
+      "net_supported_lower": 0.2856361893084056,
+      "net_supported_upper": 0.3403073353718239
+    },
+    {
+      "group": "high",
+      "target_count": 180,
+      "supported_gain": 0.16276319176319176,
+      "supported_loss": 0.3342605369287935,
+      "net_supported": -0.1714973451656017,
+      "net_supported_lower": -0.1963009348981377,
+      "net_supported_upper": -0.1392890066833697
+    },
+    {
+      "group": "unclassified",
+      "target_count": 22,
+      "supported_gain": 0.009333333333333332,
+      "supported_loss": 0.0063407108552068405,
+      "net_supported": 0.0029926224781264927,
+      "net_supported_lower": -0.0012737863589165604,
+      "net_supported_upper": 0.006916592773221016
+    }
+  ],
+  "coefficients": [
+    {
+      "series": "observed",
+      "estimate": -0.0002503550113350462,
+      "lower": -0.000273653424185144,
+      "upper": -0.0002330586323828223
+    },
+    {
+      "series": "reference_neutral",
+      "estimate": -5.5669328937105186e-05,
+      "lower": -5.757844622211014e-05,
+      "upper": -5.3752504980069163e-05
+    },
+    {
+      "series": "observed_minus_neutral",
+      "estimate": -0.00019468568239794102,
+      "lower": -0.00021797184120510326,
+      "upper": -0.00017730888382824588
+    }
+  ],
+  "weight_transitions": [
+    {
+      "transition": "both_zero",
+      "target_input_count": 215,
+      "net_supported": -7.3775218735076016e-06,
+      "net_supported_lower": -2.6892721059374687e-05,
+      "net_supported_upper": 0.0
+    },
+    {
+      "transition": "Euclidean_zero_PertRank_positive",
+      "target_input_count": 447,
+      "net_supported": 0.008914997431946585,
+      "net_supported_lower": 0.004376767676767678,
+      "net_supported_upper": 0.01387329006865835
+    },
+    {
+      "transition": "Euclidean_positive_PertRank_zero",
+      "target_input_count": 82,
+      "net_supported": -0.0003333333333333334,
+      "net_supported_lower": -0.0010419407894736842,
+      "net_supported_upper": 0.0
+    },
+    {
+      "transition": "both_positive_PertRank_lower",
+      "target_input_count": 1475,
+      "net_supported": -0.08761830064091371,
+      "net_supported_lower": -0.12524956150386432,
+      "net_supported_upper": -0.04301276602619846
+    },
+    {
+      "transition": "both_positive_equal",
+      "target_input_count": 0,
+      "net_supported": 0.0,
+      "net_supported_lower": 0.0,
+      "net_supported_upper": 0.0
+    },
+    {
+      "transition": "both_positive_PertRank_higher",
+      "target_input_count": 586,
+      "net_supported": 0.4577519547544673,
+      "net_supported_lower": 0.4209922666772808,
+      "net_supported_upper": 0.5072638982036126
+    }
+  ],
+  "leave_one_block_out": {
+    "primary_P_at_25": {
+      "minimum": 0.01468704646252979,
+      "maximum": 0.016001883225412628
+    },
+    "observed": {
+      "minimum": -0.00025763301375233803,
+      "maximum": -0.00024712942061657164
+    },
+    "reference_neutral": {
+      "minimum": -5.606762533040982e-05,
+      "maximum": -5.516803550323162e-05
+    },
+    "observed_minus_neutral": {
+      "minimum": -0.00020156538842192815,
+      "maximum": -0.00019153034170489615
+    },
+    "low_net_members": {
+      "minimum": 0.22925246475605032,
+      "maximum": 0.24836480074695874
+    },
+    "middle_net_members": {
+      "minimum": 0.30731691609856804,
+      "maximum": 0.3187979331440321
+    },
+    "high_net_members": {
+      "minimum": -0.17693381531577645,
+      "maximum": -0.16527461726063697
+    },
+    "unclassified_net_members": {
+      "minimum": 0.001132268986456075,
+      "maximum": 0.0038384151868459714
+    }
+  }
+}

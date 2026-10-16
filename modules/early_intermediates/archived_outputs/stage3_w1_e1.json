@@ -1,0 +1,451 @@
+{
+ "created_utc": "2026-09-26T08:45:37Z",
+ "integrity": {
+  "plan_sha256": "a4980412ee194cb2aee1a4d7d0f9cfdd523166066206fc6d815762dac92f5999",
+  "amendment_A2_sha256": "91fed42ea9ff76e62a2946fbcdbdcd4e15ceabaf0660cf801e784815c91ca117",
+  "amendment_A3_sha256": "dffb3749581f7e63434c486886a2a63da8aa8fcac0c3b1297c676d4d9f76a72b",
+  "amendment_A4_sha256": "39d9434b5d7bb31ae3099d85fcf43fd4e3fe8c6b79a1103bae069fd572b10456",
+  "amendment_A4a_sha256": "b8c81d8fcd05e9612eee80668b0eb0afc1fa4d24d447857c3cd119dcda0fc17a",
+  "amendment_A4b_sha256": "aa8e9305b11c48c24657f0f4eb6988161e99578561f489e2a76d172d3e4d1375",
+  "amendment_A4d_sha256": "e1c0a038ddadf3a92681d12bfd69cc00b82d97596536cf48344dcf30f03c2ac8",
+  "freeze": {
+   "evaluate_w1_e1.py": "5cb864bb2fa13400b40499b05172ce330d843145a5e0e9381d97e51177c758cd",
+   "evaluate_w1_e4.py": "daba866ef464135ac973a3faa1ac1f97be350b0f4018bbfcb4a6c8c1f966d1b6",
+   "read_e1_w1.py": "9a9543902e39572f9c035e054b108a9e25be854333a450cc7a7fccac80afcec5",
+   "read_e4_w1.py": "8eab4828ef25aa2eb482c3fd94473cb12202dad7833d6877e3d16aa6b98a5c71"
+  },
+  "data_sha256": "9a47d008d68c35e9520fe7202dadf646e8234bad34f3cecaadd4e8a75270009b"
+ },
+ "checks": {
+  "beta_zero_reproduces_w0y_20_abs": 0.0,
+  "beta_zero_reproduces_w0y_50_abs": 0.0
+ },
+ "read_checks": {
+  "synthetic": false,
+  "input_sha256": {
+   "stage6_data/input_20/cells.npz": "728a22d991c9805024c56aa9275fe0942e398c107ac1df35a1871464af059549",
+   "stage6_data/input_50/cells.npz": "a1d30d12a7e1aa022c618512d7994050d4f7884ed0b1f6ba0f1a8f7e4cbcc02a",
+   "stage6_data/partition.npz": "a9134cec264fbeb0fd743a69f25ba36cf5840daf48256574c39070ef01904c92",
+   "stage6_data/gwps_obs.npz": "7bd28af257a3806b3131e13acd090d55c30bbf09e404df765acaf26e61224403",
+   "e1_stage6.npz": "d79f3d5c18f6317fbe8d1ef62b86efdbfaeb7f1f6463af5267955ba7cd67beba"
+  },
+  "mirror": {
+   "path": "/tmp/claude-0/-home-claude/9883ff7b-9cf6-5196-ac03-1843022b5012/scratchpad/stage6_mirror/ReplogleWeissman2022_K562_gwps.h5ad",
+   "bytes": 8805466154,
+   "md5": "13db594f8f1d2ccb88fec44a13e414dc"
+  },
+  "mirror_obs": {
+   "umi_identical_on_used_rows": true,
+   "target_label_identical_on_input_rows": true,
+   "controls_labelled_non_targeting": true
+  },
+  "control_mean_vs_package": {
+   "n": 8202,
+   "bit_identical": 8202,
+   "max_abs_diff": 0.0,
+   "within_tolerance": true
+  },
+  "control_var_vs_package": {
+   "n": 8202,
+   "bit_identical": 8202,
+   "max_abs_diff": 0.0,
+   "within_tolerance": true
+  },
+  "control_mean_vs_audit": {
+   "n": 8202,
+   "bit_identical": 8202,
+   "max_abs_diff": 0.0,
+   "within_tolerance": true
+  },
+  "control_trace_over_G_vs_reduced_cvm": {
+   "read": 0.1700746523675707,
+   "reduced": 0.17007465243804631,
+   "rel_diff": 4.143805342259793e-10
+  },
+  "eigenvalue_agreement_max_rel": 5.242105942609121e-15,
+  "query_mean_20_vs_om20_q": {
+   "n": 600000,
+   "bit_identical": 600000,
+   "max_abs_diff": 0.0,
+   "within_tolerance": true
+  },
+  "query_mean_50_vs_om50_q": {
+   "n": 600000,
+   "bit_identical": 600000,
+   "max_abs_diff": 0.0,
+   "within_tolerance": true
+  },
+  "audit_mean_20": {
+   "n": 82020,
+   "bit_identical": 82020,
+   "max_abs_diff": 0.0,
+   "within_tolerance": true
+  },
+  "audit_var_20": {
+   "n": 82020,
+   "bit_identical": 82020,
+   "max_abs_diff": 0.0,
+   "within_tolerance": true
+  },
+  "audit_mean_50": {
+   "n": 82020,
+   "bit_identical": 82020,
+   "max_abs_diff": 0.0,
+   "within_tolerance": true
+  },
+  "audit_var_50": {
+   "n": 82020,
+   "bit_identical": 82020,
+   "max_abs_diff": 0.0,
+   "within_tolerance": true
+  },
+  "euclidean_terms_from_packages_vs_reduced_max_rel": 1.9840342327647172e-14,
+  "all_values_bit_identical": true
+ },
+ "setting": {
+  "k": 5,
+  "beta": 0.9,
+  "genes": "all 8,202 shared genes",
+  "directions": "the 2,000 stage-6 input controls (A4d section 2)",
+  "data_source": "Zenodo scPerturb mirror of the stage-6 file, MD5 13db594f8f1d2ccb88fec44a13e414dc"
+ },
+ "cells": {
+  "reference-variance 20": {
+   "role": "gatekeeper",
+   "raw": 0.18059506172839504,
+   "w0y": 0.28973333333333334,
+   "W1": 0.2952,
+   "W1_vs_w0y": {
+    "diff": 0.005466666666666667,
+    "ci95": [
+     8.286395176654836e-19,
+     0.011800964125560533
+    ],
+    "p_one_sided": 0.0245
+   },
+   "W1_vs_raw": {
+    "diff": 0.11460493827160494,
+    "ci95": [
+     0.10311363372565407,
+     0.12307298008625062
+    ]
+   },
+   "w0y_vs_raw": {
+    "diff": 0.10913827160493829
+   },
+   "weights": {
+    "mean": 0.025425504555463063,
+    "zero_fraction": 0.3265,
+    "spearman_with_w0y": 0.7755660382386701,
+    "degenerate": false
+   }
+  },
+  "reference-variance 50": {
+   "role": "gatekeeper",
+   "raw": 0.3012,
+   "w0y": 0.37233333333333335,
+   "W1": 0.3738,
+   "W1_vs_w0y": {
+    "diff": 0.0014666666666666673,
+    "ci95": [
+     -0.0019878978779840854,
+     0.0055822714240203845
+    ],
+    "p_one_sided": 0.216
+   },
+   "W1_vs_raw": {
+    "diff": 0.0726,
+    "ci95": [
+     0.05152598553640368,
+     0.08879164517792677
+    ]
+   },
+   "w0y_vs_raw": {
+    "diff": 0.07113333333333333
+   },
+   "weights": {
+    "mean": 0.048587551706469397,
+    "zero_fraction": 0.1995,
+    "spearman_with_w0y": 0.8639670302573668,
+    "degenerate": false
+   }
+  }
+ },
+ "sensitivity": {
+  "grid_all_genes_20": {
+   "k1_beta0.5": {
+    "diff": 0.00507,
+    "ci95": [
+     0.00193,
+     0.00827
+    ]
+   },
+   "k1_beta0.9": {
+    "diff": 0.00313,
+    "ci95": [
+     -0.00225,
+     0.00912
+    ]
+   },
+   "k1_beta0.99": {
+    "diff": 0.00073,
+    "ci95": [
+     -0.00462,
+     0.00721
+    ]
+   },
+   "k3_beta0.5": {
+    "diff": 0.0072,
+    "ci95": [
+     0.00367,
+     0.01076
+    ]
+   },
+   "k3_beta0.9": {
+    "diff": 0.00393,
+    "ci95": [
+     -0.00145,
+     0.01005
+    ]
+   },
+   "k3_beta0.99": {
+    "diff": 0.00167,
+    "ci95": [
+     -0.00425,
+     0.00854
+    ]
+   },
+   "k5_beta0.5": {
+    "diff": 0.00813,
+    "ci95": [
+     0.00511,
+     0.01153
+    ]
+   },
+   "k5_beta0.9": {
+    "diff": 0.00547,
+    "ci95": [
+     0.0,
+     0.0118
+    ]
+   },
+   "k5_beta0.99": {
+    "diff": 0.00213,
+    "ci95": [
+     -0.00422,
+     0.00967
+    ]
+   },
+   "k10_beta0.5": {
+    "diff": 0.00627,
+    "ci95": [
+     0.00332,
+     0.01011
+    ]
+   },
+   "k10_beta0.9": {
+    "diff": 0.00107,
+    "ci95": [
+     -0.00452,
+     0.00856
+    ]
+   },
+   "k10_beta0.99": {
+    "diff": -0.0028,
+    "ci95": [
+     -0.00901,
+     0.00538
+    ]
+   },
+   "k20_beta0.5": {
+    "diff": 0.0056,
+    "ci95": [
+     0.00321,
+     0.00881
+    ]
+   },
+   "k20_beta0.9": {
+    "diff": -0.0006,
+    "ci95": [
+     -0.00567,
+     0.0063
+    ]
+   },
+   "k20_beta0.99": {
+    "diff": -0.00473,
+    "ci95": [
+     -0.01073,
+     0.00349
+    ]
+   }
+  },
+  "directions_6_to_20_only_20": {
+   "diff": -0.00833,
+   "ci95": [
+    -0.01221,
+    -0.00503
+   ]
+  },
+  "non_query_genes_20": {
+   "diff": -0.00193,
+   "ci95": [
+    -0.00742,
+    0.00419
+   ]
+  },
+  "grid_all_genes_50": {
+   "k1_beta0.5": {
+    "diff": 0.00253,
+    "ci95": [
+     0.00053,
+     0.00487
+    ]
+   },
+   "k1_beta0.9": {
+    "diff": 0.00213,
+    "ci95": [
+     -0.00075,
+     0.00561
+    ]
+   },
+   "k1_beta0.99": {
+    "diff": 0.00107,
+    "ci95": [
+     -0.00211,
+     0.00471
+    ]
+   },
+   "k3_beta0.5": {
+    "diff": 0.0026,
+    "ci95": [
+     0.00051,
+     0.00504
+    ]
+   },
+   "k3_beta0.9": {
+    "diff": 0.00127,
+    "ci95": [
+     -0.00232,
+     0.00535
+    ]
+   },
+   "k3_beta0.99": {
+    "diff": -0.00013,
+    "ci95": [
+     -0.00428,
+     0.00457
+    ]
+   },
+   "k5_beta0.5": {
+    "diff": 0.0024,
+    "ci95": [
+     0.00045,
+     0.00473
+    ]
+   },
+   "k5_beta0.9": {
+    "diff": 0.00147,
+    "ci95": [
+     -0.00199,
+     0.00558
+    ]
+   },
+   "k5_beta0.99": {
+    "diff": 0.00047,
+    "ci95": [
+     -0.00407,
+     0.0054
+    ]
+   },
+   "k10_beta0.5": {
+    "diff": 0.00027,
+    "ci95": [
+     -0.00152,
+     0.00259
+    ]
+   },
+   "k10_beta0.9": {
+    "diff": -0.00187,
+    "ci95": [
+     -0.00476,
+     0.00196
+    ]
+   },
+   "k10_beta0.99": {
+    "diff": -0.00433,
+    "ci95": [
+     -0.00837,
+     0.00094
+    ]
+   },
+   "k20_beta0.5": {
+    "diff": 0.00087,
+    "ci95": [
+     -0.00075,
+     0.0029
+    ]
+   },
+   "k20_beta0.9": {
+    "diff": -0.00347,
+    "ci95": [
+     -0.00657,
+     0.00059
+    ]
+   },
+   "k20_beta0.99": {
+    "diff": -0.00633,
+    "ci95": [
+     -0.01012,
+     -0.0015
+    ]
+   }
+  },
+  "directions_6_to_20_only_50": {
+   "diff": -0.00467,
+   "ci95": [
+    -0.00856,
+    -0.00136
+   ]
+  },
+  "non_query_genes_50": {
+   "diff": -0.00173,
+   "ci95": [
+    -0.00585,
+    0.00221
+   ]
+  },
+  "control_trace_share_top_k": {
+   "1": 0.0153,
+   "5": 0.0419,
+   "10": 0.0568,
+   "20": 0.0735
+  }
+ },
+ "decision": {
+  "gatekeepers": {
+   "E1 20": {
+    "diff": 0.005466666666666667,
+    "ci95": [
+     8.286395176654836e-19,
+     0.011800964125560533
+    ],
+    "p_one_sided": 0.0245
+   },
+   "E1 50": {
+    "diff": 0.0014666666666666673,
+    "ci95": [
+     -0.0019878978779840854,
+     0.0055822714240203845
+    ],
+    "p_one_sided": 0.216
+   }
+  },
+  "passes": {
+   "E1 20": true,
+   "E1 50": true
+  },
+  "all_pass": true,
+  "degenerate": false,
+  "rule": "a gatekeeper fails only if its 95% interval lies entirely below zero; weights all zero or all equal fail"
+ }
+}

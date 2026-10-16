@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "version": "v20.0",
+  "fixture": "Synthetic raw counts, 2000 controls, 8 targets x20 cells, 321 full genes including a target-only count gene",
+  "max_absolute_error": {
+    "dense_memory": 0.0,
+    "dense_backed": 0.0,
+    "csr_memory": 0.0,
+    "csr_backed": 0.0
+  },
+  "elapsed_seconds": {
+    "dense_memory": 0.027255478002189193,
+    "dense_backed": 0.037634259002516046,
+    "csr_memory": 0.03845564299990656,
+    "csr_backed": 0.08925591200386407
+  },
+  "peak_process_rss_MiB": 133.08203125,
+  "full_axis_normalization": true,
+  "shuffled_rows": true,
+  "dense_and_CSR": true,
+  "backed_and_in_memory": true,
+  "CLI_both_formats": true,
+  "scope": "Software correctness and example cost; no claim of original raw cohort timing",
+  "anndata_version": "0.13.4"
+}

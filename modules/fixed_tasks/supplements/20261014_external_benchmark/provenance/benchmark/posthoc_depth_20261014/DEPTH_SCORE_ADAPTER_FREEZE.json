@@ -1,0 +1,19 @@
+{
+  "status": "DEPTH_SCORING_ADAPTER_READY_BEFORE_FIRST_DEPTH_SCORE",
+  "created_utc": "2026-10-14T00:37:41.692321+00:00",
+  "adapter_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluate_depth_six_arm.py",
+  "adapter_sha256": "abc5b2ee1dae2556517f084126697cea2c62676d614456fba455071b348a0ebd",
+  "protocol_sha256": "bd529ba31eaf41cfff522716835d2f95aedc61bfd7a3fdae68e4140e7e6bb546",
+  "unmodified_primary_calls": [
+    "native_fr",
+    "validate_compact",
+    "score_arrays"
+  ],
+  "independent_audit": "audit/audit_six_arm.py run, K=25 and10, one input repetition",
+  "data_read_in_preparation": false,
+  "model_fit_in_preparation": false,
+  "owner_release_required": true,
+  "execution_command_template": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python fr_benchmark/posthoc_depth_20261014/evaluate_depth_six_arm.py --depth DEPTH --curve CURVE --fr-output-dir OWNER_UUID_OUTPUT_DIR --owner-completion OWNER_UUID_OUTPUT_DIR/OWNER_COMPLETION.json",
+  "all_inference_descriptive": true,
+  "main_protocol_and_scoring_code_modified": false
+}

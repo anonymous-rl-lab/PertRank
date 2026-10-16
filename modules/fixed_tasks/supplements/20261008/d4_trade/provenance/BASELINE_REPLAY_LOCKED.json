@@ -1,0 +1,73 @@
+{
+  "status": "pass",
+  "created_utc": "2026-10-08T14:53:11Z",
+  "identity": "baseline only; no new TRADE weights read",
+  "source_files": {
+    "predictions": {
+      "path": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/restored/v18_d4_confirmation/data/D4_Rest/predictions.npz",
+      "sha256": "4f06d79a11a54693b6115861b6b23708717ef1fc40d4ca38b2b89c6f28e42666"
+    },
+    "truth": {
+      "path": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/restored/v18_d4_confirmation/data/D4_Rest/truth.npz",
+      "sha256": "3ed963d1076079810afeeb0df3e4cfb6ee1cb9ff4da923cc5db462b87c96c09a"
+    },
+    "context": {
+      "path": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/restored/v18_d4_confirmation/data/D4_Rest/query_context.npz",
+      "sha256": "6d86658f85454e7c916a6415c008a78820b44f5b235eb9d38e74ceedcaa44eca"
+    },
+    "control": {
+      "path": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/restored/v18_d4_confirmation/data/D4_Rest/control_model.npz",
+      "sha256": "db1640cbbfd93ee86780b24c61b39ab720520bd68995ad048d9bcd7bad001dd3"
+    },
+    "cohort": {
+      "path": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/restored/v18_d4_confirmation/data/D4_Rest/cohort.npz",
+      "sha256": "26e994688af51acb0ac625c8baf603d5810805751d747261b7a7dbc135436fa3"
+    },
+    "old_scores": {
+      "path": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/restored/v18_d4_confirmation/results/query_scores_and_depth_bootstrap.npz",
+      "sha256": "c5fcee361069f2d21eb0da33754a4fc2f27506d2a37edf3f8cbabc16462e4d03"
+    },
+    "old_result": {
+      "path": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/restored/v18_d4_confirmation/results/D4_RESULT.json",
+      "sha256": "e89aab5d08a103b3db37b57a230387726bb7933af60328fc6cfa50e36c52e4d0"
+    },
+    "old_prediction_lock": {
+      "path": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/restored/v18_d4_confirmation/protocol/PREDICTION_LOCK.json",
+      "sha256": "9e38269eb3deabba3118f1833be26d72bda3d8537130687eda42a9e5e46c5a0c"
+    },
+    "old_scorer": {
+      "path": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/restored/v18_d4_confirmation/evaluation/score_d4.py",
+      "sha256": "3959f4dea817bb866b341220b554e1da3604c9c2c6f993035e28deea2b34691f"
+    },
+    "old_exact_scorer": {
+      "path": "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/restored/v18_d4_confirmation/evaluation/vendor/exact_score.py",
+      "sha256": "9f940b35031016a5287c0c4e1ce519058cc3357b8567787cc348999cb2ce9683"
+    }
+  },
+  "baseline_verification": {
+    "responsive": {
+      "score_values_exact": 12000,
+      "original_means_and_aggregate_intervals_exact": true
+    },
+    "terciles": {
+      "score_values_exact": 12000,
+      "original_means_and_aggregate_intervals_exact": true
+    }
+  },
+  "independent_fullsort": {
+    "responsive": {
+      "scores_checked": 12000,
+      "max_abs_difference": 3.469446951953614e-17,
+      "own_exclusions": 16,
+      "all_scores_passed": true
+    },
+    "terciles": {
+      "scores_checked": 12000,
+      "max_abs_difference": 8.326672684688674e-17,
+      "own_exclusions": 12,
+      "all_scores_passed": true
+    }
+  },
+  "score_code_sha256": "7546c551c0398041d934dec44e42a17345ec78a74aec8e0dc57f3c296cf9e787",
+  "exact_score_sha256": "9f940b35031016a5287c0c4e1ce519058cc3357b8567787cc348999cb2ce9683"
+}

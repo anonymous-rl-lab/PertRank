@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope": "synthetic ties/self exclusion and exact original legacy membership; no new method scored",
+  "legacy_membership_errors": {
+    "D3_Rest": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "D1_Rest": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "D2_Rest": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "code_sha256": "0f1588732574d82b0fcd97744caa84448aec748e0d9b412f12a0c493efb6760e"
+}

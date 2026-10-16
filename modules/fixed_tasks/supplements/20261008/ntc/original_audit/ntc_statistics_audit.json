@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "script_sha256": "d362ca04398120f48c8b03ce3bf4fb345619dd90ec10d5c76859471403b19e79",
+  "explicit_pair_equivalence": [
+    {
+      "guides": 2,
+      "genes": 1,
+      "direct_pair_energy": 0.6720218319882786,
+      "max_absolute_error": 0.0
+    },
+    {
+      "guides": 3,
+      "genes": 4,
+      "direct_pair_energy": 0.814950227196916,
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "guides": 5,
+      "genes": 7,
+      "direct_pair_energy": 1.5013132589910152,
+      "max_absolute_error": 4.440892098500626e-16
+    },
+    {
+      "guides": 9,
+      "genes": 3,
+      "direct_pair_energy": 1.0610207256589985,
+      "max_absolute_error": 6.661338147750939e-16
+    }
+  ],
+  "max_absolute_error": 6.661338147750939e-16,
+  "paired_guide_bootstrap_equals_direct_resampling": true,
+  "whole_B_spectrum_permutation_equals_direct_recomputation": true,
+  "independent_half_translation_invariance": true,
+  "negative_cross_energy_retained": true,
+  "target_axes_and_target_unit_bootstrap_verified": true,
+  "formula": "D=mean_{g<h} ((A_g-A_h) dot (B_g-B_h))/p = 2 sum_g ((A_g-Abar) dot (B_g-Bbar))/((G-1)p)",
+  "scope": "Mathematics and implementation validation; no empirical conclusion from synthetic matrices."
+}

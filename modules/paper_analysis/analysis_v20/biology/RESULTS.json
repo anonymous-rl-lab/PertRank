@@ -1,0 +1,345 @@
+{
+  "posthoc": true,
+  "protocol_sha256": "0033ac114da54267232b7bab90f2f52ce9588987e046ed807f1194ccebc18fd3",
+  "targets": 561,
+  "strata_counts": {
+    "own_gene_unavailable": 66,
+    "low_control_expression": 183,
+    "consistent_planning_suppression": 291,
+    "expressed_suppression_unconfirmed": 21
+  },
+  "subset_status": {
+    "expressed_all": {
+      "targets": 312,
+      "evaluable": true
+    },
+    "consistent_suppression": {
+      "targets": 291,
+      "evaluable": true
+    }
+  },
+  "original_score_max_abs_difference": 7.771561172376096e-16,
+  "full_pool_contrasts": [
+    {
+      "panel": "responsive",
+      "contrast": "PertRank_minus_Euclidean",
+      "stratum": "ALL",
+      "targets": 561,
+      "delta_P25": 0.015148317627611737,
+      "ci_low": 0.013088416892031399,
+      "ci_high": 0.01786980510502405,
+      "extra_members": 0.3787079406902934
+    },
+    {
+      "panel": "responsive",
+      "contrast": "Euclidean_minus_raw",
+      "stratum": "ALL",
+      "targets": 561,
+      "delta_P25": 0.061669775491444125,
+      "ci_low": 0.055260132856953005,
+      "ci_high": 0.06751777361480447,
+      "extra_members": 1.5417443872861032
+    },
+    {
+      "panel": "responsive",
+      "contrast": "PertRank_minus_raw",
+      "stratum": "ALL",
+      "targets": 561,
+      "delta_P25": 0.07681809311905587,
+      "ci_low": 0.07048524187281294,
+      "ci_high": 0.08332441727175158,
+      "extra_members": 1.9204523279763968
+    },
+    {
+      "panel": "terciles",
+      "contrast": "PertRank_minus_Euclidean",
+      "stratum": "ALL",
+      "targets": 561,
+      "delta_P25": 0.004761840015583286,
+      "ci_low": 0.0031504356688923686,
+      "ci_high": 0.006196813393725441,
+      "extra_members": 0.11904600038958216
+    },
+    {
+      "panel": "terciles",
+      "contrast": "Euclidean_minus_raw",
+      "stratum": "ALL",
+      "targets": 561,
+      "delta_P25": 0.03477713404321925,
+      "ci_low": 0.023293234100502307,
+      "ci_high": 0.043512586500942765,
+      "extra_members": 0.8694283510804812
+    },
+    {
+      "panel": "terciles",
+      "contrast": "PertRank_minus_raw",
+      "stratum": "ALL",
+      "targets": 561,
+      "delta_P25": 0.03953897405880254,
+      "ci_low": 0.026646012354893476,
+      "ci_high": 0.04915106031730401,
+      "extra_members": 0.9884743514700635
+    }
+  ],
+  "full_pool_metric_contributions": [
+    {
+      "panel": "responsive",
+      "contrast": "PertRank_minus_Euclidean",
+      "stratum": "ALL",
+      "targets": 561,
+      "delta_P25": 0.015148317627611737,
+      "ci_low": 0.013088416892031399,
+      "ci_high": 0.01786980510502405,
+      "extra_members": 0.3787079406902934
+    },
+    {
+      "panel": "responsive",
+      "contrast": "PertRank_minus_Euclidean",
+      "stratum": "own_gene_unavailable",
+      "targets": 66,
+      "delta_P25": 0.00030415410385259634,
+      "ci_low": -0.00010125576835880476,
+      "ci_high": 0.0006943442120668685,
+      "extra_members": 0.007603852596314908
+    },
+    {
+      "panel": "responsive",
+      "contrast": "PertRank_minus_Euclidean",
+      "stratum": "low_control_expression",
+      "targets": 183,
+      "delta_P25": 0.004230918685695963,
+      "ci_low": 0.00299166852284657,
+      "ci_high": 0.005575581221815652,
+      "extra_members": 0.10577296714239907
+    },
+    {
+      "panel": "responsive",
+      "contrast": "PertRank_minus_Euclidean",
+      "stratum": "consistent_planning_suppression",
+      "targets": 291,
+      "delta_P25": 0.010375369360288201,
+      "ci_low": 0.00896183567614944,
+      "ci_high": 0.012443424613559071,
+      "extra_members": 0.259384234007205
+    },
+    {
+      "panel": "responsive",
+      "contrast": "PertRank_minus_Euclidean",
+      "stratum": "expressed_suppression_unconfirmed",
+      "targets": 21,
+      "delta_P25": 0.0002378754777749753,
+      "ci_low": -5.967717045952973e-05,
+      "ci_high": 0.0005287929383196735,
+      "extra_members": 0.005946886944374383
+    },
+    {
+      "panel": "terciles",
+      "contrast": "PertRank_minus_Euclidean",
+      "stratum": "ALL",
+      "targets": 561,
+      "delta_P25": 0.004761840015583286,
+      "ci_low": 0.0031504356688923686,
+      "ci_high": 0.006196813393725441,
+      "extra_members": 0.11904600038958216
+    },
+    {
+      "panel": "terciles",
+      "contrast": "PertRank_minus_Euclidean",
+      "stratum": "own_gene_unavailable",
+      "targets": 66,
+      "delta_P25": -0.0001109676015979553,
+      "ci_low": -0.0006095058909636264,
+      "ci_high": 0.0004219173589364951,
+      "extra_members": -0.0027741900399488825
+    },
+    {
+      "panel": "terciles",
+      "contrast": "PertRank_minus_Euclidean",
+      "stratum": "low_control_expression",
+      "targets": 183,
+      "delta_P25": 0.0019889085981025863,
+      "ci_low": 0.0011206109724580119,
+      "ci_high": 0.0027381535542260636,
+      "extra_members": 0.04972271495256466
+    },
+    {
+      "panel": "terciles",
+      "contrast": "PertRank_minus_Euclidean",
+      "stratum": "consistent_planning_suppression",
+      "targets": 291,
+      "delta_P25": 0.0026953276741757035,
+      "ci_low": 0.0013907536047678133,
+      "ci_high": 0.00387820715413209,
+      "extra_members": 0.0673831918543926
+    },
+    {
+      "panel": "terciles",
+      "contrast": "PertRank_minus_Euclidean",
+      "stratum": "expressed_suppression_unconfirmed",
+      "targets": 21,
+      "delta_P25": 0.00018857134490295118,
+      "ci_low": -9.339981611398607e-06,
+      "ci_high": 0.00038948529218294723,
+      "extra_members": 0.0047142836225737795
+    }
+  ],
+  "subset_contrasts": [
+    {
+      "subset": "expressed_all",
+      "targets": 312,
+      "panel": "responsive",
+      "contrast": "PertRank_minus_Euclidean",
+      "delta_P25": 0.016909818485806884,
+      "ci_low": 0.01523449873257857,
+      "ci_high": 0.01911129312201124,
+      "extra_members": 0.4227454621451721,
+      "raw_P25": 0.3514190178584424,
+      "Euclidean_P25": 0.4036848384610708,
+      "PertRank_P25": 0.4205946569468777
+    },
+    {
+      "subset": "expressed_all",
+      "targets": 312,
+      "panel": "responsive",
+      "contrast": "Euclidean_minus_raw",
+      "delta_P25": 0.05226582060262848,
+      "ci_low": 0.0441717871092826,
+      "ci_high": 0.057293336266032314,
+      "extra_members": 1.306645515065712,
+      "raw_P25": 0.3514190178584424,
+      "Euclidean_P25": 0.4036848384610708,
+      "PertRank_P25": 0.4205946569468777
+    },
+    {
+      "subset": "expressed_all",
+      "targets": 312,
+      "panel": "responsive",
+      "contrast": "PertRank_minus_raw",
+      "delta_P25": 0.06917563908843535,
+      "ci_low": 0.062035553282969155,
+      "ci_high": 0.07380017317636055,
+      "extra_members": 1.7293909772108838,
+      "raw_P25": 0.3514190178584424,
+      "Euclidean_P25": 0.4036848384610708,
+      "PertRank_P25": 0.4205946569468777
+    },
+    {
+      "subset": "expressed_all",
+      "targets": 312,
+      "panel": "terciles",
+      "contrast": "PertRank_minus_Euclidean",
+      "delta_P25": 0.003233600859034219,
+      "ci_low": 0.0019104593677786578,
+      "ci_high": 0.004641949918418444,
+      "extra_members": 0.08084002147585548,
+      "raw_P25": 0.13011401369827993,
+      "Euclidean_P25": 0.15909745385065815,
+      "PertRank_P25": 0.1623310547096924
+    },
+    {
+      "subset": "expressed_all",
+      "targets": 312,
+      "panel": "terciles",
+      "contrast": "Euclidean_minus_raw",
+      "delta_P25": 0.028983440152378213,
+      "ci_low": 0.01838416493696861,
+      "ci_high": 0.03708435085553461,
+      "extra_members": 0.7245860038094554,
+      "raw_P25": 0.13011401369827993,
+      "Euclidean_P25": 0.15909745385065815,
+      "PertRank_P25": 0.1623310547096924
+    },
+    {
+      "subset": "expressed_all",
+      "targets": 312,
+      "panel": "terciles",
+      "contrast": "PertRank_minus_raw",
+      "delta_P25": 0.03221704101141243,
+      "ci_low": 0.021174133162787708,
+      "ci_high": 0.04073600809473803,
+      "extra_members": 0.8054260252853107,
+      "raw_P25": 0.13011401369827993,
+      "Euclidean_P25": 0.15909745385065815,
+      "PertRank_P25": 0.1623310547096924
+    },
+    {
+      "subset": "consistent_suppression",
+      "targets": 291,
+      "panel": "responsive",
+      "contrast": "PertRank_minus_Euclidean",
+      "delta_P25": 0.015949010039903396,
+      "ci_low": 0.01418690222898817,
+      "ci_high": 0.018429220231417454,
+      "extra_members": 0.3987252509975849,
+      "raw_P25": 0.34464904042690814,
+      "Euclidean_P25": 0.3947126276219989,
+      "PertRank_P25": 0.41066163766190233
+    },
+    {
+      "subset": "consistent_suppression",
+      "targets": 291,
+      "panel": "responsive",
+      "contrast": "Euclidean_minus_raw",
+      "delta_P25": 0.050063587195090783,
+      "ci_low": 0.041647875644866356,
+      "ci_high": 0.055289958237245196,
+      "extra_members": 1.2515896798772697,
+      "raw_P25": 0.34464904042690814,
+      "Euclidean_P25": 0.3947126276219989,
+      "PertRank_P25": 0.41066163766190233
+    },
+    {
+      "subset": "consistent_suppression",
+      "targets": 291,
+      "panel": "responsive",
+      "contrast": "PertRank_minus_raw",
+      "delta_P25": 0.06601259723499417,
+      "ci_low": 0.05841396311881183,
+      "ci_high": 0.07080971875150117,
+      "extra_members": 1.6503149308748541,
+      "raw_P25": 0.34464904042690814,
+      "Euclidean_P25": 0.3947126276219989,
+      "PertRank_P25": 0.41066163766190233
+    },
+    {
+      "subset": "consistent_suppression",
+      "targets": 291,
+      "panel": "terciles",
+      "contrast": "PertRank_minus_Euclidean",
+      "delta_P25": 0.0023908836424398386,
+      "ci_low": 0.0014123466722590406,
+      "ci_high": 0.0033924956509870222,
+      "extra_members": 0.059772091060995965,
+      "raw_P25": 0.13366060558560483,
+      "Euclidean_P25": 0.15959504642579156,
+      "PertRank_P25": 0.1619859300682314
+    },
+    {
+      "subset": "consistent_suppression",
+      "targets": 291,
+      "panel": "terciles",
+      "contrast": "Euclidean_minus_raw",
+      "delta_P25": 0.025934440840186722,
+      "ci_low": 0.01592050227004397,
+      "ci_high": 0.03346526492827851,
+      "extra_members": 0.6483610210046681,
+      "raw_P25": 0.13366060558560483,
+      "Euclidean_P25": 0.15959504642579156,
+      "PertRank_P25": 0.1619859300682314
+    },
+    {
+      "subset": "consistent_suppression",
+      "targets": 291,
+      "panel": "terciles",
+      "contrast": "PertRank_minus_raw",
+      "delta_P25": 0.028325324482626552,
+      "ci_low": 0.018020232214092317,
+      "ci_high": 0.03608291418456082,
+      "extra_members": 0.7081331120656638,
+      "raw_P25": 0.13366060558560483,
+      "Euclidean_P25": 0.15959504642579156,
+      "PertRank_P25": 0.1619859300682314
+    }
+  ],
+  "scope": "Fixed observed pools, controls, panels, planning indices, and references; nominal paired query-block sensitivity intervals; no biological-negative classification, no detection rates or knockdown p-values"
+}

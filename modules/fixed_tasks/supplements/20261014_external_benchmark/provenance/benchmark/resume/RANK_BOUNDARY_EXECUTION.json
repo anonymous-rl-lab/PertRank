@@ -1,0 +1,72 @@
+{
+  "analysis": "POSTHOC_D3_RANK_BOUNDARY_SENSITIVITY",
+  "original_winner_unchanged": true,
+  "protocol_sha256": "aafa69c2d13127a90cf531d91489ce2c116e67b9b3d9344ec9687faac0e67060",
+  "fits": [
+    {
+      "config": {
+        "id": "rank150_default_lasso",
+        "rank": 150,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 0.0001
+      },
+      "status": "COMPLETE",
+      "fit_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/rank_boundary_outputs/rank150_default_lasso_rep0",
+      "compact_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/rank_boundary_compact/rank150_default_lasso_rep0",
+      "evaluation_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/rank_boundary_evaluation/rank150_default_lasso",
+      "owner_completion": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/OWNER_COMPLETION.json",
+      "native_fr_P25": 0.27731922269559256,
+      "native_fr_P10": 0.24748951575043368,
+      "runtime_seconds": 115.24318528175354,
+      "max_rss_kib": 6226684,
+      "audit_pass": true,
+      "score_owner_session_id": "17620",
+      "score_owner_exit_code": 0,
+      "score_report_sha256": "c80da27bcba861c7732ec27ff1d83daa808350962f44150037984d1974d29b91"
+    },
+    {
+      "config": {
+        "id": "rank200_default_lasso",
+        "rank": 200,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 0.0001
+      },
+      "status": "COMPLETE",
+      "fit_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/rank_boundary_outputs/rank200_default_lasso_rep0",
+      "compact_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/rank_boundary_compact/rank200_default_lasso_rep0",
+      "evaluation_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/rank_boundary_evaluation/rank200_default_lasso",
+      "owner_completion": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/OWNER_COMPLETION.json",
+      "native_fr_P25": 0.2782060913824613,
+      "native_fr_P10": 0.25411538333773187,
+      "runtime_seconds": 155.31563186645508,
+      "max_rss_kib": 6250168,
+      "audit_pass": true,
+      "score_owner_session_id": "79272",
+      "score_owner_exit_code": 0,
+      "score_report_sha256": "1b31eac0a5444b25dee5ef1abf3899fb3f7500bdc16edcd5f5c7f43242af2d07"
+    },
+    {
+      "config": {
+        "id": "rank300_default_lasso",
+        "rank": 300,
+        "spca_alpha": 0.1,
+        "lasso_alpha": 0.0001
+      },
+      "status": "COMPLETE",
+      "fit_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/rank_boundary_outputs/rank300_default_lasso_rep0",
+      "compact_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/rank_boundary_compact/rank300_default_lasso_rep0",
+      "evaluation_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/rank_boundary_evaluation/rank300_default_lasso",
+      "owner_completion": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/OWNER_COMPLETION.json",
+      "native_fr_P25": 0.27867193205519847,
+      "native_fr_P10": 0.255166090772731,
+      "runtime_seconds": 277.3736951351166,
+      "max_rss_kib": 6248316,
+      "audit_pass": true,
+      "score_owner_session_id": "8631",
+      "score_owner_exit_code": 0,
+      "score_report_sha256": "b68848b16313372b7de9840f561ed40a13afe36b7702ffda317aa6f75a92e369"
+    }
+  ],
+  "status": "COMPLETE",
+  "inference_scope": "Exploratory D3 sensitivity; original rank100 primary unchanged. No full-rank/optimal-FR/raw-upper-bound claim. Expanded transfer follows separately frozen conditional rule."
+}

@@ -1,0 +1,266 @@
+{
+  "status": "COMPLETE",
+  "identity": "equal-source descriptive summary; not pooled independent donor confirmation",
+  "donors": [
+    "D3_Rest",
+    "D1_Rest",
+    "D2_Rest"
+  ],
+  "reference_shared_between_sources": true,
+  "pooled_confidence_interval": null,
+  "means": {
+    "ASH": {
+      "P10": 0.23867303596805114,
+      "expected_members_per_10": 2.3867303596805116
+    },
+    "Euclidean": {
+      "P10": 0.2528100901071129,
+      "expected_members_per_10": 2.5281009010711295
+    },
+    "FR": {
+      "P10": 0.2326206250418256,
+      "expected_members_per_10": 2.326206250418256
+    },
+    "FR_x_Euclidean": {
+      "P10": 0.2484684283939099,
+      "expected_members_per_10": 2.484684283939099
+    },
+    "FR_x_PertRank": {
+      "P10": 0.2544350886309152,
+      "expected_members_per_10": 2.5443508863091515
+    },
+    "PertRank": {
+      "P10": 0.25873515437092326,
+      "expected_members_per_10": 2.5873515437092323
+    },
+    "raw": {
+      "P10": 0.2330314437422896,
+      "expected_members_per_10": 2.3303144374228957
+    }
+  },
+  "contrasts": {
+    "ASH_minus_raw": {
+      "P10_difference": 0.005641592225761569,
+      "expected_members_difference": 0.05641592225761569
+    },
+    "Euclidean_minus_raw": {
+      "P10_difference": 0.01977864636482334,
+      "expected_members_difference": 0.19778646364823338
+    },
+    "FR_minus_Euclidean": {
+      "P10_difference": -0.020189465065287307,
+      "expected_members_difference": -0.20189465065287307
+    },
+    "FR_minus_raw": {
+      "P10_difference": -0.00041081870046396984,
+      "expected_members_difference": -0.004108187004639698
+    },
+    "FR_x_PertRank_minus_FR": {
+      "P10_difference": 0.021814463589089523,
+      "expected_members_difference": 0.21814463589089525
+    },
+    "FR_x_PertRank_minus_FR_x_Euclidean": {
+      "P10_difference": 0.0059666602370051945,
+      "expected_members_difference": 0.05966660237005194
+    },
+    "PertRank_minus_ASH": {
+      "P10_difference": 0.02006211840287209,
+      "expected_members_difference": 0.20062118402872087
+    },
+    "PertRank_minus_Euclidean": {
+      "P10_difference": 0.0059250642638103215,
+      "expected_members_difference": 0.05925064263810322
+    },
+    "PertRank_minus_FR": {
+      "P10_difference": 0.026114529329097625,
+      "expected_members_difference": 0.2611452932909763
+    },
+    "PertRank_minus_FR_x_PertRank": {
+      "P10_difference": 0.00430006574000811,
+      "expected_members_difference": 0.0430006574000811
+    }
+  },
+  "reference_sensitivity": {
+    "shared_labels": {
+      "ASH_minus_raw": {
+        "median": 0.0462905610707085,
+        "empirical_2p5_97p5": [
+          0.029518922218811926,
+          0.061460732755962325
+        ],
+        "fraction_positive": 1.0
+      },
+      "Euclidean_minus_raw": {
+        "median": 0.1870375763887948,
+        "empirical_2p5_97p5": [
+          0.152042997693773,
+          0.21559050674796207
+        ],
+        "fraction_positive": 1.0
+      },
+      "FR_minus_Euclidean": {
+        "median": -0.18296585849758484,
+        "empirical_2p5_97p5": [
+          -0.2165578708897731,
+          -0.14010745735756672
+        ],
+        "fraction_positive": 0.0
+      },
+      "FR_minus_raw": {
+        "median": 0.006991023816432795,
+        "empirical_2p5_97p5": [
+          -0.028018311203540213,
+          0.03269880816728849
+        ],
+        "fraction_positive": 0.64
+      },
+      "FR_x_PertRank_minus_FR": {
+        "median": 0.207854553184454,
+        "empirical_2p5_97p5": [
+          0.16689911861150797,
+          0.230340096287461
+        ],
+        "fraction_positive": 1.0
+      },
+      "FR_x_PertRank_minus_FR_x_Euclidean": {
+        "median": 0.04820737101639794,
+        "empirical_2p5_97p5": [
+          0.03241608963735446,
+          0.06129593107402926
+        ],
+        "fraction_positive": 1.0
+      },
+      "PertRank_minus_ASH": {
+        "median": 0.1976471375540778,
+        "empirical_2p5_97p5": [
+          0.16117304580936948,
+          0.22391858670792172
+        ],
+        "fraction_positive": 1.0
+      },
+      "PertRank_minus_Euclidean": {
+        "median": 0.05685329743220269,
+        "empirical_2p5_97p5": [
+          0.040250599336301485,
+          0.07070672476981164
+        ],
+        "fraction_positive": 1.0
+      },
+      "PertRank_minus_FR": {
+        "median": 0.2396892505245427,
+        "empirical_2p5_97p5": [
+          0.18872066794997466,
+          0.27067410079872123
+        ],
+        "fraction_positive": 1.0
+      },
+      "PertRank_minus_FR_x_PertRank": {
+        "median": 0.031237329302329586,
+        "empirical_2p5_97p5": [
+          0.012031405615850211,
+          0.05133098913124755
+        ],
+        "fraction_positive": 1.0
+      }
+    },
+    "batch_separate": {
+      "ASH_minus_raw": {
+        "median": 0.04548945659858172,
+        "empirical_2p5_97p5": [
+          0.028576743030650532,
+          0.06230517896001097
+        ],
+        "fraction_positive": 1.0
+      },
+      "Euclidean_minus_raw": {
+        "median": 0.18768982922144617,
+        "empirical_2p5_97p5": [
+          0.15262006937142558,
+          0.21623589436927337
+        ],
+        "fraction_positive": 1.0
+      },
+      "FR_minus_Euclidean": {
+        "median": -0.1836803382264367,
+        "empirical_2p5_97p5": [
+          -0.2197404056985173,
+          -0.13371926064141754
+        ],
+        "fraction_positive": 0.0
+      },
+      "FR_minus_raw": {
+        "median": 0.006488035709048656,
+        "empirical_2p5_97p5": [
+          -0.025605457292993204,
+          0.032587268407357074
+        ],
+        "fraction_positive": 0.618
+      },
+      "FR_x_PertRank_minus_FR": {
+        "median": 0.20719518483964539,
+        "empirical_2p5_97p5": [
+          0.15874666871366136,
+          0.23468735115005662
+        ],
+        "fraction_positive": 1.0
+      },
+      "FR_x_PertRank_minus_FR_x_Euclidean": {
+        "median": 0.047085460698366166,
+        "empirical_2p5_97p5": [
+          0.028643010105065803,
+          0.06191160396434554
+        ],
+        "fraction_positive": 1.0
+      },
+      "PertRank_minus_ASH": {
+        "median": 0.19752510520369548,
+        "empirical_2p5_97p5": [
+          0.1615491317988748,
+          0.22417874196456342
+        ],
+        "fraction_positive": 1.0
+      },
+      "PertRank_minus_Euclidean": {
+        "median": 0.055817990717668575,
+        "empirical_2p5_97p5": [
+          0.038606705480827265,
+          0.07072995028165842
+        ],
+        "fraction_positive": 1.0
+      },
+      "PertRank_minus_FR": {
+        "median": 0.24112608303710958,
+        "empirical_2p5_97p5": [
+          0.18228483925190248,
+          0.27323673095015977
+        ],
+        "fraction_positive": 1.0
+      },
+      "PertRank_minus_FR_x_PertRank": {
+        "median": 0.03225590577527959,
+        "empirical_2p5_97p5": [
+          0.012238811404906992,
+          0.0532059079403694
+        ],
+        "fraction_positive": 0.996
+      }
+    }
+  },
+  "reference_sensitivity_units": "expected externally supported members per10-name list; empirical reference uncertainty ranges, not population confidence intervals",
+  "unevaluated": {
+    "D3_Rest": {},
+    "D1_Rest": {},
+    "D2_Rest": {}
+  },
+  "source_sha256": {
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D3_Rest/report.json": "c694115125ece18c2e0504d7c725da46da2d6e2773b3216b19ea48331b345775",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D1_Rest/report.json": "5745d6e6b80a3b912732c1f07b64b7d0c83b1c9ba4ae350b5c8d9fda8e5cc5b9",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D2_Rest/report.json": "bc00576211a7482e71f82a5ac75d01a265694bc527606e006060fa33f25344c2",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D3_Rest/reference_propagation_shared_labels.npz": "beb680b3ddca51a96c1c2e1c4dc91fc67ab5a834c2314101f515e45cb80a3ef1",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D1_Rest/reference_propagation_shared_labels.npz": "c9fcc10045c93d99e0343a5aa07abacc7880322280377e24984e75e0026b11dd",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D2_Rest/reference_propagation_shared_labels.npz": "fb24e2a91b7a00559a2a50df5d59ad63b894cc389f60bf76c8005b2258787cd6",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D3_Rest/reference_propagation_batch_separate.npz": "4bdf739ee434feea7bbc3402cae143a329df2d72e89966e736c3d45a7f27e145",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D1_Rest/reference_propagation_batch_separate.npz": "7a4031458f70eeb8d02196af45c8fe892c1745967f528c8d664a92a42ee73bd4",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/scores/D2_Rest/reference_propagation_batch_separate.npz": "df2892dc3fb0f2b335ace4987e4d621b3fb74d0b8e83fe6b6e329236a8f5be0f"
+  }
+}

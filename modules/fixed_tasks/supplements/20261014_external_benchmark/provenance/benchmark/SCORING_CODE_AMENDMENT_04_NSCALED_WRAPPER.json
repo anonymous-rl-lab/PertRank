@@ -1,0 +1,72 @@
+{
+  "status": "LOCKED_BEFORE_ANY_NEW_FR_SCORING",
+  "created_utc": "2026-10-12T04:33:08.955884+00:00",
+  "amendment_sha256": "8e8d61122a445792432752f9d16d7d34ec99ab6e71313b80b121a494ceeec67d",
+  "wrapper_path": "evaluation/evaluate_nscaled.py",
+  "wrapper_sha256": "893b738773fd1c95102f0b3e5f4af355c1598ce63fa5f824824bdcf79fdd0b9d",
+  "primary_evaluator_sha256": "3189569a57216b3b097b8474f969a822d1848ba534310e63b47e550560335d01",
+  "primary_evaluator_unchanged": true,
+  "formula_checks": [
+    {
+      "alpha": 1e-05,
+      "task": "D4_Rest",
+      "sensitivity_alpha": 1.8867924528301888e-05,
+      "threshold_error": 0.0
+    },
+    {
+      "alpha": 1e-05,
+      "task": "D4_Stim8hr",
+      "sensitivity_alpha": 1.9667170953101362e-05,
+      "threshold_error": 0.0
+    },
+    {
+      "alpha": 1e-05,
+      "task": "D4_Stim_independent",
+      "sensitivity_alpha": 2.6262626262626265e-05,
+      "threshold_error": 0.0
+    },
+    {
+      "alpha": 0.0001,
+      "task": "D4_Rest",
+      "sensitivity_alpha": 0.00018867924528301889,
+      "threshold_error": 0.0
+    },
+    {
+      "alpha": 0.0001,
+      "task": "D4_Stim8hr",
+      "sensitivity_alpha": 0.00019667170953101363,
+      "threshold_error": 0.0
+    },
+    {
+      "alpha": 0.0001,
+      "task": "D4_Stim_independent",
+      "sensitivity_alpha": 0.00026262626262626266,
+      "threshold_error": 2.7755575615628914e-17
+    },
+    {
+      "alpha": 0.001,
+      "task": "D4_Rest",
+      "sensitivity_alpha": 0.0018867924528301887,
+      "threshold_error": 0.0
+    },
+    {
+      "alpha": 0.001,
+      "task": "D4_Stim8hr",
+      "sensitivity_alpha": 0.0019667170953101363,
+      "threshold_error": 0.0
+    },
+    {
+      "alpha": 0.001,
+      "task": "D4_Stim_independent",
+      "sensitivity_alpha": 0.0026262626262626263,
+      "threshold_error": 0.0
+    }
+  ],
+  "notes": [
+    "Sensitivity wrapper reuses exact primary score and bootstrap functions.",
+    "Original primary six arms, grid, winner selection and binding resource gates remain unchanged.",
+    "Sensitivity baseline/raw/E/PR arrays and all common bootstrap columns must reproduce primary arrays bitwise.",
+    "Sensitivity 95%/99% intervals are descriptive; no enlarged simultaneous significance claim.",
+    "Both primary and sensitivity outputs are retained separately; no result selects which is primary."
+  ]
+}

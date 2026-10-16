@@ -1,0 +1,16 @@
+{
+  "status": "SCORE_OWNER_EXECUTION_ENDED_INTEGRITY_VERIFIED",
+  "owner_session_id": 14131,
+  "owner_exit_code": 0,
+  "npz_crc": "PASS",
+  "created_utc": "2026-10-14T01:01:54.391420+00:00",
+  "files_sha256": {
+    "INDEPENDENT_AUDIT_P10.json": "155962cc90417b384158b875820198bd5d22c35d2668c0f40c81b7efccb53baf",
+    "INDEPENDENT_AUDIT_P10.npz": "87c595a5ac8cdb0e3b6bee10817939c96b2fa5a6c430a592594ab74a8c994957",
+    "evaluation_report.json": "e072bff9f4def8ad8d6e97cd4ffdfd5850741a39a8fa49f20dac2239ae966666",
+    "INDEPENDENT_AUDIT_P25.npz": "5f19370db7d19e42ea6f896d8f2b68e37502c20f0e07315d27649423c911a10b",
+    "compact.npz": "1e7a5746c21914ad4d417f35799b651e8fee9be99410f9b65d2a4a030e8d1d7c",
+    "evaluation_arrays.npz": "37173cee2d61e5bb55a9ea1c9de65bc46ce9240ab23d6280941a43c2a72211fa",
+    "INDEPENDENT_AUDIT_P25.json": "d359665fed8fa1e8c36b64a8b23446fd973456d54714a90346615303802b2017"
+  }
+}

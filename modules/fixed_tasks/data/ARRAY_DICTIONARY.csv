@@ -1,0 +1,332 @@
+file,key,dtype,shape,uncompressed_bytes
+data/D1/depth.npz,schema_version,int64,,8
+data/D1/depth.npz,K,int64,,8
+data/D1/depth.npz,depths,int64,7,56
+data/D1/depth.npz,signs,int64,2,16
+data/D1/depth.npz,query_gene_ids,<U15,595,35700
+data/D1/depth.npz,target_ids,<U15,1127,67620
+data/D1/depth.npz,n_candidates,int64,,8
+data/D1/depth.npz,analysis_identity,<U92,,368
+data/D1/depth.npz,panel_scope,<U200,,800
+data/D1/depth.npz,responsive_positions,int64,300,2400
+data/D1/depth.npz,tercile_positions,int64,300,2400
+data/D1/depth.npz,blocks_responsive,int32,300,1200
+data/D1/depth.npz,blocks_terciles,int32,300,1200
+data/D1/depth.npz,truth_above,uint8,595 x 2 x 141,167790
+data/D1/depth.npz,truth_tied,uint8,595 x 2 x 141,167790
+data/D1/depth.npz,truth_numerator,uint16,595 x 2,2380
+data/D1/depth.npz,truth_denominator,uint16,595 x 2,2380
+data/D1/depth.npz,raw_above,uint8,7 x 5 x 595 x 2 x 141,5872650
+data/D1/depth.npz,raw_tied,uint8,7 x 5 x 595 x 2 x 141,5872650
+data/D1/depth.npz,raw_numerator,uint16,7 x 5 x 595 x 2,83300
+data/D1/depth.npz,raw_denominator,uint16,7 x 5 x 595 x 2,83300
+data/D1/depth.npz,arms20_above,uint8,3 x 5 x 595 x 2 x 141,2516850
+data/D1/depth.npz,arms20_tied,uint8,3 x 5 x 595 x 2 x 141,2516850
+data/D1/depth.npz,arms20_numerator,uint16,3 x 5 x 595 x 2,35700
+data/D1/depth.npz,arms20_denominator,uint16,3 x 5 x 595 x 2,35700
+data/D1/ranking.npz,Y_offsets,uint32,2976,11904
+data/D1/ranking.npz,Y_ids,uint16,824677,1649354
+data/D1/ranking.npz,Y_values,float64,824677,6597416
+data/D1/ranking.npz,truth_offsets,uint32,596,2384
+data/D1/ranking.npz,truth_ids,uint16,85390,170780
+data/D1/ranking.npz,truth_values,float64,85390,683120
+data/D1/ranking.npz,weights,float64,7 x 5 x 1127,315560
+data/D1/ranking.npz,arm_names,<U12,7,336
+data/D1/ranking.npz,query_ids,<U15,595,35700
+data/D1/ranking.npz,target_ids,<U15,1127,67620
+data/D1/ranking.npz,own_index,int32,595,2380
+data/D1/ranking.npz,n_candidates,int32,,4
+data/D1/ranking.npz,n_queries,int32,,4
+data/D1/ranking.npz,n_groups,int32,,4
+data/D1/ranking.npz,k,int32,,4
+data/D1/ranking.npz,donor,<U2,,8
+data/D1/ranking.npz,schema_version,int32,,4
+data/D1/ranking.npz,responsive_positions,int64,300,2400
+data/D1/ranking.npz,tercile_positions,int64,300,2400
+data/D1/ranking.npz,blocks_responsive,int32,300,1200
+data/D1/ranking.npz,blocks_terciles,int32,300,1200
+data/D1/weight_stats.npz,donor,<U7,,28
+data/D1/weight_stats.npz,target_ids,<U15,1127,67620
+data/D1/weight_stats.npz,arm_names,<U12,7,336
+data/D1/weight_stats.npz,recorded_weights,float64,7 x 5 x 1127,315560
+data/D1/weight_stats.npz,log_m2,float64,1127 x 5,45080
+data/D1/weight_stats.npz,log_vb,float64,1127 x 5,45080
+data/D1/weight_stats.npz,log_projection_mean,float64,1127 x 5 x 5,225400
+data/D1/weight_stats.npz,log_projection_variance,float64,1127 x 5 x 5,225400
+data/D1/weight_stats.npz,log_control_eigenvalues,float64,5,40
+data/D1/weight_stats.npz,log_control_trace,float64,,8
+data/D1/weight_stats.npz,n_control,int64,,8
+data/D1/weight_stats.npz,weight_gene_count,int64,,8
+data/D1/weight_stats.npz,gene_ids,<U15,12794,767640
+data/D1/weight_stats.npz,input_cell_ids,int64,1127 x 5 x 20,901600
+data/D1/weight_stats.npz,input_control_ids,int64,2000,16000
+data/D1/weight_stats.npz,target_sample_count,int64,1127 x 5,45080
+data/D1/weight_stats.npz,diagonal_energy,float64,1127 x 5,45080
+data/D1/weight_stats.npz,diagonal_noise,float64,1127 x 5,45080
+data/D1/weight_stats.npz,diagonal_lambda_median_control_variance,float64,,8
+data/D1/weight_stats.npz,pearson_energy_E,float64,5 x 1127,45080
+data/D1/weight_stats.npz,pearson_noise_E,float64,5 x 1127,45080
+data/D1/weight_stats.npz,pearson_energy_M,float64,5 x 1127,45080
+data/D1/weight_stats.npz,pearson_noise_M,float64,5 x 1127,45080
+data/D1/weight_stats.npz,trade_S,float64,1127 x 5,45080
+data/D1/weight_stats.npz,trade_noise,float64,1127 x 5,45080
+data/D1/weight_stats.npz,trade_TI,float64,1127 x 5,45080
+data/D1/weight_stats.npz,trade_latent_mean,float64,1127 x 5,45080
+data/D1/weight_stats.npz,trade_serialized_weight,float64,1127 x 5,45080
+data/D2/depth.npz,schema_version,int64,,8
+data/D2/depth.npz,K,int64,,8
+data/D2/depth.npz,depths,int64,7,56
+data/D2/depth.npz,signs,int64,2,16
+data/D2/depth.npz,query_gene_ids,<U15,596,35760
+data/D2/depth.npz,target_ids,<U15,1200,72000
+data/D2/depth.npz,n_candidates,int64,,8
+data/D2/depth.npz,analysis_identity,<U92,,368
+data/D2/depth.npz,panel_scope,<U37,,148
+data/D2/depth.npz,responsive_positions,int64,300,2400
+data/D2/depth.npz,tercile_positions,int64,300,2400
+data/D2/depth.npz,blocks_responsive,int32,300,1200
+data/D2/depth.npz,blocks_terciles,int32,300,1200
+data/D2/depth.npz,truth_above,uint8,596 x 2 x 150,178800
+data/D2/depth.npz,truth_tied,uint8,596 x 2 x 150,178800
+data/D2/depth.npz,truth_numerator,uint16,596 x 2,2384
+data/D2/depth.npz,truth_denominator,uint16,596 x 2,2384
+data/D2/depth.npz,raw_above,uint8,7 x 5 x 596 x 2 x 150,6258000
+data/D2/depth.npz,raw_tied,uint8,7 x 5 x 596 x 2 x 150,6258000
+data/D2/depth.npz,raw_numerator,uint16,7 x 5 x 596 x 2,83440
+data/D2/depth.npz,raw_denominator,uint16,7 x 5 x 596 x 2,83440
+data/D2/depth.npz,arms20_above,uint8,3 x 5 x 596 x 2 x 150,2682000
+data/D2/depth.npz,arms20_tied,uint8,3 x 5 x 596 x 2 x 150,2682000
+data/D2/depth.npz,arms20_numerator,uint16,3 x 5 x 596 x 2,35760
+data/D2/depth.npz,arms20_denominator,uint16,3 x 5 x 596 x 2,35760
+data/D2/ranking.npz,Y_offsets,uint32,2981,11924
+data/D2/ranking.npz,Y_ids,uint16,859333,1718666
+data/D2/ranking.npz,Y_values,float64,859333,6874664
+data/D2/ranking.npz,truth_offsets,uint32,597,2388
+data/D2/ranking.npz,truth_ids,uint16,91886,183772
+data/D2/ranking.npz,truth_values,float64,91886,735088
+data/D2/ranking.npz,weights,float64,7 x 5 x 1200,336000
+data/D2/ranking.npz,arm_names,<U12,7,336
+data/D2/ranking.npz,query_ids,<U15,596,35760
+data/D2/ranking.npz,target_ids,<U15,1200,72000
+data/D2/ranking.npz,own_index,int32,596,2384
+data/D2/ranking.npz,n_candidates,int32,,4
+data/D2/ranking.npz,n_queries,int32,,4
+data/D2/ranking.npz,n_groups,int32,,4
+data/D2/ranking.npz,k,int32,,4
+data/D2/ranking.npz,donor,<U2,,8
+data/D2/ranking.npz,schema_version,int32,,4
+data/D2/ranking.npz,responsive_positions,int64,300,2400
+data/D2/ranking.npz,tercile_positions,int64,300,2400
+data/D2/ranking.npz,blocks_responsive,int32,300,1200
+data/D2/ranking.npz,blocks_terciles,int32,300,1200
+data/D2/weight_stats.npz,donor,<U7,,28
+data/D2/weight_stats.npz,target_ids,<U15,1200,72000
+data/D2/weight_stats.npz,arm_names,<U12,7,336
+data/D2/weight_stats.npz,recorded_weights,float64,7 x 5 x 1200,336000
+data/D2/weight_stats.npz,log_m2,float64,1200 x 5,48000
+data/D2/weight_stats.npz,log_vb,float64,1200 x 5,48000
+data/D2/weight_stats.npz,log_projection_mean,float64,1200 x 5 x 5,240000
+data/D2/weight_stats.npz,log_projection_variance,float64,1200 x 5 x 5,240000
+data/D2/weight_stats.npz,log_control_eigenvalues,float64,5,40
+data/D2/weight_stats.npz,log_control_trace,float64,,8
+data/D2/weight_stats.npz,n_control,int64,,8
+data/D2/weight_stats.npz,weight_gene_count,int64,,8
+data/D2/weight_stats.npz,gene_ids,<U15,12885,773100
+data/D2/weight_stats.npz,input_cell_ids,int64,1200 x 5 x 20,960000
+data/D2/weight_stats.npz,input_control_ids,int64,2000,16000
+data/D2/weight_stats.npz,target_sample_count,int64,1200 x 5,48000
+data/D2/weight_stats.npz,diagonal_energy,float64,1200 x 5,48000
+data/D2/weight_stats.npz,diagonal_noise,float64,1200 x 5,48000
+data/D2/weight_stats.npz,diagonal_lambda_median_control_variance,float64,,8
+data/D2/weight_stats.npz,pearson_energy_E,float64,5 x 1200,48000
+data/D2/weight_stats.npz,pearson_noise_E,float64,5 x 1200,48000
+data/D2/weight_stats.npz,pearson_energy_M,float64,5 x 1200,48000
+data/D2/weight_stats.npz,pearson_noise_M,float64,5 x 1200,48000
+data/D2/weight_stats.npz,trade_S,float64,1200 x 5,48000
+data/D2/weight_stats.npz,trade_noise,float64,1200 x 5,48000
+data/D2/weight_stats.npz,trade_TI,float64,1200 x 5,48000
+data/D2/weight_stats.npz,trade_latent_mean,float64,1200 x 5,48000
+data/D2/weight_stats.npz,trade_serialized_weight,float64,1200 x 5,48000
+data/D3/depth.npz,schema_version,int64,,8
+data/D3/depth.npz,K,int64,,8
+data/D3/depth.npz,depths,int64,7,56
+data/D3/depth.npz,signs,int64,2,16
+data/D3/depth.npz,query_gene_ids,<U15,593,35580
+data/D3/depth.npz,target_ids,<U15,1200,72000
+data/D3/depth.npz,n_candidates,int64,,8
+data/D3/depth.npz,analysis_identity,<U92,,368
+data/D3/depth.npz,panel_scope,<U37,,148
+data/D3/depth.npz,responsive_positions,int64,300,2400
+data/D3/depth.npz,tercile_positions,int64,300,2400
+data/D3/depth.npz,blocks_responsive,int32,300,1200
+data/D3/depth.npz,blocks_terciles,int32,300,1200
+data/D3/depth.npz,truth_above,uint8,593 x 2 x 150,177900
+data/D3/depth.npz,truth_tied,uint8,593 x 2 x 150,177900
+data/D3/depth.npz,truth_numerator,uint16,593 x 2,2372
+data/D3/depth.npz,truth_denominator,uint16,593 x 2,2372
+data/D3/depth.npz,raw_above,uint8,7 x 5 x 593 x 2 x 150,6226500
+data/D3/depth.npz,raw_tied,uint8,7 x 5 x 593 x 2 x 150,6226500
+data/D3/depth.npz,raw_numerator,uint16,7 x 5 x 593 x 2,83020
+data/D3/depth.npz,raw_denominator,uint16,7 x 5 x 593 x 2,83020
+data/D3/depth.npz,arms20_above,uint8,3 x 5 x 593 x 2 x 150,2668500
+data/D3/depth.npz,arms20_tied,uint8,3 x 5 x 593 x 2 x 150,2668500
+data/D3/depth.npz,arms20_numerator,uint16,3 x 5 x 593 x 2,35580
+data/D3/depth.npz,arms20_denominator,uint16,3 x 5 x 593 x 2,35580
+data/D3/ranking.npz,Y_offsets,uint32,2966,11864
+data/D3/ranking.npz,Y_ids,uint16,875708,1751416
+data/D3/ranking.npz,Y_values,float64,875708,7005664
+data/D3/ranking.npz,truth_offsets,uint32,594,2376
+data/D3/ranking.npz,truth_ids,uint16,95615,191230
+data/D3/ranking.npz,truth_values,float64,95615,764920
+data/D3/ranking.npz,weights,float64,7 x 5 x 1200,336000
+data/D3/ranking.npz,arm_names,<U12,7,336
+data/D3/ranking.npz,query_ids,<U15,593,35580
+data/D3/ranking.npz,target_ids,<U15,1200,72000
+data/D3/ranking.npz,own_index,int32,593,2372
+data/D3/ranking.npz,n_candidates,int32,,4
+data/D3/ranking.npz,n_queries,int32,,4
+data/D3/ranking.npz,n_groups,int32,,4
+data/D3/ranking.npz,k,int32,,4
+data/D3/ranking.npz,donor,<U2,,8
+data/D3/ranking.npz,schema_version,int32,,4
+data/D3/ranking.npz,responsive_positions,int64,300,2400
+data/D3/ranking.npz,tercile_positions,int64,300,2400
+data/D3/ranking.npz,blocks_responsive,int32,300,1200
+data/D3/ranking.npz,blocks_terciles,int32,300,1200
+data/D3/weight_stats.npz,donor,<U7,,28
+data/D3/weight_stats.npz,target_ids,<U15,1200,72000
+data/D3/weight_stats.npz,arm_names,<U12,7,336
+data/D3/weight_stats.npz,recorded_weights,float64,7 x 5 x 1200,336000
+data/D3/weight_stats.npz,log_m2,float64,1200 x 5,48000
+data/D3/weight_stats.npz,log_vb,float64,1200 x 5,48000
+data/D3/weight_stats.npz,log_projection_mean,float64,1200 x 5 x 5,240000
+data/D3/weight_stats.npz,log_projection_variance,float64,1200 x 5 x 5,240000
+data/D3/weight_stats.npz,log_control_eigenvalues,float64,5,40
+data/D3/weight_stats.npz,log_control_trace,float64,,8
+data/D3/weight_stats.npz,n_control,int64,,8
+data/D3/weight_stats.npz,weight_gene_count,int64,,8
+data/D3/weight_stats.npz,gene_ids,<U15,13390,803400
+data/D3/weight_stats.npz,input_cell_ids,int64,1200 x 5 x 20,960000
+data/D3/weight_stats.npz,input_control_ids,int64,2000,16000
+data/D3/weight_stats.npz,target_sample_count,int64,1200 x 5,48000
+data/D3/weight_stats.npz,diagonal_energy,float64,1200 x 5,48000
+data/D3/weight_stats.npz,diagonal_noise,float64,1200 x 5,48000
+data/D3/weight_stats.npz,diagonal_lambda_median_control_variance,float64,,8
+data/D3/weight_stats.npz,pearson_energy_E,float64,5 x 1200,48000
+data/D3/weight_stats.npz,pearson_noise_E,float64,5 x 1200,48000
+data/D3/weight_stats.npz,pearson_energy_M,float64,5 x 1200,48000
+data/D3/weight_stats.npz,pearson_noise_M,float64,5 x 1200,48000
+data/D3/weight_stats.npz,trade_S,float64,1200 x 5,48000
+data/D3/weight_stats.npz,trade_noise,float64,1200 x 5,48000
+data/D3/weight_stats.npz,trade_TI,float64,1200 x 5,48000
+data/D3/weight_stats.npz,trade_latent_mean,float64,1200 x 5,48000
+data/D3/weight_stats.npz,trade_serialized_weight,float64,1200 x 5,48000
+data/D4/cohort_core.npz,donor,<U7,,28
+data/D4/cohort_core.npz,gene_ids_full,<U15,18130,1087800
+data/D4/cohort_core.npz,target_names,<U9,589,21204
+data/D4/cohort_core.npz,target_ids,<U15,589,35340
+data/D4/cohort_core.npz,planning_cells,int64,589 x 100,471200
+data/D4/cohort_core.npz,input_cells,int64,589 x 5 x 20,471200
+data/D4/cohort_core.npz,truth_cells,int64,589 x 100,471200
+data/D4/cohort_core.npz,cin,int64,2000,16000
+data/D4/cohort_core.npz,cev,int64,2000,16000
+data/D4/cohort_core.npz,scale,float64,,8
+data/D4/cohort_core.npz,eligible_count,int64,,8
+data/D4/cohort_core.npz,qualified_target_counts,int64,589,4712
+data/D4/cohort_core.npz,salt,<U31,,124
+data/D4/cohort_core.npz,guide_categories,<U17,24709,1680212
+data/D4/cohort_core.npz,lane_categories,<U10,24,960
+data/D4/cohort_core.npz,selected_source_rows,int64,180700,1445600
+data/D4/cohort_core.npz,selected_total_counts,float64,180700,1445600
+data/D4/cohort_core.npz,selected_guide_codes,int64,180700,1445600
+data/D4/cohort_core.npz,selected_lane_codes,int64,180700,1445600
+data/D4/control_model.npz,keep,int64,13209,105672
+data/D4/control_model.npz,gene_ids_full,<U15,18130,1087800
+data/D4/control_model.npz,gene_ids_keep,<U15,13209,792540
+data/D4/control_model.npz,scale,float64,,8
+data/D4/control_model.npz,n_control,int64,,8
+data/D4/control_model.npz,cm,float64,13209,105672
+data/D4/control_model.npz,cv,float64,13209,105672
+data/D4/control_model.npz,U,float64,13209 x 5,528360
+data/D4/control_model.npz,lam,float64,5,40
+data/D4/control_model.npz,trC,float64,,8
+data/D4/control_model.npz,proj_control,float64,5,40
+data/D4/control_model.npz,pr_p,float64,13209,105672
+data/D4/control_model.npz,pr_mean,float64,13209,105672
+data/D4/control_model.npz,pr_var,float64,13209,105672
+data/D4/control_model.npz,pr_U,float64,13209 x 5,528360
+data/D4/control_model.npz,pr_lam,float64,5,40
+data/D4/control_model.npz,pr_proj_control,float64,5,40
+data/D4/control_model.npz,control_ids,int64,2000,16000
+data/D4/control_model.npz,theta,float64,,8
+data/D4/control_model.npz,clip,float64,,8
+data/D4/control_model.npz,k,int64,,8
+data/D4/control_model.npz,beta,float64,,8
+data/D4/control_model.npz,log_control_precision,<U36,,144
+data/D4/control_model.npz,target_log_precision,<U7,,28
+data/D4/control_model.npz,pr_precision,<U7,,28
+data/D4/control_model.npz,control_total_umi,float64,,8
+data/D4/depth.npz,schema_version,int64,,8
+data/D4/depth.npz,K,int64,,8
+data/D4/depth.npz,depths,int64,7,56
+data/D4/depth.npz,signs,int64,2,16
+data/D4/depth.npz,query_gene_ids,<U15,593,35580
+data/D4/depth.npz,target_ids,<U15,589,35340
+data/D4/depth.npz,n_candidates,int64,,8
+data/D4/depth.npz,analysis_identity,<U92,,368
+data/D4/depth.npz,panel_scope,<U37,,148
+data/D4/depth.npz,responsive_positions,int64,300,2400
+data/D4/depth.npz,tercile_positions,int64,300,2400
+data/D4/depth.npz,blocks_responsive,int32,300,1200
+data/D4/depth.npz,blocks_terciles,int32,300,1200
+data/D4/depth.npz,truth_above,uint8,593 x 2 x 74,87764
+data/D4/depth.npz,truth_tied,uint8,593 x 2 x 74,87764
+data/D4/depth.npz,truth_numerator,uint16,593 x 2,2372
+data/D4/depth.npz,truth_denominator,uint16,593 x 2,2372
+data/D4/depth.npz,raw_above,uint8,7 x 5 x 593 x 2 x 74,3071740
+data/D4/depth.npz,raw_tied,uint8,7 x 5 x 593 x 2 x 74,3071740
+data/D4/depth.npz,raw_numerator,uint16,7 x 5 x 593 x 2,83020
+data/D4/depth.npz,raw_denominator,uint16,7 x 5 x 593 x 2,83020
+data/D4/depth.npz,arms20_above,uint8,3 x 5 x 593 x 2 x 74,1316460
+data/D4/depth.npz,arms20_tied,uint8,3 x 5 x 593 x 2 x 74,1316460
+data/D4/depth.npz,arms20_numerator,uint16,3 x 5 x 593 x 2,35580
+data/D4/depth.npz,arms20_denominator,uint16,3 x 5 x 593 x 2,35580
+data/D4/ranking.npz,Y_offsets,uint32,2966,11864
+data/D4/ranking.npz,Y_ids,uint16,576919,1153838
+data/D4/ranking.npz,Y_values,float64,576919,4615352
+data/D4/ranking.npz,truth_offsets,uint32,594,2376
+data/D4/ranking.npz,truth_ids,uint16,60271,120542
+data/D4/ranking.npz,truth_values,float64,60271,482168
+data/D4/ranking.npz,weights,float64,4 x 5 x 589,94240
+data/D4/ranking.npz,arm_names,<U9,4,144
+data/D4/ranking.npz,query_ids,<U15,593,35580
+data/D4/ranking.npz,target_ids,<U15,589,35340
+data/D4/ranking.npz,own_index,int32,593,2372
+data/D4/ranking.npz,n_candidates,int32,,4
+data/D4/ranking.npz,n_queries,int32,,4
+data/D4/ranking.npz,n_groups,int32,,4
+data/D4/ranking.npz,k,int32,,4
+data/D4/ranking.npz,donor,<U2,,8
+data/D4/ranking.npz,schema_version,int32,,4
+data/D4/ranking.npz,responsive_positions,int64,300,2400
+data/D4/ranking.npz,tercile_positions,int64,300,2400
+data/D4/ranking.npz,blocks_responsive,int32,300,1200
+data/D4/ranking.npz,blocks_terciles,int32,300,1200
+data/D4/weight_sufficient_stats.npz,log_aE,float64,589 x 5,23560
+data/D4/weight_sufficient_stats.npz,log_nuE,float64,589 x 5,23560
+data/D4/weight_sufficient_stats.npz,log_aM,float64,589 x 5,23560
+data/D4/weight_sufficient_stats.npz,log_nuM,float64,589 x 5,23560
+data/D4/weight_sufficient_stats.npz,log_projection_mean,float64,589 x 5 x 5,117800
+data/D4/weight_sufficient_stats.npz,log_projection_variance,float64,589 x 5 x 5,117800
+data/D4/weight_sufficient_stats.npz,pr_aE,float64,589 x 5,23560
+data/D4/weight_sufficient_stats.npz,pr_nuE,float64,589 x 5,23560
+data/D4/weight_sufficient_stats.npz,pr_aM,float64,589 x 5,23560
+data/D4/weight_sufficient_stats.npz,pr_nuM,float64,589 x 5,23560
+data/D4/weight_sufficient_stats.npz,pr_projection_mean,float64,589 x 5 x 5,117800
+data/D4/weight_sufficient_stats.npz,pr_projection_variance,float64,589 x 5 x 5,117800
+data/D4/weight_sufficient_stats.npz,log_trace_target,float64,589 x 5,23560
+data/D4/weight_sufficient_stats.npz,pr_trace_target,float64,589 x 5,23560
+data/D4/weight_sufficient_stats.npz,cell_ids,int64,589 x 100,471200
+data/D4/weight_sufficient_stats.npz,additions,int16,589 x 5 x 30,176700
+data/D4/weight_sufficient_stats.npz,target_ids,<U15,589,35340
+data/D4/weight_sufficient_stats.npz,weight_gene_count,int64,,8

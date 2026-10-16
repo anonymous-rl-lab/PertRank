@@ -1,0 +1,9 @@
+{
+  "reader_changes": [
+    "vendor import directory relative to run root",
+    "archived NTC validation raw location relative to frozen_assets"
+  ],
+  "statistical_or_selection_changes": false,
+  "old_reader_sha256": "c751a4bc9ccfdceee956dd21b866f42914ef2d6a0e104da40d62d2d4dd089690",
+  "new_reader_sha256": "68ed49183aa9ed51668b8d3677f98bc84d116bb61c4e415807fc8df8d6262624"
+}

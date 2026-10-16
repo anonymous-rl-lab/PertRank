@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "release": "1.5.3",
+  "compared_with": "1.5.2",
+  "binary_numeric_payload_files": 186,
+  "all_numeric_payload_bytes_unchanged": true,
+  "manuscript_csv_files": 97,
+  "all_manuscript_csv_bytes_unchanged": true,
+  "retained_source_changes": [
+    "modules/paper_analysis/replay_original.py",
+    "modules/paper_analysis/software/tests/test_core_contract.py",
+    "modules/paper_analysis/software/tests/test_anndata_api.py",
+    "modules/paper_analysis/software/src/pertrank/api.py",
+    "modules/paper_analysis/software/src/pertrank/core.py",
+    "modules/paper_analysis/software/src/pertrank/__init__.py",
+    "reproduce.py"
+  ],
+  "scope": "Installable software corrections, evaluation API and optional software identity check only; scientific experiment programs unchanged. Root launcher preserves the chosen virtual environment executable path."
+}

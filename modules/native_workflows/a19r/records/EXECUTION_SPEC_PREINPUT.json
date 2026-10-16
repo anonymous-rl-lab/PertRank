@@ -1,0 +1,107 @@
+{
+  "status": "PRE_INPUT_EXECUTION_SPEC",
+  "created_utc": "2026-10-14T04:03:05.941390+00:00",
+  "analysis_label": "posthoc native external-baseline comparison on previously opened A19-R tasks",
+  "immutable_existing_results": true,
+  "D1_D2_Stim_expression_read": false,
+  "tasks": {
+    "D3_Rest": {
+      "n_targets": 52,
+      "n_queries": 293
+    },
+    "D1_Rest": {
+      "n_targets": 59,
+      "n_queries": 289
+    },
+    "D2_Rest": {
+      "n_targets": 63,
+      "n_queries": 289
+    }
+  },
+  "task_scope": "complete original A19-R candidate sets and exact original input cells; no pooled-task intersections or R20 replacement cells",
+  "native_FR": {
+    "commit": "24e653b6a5c050ab17f3600ebaf222bef32e2d25",
+    "rank": 300,
+    "spca_alpha": 0.1,
+    "lasso_alpha": 0.0001,
+    "spca_iter": 50,
+    "seed": 20261012,
+    "threads": 2,
+    "preprocessing": "official full raw gene axis filter_genes min_cells1; TP10K log1p NTC centering; native official LOWESS output",
+    "input_requirement": "exact original raw integer counts at cell level, full expressed-gene axis; moments/query-only unacceptable",
+    "arms": [
+      "FR",
+      "FR_x_Euclidean_original_weights",
+      "FR_x_PertRank_original_weights"
+    ]
+  },
+  "native_ASH": {
+    "R": "4.4.3",
+    "ashr": "2.2-63",
+    "ash_options": {},
+    "primary_optimizer": "mixSQP",
+    "retry": "official mixEM maxiter10000 only after explicit primary failure/nonconvergence",
+    "seed": 20261012,
+    "threads": 1,
+    "fit_unit": "per target across entire original control-expressed gene axis",
+    "input_requirement": "complete effect and per-gene SE; verify original query effects and axes; no undocumented positive SE floor"
+  },
+  "existing_arms": [
+    "raw",
+    "Euclidean",
+    "PertRank"
+  ],
+  "primary_endpoint": {
+    "K": 10,
+    "query_directions": "both directions equally",
+    "ties": "exact independent tie membership expectation",
+    "self_exclusion": "original own mask",
+    "unit": "P@10 and expected members per list=10*P@10"
+  },
+  "statistical_plan": {
+    "primary_descriptive_intervals": "paired query-block bootstrap conditional on fixed reference and original inputs; 2000 draws seed20261014",
+    "original_reference_uncertainty": "recover original script before adding reference-donor uncertainty; never invent precision from independently pooled donors",
+    "summary": "equal source point mean only; same external reference and shared queries are not independent replicates",
+    "contrasts": [
+      "PertRank_minus_FR",
+      "PertRank_minus_ASH",
+      "FR_x_PertRank_minus_FR",
+      "FR_x_PertRank_minus_FR_x_Euclidean",
+      "PertRank_minus_FR_x_PertRank",
+      "FR_minus_raw",
+      "ASH_minus_raw"
+    ],
+    "family": "all posthoc descriptive; no new confirmatory pass gate; report every declared contrast/source"
+  },
+  "resources": {
+    "heavy_memory_lock": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/heavy_memory.lock",
+    "single_heavy_fit_at_a_time": true,
+    "FR_process_RSS_guard_GiB": 5.5,
+    "first_source_smoke_seconds": 600,
+    "first_source_complete_fit_can_count_once_as_formal": true,
+    "per_source_per_method_seconds": 1200,
+    "whole_native_budget_seconds": 3600,
+    "max_model_variants": 1,
+    "predicted_native_total_minutes": [
+      15,
+      30
+    ],
+    "counts_recovery_not_included": true
+  },
+  "pending_before_fit": [
+    "input restoration and exact legacy prediction alignment",
+    "immutable input and source hash binding",
+    "root resource approval"
+  ],
+  "source_sha256": {
+    "vendor_work/run_prepared_input_atomic_v3.py": "5efe3b81dd1f3784f8702c09891b50a467e78b1ff7ff22ce10b2e421940c66f6",
+    "vendor_work/fr_native_runner_audit_v2.py": "00f4dbb48888811ad1b41934c71402e98000d5c4482e7bd0db9b4d1ea9cd0aad",
+    "vendor_work/atomic_npz.py": "ec1011ccd4b5d1dec3c11e7a869b954fbe0c3e1fc74d55dd22515a517173f8b3",
+    "vendor_work/add_native_audit_certificate.py": "6406cb2186c52c59e1bd75455c546bcc60ed654368643a15a0277e030f70e4d2",
+    "vendor_work/native_recovery_audit.py": "9994d9eabfa2df9126d0af8809e9e9fdf15b531755e39c36fd35261b04a207ae",
+    "vendor_work/official_manifest.json": "e3cad09edac5f77d1ddca7325e0fd96021ca5a8976edfb04903d58470c485732",
+    "ash_work/run_posterior.py": "5b6c8e6cfcef1517637474a3843a52a2ff23ebe73b4d972b3a183d10473f86d5",
+    "ash_work/posterior_runner.R": "c5fb54beff8050c4d5692ad3328cf12f6bccbf6a1f4e883cf936fde457793a0a",
+    "ash_work/resume_20261014/RECOVERY_PLAN.json": "294fbb38a69f5c27cc54c0b9e2d4e7bdd32f97bfdb7025f7d67730f971884d24"
+  }
+}

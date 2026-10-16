@@ -1,0 +1,21 @@
+{
+  "version": "1.5.4",
+  "status": "PASS",
+  "previous_release": "1.5.3",
+  "changes": [
+    "Initialize root Git repository for Add Local Repository",
+    "Preserve LF/CRLF bytes via * -text attributes",
+    "Shorten historical provenance paths with identity mapping",
+    "Correct VERSION marker"
+  ],
+  "numeric_payload_files_unchanged": 186,
+  "manuscript_tables_unchanged": 97,
+  "largest_file_bytes": 14037096,
+  "longest_relative_file_path": 228,
+  "recommended_windows_root": "D:\\GitHub\\PertRank",
+  "git_index_roundtrip_with_autocrlf_true": "PASS",
+  "new_scientific_experiments": 0,
+  "remote_published": false,
+  "native_windows_gui_tested": false,
+  "git_gui_scope": "Git repository validity and byte-preserving add/checkout checked; no access to user Desktop session"
+}

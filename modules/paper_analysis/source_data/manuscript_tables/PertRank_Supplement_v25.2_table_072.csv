@@ -1,0 +1,9 @@
+Quantity,Estimate,Conditional 95% interval or diagnostic
+NTC guide-pair reproducible energy D,0.00313614,"[0.00289840, 0.00336845]"
+Centered single-guide energy D/2,0.00156807,Defined as half the pair statistic
+"Whole-B-spectrum permutation, upper-tail p",0.00049975,"1/2001, plus-one correction; 2,000 permutations"
+Permutation null central 95% range,—,"[−0.00013899, 0.00013474]"
+"Same-target two-guide energy, 64 pairs",0.00245490,"[0.00210325, 0.00284905]"
+NTC guides with exactly balanced half-lane counts,426/468,"Balance within guide, not between guides"
+Selected NTC guide-by-lane Cramér's V,0.20666,Descriptive association
+Same-target between-guide lane total variation,0.55 median,Range 0.35–0.75

@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "method": "independent full sort, exact original float64 values, all frozen arms",
+  "main": {
+    "status": "PASS",
+    "targets": 561,
+    "queries": 594,
+    "arms": [
+      "raw",
+      "Euclidean",
+      "PR_M",
+      "PertRank"
+    ],
+    "prediction_memberships_compared": 13329360,
+    "truth_memberships_compared": 666468,
+    "scores_exact": true,
+    "score_values": 23760,
+    "score_content_sha256": "26089c42cf6bec9288554fd90157f0e149759797352da8fe46ad43fcb40c2cc0",
+    "all_boundary_ties_and_self_exclusion_preserved": true,
+    "full_membership_sha256": "a321834686eeff1f431daaa6542ea35d95dc11cd98d2741f900a233681def5fa",
+    "support_replay_membership_sha256": "a321834686eeff1f431daaa6542ea35d95dc11cd98d2741f900a233681def5fa",
+    "retained_effect_fraction": 0.332244008714597,
+    "support_size_min_median_max": [
+      83,
+      125.0,
+      561
+    ],
+    "retained_reference_entries": 58982
+  },
+  "crossguide": {
+    "status": "PASS",
+    "targets": 26,
+    "queries": 300,
+    "arms": [
+      "raw",
+      "Euclidean",
+      "PertRank"
+    ],
+    "prediction_memberships_compared": 234000,
+    "truth_memberships_compared": 15600,
+    "scores_exact": true,
+    "score_values": 9000,
+    "score_content_sha256": "73084674f1fb11c5db9eaf5a9e05260116cc9d7d2764a47e423e1ed3a2927323",
+    "all_boundary_ties_and_self_exclusion_preserved": true,
+    "full_membership_sha256": "02c5109aedded57dc1a62f7d16c4aad7cae6bb405399d357096bfefb207dd00f",
+    "support_replay_membership_sha256": "02c5109aedded57dc1a62f7d16c4aad7cae6bb405399d357096bfefb207dd00f",
+    "retained_effect_fraction": 0.9998717948717949,
+    "support_size_min_median_max": [
+      25,
+      26.0,
+      26
+    ],
+    "retained_reference_entries": 7799
+  },
+  "S3": {
+    "contributions_exact": true,
+    "contribution_values": 168300,
+    "content_sha256": "7ef50bf0baeaf8ecbc99be9f3eac1fd414f0c29a8bc6b3380558eea1b367b807",
+    "all_full_target_zeros_retained": true,
+    "full_targets": 561,
+    "frozen_eligible_targets": 539,
+    "frozen_self_exclusion_mask_exact": true
+  },
+  "scientific_scope": "Fixed-method signed top-25 membership, every query score and S3 contribution. No claim of full omitted-effect recovery or raw UMI refitting."
+}

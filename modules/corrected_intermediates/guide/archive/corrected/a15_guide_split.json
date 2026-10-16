@@ -1,0 +1,596 @@
+{
+ "created_utc": "2026-10-05T17:19:57Z",
+ "integrity": {
+  "amendment_A15_sha256": "1295f1a038696560987e270663504cb127eb2a09153336fc958f7817bcbbf319",
+  "script_sha256": "66c5bd16936cae28e3d76366d5e3e2bffb4af4e326ac424d1640b46acb74f8c0",
+  "freeze_A15": {
+   "read_a15_guide_split.py": "4af28cc8071141fac2b3038834cad9ea948004a9237a2a2afebb66042f2d62e7",
+   "evaluate_a15_guide_split.py": "66c5bd16936cae28e3d76366d5e3e2bffb4af4e326ac424d1640b46acb74f8c0"
+  },
+  "state_sha256": {
+   "D3_Rest": "1ea85eed9ea114c97102685e0f0f1e1e1e07a729d8e08b8f29890f98fc2d035f",
+   "D1_Rest": "5590d71947eaed68d0ebb45b66101b6e0ee514e7a7f351e5bf5fabb46a2d7d70",
+   "D2_Rest": "a64e2aaf8b59d18ef5a1ff875da6bf3202a96bb1cd7145f274e2a31930c66a6f"
+  }
+ },
+ "note": "amendment A15; independent-guide validation inside the opened donors. Cross-guide independence only: donor, batch, platform, perturbation direction, cell state and readout are all unchanged. Not part of the A4 to A8 evidence levels.",
+ "donors": {
+  "D3_Rest": {
+   "candidates": 441,
+   "queries": 300,
+   "random_rate": 0.056818181818181816,
+   "assignments": {
+    "A shallow vs B deep (primary)": {
+     "means": {
+      "raw": 0.06750603637665077,
+      "w0y": 0.06789831002331001,
+      "W1": 0.06938378010878012
+     },
+     "W1_vs_w0y": {
+      "diff": 0.0014854700854700855,
+      "ci95": [
+       -0.0023967671836453994,
+       0.00510341317890673
+      ],
+      "p_one_sided": 0.283
+     },
+     "W1_vs_raw": {
+      "diff": 0.0018777437321293392,
+      "ci95": [
+       -0.0007560503383446269,
+       0.005040609179193927
+      ],
+      "p_one_sided": 0.0945
+     },
+     "w0y_vs_raw": {
+      "diff": 0.0003922736466592539,
+      "ci95": [
+       -0.004840405737055507,
+       0.005858676820415546
+      ],
+      "p_one_sided": 0.413
+     },
+     "above_random": {
+      "raw": {
+       "diff": 0.010687854558468953,
+       "ci95": [
+        0.0038468216192500647,
+        0.017689010102243236
+       ],
+       "p_one_sided": 0.0005
+      },
+      "w0y": {
+       "diff": 0.011080128205128206,
+       "ci95": [
+        0.0067015548217556065,
+        0.014819739929284302
+       ],
+       "p_one_sided": 0.0
+      },
+      "W1": {
+       "diff": 0.012565598290598293,
+       "ci95": [
+        0.006110748411064984,
+        0.018054469177388146
+       ],
+       "p_one_sided": 0.0
+      }
+     },
+     "weights": {
+      "beta0_vs_explicit_max_abs": 0.0,
+      "W1_zero_fraction": 0.0022675736961451248,
+      "w0y_zero_fraction": 0.04308390022675737,
+      "W1_mean": 0.1431197591047468,
+      "w0y_mean": 0.17526075299180321
+     },
+     "thresholds": {
+      "weak": 0.025568181818181816,
+      "clear": 0.05113636363636363
+     }
+    },
+    "B shallow vs A deep (reverse)": {
+     "means": {
+      "raw": 0.07439803989139997,
+      "w0y": 0.07623944794085223,
+      "W1": 0.07667287534124194
+     },
+     "W1_vs_w0y": {
+      "diff": 0.0004334274003897063,
+      "ci95": [
+       -0.0021969163094074503,
+       0.00423564555279431
+      ],
+      "p_one_sided": 0.3775
+     },
+     "W1_vs_raw": {
+      "diff": 0.0022748354498419656,
+      "ci95": [
+       -0.001450803718432686,
+       0.0063904366858828915
+      ],
+      "p_one_sided": 0.1225
+     },
+     "w0y_vs_raw": {
+      "diff": 0.0018414080494522586,
+      "ci95": [
+       -0.0017294499377201772,
+       0.005369473935888276
+      ],
+      "p_one_sided": 0.151
+     },
+     "above_random": {
+      "raw": {
+       "diff": 0.01757985807321815,
+       "ci95": [
+        0.007822149470594578,
+        0.02771770536590643
+       ],
+       "p_one_sided": 0.0
+      },
+      "w0y": {
+       "diff": 0.019421266122670408,
+       "ci95": [
+        0.009517065416429838,
+        0.02837817232101528
+       ],
+       "p_one_sided": 0.0
+      },
+      "W1": {
+       "diff": 0.01985469352306012,
+       "ci95": [
+        0.01071677721507593,
+        0.02779787490227513
+       ],
+       "p_one_sided": 0.0
+      }
+     },
+     "weights": {
+      "beta0_vs_explicit_max_abs": 0.0,
+      "W1_zero_fraction": 0.0022675736961451248,
+      "w0y_zero_fraction": 0.04081632653061224,
+      "W1_mean": 0.13626167856068375,
+      "w0y_mean": 0.16396515648930798
+     },
+     "thresholds": {
+      "weak": 0.025568181818181816,
+      "clear": 0.05113636363636363
+     }
+    }
+   }
+  },
+  "D1_Rest": {
+   "candidates": 551,
+   "queries": 300,
+   "random_rate": 0.045454545454545456,
+   "assignments": {
+    "A shallow vs B deep (primary)": {
+     "means": {
+      "raw": 0.07003752724560125,
+      "w0y": 0.08214708482066972,
+      "W1": 0.08833061120419611
+     },
+     "W1_vs_w0y": {
+      "diff": 0.006183526383526383,
+      "ci95": [
+       0.002700134363627853,
+       0.009089355988658659
+      ],
+      "p_one_sided": 0.0005
+     },
+     "W1_vs_raw": {
+      "diff": 0.018293083958594858,
+      "ci95": [
+       0.013199581520837897,
+       0.022912914109350327
+      ],
+      "p_one_sided": 0.0
+     },
+     "w0y_vs_raw": {
+      "diff": 0.012109557575068475,
+      "ci95": [
+       0.008452282637782322,
+       0.015832067782236663
+      ],
+      "p_one_sided": 0.0
+     },
+     "above_random": {
+      "raw": {
+       "diff": 0.024582981791055798,
+       "ci95": [
+        0.01878417462045731,
+        0.030634533730791776
+       ],
+       "p_one_sided": 0.0
+      },
+      "w0y": {
+       "diff": 0.03669253936612427,
+       "ci95": [
+        0.030958726694536715,
+        0.042315438558244316
+       ],
+       "p_one_sided": 0.0
+      },
+      "W1": {
+       "diff": 0.04287606574965065,
+       "ci95": [
+        0.03713444117878481,
+        0.04866420841490848
+       ],
+       "p_one_sided": 0.0
+      }
+     },
+     "weights": {
+      "beta0_vs_explicit_max_abs": 0.0,
+      "W1_zero_fraction": 0.012704174228675136,
+      "w0y_zero_fraction": 0.10163339382940109,
+      "W1_mean": 0.0945547882799427,
+      "w0y_mean": 0.11268586433175988
+     },
+     "thresholds": {
+      "weak": 0.020454545454545454,
+      "clear": 0.04090909090909091
+     }
+    },
+    "B shallow vs A deep (reverse)": {
+     "means": {
+      "raw": 0.06753927568968258,
+      "w0y": 0.0792349358974359,
+      "W1": 0.08267800925925926
+     },
+     "W1_vs_w0y": {
+      "diff": 0.0034430733618233617,
+      "ci95": [
+       0.0010848118981649703,
+       0.00554800082287327
+      ],
+      "p_one_sided": 0.002
+     },
+     "W1_vs_raw": {
+      "diff": 0.015138733569576667,
+      "ci95": [
+       0.011351517223912255,
+       0.018766302396063667
+      ],
+      "p_one_sided": 0.0
+     },
+     "w0y_vs_raw": {
+      "diff": 0.011695660207753304,
+      "ci95": [
+       0.007797425198460305,
+       0.015797111662515146
+      ],
+      "p_one_sided": 0.0
+     },
+     "above_random": {
+      "raw": {
+       "diff": 0.02208473023513714,
+       "ci95": [
+        0.015829591304788688,
+        0.02792032175409266
+       ],
+       "p_one_sided": 0.0
+      },
+      "w0y": {
+       "diff": 0.03378039044289044,
+       "ci95": [
+        0.0250134933491368,
+        0.041858245837885756
+       ],
+       "p_one_sided": 0.0
+      },
+      "W1": {
+       "diff": 0.037223463804713815,
+       "ci95": [
+        0.029521338251709488,
+        0.044576500911369325
+       ],
+       "p_one_sided": 0.0
+      }
+     },
+     "weights": {
+      "beta0_vs_explicit_max_abs": 0.0,
+      "W1_zero_fraction": 0.019963702359346643,
+      "w0y_zero_fraction": 0.09618874773139746,
+      "W1_mean": 0.09442847124337538,
+      "w0y_mean": 0.10668460752353105
+     },
+     "thresholds": {
+      "weak": 0.020454545454545454,
+      "clear": 0.04090909090909091
+     }
+    }
+   }
+  },
+  "D2_Rest": {
+   "candidates": 353,
+   "queries": 300,
+   "random_rate": 0.07102272727272728,
+   "assignments": {
+    "A shallow vs B deep (primary)": {
+     "means": {
+      "raw": 0.08234131710343036,
+      "w0y": 0.08691318714160975,
+      "W1": 0.0897300990326288
+     },
+     "W1_vs_w0y": {
+      "diff": 0.0028169118910190342,
+      "ci95": [
+       -0.0009845035980809737,
+       0.006803798107380418
+      ],
+      "p_one_sided": 0.0725
+     },
+     "W1_vs_raw": {
+      "diff": 0.007388781929198451,
+      "ci95": [
+       0.002392672440777121,
+       0.01208777458241187
+      ],
+      "p_one_sided": 0.001
+     },
+     "w0y_vs_raw": {
+      "diff": 0.004571870038179416,
+      "ci95": [
+       0.0002538017953703414,
+       0.009017317406826639
+      ],
+      "p_one_sided": 0.02
+     },
+     "above_random": {
+      "raw": {
+       "diff": 0.011318589830703064,
+       "ci95": [
+        0.005598779686478951,
+        0.016452927217845133
+       ],
+       "p_one_sided": 0.0
+      },
+      "w0y": {
+       "diff": 0.01589045986888248,
+       "ci95": [
+        0.010365215820002518,
+        0.020778852350006018
+       ],
+       "p_one_sided": 0.0
+      },
+      "W1": {
+       "diff": 0.018707371759901514,
+       "ci95": [
+        0.01164769730867487,
+        0.02521633578806136
+       ],
+       "p_one_sided": 0.0
+      }
+     },
+     "weights": {
+      "beta0_vs_explicit_max_abs": 0.0,
+      "W1_zero_fraction": 0.0,
+      "w0y_zero_fraction": 0.036827195467422094,
+      "W1_mean": 0.13711084006386048,
+      "w0y_mean": 0.15767262219352887
+     },
+     "thresholds": {
+      "weak": 0.03196022727272728,
+      "clear": 0.06392045454545456
+     }
+    },
+    "B shallow vs A deep (reverse)": {
+     "means": {
+      "raw": 0.08584616486339289,
+      "w0y": 0.08689814621204192,
+      "W1": 0.08674373787913799
+     },
+     "W1_vs_w0y": {
+      "diff": -0.00015440833290392706,
+      "ci95": [
+       -0.0031229396834137725,
+       0.0024143409386118376
+      ],
+      "p_one_sided": 0.56
+     },
+     "W1_vs_raw": {
+      "diff": 0.0008975730157451144,
+      "ci95": [
+       -0.0024624924964884156,
+       0.004929811430658071
+      ],
+      "p_one_sided": 0.3175
+     },
+     "w0y_vs_raw": {
+      "diff": 0.001051981348649042,
+      "ci95": [
+       -0.0031003977611710897,
+       0.006001723627563286
+      ],
+      "p_one_sided": 0.3155
+     },
+     "above_random": {
+      "raw": {
+       "diff": 0.014823437590665603,
+       "ci95": [
+        0.009470532687835662,
+        0.02058157161410147
+       ],
+       "p_one_sided": 0.0
+      },
+      "w0y": {
+       "diff": 0.015875418939314646,
+       "ci95": [
+        0.011123451880851282,
+        0.020597787089264432
+       ],
+       "p_one_sided": 0.0
+      },
+      "W1": {
+       "diff": 0.015721010606410717,
+       "ci95": [
+        0.011097018887730074,
+        0.020442476247406173
+       ],
+       "p_one_sided": 0.0
+      }
+     },
+     "weights": {
+      "beta0_vs_explicit_max_abs": 0.0,
+      "W1_zero_fraction": 0.0028328611898017,
+      "w0y_zero_fraction": 0.019830028328611898,
+      "W1_mean": 0.15747299194940964,
+      "w0y_mean": 0.18343513818754761
+     },
+     "thresholds": {
+      "weak": 0.03196022727272728,
+      "clear": 0.06392045454545456
+     }
+    }
+   }
+  }
+ },
+ "gate": {
+  "D3_Rest": {
+   "above_random": {
+    "diff": 0.015776330437848613,
+    "ci95": [
+     0.009376460539939447,
+     0.021353276720848795
+    ],
+    "p_one_sided": 0.0
+   },
+   "random_rate": 0.056818181818181816,
+   "median_overlap": 0.06,
+   "reverse_above_random": {
+    "diff": 0.015776330437848613,
+    "ci95": [
+     0.009376460539939447,
+     0.021353276720848795
+    ],
+    "p_one_sided": 0.0
+   },
+   "median_across_candidate_correlation": 0.04285105962865379,
+   "passes": true
+  },
+  "D1_Rest": {
+   "above_random": {
+    "diff": 0.03503705791436785,
+    "ci95": [
+     0.027471166654220343,
+     0.04178690695305703
+    ],
+    "p_one_sided": 0.0
+   },
+   "random_rate": 0.045454545454545456,
+   "median_overlap": 0.08,
+   "reverse_above_random": {
+    "diff": 0.03503705791436785,
+    "ci95": [
+     0.027471166654220343,
+     0.04178690695305703
+    ],
+    "p_one_sided": 0.0
+   },
+   "median_across_candidate_correlation": 0.06286738347907074,
+   "passes": true
+  },
+  "D2_Rest": {
+   "above_random": {
+    "diff": 0.015669451444835877,
+    "ci95": [
+     0.011774548832645594,
+     0.01898385030906654
+    ],
+    "p_one_sided": 0.0
+   },
+   "random_rate": 0.07102272727272728,
+   "median_overlap": 0.08,
+   "reverse_above_random": {
+    "diff": 0.015669451444835877,
+    "ci95": [
+     0.011774548832645594,
+     0.01898385030906654
+    ],
+    "p_one_sided": 0.0
+   },
+   "median_across_candidate_correlation": 0.04117956971860902,
+   "passes": true
+  },
+  "passing_donors": [
+   "D3_Rest",
+   "D1_Rest",
+   "D2_Rest"
+  ]
+ },
+ "pooled": {
+  "A shallow vs B deep (primary)": {
+   "endpoints (primary)": {
+    "diff": 0.0034953027866718345,
+    "ci95": [
+     -0.00022704547269950673,
+     0.006998855758315269
+    ]
+   },
+   "joint": {
+    "diff": 0.0034953027866718345,
+    "ci95": [
+     0.0013032142749821525,
+     0.005487335547224048
+    ],
+    "groups": 90,
+    "empty_donor_draws": 0,
+    "assumption": "treats records in different donors as independent; optimistic"
+   },
+   "cluster": {
+    "diff": 0.0034953027866718345,
+    "ci95": [
+     0.0034953027866718345,
+     0.0034953027866718345
+    ],
+    "groups": 1,
+    "empty_donor_draws": 0,
+    "assumption": "same donor block or same query gene, fully dependent inside; pessimistic"
+   },
+   "thresholds": {
+    "weak": 0.02599431818181818,
+    "clear": 0.05198863636363636,
+    "mean_random_rate": 0.05776515151515151
+   }
+  },
+  "B shallow vs A deep (reverse)": {
+   "endpoints (primary)": {
+    "diff": 0.0012406974764363804,
+    "ci95": [
+     -0.0014116813648854176,
+     0.004065995771426473
+    ]
+   },
+   "joint": {
+    "diff": 0.0012406974764363804,
+    "ci95": [
+     -0.0003613457525517582,
+     0.002905137119630095
+    ],
+    "groups": 90,
+    "empty_donor_draws": 0,
+    "assumption": "treats records in different donors as independent; optimistic"
+   },
+   "cluster": {
+    "diff": 0.0012406974764363804,
+    "ci95": [
+     0.0012406974764363804,
+     0.0012406974764363804
+    ],
+    "groups": 1,
+    "empty_donor_draws": 0,
+    "assumption": "same donor block or same query gene, fully dependent inside; pessimistic"
+   },
+   "thresholds": {
+    "weak": 0.02599431818181818,
+    "clear": 0.05198863636363636,
+    "mean_random_rate": 0.05776515151515151
+   }
+  }
+ },
+ "reading": {
+  "branch": 2,
+  "text": "no support at the independent-guide level; A15 section 7 branch 2: stop, and do not change the pool threshold, the cell counts, k, beta, the query set or the thresholds",
+  "positioning": "cross-guide independence only; not cross-donor, cross-batch, cross-platform or cross-laboratory, and not an independent confirmation of the A4 to A8 levels"
+ }
+}

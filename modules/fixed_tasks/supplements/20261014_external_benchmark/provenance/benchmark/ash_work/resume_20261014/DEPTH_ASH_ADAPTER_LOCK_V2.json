@@ -1,0 +1,25 @@
+{
+  "status": "FROZEN_BEFORE_POSTHOC_DEPTH_ASH_INPUT_AND_FITS",
+  "created_utc": "2026-10-14T00:53:35.426828+00:00",
+  "protocol_sha256": "bd529ba31eaf41cfff522716835d2f95aedc61bfd7a3fdae68e4140e7e6bb546",
+  "source_sha256": {
+    "run_one_depth.py": "22ffb15d9b7a5b840437fa6e58abc3e665c6e711e0b6642788b19e3c5501b57e",
+    "evaluate_depth_ash.py": "82476c22b2de0116dd7224ac5d6108219a8635417975b9660f5a19c4468c2442",
+    "evaluate_ash_adapter.py": "bf074c077e1f46a0447d32412343f37a7829a5f34a816ab78aa78b503c954830",
+    "score_one_atomic.py": "ed2c969d52da22a6e4cc53c29ce61137c09be09276a7d5afc69342fcb80427f7"
+  },
+  "native_R_runner_sha256": "c5fb54beff8050c4d5692ad3328cf12f6bccbf6a1f4e883cf936fde457793a0a",
+  "unchanged_pure_scorer_sha256": "4acd8cebce3162b25874518942dbed4fae8299cd8fead65da2ef1b789dd95237",
+  "fixed_configuration": "default_uniform_fdr",
+  "depths": [
+    20,
+    50,
+    100
+  ],
+  "n_targets": 250,
+  "main_benchmark": false,
+  "ASH_weighted_variants": false,
+  "scope": "Same frozen protocol, official native ASH, original score math; separate nested-depth input adapter only.",
+  "previous_lock_sha256": "c1828bc4d36a1f4d3eaa20053d1d3ea00f9b501732d990e447f00090219d2df3",
+  "amendment": "Pre-depth-fit provenance enhancement only: add common-three-arm array fingerprints compatible with the FR depth adapter and generic atomic scoring publication wrapper. Scoring math unchanged; no depth payload read."
+}

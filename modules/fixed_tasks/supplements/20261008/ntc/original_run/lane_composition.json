@@ -1,0 +1,19 @@
+{
+  "ntc_half_lane_tv": {
+    "median": 0.0,
+    "max": 0.35000000000000003,
+    "perfect_balance_guides": 426
+  },
+  "target_guide_half_lane_tv": {
+    "median": 0.0,
+    "max": 0.0
+  },
+  "target_between_guide_lane_tv": {
+    "median": 0.55,
+    "min": 0.35,
+    "max": 0.75
+  },
+  "selected_ntc_guide_by_lane_cramers_v": 0.20666103326537782,
+  "association_sample": "selected 40 cells per NTC guide",
+  "interpretation": "Split balancing does not eliminate between-guide lane composition differences. Permutation assumes exchangeable guide spectra and does not adjust lane confounding."
+}

@@ -1,0 +1,425 @@
+{
+ "created_utc": "2026-09-26T02:14:00Z",
+ "integrity": {
+  "plan_sha256": "a4980412ee194cb2aee1a4d7d0f9cfdd523166066206fc6d815762dac92f5999",
+  "amendment_A2_sha256": "91fed42ea9ff76e62a2946fbcdbdcd4e15ceabaf0660cf801e784815c91ca117",
+  "amendment_A3_sha256": "dffb3749581f7e63434c486886a2a63da8aa8fcac0c3b1297c676d4d9f76a72b",
+  "amendment_A4_sha256": "39d9434b5d7bb31ae3099d85fcf43fd4e3fe8c6b79a1103bae069fd572b10456",
+  "amendment_A4a_sha256": "b8c81d8fcd05e9612eee80668b0eb0afc1fa4d24d447857c3cd119dcda0fc17a",
+  "freeze": {
+   "read_e4_w1.py": "8eab4828ef25aa2eb482c3fd94473cb12202dad7833d6877e3d16aa6b98a5c71",
+   "evaluate_w1_e4.py": "daba866ef464135ac973a3faa1ac1f97be350b0f4018bbfcb4a6c8c1f966d1b6",
+   "read_e4_block1.py": "1938851e01cca9f7111f2885302781ac01e01ff0871bad57c3904d1c97daea71",
+   "evaluate_w1_e4_50.py": "48a3e1e8a3614eff72134433d71515be066b5905aaac974714f2b5a6ab5b9b3e"
+  },
+  "data_sha256": "d552c95c72d40b613a74caf7f60a72e3411e862543cf7579be01ab2ac6b5673a"
+ },
+ "checks": {
+  "m2_20_vs_reduced": 2.030584319139094e-07,
+  "varbar_20_vs_reduced": 6.135524456089198e-08,
+  "beta_zero_reproduces_w0y_abs": 1.8384759237211057e-07
+ },
+ "primary_setting": {
+  "k": 5,
+  "beta": 0.9,
+  "genes": "all weight genes"
+ },
+ "cells": {
+  "responsive 20": {
+   "role": "primary",
+   "raw": 0.2773123584257502,
+   "w0y": 0.2757554779794853,
+   "W1": 0.3113689768996245,
+   "W1_vs_w0y": {
+    "diff": 0.03561349892013915,
+    "ci95": [
+     0.023863735899247684,
+     0.04873618201104612
+    ],
+    "p_one_sided": 0.0
+   },
+   "W1_vs_raw": {
+    "diff": 0.034056618473874346,
+    "ci95": [
+     0.02372229527891865,
+     0.04370494200464571
+    ]
+   },
+   "w0y_vs_raw": {
+    "diff": -0.001556880446264805
+   },
+   "weights": {
+    "mean": 0.11270906817482401,
+    "zero_fraction": 0.005833333333333334,
+    "spearman_with_w0y": 0.7622010088386746,
+    "degenerate": false
+   }
+  },
+  "terciles 20": {
+   "role": "gatekeeper",
+   "raw": 0.057351529498343275,
+   "w0y": 0.07467341241826413,
+   "W1": 0.08021280100722826,
+   "W1_vs_w0y": {
+    "diff": 0.0055393885889641285,
+    "ci95": [
+     0.0027592398235517144,
+     0.009056087452519528
+    ],
+    "p_one_sided": 0.0
+   },
+   "W1_vs_raw": {
+    "diff": 0.022861271508884982,
+    "ci95": [
+     0.015130773832504716,
+     0.029679208856933356
+    ]
+   },
+   "w0y_vs_raw": {
+    "diff": 0.017321882919920848
+   },
+   "weights": {
+    "mean": 0.11270906817482401,
+    "zero_fraction": 0.005833333333333334,
+    "spearman_with_w0y": 0.7622010088386746,
+    "degenerate": false
+   }
+  }
+ },
+ "sensitivity": {
+  "all_weight_genes": {
+   "k1_beta0.5": {
+    "diff": 0.02159,
+    "ci95": [
+     0.01627,
+     0.02725
+    ],
+    "mean_weight": 0.1313,
+    "zero_fraction": 0.0325
+   },
+   "k1_beta0.9": {
+    "diff": 0.0314,
+    "ci95": [
+     0.02041,
+     0.04214
+    ],
+    "mean_weight": 0.1243,
+    "zero_fraction": 0.0192
+   },
+   "k1_beta0.99": {
+    "diff": 0.02708,
+    "ci95": [
+     0.01257,
+     0.04014
+    ],
+    "mean_weight": 0.1223,
+    "zero_fraction": 0.0192
+   },
+   "k3_beta0.5": {
+    "diff": 0.02161,
+    "ci95": [
+     0.01607,
+     0.02792
+    ],
+    "mean_weight": 0.1292,
+    "zero_fraction": 0.025
+   },
+   "k3_beta0.9": {
+    "diff": 0.03645,
+    "ci95": [
+     0.02408,
+     0.04902
+    ],
+    "mean_weight": 0.1199,
+    "zero_fraction": 0.0067
+   },
+   "k3_beta0.99": {
+    "diff": 0.03638,
+    "ci95": [
+     0.02133,
+     0.05142
+    ],
+    "mean_weight": 0.1172,
+    "zero_fraction": 0.01
+   },
+   "k5_beta0.5": {
+    "diff": 0.02,
+    "ci95": [
+     0.01517,
+     0.0257
+    ],
+    "mean_weight": 0.1255,
+    "zero_fraction": 0.0275
+   },
+   "k5_beta0.9": {
+    "diff": 0.03561,
+    "ci95": [
+     0.02386,
+     0.04874
+    ],
+    "mean_weight": 0.1127,
+    "zero_fraction": 0.0058
+   },
+   "k5_beta0.99": {
+    "diff": 0.03413,
+    "ci95": [
+     0.02003,
+     0.04941
+    ],
+    "mean_weight": 0.1091,
+    "zero_fraction": 0.0042
+   },
+   "k10_beta0.5": {
+    "diff": 0.01661,
+    "ci95": [
+     0.01249,
+     0.02163
+    ],
+    "mean_weight": 0.1197,
+    "zero_fraction": 0.0275
+   },
+   "k10_beta0.9": {
+    "diff": 0.03302,
+    "ci95": [
+     0.02187,
+     0.04454
+    ],
+    "mean_weight": 0.1009,
+    "zero_fraction": 0.005
+   },
+   "k10_beta0.99": {
+    "diff": 0.03349,
+    "ci95": [
+     0.02103,
+     0.04687
+    ],
+    "mean_weight": 0.0958,
+    "zero_fraction": 0.0075
+   },
+   "k20_beta0.5": {
+    "diff": 0.01347,
+    "ci95": [
+     0.00997,
+     0.01811
+    ],
+    "mean_weight": 0.1147,
+    "zero_fraction": 0.0308
+   },
+   "k20_beta0.9": {
+    "diff": 0.03303,
+    "ci95": [
+     0.02219,
+     0.04447
+    ],
+    "mean_weight": 0.0906,
+    "zero_fraction": 0.005
+   },
+   "k20_beta0.99": {
+    "diff": 0.0323,
+    "ci95": [
+     0.02039,
+     0.04496
+    ],
+    "mean_weight": 0.084,
+    "zero_fraction": 0.0075
+   }
+  },
+  "non_query_genes": {
+   "k1_beta0.5": {
+    "diff": -0.00139,
+    "ci95": [
+     -0.00594,
+     0.00389
+    ],
+    "mean_weight": 0.0814,
+    "zero_fraction": 0.1058
+   },
+   "k1_beta0.9": {
+    "diff": 0.00854,
+    "ci95": [
+     -0.00226,
+     0.01887
+    ],
+    "mean_weight": 0.0729,
+    "zero_fraction": 0.0642
+   },
+   "k1_beta0.99": {
+    "diff": 0.0054,
+    "ci95": [
+     -0.00774,
+     0.01768
+    ],
+    "mean_weight": 0.0707,
+    "zero_fraction": 0.0675
+   },
+   "k3_beta0.5": {
+    "diff": 0.00116,
+    "ci95": [
+     -0.00399,
+     0.00642
+    ],
+    "mean_weight": 0.0808,
+    "zero_fraction": 0.0875
+   },
+   "k3_beta0.9": {
+    "diff": 0.02155,
+    "ci95": [
+     0.01015,
+     0.03224
+    ],
+    "mean_weight": 0.0719,
+    "zero_fraction": 0.0383
+   },
+   "k3_beta0.99": {
+    "diff": 0.01588,
+    "ci95": [
+     -0.00135,
+     0.03128
+    ],
+    "mean_weight": 0.0696,
+    "zero_fraction": 0.04
+   },
+   "k5_beta0.5": {
+    "diff": 0.0003,
+    "ci95": [
+     -0.00437,
+     0.00606
+    ],
+    "mean_weight": 0.0788,
+    "zero_fraction": 0.0817
+   },
+   "k5_beta0.9": {
+    "diff": 0.02342,
+    "ci95": [
+     0.01197,
+     0.03582
+    ],
+    "mean_weight": 0.0681,
+    "zero_fraction": 0.0317
+   },
+   "k5_beta0.99": {
+    "diff": 0.01928,
+    "ci95": [
+     0.00354,
+     0.03474
+    ],
+    "mean_weight": 0.0652,
+    "zero_fraction": 0.0325
+   },
+   "k10_beta0.5": {
+    "diff": -0.00497,
+    "ci95": [
+     -0.00862,
+     -5e-05
+    ],
+    "mean_weight": 0.0744,
+    "zero_fraction": 0.09
+   },
+   "k10_beta0.9": {
+    "diff": 0.02097,
+    "ci95": [
+     0.01036,
+     0.03238
+    ],
+    "mean_weight": 0.0593,
+    "zero_fraction": 0.0317
+   },
+   "k10_beta0.99": {
+    "diff": 0.01876,
+    "ci95": [
+     0.00467,
+     0.03339
+    ],
+    "mean_weight": 0.0554,
+    "zero_fraction": 0.0342
+   },
+   "k20_beta0.5": {
+    "diff": -0.00757,
+    "ci95": [
+     -0.01045,
+     -0.00354
+    ],
+    "mean_weight": 0.0726,
+    "zero_fraction": 0.0917
+   },
+   "k20_beta0.9": {
+    "diff": 0.01831,
+    "ci95": [
+     0.00793,
+     0.02888
+    ],
+    "mean_weight": 0.0555,
+    "zero_fraction": 0.0408
+   },
+   "k20_beta0.99": {
+    "diff": 0.01763,
+    "ci95": [
+     0.00371,
+     0.03139
+    ],
+    "mean_weight": 0.0511,
+    "zero_fraction": 0.035
+   }
+  },
+  "input_only_rule": {
+   "target_trace_share": 0.5,
+   "beta": 0.9,
+   "n_directions_stored": 20,
+   "cumulative_trace_share": [
+    0.058091486387972326,
+    0.07571829594339143,
+    0.08518319195929357,
+    0.09312846124416096,
+    0.10030149644853342,
+    0.10610497406704544,
+    0.11114112489242037,
+    0.11482726820299562,
+    0.11757135864659828,
+    0.12023915820273436,
+    0.12263614191467001,
+    0.12500127532404373,
+    0.1272351791715802,
+    0.12930932245241467,
+    0.1313205015599134,
+    0.1332263912652854,
+    0.1351033721690063,
+    0.13690935992777112,
+    0.13857399082951458,
+    0.14022893437312978
+   ],
+   "share_reached_by_stored_directions": 0.1402,
+   "k": null,
+   "computable": false,
+   "note": "the 20 stored directions carry only 14.0% of the control trace, so the rule needs k > 20; its value is not determined this round"
+  }
+ },
+ "decision": {
+  "primary_cell": "E4 responsive 20",
+  "diff": 0.03561349892013915,
+  "ci95": [
+   0.023863735899247684,
+   0.04873618201104612
+  ],
+  "reading": "worth finalising",
+  "gatekeeper_computed": {
+   "E4 terciles 20": {
+    "diff": 0.0055393885889641285,
+    "ci95": [
+     0.0027592398235517144,
+     0.009056087452519528
+    ],
+    "p_one_sided": 0.0
+   }
+  },
+  "gatekeepers_not_computed": [
+   "E4 terciles 50",
+   "E1 20",
+   "E1 50",
+   "E5 responsive 20",
+   "E5 responsive 50",
+   "E3 20",
+   "E3 100"
+  ],
+  "note": "A4a section 2: only the 20-cell statistics were read, so the other gatekeepers need their own depth and source before any overall reading"
+ }
+}

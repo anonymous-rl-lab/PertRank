@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "module": "r20_intermediates",
+  "replay_level": "per_query_scores_to_means_contrasts_intervals",
+  "new_experiment": false,
+  "predictions_rebuilt": false,
+  "weights_refitted": false,
+  "raw_cells_used": false,
+  "historical_D1_query_panel_retained": true,
+  "bootstrap_draws": 2000,
+  "seed": 20261006,
+  "checks": {
+    "D3_Rest": {
+      "internal_responsive": {
+        "status": "PASS",
+        "input_shape": [
+          3,
+          5,
+          300,
+          2
+        ],
+        "query_blocks": 30,
+        "means_contrasts_intervals": "all historical fields matched",
+        "absolute_tolerance": 1e-12
+      },
+      "internal_terciles": {
+        "status": "PASS",
+        "input_shape": [
+          3,
+          5,
+          300,
+          2
+        ],
+        "query_blocks": 30,
+        "means_contrasts_intervals": "all historical fields matched",
+        "absolute_tolerance": 1e-12
+      },
+      "external": {
+        "status": "PASS",
+        "input_shape": [
+          3,
+          2,
+          293,
+          2
+        ],
+        "query_blocks": 30,
+        "means_contrasts_intervals": "all historical fields matched",
+        "absolute_tolerance": 1e-12
+      }
+    },
+    "D1_Rest": {
+      "internal_responsive": {
+        "status": "PASS",
+        "input_shape": [
+          3,
+          5,
+          300,
+          2
+        ],
+        "query_blocks": 30,
+        "means_contrasts_intervals": "all historical fields matched",
+        "absolute_tolerance": 1e-12
+      },
+      "internal_terciles": {
+        "status": "PASS",
+        "input_shape": [
+          3,
+          5,
+          300,
+          2
+        ],
+        "query_blocks": 30,
+        "means_contrasts_intervals": "all historical fields matched",
+        "absolute_tolerance": 1e-12
+      },
+      "external": {
+        "status": "PASS",
+        "input_shape": [
+          3,
+          2,
+          289,
+          2
+        ],
+        "query_blocks": 30,
+        "means_contrasts_intervals": "all historical fields matched",
+        "absolute_tolerance": 1e-12
+      }
+    },
+    "D2_Rest": {
+      "internal_responsive": {
+        "status": "PASS",
+        "input_shape": [
+          3,
+          5,
+          300,
+          2
+        ],
+        "query_blocks": 30,
+        "means_contrasts_intervals": "all historical fields matched",
+        "absolute_tolerance": 1e-12
+      },
+      "internal_terciles": {
+        "status": "PASS",
+        "input_shape": [
+          3,
+          5,
+          300,
+          2
+        ],
+        "query_blocks": 30,
+        "means_contrasts_intervals": "all historical fields matched",
+        "absolute_tolerance": 1e-12
+      },
+      "external": {
+        "status": "PASS",
+        "input_shape": [
+          3,
+          2,
+          289,
+          2
+        ],
+        "query_blocks": 30,
+        "means_contrasts_intervals": "all historical fields matched",
+        "absolute_tolerance": 1e-12
+      }
+    }
+  },
+  "cross_source_descriptive_summary": "PASS",
+  "scope": "Three source donors, five responsive and five tercile within-screen input groups and two external RNA input groups each; conditional query-block intervals. No pooled donor CI.",
+  "not_replayed": "Cell selection, moment estimation, weight fitting, ranking, list membership and nomination redistribution.",
+  "seconds": 5.646316675993148
+}

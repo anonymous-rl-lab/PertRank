@@ -1,0 +1,242 @@
+{
+  "D1": {
+    "donor": "D1",
+    "panel_scope": "HISTORICAL PANEL SENSITIVITY ONLY. D1 uses the original 595-union-query R20 panel, not the corrected D1 panel in ranking.npz. Its depth-equivalence numbers must not be labeled corrected-panel results.",
+    "numeric_values": 120271,
+    "max_absolute_difference": 0.0,
+    "query_scores_bitwise_equal": true,
+    "bootstrap_checks": {
+      "responsive_raw_curve_bootstrap": {
+        "values": 14000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "responsive_method20_bootstrap": {
+        "values": 6000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "responsive_inverse_values": {
+        "values": 4000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "responsive_inverse_states": {
+        "values": 4000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "responsive_paired_depth_difference": {
+        "values": 2000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_raw_curve_bootstrap": {
+        "values": 14000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_method20_bootstrap": {
+        "values": 6000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_inverse_values": {
+        "values": 4000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_inverse_states": {
+        "values": 4000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_paired_depth_difference": {
+        "values": 2000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      }
+    },
+    "status": "PASS"
+  },
+  "D2": {
+    "donor": "D2",
+    "panel_scope": "Frozen panel for this depth analysis.",
+    "numeric_values": 120284,
+    "max_absolute_difference": 0.0,
+    "query_scores_bitwise_equal": true,
+    "bootstrap_checks": {
+      "responsive_raw_curve_bootstrap": {
+        "values": 14000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "responsive_method20_bootstrap": {
+        "values": 6000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "responsive_inverse_values": {
+        "values": 4000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "responsive_inverse_states": {
+        "values": 4000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "responsive_paired_depth_difference": {
+        "values": 2000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_raw_curve_bootstrap": {
+        "values": 14000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_method20_bootstrap": {
+        "values": 6000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_inverse_values": {
+        "values": 4000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_inverse_states": {
+        "values": 4000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_paired_depth_difference": {
+        "values": 2000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      }
+    },
+    "status": "PASS"
+  },
+  "D3": {
+    "donor": "D3",
+    "panel_scope": "Frozen panel for this depth analysis.",
+    "numeric_values": 120269,
+    "max_absolute_difference": 0.0,
+    "query_scores_bitwise_equal": true,
+    "bootstrap_checks": {
+      "responsive_raw_curve_bootstrap": {
+        "values": 14000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "responsive_method20_bootstrap": {
+        "values": 6000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "responsive_inverse_values": {
+        "values": 4000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "responsive_inverse_states": {
+        "values": 4000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "responsive_paired_depth_difference": {
+        "values": 2000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_raw_curve_bootstrap": {
+        "values": 14000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_method20_bootstrap": {
+        "values": 6000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_inverse_values": {
+        "values": 4000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_inverse_states": {
+        "values": 4000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_paired_depth_difference": {
+        "values": 2000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      }
+    },
+    "status": "PASS"
+  },
+  "D4": {
+    "donor": "D4",
+    "panel_scope": "Frozen panel for this depth analysis.",
+    "numeric_values": 120261,
+    "max_absolute_difference": 0.0,
+    "query_scores_bitwise_equal": true,
+    "bootstrap_checks": {
+      "responsive_raw_curve_bootstrap": {
+        "values": 14000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "responsive_method20_bootstrap": {
+        "values": 6000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "responsive_inverse_values": {
+        "values": 4000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "responsive_inverse_states": {
+        "values": 4000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "responsive_paired_depth_difference": {
+        "values": 2000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_raw_curve_bootstrap": {
+        "values": 14000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_method20_bootstrap": {
+        "values": 6000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_inverse_values": {
+        "values": 4000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_inverse_states": {
+        "values": 4000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      },
+      "terciles_paired_depth_difference": {
+        "values": 2000,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal_including_nan": true
+      }
+    },
+    "status": "PASS"
+  }
+}

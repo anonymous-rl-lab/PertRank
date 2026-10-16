@@ -1,0 +1,16 @@
+Replogle et al. 2022 K562 genome-wide Perturb-seq
+Candidates: 2000
+Weight genes: 8202
+Stored effect columns: 300
+Example queries: ['ENSG00000004478', 'ENSG00000005249', 'ENSG00000016490']
+Both weight vectors match the saved implementation within 1e-12.
+Exported 180 nomination rows to outputs/replogle
+PASS 01_replogle.ipynb: 4 complete code cells
+Primary CD4+ T-cell atlas, donor D3, resting state
+Candidates: 52
+Weight genes: 13390
+Stored effect columns: 293
+Example queries: ['ENSG00000008517', 'ENSG00000010278', 'ENSG00000010610']
+Both weight vectors match the saved implementation within 1e-12.
+Exported 180 nomination rows to outputs/tcell
+PASS 02_tcell.ipynb: 5 complete code cells

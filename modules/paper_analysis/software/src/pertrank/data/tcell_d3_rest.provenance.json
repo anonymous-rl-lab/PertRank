@@ -1,0 +1,63 @@
+{
+  "dataset": "Primary CD4+ T-cell atlas, donor D3, resting state",
+  "fixture_kind": "Authentic archived sufficient statistics and query-effect matrix; not cell-level AnnData",
+  "candidate_selection": "All 52 candidates in the completed independent-knockout-RNA comparison; no additional candidate filtering",
+  "query_selection": "All 293 archived query columns retained. Tutorial displays first three unique query IDs in lexicographic order, without consulting outcomes.",
+  "selected_query_ids": [
+    "ENSG00000008517",
+    "ENSG00000010278",
+    "ENSG00000010610"
+  ],
+  "selected_query_symbols": [
+    "IL32",
+    "CD9",
+    "CD4"
+  ],
+  "n_target_cells": 20,
+  "n_control_cells": 2000,
+  "weight_gene_count": 13390,
+  "effects_shape": [
+    52,
+    293
+  ],
+  "geometry_scope": "Energies and projected noise are from the full 13,390-gene archived input axis; displayed effect columns are the original 293 queries.",
+  "units_conversion": {
+    "energy": "G * m2",
+    "noise_trace": "G * vb / 20 + trC / n_control",
+    "direction_energy": "(Psum/20 - proj_control)^2, first 5 directions",
+    "direction_noise": "(Psumsq - Psum^2/20)/19/20 + eigenvalue/n_control, first 5 directions"
+  },
+  "source_study_doi": "10.1016/j.cell.2026.08.002",
+  "source_release": "genome-scale-tcell-perturb-seq/marson2025_data",
+  "sources": {
+    "moments": {
+      "path": "package_v130/release/PertRank_Code_v1.3.0/modules/native_rna/raw_inputs/D3_Rest/sufficient_state.npz",
+      "sha256": "b93e5fac94a2644709eb05c347932ebfcc5ceba2723f3e55e8d691e387cae464"
+    },
+    "predictions": {
+      "path": "package_v140/total/PertRank_D1_D4_GitHub_Core/supplements/20261014_upgrade/native_rna/legacy/D3_Rest/predictions_locked.npz",
+      "sha256": "14023f8044a499b5dd49885a41e81915bd061e2b1da041e09d1e142f9c42b50b"
+    },
+    "fr": {
+      "path": "package_v140/total/PertRank_D1_D4_GitHub_Core/supplements/20261014_upgrade/native_rna/models/D3_Rest/FR/native/effects.npz",
+      "sha256": "eb133f67647640e3e014429357913f7dac05df70adc6800394a1c42d9fd23285"
+    },
+    "symbols": {
+      "path": "pertrank_ecosystem/sources/recovered/Pertrescue_Code_v9/code/repro_v10/same_budget_weight/stage3/data/tcell_gene_symbols.json",
+      "sha256": "19775af812cff6486caf595868368e29f98666933d4f341da6a24c600e3b55a0"
+    }
+  },
+  "fixture": {
+    "file": "tcell_d3_rest.npz",
+    "sha256": "6e80c7819e659fe3b901ba2a6e5e6030ccd25a3cd4b65443afbb8f8c4edc7ca8",
+    "bytes": 246138
+  },
+  "archived_weight_max_absolute_error": {
+    "Euclidean": 2.220446049250313e-16,
+    "PertRank": 3.3306690738754696e-16
+  },
+  "new_model_fits": 0,
+  "reference_matrices_read": 0,
+  "scientific_performance_evaluations": 0,
+  "redistribution": "Derived numerical tutorial fixture from public-source data; retain source-study attribution. Source data are not relicensed by the software license."
+}

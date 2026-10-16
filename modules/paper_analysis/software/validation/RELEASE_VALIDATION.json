@@ -1,0 +1,75 @@
+{
+  "version": "0.2.0rc2",
+  "paper": "v25.2",
+  "timestamp_utc": "2026-10-15T23:50:23.750752+00:00",
+  "status": "PASS",
+  "source_tests": {
+    "passed": 99,
+    "failed": 0,
+    "skipped": 0
+  },
+  "installed_wheel_tests": {
+    "passed": 99,
+    "failed": 0,
+    "skipped": 0
+  },
+  "tutorials": [
+    {
+      "notebook": "01_replogle.ipynb",
+      "status": "PASS",
+      "code_cells": 4,
+      "errors": 0,
+      "seconds": 0.868,
+      "engine": "Sequential plain-Python cells; installed wheel; no cell skipped",
+      "jupyter_transport": "Unavailable: environment denies local network interface operation"
+    },
+    {
+      "notebook": "02_tcell.ipynb",
+      "status": "PASS",
+      "code_cells": 5,
+      "errors": 0,
+      "seconds": 0.241,
+      "engine": "Sequential plain-Python cells; installed wheel; no cell skipped",
+      "jupyter_transport": "Unavailable: environment denies local network interface operation"
+    }
+  ],
+  "quickstart": "PASS",
+  "fixture_weight_max_absolute_error": {
+    "replogle": {
+      "Euclidean": 2.220446049250313e-16,
+      "PertRank": 4.440892098500626e-16
+    },
+    "tcell": {
+      "Euclidean": 2.220446049250313e-16,
+      "PertRank": 3.3306690738754696e-16
+    }
+  },
+  "new_scientific_experiments": 0,
+  "data_fixtures_changed": false,
+  "frozen_oracle_changed": false,
+  "remote_ci_executed": false,
+  "publication": {
+    "pypi": false,
+    "scverse_registry": false,
+    "pertpy_merged": false
+  },
+  "jupyter_transport_tested": false,
+  "environment": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.5.4",
+      "scipy": "1.16.3",
+      "pandas": "3.0.6",
+      "anndata": "0.13.4",
+      "h5py": "3.16.0",
+      "pytest": "9.1.1",
+      "nbformat": "5.11.1",
+      "nbclient": "0.11.0",
+      "ipykernel": "7.4.0",
+      "nbconvert": "7.17.2",
+      "setuptools": "84.0.0",
+      "wheel": "0.48.0",
+      "build": "1.6.1"
+    }
+  }
+}

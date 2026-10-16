@@ -1,0 +1,110 @@
+{
+  "mode": "legacy",
+  "status": "NEW_RECONSTRUCTED_INPUTS_ARCHIVED_UNCHANGED_SCIENTIFIC_SCRIPTS",
+  "runs": [
+    {
+      "script": "evaluate_a15_guide_split.py",
+      "script_sha256": "66c5bd16936cae28e3d76366d5e3e2bffb4af4e326ac424d1640b46acb74f8c0",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/tmp/pertrescue_guide_clean_replay_20261005/run/code/repro_v10/same_budget_weight/stage3/evaluate_a15_guide_split.py",
+        "--out",
+        "/tmp/pertrescue_guide_clean_replay_20261005/results/legacy"
+      ],
+      "result": "/tmp/pertrescue_guide_clean_replay_20261005/results/legacy/a15_guide_split.json",
+      "result_sha256": "82175b1ba12d3448c443c519c013c77c61f0a8091994d077b35fbc53f9a10818",
+      "seconds": 5.522055149078369,
+      "exit_code": 0,
+      "scientific_comparison": {
+        "fields": 292,
+        "numeric": 282,
+        "max_abs_error": 0.0,
+        "differences": []
+      }
+    },
+    {
+      "script": "a15a_guide_switch_cost.py",
+      "script_sha256": "45c7cc3eb8f8295668e0050e4331744887f481d74d2a734fd10e1ac5da6e8440",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/tmp/pertrescue_guide_clean_replay_20261005/run/code/repro_v10/same_budget_weight/stage3/a15a_guide_switch_cost.py",
+        "--out",
+        "/tmp/pertrescue_guide_clean_replay_20261005/results/legacy"
+      ],
+      "result": "/tmp/pertrescue_guide_clean_replay_20261005/results/legacy/a15a_guide_switch_cost.json",
+      "result_sha256": "cedfe1efc7264899741fb4b839407886389f475cf8d50565cd825938875ac723",
+      "seconds": 17.15174627304077,
+      "exit_code": 0,
+      "scientific_comparison": {
+        "fields": 452,
+        "numeric": 441,
+        "max_abs_error": 0.0,
+        "differences": []
+      }
+    },
+    {
+      "script": "a15b_did_and_lane.py",
+      "script_sha256": "ec9c0008263ea8d0673207b7d7ab26aac9baa3360e0a7d556acf8a6f0d665bef",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/tmp/pertrescue_guide_clean_replay_20261005/run/code/repro_v10/same_budget_weight/stage3/a15b_did_and_lane.py",
+        "--out",
+        "/tmp/pertrescue_guide_clean_replay_20261005/results/legacy"
+      ],
+      "result": "/tmp/pertrescue_guide_clean_replay_20261005/results/legacy/a15b_did_and_lane.json",
+      "result_sha256": "398b515d39763c5d3ab29e362db1fb2536c241b6e1110eef878b118ae1ded046",
+      "seconds": 57.43361496925354,
+      "exit_code": 0,
+      "scientific_comparison": {
+        "fields": 60,
+        "numeric": 56,
+        "max_abs_error": 0.0,
+        "differences": []
+      }
+    },
+    {
+      "script": "a17_four_arm_ablation.py",
+      "script_sha256": "3c58c4d4bc21073e83c97cebf6f550c21dc2e8f8caf4f6aec5857646a013c39a",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/tmp/pertrescue_guide_clean_replay_20261005/run/code/repro_v10/same_budget_weight/stage3/a17_four_arm_ablation.py",
+        "--out",
+        "/tmp/pertrescue_guide_clean_replay_20261005/results/legacy"
+      ],
+      "result": "/tmp/pertrescue_guide_clean_replay_20261005/results/legacy/a17_four_arm_ablation.json",
+      "result_sha256": "db565779323f8d4bcabb686a39d02caca451f24a9fa0f54d7044d36f08b9c14d",
+      "seconds": 5.147157192230225,
+      "exit_code": 0,
+      "scientific_comparison": {
+        "fields": 364,
+        "numeric": 360,
+        "max_abs_error": 0.0,
+        "differences": []
+      }
+    },
+    {
+      "script": "a15b_lane_null.py",
+      "script_sha256": "253fc72d198a029772bbe9da60ab29ae33ae6a43465870d4f500391e7176b07a",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/tmp/pertrescue_guide_clean_replay_20261005/run/code/repro_v10/same_budget_weight/stage3/a15b_lane_null.py",
+        "--out",
+        "/tmp/pertrescue_guide_clean_replay_20261005/results/legacy",
+        "--sims",
+        "20",
+        "--seed",
+        "1515"
+      ],
+      "result": "/tmp/pertrescue_guide_clean_replay_20261005/results/legacy/a15b_lane_null_calibration.json",
+      "result_sha256": "052728d826130228ecf4e4bdb968386739662b543f726cf009a87111637ba10d",
+      "seconds": 51.128238916397095,
+      "exit_code": 0,
+      "scientific_comparison": {
+        "fields": 39,
+        "numeric": 35,
+        "max_abs_error": 0.0,
+        "differences": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Amendment A14 freeze record. Hashed before the script produced any protein weight or nomination score.
+# 2026-09-27T05:20:00Z freeze of the shallow-protein recovery evaluation
+5301f4101f856e6d90b991dba54a0ec65c8d963be3497143ebbabac0ac740a65  evaluate_scito_shallow_protein.py

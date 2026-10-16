@@ -1,0 +1,121 @@
+{
+  "status": "PASS",
+  "reproduction_level": "readout_score_to_comparison",
+  "raw_counts_read": false,
+  "guide_overlap_reclassified": false,
+  "MAGeCK_refit": false,
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 20261011,
+  "scientific_numeric_values_checked": 302,
+  "maximum_absolute_difference": 0.0,
+  "seconds": 3.616252064006403,
+  "main_result": {
+    "D_obs": -0.0012081901145851565,
+    "donor_D_obs": [
+      -0.003978763483389784,
+      0.001562383254219471
+    ],
+    "direction_D_obs": {
+      "decreasing_expression": -0.004996872635145271,
+      "increasing_expression": 0.002580492405974956
+    },
+    "binary_net_supported_occurrences": -2.0,
+    "binary_net_supported_per_list": -0.2,
+    "binary_delta_support_fraction_observed": -0.008,
+    "binary_delta_support_fraction_lower": -0.008,
+    "binary_delta_support_fraction_upper": -0.004,
+    "changed_targets_observed": 86,
+    "changed_targets_total": 87,
+    "swaps": {
+      "swap_in": {
+        "total": 49,
+        "observed": 48,
+        "supported": 0
+      },
+      "swap_out": {
+        "total": 49,
+        "observed": 49,
+        "supported": 2
+      }
+    },
+    "leave_one_target_out_D_obs_range": [
+      -0.0031543382437844224,
+      0.0035299103099466892
+    ],
+    "largest_absolute_target_contributions": [
+      {
+        "target_id": "ENSG00000114423",
+        "gene_symbol": "CBLB",
+        "contribution": -0.004738100424531846
+      },
+      {
+        "target_id": "ENSG00000147403",
+        "gene_symbol": "RPL10",
+        "contribution": -0.0036709011368559327
+      },
+      {
+        "target_id": "ENSG00000108039",
+        "gene_symbol": "XPNPEP1",
+        "contribution": -0.0022355444538340904
+      },
+      {
+        "target_id": "ENSG00000107874",
+        "gene_symbol": "CUEDC2",
+        "contribution": 0.0019461481291992658
+      },
+      {
+        "target_id": "ENSG00000163848",
+        "gene_symbol": "ZNF148",
+        "contribution": 0.00158727507694123
+      },
+      {
+        "target_id": "ENSG00000118513",
+        "gene_symbol": "MYB",
+        "contribution": 0.0015522134026227903
+      },
+      {
+        "target_id": "ENSG00000171700",
+        "gene_symbol": "RGS19",
+        "contribution": 0.0015074588732546116
+      },
+      {
+        "target_id": "ENSG00000167566",
+        "gene_symbol": "NCKAP5L",
+        "contribution": 0.0012643446307786129
+      },
+      {
+        "target_id": "ENSG00000131323",
+        "gene_symbol": "TRAF3",
+        "contribution": 0.0012385098260539467
+      },
+      {
+        "target_id": "ENSG00000198818",
+        "gene_symbol": "SFT2D1",
+        "contribution": -0.001220833458952539
+      }
+    ],
+    "conditional_guide_bootstrap": {
+      "draws": 20000,
+      "seed": 20261011,
+      "D_obs_percentile95": [
+        -0.012694020892076023,
+        0.009785773026227197
+      ],
+      "donor_D_obs_percentile95": [
+        [
+          -0.024703485314431013,
+          0.008193334334464059
+        ],
+        [
+          -0.010694198691848377,
+          0.020631529529883178
+        ]
+      ],
+      "binary_observed_delta_percentile95": [
+        -0.008,
+        0.0
+      ],
+      "interpretation": "Paired guide/control resampling, conditional on these two donors and fixed lists; no population coverage claim; missing contributions excluded."
+    }
+  }
+}

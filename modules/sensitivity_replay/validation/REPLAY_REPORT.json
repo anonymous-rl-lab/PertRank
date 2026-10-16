@@ -1,0 +1,739 @@
+{
+  "status": "PASS",
+  "scope": "Saved-draw summary replay and completed-coefficient scoring; no new experiment or refit.",
+  "draw_summaries": {
+    "conditional_bootstrap_D1": {
+      "status": "PASS",
+      "draws": 200,
+      "numeric_summary_fields_checked": 64,
+      "panels": {
+        "responsive": {
+          "score_distributions": {
+            "raw": {
+              "mean": 0.18136969333195516,
+              "sd": 0.003336352545681714,
+              "empirical_q025_q975": [
+                0.17497478254797408,
+                0.1888255407636462
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "w0y": {
+              "mean": 0.24916586662795198,
+              "sd": 0.002860816270011343,
+              "empirical_q025_q975": [
+                0.2429104631242741,
+                0.25498149487030586
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1": {
+              "mean": 0.2717006301780875,
+              "sd": 0.0030259177017078623,
+              "empirical_q025_q975": [
+                0.2655469004065041,
+                0.2771564638985676
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          },
+          "overlap_with_original_list": {
+            "raw": {
+              "mean": 0.42657114351090686,
+              "sd": 0.004368536061455537,
+              "empirical_q025_q975": [
+                0.41843607903405455,
+                0.43504751765382144
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "w0y": {
+              "mean": 0.6550923333333333,
+              "sd": 0.004577153848565057,
+              "empirical_q025_q975": [
+                0.6469283333333332,
+                0.6642183333333334
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1": {
+              "mean": 0.6608026666666666,
+              "sd": 0.004589210466734372,
+              "empirical_q025_q975": [
+                0.6532666666666667,
+                0.6696016666666667
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          },
+          "comparison_distributions": {
+            "W1 - raw": {
+              "mean": 0.09033093684613233,
+              "sd": 0.0029602526475551202,
+              "empirical_q025_q975": [
+                0.08404477029640363,
+                0.09593644695645583
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1 - w0y": {
+              "mean": 0.022534763550135506,
+              "sd": 0.0020831431999002417,
+              "empirical_q025_q975": [
+                0.01880617063492065,
+                0.02625536827332559
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          }
+        },
+        "terciles": {
+          "score_distributions": {
+            "raw": {
+              "mean": 0.041368752581059196,
+              "sd": 0.0012042750958056046,
+              "empirical_q025_q975": [
+                0.039232280222949334,
+                0.04343960551672663
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "w0y": {
+              "mean": 0.0642702583817893,
+              "sd": 0.0013839305854425952,
+              "empirical_q025_q975": [
+                0.06146887863152118,
+                0.06698550040389079
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1": {
+              "mean": 0.06711109177394853,
+              "sd": 0.0014129084971454084,
+              "empirical_q025_q975": [
+                0.06451282915642975,
+                0.06976605849555022
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          },
+          "overlap_with_original_list": {
+            "raw": {
+              "mean": 0.2899499490659674,
+              "sd": 0.002987256850469189,
+              "empirical_q025_q975": [
+                0.28469776159703,
+                0.2958962416283251
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "w0y": {
+              "mean": 0.5879964744268077,
+              "sd": 0.0036441079234362786,
+              "empirical_q025_q975": [
+                0.5803381657848324,
+                0.5951695238095238
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1": {
+              "mean": 0.6002940687830688,
+              "sd": 0.003749681762477136,
+              "empirical_q025_q975": [
+                0.5928516931216932,
+                0.6071927777777778
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          },
+          "comparison_distributions": {
+            "W1 - raw": {
+              "mean": 0.025742339192889326,
+              "sd": 0.0015431613372374807,
+              "empirical_q025_q975": [
+                0.022805619617345122,
+                0.028812232265876595
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1 - w0y": {
+              "mean": 0.002840833392159209,
+              "sd": 0.001176741758454549,
+              "empirical_q025_q975": [
+                0.0003146971844318003,
+                0.005149881921084425
+              ],
+              "fraction_gt_zero": 0.99
+            }
+          }
+        }
+      },
+      "interpretation": "Empirical draw distribution, not donor-population confidence interval; original negative refit findings retained."
+    },
+    "conditional_bootstrap_D2": {
+      "status": "PASS",
+      "draws": 200,
+      "numeric_summary_fields_checked": 64,
+      "panels": {
+        "responsive": {
+          "score_distributions": {
+            "raw": {
+              "mean": 0.2515737018992649,
+              "sd": 0.0034949674556699426,
+              "empirical_q025_q975": [
+                0.24525656355554046,
+                0.25880452580679786
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "w0y": {
+              "mean": 0.3045670092077444,
+              "sd": 0.002819608927455653,
+              "empirical_q025_q975": [
+                0.29974080957357496,
+                0.31118286701614695
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1": {
+              "mean": 0.3159772835984833,
+              "sd": 0.002949781284084543,
+              "empirical_q025_q975": [
+                0.3098869155409408,
+                0.32121079905512584
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          },
+          "overlap_with_original_list": {
+            "raw": {
+              "mean": 0.47550439522323573,
+              "sd": 0.004369486151268582,
+              "empirical_q025_q975": [
+                0.46670403276013317,
+                0.4837323866465308
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "w0y": {
+              "mean": 0.677179,
+              "sd": 0.004206647460714786,
+              "empirical_q025_q975": [
+                0.6692616666666666,
+                0.6849383333333334
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1": {
+              "mean": 0.6792033333333333,
+              "sd": 0.004414223748401201,
+              "empirical_q025_q975": [
+                0.6712583333333334,
+                0.6874883333333334
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          },
+          "comparison_distributions": {
+            "W1 - raw": {
+              "mean": 0.06440358169921842,
+              "sd": 0.0030041063615807804,
+              "empirical_q025_q975": [
+                0.058564447435766935,
+                0.07049114748144893
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1 - w0y": {
+              "mean": 0.011410274390738953,
+              "sd": 0.0018822515501427423,
+              "empirical_q025_q975": [
+                0.007259844047302013,
+                0.014886981113795609
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          }
+        },
+        "terciles": {
+          "score_distributions": {
+            "raw": {
+              "mean": 0.05193697951769661,
+              "sd": 0.0014006819938458045,
+              "empirical_q025_q975": [
+                0.04933907359101619,
+                0.05480664885687644
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "w0y": {
+              "mean": 0.0747430831510651,
+              "sd": 0.0014854131109481444,
+              "empirical_q025_q975": [
+                0.07196492863288503,
+                0.07731180020176688
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1": {
+              "mean": 0.0762635269174234,
+              "sd": 0.001442996945309648,
+              "empirical_q025_q975": [
+                0.07342010876280168,
+                0.07893441552257133
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          },
+          "overlap_with_original_list": {
+            "raw": {
+              "mean": 0.29906867168321566,
+              "sd": 0.0032480544841306178,
+              "empirical_q025_q975": [
+                0.2932528570321379,
+                0.30548264971217437
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "w0y": {
+              "mean": 0.5863929,
+              "sd": 0.0035743147254488628,
+              "empirical_q025_q975": [
+                0.5789059666666667,
+                0.5929528666666666
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1": {
+              "mean": 0.5949313333333334,
+              "sd": 0.0038404291473394256,
+              "empirical_q025_q975": [
+                0.58753,
+                0.60215
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          },
+          "comparison_distributions": {
+            "W1 - raw": {
+              "mean": 0.02432654739972679,
+              "sd": 0.0015232805800083943,
+              "empirical_q025_q975": [
+                0.02117301625861317,
+                0.026938611054589313
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1 - w0y": {
+              "mean": 0.00152044376635829,
+              "sd": 0.0010062829372810699,
+              "empirical_q025_q975": [
+                -0.0004022022285333506,
+                0.0031612543339642
+              ],
+              "fraction_gt_zero": 0.93
+            }
+          }
+        }
+      },
+      "interpretation": "Empirical draw distribution, not donor-population confidence interval; original negative refit findings retained."
+    },
+    "conditional_bootstrap_D3": {
+      "status": "PASS",
+      "draws": 200,
+      "numeric_summary_fields_checked": 64,
+      "panels": {
+        "terciles": {
+          "score_distributions": {
+            "raw": {
+              "mean": 0.04528040585848406,
+              "sd": 0.0013454305768471242,
+              "empirical_q025_q975": [
+                0.04252174130558907,
+                0.04797020614968948
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "w0y": {
+              "mean": 0.0651466266803914,
+              "sd": 0.001281488773446815,
+              "empirical_q025_q975": [
+                0.06247078644586037,
+                0.06774010123794127
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1": {
+              "mean": 0.06902520817614038,
+              "sd": 0.0015068889976530247,
+              "empirical_q025_q975": [
+                0.06640375770104164,
+                0.07188230703963543
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          },
+          "overlap_with_original_list": {
+            "raw": {
+              "mean": 0.2920153016188655,
+              "sd": 0.0029492733211749903,
+              "empirical_q025_q975": [
+                0.28693017172448687,
+                0.2974778651186897
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "w0y": {
+              "mean": 0.5815986194968553,
+              "sd": 0.004035851857129391,
+              "empirical_q025_q975": [
+                0.5739286320754717,
+                0.5895706446540881
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1": {
+              "mean": 0.5899501904761905,
+              "sd": 0.0037671908133315927,
+              "empirical_q025_q975": [
+                0.5822666666666667,
+                0.5976033333333334
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          },
+          "comparison_distributions": {
+            "W1 - raw": {
+              "mean": 0.023744802317656327,
+              "sd": 0.0015009873746620612,
+              "empirical_q025_q975": [
+                0.02086068950696527,
+                0.026519998403022764
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1 - w0y": {
+              "mean": 0.003878581495748988,
+              "sd": 0.0011916950914307362,
+              "empirical_q025_q975": [
+                0.0016053503683602591,
+                0.0060136959077644655
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          }
+        },
+        "responsive": {
+          "score_distributions": {
+            "raw": {
+              "mean": 0.20243367617484992,
+              "sd": 0.004038684783230608,
+              "empirical_q025_q975": [
+                0.1943686280633338,
+                0.21040028198288702
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "w0y": {
+              "mean": 0.23797626585827317,
+              "sd": 0.0029543916206296143,
+              "empirical_q025_q975": [
+                0.23206578100978836,
+                0.2440899729289803
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1": {
+              "mean": 0.26760460270109326,
+              "sd": 0.0033054691989272767,
+              "empirical_q025_q975": [
+                0.2619054920511396,
+                0.2745341888097984
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          },
+          "overlap_with_original_list": {
+            "raw": {
+              "mean": 0.4470418937002762,
+              "sd": 0.005005388161832458,
+              "empirical_q025_q975": [
+                0.43748461252746124,
+                0.4566298566898039
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "w0y": {
+              "mean": 0.6564823333333334,
+              "sd": 0.005126709283127125,
+              "empirical_q025_q975": [
+                0.6462466666666666,
+                0.6662883333333334
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1": {
+              "mean": 0.6430313333333334,
+              "sd": 0.0047436338249152435,
+              "empirical_q025_q975": [
+                0.6335949999999999,
+                0.6512783333333333
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          },
+          "comparison_distributions": {
+            "W1 - raw": {
+              "mean": 0.06517092652624332,
+              "sd": 0.0035171288271793875,
+              "empirical_q025_q975": [
+                0.05796676676867486,
+                0.07137685010448983
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1 - w0y": {
+              "mean": 0.02962833684282005,
+              "sd": 0.0024422761753828902,
+              "empirical_q025_q975": [
+                0.024486450853263536,
+                0.034413080571151416
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          }
+        }
+      },
+      "interpretation": "Empirical draw distribution, not donor-population confidence interval; original negative refit findings retained."
+    },
+    "refit_D3": {
+      "status": "PASS",
+      "draws": 200,
+      "numeric_summary_fields_checked": 64,
+      "panels": {
+        "terciles": {
+          "score_distributions": {
+            "raw": {
+              "mean": 0.04528040585848406,
+              "sd": 0.0013454305768471242,
+              "empirical_q025_q975": [
+                0.04252174130558907,
+                0.04797020614968948
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "w0y": {
+              "mean": 0.048981230314767775,
+              "sd": 0.0017934955571830191,
+              "empirical_q025_q975": [
+                0.045532798101326995,
+                0.05228778144657141
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1": {
+              "mean": 0.04690618078079804,
+              "sd": 0.0017050965073077183,
+              "empirical_q025_q975": [
+                0.043718522041228974,
+                0.05058020902719106
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          },
+          "overlap_with_original_list": {
+            "raw": {
+              "mean": 0.2920153016188655,
+              "sd": 0.0029492733211749903,
+              "empirical_q025_q975": [
+                0.28693017172448687,
+                0.2974778651186897
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "w0y": {
+              "mean": 0.256153213836478,
+              "sd": 0.011843632381243713,
+              "empirical_q025_q975": [
+                0.235741320754717,
+                0.2778804245283019
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1": {
+              "mean": 0.21683076190476192,
+              "sd": 0.010680171036072847,
+              "empirical_q025_q975": [
+                0.19705642857142858,
+                0.237947380952381
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          },
+          "comparison_distributions": {
+            "W1 - raw": {
+              "mean": 0.0016257749223139873,
+              "sd": 0.0012174682987279404,
+              "empirical_q025_q975": [
+                -0.0006520203558452982,
+                0.0038937634239294147
+              ],
+              "fraction_gt_zero": 0.92
+            },
+            "W1 - w0y": {
+              "mean": -0.0020750495339697263,
+              "sd": 0.0008201862501200298,
+              "empirical_q025_q975": [
+                -0.0036873322456631476,
+                -0.0005289970593694106
+              ],
+              "fraction_gt_zero": 0.0
+            }
+          }
+        },
+        "responsive": {
+          "score_distributions": {
+            "raw": {
+              "mean": 0.20243367617484992,
+              "sd": 0.004038684783230608,
+              "empirical_q025_q975": [
+                0.1943686280633338,
+                0.21040028198288702
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "w0y": {
+              "mean": 0.20204052385942206,
+              "sd": 0.00537984448662202,
+              "empirical_q025_q975": [
+                0.19068002334435352,
+                0.21249367851509238
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1": {
+              "mean": 0.19860337547662418,
+              "sd": 0.00545375642982898,
+              "empirical_q025_q975": [
+                0.1875952952678109,
+                0.2102785887226754
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          },
+          "overlap_with_original_list": {
+            "raw": {
+              "mean": 0.4470418937002762,
+              "sd": 0.005005388161832458,
+              "empirical_q025_q975": [
+                0.43748461252746124,
+                0.4566298566898039
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "w0y": {
+              "mean": 0.34612966666666667,
+              "sd": 0.010335076737351585,
+              "empirical_q025_q975": [
+                0.327,
+                0.3659716666666667
+              ],
+              "fraction_gt_zero": 1.0
+            },
+            "W1": {
+              "mean": 0.3188796666666667,
+              "sd": 0.009592987149826069,
+              "empirical_q025_q975": [
+                0.302185,
+                0.3408466666666667
+              ],
+              "fraction_gt_zero": 1.0
+            }
+          },
+          "comparison_distributions": {
+            "W1 - raw": {
+              "mean": -0.0038303006982257273,
+              "sd": 0.0033425158952114227,
+              "empirical_q025_q975": [
+                -0.009989301681790515,
+                0.002874533778081352
+              ],
+              "fraction_gt_zero": 0.12
+            },
+            "W1 - w0y": {
+              "mean": -0.003437148382797848,
+              "sd": 0.001841835072237135,
+              "empirical_q025_q975": [
+                -0.00759294372294373,
+                -0.00032163969753705923
+              ],
+              "fraction_gt_zero": 0.025
+            }
+          }
+        }
+      },
+      "interpretation": "Empirical draw distribution, not donor-population confidence interval; original negative refit findings retained."
+    }
+  },
+  "mixscale": {
+    "status": "PASS",
+    "targets": 1200,
+    "queries": 300,
+    "four_arm_score_values_checked": 2400,
+    "score_max_abs_errors": {
+      "raw": 1.0408340855860843e-17,
+      "w0y": 0.0,
+      "W1": 3.469446951953614e-18,
+      "Mixscale_beta_weight": 3.469446951953614e-18
+    },
+    "means": {
+      "raw": 0.2773123584257502,
+      "w0y": 0.2757554779794853,
+      "W1": 0.3113689768996245,
+      "Mixscale_beta_weight": 0.06104553722295985
+    },
+    "coverage": {
+      "query_target_pairs_fitted": 358138,
+      "query_target_pairs_total": 360000,
+      "fraction_fitted": 0.9948277777777778,
+      "targets_with_no_query_returned": 0
+    },
+    "contrasts": {
+      "W1 - Mixscale_beta_weight": {
+        "diff": 0.25032343967666465,
+        "ci95": [
+          0.21962708947885934,
+          0.27794035766095454
+        ],
+        "p_one_sided": 0.0
+      },
+      "w0y - Mixscale_beta_weight": {
+        "diff": 0.2147099407565255,
+        "ci95": [
+          0.1938968952767407,
+          0.2350320922589603
+        ],
+        "p_one_sided": 0.0
+      },
+      "Mixscale_beta_weight - raw": {
+        "diff": -0.21626682120279034,
+        "ci95": [
+          -0.24288804189701269,
+          -0.18963369688677448
+        ],
+        "p_one_sided": 1.0
+      }
+    },
+    "scope": "single opened-D3 development comparison; not external or prospective confirmation",
+    "native_refit_run": false,
+    "query_bootstrap_draws": 2000
+  },
+  "paper_display": {
+    "status": "PASS",
+    "source": "Supplementary Figure 1 archived display CSV",
+    "rows": 4,
+    "rounded_values_checked": 18,
+    "rounding_absolute_tolerance": 5e-06
+  },
+  "seconds": 0.246780129004037
+}

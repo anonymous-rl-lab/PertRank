@@ -1,0 +1,24 @@
+{
+  "status": "OWNER_EXECUTION_ENDED_INTEGRITY_VERIFIED",
+  "outputs_relative_to_parent": {
+    "equal_state/requested_extra_contrasts.json": "2cbb07b01b00917eaf1cceeaeace21a1757ff082d882e856d092998095300d04",
+    "equal_state/equal_state_arrays.npz": "29c665ff28b93b49848f6eb2f60613a97b7c2d6e48f8c6f4858455ca8e352974",
+    "equal_state/equal_state_report.json": "46c264be0db448946ce3150ae4821d29b4da293a0e892a13b7490dd2feba3efc",
+    "combined_audit/equal_state_K25.json": "35d6121eb1a94871ab86ac6910c94b80a147395e42147435fb94545304236ea1",
+    "combined_audit/state_0_K25.json": "caeda5b54edcd6009354246ca6434889b81db76d71ffeee46db3172ad63f5e86",
+    "combined_audit/state_0_K25.npz": "787b52f6573031276dd68602cf127e52e65d2a9c2897b27135bae9b7b2015db2",
+    "combined_audit/equal_state_K10.json": "d2a61748a6b49feade90e087abab9a4098f29b7545b2f61c8487f6c9a9724074",
+    "combined_audit/state_1_K10.json": "35690bc1b409b791b7ec754eafe558bc8684cc8be6c978f111db289934719937",
+    "combined_audit/state_1_K25.json": "62cba127a2815a26a1718988be1df05487712c6711b9d28c3b1b49a9df5909d5",
+    "combined_audit/state_1_K25.npz": "81897cafa0b30c34d38931ecbc582c85017b5465e6826763f77672fd4413ea18",
+    "combined_audit/state_0_K10.json": "702b20a3a9d410a6192d4088dfe987d5da133a7e5790c81b96155a99105513a9",
+    "combined_audit/AUDIT_RESULT.json": "0876d3e70c87ddd35d59421a7b2c83e632cce23710c0ff6b31252f68673a3f2c",
+    "combined_audit/state_1_K10.npz": "8cd71b9b77adb3fc2b947fa3ed3eb9a64df8460933d8f8605117290e4842648a",
+    "combined_audit/equal_state_K10.npz": "24f88ac114042e98e1ad71ebf9daded5aa2f6e1a23227a45c0a6e8d6f533c266",
+    "combined_audit/equal_state_K25.npz": "1a696d75cd4631d6cb760b7181cb5fd8e1edde2774749079f92bddefb0d1f627",
+    "combined_audit/state_0_K10.npz": "700c6b29d3f204880e3f1f1f5fb7f62c0396e9a12ffb464644914f4afc258a61"
+  },
+  "owner_session_id": "43403",
+  "owner_exit_code": 0,
+  "verified_utc": "2026-10-14T01:12:13.024840+00:00"
+}

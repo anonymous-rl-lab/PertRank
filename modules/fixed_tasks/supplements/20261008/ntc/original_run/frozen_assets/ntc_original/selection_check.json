@@ -1,0 +1,14 @@
+{
+  "donor": "D3_Rest",
+  "n_input_controls": 2000,
+  "control_ids_sha256": "080ba40eeb2576a7bab70196c0a69ee013123dc4c8e466d82816c3792f377661",
+  "context_sha256": "1cfba4f2de1f9cd594f37e591556bb6779d6c86ba47fbdfee5b8df04efde9129",
+  "scale": 8261.5,
+  "gene_axis": "EXACT",
+  "input_evaluation_NTC_overlap": 0,
+  "source_identity": {
+    "url": "https://genome-scale-tcell-perturb-seq.s3.amazonaws.com/marson2025_data/D3_Rest.assigned_guide.h5ad",
+    "etag": "\"15a555deb21fe5cb8e0579344a86e52a-8235\"",
+    "size": 138149946574
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "tier": "stored_query_depth_scores_to_means_and_inverse_interpolation",
+  "identity": "Historical CELLEQ-R; distinct from current seven-depth calibration",
+  "max_abs_error": 0.0,
+  "seconds": 0.018744468688964844
+}

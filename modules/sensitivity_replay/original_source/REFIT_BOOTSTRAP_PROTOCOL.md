@@ -1,0 +1,9 @@
+# Fixed-NTC-direction target-cell bootstrap with weight re-estimation
+
+Development sensitivity on opened D3 only, B=200, seed=202610053. Unlike the preceding conditional fixed-weight test, this version recomputes Euclidean and PertRank scalar weights on every repeated 20-cell draw. The original NTC mean, covariance directions, noise traces, query panel, candidate pool and deep reference stay fixed. It is not a full-pipeline or population confidence interval; no control, guide, donor, query or reference uncertainty is propagated.
+
+Use the exact same per-target multiplicity draws as the preceding conditional D3 analysis. Obtain energy and within-target variance from the full-gene Gram formula in EXACT_WEIGHT_REBOOTSTRAP_MINIMUM.md. Use beta=.9, k=5 without tuning. Scores use the original query effects from the resampled cells, original own-gene exclusion, and independent tie-expectation. Responsive and tercile panels both reported. Quantiles are empirical perturbation-distribution summaries; fractions above zero are not p-values.
+
+Before any random draw, uniform multiplicities (all original cells once) must reproduce: original raw/Euclidean/PertRank per-query score arrays to <=1e-12; frozen weights to maximum absolute difference <=1e-5 (float32 archived-moment accumulation); each count-derived Gram variance must agree with direct copied-row calculations in a small deterministic check to 1e-10 scaled by max(1, value). Any failure stops the run. Do not relax these thresholds after observing bootstrap outcomes. A two-draw smoke precedes the full 200-draw run.
+
+Compare refitted-weight versus fixed-weight distributions only as a diagnosis of conditional sampling behavior. Because empirical bootstrap repeats cells and starts from noisy measured cells, a change in its average accuracy is not an independent estimate of real-world performance gain. Do not update historical A4–A19 decisions, add a donor claim or tune the estimator from these results.

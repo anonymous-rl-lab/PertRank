@@ -1,0 +1,17 @@
+{
+  "status": "SCORE_OWNER_EXECUTION_ENDED_INTEGRITY_VERIFIED",
+  "owner_session_id": 18712,
+  "owner_exit_code": 0,
+  "npz_crc": "PASS",
+  "created_utc": "2026-10-14T01:03:03.684243+00:00",
+  "files_sha256": {
+    "INDEPENDENT_AUDIT_P10.json": "88efae08cc4bea60f7ca2f5f8494db033b1ffc192eeaf6884f0b21d5574bdd6c",
+    "INDEPENDENT_AUDIT_P10.npz": "cce4b2ad0f9b7c01342c249f9ff4f29e3422d148c5c6aa49ad9ad2ab18e92e8f",
+    "evaluation_report.json": "94366f13b19ec013ac61539cfd9fb1bca3ef5e8ec5f8bcf73e79d2ec8f39f40d",
+    "INDEPENDENT_AUDIT_P25.npz": "70dbe4dad3583edeb67b425a1b3eaa08f58fc52651471cfb4b0f1c8d7f8f752d",
+    "compact.npz": "34c9ffa371a24c8c7ed6e7a4b71e170ab9988da4df7264c091ccece43797d8a1",
+    "evaluation_arrays.npz": "b67abe8679c7b0c6c897814263705e46b6d89c4062a88350f9268b24ec526dcc",
+    "INDEPENDENT_AUDIT_P25.json": "958ffa1864b874a8e7d4cde4fff5cf25ac57859761d9862724d63977ab02a165"
+  },
+  "all_common_three_arm_arrays_identical_to_curve_A": true
+}

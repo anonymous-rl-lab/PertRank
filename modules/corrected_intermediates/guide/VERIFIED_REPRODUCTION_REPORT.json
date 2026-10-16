@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "tier": "frozen_query_scores_and_group_labels_to_means_and_intervals",
+  "seconds": 17.831563234329224,
+  "bootstrap_calls_checked": 410,
+  "unique_bootstrap_computations": 320,
+  "score_means_checked": 576,
+  "max_abs_error": 0.0,
+  "lane_calibration": "recalculated_from_integer_counts_exact",
+  "not_recomputed": [
+    "guide expression effects",
+    "target weights",
+    "candidate reranking",
+    "original guide cell assignment"
+  ],
+  "archive": "Original full result reports retained separately; unrecalculated constants and original decision text remain historical records; weight summaries are recalculated from retained fixed weight vectors."
+}

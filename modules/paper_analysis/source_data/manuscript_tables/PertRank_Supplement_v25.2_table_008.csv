@@ -1,0 +1,10 @@
+item,value
+file,"`D2_Rest.assigned_guide.h5ad`, 140,574,804,978 bytes; 2,940,194 cells, 18,130 genes"
+S1 cohort,"1,619 targets with at least 300 eligible cells; the last 1,200 in hash order"
+blocks,"one seeded permutation per target; cells 0 to 19, 20 to 49, 50 to 99 and 200 to 299 read"
+controls,"2,000 input and 2,000 evaluation non-targeting cells in hash order, disjoint"
+weight genes,"12,885 with a positive input-control mean; the top 5 and top 20 control directions carry 7.9% and 11.2% of the trace"
+own genes,"from `perturbed_gene_name` and `perturbed_gene_id`, one identifier per target, the same as D3's and D1's for shared targets; 1,035 of the 1,200 own genes on the weight axis"
+queries,terciles as in D1; responsive: the 300 genes of highest cross-target variance of the 100-cell input profile with own entries zeroed; 30 blocks
+S2 truth,"of the 2,151 targets of the two locked cohorts, 1,280 have at least 100 eligible D2 cells (323 of them in S1); their first 100 cells of the same permutation minus the evaluation-control mean, on the 692 truth genes, none missing"
+S3 counts,"block 0 and the input controls on D2's query union, for the external arms"

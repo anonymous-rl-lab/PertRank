@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BEFORE_FULL_ACQUISITION",
+  "new_replanning_not_interrupted_script_replay": true,
+  "utc_epoch": 1791472075.6421468,
+  "file_sha256": {
+    "PROTOCOL.json": "e1c8d7a39b319f0e10b8f0555cffabb9aa49cdc81f68954023b54383a58aa149",
+    "selection.npz": "4b8b04555a9402dcb90e7a6495a1915e71c3826cc471f03cfe297edbb83fe5be",
+    "selection_report.json": "08edd17a66306cd2b1968fb1aa9b4a039aa0411b126d2fa9d14c1e6b49d22cbd",
+    "ntc_selected_cells.json": "d4ca7d22135e02773af8b02dca9379560d8d066c40c8f7f52b99eeca83b66864",
+    "target_selected_cells.json": "24acb3c885465afb240b97741f8dbf2b672d25933c1f7a1beb1e5a9106a5d67c",
+    "prepare_metadata.py": "60950914526cd4cc3512fd236ef1935184b2ca4c9589d7e0850ff449f0797b7c",
+    "select_guides.py": "2e1bbaab957d7db22d6916439443e3283e30bb74333093c67c1ff4bbc93b0698",
+    "select_guides_portable.py": "950318b9fc936a6fb728189814915fc3a055673ac453978d988b33a150afbb92",
+    "read_selected.py": "68ed49183aa9ed51668b8d3677f98bc84d116bb61c4e415807fc8df8d6262624",
+    "stats_impl.py": "d362ca04398120f48c8b03ce3bf4fb345619dd90ec10d5c76859471403b19e79",
+    "evaluate.py": "70226e40344ff60bcd299a00937bff7af98e78f116cd707551afe41209c19312",
+    "freeze_run.py": "2d60638dcbba038f356250c5385df7190cad0b79b9cbadb8132a5b775b6690f9",
+    "RUNTIME.json": "9ed71b37b40a5904aa39eb58f3994c2b4ce9de264d748c81b29ed63004a3d58c",
+    "frozen_assets/SOURCE_PROVENANCE.json": "9724378c1c859ca1d48ffaf5a7a85d432d0966af86f13fb1d578d8ef630efdf2",
+    "frozen_assets/A15_D3_cohort.npz": "d915e8e98f7f2023376f16cc3dc866b3c7ab8f9706998ae3752df1d5131d8cfd",
+    "frozen_assets/ntc_original/original_input_ntc_metadata.npz": "018ed845d911f4a7246392ce56f675fa57036a187e74e1f9c40ed904806a3b5b",
+    "frozen_assets/ntc_original/original_input_ntc_raw.npz": "1e26f82feaeaa4261c63f82fdf403fa6c9aca55692538900b61a4efe741e7053",
+    "frozen_assets/ntc_original/selection_check.json": "2dbb599ee152745a47b6cb1d7fa88df90f035405ba23b1bfa8c373652c1e7d06",
+    "vendor/metadata_source.py": "0b315a3779bf09f9f07a9fbbe01336dfa5ee0177cb626e5885d301d77a4439f9",
+    "vendor/hdf5_chunk_index.py": "99cbecbd3056175d43bbf91c5dfa90c6abcc5ad0aa480cc9a606d0f58781fe77",
+    "vendor/row_transport.py": "2e43efbcb6fca551c9031cc936e407954efb07baaa8cbb81eee3b93422ae0059",
+    "metadata/metadata_report.json": "a643edd61e11075a7c1a4134d0220be0025628f407c0a6b8a2fb146f28a10510",
+    "metadata/hdf_objects.json": "e9b5c75cdac530ccbc9c81d1df928be58adf7647339948292e66346017ec91e8",
+    "metadata/obs_metadata.npz": "f5fb967dfca083e4282a851ee9a1ba8d307deee0197952063995bdc35e6e247e"
+  },
+  "smoke_sha256": "7145480b938e33a18d744dee5604857231f8a91cd12f3e31a6567512b12f41db",
+  "source_identity": {
+    "url": "https://genome-scale-tcell-perturb-seq.s3.amazonaws.com/marson2025_data/D3_Rest.assigned_guide.h5ad",
+    "etag": "\"15a555deb21fe5cb8e0579344a86e52a-8235\"",
+    "size": 138149946574
+  },
+  "full_rows": 23840,
+  "HTTP_workers": 8,
+  "BLAS_threads": 1
+}

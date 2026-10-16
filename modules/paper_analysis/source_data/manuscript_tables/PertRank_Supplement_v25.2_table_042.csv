@@ -1,0 +1,7 @@
+source,query rule,slots changed,"support, added","support, removed",difference,random
+D3,responsive,7.46,0.0473,0.0421,"+0.0051 [-0.0037, +0.0147]",0.0358
+D3,terciles,9.06,0.0424,0.0393,"+0.0031 [-0.0022, +0.0085]",0.0358
+D1,responsive,6.21,0.0635,0.0397,"+0.0238 [+0.0126, +0.0366]",0.0356
+D1,terciles,6.87,0.0442,0.0351,"+0.0091 [+0.0024, +0.0156]",0.0356
+descriptive mean,responsive,,,,"+0.0144 [+0.0045, +0.0257]",
+descriptive mean,terciles,,,,"+0.0061 [+0.0001, +0.0120]",

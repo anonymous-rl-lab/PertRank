@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "Existing-result replay and software contract tests; no new experiment, raw-source access or model selection.",
+  "modules": {
+    "software": {
+      "status": "PASS",
+      "seconds": 5.295,
+      "runs": [
+        {
+          "status": "PASS",
+          "seconds": 1.951,
+          "log": "logs/software_tests.log"
+        },
+        {
+          "status": "PASS",
+          "seconds": 0.835,
+          "log": "logs/software_tutorials.log"
+        },
+        {
+          "status": "PASS",
+          "seconds": 2.502,
+          "log": "logs/application_h5ad.log"
+        }
+      ],
+      "comparisons": []
+    }
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.5.4",
+  "bundled_files_unchanged": true
+}

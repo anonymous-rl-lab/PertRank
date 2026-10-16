@@ -1,0 +1,53 @@
+{
+  "status": "INDEPENDENT_READ_ONLY_AUDIT_COMPLETE",
+  "created_utc": "2026-10-14T00:18:48.986233+00:00",
+  "official_commit": "24e653b6a5c050ab17f3600ebaf222bef32e2d25",
+  "core_source_sha256": "b47691c5d121e1df5b60cada04535ff931315716c9cff8b66a84a46f947c244c",
+  "expression_shape": [
+    26000,
+    15616
+  ],
+  "W_shape": [
+    "K",
+    15616
+  ],
+  "U_tilde_shape": [
+    26000,
+    "K"
+  ],
+  "U_shape": [
+    1201,
+    "K"
+  ],
+  "B_shape": [
+    1201,
+    15616
+  ],
+  "relations": [
+    "rank(U_tilde W) <= min(K,26000,15616)",
+    "rank(U W) <= min(K,1201,15616)",
+    "target-only B after excluding final NTC row has rank <= min(K,1200,15616)"
+  ],
+  "full_expression_capacity": "K >= rank(X); rank(X) not established; dimensional bound 15616, learned dictionary actual rank also not established",
+  "K1200_meaning": "removes only target-only effect matrix dimension ceiling; does not establish full native expression factorization",
+  "K15616_minimum_simultaneous_arrays_bytes": {
+    "centered_X_float64": 3248128000,
+    "dictionary_float64": 1950875648,
+    "dense_projected_float64_temporary": 3248128000,
+    "dense_projected_float32_result": 1624064000
+  },
+  "native_source_memory_proof": "np.asfortranarray(U_tilde.T.todense()).astype(np.float32) overlaps temporary and result while X and W remain live",
+  "additional_memory_excluded": [
+    "sparse projection coefficients",
+    "SPAMS workspace",
+    "raw counts and interpreter",
+    "other processes"
+  ],
+  "actual_cgroup_bytes": 8589934592,
+  "unchanged_wrapper_guard": "K < number of input-expressed genes; K15616 rejected",
+  "raw_equivalence_or_upper_bound_claim": false,
+  "dictionary_convergence": "fixed50 trainDL iterations; recovery convergence does not establish dictionary convergence",
+  "audit_source": "independent subagent rank_audit; source and metadata only; no expression arrays loaded",
+  "total_proven_overlap_bytes": 10071195648,
+  "total_proven_overlap_GiB": 9.379531860351562
+}

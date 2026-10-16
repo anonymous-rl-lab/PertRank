@@ -1,0 +1,18 @@
+{
+  "distribution_version": "1.5.1",
+  "status": "PASS",
+  "original_scientific_scripts_unchanged": [
+    "original_source/replay_refit_fresh.py",
+    "original_source/audit_mixscale_completed.py",
+    "original_source/audit_refit_cells.py",
+    "original_source/preflight_cell_states.py",
+    "original_source/conditional_cell_bootstrap.py",
+    "original_source/weight_refit_diagnostics.py",
+    "original_source/evaluate_official_mixscale.py",
+    "original_source/refit_cell_bootstrap.py"
+  ],
+  "original_array_precision_and_order_restored": true,
+  "numerical_replay_receipt": "validation/V151_REPLAY_REPORT.json",
+  "restoration_receipt": "validation/V151_LOSSLESS_RESTORATION.json",
+  "no_new_experiment": true
+}

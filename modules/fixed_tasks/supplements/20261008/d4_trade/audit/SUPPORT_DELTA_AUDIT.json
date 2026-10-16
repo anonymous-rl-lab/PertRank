@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "identity": "post-result exact top-25 support delta, not a prospective lock",
+  "base_ranking_sha256": "d2f98d7874fe3fbc2a8093984aad7ed215e9e65ad9d25e6adb070e37ca297154",
+  "full_scoring_inputs_sha256": "20422f8aa5750aa6a2086f09e2261595140f9c3033c02c0f5bb4bb6fe1aa5191",
+  "delta_sha256": "067f0e97bca00ba6160fd49a8dc389e2546a0dc85c06c006def41a4362ef016b",
+  "delta_entries": 6089,
+  "delta_bytes": 58183,
+  "prediction_membership_values_compared": 17463850,
+  "all_boundary_ties_preserved": true,
+  "all_five_arm_memberships_exact": true,
+  "truth_memberships_exact": true,
+  "float_quantization": false,
+  "original_base_changed": false,
+  "full_membership_stream_sha256": "dd1f0be097e20a31897fbd15256732d043992f533cffec8f269ee17a1e1d4eda",
+  "sparse_membership_stream_sha256": "dd1f0be097e20a31897fbd15256732d043992f533cffec8f269ee17a1e1d4eda",
+  "scope": "Fixed five arms, five groups, original panels and candidate pool, K=25 only. Arbitrary new weights are unsupported."
+}

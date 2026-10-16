@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-05T15:10:58.859122+00:00",
+  "files": {
+    "REFIT_BOOTSTRAP_PROTOCOL.md": "84a948d6f51f4fb17e74ede3a71e70cc6458f91906988fb3c00f4c4f5b3d6f75",
+    "refit_cell_bootstrap.py": "66ffa0300f9392a5da4fa1e8a9935b9d9d120aa8a29ff270cc672979eeaa1d7c",
+    "conditional_cell_bootstrap.py": "b8da83aeecd8c9d94b6df30f653255d5a0613ac6deae131502ff16d58107b132",
+    "preflight_cell_states.py": "cbfb6b8cc0c1c6364836461a528e7aa4bfbc3e2e2b7154fc7bf47a838f5e10d8",
+    "EXACT_WEIGHT_REBOOTSTRAP_MINIMUM.md": "a5c2279a4384e364abb59f3f9c7f67b44f34897290dc08164698baa74c59e3f9"
+  },
+  "peer_review_addition": "Pre-real-data scientific scores: require authoritative source target ENSG IDs for native leave-one-out on full gene axis; add U orthogonality/Gram PSD and explicit copied-real-cell moment checks; bind bootstrap to fixed control state hash, k/beta/G. No statistical tuning or change to B/seeds."
+}

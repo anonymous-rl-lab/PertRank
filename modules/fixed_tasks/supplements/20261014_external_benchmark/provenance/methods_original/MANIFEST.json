@@ -1,0 +1,18 @@
+{
+  "D3_TASK_RECONCILIATION.json": "67cc34f3b4398c124ac45ec707313f09e88c7c67ea82e8cd6dff3f254d155e6d",
+  "D3_TASK_RECONCILIATION_Methods.txt": "3f6a20e972f80f71122726ee67c78fcb30d9d7bdb8e93bccb8d966aa3a1ff093",
+  "D3_TASK_RECONCILIATION_SCORES.npz": "4e0acb8d4e33d38383581cf31b859e8c8fba1c803ecb32b7df23adc7a9a2f0e9",
+  "reconcile_d3_tasks.py": "0eadda478a5e713fdd796c9cd8ccf0d9cc0e75e7a32707da71f13842e7aacd52",
+  "GPerturb_EXECUTION_FEASIBILITY.json": "a78d7fabf1b2c4bad86bd88a5cc053a7108e4eb1011ec1fb2f1d58c0e56ea300",
+  "GPerturb_EXECUTION_FEASIBILITY_Methods.txt": "6ffc59f829365a42afff64de941c4c10ddc510dbb9b41b41239ff1b5ea2729fa",
+  "gperturb_source/model_github.html": "2e2b6b26c2b5250349615a693581a732e9ec32de2787fce7db61c0dcdd0c03de",
+  "gperturb_source/README.md": "9e971dab08926771da6feea7d1a832090f7248378efe7046d7cf4d1ac5f97114",
+  "gperturb_source/setup.py": "80c1f5d6783e4c1592b35b6894ccba6c800e6c8775b1b4ba21110379f0d65552",
+  "gperturb_source/SOURCE_MANIFEST.json": "eb3fa07096ab878a3057ddd5818ca0dd456f1cc4bdfe04996620dae93a307bb7",
+  "gperturb_source/LICENSE": "ff0a907a8552558f3f9c03c98adc70f2e207fd7d67a437ab7ddb045392ce8e03",
+  "gperturb_source/numerical_examples/Replogle_GPerturb.ipynb": "ff6b455866cf12bd7c215af16312c48cdcfb053ee2b7d482c5f276098d334cc2",
+  "gperturb_source/numerical_examples/TCells_GPerturb.ipynb": "a2322b59f535259349cf172c64cb594b3550352ba043bde816e6b799a508f555",
+  "gperturb_source/numerical_examples/Replogle_GPerturb.py": "913492f455492647bc089b14a8acaa2983c0cc6ac0a9d829c0b70d51edf5a3da",
+  "gperturb_source/numerical_examples/TCells_GPerturb.py": "1d1b4569d20fc90f3376ff75c5bf0155dd6891094f9390aa98ffaba920a3acfa",
+  "gperturb_source/GPerturb/GPerturb_model.py": "29ab3ef8f27e883d46e0a8e54b4783c6ea7fe677d73e04b873d74de90bcd100d"
+}

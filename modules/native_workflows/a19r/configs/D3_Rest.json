@@ -1,0 +1,12 @@
+{
+  "donor": "D3_Rest",
+  "legacy_prediction": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/a19r_restored/external_uncertainty/A19R/D3_Rest/predictions_locked.npz",
+  "reference": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/reference_restored/external_uncertainty/results/query_reference.npz",
+  "legacy_point_results": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/a19r_restored/external_uncertainty/A19R/point_results.json",
+  "reference_draws": {
+    "shared_labels": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/reference_restored/external_uncertainty/results/reference_draws_shared_labels_float64.npz",
+    "batch_separate": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/reference_restored/external_uncertainty/results/reference_draws_batch_separate_float64.npz"
+  },
+  "FR": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D3_Rest/FR_attempt1",
+  "ASH": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D3_Rest/ASH_attempt1"
+}

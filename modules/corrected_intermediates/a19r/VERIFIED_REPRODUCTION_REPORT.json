@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "identity": "A19-R fixed-cell development reconstruction, not original A19 replay",
+  "reproduction_level": "Frozen-effect reranking plus query-block bootstrap and frozen-reference-membership replay",
+  "recomputed": [
+    "3 shallow arms exact top10 ranks",
+    "4-arm point scores and deep diagnostic",
+    "2000 fixed-seed query-block bootstrap per original contrast",
+    "turnover accounting",
+    "both 500-draw reference sensitivities",
+    "author bad-control QC point scores"
+  ],
+  "fixed_intermediates": [
+    "original raw effects and weights",
+    "deep-arm membership",
+    "reference means",
+    "both 500 reference membership sets",
+    "author-QC reference membership"
+  ],
+  "not_recomputed": [
+    "source cell counts/moments/control directions",
+    "weights from raw counts",
+    "external normalization/reference draws from raw counts",
+    "FR/ASH model fitting",
+    "original A19 missing cell selection"
+  ],
+  "reference_scope": "Three source inputs share one external experiment; draw ranges are conditional sensitivities, not population confidence intervals.",
+  "numeric_fields_checked": 177,
+  "max_abs_difference": 0.0,
+  "reference_propagation_checks": {
+    "shared_labels": "ALL_ARRAYS_BITWISE_EXACT",
+    "batch_separate": "ALL_ARRAYS_BITWISE_EXACT"
+  },
+  "excluded_historical_diagnostics": [
+    "score_rows_crosscheck_maxabs is a past separate-scorer diagnostic",
+    "reference_float64_files_sha256 belongs to old unbundled containers"
+  ],
+  "fixed_input_sha256": {
+    "supplements/20261014_upgrade/native_rna/legacy/D3_Rest/predictions_locked.npz": "14023f8044a499b5dd49885a41e81915bd061e2b1da041e09d1e142f9c42b50b",
+    "supplements/20261014_upgrade/native_rna/legacy/D1_Rest/predictions_locked.npz": "06060bf5b5732941d36bc086d95ddf8f70773203eff95b0cc2d7290febfc4625",
+    "supplements/20261014_upgrade/native_rna/legacy/D2_Rest/predictions_locked.npz": "d2cbbb38cbba1a64f6a27de9be257f0d59e1faf3658117667bace93dd0e2927c",
+    "supplements/20261014_upgrade/native_rna/reference/D3_Rest/draws_shared_labels.npz": "7fd71bcb93c85c08ce5b083d413ee6b1bce95d0152d1cf09fdd99a544784adec",
+    "supplements/20261014_upgrade/native_rna/reference/D1_Rest/draws_shared_labels.npz": "fcfdda3ebfe662caf964fdede091bf5d22a40914fd10ddd2a249061aafb37c65",
+    "supplements/20261014_upgrade/native_rna/reference/D2_Rest/draws_shared_labels.npz": "d2dfba675c04b9a169267f31254e23348a11dbac654e9d5a09e75f52b188d4c0",
+    "supplements/20261014_upgrade/native_rna/reference/D3_Rest/draws_batch_separate.npz": "02aa51e3850f9bb7a8deff41870214bc5f442872cf21a4be8a99d3c89c4b4894",
+    "supplements/20261014_upgrade/native_rna/reference/D1_Rest/draws_batch_separate.npz": "f13e390af6df8e24f8f95bc0828acbe8081c31b75220420906cc318b564b7e72",
+    "supplements/20261014_upgrade/native_rna/reference/D2_Rest/draws_batch_separate.npz": "9123a5527f3148341fc68548b86f2035a498573d79459ee04c170fd858c82980"
+  },
+  "runtime_seconds": 1.4846896230010316,
+  "numpy_version": "2.3.5",
+  "new_experiments": 0,
+  "new_model_fits": 0,
+  "network_calls": 0
+}

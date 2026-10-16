@@ -1,0 +1,8 @@
+{
+  "version": "0.2.0rc2",
+  "paper": "v25.2",
+  "previous_software": "0.2.0rc1",
+  "scope": "API correctness, reusable decision scorer, documentation and packaging; frozen numerical method retained",
+  "validation": "validation/RELEASE_VALIDATION.json",
+  "public_release": false
+}

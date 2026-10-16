@@ -1,0 +1,2045 @@
+{
+  "status": "ALL_CURRENTLY_AUTHORIZED_NEW_ASH_COMPARISONS_COMPLETE",
+  "created_utc": "2026-10-14T01:49:52.297733+00:00",
+  "configuration": "historical_D3_default_uniform_fdr_fixed_before_D4",
+  "D4_new_target_fits": 6145,
+  "posthoc_depth_new_target_fits": 750,
+  "total_new_target_fits": 6895,
+  "all_converged": true,
+  "total_warnings": 0,
+  "total_mixEM_retries": 0,
+  "completed_native_tasks": [
+    {
+      "experiment": "new_previously_unfinished_D4_ASH",
+      "task": "D4_Rest",
+      "rep": 0,
+      "targets": 589,
+      "genes": 13209,
+      "seconds": 334.1923974379997,
+      "warnings": 0,
+      "mixEM_retries": 0,
+      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep0",
+      "posterior_sha256": "11dff63bd37cebf24a625d631007b7f2121429debe63bb36fba7d771c49a150e",
+      "execution_sha256": "c753d5d3e544886f52ea16f7959593ea77139a4ba06c6f9535cd7bf29f447b9c"
+    },
+    {
+      "experiment": "new_previously_unfinished_D4_ASH",
+      "task": "D4_Rest",
+      "rep": 1,
+      "targets": 589,
+      "genes": 13209,
+      "seconds": 350.8646919060002,
+      "warnings": 0,
+      "mixEM_retries": 0,
+      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep1",
+      "posterior_sha256": "5cc0abe1d54e5d1056adced749cbbc312cc90e05b3b1cd67c3a8da7525279e69",
+      "execution_sha256": "273563aa5f6f996649a8b76770e9205299fb3354d00e0f2a5690a47af857bf11"
+    },
+    {
+      "experiment": "new_previously_unfinished_D4_ASH",
+      "task": "D4_Rest",
+      "rep": 2,
+      "targets": 589,
+      "genes": 13209,
+      "seconds": 320.0977421630005,
+      "warnings": 0,
+      "mixEM_retries": 0,
+      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep2",
+      "posterior_sha256": "b3cc8d0116fbc2081c45b5e8ed9a974e0ea48a6ea3cf88ef640b27cb3f276a67",
+      "execution_sha256": "8cdd4d8f6d9eb8e0a4b19b1d928b37b99f17cd041e7e663570ce10dfd9c11874"
+    },
+    {
+      "experiment": "new_previously_unfinished_D4_ASH",
+      "task": "D4_Rest",
+      "rep": 3,
+      "targets": 589,
+      "genes": 13209,
+      "seconds": 336.37564628699965,
+      "warnings": 0,
+      "mixEM_retries": 0,
+      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep3",
+      "posterior_sha256": "3a55e8040ff1c89733bf1793763532cbcb196a4eb2cf8e4cbb198e7864f54960",
+      "execution_sha256": "269aab7a277ba21d2b8ffe1adbceda352804410ef6aac2112fc65bf579b76894"
+    },
+    {
+      "experiment": "new_previously_unfinished_D4_ASH",
+      "task": "D4_Rest",
+      "rep": 4,
+      "targets": 589,
+      "genes": 13209,
+      "seconds": 336.02977499700046,
+      "warnings": 0,
+      "mixEM_retries": 0,
+      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep4",
+      "posterior_sha256": "a2333f68190c0f7d5b2d3ac5b364dfe8ed8cce27bad5f74d1233164ccbe7aa74",
+      "execution_sha256": "ea715d13dec50c9a0d0939267dd5755cb4166c02ec12a9d5c3f08cf83e15b211"
+    },
+    {
+      "experiment": "new_previously_unfinished_D4_ASH",
+      "task": "D4_Stim8hr",
+      "rep": 0,
+      "targets": 561,
+      "genes": 13394,
+      "seconds": 343.3045863490006,
+      "warnings": 0,
+      "mixEM_retries": 0,
+      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim8hr/rep0",
+      "posterior_sha256": "e5b5c74b4a0fdb41f85aa6f3c3331642d5b21f922bc1f649fa9fdd839d6c49cd",
+      "execution_sha256": "eb2d098d7079dded21c3a452c5f5d65ee98b02363f9c0a084698990fe60b7a93"
+    },
+    {
+      "experiment": "new_previously_unfinished_D4_ASH",
+      "task": "D4_Stim8hr",
+      "rep": 1,
+      "targets": 561,
+      "genes": 13394,
+      "seconds": 317.8101356629995,
+      "warnings": 0,
+      "mixEM_retries": 0,
+      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim8hr/rep1",
+      "posterior_sha256": "44b368a0093c00107ac2a9ab57a9fb3ec0e66dcc2b41e3e5f14747741b3c04e3",
+      "execution_sha256": "1c4a60f8978b5a2fc79f6f053610acab4a225e581b985a7b932169268d362508"
+    },
+    {
+      "experiment": "new_previously_unfinished_D4_ASH",
+      "task": "D4_Stim8hr",
+      "rep": 2,
+      "targets": 561,
+      "genes": 13394,
+      "seconds": 322.6100617680004,
+      "warnings": 0,
+      "mixEM_retries": 0,
+      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim8hr/rep2",
+      "posterior_sha256": "9ac75dfd4fe516cbbd4e23bc2f5b8530538650749661e19b1a6696c648b0af06",
+      "execution_sha256": "8655af563314200acb7fd85ad119fafb38fac43b803396bf02556a17d8258f67"
+    },
+    {
+      "experiment": "new_previously_unfinished_D4_ASH",
+      "task": "D4_Stim8hr",
+      "rep": 3,
+      "targets": 561,
+      "genes": 13394,
+      "seconds": 328.19338073200015,
+      "warnings": 0,
+      "mixEM_retries": 0,
+      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim8hr/rep3",
+      "posterior_sha256": "e93d08af05522f306f68b995f79cd6fc2dfb740b69f0c3bc78e2796aa5b0b8d5",
+      "execution_sha256": "d906fc4f79f0a2b7bb25f7ec4d09a2b65f06b6f64481c333ef6382a2ae1e32c2"
+    },
+    {
+      "experiment": "new_previously_unfinished_D4_ASH",
+      "task": "D4_Stim8hr",
+      "rep": 4,
+      "targets": 561,
+      "genes": 13394,
+      "seconds": 328.15093235099994,
+      "warnings": 0,
+      "mixEM_retries": 0,
+      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim8hr/rep4",
+      "posterior_sha256": "2243cedb8d03f6ec7947e4f3d1e9ff148bca4e57e39f992dfe3c472f11106441",
+      "execution_sha256": "b58a52aee793ea66a10a9f7f789fa913a8b1a87986d02b4295679f819608dd31"
+    },
+    {
+      "experiment": "new_previously_unfinished_D4_ASH",
+      "task": "D4_Stim_independent",
+      "rep": 0,
+      "targets": 395,
+      "genes": 13327,
+      "seconds": 228.6101660410004,
+      "warnings": 0,
+      "mixEM_retries": 0,
+      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim_independent/rep0",
+      "posterior_sha256": "079366e44a596093efb91ac358d38af6736805cc52c8a800e0a5bbacc7ddc441",
+      "execution_sha256": "33c10e6e6164275b5d53d1a74543b31a059239a36115b4bd0256c9dd3b24ffdd"
+    },
+    {
+      "experiment": "new_separate_posthoc_nested_depth_ASH",
+      "depth": 20,
+      "targets": 250,
+      "genes": 13390,
+      "seconds": 149.36248162999982,
+      "warnings": 0,
+      "mixEM_retries": 0,
+      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_transfer/n20",
+      "posterior_sha256": "fe4fc395921456d67778c0cebaf08327ce5c29b26cc5ef6ea400baba5a378b47",
+      "execution_sha256": "25896913cb235754d0bad60b4437fff76bb3e8c547c9cae7eee3d8a514ab22fa"
+    },
+    {
+      "experiment": "new_separate_posthoc_nested_depth_ASH",
+      "depth": 50,
+      "targets": 250,
+      "genes": 13390,
+      "seconds": 152.5479565580008,
+      "warnings": 0,
+      "mixEM_retries": 0,
+      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_transfer/n50",
+      "posterior_sha256": "fde8e05cfca83da78ad0c3acef68c958b3097d0622e9ad84ac7873aa70a35e0e",
+      "execution_sha256": "b4dc0c5a7466f5301cd160140a4a6d00039ca23a328567ca6e16f79799b7d092"
+    },
+    {
+      "experiment": "new_separate_posthoc_nested_depth_ASH",
+      "depth": 100,
+      "targets": 250,
+      "genes": 13390,
+      "seconds": 147.58546299199952,
+      "warnings": 0,
+      "mixEM_retries": 0,
+      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_transfer/n100",
+      "posterior_sha256": "e2e063a97f521e932cb5b2d43aa4582224d4649d7c6e7545c3acf6e47f5355ea",
+      "execution_sha256": "1ac15915d3dd204f2da702f5547250b6ab7e28e503f5366500a9e755ecb72556"
+    }
+  ],
+  "completed_scoring_endpoints": [
+    {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Rest_pooled/evaluation_report.json",
+      "sha256": "90ef19233b0f19bbe09e49effa9728d5b51e7c909adedc6367be11dc5368f3d9",
+      "scope": "Conditional on fixed observed cells/reference and original query panels; original query-block bootstrap, averaged over five fixed input repetitions.",
+      "simultaneous_intervals": "ASH contrasts and intervals are descriptive; no new simultaneous family or performance-dependent choice.",
+      "results": {
+        "25": {
+          "arms": {
+            "raw": {
+              "point": 0.301750884910793,
+              "input_rep_points": [
+                0.31237273548195443,
+                0.298035927428207,
+                0.30253793264719175,
+                0.2970018209959261,
+                0.2988060080006855
+              ],
+              "query_only_95_interval": [
+                0.26656918651356365,
+                0.33378490662974364
+              ]
+            },
+            "euclidean": {
+              "point": 0.3556499310037844,
+              "input_rep_points": [
+                0.36918419526134105,
+                0.3571004968332412,
+                0.3544704956968836,
+                0.3515778835332453,
+                0.34591658369421063
+              ],
+              "query_only_95_interval": [
+                0.323479475635509,
+                0.3825651728188943
+              ]
+            },
+            "pertrank": {
+              "point": 0.37917332608905385,
+              "input_rep_points": [
+                0.3873728992287851,
+                0.37242535092820217,
+                0.3828157814888151,
+                0.380006119261524,
+                0.373246479537943
+              ],
+              "query_only_95_interval": [
+                0.3455114516815665,
+                0.40831275450184873
+              ]
+            },
+            "ash": {
+              "point": 0.3122899761660174,
+              "input_rep_points": [
+                0.3249535027583404,
+                0.3133135497192743,
+                0.3163298831554702,
+                0.3033819932134556,
+                0.3034709519835464
+              ],
+              "query_only_95_interval": [
+                0.2876426161721015,
+                0.3348700876180204
+              ]
+            }
+          },
+          "contrasts": {
+            "ash_minus_raw": {
+              "point": 0.010539091255224398,
+              "input_rep_points": [
+                0.012580767276385962,
+                0.015277622291067272,
+                0.013791950508278472,
+                0.006380172217529512,
+                0.004664943982860881
+              ],
+              "query_only_95_interval": [
+                -0.003244514859015536,
+                0.022762552672301584
+              ],
+              "query_only_99_interval": [
+                -0.008136020384082045,
+                0.026965303337419182
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "ash_minus_euclidean": {
+              "point": -0.043359954837767,
+              "input_rep_points": [
+                -0.04423069250300066,
+                -0.04378694711396691,
+                -0.03814061254141338,
+                -0.048195890319789714,
+                -0.04244563171066423
+              ],
+              "query_only_95_interval": [
+                -0.05190512972363941,
+                -0.033987000120419705
+              ],
+              "query_only_99_interval": [
+                -0.054502437880497696,
+                -0.031626277624441805
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_ash": {
+              "point": 0.06688334992303646,
+              "input_rep_points": [
+                0.0624193964704447,
+                0.059111801208927894,
+                0.0664858983333449,
+                0.0766241260480684,
+                0.06977552755439659
+              ],
+              "query_only_95_interval": [
+                0.05659443055747136,
+                0.0763997830860139
+              ],
+              "query_only_99_interval": [
+                0.05380532616136207,
+                0.07895172165356033
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_euclidean": {
+              "point": 0.02352339508526946,
+              "input_rep_points": [
+                0.018188703967444042,
+                0.015324854094960982,
+                0.028345285791931518,
+                0.028428235728278684,
+                0.027329895843732355
+              ],
+              "query_only_95_interval": [
+                0.021322738375291504,
+                0.026336047102253065
+              ],
+              "query_only_99_interval": [
+                0.02076067635963387,
+                0.027598513806022604
+              ],
+              "in_prespecified_five_contrast_family": false
+            }
+          }
+        },
+        "10": {
+          "arms": {
+            "raw": {
+              "point": 0.2847079987892008,
+              "input_rep_points": [
+                0.2927037608478292,
+                0.2923868277628241,
+                0.2810331754340809,
+                0.28481209202858954,
+                0.2726041378726803
+              ],
+              "query_only_95_interval": [
+                0.25043802331446485,
+                0.312837260013165
+              ]
+            },
+            "euclidean": {
+              "point": 0.33173996698418445,
+              "input_rep_points": [
+                0.342739774597413,
+                0.3399103788547479,
+                0.3240727227941117,
+                0.33285218334267397,
+                0.3191247753319756
+              ],
+              "query_only_95_interval": [
+                0.30734379669091433,
+                0.3534228998966311
+              ]
+            },
+            "pertrank": {
+              "point": 0.3513874491063035,
+              "input_rep_points": [
+                0.36759426640578324,
+                0.35144370537312786,
+                0.3515611175230725,
+                0.34955870463856525,
+                0.3367794515909684
+              ],
+              "query_only_95_interval": [
+                0.32711158469742385,
+                0.37404239584352167
+              ]
+            },
+            "ash": {
+              "point": 0.2940085460831694,
+              "input_rep_points": [
+                0.3061856448753346,
+                0.30009612681223696,
+                0.2957015924447225,
+                0.2878147360518294,
+                0.2802446302317236
+              ],
+              "query_only_95_interval": [
+                0.2768104867870573,
+                0.30886226670375727
+              ]
+            }
+          },
+          "contrasts": {
+            "ash_minus_raw": {
+              "point": 0.00930054729396862,
+              "input_rep_points": [
+                0.013481884027505442,
+                0.0077092990494128655,
+                0.014668417010641588,
+                0.0030026440232398532,
+                0.007640492359043294
+              ],
+              "query_only_95_interval": [
+                -0.00608612326034963,
+                0.027916233453948
+              ],
+              "query_only_99_interval": [
+                -0.011791017113437509,
+                0.03360192505598731
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "ash_minus_euclidean": {
+              "point": -0.037731420901015056,
+              "input_rep_points": [
+                -0.03655412972207839,
+                -0.039814252042510934,
+                -0.028371130349389206,
+                -0.04503744729084458,
+                -0.038880145100252006
+              ],
+              "query_only_95_interval": [
+                -0.04841736961306521,
+                -0.028548098512746433
+              ],
+              "query_only_99_interval": [
+                -0.05305154871557806,
+                -0.025333601331855055
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_ash": {
+              "point": 0.05737890302313409,
+              "input_rep_points": [
+                0.061408621530448626,
+                0.051347578560890894,
+                0.055859525078350014,
+                0.061743968586735865,
+                0.05653482135924481
+              ],
+              "query_only_95_interval": [
+                0.04829272017728482,
+                0.0684738573475491
+              ],
+              "query_only_99_interval": [
+                0.04544999247517524,
+                0.07241661832158697
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_euclidean": {
+              "point": 0.01964748212211903,
+              "input_rep_points": [
+                0.024854491808370238,
+                0.01153332651837996,
+                0.027488394728960808,
+                0.016706521295891286,
+                0.017654676258992807
+              ],
+              "query_only_95_interval": [
+                0.01659501569938874,
+                0.023356933988084555
+              ],
+              "query_only_99_interval": [
+                0.01570601702607274,
+                0.024809982243671237
+              ],
+              "in_prespecified_five_contrast_family": false
+            }
+          }
+        }
+      },
+      "common_arm_verification": "MATCHED_COMMON_THREE_ARMS_BITWISE_PASS"
+    },
+    {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_pooled/evaluation_report.json",
+      "sha256": "9cd5a42329fc7b610272684512eed31567748169c4069e1c4fd942a19339745d",
+      "scope": "Conditional on fixed observed cells/reference and original query panels; original query-block bootstrap, averaged over five fixed input repetitions.",
+      "simultaneous_intervals": "ASH contrasts and intervals are descriptive; no new simultaneous family or performance-dependent choice.",
+      "results": {
+        "25": {
+          "arms": {
+            "raw": {
+              "point": 0.3169094001330658,
+              "input_rep_points": [
+                0.3184340717628313,
+                0.3172584453532788,
+                0.31502609918064933,
+                0.3156175233133132,
+                0.3182108610552563
+              ],
+              "query_only_95_interval": [
+                0.29355135622383377,
+                0.33378873224903627
+              ]
+            },
+            "euclidean": {
+              "point": 0.37857917562450993,
+              "input_rep_points": [
+                0.3734581643151995,
+                0.3772282532352884,
+                0.37716352677156695,
+                0.37808399009203025,
+                0.3869619437084645
+              ],
+              "query_only_95_interval": [
+                0.3561109290057179,
+                0.39401418807347016
+              ]
+            },
+            "pertrank": {
+              "point": 0.39372749325212164,
+              "input_rep_points": [
+                0.3968877142832181,
+                0.3915573989639316,
+                0.3935596463656765,
+                0.3858733674809051,
+                0.40075933916687684
+              ],
+              "query_only_95_interval": [
+                0.37210464401798377,
+                0.40822499547397056
+              ]
+            },
+            "ash": {
+              "point": 0.33303729548644123,
+              "input_rep_points": [
+                0.3335783369873822,
+                0.33245825006629026,
+                0.32943826144881416,
+                0.3331010477095904,
+                0.336610581220129
+              ],
+              "query_only_95_interval": [
+                0.3135119868917912,
+                0.34667700687729575
+              ]
+            }
+          },
+          "contrasts": {
+            "ash_minus_raw": {
+              "point": 0.016127895353375443,
+              "input_rep_points": [
+                0.015144265224550923,
+                0.015199804713011467,
+                0.01441216226816483,
+                0.017483524396277206,
+                0.01839972016487268
+              ],
+              "query_only_95_interval": [
+                0.011408527747402088,
+                0.02137300959519055
+              ],
+              "query_only_99_interval": [
+                0.009985072026242344,
+                0.022855137465932908
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "ash_minus_euclidean": {
+              "point": -0.0455418801380687,
+              "input_rep_points": [
+                -0.03987982732781731,
+                -0.04477000316899815,
+                -0.047725265322752786,
+                -0.04498294238243983,
+                -0.050351362488335494
+              ],
+              "query_only_95_interval": [
+                -0.049425569371861405,
+                -0.040424550815474136
+              ],
+              "query_only_99_interval": [
+                -0.050440220115111435,
+                -0.038741188305161246
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_ash": {
+              "point": 0.06069019776568041,
+              "input_rep_points": [
+                0.06330937729583591,
+                0.05909914889764134,
+                0.06412138491686231,
+                0.05277231977131469,
+                0.06414875794674785
+              ],
+              "query_only_95_interval": [
+                0.05660105769782901,
+                0.0645179568013173
+              ],
+              "query_only_99_interval": [
+                0.05514580035125654,
+                0.06592310931529563
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_euclidean": {
+              "point": 0.015148317627611707,
+              "input_rep_points": [
+                0.023429549968018604,
+                0.014329145728643189,
+                0.016396119594109526,
+                0.007789377388874863,
+                0.013797395458412354
+              ],
+              "query_only_95_interval": [
+                0.01310047504905425,
+                0.017957197095074418
+              ],
+              "query_only_99_interval": [
+                0.012632466953732158,
+                0.018732909882160274
+              ],
+              "in_prespecified_five_contrast_family": false
+            }
+          }
+        },
+        "10": {
+          "arms": {
+            "raw": {
+              "point": 0.2866623082084573,
+              "input_rep_points": [
+                0.2925121789142964,
+                0.2903371547643447,
+                0.27833685802862473,
+                0.2822692303227678,
+                0.28985611901225267
+              ],
+              "query_only_95_interval": [
+                0.2619062689023684,
+                0.3065131459854074
+              ]
+            },
+            "euclidean": {
+              "point": 0.3372084268339959,
+              "input_rep_points": [
+                0.34444578578409496,
+                0.3407726841109933,
+                0.3280995824378916,
+                0.3288556059120647,
+                0.3438684759249347
+              ],
+              "query_only_95_interval": [
+                0.31645289448819486,
+                0.3552596142909957
+              ]
+            },
+            "pertrank": {
+              "point": 0.3477983151429796,
+              "input_rep_points": [
+                0.3641040772413814,
+                0.3450805846173862,
+                0.34392648076478993,
+                0.3380203323757861,
+                0.34786010071555445
+              ],
+              "query_only_95_interval": [
+                0.32851122810790584,
+                0.3644779195417488
+              ]
+            },
+            "ash": {
+              "point": 0.2989869783897533,
+              "input_rep_points": [
+                0.3052368373398524,
+                0.2993133241344888,
+                0.2918948215983392,
+                0.2937239673269824,
+                0.3047659415491037
+              ],
+              "query_only_95_interval": [
+                0.2796669045769561,
+                0.3141345080714799
+              ]
+            }
+          },
+          "contrasts": {
+            "ash_minus_raw": {
+              "point": 0.012324670181296016,
+              "input_rep_points": [
+                0.012724658425556035,
+                0.008976169370144116,
+                0.013557963569714448,
+                0.011454737004214621,
+                0.014909822536851025
+              ],
+              "query_only_95_interval": [
+                0.0058071319249253395,
+                0.02026780357607262
+              ],
+              "query_only_99_interval": [
+                0.004145136361219601,
+                0.02275837935391653
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "ash_minus_euclidean": {
+              "point": -0.03822144844424258,
+              "input_rep_points": [
+                -0.03920894844424255,
+                -0.04145935997650452,
+                -0.03620476083955243,
+                -0.03513163858508228,
+                -0.039102534375831
+              ],
+              "query_only_95_interval": [
+                -0.04446246113941094,
+                -0.032249765947019636
+              ],
+              "query_only_99_interval": [
+                -0.04648619589345173,
+                -0.030589589155839283
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_ash": {
+              "point": 0.0488113367532263,
+              "input_rep_points": [
+                0.05886723990152898,
+                0.04576726048289742,
+                0.05203165916645075,
+                0.04429636504880369,
+                0.04309415916645076
+              ],
+              "query_only_95_interval": [
+                0.04308972036444037,
+                0.055127930022048854
+              ],
+              "query_only_99_interval": [
+                0.04118896542846322,
+                0.0577171293230668
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_euclidean": {
+              "point": 0.01058988830898372,
+              "input_rep_points": [
+                0.019658291457286425,
+                0.004307900506392903,
+                0.01582689832689832,
+                0.009164726463721407,
+                0.003991624790619763
+              ],
+              "query_only_95_interval": [
+                0.008094205180642,
+                0.013992388322494246
+              ],
+              "query_only_99_interval": [
+                0.007335733682036864,
+                0.014737185556532117
+              ],
+              "in_prespecified_five_contrast_family": false
+            }
+          }
+        }
+      },
+      "common_arm_verification": "MATCHED_COMMON_THREE_ARMS_BITWISE_PASS"
+    },
+    {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_independent/evaluation_report.json",
+      "sha256": "4f9107191ec070d3fc740ae57cd84563f9bb996930f7d6af8ddab3851037e1be",
+      "scope": "Conditional on fixed shallow inputs, QC profiles, candidate pools, input-control metric/normalization, query panel and observed donor. Joint intervals propagate source-query-block and within-lane reference-cell resampling; they are not donor-population intervals.",
+      "simultaneous_intervals": "ASH contrasts and intervals are descriptive; no new simultaneous family or performance-dependent choice.",
+      "results": {
+        "25": {
+          "arms": {
+            "raw": {
+              "point": 0.07560098142387513,
+              "input_rep_points": [
+                0.07560098142387513
+              ],
+              "query_only_95_interval": [
+                0.06951677482382469,
+                0.08033081173284144
+              ],
+              "joint_95_interval": [
+                0.06850325359441606,
+                0.07934445537747424
+              ]
+            },
+            "euclidean": {
+              "point": 0.08510765260146674,
+              "input_rep_points": [
+                0.08510765260146674
+              ],
+              "query_only_95_interval": [
+                0.07786840324827445,
+                0.0906202688398879
+              ],
+              "joint_95_interval": [
+                0.07680763826090267,
+                0.08869308967204798
+              ]
+            },
+            "pertrank": {
+              "point": 0.0849132060070395,
+              "input_rep_points": [
+                0.0849132060070395
+              ],
+              "query_only_95_interval": [
+                0.07835276137350661,
+                0.09055018016288414
+              ],
+              "joint_95_interval": [
+                0.07662713828438926,
+                0.08878101911147276
+              ]
+            },
+            "ash": {
+              "point": 0.08233716446346345,
+              "input_rep_points": [
+                0.08233716446346345
+              ],
+              "query_only_95_interval": [
+                0.0761942509986715,
+                0.08691431963271487
+              ],
+              "joint_95_interval": [
+                0.07414218352264856,
+                0.08501586691057261
+              ]
+            }
+          },
+          "contrasts": {
+            "ash_minus_raw": {
+              "point": 0.006736183039588325,
+              "input_rep_points": [
+                0.006736183039588325
+              ],
+              "query_only_95_interval": [
+                0.003961345432491998,
+                0.009094053362303902
+              ],
+              "query_only_99_interval": [
+                0.0028250193168186484,
+                0.009634949542816549
+              ],
+              "in_prespecified_five_contrast_family": false,
+              "joint_95_interval": [
+                0.0022984413325291926,
+                0.008964711283645352
+              ],
+              "joint_99_interval": [
+                0.001357567230220178,
+                0.010098009615828744
+              ]
+            },
+            "ash_minus_euclidean": {
+              "point": -0.002770488138003291,
+              "input_rep_points": [
+                -0.002770488138003291
+              ],
+              "query_only_95_interval": [
+                -0.006925525269270857,
+                0.0012196824161661362
+              ],
+              "query_only_99_interval": [
+                -0.008436518214705504,
+                0.002918841736756163
+              ],
+              "in_prespecified_five_contrast_family": false,
+              "joint_95_interval": [
+                -0.007711616259511333,
+                0.0016278488992245768
+              ],
+              "joint_99_interval": [
+                -0.009221833430563087,
+                0.002830318259930742
+              ]
+            },
+            "pertrank_minus_ash": {
+              "point": 0.0025760415435760464,
+              "input_rep_points": [
+                0.0025760415435760464
+              ],
+              "query_only_95_interval": [
+                -0.0010125311125047398,
+                0.006151554944697793
+              ],
+              "query_only_99_interval": [
+                -0.0019312124538096846,
+                0.00763838700880032
+              ],
+              "in_prespecified_five_contrast_family": false,
+              "joint_95_interval": [
+                -0.0015604749020778719,
+                0.007524315819445473
+              ],
+              "joint_99_interval": [
+                -0.002923424852761245,
+                0.00921967515354016
+              ]
+            },
+            "pertrank_minus_euclidean": {
+              "point": -0.00019444659442724443,
+              "input_rep_points": [
+                -0.00019444659442724443
+              ],
+              "query_only_95_interval": [
+                -0.003192280572126388,
+                0.002442238690219507
+              ],
+              "query_only_99_interval": [
+                -0.004496657388663947,
+                0.0033428405095650014
+              ],
+              "in_prespecified_five_contrast_family": false,
+              "joint_95_interval": [
+                -0.0041103379904874355,
+                0.003859981062360013
+              ],
+              "joint_99_interval": [
+                -0.00568657921745561,
+                0.00496091293981712
+              ]
+            }
+          }
+        },
+        "10": {
+          "arms": {
+            "raw": {
+              "point": 0.03608762622883608,
+              "input_rep_points": [
+                0.03608762622883608
+              ],
+              "query_only_95_interval": [
+                0.03108352381952237,
+                0.04024901082270307
+              ],
+              "joint_95_interval": [
+                0.030135472534620806,
+                0.04168178649453092
+              ]
+            },
+            "euclidean": {
+              "point": 0.049251080489447686,
+              "input_rep_points": [
+                0.049251080489447686
+              ],
+              "query_only_95_interval": [
+                0.042104714912280745,
+                0.05513366724216414
+              ],
+              "joint_95_interval": [
+                0.04017977740720722,
+                0.05468205631125456
+              ]
+            },
+            "pertrank": {
+              "point": 0.04698352062801818,
+              "input_rep_points": [
+                0.04698352062801818
+              ],
+              "query_only_95_interval": [
+                0.0394169128330476,
+                0.05330478935670151
+              ],
+              "joint_95_interval": [
+                0.037579356882053286,
+                0.05344308841504977
+              ]
+            },
+            "ash": {
+              "point": 0.04272744278680148,
+              "input_rep_points": [
+                0.04272744278680148
+              ],
+              "query_only_95_interval": [
+                0.037748393759749845,
+                0.04735522094470753
+              ],
+              "joint_95_interval": [
+                0.035706930337982085,
+                0.04869937200505884
+              ]
+            }
+          },
+          "contrasts": {
+            "ash_minus_raw": {
+              "point": 0.006639816557965403,
+              "input_rep_points": [
+                0.006639816557965403
+              ],
+              "query_only_95_interval": [
+                0.002742234966320349,
+                0.009820438378960133
+              ],
+              "query_only_99_interval": [
+                0.0013206488958792775,
+                0.010794690138234125
+              ],
+              "in_prespecified_five_contrast_family": false,
+              "joint_95_interval": [
+                0.0024627632419264335,
+                0.010451237964825904
+              ],
+              "joint_99_interval": [
+                0.0012119911236007804,
+                0.01176846941676673
+              ]
+            },
+            "ash_minus_euclidean": {
+              "point": -0.006523637702646204,
+              "input_rep_points": [
+                -0.006523637702646204
+              ],
+              "query_only_95_interval": [
+                -0.012906385200281823,
+                -0.0004268286374156577
+              ],
+              "query_only_99_interval": [
+                -0.014826497564585745,
+                0.002330329899877303
+              ],
+              "in_prespecified_five_contrast_family": false,
+              "joint_95_interval": [
+                -0.012030284186791262,
+                0.0012643331475433413
+              ],
+              "joint_99_interval": [
+                -0.014005552323058161,
+                0.004423508351661121
+              ]
+            },
+            "pertrank_minus_ash": {
+              "point": 0.0042560778412166975,
+              "input_rep_points": [
+                0.0042560778412166975
+              ],
+              "query_only_95_interval": [
+                -0.0014899241759615612,
+                0.009178488504294055
+              ],
+              "query_only_99_interval": [
+                -0.004365418483470137,
+                0.01051820876450709
+              ],
+              "in_prespecified_five_contrast_family": false,
+              "joint_95_interval": [
+                -0.0032298271644207793,
+                0.00912425339471196
+              ],
+              "joint_99_interval": [
+                -0.005401036853949157,
+                0.011697230442549883
+              ]
+            },
+            "pertrank_minus_euclidean": {
+              "point": -0.0022675598614295064,
+              "input_rep_points": [
+                -0.0022675598614295064
+              ],
+              "query_only_95_interval": [
+                -0.00893327594822233,
+                0.0029074547326417943
+              ],
+              "query_only_99_interval": [
+                -0.010809294038421997,
+                0.004534774725474376
+              ],
+              "in_prespecified_five_contrast_family": false,
+              "joint_95_interval": [
+                -0.008409426325296943,
+                0.00406391127558597
+              ],
+              "joint_99_interval": [
+                -0.010761086629925334,
+                0.005405215624841618
+              ]
+            }
+          }
+        }
+      },
+      "common_arm_verification": "FROZEN_SCALAR_COMMON_THREE_ARMS_BITWISE_PASS"
+    },
+    {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_pooled_combined/equal_state_report.json",
+      "sha256": "c168264e36cb0bc4029ce254d25d8945a9b72e83de0f53a2a684ac09d61cb033",
+      "scope": "Original task-stratified query-block bootstrap: independent streams in the two original different panels, then equal-state mean. Conditional on fixed cells/reference and observed D4 donor.",
+      "simultaneous_intervals": "Descriptive ASH comparison intervals; no new multiplicity family or D4 tuning.",
+      "results": {
+        "25": {
+          "arms": {
+            "raw": {
+              "point": 0.30933014252192936,
+              "input_rep_points": [
+                0.3154034036223929,
+                0.3076471863907429,
+                0.3087820159139206,
+                0.3063096721546196,
+                0.3085084345279709
+              ],
+              "task_stratified_query_95_interval": [
+                0.2882515800998332,
+                0.3275996334672463
+              ]
+            },
+            "euclidean": {
+              "point": 0.36711455331414716,
+              "input_rep_points": [
+                0.3713211797882703,
+                0.3671643750342648,
+                0.3658170112342253,
+                0.3648309368126378,
+                0.36643926370133756
+              ],
+              "task_stratified_query_95_interval": [
+                0.3475072074610865,
+                0.38333354776231227
+              ]
+            },
+            "pertrank": {
+              "point": 0.3864504096705877,
+              "input_rep_points": [
+                0.39213030675600163,
+                0.3819913749460669,
+                0.38818771392724577,
+                0.38293974337121456,
+                0.3870029093524099
+              ],
+              "task_stratified_query_95_interval": [
+                0.36682622744394183,
+                0.4029682502989291
+              ]
+            },
+            "ash": {
+              "point": 0.3226636358262293,
+              "input_rep_points": [
+                0.3292659198728613,
+                0.3228858998927822,
+                0.3228840723021422,
+                0.31824152046152304,
+                0.3200407666018377
+              ],
+              "task_stratified_query_95_interval": [
+                0.3071162302109459,
+                0.335504100005426
+              ]
+            }
+          },
+          "contrasts": {
+            "ash_minus_raw": {
+              "point": 0.013333493304299948,
+              "input_rep_points": [
+                0.013862516250468415,
+                0.015238713502039314,
+                0.014102056388221595,
+                0.011931848306903414,
+                0.011532332073866836
+              ],
+              "task_stratified_query_95_interval": [
+                0.0060143204454041616,
+                0.020139523854469803
+              ],
+              "task_stratified_query_99_interval": [
+                0.0036764304825277648,
+                0.021860189103007382
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "ash_minus_euclidean": {
+              "point": -0.04445091748791785,
+              "input_rep_points": [
+                -0.04205525991540898,
+                -0.04427847514148259,
+                -0.04293293893208305,
+                -0.04658941635111474,
+                -0.046398497099499836
+              ],
+              "task_stratified_query_95_interval": [
+                -0.0493773216385252,
+                -0.03911445583802547
+              ],
+              "task_stratified_query_99_interval": [
+                -0.05081509837991253,
+                -0.037434120520619014
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_ash": {
+              "point": 0.06378677384435838,
+              "input_rep_points": [
+                0.06286438688314033,
+                0.05910547505328467,
+                0.06530364162510355,
+                0.06469822290969152,
+                0.06696214275057216
+              ],
+              "task_stratified_query_95_interval": [
+                0.05801034158016049,
+                0.06926463628340962
+              ],
+              "task_stratified_query_99_interval": [
+                0.056590140538602306,
+                0.07043847996276775
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_euclidean": {
+              "point": 0.01933585635644053,
+              "input_rep_points": [
+                0.02080912696773135,
+                0.014826999911802086,
+                0.022370702693020494,
+                0.018108806558576773,
+                0.020563645651072326
+              ],
+              "task_stratified_query_95_interval": [
+                0.017800312868450987,
+                0.021356644930221793
+              ],
+              "task_stratified_query_99_interval": [
+                0.01742115428019216,
+                0.02201236827904232
+              ],
+              "in_prespecified_five_contrast_family": false
+            }
+          }
+        },
+        "10": {
+          "arms": {
+            "raw": {
+              "point": 0.28568515349882906,
+              "input_rep_points": [
+                0.2926079698810628,
+                0.2913619912635844,
+                0.27968501673135276,
+                0.2835406611756786,
+                0.28123012844246653
+              ],
+              "task_stratified_query_95_interval": [
+                0.26492367608190687,
+                0.3034908601830741
+              ]
+            },
+            "euclidean": {
+              "point": 0.3344741969090902,
+              "input_rep_points": [
+                0.343592780190754,
+                0.3403415314828706,
+                0.3260861526160017,
+                0.3308538946273693,
+                0.3314966256284552
+              ],
+              "task_stratified_query_95_interval": [
+                0.3186744414610696,
+                0.3490950992716262
+              ]
+            },
+            "pertrank": {
+              "point": 0.34959288212464157,
+              "input_rep_points": [
+                0.36584917182358234,
+                0.34826214499525704,
+                0.34774379914393116,
+                0.3437895185071757,
+                0.3423197761532614
+              ],
+              "task_stratified_query_95_interval": [
+                0.3342423196487642,
+                0.36369601339472135
+              ]
+            },
+            "ash": {
+              "point": 0.29649776223646135,
+              "input_rep_points": [
+                0.3057112411075935,
+                0.2997047254733629,
+                0.2937982070215308,
+                0.2907693516894059,
+                0.29250528589041364
+              ],
+              "task_stratified_query_95_interval": [
+                0.2837327686746767,
+                0.3073797388115244
+              ]
+            }
+          },
+          "contrasts": {
+            "ash_minus_raw": {
+              "point": 0.01081260873763229,
+              "input_rep_points": [
+                0.01310327122653071,
+                0.00834273420977849,
+                0.014113190290178046,
+                0.007228690513727265,
+                0.011275157447947104
+              ],
+              "task_stratified_query_95_interval": [
+                0.0020368560138393195,
+                0.020719195327522595
+              ],
+              "task_stratified_query_99_interval": [
+                0.00022495523759041803,
+                0.023269351749211433
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "ash_minus_euclidean": {
+              "point": -0.037976434672628845,
+              "input_rep_points": [
+                -0.0378815390831605,
+                -0.0406368060095077,
+                -0.0322879455944709,
+                -0.04008454293796343,
+                -0.038991339738041586
+              ],
+              "task_stratified_query_95_interval": [
+                -0.04441324824179878,
+                -0.03236286847759056
+              ],
+              "task_stratified_query_99_interval": [
+                -0.04621076400353452,
+                -0.030986725229527175
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_ash": {
+              "point": 0.05309511988818022,
+              "input_rep_points": [
+                0.06013793071598883,
+                0.04855741952189413,
+                0.053945592122400354,
+                0.05302016681776983,
+                0.04981449026284779
+              ],
+              "task_stratified_query_95_interval": [
+                0.047751905049945524,
+                0.05932669634170792
+              ],
+              "task_stratified_query_99_interval": [
+                0.04626252292051024,
+                0.06162569071631449
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_euclidean": {
+              "point": 0.015118685215551375,
+              "input_rep_points": [
+                0.022256391632828332,
+                0.007920613512386432,
+                0.021657646527929453,
+                0.012935623879806402,
+                0.010823150524806202
+              ],
+              "task_stratified_query_95_interval": [
+                0.013185928668111474,
+                0.017551555349345327
+              ],
+              "task_stratified_query_99_interval": [
+                0.012650942861030528,
+                0.01834139239826395
+              ],
+              "in_prespecified_five_contrast_family": false
+            }
+          }
+        }
+      },
+      "common_arm_verification": "TASK_STRATIFIED_COMMON_THREE_ARMS_BITWISE_PASS"
+    },
+    {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n20/evaluation_report.json",
+      "sha256": "c0c71e697b8d8e3652b859cf958d2f30e0e3e87699aaef0c164bc5af0ab216e9",
+      "scope": "Separate 250-target nested depth diagnostic. Conditional query-block bootstrap; one shared nested cell chain, fixed donor/reference/control geometry. Neither independent depth replicates nor donor-population inference; absolute scores not directly comparable to main 1200/589/561/395-target tasks.",
+      "simultaneous_intervals": "All ASH depth contrasts descriptive; no new multiple-testing family or depth-dependent parameter choice.",
+      "results": {
+        "25": {
+          "arms": {
+            "raw": {
+              "point": 0.3871940512024989,
+              "input_rep_points": [
+                0.3871940512024989
+              ],
+              "query_only_95_interval": [
+                0.3483013246839443,
+                0.4216638509058126
+              ]
+            },
+            "euclidean": {
+              "point": 0.38016683501683496,
+              "input_rep_points": [
+                0.38016683501683496
+              ],
+              "query_only_95_interval": [
+                0.35944486989767577,
+                0.4010069198594396
+              ]
+            },
+            "pertrank": {
+              "point": 0.4041205387205387,
+              "input_rep_points": [
+                0.4041205387205387
+              ],
+              "query_only_95_interval": [
+                0.3758159052141035,
+                0.432798659753783
+              ]
+            },
+            "ash": {
+              "point": 0.3819367003367003,
+              "input_rep_points": [
+                0.3819367003367003
+              ],
+              "query_only_95_interval": [
+                0.3521432987887536,
+                0.40966244246748823
+              ]
+            }
+          },
+          "contrasts": {
+            "ash_minus_raw": {
+              "point": -0.0052573508657985935,
+              "input_rep_points": [
+                -0.0052573508657985935
+              ],
+              "query_only_95_interval": [
+                -0.014366893317323609,
+                0.004962184394264454
+              ],
+              "query_only_99_interval": [
+                -0.01611904764850566,
+                0.007857441347337641
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "ash_minus_euclidean": {
+              "point": 0.001769865319865338,
+              "input_rep_points": [
+                0.001769865319865338
+              ],
+              "query_only_95_interval": [
+                -0.009562168432289943,
+                0.015021390832216491
+              ],
+              "query_only_99_interval": [
+                -0.013653674815388673,
+                0.018331503736938558
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_ash": {
+              "point": 0.022183838383838417,
+              "input_rep_points": [
+                0.022183838383838417
+              ],
+              "query_only_95_interval": [
+                0.015522873831107481,
+                0.027229455397346607
+              ],
+              "query_only_99_interval": [
+                0.012920134316625479,
+                0.028643848740891636
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_euclidean": {
+              "point": 0.023953703703703755,
+              "input_rep_points": [
+                0.023953703703703755
+              ],
+              "query_only_95_interval": [
+                0.014658252905769805,
+                0.036241811588794644
+              ],
+              "query_only_99_interval": [
+                0.011755179605674047,
+                0.04016019145920034
+              ],
+              "in_prespecified_five_contrast_family": false
+            }
+          }
+        },
+        "10": {
+          "arms": {
+            "raw": {
+              "point": 0.31399503887644425,
+              "input_rep_points": [
+                0.31399503887644425
+              ],
+              "query_only_95_interval": [
+                0.27152929135162734,
+                0.3547074916694828
+              ]
+            },
+            "euclidean": {
+              "point": 0.31480976430976426,
+              "input_rep_points": [
+                0.31480976430976426
+              ],
+              "query_only_95_interval": [
+                0.28574103969421233,
+                0.34358996946206194
+              ]
+            },
+            "pertrank": {
+              "point": 0.3416820286195286,
+              "input_rep_points": [
+                0.3416820286195286
+              ],
+              "query_only_95_interval": [
+                0.29919909514731746,
+                0.38232070450394673
+              ]
+            },
+            "ash": {
+              "point": 0.3159922138047138,
+              "input_rep_points": [
+                0.3159922138047138
+              ],
+              "query_only_95_interval": [
+                0.27977201412643654,
+                0.3513148213612363
+              ]
+            }
+          },
+          "contrasts": {
+            "ash_minus_raw": {
+              "point": 0.0019971749282695628,
+              "input_rep_points": [
+                0.0019971749282695628
+              ],
+              "query_only_95_interval": [
+                -0.009107654066098848,
+                0.011526108065087009
+              ],
+              "query_only_99_interval": [
+                -0.012616417896069597,
+                0.01485591526562689
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "ash_minus_euclidean": {
+              "point": 0.0011824494949495556,
+              "input_rep_points": [
+                0.0011824494949495556
+              ],
+              "query_only_95_interval": [
+                -0.011380991295365451,
+                0.018001615594950785
+              ],
+              "query_only_99_interval": [
+                -0.014698889194844305,
+                0.022731355081089012
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_ash": {
+              "point": 0.025689814814814804,
+              "input_rep_points": [
+                0.025689814814814804
+              ],
+              "query_only_95_interval": [
+                0.015329641195558715,
+                0.036551482669890896
+              ],
+              "query_only_99_interval": [
+                0.012314090267397463,
+                0.039661386619863744
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_euclidean": {
+              "point": 0.02687226430976436,
+              "input_rep_points": [
+                0.02687226430976436
+              ],
+              "query_only_95_interval": [
+                0.0108055967819335,
+                0.04493673021209959
+              ],
+              "query_only_99_interval": [
+                0.006227449027343268,
+                0.04922947774849948
+              ],
+              "in_prespecified_five_contrast_family": false
+            }
+          }
+        }
+      },
+      "common_arm_verification": "DEPTH_COMMON_THREE_ARMS_BOTH_FR_SPECIFICATIONS_MATCH"
+    },
+    {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n50/evaluation_report.json",
+      "sha256": "b2cf41b6413fce208b8ce67a99e37779662b6f9fd2abbda0bcdee5d5eb6a830d",
+      "scope": "Separate 250-target nested depth diagnostic. Conditional query-block bootstrap; one shared nested cell chain, fixed donor/reference/control geometry. Neither independent depth replicates nor donor-population inference; absolute scores not directly comparable to main 1200/589/561/395-target tasks.",
+      "simultaneous_intervals": "All ASH depth contrasts descriptive; no new multiple-testing family or depth-dependent parameter choice.",
+      "results": {
+        "25": {
+          "arms": {
+            "raw": {
+              "point": 0.48275289630295615,
+              "input_rep_points": [
+                0.48275289630295615
+              ],
+              "query_only_95_interval": [
+                0.4335057477620206,
+                0.5256690824505859
+              ]
+            },
+            "euclidean": {
+              "point": 0.48110677609427605,
+              "input_rep_points": [
+                0.48110677609427605
+              ],
+              "query_only_95_interval": [
+                0.4440578212370195,
+                0.5109904544773272
+              ]
+            },
+            "pertrank": {
+              "point": 0.4917295454545455,
+              "input_rep_points": [
+                0.4917295454545455
+              ],
+              "query_only_95_interval": [
+                0.45223297410195623,
+                0.5267478354978352
+              ]
+            },
+            "ash": {
+              "point": 0.4912169612794613,
+              "input_rep_points": [
+                0.4912169612794613
+              ],
+              "query_only_95_interval": [
+                0.45135807752524937,
+                0.526797678198994
+              ]
+            }
+          },
+          "contrasts": {
+            "ash_minus_raw": {
+              "point": 0.008464064976505148,
+              "input_rep_points": [
+                0.008464064976505148
+              ],
+              "query_only_95_interval": [
+                -0.002158784188907434,
+                0.01875873698435162
+              ],
+              "query_only_99_interval": [
+                -0.004216146249441764,
+                0.02208132325309063
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "ash_minus_euclidean": {
+              "point": 0.01011018518518525,
+              "input_rep_points": [
+                0.01011018518518525
+              ],
+              "query_only_95_interval": [
+                0.004219071575881253,
+                0.017841154670385603
+              ],
+              "query_only_99_interval": [
+                0.002596434842100198,
+                0.020840904287439784
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_ash": {
+              "point": 0.0005125841750842075,
+              "input_rep_points": [
+                0.0005125841750842075
+              ],
+              "query_only_95_interval": [
+                -0.005186660536373275,
+                0.006344303080079804
+              ],
+              "query_only_99_interval": [
+                -0.00802019029116402,
+                0.008100095081788146
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_euclidean": {
+              "point": 0.010622769360269457,
+              "input_rep_points": [
+                0.010622769360269457
+              ],
+              "query_only_95_interval": [
+                0.005419527525881345,
+                0.0176375476448031
+              ],
+              "query_only_99_interval": [
+                0.003477695316337505,
+                0.019782049352679375
+              ],
+              "in_prespecified_five_contrast_family": false
+            }
+          }
+        },
+        "10": {
+          "arms": {
+            "raw": {
+              "point": 0.42723360810058864,
+              "input_rep_points": [
+                0.42723360810058864
+              ],
+              "query_only_95_interval": [
+                0.36384331475234105,
+                0.4806994951620708
+              ]
+            },
+            "euclidean": {
+              "point": 0.42218202861952864,
+              "input_rep_points": [
+                0.42218202861952864
+              ],
+              "query_only_95_interval": [
+                0.37334228133385905,
+                0.4622760309898371
+              ]
+            },
+            "pertrank": {
+              "point": 0.438976430976431,
+              "input_rep_points": [
+                0.438976430976431
+              ],
+              "query_only_95_interval": [
+                0.3859956159392925,
+                0.48378876755511946
+              ]
+            },
+            "ash": {
+              "point": 0.4301936026936027,
+              "input_rep_points": [
+                0.4301936026936027
+              ],
+              "query_only_95_interval": [
+                0.3762955094435086,
+                0.47654341817005524
+              ]
+            }
+          },
+          "contrasts": {
+            "ash_minus_raw": {
+              "point": 0.002959994593014048,
+              "input_rep_points": [
+                0.002959994593014048
+              ],
+              "query_only_95_interval": [
+                -0.010521883719387313,
+                0.014298970806447292
+              ],
+              "query_only_99_interval": [
+                -0.014014698859299034,
+                0.0171211184826624
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "ash_minus_euclidean": {
+              "point": 0.008011574074074046,
+              "input_rep_points": [
+                0.008011574074074046
+              ],
+              "query_only_95_interval": [
+                -0.0032525517269468658,
+                0.021815487205011933
+              ],
+              "query_only_99_interval": [
+                -0.005509126172187391,
+                0.025735008497442
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_ash": {
+              "point": 0.008782828282828337,
+              "input_rep_points": [
+                0.008782828282828337
+              ],
+              "query_only_95_interval": [
+                0.0005504355983626214,
+                0.015277777777777838
+              ],
+              "query_only_99_interval": [
+                -0.003254094010722043,
+                0.017166737891737855
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_euclidean": {
+              "point": 0.016794402356902383,
+              "input_rep_points": [
+                0.016794402356902383
+              ],
+              "query_only_95_interval": [
+                0.009254174278098914,
+                0.026553601478648166
+              ],
+              "query_only_99_interval": [
+                0.007217987372881029,
+                0.029883878408329654
+              ],
+              "in_prespecified_five_contrast_family": false
+            }
+          }
+        }
+      },
+      "common_arm_verification": "DEPTH_COMMON_THREE_ARMS_BOTH_FR_SPECIFICATIONS_MATCH"
+    },
+    {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n100/evaluation_report.json",
+      "sha256": "ae51f3803d26f433c3de3381b91ea676096cdc658909b510f4c1c5e8299170d7",
+      "scope": "Separate 250-target nested depth diagnostic. Conditional query-block bootstrap; one shared nested cell chain, fixed donor/reference/control geometry. Neither independent depth replicates nor donor-population inference; absolute scores not directly comparable to main 1200/589/561/395-target tasks.",
+      "simultaneous_intervals": "All ASH depth contrasts descriptive; no new multiple-testing family or depth-dependent parameter choice.",
+      "results": {
+        "25": {
+          "arms": {
+            "raw": {
+              "point": 0.5509699185164573,
+              "input_rep_points": [
+                0.5509699185164573
+              ],
+              "query_only_95_interval": [
+                0.5012543165687318,
+                0.5931411812040106
+              ]
+            },
+            "euclidean": {
+              "point": 0.5399365319865321,
+              "input_rep_points": [
+                0.5399365319865321
+              ],
+              "query_only_95_interval": [
+                0.5003967055894593,
+                0.5737576425655707
+              ]
+            },
+            "pertrank": {
+              "point": 0.5432513047138048,
+              "input_rep_points": [
+                0.5432513047138048
+              ],
+              "query_only_95_interval": [
+                0.49804929855325614,
+                0.5815340832385287
+              ]
+            },
+            "ash": {
+              "point": 0.5551938131313131,
+              "input_rep_points": [
+                0.5551938131313131
+              ],
+              "query_only_95_interval": [
+                0.5116443313644733,
+                0.5928184040848699
+              ]
+            }
+          },
+          "contrasts": {
+            "ash_minus_raw": {
+              "point": 0.004223894614855839,
+              "input_rep_points": [
+                0.004223894614855839
+              ],
+              "query_only_95_interval": [
+                -0.0034568948816866758,
+                0.011597360849632572
+              ],
+              "query_only_99_interval": [
+                -0.004831324043360862,
+                0.014369272228554053
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "ash_minus_euclidean": {
+              "point": 0.015257281144780976,
+              "input_rep_points": [
+                0.015257281144780976
+              ],
+              "query_only_95_interval": [
+                0.01079690357325597,
+                0.02093471175591815
+              ],
+              "query_only_99_interval": [
+                0.00961346658412759,
+                0.02256826339365625
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_ash": {
+              "point": -0.011942508417508324,
+              "input_rep_points": [
+                -0.011942508417508324
+              ],
+              "query_only_95_interval": [
+                -0.01715163301132832,
+                -0.006210610360571735
+              ],
+              "query_only_99_interval": [
+                -0.01857653396149271,
+                -0.004743956764731081
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_euclidean": {
+              "point": 0.0033147727272726524,
+              "input_rep_points": [
+                0.0033147727272726524
+              ],
+              "query_only_95_interval": [
+                -0.00262976275135062,
+                0.0097213017623073
+              ],
+              "query_only_99_interval": [
+                -0.00434766738950431,
+                0.011227944780932086
+              ],
+              "in_prespecified_five_contrast_family": false
+            }
+          }
+        },
+        "10": {
+          "arms": {
+            "raw": {
+              "point": 0.49803463407324966,
+              "input_rep_points": [
+                0.49803463407324966
+              ],
+              "query_only_95_interval": [
+                0.43185482947831744,
+                0.5536049457956397
+              ]
+            },
+            "euclidean": {
+              "point": 0.4902051767676768,
+              "input_rep_points": [
+                0.4902051767676768
+              ],
+              "query_only_95_interval": [
+                0.4382967190521051,
+                0.533873622459127
+              ]
+            },
+            "pertrank": {
+              "point": 0.4965890151515151,
+              "input_rep_points": [
+                0.4965890151515151
+              ],
+              "query_only_95_interval": [
+                0.43959130294623217,
+                0.5454082308839371
+              ]
+            },
+            "ash": {
+              "point": 0.5029497053872054,
+              "input_rep_points": [
+                0.5029497053872054
+              ],
+              "query_only_95_interval": [
+                0.44114641427304313,
+                0.5551779143767323
+              ]
+            }
+          },
+          "contrasts": {
+            "ash_minus_raw": {
+              "point": 0.004915071313955743,
+              "input_rep_points": [
+                0.004915071313955743
+              ],
+              "query_only_95_interval": [
+                -0.0023852001677905467,
+                0.011441774670108266
+              ],
+              "query_only_99_interval": [
+                -0.004377259765837017,
+                0.01307037732134343
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "ash_minus_euclidean": {
+              "point": 0.012744528619528628,
+              "input_rep_points": [
+                0.012744528619528628
+              ],
+              "query_only_95_interval": [
+                0.001972907546555809,
+                0.026263881125877114
+              ],
+              "query_only_99_interval": [
+                -0.0005233353211027011,
+                0.03174303597741117
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_ash": {
+              "point": -0.006360690235690303,
+              "input_rep_points": [
+                -0.006360690235690303
+              ],
+              "query_only_95_interval": [
+                -0.015960514870391195,
+                0.0007440103675138346
+              ],
+              "query_only_99_interval": [
+                -0.021274259016184127,
+                0.002219056633119193
+              ],
+              "in_prespecified_five_contrast_family": false
+            },
+            "pertrank_minus_euclidean": {
+              "point": 0.006383838383838325,
+              "input_rep_points": [
+                0.006383838383838325
+              ],
+              "query_only_95_interval": [
+                0.0004957013055032115,
+                0.0141709523207365
+              ],
+              "query_only_99_interval": [
+                -0.001118873558102408,
+                0.016092871250949943
+              ],
+              "in_prespecified_five_contrast_family": false
+            }
+          }
+        }
+      },
+      "common_arm_verification": "DEPTH_COMMON_THREE_ARMS_BOTH_FR_SPECIFICATIONS_MATCH"
+    }
+  ],
+  "D3_default_recovery_confirmation_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D3_DEFAULT_REPLAY_CONFIRMATION.json",
+  "D3_default_recovery_confirmation_sha256": "146834963f209db14fc92404eba8053feaec8b471967fda472bb3c10a30c955d",
+  "D3_old_normal_and_shrink": "Not started in this session; historical scores/evidence retained but full posterior archives not restored, per user instruction to stop archive-only reruns.",
+  "FR_independent_rank100": "NOT_AVAILABLE; not rerun for cross-check. New ASH common arms match frozen historical scalar independent evaluation bitwise including joint bootstrap.",
+  "resources": {
+    "max_R_streams": 4,
+    "threads_per_R": 1,
+    "maximum_observed_R_sum_rss_bytes": 1362964480,
+    "maximum_observed_ASH_native_plus_supervisor_rss_bytes": 1544294400,
+    "sampling_limit": "Observed snapshots, not a continuously measured process-tree peak.",
+    "shared_heavy_preparation_lock": "fr_benchmark/heavy_memory.lock"
+  },
+  "scope_clarification_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/EXPERIMENT_STATUS.json",
+  "paper_modified": false,
+  "D1_D2_Stim_expression_read": false,
+  "ASH_weighted_variants_added": false
+}

@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "implementation": "separate sort-based threshold/membership implementation; no production scoring imports",
+  "queries": 594,
+  "groups": 5,
+  "directions": 2,
+  "scores_per_arm": 5940,
+  "excluded_own_target_queries": 34,
+  "score_maxabs": {
+    "TRADE_scalar": 9.020562075079397e-17,
+    "PertRank": 2.498001805406602e-16
+  },
+  "panels": {
+    "responsive": {
+      "means": {
+        "TRADE_scalar": 0.36901949554723423,
+        "PertRank": 0.39372749325212164
+      },
+      "difference": 0.024707997704887418,
+      "conditional_95_interval": [
+        0.02248535821961409,
+        0.027249059663158978
+      ],
+      "bootstrap_nonpositive_count": 0,
+      "result_maxabs": 6.938893903907228e-18,
+      "block_count": 30,
+      "draws": 2000,
+      "seed": 2026
+    },
+    "terciles": {
+      "means": {
+        "TRADE_scalar": 0.12120570401540237,
+        "PertRank": 0.12948904826731222
+      },
+      "difference": 0.008283344251909838,
+      "conditional_95_interval": [
+        0.004638810945914808,
+        0.011109106714324158
+      ],
+      "bootstrap_nonpositive_count": 0,
+      "result_maxabs": 8.673617379884035e-19,
+      "block_count": 30,
+      "draws": 2000,
+      "seed": 2026
+    }
+  },
+  "fit_diagnostics": {
+    "fit_rows": 2805,
+    "unique_target_group_pairs": 2805,
+    "all_loglik_finite": true,
+    "all_gene_counts_13394": true
+  },
+  "source_hashes": {
+    "TRADE_SENSITIVITY_REPLAY_INPUTS.npz": "6ea3dac67279f355563aff98f5a0dad459c34eb4030b00dc42020a07d9f0c010",
+    "TRADE_SENSITIVITY_SCORES.npz": "0eb2cbdf94ab949084ebb33f70a43b182acbfba865163deb8f142da35248f170",
+    "TRADE_SENSITIVITY_RESULT.json": "2a61191e6dfc1bf139168c1510a02e8a7fec740e7b5463e33650d1d85f271fb2"
+  }
+}

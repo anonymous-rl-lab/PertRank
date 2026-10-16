@@ -1,0 +1,17 @@
+{
+  "n_targets_checked": 561,
+  "planning_half_average_vs_full_100_mean_max_error": 3.552713678800501e-15,
+  "source_mean_identity_pass": true,
+  "analysis_script_sha256": "1d0f66f708625c4c010df39fb56bf18a96cd2b060755b3aa93700fc77fdc6183",
+  "protocol_unchanged": true,
+  "clean_cwd_compact_replay_pass": true,
+  "replay_identical_files": {
+    "RESULTS.json": "9856e73aa5ce85cf8756e73c8da6230599bc315e3044b149d76d49b2f0dd0bd4",
+    "target_biology.csv": "a298bde59e270e896ab2317543cbc76b857d89c32b82a7ded0fcc604fa812e49",
+    "full_pool_contributions.csv": "464e3b4023cb384189320f054f4ca5a0c08226e230a9d1f37daad8ffc7a59aca",
+    "nomination_shares.csv": "5357168481d80fd109b0860a74fd5f3ed39abdabaece6ecbf3bef3cc6eb0a442",
+    "subset_comparisons.csv": "d18fdab62993ae3c3caf7172b6f01401e1be9e197275394a4b321a9c92fc9391",
+    "query_contributions.csv": "e88dc0fb013efb173375b9b02cd987cc2d107feaf9b25c620250dd9e1f6d0dd1",
+    "CTLA4_flags.csv": "f27b8b5ef9848d02b70998b9e41edb9011eca9b67fff51b112eb67632311da65"
+  }
+}

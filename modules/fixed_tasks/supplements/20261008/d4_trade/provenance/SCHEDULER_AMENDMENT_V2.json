@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "recorded_utc": "2026-10-08T14:52:35.831944+00:00",
+  "authorized_by": "root task owner after measured 40-fit smoke; root user-authorized compute orchestration",
+  "previous_runner_sha256": "dc2c03d20c49b0e42d730dd34e231eeda19848b454235d7113e51b28eeb70740",
+  "current_runner_sha256": "68ddb7fc4f12d69c5dad9b101f389feb8310c729f082c5b5831d130a815037a0",
+  "previous_max_R_workers": 2,
+  "current_max_R_workers": 4,
+  "formal_io_workers": 16,
+  "reason": "40 fits took 158.3 seconds; four single-thread R workers fit available 9 CPU and 10 GB RAM; computation scheduling only",
+  "scientific_change": false,
+  "unchanged": [
+    "TRADE adapter and upstream source hashes",
+    "input cohort and 5 x 20 group assignments",
+    "gene eligibility and normalization",
+    "means, sample variances and SE formula",
+    "fit parameters and analytic mixture moments",
+    "query scores and original D4 H1/H2",
+    "all existing checkpoint scientific identities and hashes"
+  ],
+  "compatibility_rule": "Only the runner_sha256 field may differ, and only between the explicit archived v1 hash and actual amended v2 hash; every other scientific-identity field must compare exactly. Existing checkpoint identities remain unmodified."
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PROTOCOL_ABANDONED_BY_AUTHOR",
+  "decision_at": "2026-10-14T22:30:17+08:00",
+  "completed_prediction_groups": 1,
+  "planned_groups": 10,
+  "reference_evaluations": 0,
+  "remaining_groups": "PERMANENTLY_CANCELLED",
+  "included_in_confirmatory_evidence": false,
+  "OSF_record_modified": false,
+  "preserve_original_outputs": true,
+  "supersedes_all_pause_resume_wording": true
+}

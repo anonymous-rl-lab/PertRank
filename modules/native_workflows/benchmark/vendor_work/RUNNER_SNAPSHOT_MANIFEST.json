@@ -1,0 +1,10 @@
+{
+  "current": {
+    "hash": "2f60ee745f4788915b509be4c1e1f8f2dc5c2903ff3835b9f033710599157775",
+    "report": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D4_Stim_independent/default_rep0_memorycheck/fit_report.json"
+  },
+  "original_center": {
+    "hash": "64ac53b70194b9db9b8f431c12980939a2518d1d25e4374fa1cd7f39ff09fa7d",
+    "report": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D4_Stim_independent/default_rep0/fit_report.json"
+  }
+}

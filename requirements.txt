@@ -1,0 +1,6 @@
+# Numeric offline replay and figure environment (Python 3.12).
+# Install dependencies before running; the replay itself never installs packages.
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8
+pandas==2.2.3

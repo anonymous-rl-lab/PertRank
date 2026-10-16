@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "package_version": "1.5.4",
+  "scientific_scope": "Success means the selected commands completed their declared reproduction levels. The retained v1.4 scientific implementation provides its sufficient-statistic/prediction replay; new compact modules reconstruct comparisons, uncertainty summaries and figures from archived intermediate quantities. Raw-data preprocessing and native estimator refitting are not part of the default command. Archival-only and missing-input states remain explicit.",
+  "exit_codes": {
+    "0": "All selected commands completed with no explicitly partial native status. Consult declared scope and native reports for reproduction level.",
+    "1": "Setup, integrity, execution, invalid/missing receipt or numerical verification failure.",
+    "2": "Partial coverage, missing inputs, stored-result-only task, timeout or interruption."
+  },
+  "modules": [
+    {
+      "name": "fixed_tasks",
+      "default": true,
+      "script": "modules/fixed_tasks/reproduce.py",
+      "working_directory": "modules/fixed_tasks",
+      "arguments": [
+        "--output-dir",
+        "{output}"
+      ],
+      "timeout_seconds": 600,
+      "report": "VERIFICATION.json",
+      "reproduction_level": "Sufficient-statistic and retained-prediction numerical replay",
+      "scope": "Existing v1.4 four-donor ranking/depth, D4 supplement and Stim, independent RNA, interactions and external-baseline replay. Native model fits and raw-cell preprocessing are not rerun."
+    },
+    {
+      "name": "early_intermediates",
+      "default": true,
+      "script": "modules/early_intermediates/reproduce.py",
+      "working_directory": "modules/early_intermediates",
+      "arguments": [
+        "--output-dir",
+        "{output}"
+      ],
+      "timeout_seconds": 180,
+      "report": "report.json",
+      "reproduction_level": "Saved-query score/block to original statistical summary replay",
+      "scope": "Recomputes the supplied four-source, factorial and early-study statistics from retained intermediate scores and bootstrap definitions. Original raw inputs, effects, reliability weights and candidate rankings are not reconstructed; archival-only items retain their identity."
+    },
+    {
+      "name": "corrected_intermediates",
+      "default": true,
+      "script": "modules/corrected_intermediates/reproduce.py",
+      "working_directory": "modules/corrected_intermediates",
+      "arguments": [
+        "--output-dir",
+        "{output}"
+      ],
+      "timeout_seconds": 180,
+      "report": "REPRODUCTION_REPORT.json",
+      "reproduction_level": "Saved intermediate quantities to corrected-evidence statistical comparisons",
+      "scope": "Corrected guide and RNA evidence summary replay from retained intermediate arrays; the native report specifies recomputed contrasts and omitted upstream stages."
+    },
+    {
+      "name": "r20_intermediates",
+      "default": true,
+      "script": "modules/r20_intermediates/reproduce.py",
+      "working_directory": "modules/r20_intermediates",
+      "arguments": [
+        "--output-dir",
+        "{output}"
+      ],
+      "timeout_seconds": 120,
+      "report": "REPRODUCTION_CHECK.json",
+      "reproduction_level": "Saved per-query scores to original within-screen and independent-RNA statistics",
+      "scope": "Five within-screen and two external-reference input groups per donor; original block definitions and bootstrap statistics. Does not reconstruct moments, predictions or raw CSR aggregation."
+    },
+    {
+      "name": "paper_analysis",
+      "default": true,
+      "script": "modules/paper_analysis/reproduce.py",
+      "working_directory": "modules/paper_analysis",
+      "arguments": [
+        "--out",
+        "{output}"
+      ],
+      "timeout_seconds": 600,
+      "report": "REPLAY_REPORT.json",
+      "reproduction_level": "Existing analysis replay and frozen-source figure regeneration",
+      "scope": "S3 post hoc analysis, biology strata, fixed-panel transfer, TRADE sensitivity, application and figures. Figure regeneration is identified separately from recomputing source experiments."
+    },
+    {
+      "name": "il2_intermediates",
+      "default": true,
+      "script": "modules/il2_intermediates/reproduce.py",
+      "working_directory": "modules/il2_intermediates",
+      "arguments": [
+        "--output-dir",
+        "{output}"
+      ],
+      "timeout_seconds": 120,
+      "report": "REPRODUCTION_REPORT.json",
+      "reproduction_level": "Fixed guide/MAGeCK readout scores to original primary and secondary comparisons",
+      "scope": "All 561 candidates and ten fixed top-25 lists; reconstruct target medians, original 20,000 paired guide/control draws, intervals and MAGeCK support comparisons. Eligibility remains fixed and no raw counts or model fitting are used."
+    },
+    {
+      "name": "sensitivity_replay",
+      "default": true,
+      "script": "modules/sensitivity_replay/reproduce.py",
+      "working_directory": "modules/sensitivity_replay",
+      "arguments": [
+        "--output-dir",
+        "{output}"
+      ],
+      "timeout_seconds": 120,
+      "report": "REPLAY_REPORT.json",
+      "reproduction_level": "Saved-draw summary and fixed-coefficient numerical reconstruction",
+      "scope": "Four archived sensitivity draw groups and Mixscale fixed-coefficient scores/intervals; preserves the existing definitions and does not refit coefficients."
+    },
+    {
+      "name": "software",
+      "default": false,
+      "script": "modules/paper_analysis/reproduce.py",
+      "working_directory": "modules/paper_analysis",
+      "arguments": [
+        "--only",
+        "software",
+        "--out",
+        "{output}",
+        "--software-python",
+        "{software_python}"
+      ],
+      "timeout_seconds": 600,
+      "report": "REPLAY_REPORT.json",
+      "reproduction_level": "Optional software tests and tutorial smoke tests",
+      "scope": "Requires a separate environment with modules/paper_analysis/software[test] installed. This verifies the software interface; it does not add biological validation."
+    }
+  ]
+}

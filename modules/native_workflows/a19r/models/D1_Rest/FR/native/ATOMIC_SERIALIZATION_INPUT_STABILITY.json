@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "before": {
+    "counts.npz": "09e0f25ae6e7fbb73fed794cbbf2a238ba860291711f33b2c9e4878b261e8976",
+    "axes.npz": "7dcc8905b03347be38d30f47390a197323874eed51e1dddacb768a851b29a547"
+  },
+  "after": {
+    "counts.npz": "09e0f25ae6e7fbb73fed794cbbf2a238ba860291711f33b2c9e4878b261e8976",
+    "axes.npz": "7dcc8905b03347be38d30f47390a197323874eed51e1dddacb768a851b29a547"
+  },
+  "serialization_events": [
+    {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D1_Rest/FR_attempt2/native/native_unscaled.npz",
+      "sha256": "a1221b58848f4b6dd95aeb73c5c45c7041c771911876a04e0fecdd46a0be8c21",
+      "size_bytes": 39956139,
+      "crc_pass": true,
+      "atomic_rename": true
+    },
+    {
+      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D1_Rest/FR_attempt2/native/effects.npz",
+      "sha256": "4eb5adb6879ea2a4b63e937f465b57c613cfdedbb4bc3491dd6cf4e6db9bb9f4",
+      "size_bytes": 12796345,
+      "crc_pass": true,
+      "atomic_rename": true
+    }
+  ],
+  "wrapper_sha256": "5efe3b81dd1f3784f8702c09891b50a467e78b1ff7ff22ce10b2e421940c66f6",
+  "helper_sha256": "ec1011ccd4b5d1dec3c11e7a869b954fbe0c3e1fc74d55dd22515a517173f8b3"
+}

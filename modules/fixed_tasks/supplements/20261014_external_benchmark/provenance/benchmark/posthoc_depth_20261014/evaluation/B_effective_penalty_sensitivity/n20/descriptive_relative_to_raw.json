@@ -1,0 +1,135 @@
+{
+  "status": "COMPLETE",
+  "analysis_label": "Post hoc descriptive paired contrasts",
+  "report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n20/evaluation_report.json",
+  "report_sha256": "94366f13b19ec013ac61539cfd9fb1bca3ef5e8ec5f8bcf73e79d2ec8f39f40d",
+  "arrays_sha256": "b67abe8679c7b0c6c897814263705e46b6d89c4062a88350f9268b24ec526dcc",
+  "owner_sha256": "63067b465ca9f8f9e51cfde1589bff8beb44014d6ba0480eabe976d60d08ecff",
+  "inference_scope": "One nested depth chain; conditional query-block intervals. Not donor-population inference and not an additional corrected testing family.",
+  "results": {
+    "25": {
+      "euclidean_minus_raw": {
+        "point": -0.0070272161856639315,
+        "query_only_95_interval": [
+          -0.026977443199521133,
+          0.013601892191089326
+        ],
+        "query_only_99_interval": [
+          -0.03069181059432412,
+          0.020467080335980246
+        ],
+        "descriptive": true
+      },
+      "pertrank_minus_raw": {
+        "point": 0.016926487518039823,
+        "query_only_95_interval": [
+          0.004798006589828793,
+          0.029266073749070875
+        ],
+        "query_only_99_interval": [
+          0.0026081992354291188,
+          0.03435199385977724
+        ],
+        "descriptive": true
+      },
+      "fr_minus_raw": {
+        "point": -0.010246155579603289,
+        "query_only_95_interval": [
+          -0.034190664239115716,
+          0.005883783490735656
+        ],
+        "query_only_99_interval": [
+          -0.04576914674746609,
+          0.010212116806053943
+        ],
+        "descriptive": true
+      },
+      "fr_euclidean_minus_raw": {
+        "point": -0.03308049901394672,
+        "query_only_95_interval": [
+          -0.06867189259361943,
+          -0.002364770065760945
+        ],
+        "query_only_99_interval": [
+          -0.07876403135592012,
+          0.007352008644643824
+        ],
+        "descriptive": true
+      },
+      "fr_pertrank_minus_raw": {
+        "point": -0.006190684199131935,
+        "query_only_95_interval": [
+          -0.03576031646057753,
+          0.016838085217582354
+        ],
+        "query_only_99_interval": [
+          -0.04463192982179036,
+          0.02451950387699711
+        ],
+        "descriptive": true
+      }
+    },
+    "10": {
+      "euclidean_minus_raw": {
+        "point": 0.0008147254333200071,
+        "query_only_95_interval": [
+          -0.022181939148754503,
+          0.018613243729527648
+        ],
+        "query_only_99_interval": [
+          -0.027855425305467415,
+          0.02287606921823593
+        ],
+        "descriptive": true
+      },
+      "pertrank_minus_raw": {
+        "point": 0.027686989743084367,
+        "query_only_95_interval": [
+          0.017319705070834142,
+          0.03670548872424345
+        ],
+        "query_only_99_interval": [
+          0.013978611686482885,
+          0.03936274306275167
+        ],
+        "descriptive": true
+      },
+      "fr_minus_raw": {
+        "point": -0.0026579176643230507,
+        "query_only_95_interval": [
+          -0.03012397424565654,
+          0.01567139788257152
+        ],
+        "query_only_99_interval": [
+          -0.04240544351565328,
+          0.020992374144326024
+        ],
+        "descriptive": true
+      },
+      "fr_euclidean_minus_raw": {
+        "point": -0.027196848640754,
+        "query_only_95_interval": [
+          -0.059614900884981614,
+          -0.002937558965306811
+        ],
+        "query_only_99_interval": [
+          -0.07175077969723274,
+          0.002890348196366246
+        ],
+        "descriptive": true
+      },
+      "fr_pertrank_minus_raw": {
+        "point": -0.0033866634555688724,
+        "query_only_95_interval": [
+          -0.029440084417057664,
+          0.01406273959551384
+        ],
+        "query_only_99_interval": [
+          -0.03958020873029181,
+          0.018969684646810002
+        ],
+        "descriptive": true
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "independent_FWL_max_coefficient_error": 5.421010862427522e-19,
+  "target_contributions_vs_gain_loss_max_error": 2.220446049250313e-16,
+  "target_sum_vs_primary_max_error": 3.122502256758253e-17,
+  "leave_one_block_out_max_error": 0.0,
+  "transition_sum_vs_primary_error": 5.551115123125783e-17,
+  "scope": "Independent residualization and accounting; no new inference or changed registered endpoint."
+}

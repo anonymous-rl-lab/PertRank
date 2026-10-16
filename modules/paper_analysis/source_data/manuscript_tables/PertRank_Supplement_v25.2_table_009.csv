@@ -1,0 +1,6 @@
+screen,rule,derived from
+"stages 5 to 7, K562 reference-informed panel","the 300 rows of highest variance across the fixed 422-perturbation essential-gene reference, after zeroing each column's own target row",the separate 422-target reference; not the genome-wide scoring reference
+E3 Orion,"100 genes per expression tercile of the planning controls, in hash order",the screen's own controls
+"E4, E5 tercile arms",the same tercile construction on the screen's own controls,the screen's own controls
+"E4, E5 responsive arms","the 300 genes of highest cross-target variance in the 100-cell input pool (positions 0 to 99), own-target entries zeroed; the pool contains the 20- and 50-cell inputs","the screen's own input cells, overlapping the prediction cells"
+"E3 Orion, development responsive-type rule","the 300 genes of highest cross-target variance in a held-out input sub-block, cell-disjoint from the estimator and the truth","the screen's own input cells, disjoint from the prediction cells"

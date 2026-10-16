@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-10-11T16:05:38.821278+00:00",
+  "status": "FROZEN_BEFORE_COMPLETE_COHORT_FITS_AND_ANY_SENSITIVITY_SCORING",
+  "algorithm": "ashr2.2-63 mixSQP with control eps=1e-4; all other parameters identical to registered adapter",
+  "original_eps": 1e-06,
+  "new_eps": 0.0001,
+  "meaning": "epsilon is added to row mixture likelihoods in numerical objective/derivatives after per-row maximum likelihood normalization. Positive numerical likelihood floor regularizes unstable optimization; it is not a mixture prior or target/gene omission. Thus the numerical optimization objective is slightly perturbed, while family/grid/prior are unchanged. Reported ash loglik uses unregularized mixture likelihood.",
+  "classification": "posthoc uniformly regularized numerical sensitivity, not exact unchanged-estimator confirmation",
+  "cohort": "561 targets x5 groups x13394genes",
+  "fallback": "Any failed/nonconvergent fit yields incompletecohort; no omitted targets or fallbackweights",
+  "selection_criterion": "numerical convergence on failed example and output comparison on original successfulfits; no ranking inspected",
+  "smoke": {
+    "weight": {
+      "maxabs": 0.0019784442896997045,
+      "min_signed": -0.0019784442896997045,
+      "max_signed": -0.0002810678593059973
+    },
+    "S": {
+      "maxabs": 1.5916117393493026e-05,
+      "min_signed": -1.5916117393493026e-05,
+      "max_signed": -2.6471739627449697e-06
+    },
+    "TI": {
+      "maxabs": 1.5834371673841008e-05,
+      "min_signed": -1.5834371673841008e-05,
+      "max_signed": -2.38016037546905e-06
+    },
+    "loglik": {
+      "maxabs": 0.11829150099947583,
+      "min_signed": -0.07976588150268071,
+      "max_signed": 0.11829150099947583
+    },
+    "failure_target_5fits_passed": true,
+    "original_success_fit_count": 10,
+    "fit_time_smoke_total_seconds": 54.34860420227051
+  },
+  "parallel_workers": 6,
+  "seed": 2026,
+  "protocol_sha256": "b6016403c35518b1642c75324a3cb88dc7d1bef1b085409e3bb81e17bb06b49f"
+}

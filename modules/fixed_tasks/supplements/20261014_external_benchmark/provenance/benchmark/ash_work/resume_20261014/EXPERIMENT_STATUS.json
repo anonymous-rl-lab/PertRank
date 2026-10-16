@@ -1,0 +1,11 @@
+{
+  "status": "EXPERIMENT_SCOPE_CLARIFICATION",
+  "created_utc": "2026-10-14T01:33:46.656989+00:00",
+  "D3_default": "Recovery replay of previously completed official ASH default result; recovered aggregate posterior exactly matches historical SHA.",
+  "D3_normal_fdr_and_normal_shrink": "Previously completed historical configurations; full posterior archives not restored. Current replays cancelled before launch under user instruction.",
+  "D4_Rest_and_Stim_pooled_ASH": "Completion of previously unfinished new ASH comparisons, each state five fixed input repetitions; not repetition of an already completed ASH endpoint.",
+  "D4_Stim_independent_ASH": "Previously unexecuted new 395-target ASH comparison. Newly derived full-gene statistics are explicitly VALIDATED_NEW_FULL_STATS.",
+  "posthoc_depth_ASH": "New separate frozen 250-target depth20/50/100 diagnostic with fixed default ASH; not main-table replications or donor replicates.",
+  "meaning_of_report_recovery_replay_field": "The locked adapter generic recovery_replay=true records execution within the restored environment/input workflow. It does not assert that the D4 or depth ASH comparison had previously been completed.",
+  "fixed_scientific_sources_and_scores_unchanged": true
+}

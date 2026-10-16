@@ -1,0 +1,209 @@
+{
+ "created_utc": "2026-09-26T14:24:10Z",
+ "integrity": {
+  "amendment_A6_sha256": "fe53edc36e0235410c2671ffacdf6cea31104453eed78e8ca4a38334c4f18ae5",
+  "amendment_A6a_sha256": "6ea0dd370eb071ed9258b0f908bf0632bed504350d7a4191071ee87637d14ae2",
+  "freeze": {
+   "a6_common.py": "0bbc2da7ff80e3e0fa72297703d76ec4c48c99bac3f4b592e4f7f465468676f1",
+   "evaluate_b3_baselines.py": "e9d6feb1848e72b9ced842d262660a8ee67a6eb818a4b587ee5a33c8e6c19940",
+   "read_b3_query_cells.py": "2f2ea5906b026fbb27ec15a191afa2f80a8d88eff81e06d759defff515b6bafc"
+  },
+  "amendment_A7_sha256": "afa0f7f22fa312fce4006fe6aa9969110acf1be2f20a9e00736835fe67e841df",
+  "freeze_A7": {
+   "evaluate_b6_entry_shrinkage.py": "108d5187c84d58532b177b76843d6a868f2a67e243b00ac53464b1342b9c026f"
+  }
+ },
+ "setting": {
+  "cells": 20,
+  "prior": "zero-centred normal, method-of-moments variance per query gene",
+  "k": 5,
+  "beta": 0.9
+ },
+ "donors": {
+  "D3": {
+   "state_sha256": "f90f723b1b2da0205fb05c9fbb890bc3f8539256641fc5708a758051200fa8e7",
+   "reproduction responsive 20": 0.0,
+   "reproduction terciles 20": 0.0,
+   "naive_check_genes": [
+    "ENSG00000134107",
+    "ENSG00000116667",
+    "ENSG00000166349",
+    "ENSG00000168476",
+    "ENSG00000080824",
+    "ENSG00000121858",
+    "ENSG00000186714",
+    "ENSG00000100410",
+    "ENSG00000126005",
+    "ENSG00000186810"
+   ],
+   "naive_check_max_scaled_diff": 6.938893903907228e-18,
+   "tau2_zero_fraction": 0.13322091062394603
+  },
+  "D1": {
+   "state_sha256": "a983e4f756fd053a603cbea79c0a9f0198c1e469b82edc9ca85bf6e932fbea9c",
+   "reproduction responsive 20 (as executed)": 0.0,
+   "reproduction terciles 20 (as executed)": 0.0,
+   "naive_check_genes": [
+    "ENSG00000134107",
+    "ENSG00000145912",
+    "ENSG00000166349",
+    "ENSG00000168476",
+    "ENSG00000121858",
+    "ENSG00000117091",
+    "ENSG00000186714",
+    "ENSG00000100410",
+    "ENSG00000126005",
+    "ENSG00000134243"
+   ],
+   "naive_check_max_scaled_diff": 8.673617379884035e-19,
+   "tau2_zero_fraction": 0.15798319327731092
+  }
+ },
+ "cells": {
+  "D3 responsive 20": {
+   "queries": 300,
+   "means": {
+    "raw": 0.2773123584257502,
+    "w0y": 0.2757554779794853,
+    "W1": 0.3113689768996245,
+    "EB-entry": 0.25937902509241684
+   },
+   "tau2_zero_rows": 0,
+   "comparisons": {
+    "W1 - EB-entry": {
+     "diff": 0.05198995180720768,
+     "ci95": [
+      0.038320911733959774,
+      0.06568748435818803
+     ],
+     "p_one_sided": 0.0
+    },
+    "EB-entry - raw": {
+     "diff": -0.017933333333333332,
+     "ci95": [
+      -0.025187987657823804,
+      -0.011380867388502955
+     ],
+     "p_one_sided": 1.0
+    },
+    "EB-entry - w0y": {
+     "diff": -0.016376452887068526,
+     "ci95": [
+      -0.0249854270322372,
+      -0.003634593944337098
+     ],
+     "p_one_sided": 0.993
+    }
+   }
+  },
+  "D3 terciles 20": {
+   "queries": 300,
+   "means": {
+    "raw": 0.057351529498343275,
+    "w0y": 0.07467341241826413,
+    "W1": 0.08021280100722826,
+    "EB-entry": 0.052910532161403075
+   },
+   "tau2_zero_rows": 79,
+   "comparisons": {
+    "W1 - EB-entry": {
+     "diff": 0.027302268845825175,
+     "ci95": [
+      0.019906456765566592,
+      0.033530976610192206
+     ],
+     "p_one_sided": 0.0
+    },
+    "EB-entry - raw": {
+     "diff": -0.004440997336940197,
+     "ci95": [
+      -0.007630016168669893,
+      -0.0018331671390920204
+     ],
+     "p_one_sided": 0.9995
+    },
+    "EB-entry - w0y": {
+     "diff": -0.021762880256861048,
+     "ci95": [
+      -0.02876269640800674,
+      -0.014832101599966821
+     ],
+     "p_one_sided": 1.0
+    }
+   }
+  },
+  "D1 responsive 20": {
+   "queries": 300,
+   "means": {
+    "raw": 0.2554306741623092,
+    "w0y": 0.28773906310491676,
+    "W1": 0.31394699961285333,
+    "EB-entry": 0.23416400749564256
+   },
+   "tau2_zero_rows": 0,
+   "comparisons": {
+    "W1 - EB-entry": {
+     "diff": 0.0797829921172107,
+     "ci95": [
+      0.06999901589078883,
+      0.08822815509884506
+     ],
+     "p_one_sided": 0.0
+    },
+    "EB-entry - raw": {
+     "diff": -0.02126666666666667,
+     "ci95": [
+      -0.028627518458265548,
+      -0.014538152709359617
+     ],
+     "p_one_sided": 1.0
+    },
+    "EB-entry - w0y": {
+     "diff": -0.053575055609274204,
+     "ci95": [
+      -0.0625500456873503,
+      -0.042332045749163404
+     ],
+     "p_one_sided": 1.0
+    }
+   }
+  },
+  "D1 terciles 20": {
+   "queries": 300,
+   "means": {
+    "raw": 0.05213291409355421,
+    "w0y": 0.07279615804162207,
+    "W1": 0.07552567327461933,
+    "EB-entry": 0.047583676412526026
+   },
+   "tau2_zero_rows": 94,
+   "comparisons": {
+    "W1 - EB-entry": {
+     "diff": 0.02794199686209329,
+     "ci95": [
+      0.021382776702164805,
+      0.034510386234787575
+     ],
+     "p_one_sided": 0.0
+    },
+    "EB-entry - raw": {
+     "diff": -0.004549237681028171,
+     "ci95": [
+      -0.0077211751108968414,
+      -0.001534438482099125
+     ],
+     "p_one_sided": 0.998
+    },
+    "EB-entry - w0y": {
+     "diff": -0.02521248162909602,
+     "ci95": [
+      -0.0306881582817175,
+      -0.019139522908422926
+     ],
+     "p_one_sided": 1.0
+    }
+   }
+  }
+ },
+ "reading": "2: on these data W1 is above the classical per-entry EB control on both donors"
+}

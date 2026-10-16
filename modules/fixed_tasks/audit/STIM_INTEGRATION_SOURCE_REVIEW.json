@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope": "Read-only integration source and documentation review; final clean extracted full-package replay remains the root workflow gate.",
+  "reviewed_file_sha256": {
+    "README.md": "c9404756f2b1ef0326cde2025c0915e2516c86395fd14933c24b0b0304a9ccc1",
+    "reproduce.py": "193f4bbd493dc1b7d9bf7ea046697bb80f72df537a0ffa7aafd911cb6ff97e38",
+    "requirements.txt": "1668a3152e33680d94637b13421c15e68bd97cd8701f7f555c691f5bc5c0b9f3",
+    "VERSION": "1e5b51cde515396a9fa762909cf8ca6584ccc564b325d2eebeea76175fe95c4d",
+    "src/replay_stim.py": "5f7527cca6cadcd55e8c4031ed76f4f9e53880e49ebb7f2e22c00004c77a06ea"
+  },
+  "checks": {
+    "stim_separate_interpreter_prevents_frozen_import_collision": true,
+    "stim_pass_status_required": true,
+    "full_total_package_retains_prior_supplement_replay": true,
+    "existing_scientific_reproduction_steps_not_removed": true,
+    "numpy_scipy_versions_pinned": true,
+    "no_original_workstation_path_in_replay_entrypoints": true,
+    "no_large_prediction_archive_dependency_in_replay_entrypoints": true,
+    "scope_discloses_omitted_raw_UMI_and_control_refitting": true,
+    "TRADE_not_evaluable_preserved": true,
+    "original_E4_procedural_status_disclosed": true,
+    "ten_megabyte_limit_stated_for_Stim_module": true
+  },
+  "blockers": []
+}

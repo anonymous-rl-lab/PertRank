@@ -1,0 +1,63 @@
+{
+  "status": "FROZEN_REAL_D3_RESOURCE_GATE_NOT_EXECUTED",
+  "created_utc": "2026-10-14T01:08:04.723164+00:00",
+  "harness_sha256": "2e2e02beab5344dc11727558256812ffe5dd74f9462d915c974a3d289a79fb8d",
+  "native_source_sha256": "29ab3ef8f27e883d46e0a8e54b4783c6ea7fe677d73e04b873d74de90bcd100d",
+  "mode": "full-shape-real",
+  "input_scope": {
+    "dataset": "D3_Rest",
+    "input_rep": 0,
+    "cells": 26000,
+    "targets": 1200,
+    "target_cells": 20,
+    "controls": 2000,
+    "raw_gene_axis": 18130,
+    "input_positive_genes": 15616,
+    "responsive_queries_retained": 300,
+    "technical_covariates": 26,
+    "no_query_only_or_target_subsampling": true
+  },
+  "preprocessing": "FP32 log1p(rawcount *8261.5 / raw total); input-positive full genes; real log-total, detected-features/total, mitochondrial UMI fraction from MT- symbols,23 source-lane indicators; no reference data",
+  "pilot_steps": {
+    "architecture_widths_order": [
+      700,
+      1000
+    ],
+    "hidden_layers_each": 4,
+    "learning_rate": 0.001,
+    "batch_size": 100,
+    "training_batches": 20,
+    "validation_cells": 3250,
+    "validation_calls": 1,
+    "validation_objective": "Full native normal_loss on entire3250-cell split; no batching or KL substitution",
+    "native_prior_parameters": [
+      1.0,
+      0.1,
+      1.0,
+      0.1,
+      1.0,
+      0.1
+    ],
+    "tau": 1.0,
+    "random_seed": 20261014
+  },
+  "readout_policy": "Resource pilot does not compute rankings or save biological effect scores. Native continuous and thresholded readout/ID adapters are separately checked in implementation smoke. Any future scored fit requires its own convergence and locked full-input-refit gates.",
+  "budgets": {
+    "wall_seconds_per_width": 3600,
+    "worker_RSS_guard_bytes": 6979321856,
+    "threads": 8,
+    "acquire_heavy_memory_lock": true,
+    "run_with_ASH_paused": true,
+    "begin_only_after_FR_n100_heavy_window_ends": true
+  },
+  "measurement": {
+    "memory": "Worker-internal resource.getrusage(RUSAGE_SELF), not proxy PID; 100ms guard telemetry; parent records its independent proxy measurement but never substitutes it",
+    "time": "Wall clock for20 native training batches plus one full-size native validation call; record each batch time and validation time separately",
+    "forecasts": "Expected complete epochs =ceil(22750/100)=228 batches plus one validation call; extrapolate250 and500 epochs as forecasts, not measured convergence",
+    "full_benchmark_qualification": "Pilot cannot certify convergence. It can show resource inability or establish eligibility for later adequately budgeted fitting."
+  },
+  "continue_rule": "Width700 must finish full native validation below6.5GiB and predict250 epochs <=12h. Width1000 follows only if dedicated capacity remains; an unavailable width cannot be called beaten. Retain every failure.",
+  "metadata_precondition": "Await D3-only metadata owner release for actual NTC lane and fullaxis MT annotation, then prepare_gperturb_real_input.py writes a hash-bound REAL_D3_INPUT_MANIFEST; no placeholder covariates allowed.",
+  "command_template": "OPENBLAS_NUM_THREADS=8 OMP_NUM_THREADS=8 fr_benchmark/resume_20261014/gperturb_cpu_env/bin/python fr_benchmark/resume_20261014/gperturb_native_pilot.py --mode full-shape-real --allow-real-pilot --real-input-manifest REAL_D3_INPUT_MANIFEST.json --width 700 --threads 8 --output UNIQUE_REAL_PILOT_RESULT.json",
+  "failure_interpretation": "Resource guard, OOM, native numerical exception or inadequate convergence is not a method-performance loss."
+}

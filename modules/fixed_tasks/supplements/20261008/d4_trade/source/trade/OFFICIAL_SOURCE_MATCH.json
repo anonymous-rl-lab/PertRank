@@ -1,0 +1,11 @@
+{
+  "url": "https://raw.githubusercontent.com/ajaynadig/TRADEtools/3432d108c43325e9df65276563d65144a26b69ce/R/TRADE_univariate.R",
+  "commit": "3432d108c43325e9df65276563d65144a26b69ce",
+  "sha256": "b2fc72c0e5d7c2cde9631e73e33a95cdfed23a31b3a93c5d7141332452426320",
+  "original_name": "R/TRADE_univariate.R",
+  "archive_name": "R_TRADE_univariate.R",
+  "upstream_author": "Ajay Nadig",
+  "upstream_version": "0.99.0",
+  "license_field": "What license is it under?",
+  "standalone_license_files": []
+}

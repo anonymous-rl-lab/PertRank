@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-08T15:37:34.863426+00:00",
+  "cause": "runtime session interruption; underlying cause not established",
+  "no_active_matching_processes_and_lock_free": true,
+  "verified_cells": 22528,
+  "remaining_cells": 1312,
+  "scientific_change": false,
+  "resume_policy": "reuse every complete verified batch; only unfinished batches may be reread"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "config": {
+    "mode": "ash",
+    "seed": 20261012,
+    "ash_options": {},
+    "trade_source": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/R_TRADE_univariate.R",
+    "retry_mixem": true
+  },
+  "full_declared_gene_axis": true,
+  "n_rows": 52,
+  "n_genes": 13390,
+  "failed_rows": 0,
+  "warnings": 0,
+  "seconds": 60.279000000000003,
+  "R": "R version 4.4.3 (2025-02-28)",
+  "ashr": "2.2-63",
+  "effect_scale": "normalized log1p expression mean difference",
+  "session": ["R version 4.4.3 (2025-02-28)", "Platform: x86_64-pc-linux-gnu", "Running under: Ubuntu 24.04.3 LTS", "", "Matrix products: default", "BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 ", "LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0", "", "locale:", " [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8       ", " [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8   ", " [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C          ", "[10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C   ", "", "time zone: America/Los_Angeles", "tzcode source: system (glibc)", "", "attached base packages:", "[1] stats     graphics  grDevices utils     datasets  methods   base     ", "", "other attached packages:", "[1] jsonlite_2.0.0 ashr_2.2-63   ", "", "loaded via a namespace (and not attached):", " [1] compiler_4.4.3  Matrix_1.7-6    tools_4.4.3     mixsqp_0.3-54  ", " [5] Rcpp_1.1.2      SQUAREM_2026.1  grid_4.4.3      truncnorm_1.0-9", " [9] irlba_2.4.1     invgamma_1.2    lattice_0.23-1 "],
+  "read_benchmark_reference": false,
+  "score_computed": false
+}

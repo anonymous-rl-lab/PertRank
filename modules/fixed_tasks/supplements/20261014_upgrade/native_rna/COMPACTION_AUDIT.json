@@ -1,0 +1,91 @@
+{
+  "status": "EXACT_FIXED_TASK_DATA_COMPACTION",
+  "source_bundle": "PertRank_A19R_Native_Baselines_20261014.zip",
+  "model_projections": {
+    "D3_Rest/FR": {
+      "status": "LOSSLESS_QUERY_PROJECTION_OF_ARCHIVED_MODEL",
+      "donor": "D3_Rest",
+      "method": "FR",
+      "original_full_model_sha256": "d95a9ee9d910f042f6e614f10f7fa0a33a73fcfcdd1b09662afeadb18dd6ecd5",
+      "projected_sha256": "eb133f67647640e3e014429357913f7dac05df70adc6800394a1c42d9fd23285",
+      "candidates_retained": 52,
+      "queries_retained": 293,
+      "all_original_candidates_retained": true,
+      "float_dtype": "float64",
+      "quantization": false
+    },
+    "D3_Rest/ASH": {
+      "status": "LOSSLESS_QUERY_PROJECTION_OF_ARCHIVED_MODEL",
+      "donor": "D3_Rest",
+      "method": "ASH",
+      "original_full_model_sha256": "a5e3afafce510946b9446ad60cf6cdd768830765ef9676e00d9f54255366da52",
+      "projected_sha256": "b6796b39a5701b2dcec9c8e82f11374e5ec200099afab610964ebf1cf64dd40b",
+      "candidates_retained": 52,
+      "queries_retained": 293,
+      "all_original_candidates_retained": true,
+      "float_dtype": "float64",
+      "quantization": false
+    },
+    "D1_Rest/FR": {
+      "status": "LOSSLESS_QUERY_PROJECTION_OF_ARCHIVED_MODEL",
+      "donor": "D1_Rest",
+      "method": "FR",
+      "original_full_model_sha256": "4eb5adb6879ea2a4b63e937f465b57c613cfdedbb4bc3491dd6cf4e6db9bb9f4",
+      "projected_sha256": "c0d0946c3fad76cd1509dc47c7e3f7bfcb67ec3e3fda59bf8ff2d9aee29d51e6",
+      "candidates_retained": 59,
+      "queries_retained": 289,
+      "all_original_candidates_retained": true,
+      "float_dtype": "float64",
+      "quantization": false
+    },
+    "D1_Rest/ASH": {
+      "status": "LOSSLESS_QUERY_PROJECTION_OF_ARCHIVED_MODEL",
+      "donor": "D1_Rest",
+      "method": "ASH",
+      "original_full_model_sha256": "c57955f65488ee90d4df9d5557a04ea4e51252549363ea97fbd2c25aaf1a5977",
+      "projected_sha256": "f84a2bdd557d3852a57ec80a32628c8b530ed3135a5cccc3f91ac26a0e42a19c",
+      "candidates_retained": 59,
+      "queries_retained": 289,
+      "all_original_candidates_retained": true,
+      "float_dtype": "float64",
+      "quantization": false
+    },
+    "D2_Rest/FR": {
+      "status": "LOSSLESS_QUERY_PROJECTION_OF_ARCHIVED_MODEL",
+      "donor": "D2_Rest",
+      "method": "FR",
+      "original_full_model_sha256": "d320069a1e1ae3064b5d7ea501ceeaefbf5e33ee2d5310926eb12e930f2d9087",
+      "projected_sha256": "254d8cad2c68c57614b98a53faaaa112f2eba20f7ccfd4cd342b936af071f8cb",
+      "candidates_retained": 63,
+      "queries_retained": 289,
+      "all_original_candidates_retained": true,
+      "float_dtype": "float64",
+      "quantization": false
+    },
+    "D2_Rest/ASH": {
+      "status": "LOSSLESS_QUERY_PROJECTION_OF_ARCHIVED_MODEL",
+      "donor": "D2_Rest",
+      "method": "ASH",
+      "original_full_model_sha256": "49dc6426a034322701d3ae35c5aebd0c150fc97b685dd88b6c2f9656859f700a",
+      "projected_sha256": "cffdab57e59a3460689ce9baf0e01ce35fc604af02602e2d3f571eb9bd6f2cef",
+      "candidates_retained": 63,
+      "queries_retained": 289,
+      "all_original_candidates_retained": true,
+      "float_dtype": "float64",
+      "quantization": false
+    }
+  },
+  "reference_membership_entries_compared": 100988000,
+  "reference_membership_mismatches": 0,
+  "full_candidate_pools_preserved": true,
+  "float_prediction_quantization": false,
+  "reference_encoding": "Lossless top-10 marginal membership with exact fractional ties, bit masks and reversible XOR; raw RNA magnitudes of each draw not reconstructed.",
+  "scientific_scores_recomputed_during_packaging": false,
+  "model_refits": 0,
+  "scope": "Fixed K10, fixed candidates/queries/methods. Preserves all reported scoring and reference sensitivity endpoints; not a general-purpose raw expression archive.",
+  "legacy_effect_exact_reconstruction": {
+    "D3_Rest": "Exact original float64 effects recovered from raw multiplication",
+    "D1_Rest": "Exact original float64 effects recovered from raw multiplication",
+    "D2_Rest": "Exact original float64 effects recovered from raw multiplication"
+  }
+}

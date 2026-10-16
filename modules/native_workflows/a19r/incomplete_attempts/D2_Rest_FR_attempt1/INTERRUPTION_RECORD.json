@@ -1,0 +1,18 @@
+{
+  "status": "INFRASTRUCTURE_QUEUE_INTERRUPTION_OWNER_UNAVAILABLE",
+  "observed_utc": "2026-10-14T04:47:16.587443+00:00",
+  "owner_session_id": null,
+  "evidence": {
+    "START_exists": true,
+    "stdout_last_event": "waiting_for_heavy_memory_lock",
+    "native_directory_exists": false,
+    "terminal_record_exists": false,
+    "live_native_commands": [],
+    "heavy_memory_lock_free": true
+  },
+  "native_fit_started_evidence": false,
+  "actual_runtime_seconds": null,
+  "native_method_failure": false,
+  "scientific_result_available": false,
+  "technical_retry_authorization": "root authorized same-configuration attempt2 after checking absent live owner; conservative600+600 second budget"
+}

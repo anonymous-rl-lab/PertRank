@@ -1,0 +1,6 @@
+D3_Rest: 441 targets, 24 lanes | observed TVD median 0.270 vs null 0.261 | observed above its own null on 57.1% | median difference +0.010 | disjoint lanes 0.0%
+D1_Rest: 551 targets, 23 lanes | observed TVD median 0.270 vs null 0.257 | observed above its own null on 62.3% | median difference +0.014 | disjoint lanes 0.0%
+D2_Rest: 353 targets, 23 lanes | observed TVD median 0.270 vs null 0.256 | observed above its own null on 62.0% | median difference +0.017 | disjoint lanes 0.0%
+
+mean observed median 0.270 vs mean null median 0.258
+the two guides' lane distributions overlap widely: the observed median distance is close to what two samples from the same lane distribution already give. Amendment A15b section 3 set no numeric cut-off, and the observed values fall between its two decided branches, so its pre-registered reading stands unchanged at report the numbers and draw no conclusion. The observed value does sit above its own null on 57% to 62% of targets, a small systematic excess that this calibration reports and does not explain [51s]

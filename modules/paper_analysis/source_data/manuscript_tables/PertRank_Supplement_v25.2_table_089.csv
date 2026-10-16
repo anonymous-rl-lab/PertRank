@@ -1,0 +1,5 @@
+Contrast,P@25 difference,Joint reference/query 95% interval
+ASH − Unweighted,+0.006736,"[+0.002298, +0.008965]"
+ASH − Euclidean,-0.002770,"[-0.007712, +0.001628]"
+PertRank − ASH,+0.002576,"[-0.001560, +0.007524]"
+PertRank − Euclidean,-0.000194,"[-0.004110, +0.003860]"

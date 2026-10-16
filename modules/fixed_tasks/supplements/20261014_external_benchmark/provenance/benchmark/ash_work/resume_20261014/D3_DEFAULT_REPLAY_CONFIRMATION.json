@@ -1,0 +1,30 @@
+{
+  "status": "DEFAULT_REPLAY_CONFIRMED_HISTORICAL_FIXED_CHOICE",
+  "created_utc": "2026-10-14T00:37:32.751843+00:00",
+  "recovery_notice": "New recovery confirmation of the fixed historical default; original final full-grid winner lock unavailable. Other two configuration replays may still be pending.",
+  "default_result": {
+    "status": "COMPLETE",
+    "P25": 0.2735894753363438,
+    "prediction_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D3_replay/default_uniform_fdr",
+    "posterior_sha256": "f0656ac01453aeec6a0bacd960322726cd3dd2d13d51f199b8cb57c7673421ba",
+    "input_sha256": "e62a97967c3fcc9dd98c831a2aed4eaed6928c94ec52e58c407c0f2994b462f5",
+    "config": {
+      "mode": "ash",
+      "seed": 20261012,
+      "ash_options": {},
+      "trade_source": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/R_TRADE_univariate.R",
+      "retry_mixem": true
+    },
+    "runtime_seconds": 689.5119149549996,
+    "warning_count": 0,
+    "mixEM_retries": 0,
+    "method": "ashr native full gene posterior means, common effect/SE scale"
+  },
+  "historical_default_P25": 0.2735894753363438,
+  "replay_minus_historical_P25": 0.0,
+  "full_grid_confirmation_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D3_REPLAY_CONFIRMATION.json",
+  "full_grid_replay_complete_at_this_record": false,
+  "D4_used_for_parameter_choice": false,
+  "recovery_plan_sha256": "294fbb38a69f5c27cc54c0b9e2d4e7bdd32f97bfdb7025f7d67730f971884d24",
+  "source_selector_sha256": "2de4766b5571f31420d45790400ffc9f7b1bcc5c4b9c11832edf8bcc314f797c"
+}

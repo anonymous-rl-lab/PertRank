@@ -1,0 +1,358 @@
+{
+  "status": "PASS",
+  "module": "r20_external",
+  "replay_level": "saved_moments_to_predictions_and_scores",
+  "raw_CSR_reaggregated": false,
+  "raw_shards_included": false,
+  "new_experiment": false,
+  "scope": "Five archived real-cell inputs per donor for within-screen tasks and two inputs per donor for fixed independent RNA reference; historical D1 query panel retained.",
+  "scientific_script_changed": false,
+  "frozen_files": 31,
+  "original_freeze_sha256": "6a2b1f25962d5b3c44ce63b85ad9868f31844b91138df42c56f1adf7b0be3231",
+  "relocated_freeze_sha256": "dbe7e8bb028228af615f7ccee8376dde2dd9442277d79e348ff112450be300e2",
+  "recovery_scope": "Selected members recovered from four verified split parts; not a restoration of all fourteen parts or all raw CSR inputs.",
+  "steps": [
+    {
+      "step": "predict_D3_Rest",
+      "exit_code": 0,
+      "seconds": 3.3120054350001737
+    },
+    {
+      "step": "predict_D1_Rest",
+      "exit_code": 0,
+      "seconds": 3.1074749079998583
+    },
+    {
+      "step": "predict_D2_Rest",
+      "exit_code": 0,
+      "seconds": 3.524907785002142
+    },
+    {
+      "step": "lock_all_sources",
+      "exit_code": 0,
+      "seconds": 0.3148365039960481
+    },
+    {
+      "step": "evaluate_D3_Rest",
+      "exit_code": 0,
+      "seconds": 4.07195086000138
+    },
+    {
+      "step": "evaluate_D1_Rest",
+      "exit_code": 0,
+      "seconds": 4.360424067999702
+    },
+    {
+      "step": "evaluate_D2_Rest",
+      "exit_code": 0,
+      "seconds": 4.111986488002003
+    },
+    {
+      "step": "summary",
+      "exit_code": 0,
+      "seconds": 0.0808325100078946
+    }
+  ],
+  "checks": {
+    "D3_Rest": {
+      "predictions": {
+        "arrays": 12,
+        "max_absolute_numeric_difference": 0.0,
+        "absolute_tolerance": 1e-12,
+        "relative_tolerance": 0
+      },
+      "query_scores": {
+        "arrays": 3,
+        "max_absolute_numeric_difference": 0.0,
+        "absolute_tolerance": 1e-12,
+        "relative_tolerance": 0
+      },
+      "all_scientific_result_fields": "PASS"
+    },
+    "D1_Rest": {
+      "predictions": {
+        "arrays": 12,
+        "max_absolute_numeric_difference": 0.0,
+        "absolute_tolerance": 1e-12,
+        "relative_tolerance": 0
+      },
+      "query_scores": {
+        "arrays": 3,
+        "max_absolute_numeric_difference": 0.0,
+        "absolute_tolerance": 1e-12,
+        "relative_tolerance": 0
+      },
+      "all_scientific_result_fields": "PASS"
+    },
+    "D2_Rest": {
+      "predictions": {
+        "arrays": 12,
+        "max_absolute_numeric_difference": 0.0,
+        "absolute_tolerance": 1e-12,
+        "relative_tolerance": 0
+      },
+      "query_scores": {
+        "arrays": 3,
+        "max_absolute_numeric_difference": 0.0,
+        "absolute_tolerance": 1e-12,
+        "relative_tolerance": 0
+      },
+      "all_scientific_result_fields": "PASS"
+    }
+  },
+  "external_endpoints": {
+    "D3_Rest": {
+      "means": {
+        "raw": 0.24440666130831715,
+        "w0y": 0.26348122866894197,
+        "W1": 0.2651023890784983
+      },
+      "W1_minus_w0y": {
+        "difference": 0.0016211604095563135,
+        "conditional_query_block_95_interval": [
+          -0.003414609493911719,
+          0.006819140774836974
+        ],
+        "bootstrap_nonpositive_count": 548,
+        "bootstrap_fraction_nonpositive": 0.274,
+        "draws": 2000,
+        "seed": 20261006,
+        "query_blocks": 30,
+        "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+        "extra_expected_members_per_list": 0.016211604095563135,
+        "realized_group_differences": [
+          0.004266211604095563,
+          -0.0010238907849829356
+        ],
+        "realized_group_min_max": [
+          -0.0010238907849829356,
+          0.004266211604095563
+        ],
+        "realized_groups_positive": 1,
+        "realized_groups_negative": 1,
+        "realized_groups_zero": 0
+      },
+      "W1_minus_raw": {
+        "difference": 0.02069572777018118,
+        "conditional_query_block_95_interval": [
+          0.011958872719665796,
+          0.030281503673919706
+        ],
+        "bootstrap_nonpositive_count": 0,
+        "bootstrap_fraction_nonpositive": 0.0,
+        "draws": 2000,
+        "seed": 20261006,
+        "query_blocks": 30,
+        "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+        "extra_expected_members_per_list": 0.2069572777018118,
+        "realized_group_differences": [
+          0.021805427757594864,
+          0.0195860277827675
+        ],
+        "realized_group_min_max": [
+          0.0195860277827675,
+          0.021805427757594864
+        ],
+        "realized_groups_positive": 2,
+        "realized_groups_negative": 0,
+        "realized_groups_zero": 0
+      },
+      "w0y_minus_raw": {
+        "difference": 0.019074567360624867,
+        "conditional_query_block_95_interval": [
+          0.012386741500382744,
+          0.026624549327268137
+        ],
+        "bootstrap_nonpositive_count": 0,
+        "bootstrap_fraction_nonpositive": 0.0,
+        "draws": 2000,
+        "seed": 20261006,
+        "query_blocks": 30,
+        "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+        "extra_expected_members_per_list": 0.19074567360624867,
+        "realized_group_differences": [
+          0.0175392161534993,
+          0.020609918567750435
+        ],
+        "realized_group_min_max": [
+          0.0175392161534993,
+          0.020609918567750435
+        ],
+        "realized_groups_positive": 2,
+        "realized_groups_negative": 0,
+        "realized_groups_zero": 0
+      }
+    },
+    "D1_Rest": {
+      "means": {
+        "raw": 0.23315052682125662,
+        "w0y": 0.2582179930795848,
+        "W1": 0.2669550173010381
+      },
+      "W1_minus_w0y": {
+        "difference": 0.008737024221453287,
+        "conditional_query_block_95_interval": [
+          0.003383331639910587,
+          0.013278999792488066
+        ],
+        "bootstrap_nonpositive_count": 2,
+        "bootstrap_fraction_nonpositive": 0.001,
+        "draws": 2000,
+        "seed": 20261006,
+        "query_blocks": 30,
+        "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+        "extra_expected_members_per_list": 0.08737024221453288,
+        "realized_group_differences": [
+          0.00865051903114187,
+          0.008823529411764706
+        ],
+        "realized_group_min_max": [
+          0.00865051903114187,
+          0.008823529411764706
+        ],
+        "realized_groups_positive": 2,
+        "realized_groups_negative": 0,
+        "realized_groups_zero": 0
+      },
+      "W1_minus_raw": {
+        "difference": 0.033804490479781485,
+        "conditional_query_block_95_interval": [
+          0.027918631003037493,
+          0.03977745663454875
+        ],
+        "bootstrap_nonpositive_count": 0,
+        "bootstrap_fraction_nonpositive": 0.0,
+        "draws": 2000,
+        "seed": 20261006,
+        "query_blocks": 30,
+        "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+        "extra_expected_members_per_list": 0.33804490479781485,
+        "realized_group_differences": [
+          0.03170850954548156,
+          0.035900471414081425
+        ],
+        "realized_group_min_max": [
+          0.03170850954548156,
+          0.035900471414081425
+        ],
+        "realized_groups_positive": 2,
+        "realized_groups_negative": 0,
+        "realized_groups_zero": 0
+      },
+      "w0y_minus_raw": {
+        "difference": 0.0250674662583282,
+        "conditional_query_block_95_interval": [
+          0.019784207873237078,
+          0.031210815672544284
+        ],
+        "bootstrap_nonpositive_count": 0,
+        "bootstrap_fraction_nonpositive": 0.0,
+        "draws": 2000,
+        "seed": 20261006,
+        "query_blocks": 30,
+        "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+        "extra_expected_members_per_list": 0.25067466258328197,
+        "realized_group_differences": [
+          0.02305799051433969,
+          0.02707694200231672
+        ],
+        "realized_group_min_max": [
+          0.02305799051433969,
+          0.02707694200231672
+        ],
+        "realized_groups_positive": 2,
+        "realized_groups_negative": 0,
+        "realized_groups_zero": 0
+      }
+    },
+    "D2_Rest": {
+      "means": {
+        "raw": 0.2347184837034802,
+        "w0y": 0.2681660899653979,
+        "W1": 0.2691176470588236
+      },
+      "W1_minus_w0y": {
+        "difference": 0.0009515570934256075,
+        "conditional_query_block_95_interval": [
+          -0.0021400861494589815,
+          0.004242591890746044
+        ],
+        "bootstrap_nonpositive_count": 526,
+        "bootstrap_fraction_nonpositive": 0.263,
+        "draws": 2000,
+        "seed": 20261006,
+        "query_blocks": 30,
+        "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+        "extra_expected_members_per_list": 0.009515570934256076,
+        "realized_group_differences": [
+          -0.002422145328719722,
+          0.004325259515570935
+        ],
+        "realized_group_min_max": [
+          -0.002422145328719722,
+          0.004325259515570935
+        ],
+        "realized_groups_positive": 1,
+        "realized_groups_negative": 1,
+        "realized_groups_zero": 0
+      },
+      "W1_minus_raw": {
+        "difference": 0.03439916335534334,
+        "conditional_query_block_95_interval": [
+          0.029688108279551182,
+          0.03945522813117174
+        ],
+        "bootstrap_nonpositive_count": 0,
+        "bootstrap_fraction_nonpositive": 0.0,
+        "draws": 2000,
+        "seed": 20261006,
+        "query_blocks": 30,
+        "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+        "extra_expected_members_per_list": 0.34399163355343343,
+        "realized_group_differences": [
+          0.03580038674885177,
+          0.03299793996183491
+        ],
+        "realized_group_min_max": [
+          0.03299793996183491,
+          0.03580038674885177
+        ],
+        "realized_groups_positive": 2,
+        "realized_groups_negative": 0,
+        "realized_groups_zero": 0
+      },
+      "w0y_minus_raw": {
+        "difference": 0.033447606261917735,
+        "conditional_query_block_95_interval": [
+          0.02832100492593204,
+          0.03889346142998452
+        ],
+        "bootstrap_nonpositive_count": 0,
+        "bootstrap_fraction_nonpositive": 0.0,
+        "draws": 2000,
+        "seed": 20261006,
+        "query_blocks": 30,
+        "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+        "extra_expected_members_per_list": 0.33447606261917734,
+        "realized_group_differences": [
+          0.03822253207757149,
+          0.028672680446263966
+        ],
+        "realized_group_min_max": [
+          0.028672680446263966,
+          0.03822253207757149
+        ],
+        "realized_groups_positive": 2,
+        "realized_groups_negative": 0,
+        "realized_groups_zero": 0
+      }
+    }
+  },
+  "seconds": 25.472942937994958,
+  "network": "Socket DNS/connect/sendto blocked in every scientific subprocess",
+  "tolerance": {
+    "absolute": 1e-12,
+    "relative": 0
+  },
+  "provenance_exception": "Only paths, execution timestamps and dependent record hashes may change; every scientific array and result field is compared."
+}

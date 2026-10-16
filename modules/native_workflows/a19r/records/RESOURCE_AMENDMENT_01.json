@@ -1,0 +1,14 @@
+{
+  "status": "RESOURCE_WRAPPER_AMENDMENT_BEFORE_FR_FITS",
+  "created_utc": "2026-10-14T04:11:54.035957+00:00",
+  "reason": "Parent subprocess PID is transport proxy in this runtime; parent /proc sampling underestimates child RSS. FR guarded in native Python process via resource.getrusage; scientific runner unchanged. Completed D3 ASH actual native R child ru_maxrss337180KiB; fit kept, no rerun.",
+  "former_execution_lock_sha256": "0b3b24f040e8c3dd15a98cfb985544555abb60b207a7fbfea2c10acdeaf8c4c8",
+  "source_sha256": {
+    "run_native.py": "b0fa8e5d3a7331dffa5bbe7ec9b4db82e9660966d47bc739f8601f16a2155cbe",
+    "guarded_native.py": "0bb52c83a1848c919a5c3fdbd714f1186bb69b920acc2f37bfafad15cc38a0a1",
+    "prepare_fr.py": "40a00db802f6f62bcbeaababcf629d8c9325e822603397d65fd2c6ef05a1e84a",
+    "combine_sources.py": "7a432fb8353bcf7a14c27d24b25bbb2bd485b75ecf5571ead800f0751206c213"
+  },
+  "reference_score_read": false,
+  "scoring_script_unchanged": true
+}

@@ -1,0 +1,27 @@
+D3_Rest A20 -> A80  (same guide)   raw 0.3730 w0y 0.3751 W1 0.3939 (floor 0.0568)  W1-w0y +0.0189 [+0.0095, +0.0304]
+D3_Rest A20 -> B80  (switched)     raw 0.0666 w0y 0.0648 W1 0.0679 (floor 0.0568)  W1-w0y +0.0031 [-0.0001, +0.0058]
+D3_Rest B20 -> A80  (switched)     raw 0.0738 w0y 0.0739 W1 0.0743 (floor 0.0568)  W1-w0y +0.0004 [-0.0027, +0.0046]
+D3_Rest B20 -> B80  (same guide)   raw 0.3620 w0y 0.3556 W1 0.3775 (floor 0.0568)  W1-w0y +0.0219 [+0.0125, +0.0342]
+D1_Rest A20 -> A80  (same guide)   raw 0.2881 w0y 0.2948 W1 0.3202 (floor 0.0455)  W1-w0y +0.0254 [+0.0196, +0.0313]
+D1_Rest A20 -> B80  (switched)     raw 0.0679 w0y 0.0817 W1 0.0868 (floor 0.0455)  W1-w0y +0.0052 [+0.0021, +0.0079]
+D1_Rest B20 -> A80  (switched)     raw 0.0682 w0y 0.0814 W1 0.0832 (floor 0.0455)  W1-w0y +0.0018 [-0.0008, +0.0044]
+D1_Rest B20 -> B80  (same guide)   raw 0.2917 w0y 0.3075 W1 0.3314 (floor 0.0455)  W1-w0y +0.0239 [+0.0204, +0.0277]
+D2_Rest A20 -> A80  (same guide)   raw 0.3821 w0y 0.3721 W1 0.3897 (floor 0.0710)  W1-w0y +0.0176 [+0.0088, +0.0265]
+D2_Rest A20 -> B80  (switched)     raw 0.0821 w0y 0.0875 W1 0.0913 (floor 0.0710)  W1-w0y +0.0038 [+0.0005, +0.0071]
+D2_Rest B20 -> A80  (switched)     raw 0.0828 w0y 0.0845 W1 0.0851 (floor 0.0710)  W1-w0y +0.0007 [-0.0019, +0.0028]
+D2_Rest B20 -> B80  (same guide)   raw 0.4138 w0y 0.4059 W1 0.4189 (floor 0.0710)  W1-w0y +0.0131 [+0.0081, +0.0187]
+switch cost raw  D3_Rest: both directions averaged +0.2974 [+0.2542, +0.3376]
+switch cost raw  D1_Rest: both directions averaged +0.2218 [+0.1889, +0.2523]
+switch cost raw  D2_Rest: both directions averaged +0.3155 [+0.2842, +0.3410]
+pooled switch cost raw : +0.2782 [+0.2424, +0.3103]  (cluster groups 1, DEGENERATE)
+switch cost w0y  D3_Rest: both directions averaged +0.2959 [+0.2667, +0.3228]
+switch cost w0y  D1_Rest: both directions averaged +0.2196 [+0.1920, +0.2437]
+switch cost w0y  D2_Rest: both directions averaged +0.3030 [+0.2757, +0.3245]
+pooled switch cost w0y : +0.2729 [+0.2448, +0.2970]  (cluster groups 1, DEGENERATE)
+switch cost W1   D3_Rest: both directions averaged +0.3146 [+0.2774, +0.3478]
+switch cost W1   D1_Rest: both directions averaged +0.2408 [+0.2094, +0.2680]
+switch cost W1   D2_Rest: both directions averaged +0.3161 [+0.2820, +0.3419]
+pooled switch cost W1  : +0.2905 [+0.2563, +0.3193]  (cluster groups 1, DEGENERATE)
+
+raw, same guide mean 0.3518 vs switched 0.0736 (floor 0.0578)
+branch 1: switching the guide costs a measurable amount: the guide difference is a real obstacle, and it is separate from the pool change that A15a section 1.2 withdrew [16s]

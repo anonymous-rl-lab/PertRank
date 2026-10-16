@@ -1,0 +1,12 @@
+{
+  "scoring_authorized": true,
+  "weights_sha256": "ed7f24f3162e4cac2c0a761ce40ba71676ff6053cdc00348c54a182ba55206a6",
+  "weights_complete_sha256": "33eff7cdc8c6b7f47a17c429e63a0a653f529415f43d05e361698e9227c0fcfc",
+  "score_code_sha256": "7546c551c0398041d934dec44e42a17345ec78a74aec8e0dc57f3c296cf9e787",
+  "baseline_replay_sha256": "470d390d8a6a9ab580e0a7d3cced59d0f92d18f9222b85bcb5ae48a7233ac372",
+  "released_utc": "2026-10-08T15:54:19.213963+00:00",
+  "pre_scoring_audits": {
+    "d4_checkpoint_audit.json": "bb7080d4cbb5aa378214714685018954d0239225097d5805f03ccad01a257e67",
+    "d4_mixture_audit.json": "7e3cf5a44984c33322281b1186a673d2ea03ce1aa6fc698ea07f22ba5e1cb60b"
+  }
+}

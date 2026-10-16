@@ -1,0 +1,26 @@
+{
+  "source_paths_relative_to_historical_extracted": [
+    {
+      "path": "completed_components/PertRank_Shared_Reproduction_Inputs_20261005/restored/working_v9_with_v6_inputs/code/repro_v10/data/e4_tcell.npz",
+      "sha256": "4f83d994e05982e54ca6ed9df512b3eea4571823a0b1fd931d9aa3158f75c8f1"
+    },
+    {
+      "path": "completed_components/PertRank_Shared_Reproduction_Inputs_20261005/restored/working_v9_with_v6_inputs/code/repro_v10/same_budget_weight/stage3/data/e4_w1_stage3.npz",
+      "sha256": "d552c95c72d40b613a74caf7f60a72e3411e862543cf7579be01ab2ac6b5673a"
+    },
+    {
+      "path": "completed_components/PertRank_Shared_Reproduction_Inputs_20261005/restored/working_v9_with_v6_inputs/code/repro_v10/same_budget_weight/stage3/evaluate_w1_e4.py",
+      "sha256": "daba866ef464135ac973a3faa1ac1f97be350b0f4018bbfcb4a6c8c1f966d1b6"
+    },
+    {
+      "path": "strengthening_neighbor/d3_prepared/queries.csv",
+      "sha256": "7ff9c0989985caa8a1eb8a389230ec869a3bf219c0fe8a8741cdbab06a1fc3e9"
+    },
+    {
+      "path": "strengthening_neighbor/d3_prepared/targets.csv",
+      "sha256": "a75e65ecf57d07ae946f343bb19a648940f79398c0c15a5ab5dc796ce70c4389"
+    }
+  ],
+  "operation": "Exact original D3 20-cell responsive effects and 100-cell reference reconstructed from archived sums; original w1 function executed on stored sufficient moments; Euclidean weights read from original prepared target metadata. No cell input read or model refit.",
+  "scope": "Historical single-input development task, not current five-input/corrected competition."
+}

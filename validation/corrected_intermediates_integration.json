@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "verification": "Manifest verified after immutable hardlink integration; scientific replay was completed once by module author.",
+  "manifest_files": 70,
+  "module_receipt": "modules/corrected_intermediates/VERIFIED_REPRODUCTION_REPORT.json",
+  "module_status": "PASS",
+  "seconds": 20.16825294494629
+}

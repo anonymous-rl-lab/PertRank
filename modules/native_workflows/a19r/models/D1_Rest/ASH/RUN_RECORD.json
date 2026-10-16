@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETE_PENDING_SEPARATE_VERIFICATION",
+  "donor": "D1_Rest",
+  "method": "ASH",
+  "created_utc": "2026-10-14T04:14:02.476413+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/run_posterior.py",
+    "--input",
+    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/inputs/D1_Rest/ASH/full.npz",
+    "--output",
+    "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D1_Rest/ASH_attempt1/native",
+    "--mode",
+    "ash",
+    "--retry-mixem",
+    "--seed",
+    "20261012"
+  ],
+  "input_lock_sha256": "bdfd79c78d40c8c5d637d6dd5686f0309a7e81205ef333532171c1f9829d247b",
+  "wrapper_sha256": "b0fa8e5d3a7331dffa5bbe7ec9b4db82e9660966d47bc739f8601f16a2155cbe",
+  "timeout_seconds": 600,
+  "RSS_limit_GiB": 5.5,
+  "reference_read": false,
+  "score_computed": false,
+  "returncode": 0,
+  "stop_reason": null,
+  "wall_seconds": 58.126540431996546,
+  "process_tree_peak_RSS_bytes": 14249984,
+  "parent_PID_RSS_note": "Transport can expose proxy PIDs; parent process-tree RSS is not a valid native RSS estimate here. Use native self guard or native R child resource record.",
+  "native_self_guard": null
+}

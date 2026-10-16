@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": [
+    "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/run/d4_trade/FREEZE.json",
+    "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/run/d4_trade/moments/targets_0000_0008.json",
+    "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/run/d4_trade/fits/targets_0000_0008/COMPLETE.json"
+  ],
+  "old_files_modified": false,
+  "new_runner_sha256": "68ddb7fc4f12d69c5dad9b101f389feb8310c729f082c5b5831d130a815037a0",
+  "scientific_identity_unchanged": true,
+  "fit_workers_max": 4
+}

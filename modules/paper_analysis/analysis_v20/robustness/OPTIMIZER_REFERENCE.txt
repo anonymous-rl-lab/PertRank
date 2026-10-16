@@ -1,0 +1,78 @@
+ashr 2.2.63 mixsqp 0.3.54 
+function (matrix_lik, prior, pi_init = NULL, control = list(), 
+    weights = NULL) 
+{
+    mixsqp.status.converged <- "converged to optimal solution"
+    n <- nrow(matrix_lik)
+    k <- ncol(matrix_lik)
+    if (is.null(weights)) 
+        weights <- rep(1, n)
+    if (is.null(pi_init)) 
+        pi_init <- rep(1, k)
+    A <- rbind(diag(k), matrix_lik)
+    w <- c(prior - 1, weights)
+    A <- A[w != 0, , drop = FALSE]
+    w <- w[w != 0]
+    control0 <- list(verbose = FALSE, eps = 1e-06, numiter.em = 20)
+    control <- modifyList(control0, control, keep.null = TRUE)
+    out <- mixsqp::mixsqp(A, w, pi_init, control = control)
+    return(list(pihat = out$x/sum(out$x), niter = nrow(out$data), 
+        converged = (out$status == mixsqp.status.converged), 
+        control = control))
+}
+<bytecode: 0x556dfa7f4b08>
+<environment: namespace:ashr>
+function (L, w, x, z = rep(0, length(w)), e = 0) 
+{
+    y <- drop(L %*% x) + e
+    if (all(y > 0)) 
+        return(-sum(w * (z + log(y))))
+    else return(Inf)
+}
+<bytecode: 0x556dfa80ad88>
+<environment: namespace:mixsqp>
+$normalize.rows
+[1] TRUE
+
+$tol.svd
+[1] 1e-06
+
+$convtol.sqp
+[1] 1e-08
+
+$convtol.activeset
+[1] 1e-10
+
+$zero.threshold.solution
+[1] 1e-08
+
+$zero.threshold.searchdir
+[1] 1e-14
+
+$suffdecr.linesearch
+[1] 0.01
+
+$stepsizereduce
+[1] 0.75
+
+$minstepsize
+[1] 1e-08
+
+$identity.contrib.increase
+[1] 10
+
+$eps
+[1] 1e-08
+
+$maxiter.sqp
+[1] 1000
+
+$maxiter.activeset
+NULL
+
+$numiter.em
+[1] 10
+
+$verbose
+[1] TRUE
+

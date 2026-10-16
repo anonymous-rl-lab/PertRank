@@ -1,0 +1,55 @@
+{
+  "version": "1.5.1",
+  "records": {
+    "data/mixscale_prediction_and_scores.npz": {
+      "kind": "arrays",
+      "key": "file_0",
+      "arrays": {
+        "coefficient": "31cd4869b6451eb26699e0f31f7f021db39ccc7d12faae42080110088373c417",
+        "tested": "3028b3cac005bdf16d93735c3f8ac2eca11e08983cdbdaf1972fea77c66bd7fc",
+        "query_ids": "89df437a8012ed26db59c34a013f10fbb6597a458a2ab0c05d76c7ee58ea9a8e",
+        "target_names": "71655d96d7cc86e5632cb8e48442c9e661ddef771dd9f57cd907e80d311a0db2",
+        "score_raw": "3dd5ece6b32862caf216ccefaef80699b3497433d7bcf0192c4e4826a51dc0d5",
+        "score_w0y": "f500b92ac37948c741225381f91156b6b71616b3edd3dbe3e3b73f60f81a6f2a",
+        "score_W1": "5ff4d0c7d08688817c27c2a5c6ce6b2896eef592e170c444da7b973f5c2a8364",
+        "score_Mixscale_beta_weight": "ef3579afd95bb8b76e1265bc3bde09d4a2e51a1a5752c5df20be50c1c3b4ffab"
+      },
+      "array_orders": {
+        "coefficient": "C",
+        "tested": "C",
+        "query_ids": "C",
+        "target_names": "C",
+        "score_raw": "C",
+        "score_w0y": "C",
+        "score_W1": "C",
+        "score_Mixscale_beta_weight": "C"
+      }
+    },
+    "data/mixscale_task.npz": {
+      "kind": "arrays",
+      "key": "file_1",
+      "arrays": {
+        "raw_effect": "69b7ac133245a9e2e89327f724939f67cba2461dca37725ab7e7898afcfc9f8a",
+        "reference": "566a09453f44f4839f9f0f0fad837d98797af01bc09e062961ad7ee6684b08c7",
+        "weight_Euclidean": "c319b906dc1bda4106e420c5999f200cdf403d82e3170da957e8ab4703c2497f",
+        "weight_PertRank": "9eda6a4d71d87f74a613bec167246ad0c73c2318061bf0277a746f3c4412e5b3",
+        "own_query_index": "ddc19348ec5e1dae18eff426fd0c56804ff90b72dddacf52e7e75846850d7cd0",
+        "blocks": "b7a6afb9b00ff4a00cdf5402a85ad89deaab6e01801a1754c5e17ad3b032f9a9",
+        "query_ids": "4d81f16914ee6f2c2cfa0c76af387dff4c8149f99b8f7336f9e438e33fb89618",
+        "target_names": "71655d96d7cc86e5632cb8e48442c9e661ddef771dd9f57cd907e80d311a0db2"
+      },
+      "array_orders": {
+        "raw_effect": "C",
+        "reference": "C",
+        "weight_Euclidean": "C",
+        "weight_PertRank": "C",
+        "own_query_index": "C",
+        "blocks": "C",
+        "query_ids": "C",
+        "target_names": "C"
+      }
+    }
+  },
+  "scientific_scope_unchanged": true,
+  "float_precision_changed": false
+}

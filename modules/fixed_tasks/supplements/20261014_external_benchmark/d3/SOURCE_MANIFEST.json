@@ -1,0 +1,271 @@
+{
+  "format": 1,
+  "sources": [
+    {
+      "archive_or_path": "package_v140/extracted/D3_RANK_BOUNDARY_COMPLETE_20261014T010048Z_d7ed80e1cd6641cbb0f691ab46b3221f/resume_20261014/atomic_runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/rank_boundary_evaluation/rank150_default_lasso/compact.npz",
+      "member": null,
+      "sha256": "b9f5b51eceef8fd92ccd8af3b86c06a7ffd7cbbebf09241a0d1c2ce6f852413f"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": null,
+      "sha256": "09470b749c06edab89fdf3e42c5204398c8a910727b807d3e3a058ff79fca91e"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/default_rep0/compact.npz",
+      "sha256": "40766fa05d77b151cd54f690896c159801749ce89088bca3ec54ff94766aca21"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/default/evaluation_report.json",
+      "member": null,
+      "sha256": "c1afe70e9142974e039c5077d7a9f307b510e666da7d5cb206e4111f773d2ba2"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/lasso_high_rep0/compact.npz",
+      "sha256": "3e73dd7f7d727a3cc8b7c83a82c9ecec8ef6a8aa50b1065ef6e0b5931b01f45f"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/lasso_high/evaluation_report.json",
+      "member": null,
+      "sha256": "99950c2f2e13932228bb5f28260fd09bf240e9c36a111f48f01f5bddd6eb4fdf"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/lasso_low_rep0/compact.npz",
+      "sha256": "d6cd81c7ecf2e78d771d3b97e2196124fb25a996cbec04af9d8966c6c37d5ca8"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/lasso_low/evaluation_report.json",
+      "member": null,
+      "sha256": "aa751da3ea077a453e3c74afc82eb902cd0f4d8ebe212f0e22099581396ea522"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/rank100_default_lasso_rep0/compact.npz",
+      "sha256": "a1f70a409d81e9f6498b7963488a3bfcf0b895ba51a8bf5ebb788d5b76c56b8a"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/rank100_default_lasso/evaluation_report.json",
+      "member": null,
+      "sha256": "06efaccaf79a6eff5f9920d3ee766d88cded7b57e34d5a84f938bdbaf207b16e"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/rank100_lasso_high_rep0/compact.npz",
+      "sha256": "8107d16ec3e4cac488107bf0b38edd5e8575218a5b4f0447bcc2a45d7d782841"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/rank100_lasso_high/evaluation_report.json",
+      "member": null,
+      "sha256": "07dee40a45ab7930bd248857ee32e87aa9b804afed0e05f3b078ab59a99be117"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/rank100_lasso_low_rep0/compact.npz",
+      "sha256": "d2c6f6cc0604667057b168bf4835cc859e70f95189ce1c3622fb87745f63c60d"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/rank100_lasso_low/evaluation_report.json",
+      "member": null,
+      "sha256": "f3a497f842235bdd246590fd9d6a6814beac99a34f1f6a906d6135b7b81f0d5d"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/rank10_lasso_high_rep0/compact.npz",
+      "sha256": "fd69087d2a278c9d2cdc8f9080633885762808d3cbd790dd019c81c76bb3804a"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/rank10_lasso_high/evaluation_report.json",
+      "member": null,
+      "sha256": "94a4b7d883d17a6c6e42147f751832877ee0c0fee48a6dff5d4f02a4a19f35dc"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/rank10_lasso_low_rep0/compact.npz",
+      "sha256": "d2bf22da2b480cad3765fbb9956733cd2e647a3995a4ccc3dcc73e41a11d1a0d"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/rank10_lasso_low/evaluation_report.json",
+      "member": null,
+      "sha256": "b0ddf1ef591798c66be39ae3465fb311365b2447cf7d7ab323f8566986b1024a"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/rank10_rep0/compact.npz",
+      "sha256": "17a158a5e36dc4ee6ffd208ed9dea3d2b577fa6ae78cd1e76665b27238c3fe44"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/rank10/evaluation_report.json",
+      "member": null,
+      "sha256": "19c50d0cd6e72162d71a19cfe7c48161a4a02f5add2aeb4e27c2fe9382619885"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/rank40_default_lasso_rep0/compact.npz",
+      "sha256": "0a390528a51ad582ca75f72885ba55109f331b441caeaaa93e0a8fca7dbe078d"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/rank40_default_lasso/evaluation_report.json",
+      "member": null,
+      "sha256": "211ddf485205ae2c61cb49a2b2d0d5583d442859bdafe64d96b292eb982a8bc5"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/rank40_lasso_high_rep0/compact.npz",
+      "sha256": "a3a8c014fcc1a5565da40cec3dfef1a187b9ef10f858e63b35b83fb4bfc59381"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/rank40_lasso_high/evaluation_report.json",
+      "member": null,
+      "sha256": "433f2fd63d91f73e98486d3cc46fa6fc19ac9e0723983328701231d847e51652"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/rank40_lasso_low_rep0/compact.npz",
+      "sha256": "60a434d832f2093a345f0bbbeb419fdc15945529e4646c34f9628828e3ffae1e"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/rank40_lasso_low/evaluation_report.json",
+      "member": null,
+      "sha256": "4a8c9e0c45eb3f9159da7f7b54cfb3a6632bbd8e7b76fa93d6e8221f5bdfefb2"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/rank50_lasso_high_rep0/compact.npz",
+      "sha256": "63c69c061786688763547d766b2859d8c8cd5a360e91b78ee237f0ee2b5c2045"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/rank50_lasso_high/evaluation_report.json",
+      "member": null,
+      "sha256": "371278a0c68581047bd2d501a06520068b8e9559847cc329706f0a1e044aaa73"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/rank50_lasso_low_rep0/compact.npz",
+      "sha256": "0cb71b30d99ac7e3a848a92e54c7e20967f9d62f03583155319af035d71b98ea"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/rank50_lasso_low/evaluation_report.json",
+      "member": null,
+      "sha256": "bf0c42b2e2fe019dfd2c2e9a38d31eff42d00e3ff39041a5ed5f3594adb7aec1"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/rank50_rep0/compact.npz",
+      "sha256": "3bc5a76d7ce1b8ff6a579b40735c17238c35fd111c70c7ea5c643296d98cb999"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/rank50/evaluation_report.json",
+      "member": null,
+      "sha256": "b64f69ad374bf2180e2a32822bada89f13347a281132ddeb5eec535ae1d19293"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/rank5_default_lasso_rep0/compact.npz",
+      "sha256": "f14b066c494e1e79bebe6fb0da41c62235126068e04b7899fb091f86b7d082ef"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/rank5_default_lasso/evaluation_report.json",
+      "member": null,
+      "sha256": "ba569a90dde7e05d0622a8b35bb6fca121e7b9ef2712f4ec9b9f5043a0d33eb0"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/rank5_lasso_high_rep0/compact.npz",
+      "sha256": "d9b7404521a14eb362b20e29f661c0e0e2c0d1ddd767d4fdc99bc20a1fcef1eb"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/rank5_lasso_high/evaluation_report.json",
+      "member": null,
+      "sha256": "0bfa511f8a4669d56ca820fb3d6e307f5811bddec63caf363d7c35322d7b2e0f"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/rank5_lasso_low_rep0/compact.npz",
+      "sha256": "7eada1d4cfd7411c0d4b32e6ba0db8e9f86e4238c2c448453afb1cdd4c1ac0af"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/rank5_lasso_low/evaluation_report.json",
+      "member": null,
+      "sha256": "5ab770c397177fa597ba08ce7bfc76e8d46c86a1fd12e8e3363f87f17a088010"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/rank75_default_lasso_rep0/compact.npz",
+      "sha256": "2bc87b2a4986dc49c8dcf69eb8855daa264a1b3a524f3cc37baa59a3cf3eca36"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/rank75_default_lasso/evaluation_report.json",
+      "member": null,
+      "sha256": "f845828b8ba11aa897eb5abca96c3a413b4f8e0f2ce596daf3fba08f608332b0"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/rank75_lasso_high_rep0/compact.npz",
+      "sha256": "d27c6b1a85d2f9f98a031e63d620717d61a1ff500229fbc30da2300b1f142a8f"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/rank75_lasso_high/evaluation_report.json",
+      "member": null,
+      "sha256": "57efb3037c819ad269ec7ee574073c1cc60697cab15fa7f8f71ddc81ea6c26fd"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/PertRank_FR_D3_All21_Compact_20261012.zip",
+      "member": "fr_compact/D3_Rest/rank75_lasso_low_rep0/compact.npz",
+      "sha256": "7e46cc1cfd808b5baaea462a70796559a5fdef63d574c8755fc8883f9841fac7"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/evaluation/D3_Rest/rank75_lasso_low/evaluation_report.json",
+      "member": null,
+      "sha256": "0257c601c10c57520d57d37148d4bcad75744bbd024a3f8e137b4c477690cd93"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/ASH_D3_default_replay_20261014.zip",
+      "member": null,
+      "sha256": "b244f5d9e5a1171e698c0958ea53d0b9f54833856d2d2e8684d707c9ccb7cf03"
+    },
+    {
+      "archive_or_path": "package_v140/downloads/ASH_D3_default_replay_20261014.zip",
+      "member": "ash_work/resume_20261014/D3_replay/default_uniform_fdr/posterior.npz",
+      "sha256": "f0656ac01453aeec6a0bacd960322726cd3dd2d13d51f199b8cb57c7673421ba"
+    },
+    {
+      "archive_or_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/ash_work/resume_20261014/D3_DEFAULT_REPLAY_CONFIRMATION.json",
+      "member": null,
+      "sha256": "146834963f209db14fc92404eba8053feaec8b471967fda472bb3c10a30c955d"
+    }
+  ],
+  "arms_fr": [
+    "raw",
+    "euclidean",
+    "pertrank",
+    "fr",
+    "fr_euclidean",
+    "fr_pertrank"
+  ],
+  "candidate_count": 1200,
+  "query_count": 300,
+  "input_repeats": [
+    0
+  ],
+  "query_bootstrap_seed": 20261012,
+  "query_bootstrap_draws": 2000,
+  "shape_membership": [
+    2,
+    300,
+    1200
+  ],
+  "packing": "numpy packbits along target dimension, little bit order; exact strictly-above and exact tied-at-cutoff masks",
+  "top_k": [
+    25,
+    10
+  ],
+  "ash_top_k": [
+    25
+  ],
+  "source_fits_refit": false,
+  "original_expression_read": false,
+  "representation_checks": "For every stored arm and K, above/tied bitmasks decoded exactly and resulting float64 membership probabilities identical."
+}

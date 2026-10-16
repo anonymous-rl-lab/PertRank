@@ -1,0 +1,7 @@
+{
+  "created_utc": "2026-10-11T16:00:05.490154+00:00",
+  "prior_smoke": "C++ accelerated EM emitted subscript-out-of-bounds warning on numerical input; no scoring performed",
+  "change": "uniform ashr optmethod=mixEM (R SQUAREM), tol=1e-8 maxiter=20000",
+  "rationale": "Same finite-mixture marginal likelihood, fixed grid/prior/full inputs; use R SQUAREM backend to avoid C++ solver failure. Uniform complete-cohort treatment.",
+  "validation": "first2 successful targets + failuretarget; all fits mustconverge; compare old successful loglik/moments before any scoring"
+}

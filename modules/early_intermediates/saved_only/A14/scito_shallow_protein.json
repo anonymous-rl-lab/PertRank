@@ -1,0 +1,125 @@
+{
+ "created_utc": "2026-09-27T05:23:49Z",
+ "integrity": {
+  "amendment_A14_sha256": "6d1b02256b48da7f45e0832f2d784a0ac750eb5df146f68ea875c314ed1bc5a8",
+  "script_sha256": "5301f4101f856e6d90b991dba54a0ec65c8d963be3497143ebbabac0ac740a65",
+  "panel_map_sha256": "7816bc252afe9531f5752648de4ad763468c3c5aecffa77940e434bf16d53a9f",
+  "source_h5ad_md5": "f5a38ca2d1dfd7fa2b779788c525072b"
+ },
+ "note": "amendment A14; a same-experiment split inside SCITO, development on opened data, not an independent confirmation and not part of the A4 to A8 evidence levels",
+ "design": {
+  "candidates": 6333,
+  "queries": 201,
+  "random_rate": 0.003948199620972836,
+  "cells": {
+   "input": 20,
+   "truth": 100,
+   "gate": 100
+  },
+  "k": 5,
+  "beta": 0.9,
+  "ktop": 25,
+  "blocks": 30,
+  "own_gene_excluded_for": 57,
+  "control_ntc_cells": 32965,
+  "control_trace": 200.42365534426816,
+  "top5_share_of_control_trace": 0.256694753815383
+ },
+ "gate": {
+  "overlap_vs_random": {
+   "diff": 0.019335382468579403,
+   "ci95": [
+    0.009833582160808946,
+    0.027762459430683617
+   ],
+   "p_one_sided": 0.0
+  },
+  "random_rate": 0.003948199620972836,
+  "median_overlap": 0.02,
+  "median_across_target_correlation": 0.0670864123156514,
+  "passes": true
+ },
+ "weights": {
+  "beta0_max_abs_vs_w0y": 0.0,
+  "W1_zero_fraction": 0.49328912048002527,
+  "w0y_zero_fraction": 0.5995578714669193,
+  "W1_mean": 0.04386201000422399,
+  "w0y_mean": 0.0779613247870262,
+  "W1_minus_w0y_mean": -0.03409931478280222,
+  "W1_quantiles": [
+   0.0,
+   0.0,
+   0.002410972931464417,
+   0.07490626680830004,
+   0.17360411921826419
+  ]
+ },
+ "arms": {
+  "raw": {
+   "mean": 0.011442786069651741,
+   "above_random": {
+    "diff": 0.007494586448678906,
+    "ci95": [
+     0.0033891689457122777,
+     0.009897954225181008
+    ],
+    "p_one_sided": 0.0005
+   }
+  },
+  "w0y": {
+   "mean": 0.009253731343283583,
+   "above_random": {
+    "diff": 0.0053055317223107456,
+    "ci95": [
+     0.00252546430502922,
+     0.006927416839533268
+    ],
+    "p_one_sided": 0.0
+   }
+  },
+  "W1": {
+   "mean": 0.010049751243781095,
+   "above_random": {
+    "diff": 0.006101551622808257,
+    "ci95": [
+     0.0029747327098542317,
+     0.008178901219363295
+    ],
+    "p_one_sided": 0.0
+   }
+  }
+ },
+ "W1_vs_w0y": {
+  "diff": 0.0007960199004975124,
+  "ci95": [
+   -0.0007446808510638297,
+   0.0021250664893617014
+  ],
+  "p_one_sided": 0.1345
+ },
+ "W1_vs_raw": {
+  "diff": -0.0013930348258706469,
+  "ci95": [
+   -0.003117086038961039,
+   0.0006452265900483216
+  ],
+  "p_one_sided": 0.9245
+ },
+ "w0y_vs_raw": {
+  "diff": -0.0021890547263681594,
+  "ci95": [
+   -0.004333374384236453,
+   0.0005785844704977891
+  ],
+  "p_one_sided": 0.9535
+ },
+ "thresholds": {
+  "weak": 0.0017766898294377762,
+  "clear": 0.0035533796588755524
+ },
+ "reading": {
+  "branch": 2,
+  "text": "no clear same-budget gain; A14 section 6 branch 2: stop, and do not change the query set, the depth, k, beta or the thresholds, and build no further explanation around this dataset",
+  "positioning": "a same-experiment split, so it adds generality across measurement modality; it is not independent validation and implies nothing about the RNA results"
+ }
+}

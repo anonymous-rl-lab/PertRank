@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "version": "0.2.0rc2",
+  "source_import": false,
+  "checked_files": {
+    "__init__.py": "8f15968d27e4cdd55077131f5fa9a78a5de7868b6839069dd60595870a1ba74f",
+    "_version.py": "81a3a30122ca41daa5081f77ee695838a0886d4ed9dad4571e4c249f4caa19c0",
+    "api.py": "e69db83fedd933b11dd2e9342068008516595ed2737089f4619e5a0a3115d3f3",
+    "core.py": "8da77276ced1591773b060f34c99c8a2531fb2ea28d242154cf659b39581fb6f",
+    "data/replogle_k562.npz": "0087e4d915105caac801069499428d58032ec64ab89e224230216404fda51dff",
+    "data/replogle_k562.provenance.json": "7b52486b05225941d08b8a3f8d7132c9882c754bae6932214c0ec72f203b040c",
+    "data/tcell_d3_rest.npz": "6e80c7819e659fe3b901ba2a6e5e6030ccd25a3cd4b65443afbb8f8c4edc7ca8",
+    "data/tcell_d3_rest.provenance.json": "dac812728e90eceb3e54ca295f9a7c0ee29b1cfcb74ce70078a65eabea598a9e",
+    "datasets.py": "f866a38be73986e698e5d11c42c828e84670f211bdbd69289cd8942417c1b751",
+    "evaluation.py": "f342f67eb0c9c224c852ce4158b39f97eaa8e33cdeb706233e10a1c2feca163f",
+    "py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

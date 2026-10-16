@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "reference_exact_historical": true,
+  "same_reference_draws": {
+    "shared_labels": {
+      "expected": "14f3e447d5e78422186b58743bf00abf7d499f36bc34702912b01b5c8fd7655a",
+      "actual": "14f3e447d5e78422186b58743bf00abf7d499f36bc34702912b01b5c8fd7655a"
+    },
+    "batch_separate": {
+      "expected": "ac7392406693dd3c7803c6b54ecad73ff97ba1269f42d311e6ad6bf5c3c82e2e",
+      "actual": "ac7392406693dd3c7803c6b54ecad73ff97ba1269f42d311e6ad6bf5c3c82e2e"
+    }
+  }
+}

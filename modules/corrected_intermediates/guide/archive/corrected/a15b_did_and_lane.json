@@ -1,0 +1,123 @@
+{
+ "created_utc": "2026-10-05T17:20:19Z",
+ "integrity": {
+  "script_sha256": "ec9c0008263ea8d0673207b7d7ab26aac9baa3360e0a7d556acf8a6f0d665bef",
+  "amendment_A15_sha256": "1295f1a038696560987e270663504cb127eb2a09153336fc958f7817bcbbf319",
+  "amendment_A15a_sha256": "8adb1b42f54d7a403ae7588ece86443d4912c7d6c03408e0abee3e152580f4b6",
+  "amendment_A15b_sha256": "b3b42938897605d89a0b97f0ba4c968294eb1333e6572cfafbe5ce675672d80b"
+ },
+ "note": "amendment A15b sections 2 and 3. The difference in differences says only whether W1's gain is larger within a guide than across guides; it attributes nothing to any mechanism. The lane check reports batch composition and applies no correction.",
+ "did": {
+  "W1 minus w0y": {
+   "D3_Rest": {
+    "diff": 0.0186606372994764,
+    "ci95": [
+     0.00976088613395314,
+     0.02967906487880767
+    ],
+    "p_one_sided": 0.0
+   },
+   "D1_Rest": {
+    "diff": 0.021186408117106047,
+    "ci95": [
+     0.016055576412092813,
+     0.026512640996157976
+    ],
+    "p_one_sided": 0.0
+   },
+   "D2_Rest": {
+    "diff": 0.013093413322561847,
+    "ci95": [
+     0.005347140120884474,
+     0.02072173666139372
+    ],
+    "p_one_sided": 0.0
+   },
+   "pooled_endpoints": {
+    "diff": 0.017646819579714767,
+    "ci95": [
+     0.010387867555643476,
+     0.025637814178786456
+    ]
+   },
+   "reading": "W1's gain is larger within a guide and narrows across guides; this attributes nothing to any mechanism"
+  },
+  "W1 minus raw": {
+   "D3_Rest": {
+    "diff": 0.01723907470925504,
+    "ci95": [
+     0.005110962470867139,
+     0.026486327384768266
+    ],
+    "p_one_sided": 0.003
+   },
+   "D1_Rest": {
+    "diff": 0.018985995755613924,
+    "ci95": [
+     0.011662941528179921,
+     0.02511532891593211
+    ],
+    "p_one_sided": 0.0
+   },
+   "D2_Rest": {
+    "diff": 0.0006495242798279636,
+    "ci95": [
+     -0.005336065397835521,
+     0.00668544008936875
+    ],
+    "p_one_sided": 0.4175
+   },
+   "pooled_endpoints": {
+    "diff": 0.012291531581565643,
+    "ci95": [
+     0.003812612867070513,
+     0.019429032130023043
+    ]
+   },
+   "reading": "W1's gain is larger within a guide and narrows across guides; this attributes nothing to any mechanism"
+  }
+ },
+ "lane": {
+  "D3_Rest": {
+   "targets": 441,
+   "lanes": 24,
+   "tvd_quartiles": [
+    0.24,
+    0.27,
+    0.31
+   ],
+   "tvd_mean": 0.2732879818594105,
+   "fraction_tvd_ge_0.5": 0.0,
+   "fraction_disjoint_lanes": 0.0
+  },
+  "D1_Rest": {
+   "targets": 551,
+   "lanes": 23,
+   "tvd_quartiles": [
+    0.24000000000000002,
+    0.27,
+    0.30000000000000004
+   ],
+   "tvd_mean": 0.27116152450090747,
+   "fraction_tvd_ge_0.5": 0.0018148820326678765,
+   "fraction_disjoint_lanes": 0.0
+  },
+  "D2_Rest": {
+   "targets": 353,
+   "lanes": 23,
+   "tvd_quartiles": [
+    0.24000000000000005,
+    0.2700000000000001,
+    0.30000000000000004
+   ],
+   "tvd_mean": 0.27954674220963177,
+   "fraction_tvd_ge_0.5": 0.0226628895184136,
+   "fraction_disjoint_lanes": 0.0
+  },
+  "reading": "intermediate: the numbers are reported and no conclusion is drawn",
+  "summary": {
+   "mean_of_median_tvd": 0.27,
+   "mean_fraction_disjoint": 0.0
+  }
+ }
+}

@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-12T04:19:32.249470+00:00",
+  "change": "ASH output selection only; model/prior/grid/optimizer unchanged. TRADE primary remains immutable official function.",
+  "previous_sha256": "970f66dd2dae513fe15be2b78e78582884c8f8f545f50e51809afa4b14bbd082",
+  "new_sha256": "c5fb54beff8050c4d5692ad3328cf12f6bccbf6a1f4e883cf936fde457793a0a",
+  "equivalence_audit_sha256": "ccbab58ba362e90fcee0b4e2e8e7336a9ae90af153acf8c8377874d5b2c7d9ba",
+  "D3_comparison_scores_seen": false,
+  "D4_comparison_scores_seen": false
+}

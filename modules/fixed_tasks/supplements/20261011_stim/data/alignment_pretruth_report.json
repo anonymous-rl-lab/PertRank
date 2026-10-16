@@ -1,0 +1,7 @@
+{
+  "status": "ok",
+  "reason": null,
+  "eligible_targets": 539,
+  "rank_scope": "all mechanism-eligible targets before per-query self exclusion",
+  "excluded_targets": 22
+}

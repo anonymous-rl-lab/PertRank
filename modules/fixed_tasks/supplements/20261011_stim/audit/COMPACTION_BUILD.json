@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "identity": "post-result exact fixed-method top-25 sufficient input compaction",
+  "prediction_lock_zip_sha256": "8f6f231006f2a93773f6c092466458014a6b443ff38b951b9732579b448902d1",
+  "scientific_source_files": {
+    "frozen_engine.py": "1910bf79496cebe51ec6111c6b54acd8daca3fa65c196afa471a6a425a9fb6c8",
+    "stats_frozen_exact_score.py": "9f940b35031016a5287c0c4e1ce519058cc3357b8567787cc348999cb2ce9683",
+    "stats_frozen_summary.py": "08c5f4edade9e5c8756969a1892fea27259a2a86857a17d01c034b065773bdd3",
+    "stats_frozen_wild_cluster_t.py": "ea6a9a5dc6fc073be5f05ca7bb53f86612b8732454bcb9433485fb1a19fd63e1",
+    "stim_stats.py": "7de2a44d7289755d856d478fc34200e687c501fc58c05153c332540d11efc7a3",
+    "stim_secondary.py": "b0c067fe0417cca3b9f29ac6f077332bb363fb7e1cdfa48dcd7b76486485d6e1"
+  },
+  "original_evaluator_sha256": "fb95beb1e265ab41a5da1df52ab7c5fd579399d68ca2cbbd5279617f5dfe1475",
+  "orchestration_replacements_only": [
+    {
+      "before": "def score_and_analyze(main, query, truth, unavailable, *, cross=None, alignment=None):",
+      "after": "def analyze(main, query, unavailable, *, cross=None, alignment=None):"
+    },
+    {
+      "before": "weights = weights_from_lock(main, unavailable)",
+      "after": "weights = main['weights']"
+    },
+    {
+      "before": "scores, names = stats.score_predictions(main['original_effects'], truth, weights,\n                                            main['query_gene_ids'], main['target_ids'])",
+      "after": "scores, names = main['scores'], main['arm_names']"
+    },
+    {
+      "before": "xp, xq, xt = cross['predictions'], cross['query'], cross['truth']",
+      "after": "xp, xq = cross['predictions'], cross['query']"
+    },
+    {
+      "before": "xw = weights_from_lock(xp, {}, crossguide=True)",
+      "after": "xw = xp['weights']"
+    },
+    {
+      "before": "xs, xn = stats.score_predictions(xp['original_effects'], xt, xw,\n                                         xp['query_gene_ids'], xp['target_ids'])",
+      "after": "xs, xn = xp['scores'], xp['arm_names']"
+    },
+    {
+      "before": "contributions = secondary.nomination_contributions(\n            main['original_effects'][:, :, rp], truth[:, rp], weights['PertRank'],\n            weights['Euclidean'], main['query_gene_ids'][rp], main['target_ids'])",
+      "after": "contributions = main['alignment_contributions']"
+    }
+  ],
+  "tasks": {
+    "main": {
+      "status": "PASS",
+      "task": "main",
+      "original_effect_entries": 1666170,
+      "retained_effect_entries": 553575,
+      "retained_fraction": 0.332244008714597,
+      "support_size_bytes": 3134114,
+      "retained_candidates_percentiles": [
+        83.0,
+        112.0,
+        125.0,
+        141.0,
+        561.0
+      ],
+      "all_original_weights_exact": true,
+      "all_signed_memberships_exact": true,
+      "all_independent_full_sort_checks_passed": true,
+      "all_boundary_ties_preserved": true,
+      "float_quantization": false,
+      "original_inputs_modified": false,
+      "prediction_membership_sha256": "6156cdd7d8f14dd9078a6bc088b7ea70e3794acdd47f1991ef068e0c1c19c6ec",
+      "truth_membership_sha256": "21f87a89d31cdb44f0ddb4bd52bdec47eab7c371ed66a7dd974342043a7f1f43",
+      "original_array_digest": "bbd658d89eed2c73ab2760caa6548dbfb0f8eb55a52c908e84f599f01b950640",
+      "original_truth_array_digest": "f5d9f3e76f80b2b4e0b4f9ad42acc295d83629cf4ef9691fa8014052dce0c293",
+      "source_files": {
+        "input/main_nontrade_predictions.npz": "9c3ff69c5c30c89302d17e76476ecd868c9fe02b787245fb28b19d6559d97d01",
+        "evaluation/main_reference.npz": "a2f797665d50060aefc3e3849de046b0210816b38b82dc5388b0f68d8664c189",
+        "input/main_query_context.npz": "a30eb6765d97dd1244271e4fa8c87f761100db521f045fba753aa80ea407fc46"
+      },
+      "elapsed_seconds": 4.24463519800338,
+      "prediction_membership_values_verified": 13329360,
+      "truth_membership_values_verified": 666468
+    },
+    "xguide": {
+      "status": "PASS",
+      "task": "xguide",
+      "original_effect_entries": 39000,
+      "retained_effect_entries": 38995,
+      "retained_fraction": 0.9998717948717949,
+      "support_size_bytes": 367994,
+      "retained_candidates_percentiles": [
+        25.0,
+        26.0,
+        26.0,
+        26.0,
+        26.0
+      ],
+      "all_original_weights_exact": true,
+      "all_signed_memberships_exact": true,
+      "all_independent_full_sort_checks_passed": true,
+      "all_boundary_ties_preserved": true,
+      "float_quantization": false,
+      "original_inputs_modified": false,
+      "prediction_membership_sha256": "6bbdd5bbd293f3ab41a74fc55e8fa1f92452849c0eecdbab0030c67c7fb6c7ce",
+      "truth_membership_sha256": "ce537e9e9ee5559509a33502b52a80d82c9b20e319e6da2dbc87574905a007d7",
+      "original_array_digest": "c27f7ccefcf1ee7eac88a010ee3f4d2dc6e51786d498a6c77059ce2ca53b1c5e",
+      "original_truth_array_digest": "62cfbf81f37664b776a6c35f26a7853e0f00478406d4366586bbe98afed038d9",
+      "source_files": {
+        "input/xguide_nontrade_predictions.npz": "00af3c5c97d39cbef8da7c140d9db652f3604ff3e42efee2a44b2c88bbc20fd1",
+        "evaluation/xguide_reference.npz": "a9d35c7a7d8127330feec04ec4355c8aadcd45dbc47533ffa42274e495992c50",
+        "input/xguide_query_context.npz": "6d22074d5560796e6209e37cea2c65a4c5a81b70949a7a60de93afdc0c76be1e"
+      },
+      "elapsed_seconds": 0.4995004049997078,
+      "prediction_membership_values_verified": 234000,
+      "truth_membership_values_verified": 15600
+    }
+  },
+  "prospective_lock_replaced": false,
+  "network_used": false,
+  "raw_cells_reread": false
+}

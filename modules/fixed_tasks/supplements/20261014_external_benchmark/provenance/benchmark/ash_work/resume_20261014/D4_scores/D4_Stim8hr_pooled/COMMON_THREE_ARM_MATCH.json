@@ -1,0 +1,138 @@
+{
+  "status": "MATCHED_COMMON_THREE_ARMS_BITWISE_PASS",
+  "created_utc": "2026-10-14T01:39:33.048491+00:00",
+  "dataset": "D4_Stim8hr",
+  "kind": "pooled",
+  "checks": {
+    "raw_scores": {
+      "exact_array_equal": true,
+      "shape": [
+        5,
+        300,
+        561
+      ],
+      "dtype": "float64",
+      "sha256": "9991b37282a2ac7d6f2ae6646e6dac8bdb7f13eac2a08d0112d06e19555590c0"
+    },
+    "reference_scores": {
+      "exact_array_equal": true,
+      "shape": [
+        300,
+        561
+      ],
+      "dtype": "float64",
+      "sha256": "586f562443021018915405d44a6d06ed2b1f7fb5bcdd79874e01ca1a93a9c1bf"
+    },
+    "w0": {
+      "exact_array_equal": true,
+      "shape": [
+        5,
+        561
+      ],
+      "dtype": "float64",
+      "sha256": "28bd7523e261878f414cbe2d7d1685be9af98524794bb66a431f424c75d6649b"
+    },
+    "wm": {
+      "exact_array_equal": true,
+      "shape": [
+        5,
+        561
+      ],
+      "dtype": "float64",
+      "sha256": "70a32fb90a65e5666da4afd60e31603d18e9b7adde07188217d7464ecc2cadc6"
+    },
+    "queries": {
+      "exact_array_equal": true,
+      "shape": [
+        300
+      ],
+      "dtype": "<U15",
+      "sha256": "782e9f3caba1068dc8b2854a20e2b28f7319f68ea358ab277bda4431654ae6d8"
+    },
+    "candidates": {
+      "exact_array_equal": true,
+      "shape": [
+        561
+      ],
+      "dtype": "<U15",
+      "sha256": "82458163a9d6112e6129d3c9f4ec28e4ce59a75ced817e83badc9e115e202ecb"
+    },
+    "blocks": {
+      "exact_array_equal": true,
+      "shape": [
+        300
+      ],
+      "dtype": "int32",
+      "sha256": "2f6b942dd7450a6cc7c725f1347abf1fd1d52626d21196c3923a961667417164"
+    },
+    "input_reps": {
+      "exact_array_equal": true,
+      "shape": [
+        5
+      ],
+      "dtype": "int64",
+      "sha256": "281b02b10f5f4997e5bf8c93343e6f2aa8bc81ffad6d6813c593181ebceda12a"
+    },
+    "sampled_query_blocks": {
+      "exact_array_equal": true,
+      "shape": [
+        2000,
+        30
+      ],
+      "dtype": "int64",
+      "sha256": "a8247410c8ad24fbaa0b4c3d4abbed86a827b8009e63143d675792354d2faa79"
+    },
+    "query_weights": {
+      "exact_array_equal": true,
+      "shape": [
+        2000,
+        300
+      ],
+      "dtype": "float64",
+      "sha256": "be3da0ef3d363306f5d5c743ca7bb24fa9b2c09010715e95eca578d63223d012"
+    },
+    "first_three_query_p25": {
+      "exact_array_equal": true,
+      "shape": [
+        5,
+        3,
+        300
+      ],
+      "dtype": "float64",
+      "sha256": "cdec81db1000e8db7247b4da86d287f35e21d8a156b4ffdf596934eff02a5989"
+    },
+    "first_three_query_bootstrap_p25": {
+      "exact_array_equal": true,
+      "shape": [
+        2000,
+        3
+      ],
+      "dtype": "float64",
+      "sha256": "617bca0a0181f5a7e636efaa9fc1a04bf218af2374e5244d2d9dfe50afa7a5b0"
+    },
+    "first_three_query_p10": {
+      "exact_array_equal": true,
+      "shape": [
+        5,
+        3,
+        300
+      ],
+      "dtype": "float64",
+      "sha256": "7e6e64a5b339f29439c9c3fa3f439b0c6bc9b78535952fc61a7dd038b5b3ae53"
+    },
+    "first_three_query_bootstrap_p10": {
+      "exact_array_equal": true,
+      "shape": [
+        2000,
+        3
+      ],
+      "dtype": "float64",
+      "sha256": "df6725cb294c252b2337428c7abcd68ef326e200adbe4b3ec0f5cf8ed22b3063"
+    }
+  },
+  "ash_report_sha256": "9cd5a42329fc7b610272684512eed31567748169c4069e1c4fd942a19339745d",
+  "fr_report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evaluation/D4_Stim8hr/evaluation_report.json",
+  "fr_report_sha256": "04a4747ff178d81494a8abeef07ffaee45a2ccbecafc68e433ad2d51f1c182e6",
+  "verification_source_sha256": "aefb9b15edc426871c95619f0a0753a2fa7ad6fc06e2a4b5a91f5b9cd97a0b42",
+  "scope": "Identity check only; ASH contrasts remain descriptive and are not included in the original FR simultaneous contrast family."
+}

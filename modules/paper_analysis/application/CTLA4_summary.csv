@@ -1,0 +1,3 @@
+direction,candidates,common,swapped_in,swapped_out,raw_P25,Euclidean_P25,PertRank_P25,delta_P25,boundary_fractional_candidates_E,boundary_fractional_candidates_P
+up,561,19,6,6,0.44,0.52,0.64,0.12,0,0
+down,561,17,8,8,0.16,0.2,0.28,0.08,0,0
