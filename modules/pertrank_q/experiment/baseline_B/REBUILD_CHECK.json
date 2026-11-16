@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "training_performed": false,
+  "all_source_locks_verified_before_input_load": true,
+  "plan_sha256": "faf0129e1844001e79c26ff689b1262ce58a2beea8b4543c7c37281b13e1b924",
+  "input_sha256": {
+    "inputs/D3_neural_inputs.npz": "82a24270cd2f12f831e17dcdcf6a70986e76b31159c27d1285e3b292700cb8e1",
+    "inputs/D1_neural_inputs.npz": "bebd75b04ae05cd95a6d61f6177719b348696078eff8c00362bf55217518d6ab",
+    "inputs/D2_neural_inputs.npz": "f21ea23d78e1112df267c171abf8c0c5b6de20b3f4fad8c9f1621bc41355f6e0"
+  },
+  "torch_version": "2.15.0+cpu",
+  "historical_A_replayed_exactly": true,
+  "tasks": {
+    "D3_held0": {
+      "prediction_sha256": "2aaf2e8ce1caf2ee8de6ecdbc9299e1ab9448e34626ddc3e69400650401169da",
+      "prediction_bytes_match_lock": true,
+      "existing_score_max_absolute_difference": 0.0,
+      "calibration_held_evaluation_and_split_hashes_match": true
+    },
+    "D3_held1": {
+      "prediction_sha256": "bb4361117d4386f9b0e32b570cf807f3fb5cd1a8dd31299c58469364607045cd",
+      "prediction_bytes_match_lock": true,
+      "existing_score_max_absolute_difference": 0.0,
+      "calibration_held_evaluation_and_split_hashes_match": true
+    },
+    "D1_held0": {
+      "prediction_sha256": "82f68b141c9768aa898ad67fbfec055478431ce323f88fb92f07719527f87ba4",
+      "prediction_bytes_match_lock": true,
+      "existing_score_max_absolute_difference": 0.0,
+      "calibration_held_evaluation_and_split_hashes_match": true
+    },
+    "D1_held1": {
+      "prediction_sha256": "0b5bac36864b839913de538aa5bacdcef617630e850e05589ae4a4e8bf6c07b4",
+      "prediction_bytes_match_lock": true,
+      "existing_score_max_absolute_difference": 0.0,
+      "calibration_held_evaluation_and_split_hashes_match": true
+    },
+    "D2_held0": {
+      "prediction_sha256": "d755b4580e8379aef7450bd8e5d12905696f342b54f4c4101b1a460ea6739f31",
+      "prediction_bytes_match_lock": true,
+      "existing_score_max_absolute_difference": 0.0,
+      "calibration_held_evaluation_and_split_hashes_match": true
+    },
+    "D2_held1": {
+      "prediction_sha256": "c890ce48e4d6a70fb0ca88d4e5a607d4811af0c0023b73a80f055883d3a487a0",
+      "prediction_bytes_match_lock": true,
+      "existing_score_max_absolute_difference": 0.0,
+      "calibration_held_evaluation_and_split_hashes_match": true
+    }
+  }
+}

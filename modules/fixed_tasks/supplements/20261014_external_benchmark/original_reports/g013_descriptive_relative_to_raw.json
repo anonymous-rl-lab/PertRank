@@ -1,7 +1,7 @@
 {
   "status": "COMPLETE",
   "analysis_label": "Post hoc descriptive paired contrasts",
-  "report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n100/evaluation_report.json",
+  "report_path": "/anonymous/workspace/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n100/evaluation_report.json",
   "report_sha256": "a060d244a9a6cc9a8fe0ef4b5ab4526963a3caa8f504eb1a2c14dcb7c79992f3",
   "arrays_sha256": "1a9b89192431e5207a0158e2d9ff1ae47bb1574ce4da593aa06ea51f9fe9ef29",
   "owner_sha256": "c4cb84a94876ab86434f547e89990e1725c484e410a25384a0759be5bd59c239",

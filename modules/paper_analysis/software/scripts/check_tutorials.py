@@ -3,16 +3,22 @@
 This socket-free check needs only the installed PertRank package. Open the
 notebooks in Jupyter for rich interactive tables. No cell is skipped.
 """
+import argparse
 import json
 import os
 from pathlib import Path
 
+parser = argparse.ArgumentParser()
+parser.add_argument('--output-dir', type=Path, help='Write tutorial outputs outside the source tree')
+args = parser.parse_args()
 root = Path(__file__).resolve().parents[1] / 'tutorials'
+output_root = args.output_dir.resolve() if args.output_dir else root
+output_root.mkdir(parents=True, exist_ok=True)
 for path in sorted(root.glob('*.ipynb')):
     notebook = json.loads(path.read_text())
     namespace = {'__name__': '__main__', 'display': lambda value: None}
     previous = os.getcwd()
-    os.chdir(root)
+    os.chdir(output_root)
     count = 0
     try:
         for cell in notebook['cells']:

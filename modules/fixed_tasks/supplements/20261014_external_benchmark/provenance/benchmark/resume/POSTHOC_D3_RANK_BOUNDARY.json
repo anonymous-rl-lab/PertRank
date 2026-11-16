@@ -186,7 +186,7 @@
     "cgroup_bytes": 8589934592,
     "threads": 2,
     "sequential": true,
-    "shared_lock": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/heavy_memory.lock",
+    "shared_lock": "/anonymous/workspace/fr_benchmark/heavy_memory.lock",
     "previous_D3_max_rss_kib": 6250996,
     "timeout_per_fit_seconds": 900,
     "timeout_policy": "Preserve incomplete output as a resource failure; never zero score; no automatic alternate algorithm or shortened iteration retry.",

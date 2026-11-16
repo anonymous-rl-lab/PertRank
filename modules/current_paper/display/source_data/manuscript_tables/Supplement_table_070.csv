@@ -1,0 +1,6 @@
+Eligible scalar,Equal-donor mean P@25,Selection
+Euclidean,0.305760111,Not selected
+diagonal,0.305088723,Not selected
+TRADE_scalar,0.313870600,Not selected
+PR_E,0.309904955,Not selected
+PR_M,0.316887497,Selected before D4

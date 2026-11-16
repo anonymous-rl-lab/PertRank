@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "training_performed": false,
+  "checks": {
+    "selection_probe": {
+      "passed": true,
+      "all_result_fields_except_script_hash_identical": true,
+      "original_report_unchanged": true
+    },
+    "objective_probe": {
+      "passed": true,
+      "all_result_fields_except_script_hash_identical": true,
+      "original_report_unchanged": true
+    },
+    "scale_probe": {
+      "passed": true,
+      "all_result_fields_except_script_hash_identical": true,
+      "original_report_unchanged": true
+    },
+    "independent_objective_check": {
+      "passed": true,
+      "all_result_fields_except_script_hash_identical": true,
+      "original_report_unchanged": true
+    }
+  },
+  "configured_output_used": true,
+  "configured_base_used": true
+}

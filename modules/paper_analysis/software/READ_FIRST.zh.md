@@ -1,12 +1,12 @@
-# PertRank 0.2.0rc2 使用说明
+# PertRank 0.2.0rc3 使用说明
 
-本版将可安装软件与 v25.2 论文的核心设计对齐：**把表达谱层面的对照信息用于扰动可靠性评估，保留与生物学问题一致的基因读出，并把同一可靠性计算复用到外部效应估计。** 软件仍使用固定的五个对照方向和 `beta=0.9`。
+本版将可安装软件与 当前评审论文的核心设计对齐：**把表达谱层面的对照信息用于扰动可靠性评估，保留与生物学问题一致的基因读出，并把同一可靠性计算复用到外部效应估计。** 软件仍使用固定的五个对照方向和 `beta=0.9`。
 
-当前为匿名私有评审版本。公开 PyPI 发布、scverse 登记和 pertpy 合并是独立的后续步骤；本地可安装包不代表已被这些平台收录。
+这是匿名评审源码版本。原有许可证待作者决定的状态保留，未擅自改成开源许可证。本包不提供作者关联的公共发布地址。
 
 ## 安装与运行
 
-在源代码目录运行：
+先将软件源码复制到总代码包之外，再在该副本目录运行，避免构建文件改变总包校验清单：
 
 ```bash
 python -m pip install .
@@ -35,8 +35,8 @@ python -m pip wheel --no-deps . --wheel-dir dist
 
 | 教程 | 归档内容 | 提供形式 |
 |---|---|---|
-| Replogle K562 | 全部 2,000 个候选、300 个查询；可靠性统计量来自 8,202 个基因 | `tutorials/01_replogle.ipynb` 及 HTML |
-| T 细胞 D3 Rest | 全部 52 个候选、293 个查询；可靠性统计量来自 13,390 个基因，附已存 FR 输出 | `tutorials/02_tcell.ipynb` 及 HTML |
+| Replogle K562 | 全部 2,000 个候选、300 个查询；可靠性统计量来自 8,202 个基因 | `tutorials/01_replogle.ipynb` |
+| T 细胞 D3 Rest | 全部 52 个候选、293 个查询；可靠性统计量来自 13,390 个基因，附已存 FR 输出 | `tutorials/02_tcell.ipynb` |
 
 教程离线读取真实的已存充分统计量，重新计算权重和候选表；保留完整候选池，演示查询按 ID 字典序选取。每套数据均附来源、哈希和处理层级。这是统计量到排名的复现，逐细胞数据入口由 AnnData 示例和软件测试单独覆盖。
 
@@ -44,7 +44,7 @@ python -m pip wheel --no-deps . --wheel-dir dist
 python scripts/check_tutorials.py
 ```
 
-该命令运行两篇教程的所有代码单元。Jupyter 可交互查看 notebook，HTML 供直接阅读，候选表导出到 `outputs/`。
+该命令运行两篇教程的所有代码单元。Jupyter 可交互查看 notebook；传入 `--output-dir` 可将候选表导出到总包之外，源文件保持不变。
 
 ## 验证与完整复现
 
@@ -55,3 +55,9 @@ python scripts/check_tutorials.py
 ## 后续社区接入
 
 [社区接入说明](docs/community_integration.md) 保留了 scverse 登记及 pertpy 贡献的准备材料。公开阶段须补齐实际维护者、仓库、作者选定的许可与引用信息，再完成发布和社区审核。
+
+## 三份文档与 PyPI 链接
+
+`docs/scientific_design.md`、`docs/api.md`、`tutorials/01_replogle.ipynb` 均随源码分发包提供。PyPI 不会把压缩包内的文件自动发布为网页。源码 README 保留供 GitHub 浏览使用的相对链接；用于 PyPI 的 `PYPI_DESCRIPTION.md` 将这些链接转成明确的包内路径，避免产生 404。wheel 保留运行代码及真实教程数据，文档与 notebook 在源码包中。
+
+PertRank-Q 位于总包的 `modules/pertrank_q`，不包含在 `pertrank` 的 Python API 中。它从冻结检查点复算参考监督的候选子池结果。

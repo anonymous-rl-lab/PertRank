@@ -65,7 +65,7 @@ def main():
     root = args.root
     out = args.out or root / 'results'
     out.mkdir(parents=True, exist_ok=True)
-    plan = root / 'ANALYSIS_PLAN_v1.2.0.md'
+    plan = root / 'ANALYSIS_PLAN.md'
     plan_hash = hashlib.sha256(plan.read_bytes()).hexdigest()
     assert 'pos|fdr <0.05' in plan.read_text()
     assert 'neg|lfc <-0.5' in plan.read_text()
@@ -153,7 +153,7 @@ def main():
     evidence = pd.DataFrame(all_rows)
     evidence.to_csv(out / 'mageck_nomination_evidence.tsv', sep='\t', index=False)
     pd.DataFrame(list_rows).to_csv(out / 'mageck_list_support.tsv', sep='\t', index=False)
-    for name in ['ANALYSIS_PLAN_v1.2.0.md', 'data/candidate_mapping.tsv', 'data/il2_all_nominations.tsv.gz', 'results/target_external_effects.tsv']:
+    for name in ['ANALYSIS_PLAN.md', 'data/candidate_mapping.tsv', 'data/il2_all_nominations.tsv.gz', 'results/target_external_effects.tsv']:
         input_hashes[name] = hashlib.sha256((root / name).read_bytes()).hexdigest()
     result = {'version': '1.2.0', 'endpoint': 'prespecified_secondary_MAGeCK_direction_matched_support',
         'fixed_denominator': DENOMINATOR, 'number_of_lists': 10, 'external_biological_donors': 2,

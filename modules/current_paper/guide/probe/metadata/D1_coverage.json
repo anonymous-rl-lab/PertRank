@@ -1,0 +1,918 @@
+{
+  "source": "D1",
+  "status": "PASS",
+  "original20_cells_unchanged": true,
+  "target_count": 59,
+  "source_url": "https://genome-scale-tcell-perturb-seq.s3.amazonaws.com/marson2025_data/D1_Rest.assigned_guide.h5ad",
+  "source_etag": "\"524decb848ce000c103b21b61b22e764-8514\"",
+  "source_bytes": 142828875662,
+  "archive_sha256": "f798330758c82732c398323bd9ba49d8c0d46401c2da679374d0d9bdb7d2f6ee",
+  "compact_input_sha256": "9c319774b2914ffdc0cf27fdcf7f418d5f4dd603150f74c6cd5cd2da3b3a3ca3",
+  "metadata_sha256": "c7ab65120c1cfc0e04c8ab64bac031ccb6fa3e80baea253939e998a09e05cc73",
+  "all_archived_rows": 5743,
+  "shallow_rows": 1180,
+  "gene_identity_and_total_counts_exact": true,
+  "logical_datasets_read": [
+    "obs/guide_id/categories",
+    "obs/guide_id/codes",
+    "obs/lane_id/categories",
+    "obs/lane_id/codes",
+    "obs/perturbed_gene_name/categories",
+    "obs/perturbed_gene_name/codes",
+    "obs/perturbed_gene_id/categories",
+    "obs/perturbed_gene_id/codes",
+    "obs/guide_type/categories",
+    "obs/guide_type/codes",
+    "obs/low_quality",
+    "obs/total_counts"
+  ],
+  "expression_datasets_accessed": false,
+  "network_calls": 19,
+  "network_bytes": 75739022,
+  "two_guides": 50,
+  "one_guide": 9,
+  "three_or_more_guides": 0,
+  "two_guides_min2": 44,
+  "two_guides_min4": 33,
+  "balanced10_10": 4,
+  "two_input_guides_and_unseen_reference_guide": 0,
+  "seconds": 134.40102783699695,
+  "records": [
+    {
+      "target": "AIRE",
+      "guide_counts": {
+        "AIRE-1": 12,
+        "AIRE-2": 8
+      },
+      "reference_guide_counts": {
+        "AIRE-1": 61,
+        "AIRE-2": 39
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 8,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "AKAP8",
+      "guide_counts": {
+        "AKAP8-1": 13,
+        "AKAP8-2": 7
+      },
+      "reference_guide_counts": {
+        "AKAP8-1": 49,
+        "AKAP8-2": 51
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 7,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "ARID5A",
+      "guide_counts": {
+        "ARID5A-1": 10,
+        "ARID5A-2": 10
+      },
+      "reference_guide_counts": {
+        "ARID5A-1": 43,
+        "ARID5A-2": 57
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 10,
+      "balanced10_10": true,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "ATXN7L3",
+      "guide_counts": {
+        "ATXN7L3-1": 9,
+        "ATXN7L3-2": 11
+      },
+      "reference_guide_counts": {
+        "ATXN7L3-1": 41,
+        "ATXN7L3-2": 59
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 9,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "BACH2",
+      "guide_counts": {
+        "BACH2-1": 16,
+        "BACH2-2": 4
+      },
+      "reference_guide_counts": {
+        "BACH2-1": 72,
+        "BACH2-2": 28
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 4,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "BCL11B",
+      "guide_counts": {
+        "BCL11B-2": 20
+      },
+      "reference_guide_counts": {
+        "BCL11B-2": 100
+      },
+      "n_guides": 1,
+      "minimum_guide_cells": 20,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "BPTF",
+      "guide_counts": {
+        "BPTF-1": 20
+      },
+      "reference_guide_counts": {
+        "BPTF-1": 100
+      },
+      "n_guides": 1,
+      "minimum_guide_cells": 20,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "CBFB",
+      "guide_counts": {
+        "CBFB-2": 20
+      },
+      "reference_guide_counts": {
+        "CBFB-1": 1,
+        "CBFB-2": 23
+      },
+      "n_guides": 1,
+      "minimum_guide_cells": 20,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": [
+        "CBFB-1"
+      ]
+    },
+    {
+      "target": "CLOCK",
+      "guide_counts": {
+        "CLOCK-1": 3,
+        "CLOCK-2": 17
+      },
+      "reference_guide_counts": {
+        "CLOCK-1": 10,
+        "CLOCK-2": 90
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 3,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "DR1",
+      "guide_counts": {
+        "DR1-1": 11,
+        "DR1-2": 9
+      },
+      "reference_guide_counts": {
+        "DR1-1": 21,
+        "DR1-2": 14
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 9,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "EGR3",
+      "guide_counts": {
+        "EGR3-1": 18,
+        "EGR3-2": 2
+      },
+      "reference_guide_counts": {
+        "EGR3-1": 87,
+        "EGR3-2": 13
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 2,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "ELK4",
+      "guide_counts": {
+        "ELK4-1": 2,
+        "ELK4-2": 18
+      },
+      "reference_guide_counts": {
+        "ELK4-1": 25,
+        "ELK4-2": 75
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 2,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "EPAS1",
+      "guide_counts": {
+        "EPAS1-1": 6,
+        "EPAS1-2": 14
+      },
+      "reference_guide_counts": {
+        "EPAS1-1": 22,
+        "EPAS1-2": 78
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 6,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "ETS1",
+      "guide_counts": {
+        "ETS1-1": 10,
+        "ETS1-2": 10
+      },
+      "reference_guide_counts": {
+        "ETS1-1": 30,
+        "ETS1-2": 17
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 10,
+      "balanced10_10": true,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "FOXP1",
+      "guide_counts": {
+        "FOXP1-1": 12,
+        "FOXP1-2": 8
+      },
+      "reference_guide_counts": {
+        "FOXP1-1": 49,
+        "FOXP1-2": 51
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 8,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "FOXP3",
+      "guide_counts": {
+        "FOXP3-1": 15,
+        "FOXP3-2": 5
+      },
+      "reference_guide_counts": {
+        "FOXP3-1": 54,
+        "FOXP3-2": 46
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 5,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "GATA3",
+      "guide_counts": {
+        "GATA3-1": 12,
+        "GATA3-2": 8
+      },
+      "reference_guide_counts": {
+        "GATA3-1": 67,
+        "GATA3-2": 33
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 8,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "GFI1",
+      "guide_counts": {
+        "GFI1-1": 11,
+        "GFI1-2": 9
+      },
+      "reference_guide_counts": {
+        "GFI1-1": 25,
+        "GFI1-2": 16
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 9,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "HIVEP2",
+      "guide_counts": {
+        "HIVEP2-1": 15,
+        "HIVEP2-2": 5
+      },
+      "reference_guide_counts": {
+        "HIVEP2-1": 17,
+        "HIVEP2-2": 9
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 5,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "HIVEP3",
+      "guide_counts": {
+        "HIVEP3-1": 2,
+        "HIVEP3-2": 18
+      },
+      "reference_guide_counts": {
+        "HIVEP3-1": 27,
+        "HIVEP3-2": 43
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 2,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "IKZF1",
+      "guide_counts": {
+        "IKZF1-1": 4,
+        "IKZF1-2": 16
+      },
+      "reference_guide_counts": {
+        "IKZF1-1": 13,
+        "IKZF1-2": 69
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 4,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "IRF1",
+      "guide_counts": {
+        "IRF1-1": 1,
+        "IRF1-2": 19
+      },
+      "reference_guide_counts": {
+        "IRF1-1": 4,
+        "IRF1-2": 52
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 1,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "IRF2",
+      "guide_counts": {
+        "IRF2-1": 8,
+        "IRF2-2": 12
+      },
+      "reference_guide_counts": {
+        "IRF2-1": 7,
+        "IRF2-2": 15
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 8,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "IRF3",
+      "guide_counts": {
+        "IRF3-1": 3,
+        "IRF3-2": 17
+      },
+      "reference_guide_counts": {
+        "IRF3-1": 9,
+        "IRF3-2": 87
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 3,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "IRF4",
+      "guide_counts": {
+        "IRF4-1": 1,
+        "IRF4-2": 19
+      },
+      "reference_guide_counts": {
+        "IRF4-1": 8,
+        "IRF4-2": 44
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 1,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "IRF7",
+      "guide_counts": {
+        "IRF7-1": 15,
+        "IRF7-2": 5
+      },
+      "reference_guide_counts": {
+        "IRF7-1": 59,
+        "IRF7-2": 41
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 5,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "IRF8",
+      "guide_counts": {
+        "IRF8-2": 20
+      },
+      "reference_guide_counts": {
+        "IRF8-1": 1,
+        "IRF8-2": 99
+      },
+      "n_guides": 1,
+      "minimum_guide_cells": 20,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": [
+        "IRF8-1"
+      ]
+    },
+    {
+      "target": "IRF9",
+      "guide_counts": {
+        "IRF9-1": 10,
+        "IRF9-2": 10
+      },
+      "reference_guide_counts": {
+        "IRF9-1": 56,
+        "IRF9-2": 44
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 10,
+      "balanced10_10": true,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "LCOR",
+      "guide_counts": {
+        "LCOR-2": 20
+      },
+      "reference_guide_counts": {
+        "LCOR-2": 34
+      },
+      "n_guides": 1,
+      "minimum_guide_cells": 20,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "MED12",
+      "guide_counts": {
+        "MED12-1": 1,
+        "MED12-2": 19
+      },
+      "reference_guide_counts": {
+        "MED12-1": 4,
+        "MED12-2": 29
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 1,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "MYB",
+      "guide_counts": {
+        "MYB-1": 18,
+        "MYB-2": 2
+      },
+      "reference_guide_counts": {
+        "MYB-1": 89,
+        "MYB-2": 11
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 2,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "MYSM1",
+      "guide_counts": {
+        "MYSM1-1": 14,
+        "MYSM1-2": 6
+      },
+      "reference_guide_counts": {
+        "MYSM1-1": 55,
+        "MYSM1-2": 45
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 6,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "NFE2L3",
+      "guide_counts": {
+        "NFE2L3-1": 13,
+        "NFE2L3-2": 7
+      },
+      "reference_guide_counts": {
+        "NFE2L3-1": 55,
+        "NFE2L3-2": 18
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 7,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "NFKB1",
+      "guide_counts": {
+        "NFKB1-1": 2,
+        "NFKB1-2": 18
+      },
+      "reference_guide_counts": {
+        "NFKB1-1": 1,
+        "NFKB1-2": 40
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 2,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "NFKB2",
+      "guide_counts": {
+        "NFKB2-1": 10,
+        "NFKB2-2": 10
+      },
+      "reference_guide_counts": {
+        "NFKB2-1": 72,
+        "NFKB2-2": 28
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 10,
+      "balanced10_10": true,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "PTEN",
+      "guide_counts": {
+        "PTEN-1": 9,
+        "PTEN-2": 11
+      },
+      "reference_guide_counts": {
+        "PTEN-1": 40,
+        "PTEN-2": 60
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 9,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "REL",
+      "guide_counts": {
+        "REL-1": 16,
+        "REL-2": 4
+      },
+      "reference_guide_counts": {
+        "REL-1": 81,
+        "REL-2": 19
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 4,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "RELB",
+      "guide_counts": {
+        "RELB-1": 18,
+        "RELB-2": 2
+      },
+      "reference_guide_counts": {
+        "RELB-1": 36,
+        "RELB-2": 2
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 2,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "RFX5",
+      "guide_counts": {
+        "RFX5-1": 18,
+        "RFX5-2": 2
+      },
+      "reference_guide_counts": {
+        "RFX5-1": 89,
+        "RFX5-2": 11
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 2,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "RORC",
+      "guide_counts": {
+        "RORC-1": 2,
+        "RORC-2": 18
+      },
+      "reference_guide_counts": {
+        "RORC-1": 25,
+        "RORC-2": 45
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 2,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "SETDB1",
+      "guide_counts": {
+        "SETDB1-1": 4,
+        "SETDB1-2": 16
+      },
+      "reference_guide_counts": {
+        "SETDB1-1": 19,
+        "SETDB1-2": 61
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 4,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "STAT1",
+      "guide_counts": {
+        "STAT1-1": 1,
+        "STAT1-2": 19
+      },
+      "reference_guide_counts": {
+        "STAT1-1": 11,
+        "STAT1-2": 89
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 1,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "STAT2",
+      "guide_counts": {
+        "STAT2-1": 6,
+        "STAT2-2": 14
+      },
+      "reference_guide_counts": {
+        "STAT2-1": 28,
+        "STAT2-2": 72
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 6,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "STAT3",
+      "guide_counts": {
+        "STAT3-2": 20
+      },
+      "reference_guide_counts": {
+        "STAT3-1": 6,
+        "STAT3-2": 65
+      },
+      "n_guides": 1,
+      "minimum_guide_cells": 20,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": [
+        "STAT3-1"
+      ]
+    },
+    {
+      "target": "STAT5A",
+      "guide_counts": {
+        "STAT5A-1": 13,
+        "STAT5A-2": 7
+      },
+      "reference_guide_counts": {
+        "STAT5A-1": 21,
+        "STAT5A-2": 26
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 7,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "TCF3",
+      "guide_counts": {
+        "TCF3-1": 19,
+        "TCF3-2": 1
+      },
+      "reference_guide_counts": {
+        "TCF3-1": 88,
+        "TCF3-2": 12
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 1,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "TET2",
+      "guide_counts": {
+        "TET2-1": 7,
+        "TET2-2": 13
+      },
+      "reference_guide_counts": {
+        "TET2-1": 11,
+        "TET2-2": 27
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 7,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "TP53",
+      "guide_counts": {
+        "TP53-1": 8,
+        "TP53-2": 12
+      },
+      "reference_guide_counts": {
+        "TP53-1": 48,
+        "TP53-2": 52
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 8,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "YBX3",
+      "guide_counts": {
+        "YBX3-2": 20
+      },
+      "reference_guide_counts": {
+        "YBX3-2": 21
+      },
+      "n_guides": 1,
+      "minimum_guide_cells": 20,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "YY1",
+      "guide_counts": {
+        "YY1-1": 14,
+        "YY1-2": 6
+      },
+      "reference_guide_counts": {
+        "YY1-1": 44,
+        "YY1-2": 11
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 6,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "ZBTB14",
+      "guide_counts": {
+        "ZBTB14-1": 20
+      },
+      "reference_guide_counts": {
+        "ZBTB14-1": 38
+      },
+      "n_guides": 1,
+      "minimum_guide_cells": 20,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "ZFP3",
+      "guide_counts": {
+        "ZFP3-1": 7,
+        "ZFP3-2": 13
+      },
+      "reference_guide_counts": {
+        "ZFP3-1": 46,
+        "ZFP3-2": 54
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 7,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "ZNF217",
+      "guide_counts": {
+        "ZNF217-2": 20
+      },
+      "reference_guide_counts": {
+        "ZNF217-2": 32
+      },
+      "n_guides": 1,
+      "minimum_guide_cells": 20,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "ZNF319",
+      "guide_counts": {
+        "ZNF319-1": 5,
+        "ZNF319-2": 15
+      },
+      "reference_guide_counts": {
+        "ZNF319-1": 18,
+        "ZNF319-2": 82
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 5,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "ZNF331",
+      "guide_counts": {
+        "ZNF331-1": 8,
+        "ZNF331-2": 12
+      },
+      "reference_guide_counts": {
+        "ZNF331-1": 54,
+        "ZNF331-2": 46
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 8,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "ZNF575",
+      "guide_counts": {
+        "ZNF575-1": 9,
+        "ZNF575-2": 11
+      },
+      "reference_guide_counts": {
+        "ZNF575-1": 17,
+        "ZNF575-2": 24
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 9,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "ZNF655",
+      "guide_counts": {
+        "ZNF655-1": 14,
+        "ZNF655-2": 6
+      },
+      "reference_guide_counts": {
+        "ZNF655-1": 52,
+        "ZNF655-2": 48
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 6,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "ZNF708",
+      "guide_counts": {
+        "ZNF708-1": 17,
+        "ZNF708-2": 3
+      },
+      "reference_guide_counts": {
+        "ZNF708-1": 81,
+        "ZNF708-2": 19
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 3,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    },
+    {
+      "target": "ZNF791",
+      "guide_counts": {
+        "ZNF791-1": 1,
+        "ZNF791-2": 19
+      },
+      "reference_guide_counts": {
+        "ZNF791-1": 12,
+        "ZNF791-2": 88
+      },
+      "n_guides": 2,
+      "minimum_guide_cells": 1,
+      "balanced10_10": false,
+      "reference_guides_absent_from_input": []
+    }
+  ]
+}

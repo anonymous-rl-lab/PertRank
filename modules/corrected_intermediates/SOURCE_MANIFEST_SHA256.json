@@ -1,5 +1,5 @@
 {
-  "source_module": "PertRank_GitHub_Repro_v1.5.0/modules/corrected_evidence",
+  "source_module": "PertRank_GitHub_Repro_retained/modules/corrected_evidence",
   "source_state_export": "Frozen-score intermediates extracted from existing archived analyses; no new fitting or experiment",
   "files": [
     {

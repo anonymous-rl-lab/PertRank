@@ -3,22 +3,24 @@ from pathlib import Path
 import argparse
 import hashlib
 import json
-import sys
 import numpy as np
 
-ROOT = Path(__file__).resolve().parents[2]
-OUT = Path(__file__).resolve().parent
 
 def digest(path):
     with path.open("rb") as f:
-        return hashlib.file_digest(f, "sha256").hexdigest()
+        return hashlib.sha256(f.read()).hexdigest()
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("base", type=Path, help="Archived e1_stage6.npz, not raw expression")
+    ap.add_argument("--projections", type=Path, required=True)
+    ap.add_argument("--symbols", type=Path, required=True)
+    ap.add_argument("--output-dir", type=Path, required=True)
     a = ap.parse_args()
-    wpath = next((ROOT / "pertrank_ecosystem/sources/recovered_w1").rglob("e1_w1_stage3.npz"))
-    symbolpath = ROOT / "pertrank_ecosystem/sources/recovered/Pertrescue_Code_v9/code/repro_v10/same_budget_weight/stage3/data/tcell_gene_symbols.json"
+    OUT = a.output_dir
+    OUT.mkdir(parents=True, exist_ok=False)
+    wpath = a.projections
+    symbolpath = a.symbols
     symbols = json.loads(symbolpath.read_text())["symbols"]
     # These author archives have legacy object-string arrays; the output fixture
     # is rewritten as ordinary Unicode arrays and needs no pickle support.
@@ -45,7 +47,6 @@ def main():
     ps, pq = w["proj_sum"][0, :, :5], w["proj_sumsq"][0, :, :5]
     pe = (ps / b - w["proj_control"][:5]) ** 2
     pv = (pq - b * (ps / b) ** 2) / (b - 1) / b + w["eigenvalues"][:5] / nc
-    sys.path.insert(0, str(ROOT / "paper_v21_1/release/PertRank_Paper_v21_1/application"))
     from pertrank.core import reliability_weights
     weights = reliability_weights(energy, noise, pe, pv)
     # Same exact expressions as the frozen evaluate_w1_e1.py, checked here as
@@ -80,9 +81,9 @@ def main():
         "geometry_scope": "Energies and projected noise retain the full 8,202-gene input axis; query effects retain the original-coordinate 300-column panel.",
         "normalization": "Archived input mean minus archived input-control mean, after the original library-total log1p normalization; no new normalization or fit performed.",
         "units_conversion": {"energy": "8202 * m2_20", "noise_trace": "8202 * (vb20 / 20 + cvm / ncin)", "direction_energy": "(proj_sum[0]/20 - proj_control)^2, first five directions", "direction_noise": "(proj_sumsq[0] - 20*(proj_sum[0]/20)^2)/19/20 + eigenvalue/ncin, first five directions"},
-        "source_study_doi": "10.25452/figshare.plus.20029387", "used_mirror": "https://zenodo.org/records/13350497",
+        "source_study_doi": "10.1016/j.cell.2022.05.013", "source_dataset_doi": "10.25452/figshare.plus.20029387", "used_mirror": "https://zenodo.org/records/13350497",
         "symbol_annotation_note": "Human Ensembl-to-symbol annotations reused from the archived T-cell feature table; unmatched IDs remain unchanged.",
-        "sources": {k: {"path": str(v.relative_to(ROOT)), "sha256": digest(v)} for k, v in source_paths.items()},
+        "sources": {k: {"path": v.name, "sha256": digest(v)} for k, v in source_paths.items()},
         "original_input_lock_sha256_verified": True,
         "fixture": {"file": destination.name, "sha256": digest(destination), "bytes": destination.stat().st_size},
         "frozen_formula_weight_max_absolute_error": errors,

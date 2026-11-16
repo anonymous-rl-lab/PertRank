@@ -1,0 +1,9 @@
+D3 0 boundary_context 2026111511 outer 50
+D3 0 boundary_context 2026111512 outer 50
+D3 0 boundary_pair 2026111511 outer 300
+D3 0 boundary_pair 2026111512 outer 300
+D3 1 boundary_context 2026111511 outer 0
+D3 1 boundary_context 2026111512 outer 0
+D3 1 boundary_pair 2026111511 outer 0
+D3 1 boundary_pair 2026111512 outer 0
+FROZEN D3

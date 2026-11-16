@@ -6,7 +6,7 @@
     "ASH": {
       "files": {
         "full.npz": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/inputs/D1_Rest/ASH/full.npz",
+          "path": "/anonymous/workspace/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/inputs/D1_Rest/ASH/full.npz",
           "sha256": "4d16c7e52b04c4eec1ba129d1f1d3dd619fadba3680a4686dad1d08a82298afa"
         }
       }
@@ -27,11 +27,11 @@
     "queries": 289
   },
   "source_sha256": {
-    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/a19r_restored/external_uncertainty/A19R/D1_Rest/context.npz": "9da9290ac32175d0acc614b1f4c8565749aa27abccc073800cfbb179c47c9734",
-    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/a19r_restored/external_uncertainty/A19R/D1_Rest/sufficient_state.npz": "d09fbc450aab760fc758dc08b3a11e0081354c7e1dd812ab81319b0d7aa66d52",
-    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/a19r_restored/external_uncertainty/A19R/D1_Rest/predictions_locked.npz": "cd3044f825c1623e0c1ec90220d8a11fdab7c862b657f0c6bbcd97baf87b18fa",
-    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/controls/D1_Rest/moments.npz": "247be2b37f78e7e5b4ae02eded0d3ab0cc1b3816f08a9be4179409ff49d297c3",
-    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/prepare_ash.py": "d2186223aea1d56acb89b966ce6e51067981ec0100b7a778d3f384989a3e107a"
+    "/anonymous/workspace/fr_benchmark/upgrade_experiments_20261014/external_inputs/a19r_restored/external_uncertainty/A19R/D1_Rest/context.npz": "9da9290ac32175d0acc614b1f4c8565749aa27abccc073800cfbb179c47c9734",
+    "/anonymous/workspace/fr_benchmark/upgrade_experiments_20261014/external_inputs/a19r_restored/external_uncertainty/A19R/D1_Rest/sufficient_state.npz": "d09fbc450aab760fc758dc08b3a11e0081354c7e1dd812ab81319b0d7aa66d52",
+    "/anonymous/workspace/fr_benchmark/upgrade_experiments_20261014/external_inputs/a19r_restored/external_uncertainty/A19R/D1_Rest/predictions_locked.npz": "cd3044f825c1623e0c1ec90220d8a11fdab7c862b657f0c6bbcd97baf87b18fa",
+    "/anonymous/workspace/fr_benchmark/upgrade_experiments_20261014/external_inputs/controls/D1_Rest/moments.npz": "247be2b37f78e7e5b4ae02eded0d3ab0cc1b3816f08a9be4179409ff49d297c3",
+    "/anonymous/workspace/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/prepare_ash.py": "d2186223aea1d56acb89b966ce6e51067981ec0100b7a778d3f384989a3e107a"
   },
   "new_benchmark_reference_read": false,
   "no_perturbation_refit": true,

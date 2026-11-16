@@ -1,0 +1,206 @@
+{
+  "created_utc": "2026-11-15T10:31:51.986109+00:00",
+  "score_code_sha256": "897de93ed2810b5d4318351a063c3d839943d660986da03e6830b92640d73923",
+  "plan_sha256": "d0e4130782d0648d1bcae7c77488589a845ad1cb65ead12851e220a4cbbcfc0d",
+  "all_six_predictions_verified_before_reference": true,
+  "audit": {
+    "D3": {
+      "lock_sha256": "a11bfa875f1b5427b9b87a3230e4329bf16837c6f637b13f64f81042e5d672ec",
+      "parent_checks": {
+        "lock_sha256": "6c1fa060c1c1938ef96095f3269e2740b0f434b9d6cdbe57dae784648b10bdb9",
+        "tasks": {
+          "D3_held0": {
+            "prediction_sha256": "d437b726ac45642b1b4078bc1d8ee74cf222bcb371f879acdf9a2d5dcd072fb8",
+            "queries": 293,
+            "candidates": 26,
+            "fit_hashes_checked": true,
+            "old_B_bytewise_preserved": true,
+            "selected_epochs": {
+              "old_B_seed2026111511": 50,
+              "old_B_seed2026111512": 50,
+              "B_joint_selection_seed2026111511": 100,
+              "B_joint_selection_seed2026111512": 100,
+              "B_rank_scale_seed2026111511": 50,
+              "B_rank_scale_seed2026111512": 100,
+              "B_rank_scale_joint_seed2026111511": 100,
+              "B_rank_scale_joint_seed2026111512": 100
+            }
+          },
+          "D3_held1": {
+            "prediction_sha256": "fc2c9d407b9d19ffefe9a3813bb7c836105257ea1383e150877df171e37fab35",
+            "queries": 293,
+            "candidates": 26,
+            "fit_hashes_checked": true,
+            "old_B_bytewise_preserved": true,
+            "selected_epochs": {
+              "old_B_seed2026111511": 0,
+              "old_B_seed2026111512": 0,
+              "B_joint_selection_seed2026111511": 0,
+              "B_joint_selection_seed2026111512": 0,
+              "B_rank_scale_seed2026111511": 0,
+              "B_rank_scale_seed2026111512": 0,
+              "B_rank_scale_joint_seed2026111511": 0,
+              "B_rank_scale_joint_seed2026111512": 0
+            }
+          }
+        }
+      },
+      "tasks": {
+        "D3_held0": {
+          "prediction_sha256": "98f127762f64a5a3727c6170f5dbcef8fadf072f5118d7964172303c42068276",
+          "parent_four_arms_preserved": true,
+          "all_fit_hashes_checked": true,
+          "selected_epochs": {
+            "B_free_pair_seed2026111511": 200,
+            "B_free_pair_seed2026111512": 50,
+            "B_rank_scale_free_pair_seed2026111511": 50,
+            "B_rank_scale_free_pair_seed2026111512": 100
+          }
+        },
+        "D3_held1": {
+          "prediction_sha256": "7394d06a0f1d63a282fae816aa08f7a243ac909d551c6ed2a8d1947a9d88e490",
+          "parent_four_arms_preserved": true,
+          "all_fit_hashes_checked": true,
+          "selected_epochs": {
+            "B_free_pair_seed2026111511": 0,
+            "B_free_pair_seed2026111512": 0,
+            "B_rank_scale_free_pair_seed2026111511": 0,
+            "B_rank_scale_free_pair_seed2026111512": 100
+          }
+        }
+      }
+    },
+    "D1": {
+      "lock_sha256": "2e5be54de15238c4699fb3738e638173c8afaa5b9752710a9f6d10641c6705f0",
+      "parent_checks": {
+        "lock_sha256": "35a2123e104c3caca4711d3a6e7f537cc58c7ba1cfda9eea8f4bdeac52a7e3c2",
+        "tasks": {
+          "D1_held0": {
+            "prediction_sha256": "0e011d60b2f5a2e7f3a17362d5a8a5eae0ad9298aacff52156f835fe7a4c73e5",
+            "queries": 289,
+            "candidates": 32,
+            "fit_hashes_checked": true,
+            "old_B_bytewise_preserved": true,
+            "selected_epochs": {
+              "old_B_seed2026111511": 100,
+              "old_B_seed2026111512": 200,
+              "B_joint_selection_seed2026111511": 100,
+              "B_joint_selection_seed2026111512": 100,
+              "B_rank_scale_seed2026111511": 0,
+              "B_rank_scale_seed2026111512": 50,
+              "B_rank_scale_joint_seed2026111511": 0,
+              "B_rank_scale_joint_seed2026111512": 0
+            }
+          },
+          "D1_held1": {
+            "prediction_sha256": "2f06aa31aa8b1d8ff926e4ea8dfc42e70da72edf768f4a25d0807c44ed1c2bf8",
+            "queries": 289,
+            "candidates": 27,
+            "fit_hashes_checked": true,
+            "old_B_bytewise_preserved": true,
+            "selected_epochs": {
+              "old_B_seed2026111511": 300,
+              "old_B_seed2026111512": 0,
+              "B_joint_selection_seed2026111511": 300,
+              "B_joint_selection_seed2026111512": 300,
+              "B_rank_scale_seed2026111511": 0,
+              "B_rank_scale_seed2026111512": 0,
+              "B_rank_scale_joint_seed2026111511": 0,
+              "B_rank_scale_joint_seed2026111512": 0
+            }
+          }
+        }
+      },
+      "tasks": {
+        "D1_held0": {
+          "prediction_sha256": "0ac9ecf045420a13e000263f10c9884c50713fe1765849be3d0d65e73e1e5a5c",
+          "parent_four_arms_preserved": true,
+          "all_fit_hashes_checked": true,
+          "selected_epochs": {
+            "B_free_pair_seed2026111511": 100,
+            "B_free_pair_seed2026111512": 200,
+            "B_rank_scale_free_pair_seed2026111511": 300,
+            "B_rank_scale_free_pair_seed2026111512": 0
+          }
+        },
+        "D1_held1": {
+          "prediction_sha256": "910567fa63e7b73c31e5dad8fd342c834d06a196bb21be0a6daa0ad67dbdfa13",
+          "parent_four_arms_preserved": true,
+          "all_fit_hashes_checked": true,
+          "selected_epochs": {
+            "B_free_pair_seed2026111511": 200,
+            "B_free_pair_seed2026111512": 0,
+            "B_rank_scale_free_pair_seed2026111511": 300,
+            "B_rank_scale_free_pair_seed2026111512": 50
+          }
+        }
+      }
+    },
+    "D2": {
+      "lock_sha256": "3dbf41a3ee517740d0021bda03c373687fc6a54af91c14ed2d267b26692ca5be",
+      "parent_checks": {
+        "lock_sha256": "e80ed8870836db459f9cfecfe110db5f723630db5afce0995bbda047e3d8ff32",
+        "tasks": {
+          "D2_held0": {
+            "prediction_sha256": "f4a3dcd079b709f809291055c236c00d74405701c998493885fa1833085ca52c",
+            "queries": 289,
+            "candidates": 35,
+            "fit_hashes_checked": true,
+            "old_B_bytewise_preserved": true,
+            "selected_epochs": {
+              "old_B_seed2026111511": 0,
+              "old_B_seed2026111512": 300,
+              "B_joint_selection_seed2026111511": 0,
+              "B_joint_selection_seed2026111512": 0,
+              "B_rank_scale_seed2026111511": 0,
+              "B_rank_scale_seed2026111512": 0,
+              "B_rank_scale_joint_seed2026111511": 300,
+              "B_rank_scale_joint_seed2026111512": 300
+            }
+          },
+          "D2_held1": {
+            "prediction_sha256": "753d8995dee54c883bc078e7b4522da72ee545428f4098b7a8b8ecbc1222662a",
+            "queries": 289,
+            "candidates": 28,
+            "fit_hashes_checked": true,
+            "old_B_bytewise_preserved": true,
+            "selected_epochs": {
+              "old_B_seed2026111511": 100,
+              "old_B_seed2026111512": 50,
+              "B_joint_selection_seed2026111511": 50,
+              "B_joint_selection_seed2026111512": 50,
+              "B_rank_scale_seed2026111511": 50,
+              "B_rank_scale_seed2026111512": 100,
+              "B_rank_scale_joint_seed2026111511": 50,
+              "B_rank_scale_joint_seed2026111512": 50
+            }
+          }
+        }
+      },
+      "tasks": {
+        "D2_held0": {
+          "prediction_sha256": "501822fd01047e80aca90ba43918b60fb4c4103dc3ec4e0d5a81d61b06854f42",
+          "parent_four_arms_preserved": true,
+          "all_fit_hashes_checked": true,
+          "selected_epochs": {
+            "B_free_pair_seed2026111511": 0,
+            "B_free_pair_seed2026111512": 0,
+            "B_rank_scale_free_pair_seed2026111511": 300,
+            "B_rank_scale_free_pair_seed2026111512": 300
+          }
+        },
+        "D2_held1": {
+          "prediction_sha256": "6a6b2a438ac21635585efc4486654322d13a39063b0645af527a089e53ccd860",
+          "parent_four_arms_preserved": true,
+          "all_fit_hashes_checked": true,
+          "selected_epochs": {
+            "B_free_pair_seed2026111511": 50,
+            "B_free_pair_seed2026111512": 50,
+            "B_rank_scale_free_pair_seed2026111511": 100,
+            "B_rank_scale_free_pair_seed2026111512": 0
+          }
+        }
+      }
+    }
+  }
+}

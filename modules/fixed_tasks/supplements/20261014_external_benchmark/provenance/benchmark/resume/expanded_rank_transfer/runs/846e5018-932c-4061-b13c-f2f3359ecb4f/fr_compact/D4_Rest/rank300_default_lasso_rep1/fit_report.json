@@ -16,10 +16,10 @@
   "rng_note": "NumPy and Python seeds set; SPAMS exposes no random seed parameter; reproducibility is tested separately",
   "dictionary_convergence": "native fixed iteration budget; no native convergence flag",
   "input_provenance": {
-    "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep1",
+    "input_directory": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep1",
     "counts_sha256": "dfa06ab7e256234767380eb6f614c8ec13a222b9c7b3294bd4f8d04bdb7964af",
     "axes_sha256": "b1649f7e75b352eded8a7d80f4d2cd6a57b54afa690fbe670c4220033f9d149d",
-    "memory_lock_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/heavy_memory.lock",
+    "memory_lock_path": "/anonymous/workspace/fr_benchmark/heavy_memory.lock",
     "memory_lock_wait_seconds": 23.125200510025024,
     "serialization_wrapper_sha256": "5efe3b81dd1f3784f8702c09891b50a467e78b1ff7ff22ce10b2e421940c66f6",
     "atomic_npz_helper_sha256": "ec1011ccd4b5d1dec3c11e7a869b954fbe0c3e1fc74d55dd22515a517173f8b3",

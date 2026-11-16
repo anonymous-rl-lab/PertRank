@@ -5,9 +5,9 @@
   "created_utc": "2026-10-14T04:16:21.578084+00:00",
   "command": [
     "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
-    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/run_posterior.py",
+    "/anonymous/workspace/fr_benchmark/ash_work/run_posterior.py",
     "--input",
-    "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/inputs/D2_Rest/ASH/full.npz",
+    "/anonymous/workspace/fr_benchmark/upgrade_experiments_20261014/external_benchmarks/inputs/D2_Rest/ASH/full.npz",
     "--output",
     "fr_benchmark/upgrade_experiments_20261014/external_benchmarks/models/D2_Rest/ASH_attempt1/native",
     "--mode",

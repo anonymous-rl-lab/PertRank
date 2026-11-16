@@ -1,0 +1,4 @@
+D3 0 frozen_scale freepair [200, 50] diag [100, 100] inner_gain 0.010580204778156965
+D3 0 rank_scale freepair [50, 100] diag [100, 100] inner_gain 0.011945392491467532
+D3 1 frozen_scale freepair [0, 0] diag [0, 0] inner_gain 0.0
+D3 1 rank_scale freepair [0, 100] diag [0, 0] inner_gain 0.0005119453924914419

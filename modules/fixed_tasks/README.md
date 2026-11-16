@@ -1,14 +1,12 @@
 # Fixed-task replay component
 
-Scientific implementation retained from v1.4.0; review packaging updated in v1.5.2. Run `python reproduce.py --output-dir NEW` from this component directory, or use the total-package root entry point. Packaging backups and a historical HTML display report are retained separately. Current numerical inputs, analysis definitions and result identities remain in this component. Registration aliases are explained in `../../docs/REVIEW_IDENTITY.md`.
-
 This repository contains a compact, offline reproduction of the completed **four-donor resting T-cell experiments and the Stim experiment**: experimental sufficient data, executable analysis code, original result records and English scientific analysis. It preserves the fixed methods and their exact top-25 ranking information, rather than storing only final scores.
 
 **Start with [the four-donor analysis](analysis/FOUR_DONOR_RESULTS.md).** The full held-out D4 report is [here](analysis/D4_Results_and_Analysis.md).
 
 The completed D4 TRADE scalar comparison and D3 NTC-guide diagnostic are available in [supplements/20261008](supplements/20261008/README.md). The later independent-RNA/interaction and external-baseline components are in `supplements/20261014_upgrade` and `supplements/20261014_external_benchmark`. The numerical arrays and analysis definitions retain their original identities; current package metadata and project-owned registration identifiers have been maintained for review.
 
-**Version 1.2 adds the completed Stim experiment** in [supplements/20261011_stim](supplements/20261011_stim/README.md). The standalone Stim ZIP is below **10,000,000 bytes** and contains all inputs needed for its fixed-method numerical replay. It no longer requires the separate 377 MB prediction archive. The size limit applies to the Stim addition, not this complete D1–D4 total package. The original four-donor data and the version 1.1 supplement remain unchanged.
+The Stim experiment is included in [supplements/20261011_stim](supplements/20261011_stim/README.md), with its fixed-method numerical inputs.
 
 ## Quick start
 

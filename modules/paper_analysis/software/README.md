@@ -2,7 +2,7 @@
 
 **Use control geometry to improve candidate selection while preserving the biological readout.** PertRank combines profile-wide effect and variance information with leading covariance directions from matched controls to calculate one reliability weight per perturbation. It applies that weight to the queried gene effect, producing separate candidate lists for increasing and decreasing the response.
 
-This **0.2.0rc2 private review release** aligns the reusable software with manuscript v25.2. It provides an AnnData interface, reuse of fitted reliability with labeled external estimates, two real-data statistics tutorials, and regression checks against the frozen research implementation. The release is distributed for private review; public PyPI publication, scverse listing and pertpy acceptance are separate steps. The intended distribution and import name is `pertrank`.
+This **0.2.0rc3 review source** accompanies the current manuscript. It provides an AnnData interface, reuse of fitted reliability with labeled external estimates, two real-data statistics tutorials, and regression checks against the frozen research implementation. Software and reproduction-bundle versions identify different deliverables. This anonymous package is distributed for review, not as a registry release. The distribution and import name is `pertrank`.
 
 ## What the software separates
 
@@ -12,11 +12,11 @@ This **0.2.0rc2 private review release** aligns the reusable software with manus
 | Read the response | Original gene effects, or a labeled upstream effect estimate such as FR-Perturb | A response-specific up/down score |
 | Allocate shortlist positions | The same eligible candidates and a fixed list length | Candidate lists and exact boundary-tie inclusion probabilities |
 
-The three returned methods make the contribution inspectable: **Unweighted** uses the effect directly, **Euclidean** uses target-level reliability without directional geometry, and **PertRank** adds the fixed control geometry. A complete-workflow comparison against Unweighted and a geometry comparison against Euclidean answer different questions. See [scientific design](docs/scientific_design.md) for the equations, estimator reuse and connection to the manuscript evidence.
+The three returned methods make the contribution inspectable: **Unweighted** uses the effect directly, **Euclidean** uses target-level reliability without directional geometry, and **PertRank** adds the fixed control geometry. A complete-workflow comparison against Unweighted and a geometry comparison against Euclidean answer different questions. See [scientific design](https://github.com/anonymous-rl-lab/PertRank/blob/main/modules/paper_analysis/software/docs/scientific_design.md) for the equations, estimator reuse and connection to the manuscript evidence.
 
-## Install the review release
+## Install
 
-Use Python 3.10 or later. From this directory:
+Use Python 3.10 or later. For this rc3 revision, copy the source directory outside the checksum-protected reproduction bundle and install from that copy:
 
 ```bash
 python -m pip install .
@@ -33,7 +33,7 @@ Dependencies are declared in `pyproject.toml`. For development and checks:
 ```bash
 python -m pip install '.[test]'
 python -m pytest
-python scripts/check_tutorials.py
+python scripts/check_tutorials.py --output-dir ../pertrank-tutorial-check
 ```
 
 ## Rank candidates from AnnData
@@ -104,7 +104,7 @@ scores = pr.evaluate_reference(result, reference)
 scores.to_csv("reference_precision.csv", index=False)
 ```
 
-Provide a target-by-gene reference effect table with the same target population and every queried gene. The evaluator returns precision and expected overlap for each method, query and direction, using the result's fixed list length and self-target exclusions. It accounts for boundary ties in both the predicted and reference lists. The reference is used only for scoring. Define its construction independently of the fitted ranking; biological interpretation depends on that design. See [API reference](docs/api.md#evaluate_reference) for the exact scoring rule. Query-level uncertainty and manuscript-specific aggregation remain in the full scientific reproduction bundle.
+Provide a target-by-gene reference effect table with the same target population and every queried gene. The evaluator returns precision and expected overlap for each method, query and direction, using the result's fixed list length and self-target exclusions. It accounts for boundary ties in both the predicted and reference lists. The reference is used only for scoring. Define its construction independently of the fitted ranking; biological interpretation depends on that design. See [API reference](https://github.com/anonymous-rl-lab/PertRank/blob/main/modules/paper_analysis/software/docs/api.md#evaluate_reference) for the exact scoring rule. Query-level uncertainty and manuscript-specific aggregation remain in the full scientific reproduction bundle.
 
 ## Try the interface immediately
 
@@ -117,16 +117,24 @@ check. The two atlas notebooks instead use authentic archived statistics.
 
 ## Learn and reproduce
 
-- [API reference](docs/api.md): public functions and result fields.
-- [Scientific design](docs/scientific_design.md): reliability, readout and the interpretation of matched comparisons.
+- [API reference](https://github.com/anonymous-rl-lab/PertRank/blob/main/modules/paper_analysis/software/docs/api.md): public functions and result fields.
+- [Scientific design](https://github.com/anonymous-rl-lab/PertRank/blob/main/modules/paper_analysis/software/docs/scientific_design.md): reliability, readout and the interpretation of matched comparisons.
 - [Input contracts](docs/input_contracts.md): counts, normalized inputs and matching strata.
-- [Replogle tutorial](tutorials/01_replogle.ipynb) and [T-cell tutorial](tutorials/02_tcell.ipynb): worked examples using archived real-data sufficient statistics. The tutorials identify the source and processing level of each fixture. They replay candidate ranking from saved statistics; the AnnData example above is the cell-input route.
+- [Replogle tutorial](https://github.com/anonymous-rl-lab/PertRank/blob/main/modules/paper_analysis/software/tutorials/01_replogle.ipynb) and [T-cell tutorial](tutorials/02_tcell.ipynb): worked examples using archived real-data sufficient statistics. The tutorials identify the source and processing level of each fixture. They replay candidate ranking from saved statistics; the AnnData example above is the cell-input route.
 - `tests/`: checks of the public interface and numerical agreement with the frozen implementation.
 - [Community integration proposal](docs/community_integration.md): prepared scverse registration and pertpy contribution scope.
-- [Private release and public handoff](docs/release_process.md): installation, artifact verification and the remaining public-release metadata.
+- [Distribution and release process](docs/release_process.md): installation, artifact verification and the remaining public-release metadata.
 
 The scientific use is candidate prioritization for follow-up experiments. Weights describe estimated profile reliability, not calibrated probabilities of biological validation. The manuscript evaluates decision quality with fixed-length lists, matched exclusions and reference-supported precision; its independent RNA comparison supports the complete workflow, while matched Euclidean contrasts isolate the added geometry.
 
 ## Attribution and release status
 
+PertRank-Q is a separate, optional checkpoint-replay module in the full reproduction bundle (`modules/pertrank_q`); it is not part of the `pertrank` Python API. Its reference-supervised candidate-subpool evaluation must not be read as an unsupervised full-pool deployment result.
+
 The computational equations and fixed parameters (`k=5`, `beta=0.9`) are inherited from the manuscript implementation. This release updates software contracts and documentation without fitting new scientific models or selecting new parameters. The accompanying manuscript and source manifests provide method and dataset attribution. Dataset rights remain with their original sources. Public redistribution and ecosystem submission require the rights holder's software-license decision; see [release process](docs/release_process.md).
+
+## Where the documentation lives
+
+The scientific design, API reference and Replogle tutorial links above open the corresponding files in the anonymous GitHub repository over HTTPS. The files `docs/scientific_design.md`, `docs/api.md` and `tutorials/01_replogle.ipynb` are also included in the source distribution for offline reading. PyPI hosts the distribution archive, not separate web pages for files inside it. The wheel includes the runtime and tutorial data, while the notebooks and prose documentation remain in the source archive.
+
+`PYPI_DESCRIPTION.md` is generated from this README by `python scripts/build_pypi_description.py`. It preserves HTTPS links, including the three documentation targets above and the API `#evaluate_reference` anchor, and converts the remaining local links into explicit source-archive paths. `pyproject.toml` uses it as the PyPI description so local paths cannot resolve to nonexistent PyPI pages. Run `python scripts/check_distribution.py` against newly built archives before a release.

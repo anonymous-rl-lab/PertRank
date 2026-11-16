@@ -1,0 +1,13 @@
+[
+  {
+    "epoch": 0,
+    "loss": -0.31929702082225003,
+    "gradient_norm": 0.0,
+    "train": {
+      "precision": 0.33944636678200696,
+      "max_abs_gate": 0.0,
+      "fraction_saturated": 0.0,
+      "rms_score_change": 0.0
+    }
+  }
+]

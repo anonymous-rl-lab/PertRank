@@ -1,0 +1,807 @@
+{
+  "status": "FOUR_DONOR_STIM_UPGRADE_AND_EXTERNAL_BENCHMARK_REPRODUCTION_PASS",
+  "package_version": "review",
+  "original_four_donor_status": "FOUR_DONOR_EXACT_REPRODUCTION_PASS",
+  "identity": "post-result exact fixed-method sufficient-data reproduction; not a new experiment or preregistration",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "network_access": false,
+  "network_blocked": true,
+  "manifest": {
+    "status": "PASS",
+    "files": 844,
+    "manifest_sha256": "d53801f8c5b2c558e7402e54fa55ea1016f6f95372c3eed3aaf84ff338a95268"
+  },
+  "weight_reproduction": {
+    "D1": {
+      "donor": "D1_Rest",
+      "status": "PASS",
+      "shape": [
+        7,
+        5,
+        1127
+      ],
+      "arms": {
+        "raw": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "7c10e1fa89f2c07f9e1403309afe6306a83599e374f2c1fbc56db0582d33c36b",
+          "mode": "recalculated from sufficient statistics"
+        },
+        "Euclidean": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "10f0f5f417372a65adb6959e8e172f9397dc7f12d652fe4b2574255e61883868",
+          "mode": "recalculated from sufficient statistics"
+        },
+        "PertRank": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "822a35290d58a0f6c4ff187b28fe252198b1e06ffd9a56e900495e87d7b17c67",
+          "mode": "recalculated from sufficient statistics"
+        },
+        "diagonal": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "ebed2a2498bb492ef3797045c5b43c06360131ad1082d7589e6d41cc8368821c",
+          "mode": "recalculated from sufficient statistics"
+        },
+        "TRADE_scalar": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "3e8ccd89c717ccfa2e1ef89552cf353d03bb3f3a20bc4c3d85dc280e5d8be29d",
+          "mode": "original R-serialized fitted weight; scalar formula independently checked"
+        },
+        "PR_E": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "9de87d08642b020aaf23cc9273e38b65e642b135ad558c378b7cf4b064a17ff7",
+          "mode": "recalculated from sufficient statistics"
+        },
+        "PR_M": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "3642ec9c0726b98a5b36174af4eba91d91026b67121175c021a3b090675f15dd",
+          "mode": "recalculated from sufficient statistics"
+        }
+      },
+      "TRADE_formula_maximum_absolute_error": 1.1934897514720433e-15,
+      "TRADE_latent_moment_identity_maximum_absolute_error": 1.9339456251710185e-17,
+      "TRADE_mixture_refit": false,
+      "control_direction_refit": false,
+      "raw_cell_read": false,
+      "scope": "fixed scalar-statistic replay; not raw-data preprocessing or statistical refitting"
+    },
+    "D2": {
+      "donor": "D2_Rest",
+      "status": "PASS",
+      "shape": [
+        7,
+        5,
+        1200
+      ],
+      "arms": {
+        "raw": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "f67e0189e44e94930781dc0f963775bd5f93a1f1c600e805f9eec5ee22873f50",
+          "mode": "recalculated from sufficient statistics"
+        },
+        "Euclidean": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "464bb9ec5029977376aa68aa1742a4bac8a63bd9c518d5d415e3d22d1a4c226a",
+          "mode": "recalculated from sufficient statistics"
+        },
+        "PertRank": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "840d66b31644d6f0e5331f2c7c5c1e1091f8fd1163b263f491fc881bc58c7a42",
+          "mode": "recalculated from sufficient statistics"
+        },
+        "diagonal": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "99642f1a047aba90ce06a814c0f8a9a7428cfba60f3d1b55f10daefdc2975308",
+          "mode": "recalculated from sufficient statistics"
+        },
+        "TRADE_scalar": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "92285d0f7b7e9988d9dacfcdf8c476eeab9c60c1d363b40caeb6849ea903f6b6",
+          "mode": "original R-serialized fitted weight; scalar formula independently checked"
+        },
+        "PR_E": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "ea8b3b66ab37e9669651be61f01e6caa1091af0f829dccbaacbbec936c88b8b8",
+          "mode": "recalculated from sufficient statistics"
+        },
+        "PR_M": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "5acc3119e4b42e884aa65258bde6b8ae8359d97fc3076af532426f86f5380060",
+          "mode": "recalculated from sufficient statistics"
+        }
+      },
+      "TRADE_formula_maximum_absolute_error": 1.1379786002407855e-15,
+      "TRADE_latent_moment_identity_maximum_absolute_error": 1.0842021724855044e-17,
+      "TRADE_mixture_refit": false,
+      "control_direction_refit": false,
+      "raw_cell_read": false,
+      "scope": "fixed scalar-statistic replay; not raw-data preprocessing or statistical refitting"
+    },
+    "D3": {
+      "donor": "D3_Rest",
+      "status": "PASS",
+      "shape": [
+        7,
+        5,
+        1200
+      ],
+      "arms": {
+        "raw": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "f67e0189e44e94930781dc0f963775bd5f93a1f1c600e805f9eec5ee22873f50",
+          "mode": "recalculated from sufficient statistics"
+        },
+        "Euclidean": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "1ab5e3eb9c2bca6ffbd7282478ff4b28e6b80215d40659fc70c17ae17c369e21",
+          "mode": "recalculated from sufficient statistics"
+        },
+        "PertRank": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "f92831b3abdbe0cc452eb1f0fc3a23ad5a6e44da3747dde4014b8126dfcc6d3f",
+          "mode": "recalculated from sufficient statistics"
+        },
+        "diagonal": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "5a96c8dc58852ddf34045d402aea14d3cdd0710eeeaf20ce9667d462054bc7cf",
+          "mode": "recalculated from sufficient statistics"
+        },
+        "TRADE_scalar": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "4549bd083dec0d778bea405dfd7a77d2fcff85ab870d15b7592bce3df323f449",
+          "mode": "original R-serialized fitted weight; scalar formula independently checked"
+        },
+        "PR_E": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "cdcdd5d8d6a788ae7dd33b0af33e15fb2d588a690495e07d980a61ad3e8f14c9",
+          "mode": "recalculated from sufficient statistics"
+        },
+        "PR_M": {
+          "exact_against_frozen_weights": true,
+          "maximum_absolute_error": 0.0,
+          "array_sha256": "b10e0c8eb09268b564a25d2922d7808c87593bcfc030837decc8c796d3065793",
+          "mode": "recalculated from sufficient statistics"
+        }
+      },
+      "TRADE_formula_maximum_absolute_error": 1.3322676295501878e-15,
+      "TRADE_latent_moment_identity_maximum_absolute_error": 9.351243737687476e-17,
+      "TRADE_mixture_refit": false,
+      "control_direction_refit": false,
+      "raw_cell_read": false,
+      "scope": "fixed scalar-statistic replay; not raw-data preprocessing or statistical refitting"
+    },
+    "D4": {
+      "donor": "D4",
+      "arm_names": [
+        "raw",
+        "Euclidean",
+        "PertRank",
+        "PR_M"
+      ],
+      "moment_checks": [
+        {
+          "quantity": "log_nuE",
+          "max_abs_error": 0.0
+        },
+        {
+          "quantity": "log_aM",
+          "max_abs_error": 0.0
+        },
+        {
+          "quantity": "log_nuM",
+          "max_abs_error": 0.0
+        },
+        {
+          "quantity": "pr_nuE",
+          "max_abs_error": 0.0
+        },
+        {
+          "quantity": "pr_aM",
+          "max_abs_error": 0.0
+        },
+        {
+          "quantity": "pr_nuM",
+          "max_abs_error": 0.0
+        }
+      ],
+      "cell_partition_disjointness_verified": true,
+      "control_directions_refitted": false,
+      "raw_UMI_reloaded": false
+    }
+  },
+  "per_query_score_values": 150000,
+  "per_query_scores_exact": true,
+  "summary_numeric_fields": 10000,
+  "maximum_summary_difference": 0.0,
+  "depth_verification": {
+    "D1": {
+      "donor": "D1",
+      "panel_scope": "HISTORICAL PANEL SENSITIVITY ONLY. D1 uses the original 595-union-query R20 panel, not the corrected D1 panel in ranking.npz. Its depth-equivalence numbers must not be labeled corrected-panel results.",
+      "numeric_values": 120271,
+      "max_absolute_difference": 0.0,
+      "query_scores_bitwise_equal": true,
+      "bootstrap_checks": {
+        "responsive_raw_curve_bootstrap": {
+          "values": 14000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "responsive_method20_bootstrap": {
+          "values": 6000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "responsive_inverse_values": {
+          "values": 4000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "responsive_inverse_states": {
+          "values": 4000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "responsive_paired_depth_difference": {
+          "values": 2000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_raw_curve_bootstrap": {
+          "values": 14000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_method20_bootstrap": {
+          "values": 6000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_inverse_values": {
+          "values": 4000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_inverse_states": {
+          "values": 4000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_paired_depth_difference": {
+          "values": 2000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        }
+      },
+      "status": "PASS"
+    },
+    "D2": {
+      "donor": "D2",
+      "panel_scope": "Frozen panel for this depth analysis.",
+      "numeric_values": 120284,
+      "max_absolute_difference": 0.0,
+      "query_scores_bitwise_equal": true,
+      "bootstrap_checks": {
+        "responsive_raw_curve_bootstrap": {
+          "values": 14000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "responsive_method20_bootstrap": {
+          "values": 6000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "responsive_inverse_values": {
+          "values": 4000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "responsive_inverse_states": {
+          "values": 4000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "responsive_paired_depth_difference": {
+          "values": 2000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_raw_curve_bootstrap": {
+          "values": 14000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_method20_bootstrap": {
+          "values": 6000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_inverse_values": {
+          "values": 4000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_inverse_states": {
+          "values": 4000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_paired_depth_difference": {
+          "values": 2000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        }
+      },
+      "status": "PASS"
+    },
+    "D3": {
+      "donor": "D3",
+      "panel_scope": "Frozen panel for this depth analysis.",
+      "numeric_values": 120269,
+      "max_absolute_difference": 0.0,
+      "query_scores_bitwise_equal": true,
+      "bootstrap_checks": {
+        "responsive_raw_curve_bootstrap": {
+          "values": 14000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "responsive_method20_bootstrap": {
+          "values": 6000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "responsive_inverse_values": {
+          "values": 4000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "responsive_inverse_states": {
+          "values": 4000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "responsive_paired_depth_difference": {
+          "values": 2000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_raw_curve_bootstrap": {
+          "values": 14000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_method20_bootstrap": {
+          "values": 6000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_inverse_values": {
+          "values": 4000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_inverse_states": {
+          "values": 4000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_paired_depth_difference": {
+          "values": 2000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        }
+      },
+      "status": "PASS"
+    },
+    "D4": {
+      "donor": "D4",
+      "panel_scope": "Frozen panel for this depth analysis.",
+      "numeric_values": 120261,
+      "max_absolute_difference": 0.0,
+      "query_scores_bitwise_equal": true,
+      "bootstrap_checks": {
+        "responsive_raw_curve_bootstrap": {
+          "values": 14000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "responsive_method20_bootstrap": {
+          "values": 6000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "responsive_inverse_values": {
+          "values": 4000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "responsive_inverse_states": {
+          "values": 4000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "responsive_paired_depth_difference": {
+          "values": 2000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_raw_curve_bootstrap": {
+          "values": 14000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_method20_bootstrap": {
+          "values": 6000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_inverse_values": {
+          "values": 4000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_inverse_states": {
+          "values": 4000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        },
+        "terciles_paired_depth_difference": {
+          "values": 2000,
+          "max_absolute_difference": 0.0,
+          "bitwise_equal_including_nan": true
+        }
+      },
+      "status": "PASS"
+    }
+  },
+  "competitor_selection": {
+    "status": "PASS",
+    "selected_competitor": "PR_M",
+    "equal_donor_means": {
+      "raw": 0.29214647719048914,
+      "Euclidean": 0.30576011061715797,
+      "PertRank": 0.3299754635412003,
+      "diagonal": 0.30508872345078125,
+      "TRADE_scalar": 0.3138706001865342,
+      "PR_E": 0.3099049550984995,
+      "PR_M": 0.31688749743563355
+    },
+    "D1_panel": "corrected full-axis",
+    "new_selection": false,
+    "historical_lock_sha256": "223b4fb2c69ca4c586ce36e1eea2601b990eee95bac662cf70549ab6f5b665bc"
+  },
+  "D4_decision": {
+    "primary_endpoint": "responsive PertRank minus Euclidean, five groups averaged within query",
+    "confirmation": true,
+    "improvement_grade": true,
+    "numerical_primary_threshold_pass": true,
+    "method_valid_for_confirmation": true,
+    "allzero_pertrank_groups": [],
+    "confirmation_rule": "no allzero PertRank input group AND point >=0.01 AND lower nominal two-sided 95% paired query-block percentile bound >0",
+    "improvement_rule": "no allzero PertRank input group AND point >=0.02 AND the same lower95 bound >0",
+    "competitive_gate_open": true,
+    "selected_competitor": "PR_M",
+    "formal_competitive_statistical_direction": "superiority",
+    "formal_competitive_practical_equivalence": "not_established",
+    "descriptive_competitive_statistical_direction": "superiority",
+    "descriptive_competitive_practical_equivalence": "not_established",
+    "closed_gate_rule": "all contrasts still reported descriptively; neither raw comparisons, terciles nor cell equivalents rescue a failed primary gate"
+  },
+  "all_weights_equal_frozen_weights": true,
+  "raw_UMI_reloaded": false,
+  "control_PCA_refitted": false,
+  "TRADE_mixture_refitted": false,
+  "D1_depth_panel": "historical sensitivity; distinct from corrected primary panel",
+  "supplement_reproduction": {
+    "status": "SUPPLEMENTS_PASS",
+    "D4_TRADE": {
+      "status": "D4_SUPPLEMENT_REPLAY_PASS",
+      "query_scores_exact": 30000,
+      "original_query_scores_exact": 24000,
+      "all_summary_records_exact": true,
+      "original_H1_H2_and_selected_PR_M_preserved": true,
+      "mixture_replay": {
+        "fits": 2945,
+        "maximum_absolute_errors": {
+          "latent_mean": 6.938893903907228e-17,
+          "TI": 4.683753385137379e-17,
+          "S": 2.0816681711721685e-17,
+          "weights": 1.1102230246251565e-15
+        },
+        "refitting_performed": false,
+        "reconstruction": "two-node Gauss-Legendre quadrature of saved uniform mixture components"
+      },
+      "primary": {
+        "difference": 0.028058791577898704,
+        "conditional_query_block_95_interval": [
+          0.02028357242204658,
+          0.03496841301084284
+        ],
+        "bootstrap_nonpositive_count": 0,
+        "bootstrap_fraction_nonpositive": 0.0,
+        "draws": 2000,
+        "seed": 2026,
+        "query_blocks": 30,
+        "scope": "conditional on the realized input cell groups, fixed controls, query panel, candidate pool and reference; not a population or cell-sampling confidence interval",
+        "statistical_direction": "superiority",
+        "practical_equivalence": "not_established",
+        "practical_equivalence_margin": 0.005,
+        "extra_reference_members_per_25": 0.7014697894474676,
+        "real_group_differences": [
+          0.025743411360559153,
+          0.021206721981903348,
+          0.0269988800015194,
+          0.03458747113919127,
+          0.03175747340632037
+        ],
+        "real_group_min_max": [
+          0.021206721981903348,
+          0.03458747113919127
+        ],
+        "real_groups_positive": 5,
+        "real_groups_negative": 0,
+        "real_groups_zero": 0
+      },
+      "scope": "post-hoc descriptive fixed TRADE scalar adaptation; conditional query-block intervals",
+      "base_files_verified": 5,
+      "supplement_files_verified": 270
+    },
+    "D3_NTC": {
+      "status": "PASS",
+      "mode": "float64 cross-Gram sufficient-statistic replay",
+      "source_raw_counts_reconstructed": false,
+      "gene_level_half_means_reconstructed": false,
+      "network_reads": 0,
+      "new_model_fits": 0,
+      "new_experimental_selection": false,
+      "ntc_guides": 468,
+      "target_pairs": 64,
+      "genes": 13390,
+      "selected_cells": 23840,
+      "repetitions": 2000,
+      "seed": 20261008,
+      "ntc": {
+        "pair_energy": 0.0031361378279221755,
+        "centered_guide_energy": 0.0015680689139610877,
+        "bootstrap_95_percentile": [
+          0.002898400852497011,
+          0.0033684483407712806
+        ],
+        "permutation_p_greater": 0.0004997501249375312,
+        "permutation_p_two_sided": 0.0004997501249375312,
+        "permutation_null_95": [
+          -0.0001389858082423923,
+          0.00013473561973735305
+        ]
+      },
+      "target_same_gene_control": {
+        "pair_energy_mean": 0.002454901436948028,
+        "bootstrap_95_percentile": [
+          0.002103245024029522,
+          0.0028490491398612894
+        ]
+      },
+      "lane_composition": {
+        "ntc_half_lane_tv_max": 0.35,
+        "ntc_perfectly_balanced_guides": 426,
+        "target_between_guide_lane_tv_median": 0.55,
+        "ntc_guide_lane_cramers_v": 0.20666103326537782
+      },
+      "negative_estimates_preserved": true,
+      "new_replanning_not_interrupted_script_replay": true,
+      "interpretation_limits": [
+        "Guide-related structure is conditional on the frozen gene axis and normalization scale; not a causal sequence effect.",
+        "NTC guide bootstrap resamples the observed guides, paired halves together; it does not propagate donor, feature-axis or normalization uncertainty.",
+        "B-spectrum permutation assumes guide exchangeability; lane composition remains a potential contributor.",
+        "A negative or nonsignificant result is nondetection, not proof of absence.",
+        "The same-target targeting control can reflect guide efficacy and guide-associated factors; it excludes between-target biological differences."
+      ],
+      "verified_available_freeze_entries": [
+        "PROTOCOL.json",
+        "selection.npz",
+        "selection_report.json",
+        "ntc_selected_cells.json",
+        "target_selected_cells.json",
+        "prepare_metadata.py",
+        "select_guides.py",
+        "select_guides_portable.py",
+        "read_selected.py",
+        "stats_impl.py",
+        "evaluate.py",
+        "freeze_run.py",
+        "RUNTIME.json",
+        "frozen_assets/SOURCE_PROVENANCE.json",
+        "frozen_assets/A15_D3_cohort.npz",
+        "frozen_assets/ntc_original/original_input_ntc_metadata.npz",
+        "frozen_assets/ntc_original/selection_check.json",
+        "vendor/metadata_source.py",
+        "vendor/hdf5_chunk_index.py",
+        "vendor/row_transport.py",
+        "metadata/metadata_report.json",
+        "metadata/hdf_objects.json"
+      ],
+      "errors": {
+        "ntc_point": 0.0,
+        "ntc_centered_guide_energy": 0.0,
+        "all_2000_ntc_bootstrap_draws": 3.0357660829594124e-18,
+        "all_2000_ntc_permutation_draws": 0.0,
+        "all_64_target_pair_energies": 1.734723475976807e-18,
+        "all_2000_target_bootstrap_draws": 8.673617379884035e-19,
+        "ntc_interval": 1.3010426069826053e-18,
+        "ntc_null_interval": 0.0,
+        "target_interval": 0.0,
+        "target_point": 0.0,
+        "ntc_half_lane_tv": 5.551115123125783e-17,
+        "target_half_lane_tv": 0.0,
+        "target_between_guide_lane_tv": 1.1102230246251565e-16,
+        "ntc_guide_lane_cramers_v": 0.0
+      },
+      "compact_sha256": "91a1cebe9a88999bb90c5497b98d21b225ebd5b0694c4d76bd83476cb76998ad",
+      "seconds": 0.10454002900223713
+    },
+    "new_data_acquisition": false,
+    "new_model_fitting": false
+  },
+  "stim_reproduction": {
+    "status": "STIM_EXACT_REPRODUCTION_PASS",
+    "scope": "Exact fixed-method weights, signed top-25 memberships, scores, H1/H2 and S1-S3 from sufficient original float64 inputs",
+    "module_manifest_sha256": "c2fc1c0cb733d1a6281fbc212462a8808682ae812f19c2671f7003997b2a503d",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matched_arrays": {
+      "main_scores": 23760,
+      "main_arm_names": 4,
+      "main_query_gene_ids": 594,
+      "main_target_ids": 561,
+      "crossguide_scores": 9000,
+      "crossguide_arm_names": 3,
+      "crossguide_query_gene_ids": 300,
+      "crossguide_target_ids": 26,
+      "alignment_contributions": 168300,
+      "alignment_coefficients": 900
+    },
+    "all_array_values_bitwise_exact": true,
+    "matched_scientific_report_keys": [
+      "H1_H2",
+      "S1_panel_interaction",
+      "S1_tercile_PertRank_PR_M_approximate_equivalence",
+      "S2_crossguide",
+      "S3_alignment",
+      "interpretation",
+      "main_counts",
+      "responsive_all_arms",
+      "tercile_all_arms",
+      "tercile_summary",
+      "unavailable_arms_frozen_before_truth",
+      "zero_weight_fractions"
+    ],
+    "all_report_fields_exact": true,
+    "network_requests": 0,
+    "raw_cell_reads": 0,
+    "large_external_archive_required": false,
+    "weights_reconstructed_from_scalar_moments": true,
+    "original_effects_quantized": false,
+    "arbitrary_new_method_support_claimed": false,
+    "protocol_status": "investigator_directed_deviation",
+    "independent_e4_registration_verified": false,
+    "TRADE_scalar": "not_evaluable",
+    "elapsed_seconds": 5.845745503997023
+  },
+  "upgrade_reproduction": {
+    "status": "UPGRADE_FIXED_TASK_REPRODUCTION_PASS",
+    "model_refits": 0,
+    "new_expression_downloads": 0,
+    "terminated_stim_executed": false,
+    "scope": "Completed seven-arm independent-RNA comparison including reference sensitivity; geometry and depth interactions."
+  },
+  "external_benchmark_reproduction": {
+    "status": "EXTERNAL_BENCHMARK_FIXED_RESULT_REPRODUCTION_PASS",
+    "package_version": "review",
+    "manifest_files": 325,
+    "new_model_fits": 0,
+    "expression_matrices_read": false,
+    "network_required": false,
+    "results": {
+      "numerical": {
+        "status": "PASS_ARCHIVED_SCORE_STATISTICS_REPLAY",
+        "groups": 22,
+        "numeric_values_compared": 3668,
+        "absolute_tolerance": 1e-12,
+        "original_data_sha256": "6c9423d05330bd6c528438f05259575d4bfe0f8330ba7ce0db1ebe35c4b861b7",
+        "new_model_fits": 0,
+        "expression_matrices_read": false,
+        "new_bootstrap_draws": 0,
+        "numpy_version": "2.3.5",
+        "scope": "Recomputes fixed-task score summaries and intervals from archived per-query scores and saved bootstrap designs. Joint reference-bootstrap score draws retained. Does not refit methods from raw expression."
+      },
+      "d3_development": {
+        "status": "PASS",
+        "fr_configurations": 21,
+        "default_ash_configs": 1,
+        "checks": 1765,
+        "numeric_values_checked": 2521,
+        "max_abs_error": 0.0,
+        "atol": 1e-12,
+        "source_sha256": {
+          "memberships.npz": "f55dc97d42813b980a4b04443f6a03351c81554188233e6b095d75b5ebce35bd",
+          "expected_reports.json": "f1bd47e534b7477e07d8daca918419b62b0f0ae3c4af75c695ffb4daadc6796d",
+          "SOURCE_MANIFEST.json": "83aa36f01823f55d387b7f433c696b9e67e6a0881531a63821c55bcbd9014068"
+        },
+        "scope": "Fixed-result numerical replay; same fitted predictions, exact ties, original top K and query-block resampling seed. No model fitting or new expression read."
+      },
+      "d3_reconciliation": {
+        "status": "PASS_ARCHIVED_D3_RECONCILIATION_SCORE_REPLAY",
+        "scores": {
+          "raw": {
+            "per_rep_P25": [
+              0.27714277780097235,
+              0.2748390572520519,
+              0.28772709733333085,
+              0.2869450232221972,
+              0.2887045700789177
+            ],
+            "five_rep_average_P25": 0.2830717051374939,
+            "native_benchmark_rep0_P25": 0.27714277780097235,
+            "five_rep_minus_rep0": 0.005928927336521561
+          },
+          "Euclidean": {
+            "per_rep_P25": [
+              0.2762491901095954,
+              0.2707659073968113,
+              0.2837725916123073,
+              0.2860704669170791,
+              0.2919860153849901
+            ],
+            "five_rep_average_P25": 0.28176883428415667,
+            "native_benchmark_rep0_P25": 0.2762491901095954,
+            "five_rep_minus_rep0": 0.0055196441745612446
+          },
+          "PertRank": {
+            "per_rep_P25": [
+              0.3051450054054106,
+              0.30790909294689345,
+              0.31155821907507353,
+              0.3210797419332507,
+              0.3198022234100098
+            ],
+            "five_rep_average_P25": 0.31309885655412767,
+            "native_benchmark_rep0_P25": 0.3051450054054106,
+            "five_rep_minus_rep0": 0.00795385114871705
+          }
+        },
+        "numeric_values_compared_with_original_report": 24,
+        "absolute_tolerance": 1e-12,
+        "historical_input_checks_rerun": false,
+        "scope": "Fixed-score numerical replay of D3 input-repetition reconciliation only. The historical 32 raw-input and task checks are preserved as historical evidence and are not rerun by this compact score replay.",
+        "expression_matrices_read": false,
+        "new_model_fits": 0,
+        "new_bootstrap_draws": 0
+      }
+    },
+    "elapsed_seconds": 1.5226325949988677
+  },
+  "elapsed_seconds": 53.018440516003466
+}

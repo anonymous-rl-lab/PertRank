@@ -1,0 +1,7 @@
+Objective and selection,D3 difference,D1 difference,D2 difference,Equal-source difference,Equal-source difference from preceding B
+Frozen scale; individual epochs (preceding B),+0.000939,+0.000692,+0.002768,+0.001466,+0.000000
+Frozen scale; common epoch,+0.000000,+0.002163,+0.001557,+0.001240,-0.000226
+Current scale; individual epochs,+0.000512,+0.001471,+0.000952,+0.000978,-0.000488
+Current scale; common epoch (phase 1 primary),-0.000171,+0.000000,+0.001644,+0.000491,-0.000975
+Frozen scale; free epoch pair (phase 2 primary),-0.000085,+0.000519,+0.001557,+0.000664,-0.000803
+"Current scale; free epoch pair (Q, phase 2 secondary)",+0.002474,+0.001125,+0.001644,+0.001748,+0.000281

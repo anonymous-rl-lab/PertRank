@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Offline v25.2 paper-analysis replay; original frozen scripts stay unchanged."""
+"""Offline mechanism, transfer and application replay."""
 from pathlib import Path
 import argparse
 import csv
@@ -15,7 +15,7 @@ import time
 import numpy as np
 
 ROOT = Path(__file__).resolve().parent
-DEFAULT = ['s3', 'biology', 'transfer', 'trade', 'application', 'figures']
+DEFAULT = ['s3', 'biology', 'transfer', 'trade', 'application']
 
 
 def digest(path):
@@ -110,26 +110,26 @@ def main():
             checks = []
             runs = []
             if module == 's3':
-                dst = copy('analysis_v20/s3')
+                dst = copy('analysis/s3')
                 shutil.rmtree(dst / 'results')
                 runs.append(run('s3_replay', dst / 'replay_s3.py', '--output-dir', dst / 'results'))
                 runs.append(run('s3_independent_audit', dst / 'audit_s3.py'))
-                for p in (ROOT / 'analysis_v20/s3/results').iterdir():
+                for p in (ROOT / 'analysis/s3/results').iterdir():
                     if p.suffix in ['.csv', '.npz'] or p.name == 'RESULT.json':
                         checks.append(compare_file(dst / 'results' / p.name, p))
             elif module == 'biology':
-                dst = copy('analysis_v20/biology')
+                dst = copy('analysis/biology')
                 runs.append(run('biology', dst / 'analyze_biology.py', '--out', dst))
-                for p in (ROOT / 'analysis_v20/biology').iterdir():
+                for p in (ROOT / 'analysis/biology').iterdir():
                     if p.suffix == '.csv' or p.name in ['query_scores.npz', 'RESULTS.json']:
                         checks.append(compare_file(dst / p.name, p))
             elif module == 'transfer':
-                dst = copy('analysis_v20/transfer')
+                dst = copy('analysis/transfer')
                 runs.append(run('transfer', dst / 'run_transfer.py'))
                 for name in ['transfer_scores.npz', 'RESULTS.json', 'query_scores.csv', 'block_influence.csv']:
-                    checks.append(compare_file(dst / name, ROOT / 'analysis_v20/transfer' / name))
+                    checks.append(compare_file(dst / name, ROOT / 'analysis/transfer' / name))
             elif module == 'trade':
-                dst = copy('analysis_v20/robustness')
+                dst = copy('analysis/robustness')
                 runs.append(run('trade_replay', dst / 'replay_trade_sensitivity.py'))
                 runs.append(run('trade_independent_scores', dst / 'review_trade_scores_separate.py'))
                 with gzip.open(dst / 'TRADE_SENSITIVITY_MIXTURES.json.gz', 'rt') as f:
@@ -157,28 +157,18 @@ def main():
                 runroot = work / 'ctla4_archived_interfaces'
                 (runroot / 'input').mkdir(parents=True)
                 (runroot / 'evaluation').mkdir()
-                with np.load(ROOT / 'analysis_v20/robustness/TRADE_SENSITIVITY_REPLAY_INPUTS.npz', allow_pickle=False) as z:
+                with np.load(ROOT / 'analysis/robustness/TRADE_SENSITIVITY_REPLAY_INPUTS.npz', allow_pickle=False) as z:
                     pred = {'original_effects': z['effects'], 'target_ids': z['target_ids'], 'query_gene_ids': z['query_gene_ids']}
                     for arm in ['raw', 'Euclidean', 'PertRank']:
                         pred['weight_' + arm] = z['weight_' + arm]
                         pred['prediction_' + arm] = z['effects'] * z['weight_' + arm][:, :, None]
                     np.savez_compressed(runroot / 'input/main_nontrade_predictions.npz', **pred)
                     np.savez_compressed(runroot / 'evaluation/main_reference.npz', effects=z['reference'], target_ids=z['target_ids'], query_gene_ids=z['query_gene_ids'])
-                shutil.copy2(ROOT / 'analysis_v20/s3/inputs/original_registered_scores.npz', runroot / 'evaluation/registered_scores.npz')
+                shutil.copy2(ROOT / 'analysis/s3/inputs/original_registered_scores.npz', runroot / 'evaluation/registered_scores.npz')
                 ctla4 = work / 'ctla4_rebuilt'
-                runs.append(run('ctla4', dst / 'build_CTLA4_example.py', '--run-root', runroot, '--query-context', ROOT / 'analysis_v20/s3/inputs/main_query_context.npz', '--out', ctla4))
+                runs.append(run('ctla4', dst / 'build_CTLA4_example.py', '--run-root', runroot, '--query-context', ROOT / 'analysis/s3/inputs/main_query_context.npz', '--out', ctla4))
                 for p in (ROOT / 'application').glob('CTLA4*.csv'):
                     checks.append(compare_file(ctla4 / p.name, p))
-            elif module == 'figures':
-                dst = copy('figure_code')
-                copy('source_data')
-                for name in ['draw_main_figures.py', 'plot_supplement.py', 'plot_design_attenuation.py']:
-                    runs.append(run(name.removesuffix('.py'), dst / name))
-                figures = list((work / 'manuscript/figures').glob('*'))
-                assert len(list((work / 'manuscript/figures').glob('*.png'))) == 11
-                assert len(list((work / 'manuscript/figures').glob('*.pdf'))) == 11
-                assert all(p.stat().st_size > 1000 for p in figures)
-                checks.append({'status': 'PASS', 'main_figures': 6, 'supplementary_figures': 5, 'output_files': len(figures), 'scope': 'Renders archived data; generated image bytes can differ by Matplotlib/font version.'})
             elif module == 'software':
                 dst = copy('software')
                 # Use an installed software environment, not the old application module.

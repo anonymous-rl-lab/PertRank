@@ -76,7 +76,7 @@
   "execution": {
     "max_fit_seconds": 900,
     "memory_limit_GiB": 8,
-    "heavy_memory_lock": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/heavy_memory.lock",
+    "heavy_memory_lock": "/anonymous/workspace/fr_benchmark/heavy_memory.lock",
     "transport_workers": 32,
     "single_source_channel": "unchanged existing proxy and source identity",
     "smoke_required_before_extract": true,

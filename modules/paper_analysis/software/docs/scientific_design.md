@@ -1,6 +1,6 @@
 # Reliability, readout and candidate selection
 
-PertRank answers a gene-specific decision question: which perturbations should occupy a fixed number of follow-up positions for an increased or decreased response? The software keeps reliability calculation separate from the effect estimate used to answer that question. This is the design evaluated in manuscript v25.2.
+PertRank answers a gene-specific decision question: which perturbations should occupy a fixed number of follow-up positions for an increased or decreased response? The software keeps reliability calculation separate from the effect estimate used to answer that question. This is the design evaluated in the current review manuscript.
 
 ## One weight from profile-wide information
 
@@ -42,3 +42,7 @@ The manuscript connects controlled weight–readout comparisons, fixed-setting t
 The ranking operation excludes the queried gene's own perturbation and supplies both a reproducible delivered list and exact expected inclusion for ties at the cutoff. These serve different purposes: the delivered list can be inspected or exported, while expected inclusion supports tie-aware reference scoring.
 
 For a new benchmark, define the candidate pool, queries, response directions, reference and list length before scoring. `evaluate_reference` supplies per-query, per-direction precision against a labeled reference, with exact expected overlap under independent boundary-tie selection. Evaluate every method on the same choices and preserve query-level pairing when estimating contrast uncertainty. The full scientific reproduction bundle supplies the manuscript's reference construction, aggregation and paired resampling analyses. A nomination table alone is not a biological accuracy estimate.
+
+## Scope of the optional supervised extension
+
+The separate PertRank-Q module uses reference-annotated calibration targets to learn query-dependent refinement and is evaluated on target-held-out candidate subpools. It does not alter the original PertRank weight implemented here. See `modules/pertrank_q` in the complete reproduction bundle for retained inputs, checkpoints, the inference entry point and conditional statistical replay. The Python API documented here does not train or call PertRank-Q.

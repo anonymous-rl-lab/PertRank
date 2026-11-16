@@ -1,0 +1,57 @@
+[
+  {
+    "epoch": 0,
+    "loss": -0.4111480397058683,
+    "gradient_norm": 0.0,
+    "train": {
+      "precision": 0.4259385665529011,
+      "max_abs_gate": 0.0,
+      "fraction_saturated": 0.0,
+      "rms_score_change": 0.0
+    }
+  },
+  {
+    "epoch": 50,
+    "loss": -0.41233299863783646,
+    "gradient_norm": 0.0010540656303134352,
+    "train": {
+      "precision": 0.425938566552901,
+      "max_abs_gate": 0.5107535004851362,
+      "fraction_saturated": 0.0,
+      "rms_score_change": 0.003897966949043811
+    }
+  },
+  {
+    "epoch": 100,
+    "loss": -0.4138113132422148,
+    "gradient_norm": 0.0006901355626690901,
+    "train": {
+      "precision": 0.4259385665529011,
+      "max_abs_gate": 0.9577799873252479,
+      "fraction_saturated": 0.0,
+      "rms_score_change": 0.005503262543694857
+    }
+  },
+  {
+    "epoch": 200,
+    "loss": -0.41537173249869513,
+    "gradient_norm": 0.0004577004692471988,
+    "train": {
+      "precision": 0.4274744027303754,
+      "max_abs_gate": 1.0938257537604716,
+      "fraction_saturated": 0.0015756302521008404,
+      "rms_score_change": 0.006457144427133771
+    }
+  },
+  {
+    "epoch": 300,
+    "loss": -0.41597454856780375,
+    "gradient_norm": 0.0010573200350936253,
+    "train": {
+      "precision": 0.42849829351535834,
+      "max_abs_gate": 1.0981823089681357,
+      "fraction_saturated": 0.005252100840336135,
+      "rms_score_change": 0.006993639903045639
+    }
+  }
+]

@@ -1,23 +1,24 @@
-# Validation of 0.2.0rc2
+# Current software validation
 
-This release updates the software to manuscript v25.2. The fixed numerical method remains five control directions with attenuation 0.9. The frozen numerical oracle and both archived tutorial data files are unchanged.
+The delivered review software retains the fixed five-direction geometry with attenuation 0.9. Its core numerical implementation and both authentic tutorial arrays are unchanged. This verification checks implementation and packaging, not new biological performance.
 
 | Check | Observed result |
 |---|---|
 | Source test suite | 99 passed; no failures or skips |
 | Installed wheel test suite | 99 passed; no failures or skips |
-| Imported distribution identity | Version and all installed code/data files match the release source |
-| Frozen cell implementation | Existing regression checks pass at the stated 1e-12 tolerance |
-| Archived fixture weights | Both datasets reproduce their saved/formula weights at 1e-12 tolerance |
-| Replogle tutorial | All four code cells executed from the installed wheel |
-| T-cell tutorial | All five code cells executed from the installed wheel, including saved FR estimate reuse |
-| AnnData quickstart | Full synthetic count-input example executes |
-| Decision scoring | Analytic tie examples, identity alignment, self exclusion and external-estimator scores pass |
+| Imported distribution identity | Current version and every installed runtime/resource file matched the source; import was from the wheel |
+| Frozen cell implementation | Regression checks passed at the stated tolerance |
+| Real-data fixture weights | Both matched archived weights within 1e-12 |
+| Replogle tutorial | All 4 code cells passed; 180 exported nomination rows |
+| T-cell tutorial | All 5 code cells passed, including saved FR-effect reuse; 180 exported rows |
+| AnnData quickstart | Synthetic raw-count input example passed |
+| Dependency consistency | `pip check` passed |
+| Curation entry points | Syntax and CLI help passed; upstream curation was not rerun |
 
-The tests cover dense, sparse and backed AnnData inputs, normalization on the complete input gene axis, explicit control matching, own-target exclusion, malformed inputs, source-statistics provenance and chained external-effect reuse. The evaluator uses exact expected overlap of independently tie-broken prediction and reference lists. It does not choose a reference, establish its independence or calculate scientific uncertainty intervals.
+The suites exercise dense, sparse and backed AnnData, full-axis normalization, control matching, identifier alignment, own-target exclusion, boundary ties, source-statistics provenance and chained external-effect reuse. There were 57 dependency deprecation warnings per suite, from AnnData/Pandas string handling; no test was skipped because of them.
 
-Testing used Python 3.12.14; package versions are recorded in `requirements-tested.txt`, and the resolved environment is included in the software validation records. The supplied CI also configures Python 3.10, but no remote CI execution is claimed by this private release.
+The current environment is recorded in `requirements-tested.txt` and `validation/requirements-resolved.txt`. Python 3.12 was executed; no remote CI or additional Python-version execution is claimed. Notebook cells ran sequentially through the socket-free checker; interactive Jupyter transport was not tested. Retained notebook displays are illustrative saved outputs, while the current complete-cell execution receipt is `validation/tutorials.log`.
 
-All notebook code cells were executed sequentially with captured table and text output, then rendered to HTML. The environment denied Jupyter's local network-interface operation, so interactive Jupyter transport was not validated; no notebook cell was skipped. The executable `scripts/check_tutorials.py` uses the same socket-free execution route.
+The source distribution includes the scientific-design document, API reference and Replogle notebook. The wheel retains runtime code and authentic fixture data. `scripts/check_distribution.py` checks this contract and ensures the PyPI description contains no repository-relative documentation links. Exact build results are recorded in `validation/DISTRIBUTION_CHECK.json`.
 
-Use `scripts/check_installation.py` after installation to verify the imported version and package bytes against this source tree. A source import and a wheel import are distinguished explicitly in its output. Tests and these software checks do not refit scientific baselines or change manuscript results.
+The curation scripts accept explicit upstream paths rather than preparation-workspace paths. Exact input hashes and conversion definitions remain in the fixture provenance. These upstream inputs are not needed to execute the tutorials. Original raw-cell preprocessing, scientific estimator training and PertRank-Q are outside these software checks.

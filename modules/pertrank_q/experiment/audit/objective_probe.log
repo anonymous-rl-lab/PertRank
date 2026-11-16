@@ -1,0 +1,77 @@
+SOURCE_DONE D3
+SOURCE_DONE D1
+SOURCE_DONE D2
+{
+  "inner": {
+    "pools": 12,
+    "fits": 24,
+    "mean_label_mass_moved": 0.1797566966545571,
+    "mean_bootstrap_vs_nominal_optimal_membership_change": 0.009551442540477344,
+    "soft_improving_curve_steps": 96,
+    "soft_improving_but_exact_train_declines": 7,
+    "soft_improving_but_exact_validation_declines": 49,
+    "mean_fitted_parameter_gradient_cosine": 0.9755647427321602,
+    "temperature_averages": {
+      "0.5": {
+        "soft_vs_hard_predictor_membership_mass_moved": 0.3643614951464695,
+        "soft_nominal_precision": 0.3820960167022891,
+        "soft_bootstrap_precision": 0.3805515360585026,
+        "gradient_cosine_bootstrap_vs_nominal_labels": 0.944675025942419,
+        "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.030537794834078643,
+        "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.4078262811958961
+      },
+      "0.25": {
+        "soft_vs_hard_predictor_membership_mass_moved": 0.258426280020172,
+        "soft_nominal_precision": 0.3877514305401876,
+        "soft_bootstrap_precision": 0.38590276439171006,
+        "gradient_cosine_bootstrap_vs_nominal_labels": 0.9397925981384551,
+        "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.02630286619876962,
+        "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.5291718838705739
+      },
+      "0.1": {
+        "soft_vs_hard_predictor_membership_mass_moved": 0.14622535541618353,
+        "soft_nominal_precision": 0.39150864513682787,
+        "soft_bootstrap_precision": 0.3895103411152909,
+        "gradient_cosine_bootstrap_vs_nominal_labels": 0.9295567278379945,
+        "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.026060337763845573,
+        "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.7315068829505617
+      }
+    }
+  },
+  "outer": {
+    "pools": 6,
+    "fits": 12,
+    "mean_label_mass_moved": 0.1748948107529448,
+    "mean_bootstrap_vs_nominal_optimal_membership_change": 0.008589994921879613,
+    "soft_improving_curve_steps": 18,
+    "soft_improving_but_exact_train_declines": 1,
+    "soft_improving_but_exact_validation_declines": 0,
+    "mean_fitted_parameter_gradient_cosine": 0.9942107555280802,
+    "temperature_averages": {
+      "0.5": {
+        "soft_vs_hard_predictor_membership_mass_moved": 0.39321428344337495,
+        "soft_nominal_precision": 0.3814494422883136,
+        "soft_bootstrap_precision": 0.3799589769220279,
+        "gradient_cosine_bootstrap_vs_nominal_labels": 0.9495901252272488,
+        "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.03232753281077333,
+        "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.19472239138541358
+      },
+      "0.25": {
+        "soft_vs_hard_predictor_membership_mass_moved": 0.2863089956232389,
+        "soft_nominal_precision": 0.38690984781845383,
+        "soft_bootstrap_precision": 0.3852263677821856,
+        "gradient_cosine_bootstrap_vs_nominal_labels": 0.945694383330709,
+        "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.027716045792512203,
+        "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.25737367658665916
+      },
+      "0.1": {
+        "soft_vs_hard_predictor_membership_mass_moved": 0.1608457454121656,
+        "soft_nominal_precision": 0.3913515993338441,
+        "soft_bootstrap_precision": 0.38944060056314195,
+        "gradient_cosine_bootstrap_vs_nominal_labels": 0.9353064539446145,
+        "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.022440927676299172,
+        "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.42040011704394237
+      }
+    }
+  }
+}

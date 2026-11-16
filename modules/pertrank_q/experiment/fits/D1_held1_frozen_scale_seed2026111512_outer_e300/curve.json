@@ -1,0 +1,72 @@
+[
+  {
+    "epoch": 0,
+    "loss": -0.33736181946147586,
+    "ranking_loss": -0.33736181946147586,
+    "residual_penalty": 0.0,
+    "head_ridge": 0.0,
+    "gradient_norm": 0.0,
+    "train": {
+      "precision": 0.34619377162629755,
+      "max_abs_gate": 0.0,
+      "fraction_saturated": 0.0,
+      "rms_score_change": 0.0
+    }
+  },
+  {
+    "epoch": 50,
+    "loss": -0.3398563444619311,
+    "ranking_loss": -0.34116530543133344,
+    "residual_penalty": 0.001303336364526172,
+    "head_ridge": 5.624604876186876e-06,
+    "gradient_norm": 0.0012642755087582099,
+    "train": {
+      "precision": 0.35121107266435986,
+      "max_abs_gate": 0.9545971841091875,
+      "fraction_saturated": 0.0,
+      "rms_score_change": 0.0044212288258846395
+    }
+  },
+  {
+    "epoch": 100,
+    "loss": -0.3418025280788936,
+    "ranking_loss": -0.34422244129353435,
+    "residual_penalty": 0.002396610327214955,
+    "head_ridge": 2.330288742582248e-05,
+    "gradient_norm": 0.0007779154442301345,
+    "train": {
+      "precision": 0.35276816608996536,
+      "max_abs_gate": 1.092064771307498,
+      "fraction_saturated": 0.00043257272628960744,
+      "rms_score_change": 0.0058948409505728844
+    }
+  },
+  {
+    "epoch": 200,
+    "loss": -0.3440226641734944,
+    "ranking_loss": -0.3474462252778095,
+    "residual_penalty": 0.0033445208836192434,
+    "head_ridge": 7.904022069583857e-05,
+    "gradient_norm": 0.0005780508611579516,
+    "train": {
+      "precision": 0.3560553633217993,
+      "max_abs_gate": 1.0979682917426106,
+      "fraction_saturated": 0.03947226127392668,
+      "rms_score_change": 0.007071352480668258
+    }
+  },
+  {
+    "epoch": 300,
+    "loss": -0.34570912839913415,
+    "ranking_loss": -0.35038124079809996,
+    "residual_penalty": 0.004501505572418432,
+    "head_ridge": 0.0001706068265473882,
+    "gradient_norm": 0.0004498489833227804,
+    "train": {
+      "precision": 0.3577854671280277,
+      "max_abs_gate": 1.0985807135736627,
+      "fraction_saturated": 0.11365848383259436,
+      "rms_score_change": 0.008077748475840588
+    }
+  }
+]

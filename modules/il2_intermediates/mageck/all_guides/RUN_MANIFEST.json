@@ -3,13 +3,13 @@
   "mode": "all_guides",
   "started_utc": "2026-10-11T14:19:40.111443+00:00",
   "raw_counts_sha256": "eff12a8907fb62fd67978c34b043e67e6c525fceefcbbbf46691c184bcb73ec6",
-  "analysis_plan_sha256": "6bb9baeda9903bc6c731b6a3a16c19ee00929ab421b8cfbdb210d56151685d17",
+  "analysis_plan_sha256": "15dcfab8d0e4de525d1f22ae1c76175ad4e9e98b13604400c7c4957c9d25e028",
   "command": [
     "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
-    "/workspace/scratch/6cdbaefbed9f/minimal_validation_20261011/deliverables/PertRank_IL2_External_Validation_v1.2.0/tools/mageck",
+    "/anonymous/workspace/minimal_validation_20261011/deliverables/PertRank_IL2_External_Validation_v1.2.0/tools/mageck",
     "test",
     "-k",
-    "/workspace/scratch/6cdbaefbed9f/minimal_validation_20261011/deliverables/PertRank_IL2_External_Validation_v1.2.0/mageck/all_guides/normalized_counts.tsv",
+    "/anonymous/workspace/minimal_validation_20261011/deliverables/PertRank_IL2_External_Validation_v1.2.0/mageck/all_guides/normalized_counts.tsv",
     "-t",
     "D1_high,D2_high",
     "-c",
@@ -18,11 +18,11 @@
     "--norm-method",
     "none",
     "--control-sgrna",
-    "/workspace/scratch/6cdbaefbed9f/minimal_validation_20261011/deliverables/PertRank_IL2_External_Validation_v1.2.0/mageck/all_guides/controls.txt",
+    "/anonymous/workspace/minimal_validation_20261011/deliverables/PertRank_IL2_External_Validation_v1.2.0/mageck/all_guides/controls.txt",
     "--gene-lfc-method",
     "median",
     "-n",
-    "/workspace/scratch/6cdbaefbed9f/minimal_validation_20261011/deliverables/PertRank_IL2_External_Validation_v1.2.0/mageck/all_guides/result"
+    "/anonymous/workspace/minimal_validation_20261011/deliverables/PertRank_IL2_External_Validation_v1.2.0/mageck/all_guides/result"
   ],
   "source_version": "0.5.9.2",
   "normalization": {

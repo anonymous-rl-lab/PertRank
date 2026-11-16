@@ -1,0 +1,26 @@
+{
+  "query_reference.npz": {
+    "bytes": 259266,
+    "sha256": "7de9aa40b96bf0807c736abf881430d7a4bd1bdc0229beab5816d5965aed5883"
+  },
+  "predictions_D2.npz": {
+    "bytes": 164270,
+    "sha256": "d2cbbb38cbba1a64f6a27de9be257f0d59e1faf3658117667bace93dd0e2927c"
+  },
+  "predictions_D1.npz": {
+    "bytes": 155060,
+    "sha256": "06060bf5b5732941d36bc086d95ddf8f70773203eff95b0cc2d7290febfc4625"
+  },
+  "predictions_D3.npz": {
+    "bytes": 140358,
+    "sha256": "14023f8044a499b5dd49885a41e81915bd061e2b1da041e09d1e142f9c42b50b"
+  },
+  "score_native.py": {
+    "bytes": 11092,
+    "sha256": "1c712c364109161bba20be575472ab8ea21fb83523244fa57db50d7de682e26c"
+  },
+  "point_results.json": {
+    "bytes": 5094,
+    "sha256": "ec0e1ca2bb042403f5e45922c3fcce77aab6461f77e737e1605e19b0baa62054"
+  }
+}

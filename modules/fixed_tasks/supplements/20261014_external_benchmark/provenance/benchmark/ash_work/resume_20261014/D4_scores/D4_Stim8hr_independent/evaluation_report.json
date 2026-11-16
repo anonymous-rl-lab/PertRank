@@ -340,17 +340,17 @@
   "scope": "Conditional on fixed shallow inputs, QC profiles, candidate pools, input-control metric/normalization, query panel and observed donor. Joint intervals propagate source-query-block and within-lane reference-cell resampling; they are not donor-population intervals.",
   "simultaneous_intervals": "ASH contrasts and intervals are descriptive; no new simultaneous family or performance-dependent choice.",
   "provenance": {
-    "prediction_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/independent/execution/D4_Stim8hr/prediction.npz",
+    "prediction_path": "/anonymous/workspace/fr_benchmark/independent/execution/D4_Stim8hr/prediction.npz",
     "prediction_sha256": "19c4d3560e563f53b9b4bf447e7389bde0d08e04cd45570a1500659871dc5528",
-    "reference_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/independent/execution/D4_Stim8hr/reference.npz",
+    "reference_path": "/anonymous/workspace/fr_benchmark/independent/execution/D4_Stim8hr/reference.npz",
     "reference_sha256": "f44d9656f5000e533af9338fed42aa2e307fdf6a4f3a9f17194d6972e7b861f6",
     "ash": [
       {
-        "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim_independent/rep0",
+        "directory": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim_independent/rep0",
         "posterior_sha256": "079366e44a596093efb91ac358d38af6736805cc52c8a800e0a5bbacc7ddc441",
-        "input_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_Stim_independent/rep0/full.npz",
+        "input_path": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_Stim_independent/rep0/full.npz",
         "input_sha256": "8c60b2d70aa4ba0e15b86c531e315772c66ca3d1fe8c71516783b3bf2e4d9051",
-        "input_recovery_audit_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_Stim_independent/rep0/RECOVERY_INPUT_AUDIT.json",
+        "input_recovery_audit_path": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_Stim_independent/rep0/RECOVERY_INPUT_AUDIT.json",
         "input_recovery_audit_sha256": "3df19102b17e21f1ba0ddd320d0eb6f8ddf29f322378a5379a9121d29b364048",
         "execution_sha256": "33c10e6e6164275b5d53d1a74543b31a059239a36115b4bd0256c9dd3b24ffdd",
         "runtime_sha256": "8280411b533a52e35153b15ddd4649a9966d3aafceefe78ec7e6a2d08c278568",
@@ -362,9 +362,9 @@
         "runtime_seconds": 228.6101660410004
       }
     ],
-    "D3_replay_confirmation_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D3_DEFAULT_REPLAY_CONFIRMATION.json",
+    "D3_replay_confirmation_path": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D3_DEFAULT_REPLAY_CONFIRMATION.json",
     "D3_replay_confirmation_sha256": "146834963f209db14fc92404eba8053feaec8b471967fda472bb3c10a30c955d",
-    "recovery_lock_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/RECOVERY_PLAN.json",
+    "recovery_lock_path": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/RECOVERY_PLAN.json",
     "recovery_lock_sha256": "294fbb38a69f5c27cc54c0b9e2d4e7bdd32f97bfdb7025f7d67730f971884d24",
     "adapter_sha256": "bf074c077e1f46a0447d32412343f37a7829a5f34a816ab78aa78b503c954830",
     "unchanged_pure_evaluator_sha256": "4acd8cebce3162b25874518942dbed4fae8299cd8fead65da2ef1b789dd95237",

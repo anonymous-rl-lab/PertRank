@@ -1,0 +1,8 @@
+Supplementary display,Scientific entry,Connection to the main text
+Fig. 1: empirical weight-refit sensitivity,SM6.3; SN8.5,Sampling-sensitivity boundary of fixed-input gains
+Fig. 2: Mixscale adaptation,SM7.3; SN2.5,Comparator definition and nomination performance
+Fig. 3: direction and weight interventions,SM5; SN3.2–SN3.3,Fig. 4 and directional reliability diagnostics
+Fig. 4: measured depth calibration,SN10.1; SN11.4,Fig. 5 and ranking-input equivalence
+Fig. 5: query attenuation and readout cost,SM5.6; SN3.1,Fig. 1 and descriptive readout dependence
+Fig. 6: guide response and agreement,SM11; SN23,Supplementary guide diagnostics; not an input to original PertRank
+Fig. 7: reference-supervised refinement,SM12; SN24,Optional PertRank-Q use with calibration labels

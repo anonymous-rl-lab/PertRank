@@ -31,19 +31,19 @@
   "source_release": "genome-scale-tcell-perturb-seq/marson2025_data",
   "sources": {
     "moments": {
-      "path": "package_v130/release/PertRank_Code_v1.3.0/modules/native_rna/raw_inputs/D3_Rest/sufficient_state.npz",
+      "path": "external_sources/moments/sufficient_state.npz",
       "sha256": "b93e5fac94a2644709eb05c347932ebfcc5ceba2723f3e55e8d691e387cae464"
     },
     "predictions": {
-      "path": "package_v140/total/PertRank_D1_D4_GitHub_Core/supplements/20261014_upgrade/native_rna/legacy/D3_Rest/predictions_locked.npz",
+      "path": "external_sources/predictions/predictions_locked.npz",
       "sha256": "14023f8044a499b5dd49885a41e81915bd061e2b1da041e09d1e142f9c42b50b"
     },
     "fr": {
-      "path": "package_v140/total/PertRank_D1_D4_GitHub_Core/supplements/20261014_upgrade/native_rna/models/D3_Rest/FR/native/effects.npz",
+      "path": "external_sources/fr/effects.npz",
       "sha256": "eb133f67647640e3e014429357913f7dac05df70adc6800394a1c42d9fd23285"
     },
     "symbols": {
-      "path": "pertrank_ecosystem/sources/recovered/Pertrescue_Code_v9/code/repro_v10/same_budget_weight/stage3/data/tcell_gene_symbols.json",
+      "path": "external_sources/symbols/tcell_gene_symbols.json",
       "sha256": "19775af812cff6486caf595868368e29f98666933d4f341da6a24c600e3b55a0"
     }
   },
@@ -59,5 +59,6 @@
   "new_model_fits": 0,
   "reference_matrices_read": 0,
   "scientific_performance_evaluations": 0,
-  "redistribution": "Derived numerical tutorial fixture from public-source data; retain source-study attribution. Source data are not relicensed by the software license."
+  "redistribution": "Derived numerical tutorial fixture from public-source data; retain source-study attribution. Source data are not relicensed by the software license.",
+  "source_path_note": "Logical source filenames replace preparation-workspace paths; SHA256 identifiers and numerical conversion definitions are preserved. These upstream files are not required for tutorial execution."
 }

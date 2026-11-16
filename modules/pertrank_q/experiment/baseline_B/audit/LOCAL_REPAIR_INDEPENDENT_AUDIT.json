@@ -1,0 +1,11 @@
+{
+  "synthetic_only": true,
+  "reference_access": false,
+  "rational_comparison_cases": 100,
+  "maximum_absolute_error": 3.885780586188048e-16,
+  "ties_baseline_permutation_signflip_passed": true,
+  "no_self_target_case_passed": true,
+  "no_self_target_error": null,
+  "scorer_sha256": "6709d7f1b1bd49b06c069077277f6ccc35657502231fcaf9f40e0d00dbd89b93",
+  "passed": true
+}

@@ -1,0 +1,143 @@
+{
+  "passed": true,
+  "training_performed": false,
+  "model_selection_performed": false,
+  "formula_search_performed": false,
+  "baseline_rebuild": {
+    "passed": true,
+    "training_performed": false,
+    "all_source_locks_verified_before_input_load": true,
+    "plan_sha256": "faf0129e1844001e79c26ff689b1262ce58a2beea8b4543c7c37281b13e1b924",
+    "input_sha256": {
+      "inputs/D3_neural_inputs.npz": "82a24270cd2f12f831e17dcdcf6a70986e76b31159c27d1285e3b292700cb8e1",
+      "inputs/D1_neural_inputs.npz": "bebd75b04ae05cd95a6d61f6177719b348696078eff8c00362bf55217518d6ab",
+      "inputs/D2_neural_inputs.npz": "f21ea23d78e1112df267c171abf8c0c5b6de20b3f4fad8c9f1621bc41355f6e0"
+    },
+    "torch_version": "2.15.0+cpu",
+    "historical_A_replayed_exactly": true,
+    "tasks": {
+      "D3_held0": {
+        "prediction_sha256": "2aaf2e8ce1caf2ee8de6ecdbc9299e1ab9448e34626ddc3e69400650401169da",
+        "prediction_bytes_match_lock": true,
+        "existing_score_max_absolute_difference": null,
+        "calibration_held_evaluation_and_split_hashes_match": true
+      },
+      "D3_held1": {
+        "prediction_sha256": "bb4361117d4386f9b0e32b570cf807f3fb5cd1a8dd31299c58469364607045cd",
+        "prediction_bytes_match_lock": true,
+        "existing_score_max_absolute_difference": null,
+        "calibration_held_evaluation_and_split_hashes_match": true
+      },
+      "D1_held0": {
+        "prediction_sha256": "82f68b141c9768aa898ad67fbfec055478431ce323f88fb92f07719527f87ba4",
+        "prediction_bytes_match_lock": true,
+        "existing_score_max_absolute_difference": null,
+        "calibration_held_evaluation_and_split_hashes_match": true
+      },
+      "D1_held1": {
+        "prediction_sha256": "0b5bac36864b839913de538aa5bacdcef617630e850e05589ae4a4e8bf6c07b4",
+        "prediction_bytes_match_lock": true,
+        "existing_score_max_absolute_difference": null,
+        "calibration_held_evaluation_and_split_hashes_match": true
+      },
+      "D2_held0": {
+        "prediction_sha256": "d755b4580e8379aef7450bd8e5d12905696f342b54f4c4101b1a460ea6739f31",
+        "prediction_bytes_match_lock": true,
+        "existing_score_max_absolute_difference": null,
+        "calibration_held_evaluation_and_split_hashes_match": true
+      },
+      "D2_held1": {
+        "prediction_sha256": "c890ce48e4d6a70fb0ca88d4e5a607d4811af0c0023b73a80f055883d3a487a0",
+        "prediction_bytes_match_lock": true,
+        "existing_score_max_absolute_difference": null,
+        "calibration_held_evaluation_and_split_hashes_match": true
+      }
+    }
+  },
+  "updated_rebuild": {
+    "passed": true,
+    "training_performed": false,
+    "selection_performed": false,
+    "all_six_locks_verified_before_inference": true,
+    "tasks": {
+      "D3_held0": {
+        "prediction_sha256": "d437b726ac45642b1b4078bc1d8ee74cf222bcb371f879acdf9a2d5dcd072fb8",
+        "bytes_match_original_lock": true,
+        "old_B_preserved": true,
+        "reference_free_feature_input": true,
+        "fit_count": 8,
+        "unique_weight_predictions": 7
+      },
+      "D3_held1": {
+        "prediction_sha256": "fc2c9d407b9d19ffefe9a3813bb7c836105257ea1383e150877df171e37fab35",
+        "bytes_match_original_lock": true,
+        "old_B_preserved": true,
+        "reference_free_feature_input": true,
+        "fit_count": 8,
+        "unique_weight_predictions": 4
+      },
+      "D1_held0": {
+        "prediction_sha256": "0e011d60b2f5a2e7f3a17362d5a8a5eae0ad9298aacff52156f835fe7a4c73e5",
+        "bytes_match_original_lock": true,
+        "old_B_preserved": true,
+        "reference_free_feature_input": true,
+        "fit_count": 8,
+        "unique_weight_predictions": 6
+      },
+      "D1_held1": {
+        "prediction_sha256": "2f06aa31aa8b1d8ff926e4ea8dfc42e70da72edf768f4a25d0807c44ed1c2bf8",
+        "bytes_match_original_lock": true,
+        "old_B_preserved": true,
+        "reference_free_feature_input": true,
+        "fit_count": 8,
+        "unique_weight_predictions": 5
+      },
+      "D2_held0": {
+        "prediction_sha256": "f4a3dcd079b709f809291055c236c00d74405701c998493885fa1833085ca52c",
+        "bytes_match_original_lock": true,
+        "old_B_preserved": true,
+        "reference_free_feature_input": true,
+        "fit_count": 8,
+        "unique_weight_predictions": 7
+      },
+      "D2_held1": {
+        "prediction_sha256": "753d8995dee54c883bc078e7b4522da72ee545428f4098b7a8b8ecbc1222662a",
+        "bytes_match_original_lock": true,
+        "old_B_preserved": true,
+        "reference_free_feature_input": true,
+        "fit_count": 8,
+        "unique_weight_predictions": 6
+      }
+    },
+    "plan_sha256": "fcb8a8a1a3ac9813be91b032090307a40148053e496bedd99c5aa996dcd688dd",
+    "torch_version": "2.15.0+cpu"
+  },
+  "numeric_fields_compared": 2278,
+  "maximum_numeric_difference": 0,
+  "all_reported_content_matches_except_scoring_timestamp_hash": true,
+  "scored_array_hashes": {
+    "per_task/D3_held0.npz": "8181cd5697d9597062c89c75d9a29b2b6ca8d326e7b82b942cafe9fe181f62a0",
+    "per_task/D3_held1.npz": "5081643c12147509c70a809ce37ae92ea9d3f32aef0d116affcf5d1fe5717a02",
+    "per_source/D3.npz": "c860759d371a5ef95cde1740fe151a1ebab089a2a2c71598cb2f5721c7aaa09c",
+    "per_task/D1_held0.npz": "8e0b750834598eea42da721f5bce8cc78fb39452799260392c2ad4d155009c22",
+    "per_task/D1_held1.npz": "c4cef23547b010946bce017068d103ec7c4e0232120956028f183f8a5653959b",
+    "per_source/D1.npz": "c685f2299a430fd8f9f8063ef34e0d791d02feb436761a0f7d82127ab73acc85",
+    "per_task/D2_held0.npz": "9b8815bd1d2174ef3ffe466e89d2a77181348f1fc87315949231c71a352ede6b",
+    "per_task/D2_held1.npz": "d80812440712ca54772bc89e43ba9cc63ec56696834dd68183af33832ecaf815",
+    "per_source/D2.npz": "fe4b66c484e8f1c48794f3b5fdad29eb27be2b0dff7a9e07f7ad8c6ceed8625b"
+  },
+  "original_summary_sha256": "b5da5b525dfac333808124117bab8f5d7bc674cf0738b442a1fa553370e5197e",
+  "replayed_summary_sha256": "982c83ed87049e6de7c434a5bb28549af388f9be2d690e3e702b4b6d1acce979",
+  "primary_gates": {
+    "development_passed": false,
+    "robustness_passed": false,
+    "equal_source_vs_old_B_positive": false,
+    "every_source_vs_original_nonnegative": false,
+    "sources_with_positive_conditional_lower_limit": [],
+    "both_seed_equal_source_gains_positive": true
+  },
+  "temporary_workspace_removed": true,
+  "temporary_prediction_and_scoring_arrays_removed": true,
+  "replay_script_sha256": "4549e11873ec55aa60e600c27b65503a108007655fc51b92ecb54b816ed37c35",
+  "rebuild_script_sha256": "9ed90d221b4765fd46e8253dc0140af27abb1dde2e4ef03bc26950cf8412bfea"
+}

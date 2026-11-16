@@ -18,7 +18,7 @@
       "seconds": 334.1923974379997,
       "warnings": 0,
       "mixEM_retries": 0,
-      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep0",
+      "directory": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep0",
       "posterior_sha256": "11dff63bd37cebf24a625d631007b7f2121429debe63bb36fba7d771c49a150e",
       "execution_sha256": "c753d5d3e544886f52ea16f7959593ea77139a4ba06c6f9535cd7bf29f447b9c"
     },
@@ -31,7 +31,7 @@
       "seconds": 350.8646919060002,
       "warnings": 0,
       "mixEM_retries": 0,
-      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep1",
+      "directory": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep1",
       "posterior_sha256": "5cc0abe1d54e5d1056adced749cbbc312cc90e05b3b1cd67c3a8da7525279e69",
       "execution_sha256": "273563aa5f6f996649a8b76770e9205299fb3354d00e0f2a5690a47af857bf11"
     },
@@ -44,7 +44,7 @@
       "seconds": 320.0977421630005,
       "warnings": 0,
       "mixEM_retries": 0,
-      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep2",
+      "directory": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep2",
       "posterior_sha256": "b3cc8d0116fbc2081c45b5e8ed9a974e0ea48a6ea3cf88ef640b27cb3f276a67",
       "execution_sha256": "8cdd4d8f6d9eb8e0a4b19b1d928b37b99f17cd041e7e663570ce10dfd9c11874"
     },
@@ -57,7 +57,7 @@
       "seconds": 336.37564628699965,
       "warnings": 0,
       "mixEM_retries": 0,
-      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep3",
+      "directory": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep3",
       "posterior_sha256": "3a55e8040ff1c89733bf1793763532cbcb196a4eb2cf8e4cbb198e7864f54960",
       "execution_sha256": "269aab7a277ba21d2b8ffe1adbceda352804410ef6aac2112fc65bf579b76894"
     },
@@ -70,7 +70,7 @@
       "seconds": 336.02977499700046,
       "warnings": 0,
       "mixEM_retries": 0,
-      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep4",
+      "directory": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Rest/rep4",
       "posterior_sha256": "a2333f68190c0f7d5b2d3ac5b364dfe8ed8cce27bad5f74d1233164ccbe7aa74",
       "execution_sha256": "ea715d13dec50c9a0d0939267dd5755cb4166c02ec12a9d5c3f08cf83e15b211"
     },
@@ -83,7 +83,7 @@
       "seconds": 343.3045863490006,
       "warnings": 0,
       "mixEM_retries": 0,
-      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim8hr/rep0",
+      "directory": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim8hr/rep0",
       "posterior_sha256": "e5b5c74b4a0fdb41f85aa6f3c3331642d5b21f922bc1f649fa9fdd839d6c49cd",
       "execution_sha256": "eb2d098d7079dded21c3a452c5f5d65ee98b02363f9c0a084698990fe60b7a93"
     },
@@ -96,7 +96,7 @@
       "seconds": 317.8101356629995,
       "warnings": 0,
       "mixEM_retries": 0,
-      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim8hr/rep1",
+      "directory": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim8hr/rep1",
       "posterior_sha256": "44b368a0093c00107ac2a9ab57a9fb3ec0e66dcc2b41e3e5f14747741b3c04e3",
       "execution_sha256": "1c4a60f8978b5a2fc79f6f053610acab4a225e581b985a7b932169268d362508"
     },
@@ -109,7 +109,7 @@
       "seconds": 322.6100617680004,
       "warnings": 0,
       "mixEM_retries": 0,
-      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim8hr/rep2",
+      "directory": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim8hr/rep2",
       "posterior_sha256": "9ac75dfd4fe516cbbd4e23bc2f5b8530538650749661e19b1a6696c648b0af06",
       "execution_sha256": "8655af563314200acb7fd85ad119fafb38fac43b803396bf02556a17d8258f67"
     },
@@ -122,7 +122,7 @@
       "seconds": 328.19338073200015,
       "warnings": 0,
       "mixEM_retries": 0,
-      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim8hr/rep3",
+      "directory": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim8hr/rep3",
       "posterior_sha256": "e93d08af05522f306f68b995f79cd6fc2dfb740b69f0c3bc78e2796aa5b0b8d5",
       "execution_sha256": "d906fc4f79f0a2b7bb25f7ec4d09a2b65f06b6f64481c333ef6382a2ae1e32c2"
     },
@@ -135,7 +135,7 @@
       "seconds": 328.15093235099994,
       "warnings": 0,
       "mixEM_retries": 0,
-      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim8hr/rep4",
+      "directory": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim8hr/rep4",
       "posterior_sha256": "2243cedb8d03f6ec7947e4f3d1e9ff148bca4e57e39f992dfe3c472f11106441",
       "execution_sha256": "b58a52aee793ea66a10a9f7f789fa913a8b1a87986d02b4295679f819608dd31"
     },
@@ -148,7 +148,7 @@
       "seconds": 228.6101660410004,
       "warnings": 0,
       "mixEM_retries": 0,
-      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim_independent/rep0",
+      "directory": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_transfer/D4_Stim_independent/rep0",
       "posterior_sha256": "079366e44a596093efb91ac358d38af6736805cc52c8a800e0a5bbacc7ddc441",
       "execution_sha256": "33c10e6e6164275b5d53d1a74543b31a059239a36115b4bd0256c9dd3b24ffdd"
     },
@@ -160,7 +160,7 @@
       "seconds": 149.36248162999982,
       "warnings": 0,
       "mixEM_retries": 0,
-      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_transfer/n20",
+      "directory": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/depth_transfer/n20",
       "posterior_sha256": "fe4fc395921456d67778c0cebaf08327ce5c29b26cc5ef6ea400baba5a378b47",
       "execution_sha256": "25896913cb235754d0bad60b4437fff76bb3e8c547c9cae7eee3d8a514ab22fa"
     },
@@ -172,7 +172,7 @@
       "seconds": 152.5479565580008,
       "warnings": 0,
       "mixEM_retries": 0,
-      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_transfer/n50",
+      "directory": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/depth_transfer/n50",
       "posterior_sha256": "fde8e05cfca83da78ad0c3acef68c958b3097d0622e9ad84ac7873aa70a35e0e",
       "execution_sha256": "b4dc0c5a7466f5301cd160140a4a6d00039ca23a328567ca6e16f79799b7d092"
     },
@@ -184,14 +184,14 @@
       "seconds": 147.58546299199952,
       "warnings": 0,
       "mixEM_retries": 0,
-      "directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_transfer/n100",
+      "directory": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/depth_transfer/n100",
       "posterior_sha256": "e2e063a97f521e932cb5b2d43aa4582224d4649d7c6e7545c3acf6e47f5355ea",
       "execution_sha256": "1ac15915d3dd204f2da702f5547250b6ab7e28e503f5366500a9e755ecb72556"
     }
   ],
   "completed_scoring_endpoints": [
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Rest_pooled/evaluation_report.json",
+      "path": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Rest_pooled/evaluation_report.json",
       "sha256": "90ef19233b0f19bbe09e49effa9728d5b51e7c909adedc6367be11dc5368f3d9",
       "scope": "Conditional on fixed observed cells/reference and original query panels; original query-block bootstrap, averaged over five fixed input repetitions.",
       "simultaneous_intervals": "ASH contrasts and intervals are descriptive; no new simultaneous family or performance-dependent choice.",
@@ -476,7 +476,7 @@
       "common_arm_verification": "MATCHED_COMMON_THREE_ARMS_BITWISE_PASS"
     },
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_pooled/evaluation_report.json",
+      "path": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_pooled/evaluation_report.json",
       "sha256": "9cd5a42329fc7b610272684512eed31567748169c4069e1c4fd942a19339745d",
       "scope": "Conditional on fixed observed cells/reference and original query panels; original query-block bootstrap, averaged over five fixed input repetitions.",
       "simultaneous_intervals": "ASH contrasts and intervals are descriptive; no new simultaneous family or performance-dependent choice.",
@@ -761,7 +761,7 @@
       "common_arm_verification": "MATCHED_COMMON_THREE_ARMS_BITWISE_PASS"
     },
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_independent/evaluation_report.json",
+      "path": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_independent/evaluation_report.json",
       "sha256": "4f9107191ec070d3fc740ae57cd84563f9bb996930f7d6af8ddab3851037e1be",
       "scope": "Conditional on fixed shallow inputs, QC profiles, candidate pools, input-control metric/normalization, query panel and observed donor. Joint intervals propagate source-query-block and within-lane reference-cell resampling; they are not donor-population intervals.",
       "simultaneous_intervals": "ASH contrasts and intervals are descriptive; no new simultaneous family or performance-dependent choice.",
@@ -1078,7 +1078,7 @@
       "common_arm_verification": "FROZEN_SCALAR_COMMON_THREE_ARMS_BITWISE_PASS"
     },
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_pooled_combined/equal_state_report.json",
+      "path": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_pooled_combined/equal_state_report.json",
       "sha256": "c168264e36cb0bc4029ce254d25d8945a9b72e83de0f53a2a684ac09d61cb033",
       "scope": "Original task-stratified query-block bootstrap: independent streams in the two original different panels, then equal-state mean. Conditional on fixed cells/reference and observed D4 donor.",
       "simultaneous_intervals": "Descriptive ASH comparison intervals; no new multiplicity family or D4 tuning.",
@@ -1363,7 +1363,7 @@
       "common_arm_verification": "TASK_STRATIFIED_COMMON_THREE_ARMS_BITWISE_PASS"
     },
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n20/evaluation_report.json",
+      "path": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n20/evaluation_report.json",
       "sha256": "c0c71e697b8d8e3652b859cf958d2f30e0e3e87699aaef0c164bc5af0ab216e9",
       "scope": "Separate 250-target nested depth diagnostic. Conditional query-block bootstrap; one shared nested cell chain, fixed donor/reference/control geometry. Neither independent depth replicates nor donor-population inference; absolute scores not directly comparable to main 1200/589/561/395-target tasks.",
       "simultaneous_intervals": "All ASH depth contrasts descriptive; no new multiple-testing family or depth-dependent parameter choice.",
@@ -1584,7 +1584,7 @@
       "common_arm_verification": "DEPTH_COMMON_THREE_ARMS_BOTH_FR_SPECIFICATIONS_MATCH"
     },
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n50/evaluation_report.json",
+      "path": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n50/evaluation_report.json",
       "sha256": "b2cf41b6413fce208b8ce67a99e37779662b6f9fd2abbda0bcdee5d5eb6a830d",
       "scope": "Separate 250-target nested depth diagnostic. Conditional query-block bootstrap; one shared nested cell chain, fixed donor/reference/control geometry. Neither independent depth replicates nor donor-population inference; absolute scores not directly comparable to main 1200/589/561/395-target tasks.",
       "simultaneous_intervals": "All ASH depth contrasts descriptive; no new multiple-testing family or depth-dependent parameter choice.",
@@ -1805,7 +1805,7 @@
       "common_arm_verification": "DEPTH_COMMON_THREE_ARMS_BOTH_FR_SPECIFICATIONS_MATCH"
     },
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n100/evaluation_report.json",
+      "path": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/depth_evaluation/n100/evaluation_report.json",
       "sha256": "ae51f3803d26f433c3de3381b91ea676096cdc658909b510f4c1c5e8299170d7",
       "scope": "Separate 250-target nested depth diagnostic. Conditional query-block bootstrap; one shared nested cell chain, fixed donor/reference/control geometry. Neither independent depth replicates nor donor-population inference; absolute scores not directly comparable to main 1200/589/561/395-target tasks.",
       "simultaneous_intervals": "All ASH depth contrasts descriptive; no new multiple-testing family or depth-dependent parameter choice.",
@@ -2026,7 +2026,7 @@
       "common_arm_verification": "DEPTH_COMMON_THREE_ARMS_BOTH_FR_SPECIFICATIONS_MATCH"
     }
   ],
-  "D3_default_recovery_confirmation_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D3_DEFAULT_REPLAY_CONFIRMATION.json",
+  "D3_default_recovery_confirmation_path": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D3_DEFAULT_REPLAY_CONFIRMATION.json",
   "D3_default_recovery_confirmation_sha256": "146834963f209db14fc92404eba8053feaec8b471967fda472bb3c10a30c955d",
   "D3_old_normal_and_shrink": "Not started in this session; historical scores/evidence retained but full posterior archives not restored, per user instruction to stop archive-only reruns.",
   "FR_independent_rank100": "NOT_AVAILABLE; not rerun for cross-check. New ASH common arms match frozen historical scalar independent evaluation bitwise including joint bootstrap.",
@@ -2038,7 +2038,7 @@
     "sampling_limit": "Observed snapshots, not a continuously measured process-tree peak.",
     "shared_heavy_preparation_lock": "fr_benchmark/heavy_memory.lock"
   },
-  "scope_clarification_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/EXPERIMENT_STATUS.json",
+  "scope_clarification_path": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/EXPERIMENT_STATUS.json",
   "paper_modified": false,
   "D1_D2_Stim_expression_read": false,
   "ASH_weighted_variants_added": false

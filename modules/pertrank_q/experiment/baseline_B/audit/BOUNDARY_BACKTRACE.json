@@ -1,0 +1,736 @@
+{
+  "identity": "Post-score descriptive localization, no model selection",
+  "tasks": {
+    "D3_held0": {
+      "base_context": {
+        "within_fixed_local_band": {
+          "entered": 131.0,
+          "exited": 100.0,
+          "entered_support": 53.0,
+          "exited_support": 35.0,
+          "delta_P10": 0.0030716723549488053
+        },
+        "outside_fixed_local_band": {
+          "entered": 4.0,
+          "exited": 35.0,
+          "entered_support": 1.0,
+          "exited_support": 16.0,
+          "delta_P10": -0.002559726962457338
+        },
+        "total_delta_P10": 0.0005119453924914676
+      },
+      "boundary_context": {
+        "within_fixed_local_band": {
+          "entered": 148.0,
+          "exited": 116.0,
+          "entered_support": 60.0,
+          "exited_support": 38.0,
+          "delta_P10": 0.0037542662116040954
+        },
+        "outside_fixed_local_band": {
+          "entered": 3.0,
+          "exited": 35.0,
+          "entered_support": 2.0,
+          "exited_support": 13.0,
+          "delta_P10": -0.0018771331058020477
+        },
+        "total_delta_P10": 0.0018771331058020477
+      },
+      "boundary_pair": {
+        "within_fixed_local_band": {
+          "entered": 360.0,
+          "exited": 316.0,
+          "entered_support": 126.0,
+          "exited_support": 117.0,
+          "delta_P10": 0.0015358361774744026
+        },
+        "outside_fixed_local_band": {
+          "entered": 90.0,
+          "exited": 134.0,
+          "entered_support": 34.0,
+          "exited_support": 57.0,
+          "delta_P10": -0.003924914675767918
+        },
+        "total_delta_P10": -0.002389078498293515
+      }
+    },
+    "D3_held1": {
+      "base_context": {
+        "within_fixed_local_band": {
+          "entered": 246.0,
+          "exited": 223.0,
+          "entered_support": 108.0,
+          "exited_support": 84.0,
+          "delta_P10": 0.004095563139931741
+        },
+        "outside_fixed_local_band": {
+          "entered": 32.0,
+          "exited": 55.0,
+          "entered_support": 7.0,
+          "exited_support": 13.0,
+          "delta_P10": -0.0010238907849829352
+        },
+        "total_delta_P10": 0.0030716723549488053
+      },
+      "boundary_context": {
+        "within_fixed_local_band": {
+          "entered": 0.0,
+          "exited": 0.0,
+          "entered_support": 0.0,
+          "exited_support": 0.0,
+          "delta_P10": 0.0
+        },
+        "outside_fixed_local_band": {
+          "entered": 0.0,
+          "exited": 0.0,
+          "entered_support": 0.0,
+          "exited_support": 0.0,
+          "delta_P10": 0.0
+        },
+        "total_delta_P10": 0.0
+      },
+      "boundary_pair": {
+        "within_fixed_local_band": {
+          "entered": 0.0,
+          "exited": 0.0,
+          "entered_support": 0.0,
+          "exited_support": 0.0,
+          "delta_P10": 0.0
+        },
+        "outside_fixed_local_band": {
+          "entered": 0.0,
+          "exited": 0.0,
+          "entered_support": 0.0,
+          "exited_support": 0.0,
+          "delta_P10": 0.0
+        },
+        "total_delta_P10": 0.0
+      }
+    },
+    "D1_held0": {
+      "base_context": {
+        "within_fixed_local_band": {
+          "entered": 360.0,
+          "exited": 299.0,
+          "entered_support": 105.0,
+          "exited_support": 84.0,
+          "delta_P10": 0.003633217993079585
+        },
+        "outside_fixed_local_band": {
+          "entered": 116.0,
+          "exited": 177.0,
+          "entered_support": 39.0,
+          "exited_support": 59.0,
+          "delta_P10": -0.0034602076124567475
+        },
+        "total_delta_P10": 0.00017301038062283736
+      },
+      "boundary_context": {
+        "within_fixed_local_band": {
+          "entered": 419.0,
+          "exited": 289.0,
+          "entered_support": 124.0,
+          "exited_support": 83.0,
+          "delta_P10": 0.0070934256055363324
+        },
+        "outside_fixed_local_band": {
+          "entered": 153.0,
+          "exited": 283.0,
+          "entered_support": 45.0,
+          "exited_support": 89.0,
+          "delta_P10": -0.007612456747404845
+        },
+        "total_delta_P10": -0.0005190311418685121
+      },
+      "boundary_pair": {
+        "within_fixed_local_band": {
+          "entered": 484.0,
+          "exited": 358.0,
+          "entered_support": 139.0,
+          "exited_support": 104.0,
+          "delta_P10": 0.006055363321799308
+        },
+        "outside_fixed_local_band": {
+          "entered": 308.0,
+          "exited": 434.0,
+          "entered_support": 95.0,
+          "exited_support": 149.0,
+          "delta_P10": -0.009342560553633217
+        },
+        "total_delta_P10": -0.00328719723183391
+      }
+    },
+    "D1_held1": {
+      "base_context": {
+        "within_fixed_local_band": {
+          "entered": 120.0,
+          "exited": 113.0,
+          "entered_support": 47.0,
+          "exited_support": 35.0,
+          "delta_P10": 0.0020761245674740486
+        },
+        "outside_fixed_local_band": {
+          "entered": 8.0,
+          "exited": 15.0,
+          "entered_support": 1.0,
+          "exited_support": 6.0,
+          "delta_P10": -0.0008650519031141869
+        },
+        "total_delta_P10": 0.0012110726643598615
+      },
+      "boundary_context": {
+        "within_fixed_local_band": {
+          "entered": 165.0,
+          "exited": 164.0,
+          "entered_support": 62.0,
+          "exited_support": 49.0,
+          "delta_P10": 0.002249134948096886
+        },
+        "outside_fixed_local_band": {
+          "entered": 17.0,
+          "exited": 18.0,
+          "entered_support": 4.0,
+          "exited_support": 6.0,
+          "delta_P10": -0.00034602076124567473
+        },
+        "total_delta_P10": 0.0019031141868512112
+      },
+      "boundary_pair": {
+        "within_fixed_local_band": {
+          "entered": 0.0,
+          "exited": 0.0,
+          "entered_support": 0.0,
+          "exited_support": 0.0,
+          "delta_P10": 0.0
+        },
+        "outside_fixed_local_band": {
+          "entered": 0.0,
+          "exited": 0.0,
+          "entered_support": 0.0,
+          "exited_support": 0.0,
+          "delta_P10": 0.0
+        },
+        "total_delta_P10": 0.0
+      }
+    },
+    "D2_held0": {
+      "base_context": {
+        "within_fixed_local_band": {
+          "entered": 465.0,
+          "exited": 289.0,
+          "entered_support": 130.0,
+          "exited_support": 76.0,
+          "delta_P10": 0.009342560553633217
+        },
+        "outside_fixed_local_band": {
+          "entered": 151.0,
+          "exited": 327.0,
+          "entered_support": 40.0,
+          "exited_support": 91.0,
+          "delta_P10": -0.008823529411764706
+        },
+        "total_delta_P10": 0.0005190311418685121
+      },
+      "boundary_context": {
+        "within_fixed_local_band": {
+          "entered": 260.0,
+          "exited": 202.0,
+          "entered_support": 77.0,
+          "exited_support": 60.0,
+          "delta_P10": 0.0029411764705882353
+        },
+        "outside_fixed_local_band": {
+          "entered": 38.0,
+          "exited": 96.0,
+          "entered_support": 16.0,
+          "exited_support": 24.0,
+          "delta_P10": -0.001384083044982699
+        },
+        "total_delta_P10": 0.0015570934256055363
+      },
+      "boundary_pair": {
+        "within_fixed_local_band": {
+          "entered": 460.0,
+          "exited": 434.0,
+          "entered_support": 112.0,
+          "exited_support": 140.0,
+          "delta_P10": -0.004844290657439446
+        },
+        "outside_fixed_local_band": {
+          "entered": 263.0,
+          "exited": 289.0,
+          "entered_support": 65.0,
+          "exited_support": 82.0,
+          "delta_P10": -0.0029411764705882353
+        },
+        "total_delta_P10": -0.007785467128027681
+      }
+    },
+    "D2_held1": {
+      "base_context": {
+        "within_fixed_local_band": {
+          "entered": 117.0,
+          "exited": 107.0,
+          "entered_support": 43.0,
+          "exited_support": 32.0,
+          "delta_P10": 0.0019031141868512112
+        },
+        "outside_fixed_local_band": {
+          "entered": 4.0,
+          "exited": 14.0,
+          "entered_support": 3.0,
+          "exited_support": 3.0,
+          "delta_P10": 0.0
+        },
+        "total_delta_P10": 0.0019031141868512112
+      },
+      "boundary_context": {
+        "within_fixed_local_band": {
+          "entered": 200.0,
+          "exited": 194.0,
+          "entered_support": 75.0,
+          "exited_support": 57.0,
+          "delta_P10": 0.0031141868512110727
+        },
+        "outside_fixed_local_band": {
+          "entered": 61.0,
+          "exited": 67.0,
+          "entered_support": 29.0,
+          "exited_support": 24.0,
+          "delta_P10": 0.0008650519031141869
+        },
+        "total_delta_P10": 0.00397923875432526
+      },
+      "boundary_pair": {
+        "within_fixed_local_band": {
+          "entered": 324.0,
+          "exited": 272.0,
+          "entered_support": 119.0,
+          "exited_support": 86.0,
+          "delta_P10": 0.005709342560553633
+        },
+        "outside_fixed_local_band": {
+          "entered": 144.0,
+          "exited": 196.0,
+          "entered_support": 62.0,
+          "exited_support": 59.0,
+          "delta_P10": 0.0005190311418685121
+        },
+        "total_delta_P10": 0.006228373702422145
+      }
+    }
+  },
+  "sources": {
+    "D3": {
+      "base_context": {
+        "total_delta_P10": 0.0017918088737201364,
+        "within_fixed_local_band": {
+          "entered": 188.5,
+          "exited": 161.5,
+          "entered_support": 80.5,
+          "exited_support": 59.5,
+          "delta_P10": 0.0035836177474402727
+        },
+        "outside_fixed_local_band": {
+          "entered": 18.0,
+          "exited": 45.0,
+          "entered_support": 4.0,
+          "exited_support": 14.5,
+          "delta_P10": -0.0017918088737201364
+        }
+      },
+      "boundary_context": {
+        "total_delta_P10": 0.0009385665529010238,
+        "within_fixed_local_band": {
+          "entered": 74.0,
+          "exited": 58.0,
+          "entered_support": 30.0,
+          "exited_support": 19.0,
+          "delta_P10": 0.0018771331058020477
+        },
+        "outside_fixed_local_band": {
+          "entered": 1.5,
+          "exited": 17.5,
+          "entered_support": 1.0,
+          "exited_support": 6.5,
+          "delta_P10": -0.0009385665529010238
+        }
+      },
+      "boundary_pair": {
+        "total_delta_P10": -0.0011945392491467576,
+        "within_fixed_local_band": {
+          "entered": 180.0,
+          "exited": 158.0,
+          "entered_support": 63.0,
+          "exited_support": 58.5,
+          "delta_P10": 0.0007679180887372013
+        },
+        "outside_fixed_local_band": {
+          "entered": 45.0,
+          "exited": 67.0,
+          "entered_support": 17.0,
+          "exited_support": 28.5,
+          "delta_P10": -0.001962457337883959
+        }
+      }
+    },
+    "D1": {
+      "base_context": {
+        "total_delta_P10": 0.0006920415224913495,
+        "within_fixed_local_band": {
+          "entered": 240.0,
+          "exited": 206.0,
+          "entered_support": 76.0,
+          "exited_support": 59.5,
+          "delta_P10": 0.002854671280276817
+        },
+        "outside_fixed_local_band": {
+          "entered": 62.0,
+          "exited": 96.0,
+          "entered_support": 20.0,
+          "exited_support": 32.5,
+          "delta_P10": -0.0021626297577854673
+        }
+      },
+      "boundary_context": {
+        "total_delta_P10": 0.0006920415224913495,
+        "within_fixed_local_band": {
+          "entered": 292.0,
+          "exited": 226.5,
+          "entered_support": 93.0,
+          "exited_support": 66.0,
+          "delta_P10": 0.0046712802768166094
+        },
+        "outside_fixed_local_band": {
+          "entered": 85.0,
+          "exited": 150.5,
+          "entered_support": 24.5,
+          "exited_support": 47.5,
+          "delta_P10": -0.00397923875432526
+        }
+      },
+      "boundary_pair": {
+        "total_delta_P10": -0.001643598615916955,
+        "within_fixed_local_band": {
+          "entered": 242.0,
+          "exited": 179.0,
+          "entered_support": 69.5,
+          "exited_support": 52.0,
+          "delta_P10": 0.003027681660899654
+        },
+        "outside_fixed_local_band": {
+          "entered": 154.0,
+          "exited": 217.0,
+          "entered_support": 47.5,
+          "exited_support": 74.5,
+          "delta_P10": -0.004671280276816609
+        }
+      }
+    },
+    "D2": {
+      "base_context": {
+        "total_delta_P10": 0.0012110726643598617,
+        "within_fixed_local_band": {
+          "entered": 291.0,
+          "exited": 198.0,
+          "entered_support": 86.5,
+          "exited_support": 54.0,
+          "delta_P10": 0.005622837370242214
+        },
+        "outside_fixed_local_band": {
+          "entered": 77.5,
+          "exited": 170.5,
+          "entered_support": 21.5,
+          "exited_support": 47.0,
+          "delta_P10": -0.004411764705882353
+        }
+      },
+      "boundary_context": {
+        "total_delta_P10": 0.002768166089965398,
+        "within_fixed_local_band": {
+          "entered": 230.0,
+          "exited": 198.0,
+          "entered_support": 76.0,
+          "exited_support": 58.5,
+          "delta_P10": 0.003027681660899654
+        },
+        "outside_fixed_local_band": {
+          "entered": 49.5,
+          "exited": 81.5,
+          "entered_support": 22.5,
+          "exited_support": 24.0,
+          "delta_P10": -0.000259515570934256
+        }
+      },
+      "boundary_pair": {
+        "total_delta_P10": -0.000778546712802768,
+        "within_fixed_local_band": {
+          "entered": 392.0,
+          "exited": 353.0,
+          "entered_support": 115.5,
+          "exited_support": 113.0,
+          "delta_P10": 0.00043252595155709355
+        },
+        "outside_fixed_local_band": {
+          "entered": 203.5,
+          "exited": 242.5,
+          "entered_support": 63.5,
+          "exited_support": 70.5,
+          "delta_P10": -0.0012110726643598615
+        }
+      }
+    }
+  },
+  "training": {
+    "boundary_context": {
+      "D3": {
+        "mean_train_P10_gain": 0.0037542662116040737,
+        "fits": [
+          {
+            "fit": "D3_held0_boundary_context_seed2026111511_outer",
+            "epoch": 50,
+            "train_P10_gain": 0.00699658703071665,
+            "rank_loss_change": -0.008435455187390084,
+            "residual_penalty": 0.002868523602916661,
+            "rank_grad": 0.01011454845072151,
+            "penalty_grad": 0.009258283279402868
+          },
+          {
+            "fit": "D3_held0_boundary_context_seed2026111512_outer",
+            "epoch": 50,
+            "train_P10_gain": 0.008020477815699645,
+            "rank_loss_change": -0.007916581018814706,
+            "residual_penalty": 0.0028208518609035634,
+            "rank_grad": 0.009730637076659627,
+            "penalty_grad": 0.009549609499909429
+          },
+          {
+            "fit": "D3_held1_boundary_context_seed2026111511_outer",
+            "epoch": 0,
+            "train_P10_gain": 0.0,
+            "rank_loss_change": 0.0,
+            "residual_penalty": 0.0,
+            "rank_grad": 0.009995100889905777,
+            "penalty_grad": 0.0
+          },
+          {
+            "fit": "D3_held1_boundary_context_seed2026111512_outer",
+            "epoch": 0,
+            "train_P10_gain": 0.0,
+            "rank_loss_change": 0.0,
+            "residual_penalty": 0.0,
+            "rank_grad": 0.009389864529584012,
+            "penalty_grad": 0.0
+          }
+        ]
+      },
+      "D1": {
+        "mean_train_P10_gain": 0.004757785467128031,
+        "fits": [
+          {
+            "fit": "D1_held0_boundary_context_seed2026111511_outer",
+            "epoch": 100,
+            "train_P10_gain": 0.003460207612456745,
+            "rank_loss_change": -0.0058011492216969995,
+            "residual_penalty": 0.0018507721833249742,
+            "rank_grad": 0.011193066269069659,
+            "penalty_grad": 0.011103576306995874
+          },
+          {
+            "fit": "D1_held0_boundary_context_seed2026111512_outer",
+            "epoch": 200,
+            "train_P10_gain": 0.005017301038062305,
+            "rank_loss_change": -0.009674271146719815,
+            "residual_penalty": 0.002623933963795403,
+            "rank_grad": 0.01230302274145074,
+            "penalty_grad": 0.012103590241838082
+          },
+          {
+            "fit": "D1_held1_boundary_context_seed2026111511_outer",
+            "epoch": 300,
+            "train_P10_gain": 0.010553633217993075,
+            "rank_loss_change": -0.01259197798997197,
+            "residual_penalty": 0.004722717580402829,
+            "rank_grad": 0.01102834798129586,
+            "penalty_grad": 0.010817782878007491
+          },
+          {
+            "fit": "D1_held1_boundary_context_seed2026111512_outer",
+            "epoch": 0,
+            "train_P10_gain": 0.0,
+            "rank_loss_change": 0.0,
+            "residual_penalty": 0.0,
+            "rank_grad": 0.007427495344721041,
+            "penalty_grad": 0.0
+          }
+        ]
+      },
+      "D2": {
+        "mean_train_P10_gain": 0.00519031141868509,
+        "fits": [
+          {
+            "fit": "D2_held0_boundary_context_seed2026111511_outer",
+            "epoch": 0,
+            "train_P10_gain": 0.0,
+            "rank_loss_change": 0.0,
+            "residual_penalty": 0.0,
+            "rank_grad": 0.0074706346269664305,
+            "penalty_grad": 0.0
+          },
+          {
+            "fit": "D2_held0_boundary_context_seed2026111512_outer",
+            "epoch": 300,
+            "train_P10_gain": 0.015743944636678164,
+            "rank_loss_change": -0.013596001872768604,
+            "residual_penalty": 0.0037309879584489797,
+            "rank_grad": 0.00865717576759301,
+            "penalty_grad": 0.00849206236880081
+          },
+          {
+            "fit": "D2_held1_boundary_context_seed2026111511_outer",
+            "epoch": 100,
+            "train_P10_gain": 0.0031141868512110094,
+            "rank_loss_change": -0.007574569371496143,
+            "residual_penalty": 0.0025382517294921417,
+            "rank_grad": 0.009718476984747851,
+            "penalty_grad": 0.009445960227430408
+          },
+          {
+            "fit": "D2_held1_boundary_context_seed2026111512_outer",
+            "epoch": 50,
+            "train_P10_gain": 0.0019031141868511847,
+            "rank_loss_change": -0.005388707331221154,
+            "residual_penalty": 0.001864145186496919,
+            "rank_grad": 0.011099743730693237,
+            "penalty_grad": 0.010509962361133727
+          }
+        ]
+      }
+    },
+    "boundary_pair": {
+      "D3": {
+        "mean_train_P10_gain": 0.007551194539249087,
+        "fits": [
+          {
+            "fit": "D3_held0_boundary_pair_seed2026111511_outer",
+            "epoch": 300,
+            "train_P10_gain": 0.016894197952218304,
+            "rank_loss_change": -0.03811092829287205,
+            "residual_penalty": 0.00370502275767433,
+            "rank_grad": 0.00328900626656329,
+            "penalty_grad": 0.002578304705779129
+          },
+          {
+            "fit": "D3_held0_boundary_pair_seed2026111512_outer",
+            "epoch": 300,
+            "train_P10_gain": 0.013310580204778044,
+            "rank_loss_change": -0.03744297540020347,
+            "residual_penalty": 0.003969138952340844,
+            "rank_grad": 0.002638293064674412,
+            "penalty_grad": 0.002173560437898146
+          },
+          {
+            "fit": "D3_held1_boundary_pair_seed2026111511_outer",
+            "epoch": 0,
+            "train_P10_gain": 0.0,
+            "rank_loss_change": 0.0,
+            "residual_penalty": 0.0,
+            "rank_grad": 0.009258514618214694,
+            "penalty_grad": 0.0
+          },
+          {
+            "fit": "D3_held1_boundary_pair_seed2026111512_outer",
+            "epoch": 0,
+            "train_P10_gain": 0.0,
+            "rank_loss_change": 0.0,
+            "residual_penalty": 0.0,
+            "rank_grad": 0.008841593371576145,
+            "penalty_grad": 0.0
+          }
+        ]
+      },
+      "D1": {
+        "mean_train_P10_gain": 0.0061851211072664475,
+        "fits": [
+          {
+            "fit": "D1_held0_boundary_pair_seed2026111511_outer",
+            "epoch": 200,
+            "train_P10_gain": 0.011591695501730115,
+            "rank_loss_change": -0.023996177601941393,
+            "residual_penalty": 0.001994292141516064,
+            "rank_grad": 0.0026972971420507175,
+            "penalty_grad": 0.001747608647240576
+          },
+          {
+            "fit": "D1_held0_boundary_pair_seed2026111512_outer",
+            "epoch": 300,
+            "train_P10_gain": 0.013148788927335675,
+            "rank_loss_change": -0.028706679917198108,
+            "residual_penalty": 0.0021266167054548196,
+            "rank_grad": 0.0019145904494380591,
+            "penalty_grad": 0.0015607781301212932
+          },
+          {
+            "fit": "D1_held1_boundary_pair_seed2026111511_outer",
+            "epoch": 0,
+            "train_P10_gain": 0.0,
+            "rank_loss_change": 0.0,
+            "residual_penalty": 0.0,
+            "rank_grad": 0.01005101258146178,
+            "penalty_grad": 0.0
+          },
+          {
+            "fit": "D1_held1_boundary_pair_seed2026111512_outer",
+            "epoch": 0,
+            "train_P10_gain": 0.0,
+            "rank_loss_change": 0.0,
+            "residual_penalty": 0.0,
+            "rank_grad": 0.010499157382189053,
+            "penalty_grad": 0.0
+          }
+        ]
+      },
+      "D2": {
+        "mean_train_P10_gain": 0.0057093425605536235,
+        "fits": [
+          {
+            "fit": "D2_held0_boundary_pair_seed2026111511_outer",
+            "epoch": 100,
+            "train_P10_gain": 0.011245674740484435,
+            "rank_loss_change": -0.01547850880538637,
+            "residual_penalty": 0.0019091702394952222,
+            "rank_grad": 0.0030809017509824967,
+            "penalty_grad": 0.0017715062443846698
+          },
+          {
+            "fit": "D2_held0_boundary_pair_seed2026111512_outer",
+            "epoch": 0,
+            "train_P10_gain": 0.0,
+            "rank_loss_change": 0.0,
+            "residual_penalty": 0.0,
+            "rank_grad": 0.0027006387451658257,
+            "penalty_grad": 0.0
+          },
+          {
+            "fit": "D2_held1_boundary_pair_seed2026111511_outer",
+            "epoch": 50,
+            "train_P10_gain": 0.00570934256055361,
+            "rank_loss_change": -0.008036498422154342,
+            "residual_penalty": 0.0011622674416176327,
+            "rank_grad": 0.004684870735034265,
+            "penalty_grad": 0.0031400666350231954
+          },
+          {
+            "fit": "D2_held1_boundary_pair_seed2026111512_outer",
+            "epoch": 50,
+            "train_P10_gain": 0.00588235294117645,
+            "rank_loss_change": -0.008328834836242804,
+            "residual_penalty": 0.001264682544097405,
+            "rank_grad": 0.0046480410972628795,
+            "penalty_grad": 0.0037761358249252088
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "arm": "boundary_context",
+  "seed": 2026111511,
+  "epochs": 300,
+  "selected_epoch": 300,
+  "k": 5,
+  "source_specific": true,
+  "training_target_ids": [
+    "ENSG00000049768",
+    "ENSG00000107485",
+    "ENSG00000162676",
+    "ENSG00000134460",
+    "ENSG00000162601",
+    "ENSG00000102908",
+    "ENSG00000143390",
+    "ENSG00000143365",
+    "ENSG00000168769",
+    "ENSG00000141510",
+    "ENSG00000060138",
+    "ENSG00000180787",
+    "ENSG00000182141"
+  ],
+  "validation_target_ids": [
+    "ENSG00000105127",
+    "ENSG00000196843",
+    "ENSG00000112182",
+    "ENSG00000134852",
+    "ENSG00000179388",
+    "ENSG00000116016",
+    "ENSG00000164916",
+    "ENSG00000213928",
+    "ENSG00000118513",
+    "ENSG00000115415",
+    "ENSG00000100811",
+    "ENSG00000166188",
+    "ENSG00000197343"
+  ],
+  "duration_seconds": 3.140108761988813,
+  "parameters": 129
+}

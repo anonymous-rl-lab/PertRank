@@ -1,0 +1,13 @@
+{
+  "new_inner_fits": 0,
+  "fixed_epoch_pair_candidates": 300,
+  "unique_new_outer_fits": 8,
+  "new_outer_fits_positive_epochs": 7,
+  "new_outer_epochs_sum": 1250,
+  "summed_new_fit_wall_seconds": 22.426032094997936,
+  "reused_outer_slots": 16,
+  "outer_slots": 24,
+  "training_targets_disjoint_from_held_all": true,
+  "prediction_lock_sha256": "4020bde1640966855db723b4914befa72323f30cd44602505d58eb62f872f048",
+  "training_opened_held_reference": false
+}

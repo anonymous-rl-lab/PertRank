@@ -1,0 +1,12 @@
+{
+  "protocol_sha256": "dd4bc4941275b329b18b2f75da79d16d3fac8f40d3ab6d76ff480780e2788646",
+  "script_sha256": "cee6c1a2c9be3ba7fc5d0ffe3a0eef353ea21cead6517aae11663cedc49fbd48",
+  "prediction_sha256": {
+    "D3": "b25398a595bb7c72ec755e9ea26c8cf24152baff1850768993d457b5fdfab1e4",
+    "D1": "2e9990b2c72423f44c58859be990d446f63d4b31f4f0b37dbb8ef9918dec512c",
+    "D2": "b77e9a9ff40a15aa2f5aa494258dca5bfdc2d26c277eec48058bf708546b44b0"
+  },
+  "locked_at_utc": "2026-11-14T10:34:13.980861+00:00",
+  "evaluation_started": false,
+  "external_reference_was_previously_analyzed": true
+}

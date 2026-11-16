@@ -136,4 +136,3 @@ dependencies:
   - zipp=3.11.0=pyhd8ed1ab_0
   - zlib=1.2.13=h5eee18b_0
   - zstd=1.4.9=ha95c52a_0
-prefix: /home/dwy6/anaconda3/envs/FR-Perturb

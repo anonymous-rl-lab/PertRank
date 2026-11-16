@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "version": "0.2.0rc3",
+  "source_document_paths": [
+    "docs/scientific_design.md",
+    "docs/api.md",
+    "tutorials/01_replogle.ipynb"
+  ],
+  "pypi_relative_links": 0,
+  "wheel_fixture_identity": "PASS",
+  "twine_check": "PASS for wheel and source distribution",
+  "published": false
+}

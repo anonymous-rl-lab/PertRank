@@ -29,7 +29,7 @@
   "owner_exit_code": 0,
   "owner_session_id": "19770",
   "primary_continuation_gate_computed": false,
-  "report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/evaluation_report.json",
+  "report_path": "/anonymous/workspace/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/evaluation_report.json",
   "report_sha256": "af7a173b8a0e4b4bd058d1ff25b614b6a29b27f3362661debb7ec1c5984b129d",
   "separate_tool_call_after_owner_exit_zero": true,
   "status": "OWNER_EXECUTION_ENDED_INTEGRITY_VERIFIED"

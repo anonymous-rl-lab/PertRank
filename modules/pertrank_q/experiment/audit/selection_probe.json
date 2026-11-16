@@ -1,0 +1,1485 @@
+{
+  "identity": "Exploratory read-only B selection audit; no new fitting or outer-reference scoring",
+  "checkpoint_availability": "Inner files contain only final epoch-300 weights plus metric curves. Intermediate checkpoint scores and weights are absent. Exact intermediate ensemble selection cannot be reconstructed without rerunning training.",
+  "selection_rule": "Per seed, require nonnegative exact P@5 improvement in both target exchanges; choose highest exchange-average improvement, tie earliest. Outer deployment averages physical scores from two separately selected seeds.",
+  "code_hashes": {
+    "train_boundary.py": "9037e332a84fe93aafa8caee69ea2485f74d9034f34e487453f883c423c4f492",
+    "boundary_components.py": "de5d0220a8261262c1ba648a4f0163b532622f95fce62b8c23a6c722969dc9fb",
+    "common.py": "735d05e69672d4c2227a895241a044337d328c62e1413375652eb1a4b03191da"
+  },
+  "tasks": {
+    "D3_held0": {
+      "calibration_targets": 26,
+      "selected_epochs": [
+        50,
+        50
+      ],
+      "per_seed": {
+        "2026111511": {
+          "selected_epoch": 50,
+          "choices": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                0.003071672354948818,
+                0.012969283276450527
+              ],
+              "mean_gain": 0.008020477815699673,
+              "eligible": true
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                0.002047781569965823,
+                0.01228668941979516
+              ],
+              "mean_gain": 0.007167235494880492,
+              "eligible": true
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                0.002389078498293451,
+                0.011945392491467532
+              ],
+              "mean_gain": 0.007167235494880492,
+              "eligible": true
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                0.0017064846416381951,
+                0.006143344709897525
+              ],
+              "mean_gain": 0.00392491467576786,
+              "eligible": true
+            }
+          ],
+          "positive_mean_but_exchange_veto_epochs": []
+        },
+        "2026111512": {
+          "selected_epoch": 50,
+          "choices": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                0.005460750853242324,
+                0.010921501706484649
+              ],
+              "mean_gain": 0.008191126279863487,
+              "eligible": true
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                0.0013651877133105672,
+                0.008191126279863459
+              ],
+              "mean_gain": 0.004778156996587013,
+              "eligible": true
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                0.00273037542662119,
+                0.003071672354948818
+              ],
+              "mean_gain": 0.002901023890785004,
+              "eligible": true
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                0.0013651877133105672,
+                0.005119453924914641
+              ],
+              "mean_gain": 0.003242320819112604,
+              "eligible": true
+            }
+          ],
+          "positive_mean_but_exchange_veto_epochs": []
+        }
+      },
+      "final_epoch_inner_ensemble": [
+        {
+          "exchange": 0,
+          "training_targets": 13,
+          "validation_targets": 13,
+          "baseline_P5": 0.3962457337883959,
+          "seed_P5": [
+            0.3979522184300341,
+            0.39761092150170646
+          ],
+          "epoch300_ensemble_P5": 0.39692832764505126,
+          "epoch300_ensemble_gain": 0.0006825938566553669,
+          "mean_seed_gain": 0.0015358361774743812,
+          "ensemble_minus_mean_seed_P5": -0.0008532423208190143,
+          "validation_ranking_loss": [
+            {
+              "seed": 2026111511,
+              "baseline_validation_rank_loss": -0.3919848012777668,
+              "epoch300_validation_rank_loss": -0.3964107887242171,
+              "improvement": 0.004425987446450286
+            },
+            {
+              "seed": 2026111512,
+              "baseline_validation_rank_loss": -0.3919848012777668,
+              "epoch300_validation_rank_loss": -0.3961674001981649,
+              "improvement": 0.004182598920398073
+            }
+          ]
+        },
+        {
+          "exchange": 1,
+          "training_targets": 13,
+          "validation_targets": 13,
+          "baseline_P5": 0.442320819112628,
+          "seed_P5": [
+            0.4484641638225255,
+            0.44744027303754264
+          ],
+          "epoch300_ensemble_P5": 0.4511945392491467,
+          "epoch300_ensemble_gain": 0.008873720136518715,
+          "mean_seed_gain": 0.005631399317406083,
+          "ensemble_minus_mean_seed_P5": 0.003242320819112632,
+          "validation_ranking_loss": [
+            {
+              "seed": 2026111511,
+              "baseline_validation_rank_loss": -0.4375380612082582,
+              "epoch300_validation_rank_loss": -0.4375197697995936,
+              "improvement": -1.829140866460577e-05
+            },
+            {
+              "seed": 2026111512,
+              "baseline_validation_rank_loss": -0.4375380612082582,
+              "epoch300_validation_rank_loss": -0.4354788837138067,
+              "improvement": -0.002059177494451503
+            }
+          ]
+        }
+      ],
+      "final_epoch_ensemble_eligible_both_exchanges": true,
+      "final_epoch_mean_individual_precision_eligible_both_exchanges": true,
+      "note": "No epoch/seed change applied. Epoch300 reuses saved final weights; middle-epoch ensemble quantities cannot be inferred from scalar precisions."
+    },
+    "D3_held1": {
+      "calibration_targets": 26,
+      "selected_epochs": [
+        0,
+        0
+      ],
+      "per_seed": {
+        "2026111511": {
+          "selected_epoch": 0,
+          "choices": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                -0.0006825938566553114,
+                -0.0013651877133105117
+              ],
+              "mean_gain": -0.0010238907849829115,
+              "eligible": false
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                -0.0023890784982935065,
+                -0.002047781569965823
+              ],
+              "mean_gain": -0.0022184300341296648,
+              "eligible": false
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                -0.005802047781569952,
+                -0.002730375426621079
+              ],
+              "mean_gain": -0.004266211604095516,
+              "eligible": false
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                -0.007508532423208203,
+                -0.0013651877133104562
+              ],
+              "mean_gain": -0.0044368600682593295,
+              "eligible": false
+            }
+          ],
+          "positive_mean_but_exchange_veto_epochs": []
+        },
+        "2026111512": {
+          "selected_epoch": 0,
+          "choices": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                -0.0023890784982935065,
+                0.0003412969283276279
+              ],
+              "mean_gain": -0.0010238907849829393,
+              "eligible": false
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                -0.0034129692832765013,
+                -0.0017064846416381951
+              ],
+              "mean_gain": -0.002559726962457348,
+              "eligible": false
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                -0.004095563139931757,
+                -0.0030716723549487623
+              ],
+              "mean_gain": -0.0035836177474402597,
+              "eligible": false
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                -0.0017064846416381951,
+                -0.0006825938566552003
+              ],
+              "mean_gain": -0.0011945392491466977,
+              "eligible": false
+            }
+          ],
+          "positive_mean_but_exchange_veto_epochs": []
+        }
+      },
+      "final_epoch_inner_ensemble": [
+        {
+          "exchange": 0,
+          "training_targets": 13,
+          "validation_targets": 13,
+          "baseline_P5": 0.4129692832764505,
+          "seed_P5": [
+            0.4054607508532423,
+            0.4112627986348123
+          ],
+          "epoch300_ensemble_P5": 0.40682593856655286,
+          "epoch300_ensemble_gain": -0.006143344709897636,
+          "mean_seed_gain": -0.004607508532423199,
+          "ensemble_minus_mean_seed_P5": -0.0015358361774744367,
+          "validation_ranking_loss": [
+            {
+              "seed": 2026111511,
+              "baseline_validation_rank_loss": -0.4066203463964517,
+              "epoch300_validation_rank_loss": -0.4052377061277676,
+              "improvement": -0.001382640268684121
+            },
+            {
+              "seed": 2026111512,
+              "baseline_validation_rank_loss": -0.4066203463964517,
+              "epoch300_validation_rank_loss": -0.4034271508396015,
+              "improvement": -0.0031931955568502146
+            }
+          ]
+        },
+        {
+          "exchange": 1,
+          "training_targets": 13,
+          "validation_targets": 13,
+          "baseline_P5": 0.4238907849829351,
+          "seed_P5": [
+            0.42252559726962463,
+            0.4232081911262799
+          ],
+          "epoch300_ensemble_P5": 0.4245733788395904,
+          "epoch300_ensemble_gain": 0.0006825938566553114,
+          "mean_seed_gain": -0.0010238907849828283,
+          "ensemble_minus_mean_seed_P5": 0.0017064846416381396,
+          "validation_ranking_loss": [
+            {
+              "seed": 2026111511,
+              "baseline_validation_rank_loss": -0.41342267317031794,
+              "epoch300_validation_rank_loss": -0.4126604349556575,
+              "improvement": -0.0007622382146604267
+            },
+            {
+              "seed": 2026111512,
+              "baseline_validation_rank_loss": -0.41342267317031794,
+              "epoch300_validation_rank_loss": -0.41415536595798186,
+              "improvement": 0.0007326927876639133
+            }
+          ]
+        }
+      ],
+      "final_epoch_ensemble_eligible_both_exchanges": false,
+      "final_epoch_mean_individual_precision_eligible_both_exchanges": false,
+      "note": "No epoch/seed change applied. Epoch300 reuses saved final weights; middle-epoch ensemble quantities cannot be inferred from scalar precisions."
+    },
+    "D1_held0": {
+      "calibration_targets": 27,
+      "selected_epochs": [
+        100,
+        200
+      ],
+      "per_seed": {
+        "2026111511": {
+          "selected_epoch": 100,
+          "choices": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                -0.0020761245674740247,
+                0.002768166089965385
+              ],
+              "mean_gain": 0.00034602076124568004,
+              "eligible": false
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                0.0020761245674740247,
+                0.0013840830449827202
+              ],
+              "mean_gain": 0.0017301038062283725,
+              "eligible": true
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                -0.0027681660899654403,
+                0.0020761245674740247
+              ],
+              "mean_gain": -0.0003460207612457078,
+              "eligible": false
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                -0.005536332179930825,
+                0.00034602076124568004
+              ],
+              "mean_gain": -0.0025951557093425726,
+              "eligible": false
+            }
+          ],
+          "positive_mean_but_exchange_veto_epochs": [
+            50
+          ]
+        },
+        "2026111512": {
+          "selected_epoch": 200,
+          "choices": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                -0.0010380622837370401,
+                0.002768166089965385
+              ],
+              "mean_gain": 0.0008650519031141723,
+              "eligible": false
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                0.002768166089965385,
+                0.00588235294117645
+              ],
+              "mean_gain": 0.004325259515570917,
+              "eligible": true
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                0.002768166089965385,
+                0.00865051903114189
+              ],
+              "mean_gain": 0.005709342560553637,
+              "eligible": true
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                0.0013840830449827202,
+                0.007958477508650474
+              ],
+              "mean_gain": 0.004671280276816597,
+              "eligible": true
+            }
+          ],
+          "positive_mean_but_exchange_veto_epochs": [
+            50
+          ]
+        }
+      },
+      "final_epoch_inner_ensemble": [
+        {
+          "exchange": 0,
+          "training_targets": 13,
+          "validation_targets": 14,
+          "baseline_P5": 0.4083044982698962,
+          "seed_P5": [
+            0.40276816608996535,
+            0.4096885813148789
+          ],
+          "epoch300_ensemble_P5": 0.4089965397923875,
+          "epoch300_ensemble_gain": 0.0006920415224913046,
+          "mean_seed_gain": -0.0020761245674740247,
+          "ensemble_minus_mean_seed_P5": 0.0027681660899653293,
+          "validation_ranking_loss": [
+            {
+              "seed": 2026111511,
+              "baseline_validation_rank_loss": -0.39370730183104735,
+              "epoch300_validation_rank_loss": -0.39335438505654363,
+              "improvement": -0.00035291677450371983
+            },
+            {
+              "seed": 2026111512,
+              "baseline_validation_rank_loss": -0.39370730183104735,
+              "epoch300_validation_rank_loss": -0.3956350026824494,
+              "improvement": 0.0019277008514020366
+            }
+          ]
+        },
+        {
+          "exchange": 1,
+          "training_targets": 14,
+          "validation_targets": 13,
+          "baseline_P5": 0.43079584775086505,
+          "seed_P5": [
+            0.4311418685121107,
+            0.4387543252595155
+          ],
+          "epoch300_ensemble_P5": 0.4352941176470589,
+          "epoch300_ensemble_gain": 0.0044982698961938405,
+          "mean_seed_gain": 0.004152249134948105,
+          "ensemble_minus_mean_seed_P5": 0.00034602076124573555,
+          "validation_ranking_loss": [
+            {
+              "seed": 2026111511,
+              "baseline_validation_rank_loss": -0.42135758587613686,
+              "epoch300_validation_rank_loss": -0.42298421094022937,
+              "improvement": 0.0016266250640925017
+            },
+            {
+              "seed": 2026111512,
+              "baseline_validation_rank_loss": -0.42135758587613686,
+              "epoch300_validation_rank_loss": -0.4245438517880986,
+              "improvement": 0.00318626591196175
+            }
+          ]
+        }
+      ],
+      "final_epoch_ensemble_eligible_both_exchanges": true,
+      "final_epoch_mean_individual_precision_eligible_both_exchanges": false,
+      "note": "No epoch/seed change applied. Epoch300 reuses saved final weights; middle-epoch ensemble quantities cannot be inferred from scalar precisions."
+    },
+    "D1_held1": {
+      "calibration_targets": 32,
+      "selected_epochs": [
+        300,
+        0
+      ],
+      "per_seed": {
+        "2026111511": {
+          "selected_epoch": 300,
+          "choices": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                0.0006920415224913601,
+                0.0027681660899654403
+              ],
+              "mean_gain": 0.0017301038062284002,
+              "eligible": true
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                -0.002768166089965385,
+                0.0024221453287196493
+              ],
+              "mean_gain": -0.00017301038062286778,
+              "eligible": false
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                -0.0020761245674739692,
+                0.0020761245674740247
+              ],
+              "mean_gain": 2.7755575615628914e-17,
+              "eligible": false
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                0.0013840830449827202,
+                0.0038062283737023694
+              ],
+              "mean_gain": 0.002595155709342545,
+              "eligible": true
+            }
+          ],
+          "positive_mean_but_exchange_veto_epochs": []
+        },
+        "2026111512": {
+          "selected_epoch": 0,
+          "choices": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                -0.0013840830449826647,
+                0.003114186851211065
+              ],
+              "mean_gain": 0.0008650519031142001,
+              "eligible": false
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                -0.00622837370242213,
+                0.005882352941176394
+              ],
+              "mean_gain": -0.00017301038062286778,
+              "eligible": false
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                -0.009688581314878875,
+                0.0010380622837370401
+              ],
+              "mean_gain": -0.004325259515570917,
+              "eligible": false
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                -0.0100346020761245,
+                0.0006920415224913601
+              ],
+              "mean_gain": -0.0046712802768165695,
+              "eligible": false
+            }
+          ],
+          "positive_mean_but_exchange_veto_epochs": [
+            50
+          ]
+        }
+      },
+      "final_epoch_inner_ensemble": [
+        {
+          "exchange": 0,
+          "training_targets": 16,
+          "validation_targets": 16,
+          "baseline_P5": 0.359515570934256,
+          "seed_P5": [
+            0.36089965397923873,
+            0.3494809688581315
+          ],
+          "epoch300_ensemble_P5": 0.36055363321799305,
+          "epoch300_ensemble_gain": 0.0010380622837370401,
+          "mean_seed_gain": -0.0043252595155708895,
+          "ensemble_minus_mean_seed_P5": 0.00536332179930793,
+          "validation_ranking_loss": [
+            {
+              "seed": 2026111511,
+              "baseline_validation_rank_loss": -0.3569236659077767,
+              "epoch300_validation_rank_loss": -0.356104348919303,
+              "improvement": -0.0008193169884737062
+            },
+            {
+              "seed": 2026111512,
+              "baseline_validation_rank_loss": -0.3569236659077767,
+              "epoch300_validation_rank_loss": -0.35451553959795984,
+              "improvement": -0.0024081263098168493
+            }
+          ]
+        },
+        {
+          "exchange": 1,
+          "training_targets": 16,
+          "validation_targets": 16,
+          "baseline_P5": 0.32698961937716264,
+          "seed_P5": [
+            0.330795847750865,
+            0.327681660899654
+          ],
+          "epoch300_ensemble_P5": 0.3301038062283737,
+          "epoch300_ensemble_gain": 0.003114186851211065,
+          "mean_seed_gain": 0.0022491349480968648,
+          "ensemble_minus_mean_seed_P5": 0.0008650519031142001,
+          "validation_ranking_loss": [
+            {
+              "seed": 2026111511,
+              "baseline_validation_rank_loss": -0.3193800507207112,
+              "epoch300_validation_rank_loss": -0.31658329228735094,
+              "improvement": -0.002796758433360247
+            },
+            {
+              "seed": 2026111512,
+              "baseline_validation_rank_loss": -0.3193800507207112,
+              "epoch300_validation_rank_loss": -0.3162382338999994,
+              "improvement": -0.003141816820711796
+            }
+          ]
+        }
+      ],
+      "final_epoch_ensemble_eligible_both_exchanges": true,
+      "final_epoch_mean_individual_precision_eligible_both_exchanges": false,
+      "note": "No epoch/seed change applied. Epoch300 reuses saved final weights; middle-epoch ensemble quantities cannot be inferred from scalar precisions."
+    },
+    "D2_held0": {
+      "calibration_targets": 28,
+      "selected_epochs": [
+        0,
+        300
+      ],
+      "per_seed": {
+        "2026111511": {
+          "selected_epoch": 0,
+          "choices": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                0.0017301038062283447,
+                -0.004498269896193785
+              ],
+              "mean_gain": -0.0013840830449827202,
+              "eligible": false
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                0.0017301038062283447,
+                -0.0044982698961938405
+              ],
+              "mean_gain": -0.001384083044982748,
+              "eligible": false
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                0.0020761245674740247,
+                -0.0034602076124568004
+              ],
+              "mean_gain": -0.0006920415224913878,
+              "eligible": false
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                0.0041522491349481605,
+                -0.004498269896193785
+              ],
+              "mean_gain": -0.00017301038062281227,
+              "eligible": false
+            }
+          ],
+          "positive_mean_but_exchange_veto_epochs": []
+        },
+        "2026111512": {
+          "selected_epoch": 300,
+          "choices": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                0.0010380622837369846,
+                -0.004152249134948105
+              ],
+              "mean_gain": -0.0015570934256055602,
+              "eligible": false
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                0.0013840830449827202,
+                -0.0044982698961938405
+              ],
+              "mean_gain": -0.0015570934256055602,
+              "eligible": false
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                0.005190311418685201,
+                -0.0010380622837370401
+              ],
+              "mean_gain": 0.0020761245674740803,
+              "eligible": false
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                0.007958477508650641,
+                0.0013840830449826647
+              ],
+              "mean_gain": 0.004671280276816653,
+              "eligible": true
+            }
+          ],
+          "positive_mean_but_exchange_veto_epochs": [
+            200
+          ]
+        }
+      },
+      "final_epoch_inner_ensemble": [
+        {
+          "exchange": 0,
+          "training_targets": 14,
+          "validation_targets": 14,
+          "baseline_P5": 0.4519031141868512,
+          "seed_P5": [
+            0.45605536332179936,
+            0.45986159169550184
+          ],
+          "epoch300_ensemble_P5": 0.4581314878892734,
+          "epoch300_ensemble_gain": 0.006228373702422185,
+          "mean_seed_gain": 0.006055363321799401,
+          "ensemble_minus_mean_seed_P5": 0.0001730103806227845,
+          "validation_ranking_loss": [
+            {
+              "seed": 2026111511,
+              "baseline_validation_rank_loss": -0.4338301294524996,
+              "epoch300_validation_rank_loss": -0.4352811473950507,
+              "improvement": 0.0014510179425510916
+            },
+            {
+              "seed": 2026111512,
+              "baseline_validation_rank_loss": -0.4338301294524996,
+              "epoch300_validation_rank_loss": -0.43511108017624994,
+              "improvement": 0.0012809507237503404
+            }
+          ]
+        },
+        {
+          "exchange": 1,
+          "training_targets": 14,
+          "validation_targets": 14,
+          "baseline_P5": 0.37093425605536334,
+          "seed_P5": [
+            0.36643598615916956,
+            0.372318339100346
+          ],
+          "epoch300_ensemble_P5": 0.36712802768166086,
+          "epoch300_ensemble_gain": -0.0038062283737024805,
+          "mean_seed_gain": -0.0015570934256055602,
+          "ensemble_minus_mean_seed_P5": -0.0022491349480969203,
+          "validation_ranking_loss": [
+            {
+              "seed": 2026111511,
+              "baseline_validation_rank_loss": -0.3584650044468883,
+              "epoch300_validation_rank_loss": -0.360866762234592,
+              "improvement": 0.00240175778770374
+            },
+            {
+              "seed": 2026111512,
+              "baseline_validation_rank_loss": -0.3584650044468883,
+              "epoch300_validation_rank_loss": -0.3603219440737142,
+              "improvement": 0.0018569396268259264
+            }
+          ]
+        }
+      ],
+      "final_epoch_ensemble_eligible_both_exchanges": false,
+      "final_epoch_mean_individual_precision_eligible_both_exchanges": false,
+      "note": "No epoch/seed change applied. Epoch300 reuses saved final weights; middle-epoch ensemble quantities cannot be inferred from scalar precisions."
+    },
+    "D2_held1": {
+      "calibration_targets": 35,
+      "selected_epochs": [
+        100,
+        50
+      ],
+      "per_seed": {
+        "2026111511": {
+          "selected_epoch": 100,
+          "choices": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                0.0017301038062283447,
+                0.0031141868512110094
+              ],
+              "mean_gain": 0.002422145328719677,
+              "eligible": true
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                0.002768166089965385,
+                0.0024221453287197048
+              ],
+              "mean_gain": 0.002595155709342545,
+              "eligible": true
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                -0.01003460207612461,
+                0.003806228373702314
+              ],
+              "mean_gain": -0.003114186851211148,
+              "eligible": false
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                -0.01176470588235301,
+                0.006574394463667754
+              ],
+              "mean_gain": -0.002595155709342628,
+              "eligible": false
+            }
+          ],
+          "positive_mean_but_exchange_veto_epochs": []
+        },
+        "2026111512": {
+          "selected_epoch": 50,
+          "choices": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                0.006920415224913434,
+                0.0020761245674740247
+              ],
+              "mean_gain": 0.0044982698961937295,
+              "eligible": true
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                -0.00034602076124568004,
+                0.0017301038062282892
+              ],
+              "mean_gain": 0.0006920415224913046,
+              "eligible": false
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                -0.003806228373702425,
+                0.0017301038062282892
+              ],
+              "mean_gain": -0.0010380622837370679,
+              "eligible": false
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                0.00034602076124562453,
+                0.002768166089965385
+              ],
+              "mean_gain": 0.0015570934256055047,
+              "eligible": true
+            }
+          ],
+          "positive_mean_but_exchange_veto_epochs": [
+            100
+          ]
+        }
+      },
+      "final_epoch_inner_ensemble": [
+        {
+          "exchange": 0,
+          "training_targets": 17,
+          "validation_targets": 18,
+          "baseline_P5": 0.36020761245674743,
+          "seed_P5": [
+            0.3484429065743944,
+            0.36055363321799305
+          ],
+          "epoch300_ensemble_P5": 0.35363321799307956,
+          "epoch300_ensemble_gain": -0.006574394463667865,
+          "mean_seed_gain": -0.005709342560553721,
+          "ensemble_minus_mean_seed_P5": -0.0008650519031141446,
+          "validation_ranking_loss": [
+            {
+              "seed": 2026111511,
+              "baseline_validation_rank_loss": -0.35078527786195884,
+              "epoch300_validation_rank_loss": -0.34364197469075725,
+              "improvement": -0.007143303171201598
+            },
+            {
+              "seed": 2026111512,
+              "baseline_validation_rank_loss": -0.35078527786195884,
+              "epoch300_validation_rank_loss": -0.3485957044819688,
+              "improvement": -0.0021895733799900396
+            }
+          ]
+        },
+        {
+          "exchange": 1,
+          "training_targets": 18,
+          "validation_targets": 17,
+          "baseline_P5": 0.32422145328719726,
+          "seed_P5": [
+            0.330795847750865,
+            0.32698961937716264
+          ],
+          "epoch300_ensemble_P5": 0.330795847750865,
+          "epoch300_ensemble_gain": 0.006574394463667754,
+          "mean_seed_gain": 0.0046712802768165695,
+          "ensemble_minus_mean_seed_P5": 0.0019031141868511847,
+          "validation_ranking_loss": [
+            {
+              "seed": 2026111511,
+              "baseline_validation_rank_loss": -0.3020744453449332,
+              "epoch300_validation_rank_loss": -0.306275949109113,
+              "improvement": 0.00420150376417977
+            },
+            {
+              "seed": 2026111512,
+              "baseline_validation_rank_loss": -0.3020744453449332,
+              "epoch300_validation_rank_loss": -0.30617812348284573,
+              "improvement": 0.004103678137912514
+            }
+          ]
+        }
+      ],
+      "final_epoch_ensemble_eligible_both_exchanges": false,
+      "final_epoch_mean_individual_precision_eligible_both_exchanges": false,
+      "note": "No epoch/seed change applied. Epoch300 reuses saved final weights; middle-epoch ensemble quantities cannot be inferred from scalar precisions."
+    }
+  },
+  "curves": [
+    {
+      "task": "D3_held0",
+      "seed": 2026111511,
+      "exchange": 0,
+      "loss_reduction": 0.017755709625044913,
+      "train_P5_gain": 0.03378839590443683,
+      "validation_P5_gain": 0.0017064846416381951,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        0.003071672354948818,
+        0.002047781569965823,
+        0.002389078498293451,
+        0.0017064846416381951
+      ],
+      "selected_epoch": 50
+    },
+    {
+      "task": "D3_held0",
+      "seed": 2026111511,
+      "exchange": 1,
+      "loss_reduction": 0.014739228320069131,
+      "train_P5_gain": 0.021501706484641614,
+      "validation_P5_gain": 0.006143344709897525,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        0.012969283276450527,
+        0.01228668941979516,
+        0.011945392491467532,
+        0.006143344709897525
+      ],
+      "selected_epoch": 50
+    },
+    {
+      "task": "D3_held0",
+      "seed": 2026111512,
+      "exchange": 0,
+      "loss_reduction": 0.01673526141362419,
+      "train_P5_gain": 0.03139931740614338,
+      "validation_P5_gain": 0.0013651877133105672,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        0.005460750853242324,
+        0.0013651877133105672,
+        0.00273037542662119,
+        0.0013651877133105672
+      ],
+      "selected_epoch": 50
+    },
+    {
+      "task": "D3_held0",
+      "seed": 2026111512,
+      "exchange": 1,
+      "loss_reduction": 0.015430489054912622,
+      "train_P5_gain": 0.018088737201365224,
+      "validation_P5_gain": 0.005119453924914641,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        0.010921501706484649,
+        0.008191126279863459,
+        0.003071672354948818,
+        0.005119453924914641
+      ],
+      "selected_epoch": 50
+    },
+    {
+      "task": "D3_held1",
+      "seed": 2026111511,
+      "exchange": 0,
+      "loss_reduction": 0.009252584294877242,
+      "train_P5_gain": 0.011604095563139905,
+      "validation_P5_gain": -0.007508532423208203,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        -0.0006825938566553114,
+        -0.0023890784982935065,
+        -0.005802047781569952,
+        -0.007508532423208203
+      ],
+      "selected_epoch": 0
+    },
+    {
+      "task": "D3_held1",
+      "seed": 2026111511,
+      "exchange": 1,
+      "loss_reduction": 0.013083278914173935,
+      "train_P5_gain": 0.01058020477815702,
+      "validation_P5_gain": -0.0013651877133104562,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        -0.0013651877133105117,
+        -0.002047781569965823,
+        -0.002730375426621079,
+        -0.0013651877133104562
+      ],
+      "selected_epoch": 0
+    },
+    {
+      "task": "D3_held1",
+      "seed": 2026111512,
+      "exchange": 0,
+      "loss_reduction": 0.01145234686921226,
+      "train_P5_gain": 0.015017064846416406,
+      "validation_P5_gain": -0.0017064846416381951,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        -0.0023890784982935065,
+        -0.0034129692832765013,
+        -0.004095563139931757,
+        -0.0017064846416381951
+      ],
+      "selected_epoch": 0
+    },
+    {
+      "task": "D3_held1",
+      "seed": 2026111512,
+      "exchange": 1,
+      "loss_reduction": 0.013052714935998633,
+      "train_P5_gain": 0.0044368600682593295,
+      "validation_P5_gain": -0.0006825938566552003,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        0.0003412969283276279,
+        -0.0017064846416381951,
+        -0.0030716723549487623,
+        -0.0006825938566552003
+      ],
+      "selected_epoch": 0
+    },
+    {
+      "task": "D1_held0",
+      "seed": 2026111511,
+      "exchange": 0,
+      "loss_reduction": 0.01529181923357692,
+      "train_P5_gain": 0.01384083044982698,
+      "validation_P5_gain": -0.005536332179930825,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        -0.0020761245674740247,
+        0.0020761245674740247,
+        -0.0027681660899654403,
+        -0.005536332179930825
+      ],
+      "selected_epoch": 100
+    },
+    {
+      "task": "D1_held0",
+      "seed": 2026111511,
+      "exchange": 1,
+      "loss_reduction": 0.011499698097239996,
+      "train_P5_gain": 0.01384083044982698,
+      "validation_P5_gain": 0.00034602076124568004,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        0.002768166089965385,
+        0.0013840830449827202,
+        0.0020761245674740247,
+        0.00034602076124568004
+      ],
+      "selected_epoch": 100
+    },
+    {
+      "task": "D1_held0",
+      "seed": 2026111512,
+      "exchange": 0,
+      "loss_reduction": 0.012875830076353678,
+      "train_P5_gain": 0.0152249134948097,
+      "validation_P5_gain": 0.0013840830449827202,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        -0.0010380622837370401,
+        0.002768166089965385,
+        0.002768166089965385,
+        0.0013840830449827202
+      ],
+      "selected_epoch": 200
+    },
+    {
+      "task": "D1_held0",
+      "seed": 2026111512,
+      "exchange": 1,
+      "loss_reduction": 0.011407686466498812,
+      "train_P5_gain": 0.008650519031141835,
+      "validation_P5_gain": 0.007958477508650474,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        0.002768166089965385,
+        0.00588235294117645,
+        0.00865051903114189,
+        0.007958477508650474
+      ],
+      "selected_epoch": 200
+    },
+    {
+      "task": "D1_held1",
+      "seed": 2026111511,
+      "exchange": 0,
+      "loss_reduction": 0.009603913785327878,
+      "train_P5_gain": 0.01453287197231834,
+      "validation_P5_gain": 0.0013840830449827202,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        0.0006920415224913601,
+        -0.002768166089965385,
+        -0.0020761245674739692,
+        0.0013840830449827202
+      ],
+      "selected_epoch": 300
+    },
+    {
+      "task": "D1_held1",
+      "seed": 2026111511,
+      "exchange": 1,
+      "loss_reduction": 0.011797087071720891,
+      "train_P5_gain": 0.007266435986159225,
+      "validation_P5_gain": 0.0038062283737023694,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        0.0027681660899654403,
+        0.0024221453287196493,
+        0.0020761245674740247,
+        0.0038062283737023694
+      ],
+      "selected_epoch": 300
+    },
+    {
+      "task": "D1_held1",
+      "seed": 2026111512,
+      "exchange": 0,
+      "loss_reduction": 0.008607659366484277,
+      "train_P5_gain": 0.01903114186851207,
+      "validation_P5_gain": -0.0100346020761245,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        -0.0013840830449826647,
+        -0.00622837370242213,
+        -0.009688581314878875,
+        -0.0100346020761245
+      ],
+      "selected_epoch": 0
+    },
+    {
+      "task": "D1_held1",
+      "seed": 2026111512,
+      "exchange": 1,
+      "loss_reduction": 0.013588435684827371,
+      "train_P5_gain": 0.011764705882352955,
+      "validation_P5_gain": 0.0006920415224913601,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        0.003114186851211065,
+        0.005882352941176394,
+        0.0010380622837370401,
+        0.0006920415224913601
+      ],
+      "selected_epoch": 0
+    },
+    {
+      "task": "D2_held0",
+      "seed": 2026111511,
+      "exchange": 0,
+      "loss_reduction": 0.01212593951746721,
+      "train_P5_gain": 0.016608996539792364,
+      "validation_P5_gain": 0.0041522491349481605,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        0.0017301038062283447,
+        0.0017301038062283447,
+        0.0020761245674740247,
+        0.0041522491349481605
+      ],
+      "selected_epoch": 0
+    },
+    {
+      "task": "D2_held0",
+      "seed": 2026111511,
+      "exchange": 1,
+      "loss_reduction": 0.013084101387073943,
+      "train_P5_gain": 0.01384083044982698,
+      "validation_P5_gain": -0.004498269896193785,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        -0.004498269896193785,
+        -0.0044982698961938405,
+        -0.0034602076124568004,
+        -0.004498269896193785
+      ],
+      "selected_epoch": 0
+    },
+    {
+      "task": "D2_held0",
+      "seed": 2026111512,
+      "exchange": 0,
+      "loss_reduction": 0.012910585790230078,
+      "train_P5_gain": 0.01799307958477503,
+      "validation_P5_gain": 0.007958477508650641,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        0.0010380622837369846,
+        0.0013840830449827202,
+        0.005190311418685201,
+        0.007958477508650641
+      ],
+      "selected_epoch": 300
+    },
+    {
+      "task": "D2_held0",
+      "seed": 2026111512,
+      "exchange": 1,
+      "loss_reduction": 0.012374118839797277,
+      "train_P5_gain": 0.012110726643598635,
+      "validation_P5_gain": 0.0013840830449826647,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        -0.004152249134948105,
+        -0.0044982698961938405,
+        -0.0010380622837370401,
+        0.0013840830449826647
+      ],
+      "selected_epoch": 300
+    },
+    {
+      "task": "D2_held1",
+      "seed": 2026111511,
+      "exchange": 0,
+      "loss_reduction": 0.013511269662979108,
+      "train_P5_gain": 0.033564013840830464,
+      "validation_P5_gain": -0.01176470588235301,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        0.0017301038062283447,
+        0.002768166089965385,
+        -0.01003460207612461,
+        -0.01176470588235301
+      ],
+      "selected_epoch": 100
+    },
+    {
+      "task": "D2_held1",
+      "seed": 2026111511,
+      "exchange": 1,
+      "loss_reduction": 0.0121406573156993,
+      "train_P5_gain": 0.0117647058823529,
+      "validation_P5_gain": 0.006574394463667754,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        0.0031141868512110094,
+        0.0024221453287197048,
+        0.003806228373702314,
+        0.006574394463667754
+      ],
+      "selected_epoch": 100
+    },
+    {
+      "task": "D2_held1",
+      "seed": 2026111512,
+      "exchange": 0,
+      "loss_reduction": 0.010750151093334936,
+      "train_P5_gain": 0.0269896193771626,
+      "validation_P5_gain": 0.00034602076124562453,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        0.006920415224913434,
+        -0.00034602076124568004,
+        -0.003806228373702425,
+        0.00034602076124562453
+      ],
+      "selected_epoch": 50
+    },
+    {
+      "task": "D2_held1",
+      "seed": 2026111512,
+      "exchange": 1,
+      "loss_reduction": 0.01270402580577723,
+      "train_P5_gain": 0.014532871972318284,
+      "validation_P5_gain": 0.002768166089965385,
+      "loss_strictly_decreases_all_saved_intervals": true,
+      "validation_gains_at_saved_epochs": [
+        0.0,
+        0.0020761245674740247,
+        0.0017301038062282892,
+        0.0017301038062282892,
+        0.002768166089965385
+      ],
+      "selected_epoch": 50
+    }
+  ],
+  "summary": {
+    "inner_fits": 24,
+    "all_saved_intervals_loss_decrease_count": 24,
+    "final_train_P5_positive_count": 24,
+    "final_validation_P5_positive_count": 16,
+    "final_validation_P5_negative_count": 8,
+    "mean_final_train_P5_gain": 0.016582228153256877,
+    "mean_final_validation_P5_gain": 0.0004163369824942628,
+    "zero_epoch_selections": 4,
+    "selection_count": 12,
+    "epoch300_ensemble_minus_mean_seed_P5_average": 0.0009053521026961183,
+    "epoch300_ensemble_minus_mean_seed_P5_positive_exchanges": 8,
+    "epoch300_ensemble_minus_mean_seed_P5_negative_exchanges": 4,
+    "reference_access": "Only prior inner calibration labels and metric logs; no outer evaluation loaded."
+  },
+  "recommendation": {
+    "one_change": "Select one common checkpoint for the deployed two-seed score ensemble, based on exact inner-validation P@5 of the ensemble itself, keeping both-exchange nonnegative eligibility and earliest ties.",
+    "why": "The evaluated predictor is an average of scores, whose precision is not the average of seed precisions. Separate seed stopping changes the effective update size and fails to evaluate the object deployed.",
+    "limit": "This closes selection/deployment mismatch, but does not remove target-domain bias and cannot guarantee an outer gain. All intermediate predictions must be saved during a controlled rerun; do not infer them from scalar curves."
+  },
+  "script_sha256": "30c79a9d572760816ae176dd4f6336c9ac5325fa5b4e40dc764ca240d9d90440"
+}

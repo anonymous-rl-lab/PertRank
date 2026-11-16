@@ -1,0 +1,63 @@
+{
+  "protocol_sha256": "ac4b8728b29dfec4ce80c6051ce80280ecf5067dcfc84eb7376f99592f3da54b",
+  "archive_sha256": "f798330758c82732c398323bd9ba49d8c0d46401c2da679374d0d9bdb7d2f6ee",
+  "script_sha256": "cdd03547d1e96fe9727317cc9b2a3324cc926ef308b647af5646d66529c94d99",
+  "operation": "Reference Gram/projection recovery only; no predictor or ranking modification",
+  "gram_layout": "For target j, reconstruct symmetric n_reference[j] square from reference_gram_upper[gram_offsets[j]:gram_offsets[j+1]] at np.triu_indices(n); keep diagonal once.",
+  "cell_layout": "All reference cell arrays use reference_offsets[j]:reference_offsets[j+1] for target j.",
+  "cross_layout": "Rows 0 and 1 of shallow_guide_reference_dot correspond to shallow_guide_order[j]; both missing for one-guide shallow targets. Inner products use control-centered retained gene coordinates, without dividing by G.",
+  "sources": {
+    "D3": {
+      "targets": 52,
+      "reference_cells": 4284,
+      "reference_min": 21,
+      "reference_max": 100,
+      "errors": {
+        "shallow_gram": 0.0,
+        "shallow_projection": 0.0,
+        "shallow_query_mean": 0.0,
+        "archived_deep_effect": 3.552713678800501e-15
+      },
+      "output_sha256": "3d4398b7a29a1dcfaedf5e51e9a3f76766502f34d412a149f8c5780bcac3364f",
+      "output_bytes": 1787217,
+      "seconds": 2.025512180000078,
+      "metadata_sha256": "b4dc7e68926e53fba17d2cf441c4b3c817dbdf7f109f634af78119647df822fa",
+      "shallow_sha256": "f065658097142f397488b4b9566a77104dbeed7aebbc987745307e2666281ae2"
+    },
+    "D1": {
+      "targets": 59,
+      "reference_cells": 4563,
+      "reference_min": 21,
+      "reference_max": 100,
+      "errors": {
+        "shallow_gram": 0.0,
+        "shallow_projection": 0.0,
+        "shallow_query_mean": 0.0,
+        "archived_deep_effect": 3.1086244689504383e-15
+      },
+      "output_sha256": "c1ac6286984933bc41b84df544b1b96b289a52f219ebacc739fce6e71f44ebf8",
+      "output_bytes": 1851585,
+      "seconds": 1.5239197979972232,
+      "metadata_sha256": "c7ab65120c1cfc0e04c8ab64bac031ccb6fa3e80baea253939e998a09e05cc73",
+      "shallow_sha256": "9c319774b2914ffdc0cf27fdcf7f418d5f4dd603150f74c6cd5cd2da3b3a3ca3"
+    },
+    "D2": {
+      "targets": 63,
+      "reference_cells": 4880,
+      "reference_min": 20,
+      "reference_max": 100,
+      "errors": {
+        "shallow_gram": 0.0,
+        "shallow_projection": 0.0,
+        "shallow_query_mean": 0.0,
+        "archived_deep_effect": 2.6645352591003757e-15
+      },
+      "output_sha256": "cd0dd5af59a668bfd187fabe4e6c93e03b400a1827d6a9d36b2b9aa95bcfc874",
+      "output_bytes": 1958224,
+      "seconds": 1.5823018459996092,
+      "metadata_sha256": "3be9fb112af172cfb09fcb7c3ec8566b22bebcaf441183a3340c07ceffdc1a94",
+      "shallow_sha256": "97eb420a7cce92357dde89e398b35a0032701c393a9289037b5130974726195d"
+    }
+  },
+  "seconds": 5.424400676994992
+}

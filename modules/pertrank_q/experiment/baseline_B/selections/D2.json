@@ -1,0 +1,539 @@
+{
+  "source": "D2",
+  "plan_sha256": "faf0129e1844001e79c26ff689b1262ce58a2beea8b4543c7c37281b13e1b924",
+  "created_utc": "2026-11-15T06:14:47.350777+00:00",
+  "tasks": {
+    "D2_held0": {
+      "boundary_context_seed2026111511": {
+        "selected_epoch": 0,
+        "selection": [
+          {
+            "epoch": 0,
+            "gains": [
+              0.0,
+              0.0
+            ],
+            "mean_gain": 0.0,
+            "eligible": true
+          },
+          {
+            "epoch": 50,
+            "gains": [
+              0.0017301038062283447,
+              -0.004498269896193785
+            ],
+            "mean_gain": -0.0013840830449827202,
+            "eligible": false
+          },
+          {
+            "epoch": 100,
+            "gains": [
+              0.0017301038062283447,
+              -0.0044982698961938405
+            ],
+            "mean_gain": -0.001384083044982748,
+            "eligible": false
+          },
+          {
+            "epoch": 200,
+            "gains": [
+              0.0020761245674740247,
+              -0.0034602076124568004
+            ],
+            "mean_gain": -0.0006920415224913878,
+            "eligible": false
+          },
+          {
+            "epoch": 300,
+            "gains": [
+              0.0041522491349481605,
+              -0.004498269896193785
+            ],
+            "mean_gain": -0.00017301038062281227,
+            "eligible": false
+          }
+        ],
+        "inner_fits": [
+          {
+            "path": "fits/D2_held0_boundary_context_seed2026111511_inner0",
+            "fit_sha256": "02e6a1c428262cf653a524561e4e12cb1fd188c1f1241a5c21e4be457b11f03e",
+            "curve_sha256": "7d711c0d51845d0337e2cdaaa0055288d8b19a91d30b9323119132ba32789907",
+            "weights_sha256": "d6c7629f95a9d91e29a9ef32b309eb4b2e0ccf71f8f1db13bb31230222f877fa",
+            "normalization_sha256": "27bd5f08d16152d52da4f686499219d7ca9b80f183ba48f32259ca7be7d9ea62"
+          },
+          {
+            "path": "fits/D2_held0_boundary_context_seed2026111511_inner1",
+            "fit_sha256": "52beba610bdfe4dc1ed0f7afd0f4e564553ec57ba5effbe6ac7b3a32830769b0",
+            "curve_sha256": "bed24dfbc68e04334bea022f47c39ce9d84fdcf4143c15b4ec39392c347e0909",
+            "weights_sha256": "c0e2f61879988739bb58438049246083f7c1a2167c4e582c9b7748e9a288b2d8",
+            "normalization_sha256": "840fc52735e5d8b8629042b7d82384cbeb0ae51ab79a5a684f73f3aa5e04ae50"
+          }
+        ]
+      },
+      "boundary_context_seed2026111512": {
+        "selected_epoch": 300,
+        "selection": [
+          {
+            "epoch": 0,
+            "gains": [
+              0.0,
+              0.0
+            ],
+            "mean_gain": 0.0,
+            "eligible": true
+          },
+          {
+            "epoch": 50,
+            "gains": [
+              0.0010380622837369846,
+              -0.004152249134948105
+            ],
+            "mean_gain": -0.0015570934256055602,
+            "eligible": false
+          },
+          {
+            "epoch": 100,
+            "gains": [
+              0.0013840830449827202,
+              -0.0044982698961938405
+            ],
+            "mean_gain": -0.0015570934256055602,
+            "eligible": false
+          },
+          {
+            "epoch": 200,
+            "gains": [
+              0.005190311418685201,
+              -0.0010380622837370401
+            ],
+            "mean_gain": 0.0020761245674740803,
+            "eligible": false
+          },
+          {
+            "epoch": 300,
+            "gains": [
+              0.007958477508650641,
+              0.0013840830449826647
+            ],
+            "mean_gain": 0.004671280276816653,
+            "eligible": true
+          }
+        ],
+        "inner_fits": [
+          {
+            "path": "fits/D2_held0_boundary_context_seed2026111512_inner0",
+            "fit_sha256": "3739f0190bea80b891bbd0fb768c282f2edb2fc5e9eb31807942f1703fcc3ebf",
+            "curve_sha256": "b3e144899b450f27cdac09705f633735b064105e97bbb84530d92ee5d80189b3",
+            "weights_sha256": "41ecfe2053b57ea9e3965c34e60282c59fc1722de043916885aa74e0fcc28dff",
+            "normalization_sha256": "27bd5f08d16152d52da4f686499219d7ca9b80f183ba48f32259ca7be7d9ea62"
+          },
+          {
+            "path": "fits/D2_held0_boundary_context_seed2026111512_inner1",
+            "fit_sha256": "2c2fb7ff4152cb34c780d330c1413cea6934a32a66781c96a0b4e9ade9218a8a",
+            "curve_sha256": "3a1fe3fb1897a2298711ada5d537aba318cc26428d803b3931dc472ba347a24e",
+            "weights_sha256": "7903b1ce2ae06a772c507cc02c7aeb73a8142119f9ef2f3885b2c8e9f94c133f",
+            "normalization_sha256": "840fc52735e5d8b8629042b7d82384cbeb0ae51ab79a5a684f73f3aa5e04ae50"
+          }
+        ]
+      },
+      "boundary_pair_seed2026111511": {
+        "selected_epoch": 100,
+        "selection": [
+          {
+            "epoch": 0,
+            "gains": [
+              0.0,
+              0.0
+            ],
+            "mean_gain": 0.0,
+            "eligible": true
+          },
+          {
+            "epoch": 50,
+            "gains": [
+              -0.00034602076124568004,
+              -0.002768166089965385
+            ],
+            "mean_gain": -0.0015570934256055324,
+            "eligible": false
+          },
+          {
+            "epoch": 100,
+            "gains": [
+              1.1102230246251565e-16,
+              0.0
+            ],
+            "mean_gain": 5.551115123125783e-17,
+            "eligible": true
+          },
+          {
+            "epoch": 200,
+            "gains": [
+              -0.0006920415224913046,
+              0.0006920415224913601
+            ],
+            "mean_gain": 2.7755575615628914e-17,
+            "eligible": false
+          },
+          {
+            "epoch": 300,
+            "gains": [
+              -0.00034602076124568004,
+              0.003460207612456745
+            ],
+            "mean_gain": 0.0015570934256055324,
+            "eligible": false
+          }
+        ],
+        "inner_fits": [
+          {
+            "path": "fits/D2_held0_boundary_pair_seed2026111511_inner0",
+            "fit_sha256": "039bf35b259b743cb3b4e1210a073ff50f259fabd48bb554953a3614e595c867",
+            "curve_sha256": "12d818c96b6e1b8b2e6c3021fb02640f721db676012f2acfe7b6d75bcf6590ed",
+            "weights_sha256": "82145a73e710710587f8eda6a80693700c900a8f268ecf80a7026f8413685d0c",
+            "normalization_sha256": "27bd5f08d16152d52da4f686499219d7ca9b80f183ba48f32259ca7be7d9ea62"
+          },
+          {
+            "path": "fits/D2_held0_boundary_pair_seed2026111511_inner1",
+            "fit_sha256": "d8546b501b6ad59542dd38b780594bd4e5b0eb8f9862cbe35df5ac174fa8bfa8",
+            "curve_sha256": "922ffc26017e490d5307987c203f1f66f90eb007fd23cc9a3a68195b0af459fb",
+            "weights_sha256": "afb89b963ce20b2a2f49ffa913ed8bf83c4be90ce6800ee96e32b31f6077d890",
+            "normalization_sha256": "840fc52735e5d8b8629042b7d82384cbeb0ae51ab79a5a684f73f3aa5e04ae50"
+          }
+        ]
+      },
+      "boundary_pair_seed2026111512": {
+        "selected_epoch": 0,
+        "selection": [
+          {
+            "epoch": 0,
+            "gains": [
+              0.0,
+              0.0
+            ],
+            "mean_gain": 0.0,
+            "eligible": true
+          },
+          {
+            "epoch": 50,
+            "gains": [
+              0.0006920415224914156,
+              -0.004498269896193785
+            ],
+            "mean_gain": -0.0019031141868511847,
+            "eligible": false
+          },
+          {
+            "epoch": 100,
+            "gains": [
+              0.0006920415224913046,
+              -0.0017301038062284557
+            ],
+            "mean_gain": -0.0005190311418685756,
+            "eligible": false
+          },
+          {
+            "epoch": 200,
+            "gains": [
+              -0.0017301038062282892,
+              -0.0006920415224913601
+            ],
+            "mean_gain": -0.0012110726643598246,
+            "eligible": false
+          },
+          {
+            "epoch": 300,
+            "gains": [
+              0.00034602076124562453,
+              -0.00034602076124573555
+            ],
+            "mean_gain": -5.551115123125783e-17,
+            "eligible": false
+          }
+        ],
+        "inner_fits": [
+          {
+            "path": "fits/D2_held0_boundary_pair_seed2026111512_inner0",
+            "fit_sha256": "99c6097ce422696499709b237fe9ea01d147c2ef1a7c94b9e455ad4401b3c22a",
+            "curve_sha256": "6d6f27ff795c9f6760bae27fa5e39502d49131264255ff39024a24875adc3fc3",
+            "weights_sha256": "1abf4452d3ccb562649d53600a3449cc679e1b807b1f1a18dea0c4f312deaa27",
+            "normalization_sha256": "27bd5f08d16152d52da4f686499219d7ca9b80f183ba48f32259ca7be7d9ea62"
+          },
+          {
+            "path": "fits/D2_held0_boundary_pair_seed2026111512_inner1",
+            "fit_sha256": "34a20e55243ad13d2430fb46f889621931c120d835ed9cdc63b986b0c0b299da",
+            "curve_sha256": "c28ef79398526d416af3205ac273f52475ef1ab4053003973a150c03353379d5",
+            "weights_sha256": "158a8c15a97e91f6d9a218e1dcc5502d9ceadd4d0e7f68c7922c53d2146038e6",
+            "normalization_sha256": "840fc52735e5d8b8629042b7d82384cbeb0ae51ab79a5a684f73f3aa5e04ae50"
+          }
+        ]
+      }
+    },
+    "D2_held1": {
+      "boundary_context_seed2026111511": {
+        "selected_epoch": 100,
+        "selection": [
+          {
+            "epoch": 0,
+            "gains": [
+              0.0,
+              0.0
+            ],
+            "mean_gain": 0.0,
+            "eligible": true
+          },
+          {
+            "epoch": 50,
+            "gains": [
+              0.0017301038062283447,
+              0.0031141868512110094
+            ],
+            "mean_gain": 0.002422145328719677,
+            "eligible": true
+          },
+          {
+            "epoch": 100,
+            "gains": [
+              0.002768166089965385,
+              0.0024221453287197048
+            ],
+            "mean_gain": 0.002595155709342545,
+            "eligible": true
+          },
+          {
+            "epoch": 200,
+            "gains": [
+              -0.01003460207612461,
+              0.003806228373702314
+            ],
+            "mean_gain": -0.003114186851211148,
+            "eligible": false
+          },
+          {
+            "epoch": 300,
+            "gains": [
+              -0.01176470588235301,
+              0.006574394463667754
+            ],
+            "mean_gain": -0.002595155709342628,
+            "eligible": false
+          }
+        ],
+        "inner_fits": [
+          {
+            "path": "fits/D2_held1_boundary_context_seed2026111511_inner0",
+            "fit_sha256": "bf1b9d6a8cf2365ffcabcd335a5c55315d3db28ea111fa755b1d8b689492f1ba",
+            "curve_sha256": "63ba49eeef3f850b183d0251ac9a1c54439465de0cf5b349913daabffd2f5c6f",
+            "weights_sha256": "f6d805648ece2c3d5021046a5adf0f156462841a0a423ad341ea1ee018307248",
+            "normalization_sha256": "d488149e942d41ef2ca4696ead417a069a2477741302c2df3143e3662ba3ebb6"
+          },
+          {
+            "path": "fits/D2_held1_boundary_context_seed2026111511_inner1",
+            "fit_sha256": "92f002507e4c987ea8b743b1ba3e7690a433990e2b99b9592191b9503be10aed",
+            "curve_sha256": "6f6ea163b47203c140326de017f629ced13d8afd682936e0d5cbe7f50622ed28",
+            "weights_sha256": "d091861b40cb5a29088312e1dca2e6d09b233be5c656fd77d3e968a4d36c2a6e",
+            "normalization_sha256": "bd7dca810f7bc33f0b8f71b7a8f1824c3c409345511f8729cd4690b0f0d47f12"
+          }
+        ]
+      },
+      "boundary_context_seed2026111512": {
+        "selected_epoch": 50,
+        "selection": [
+          {
+            "epoch": 0,
+            "gains": [
+              0.0,
+              0.0
+            ],
+            "mean_gain": 0.0,
+            "eligible": true
+          },
+          {
+            "epoch": 50,
+            "gains": [
+              0.006920415224913434,
+              0.0020761245674740247
+            ],
+            "mean_gain": 0.0044982698961937295,
+            "eligible": true
+          },
+          {
+            "epoch": 100,
+            "gains": [
+              -0.00034602076124568004,
+              0.0017301038062282892
+            ],
+            "mean_gain": 0.0006920415224913046,
+            "eligible": false
+          },
+          {
+            "epoch": 200,
+            "gains": [
+              -0.003806228373702425,
+              0.0017301038062282892
+            ],
+            "mean_gain": -0.0010380622837370679,
+            "eligible": false
+          },
+          {
+            "epoch": 300,
+            "gains": [
+              0.00034602076124562453,
+              0.002768166089965385
+            ],
+            "mean_gain": 0.0015570934256055047,
+            "eligible": true
+          }
+        ],
+        "inner_fits": [
+          {
+            "path": "fits/D2_held1_boundary_context_seed2026111512_inner0",
+            "fit_sha256": "ac67175b78182f3b9009c8cc6caf977ad533ae16bb24e9809967e1c2df09bdc3",
+            "curve_sha256": "21f5c659721c4d65c0a75a974509043dfd223e8e6b9d77389d122d7ee6e58fe3",
+            "weights_sha256": "09a07847bcbbb84b95772c2edd2f76fdf3ac0943ad6b2daa238fd44437e66c9f",
+            "normalization_sha256": "d488149e942d41ef2ca4696ead417a069a2477741302c2df3143e3662ba3ebb6"
+          },
+          {
+            "path": "fits/D2_held1_boundary_context_seed2026111512_inner1",
+            "fit_sha256": "83a03d9865a57bad78680c424835ceda5341d6104c338d6643cec06e12c91264",
+            "curve_sha256": "5e7684fbada7a86f37e3d96d26852aee10fd7877c90963326a93076115ae6b85",
+            "weights_sha256": "cf69b238a01c926aa48641f3c27bd29ed9b2d04101e9a1af539c6dea4da641ac",
+            "normalization_sha256": "bd7dca810f7bc33f0b8f71b7a8f1824c3c409345511f8729cd4690b0f0d47f12"
+          }
+        ]
+      },
+      "boundary_pair_seed2026111511": {
+        "selected_epoch": 50,
+        "selection": [
+          {
+            "epoch": 0,
+            "gains": [
+              0.0,
+              0.0
+            ],
+            "mean_gain": 0.0,
+            "eligible": true
+          },
+          {
+            "epoch": 50,
+            "gains": [
+              0.0013840830449826647,
+              0.007958477508650419
+            ],
+            "mean_gain": 0.004671280276816542,
+            "eligible": true
+          },
+          {
+            "epoch": 100,
+            "gains": [
+              -0.0027681660899654403,
+              0.01141868512110722
+            ],
+            "mean_gain": 0.0043252595155708895,
+            "eligible": false
+          },
+          {
+            "epoch": 200,
+            "gains": [
+              -0.0010380622837370401,
+              0.008304498269896154
+            ],
+            "mean_gain": 0.003633217993079557,
+            "eligible": false
+          },
+          {
+            "epoch": 300,
+            "gains": [
+              -0.003114186851211065,
+              0.00519031141868509
+            ],
+            "mean_gain": 0.0010380622837370124,
+            "eligible": false
+          }
+        ],
+        "inner_fits": [
+          {
+            "path": "fits/D2_held1_boundary_pair_seed2026111511_inner0",
+            "fit_sha256": "6ffc1c94930bdf3e6d5bb852f6ae3d588389a516626e326b63116156d32aed53",
+            "curve_sha256": "604835dd4de54db5ed0460abd607098a91d67ee5a540d51e8d5e90551ed97e04",
+            "weights_sha256": "d203bb09c4b24a13b6466dd3bc0e9c50f9f70ae124b0c48d01d4ee729663163a",
+            "normalization_sha256": "d488149e942d41ef2ca4696ead417a069a2477741302c2df3143e3662ba3ebb6"
+          },
+          {
+            "path": "fits/D2_held1_boundary_pair_seed2026111511_inner1",
+            "fit_sha256": "b74bd96e56a2de0fd3d5eb00616f43459a2e26e464eb829581e2f19c7fc68ff7",
+            "curve_sha256": "f43838d5010768a6d7fc2fc49e3f3f480f1e0ad4d9a2789ca7d26acff01a84ce",
+            "weights_sha256": "95cdea8510f7cf7cd359ea2686a35242a0efb77f3a291ebc97bd067900fcf7b4",
+            "normalization_sha256": "bd7dca810f7bc33f0b8f71b7a8f1824c3c409345511f8729cd4690b0f0d47f12"
+          }
+        ]
+      },
+      "boundary_pair_seed2026111512": {
+        "selected_epoch": 50,
+        "selection": [
+          {
+            "epoch": 0,
+            "gains": [
+              0.0,
+              0.0
+            ],
+            "mean_gain": 0.0,
+            "eligible": true
+          },
+          {
+            "epoch": 50,
+            "gains": [
+              0.002768166089965385,
+              0.008650519031141779
+            ],
+            "mean_gain": 0.005709342560553582,
+            "eligible": true
+          },
+          {
+            "epoch": 100,
+            "gains": [
+              -0.0006920415224913601,
+              0.00692041522491349
+            ],
+            "mean_gain": 0.003114186851211065,
+            "eligible": false
+          },
+          {
+            "epoch": 200,
+            "gains": [
+              -0.00899653979238757,
+              0.0044982698961937295
+            ],
+            "mean_gain": -0.0022491349480969203,
+            "eligible": false
+          },
+          {
+            "epoch": 300,
+            "gains": [
+              -0.01038062283737029,
+              0.0044982698961937295
+            ],
+            "mean_gain": -0.0029411764705882804,
+            "eligible": false
+          }
+        ],
+        "inner_fits": [
+          {
+            "path": "fits/D2_held1_boundary_pair_seed2026111512_inner0",
+            "fit_sha256": "f4f240bda29a0e1c25aeeb8d05a8678e2e47d7044044d568f2cba83dc5be0dfe",
+            "curve_sha256": "829bdb786eecb8c24b56816c5841cb83a121019e3a0662d4277718f01f5ac30f",
+            "weights_sha256": "9a5db50e65f00fb9452e901af7de44c234f60799a043f8c530e6486be5aacbe5",
+            "normalization_sha256": "d488149e942d41ef2ca4696ead417a069a2477741302c2df3143e3662ba3ebb6"
+          },
+          {
+            "path": "fits/D2_held1_boundary_pair_seed2026111512_inner1",
+            "fit_sha256": "974b2e83424e4662b574ea6a873f0fc80fd7612847f8b3e5f9c9e23049734291",
+            "curve_sha256": "444a537807a3c0e61e273838b0e20efd95a2e83f0d2d70b2e84dc71cb4990782",
+            "weights_sha256": "2118644fddc96ba6c56adbfbe7350dd6daf555972696815d8818acacb87b4c67",
+            "normalization_sha256": "bd7dca810f7bc33f0b8f71b7a8f1824c3c409345511f8729cd4690b0f0d47f12"
+          }
+        ]
+      }
+    }
+  }
+}

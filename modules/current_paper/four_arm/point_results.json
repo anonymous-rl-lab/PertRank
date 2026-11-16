@@ -1,0 +1,161 @@
+{
+  "identity": "A19-R development reconstruction; original A19 exact replay still blocked",
+  "units": "expected externally supported members per 10-name list; divide by 10 for P@10",
+  "interval_scope": "query-block intervals condition on source cells, controls, candidate pool, queries and fixed external reference; external draw ranges condition on source predictions",
+  "sources": {
+    "D3_Rest": {
+      "targets": 52,
+      "queries": 293,
+      "own_exclusions": 3,
+      "random_expected_members": 1.9234630055750315,
+      "means": {
+        "raw": 2.450432009129516,
+        "w0y": 2.5341296928327646,
+        "W1": 2.5665529010238908,
+        "deep": 2.6471980623142133
+      },
+      "W1_minus_raw": {
+        "point": 0.11612089189437459,
+        "conditional_query_block_95_interval": [
+          0.04337289337336351,
+          0.19254437421731457
+        ],
+        "bootstrap_fraction_nonpositive": 0.0005,
+        "draws": 2000,
+        "seed": 2026100502
+      },
+      "W1_minus_w0y": {
+        "point": 0.032423208191126277,
+        "conditional_query_block_95_interval": [
+          -0.021746616361240867,
+          0.09641820853902096
+        ],
+        "bootstrap_fraction_nonpositive": 0.1315,
+        "draws": 2000,
+        "seed": 2026100502
+      },
+      "deep_minus_random": {
+        "point": 0.7237350567391819,
+        "conditional_query_block_95_interval": [
+          0.4467435838011152,
+          0.9763565356923162
+        ],
+        "bootstrap_fraction_nonpositive": 0.0,
+        "draws": 2000,
+        "seed": 2026100502
+      },
+      "score_rows_crosscheck_maxabs": 4.440892098500626e-16,
+      "turnover_vs_w0y": {
+        "mean_added_positions": 1.469283276450512,
+        "added_support_rate": 0.21370499419279906,
+        "removed_support_rate": 0.1916376306620209,
+        "exact_delta": 0.032423208191126277
+      }
+    },
+    "D1_Rest": {
+      "targets": 59,
+      "queries": 289,
+      "own_exclusions": 2,
+      "random_expected_members": 1.6951174872947075,
+      "means": {
+        "raw": 2.21165603655132,
+        "w0y": 2.4238754325259517,
+        "W1": 2.5224913494809686,
+        "deep": 2.648340381904396
+      },
+      "W1_minus_raw": {
+        "point": 0.31083531292964917,
+        "conditional_query_block_95_interval": [
+          0.25031632273603677,
+          0.37411627951801285
+        ],
+        "bootstrap_fraction_nonpositive": 0.0,
+        "draws": 2000,
+        "seed": 2026100502
+      },
+      "W1_minus_w0y": {
+        "point": 0.0986159169550173,
+        "conditional_query_block_95_interval": [
+          0.03658219004065041,
+          0.15258300178715792
+        ],
+        "bootstrap_fraction_nonpositive": 0.0005,
+        "draws": 2000,
+        "seed": 2026100502
+      },
+      "deep_minus_random": {
+        "point": 0.9532228946096878,
+        "conditional_query_block_95_interval": [
+          0.7521560180124072,
+          1.1418700098920442
+        ],
+        "bootstrap_fraction_nonpositive": 0.0,
+        "draws": 2000,
+        "seed": 2026100502
+      },
+      "score_rows_crosscheck_maxabs": 0.0,
+      "turnover_vs_w0y": {
+        "mean_added_positions": 1.7422145328719723,
+        "added_support_rate": 0.18669314796425024,
+        "removed_support_rate": 0.1300893743793446,
+        "exact_delta": 0.0986159169550173
+      }
+    },
+    "D2_Rest": {
+      "targets": 63,
+      "queries": 289,
+      "own_exclusions": 3,
+      "random_expected_members": 1.5875673482549248,
+      "means": {
+        "raw": 2.3288552665878512,
+        "w0y": 2.6262975778546713,
+        "W1": 2.6730103806228374,
+        "deep": 2.5321001465601722
+      },
+      "W1_minus_raw": {
+        "point": 0.344155114034986,
+        "conditional_query_block_95_interval": [
+          0.2659085617499138,
+          0.4402624255840017
+        ],
+        "bootstrap_fraction_nonpositive": 0.0,
+        "draws": 2000,
+        "seed": 2026100502
+      },
+      "W1_minus_w0y": {
+        "point": 0.04671280276816609,
+        "conditional_query_block_95_interval": [
+          0.0,
+          0.10256696428571427
+        ],
+        "bootstrap_fraction_nonpositive": 0.029,
+        "draws": 2000,
+        "seed": 2026100502
+      },
+      "deep_minus_random": {
+        "point": 0.9445327983052472,
+        "conditional_query_block_95_interval": [
+          0.7465914979323985,
+          1.1641014743071172
+        ],
+        "bootstrap_fraction_nonpositive": 0.0,
+        "draws": 2000,
+        "seed": 2026100502
+      },
+      "score_rows_crosscheck_maxabs": 4.440892098500626e-16,
+      "turnover_vs_w0y": {
+        "mean_added_positions": 1.4186851211072664,
+        "added_support_rate": 0.16707317073170733,
+        "removed_support_rate": 0.13414634146341464,
+        "exact_delta": 0.04671280276816609
+      }
+    }
+  },
+  "equal_source_mean_descriptive": {
+    "raw": 2.3303144374228957,
+    "w0y": 2.528100901071129,
+    "W1": 2.5873515437092323,
+    "deep": 2.609212863592927
+  },
+  "original_A19_comparison": "Not an exact replay: original cell seed/source locks missing; these predictions use the new A19-R hash seed."
+}

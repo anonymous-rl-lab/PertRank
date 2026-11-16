@@ -1,24 +1,24 @@
 {
-  "identity": "A19-R, not original A19. Export from verified v1.5.0 replay.",
+  "identity": "A19-R, not original A19. Export from verified retained replay.",
   "files": [
     {
       "path": "expected/point_results.json",
-      "source": "/workspace/scratch/9bb77e8faf2b/code_v150_release/staging/corrected_evidence/a19r/archive/A19R/point_results.json",
+      "source": "/anonymous/workspace/code_v150_release/staging/corrected_evidence/a19r/archive/A19R/point_results.json",
       "sha256": "266d517c1f3504ea781de1b8520c6e938d3e5c60dcfe882bd6309145ab8e6f9b"
     },
     {
       "path": "expected/reference_propagation_results.json",
-      "source": "/workspace/scratch/9bb77e8faf2b/code_v150_release/staging/corrected_evidence/a19r/archive/A19R/reference_propagation_results.json",
+      "source": "/anonymous/workspace/code_v150_release/staging/corrected_evidence/a19r/archive/A19R/reference_propagation_results.json",
       "sha256": "22d8581993b222f562783813b94f1fe5dde44a21e8479b9a50ba477de7eee85e"
     },
     {
       "path": "archive/evaluate_a19r.py",
-      "source": "/workspace/scratch/9bb77e8faf2b/code_v150_release/staging/corrected_evidence/a19r/archive/A19R/evaluate_a19r.py",
+      "source": "/anonymous/workspace/code_v150_release/staging/corrected_evidence/a19r/archive/A19R/evaluate_a19r.py",
       "sha256": "9d37c437c32e622bb498d7ccfb28a25c5f0b38eff1988da2c4d8602f2ed313cd"
     },
     {
       "path": "archive/PROTOCOL_A19R.md",
-      "source": "/workspace/scratch/9bb77e8faf2b/code_v150_release/staging/corrected_evidence/a19r/archive/A19R/PROTOCOL_A19R.md",
+      "source": "/anonymous/workspace/code_v150_release/staging/corrected_evidence/a19r/archive/A19R/PROTOCOL_A19R.md",
       "sha256": "59acf1b90f4790114072dcd92e77fed95144b1e7655b8a3f90b010b5d1f590e8"
     }
   ],

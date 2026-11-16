@@ -1,0 +1,4 @@
+source,pool N,queries Q,own-query rows s,random count per 10,original fixed benchmark
+D3,52,293,3,1.923463,1.960784
+D1,59,289,2,1.695117,1.724138
+D2,63,289,3,1.587567,1.612903

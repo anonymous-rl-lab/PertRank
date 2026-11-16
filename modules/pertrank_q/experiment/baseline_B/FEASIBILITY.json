@@ -1,0 +1,181 @@
+{
+  "created_utc": "2026-11-15T06:15:10.382156+00:00",
+  "plan_sha256": "faf0129e1844001e79c26ff689b1262ce58a2beea8b4543c7c37281b13e1b924",
+  "selection_sha256": {
+    "D3": "68baecf1d14f5054354020fb23d85044419859a8eb4c76f1ebb44e8cc7ec4de0",
+    "D1": "e49188afef3fbca7cdeb8615271f1a04c8a638b6f6fc56e9cc6ef7db197c3c96",
+    "D2": "ae87af8bdb20103bd659741014d3bdff58cb2ec2aa6f038e9896e1dd8e6a879e"
+  },
+  "arms": {
+    "boundary_context": {
+      "total_selections": 12,
+      "nonzero_selections": 8,
+      "sources_with_nonzero_selection": [
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "passed": true,
+      "selections": [
+        {
+          "source": "D3",
+          "task": "D3_held0",
+          "seed": 2026111511,
+          "epoch": 50
+        },
+        {
+          "source": "D3",
+          "task": "D3_held0",
+          "seed": 2026111512,
+          "epoch": 50
+        },
+        {
+          "source": "D3",
+          "task": "D3_held1",
+          "seed": 2026111511,
+          "epoch": 0
+        },
+        {
+          "source": "D3",
+          "task": "D3_held1",
+          "seed": 2026111512,
+          "epoch": 0
+        },
+        {
+          "source": "D1",
+          "task": "D1_held0",
+          "seed": 2026111511,
+          "epoch": 100
+        },
+        {
+          "source": "D1",
+          "task": "D1_held0",
+          "seed": 2026111512,
+          "epoch": 200
+        },
+        {
+          "source": "D1",
+          "task": "D1_held1",
+          "seed": 2026111511,
+          "epoch": 300
+        },
+        {
+          "source": "D1",
+          "task": "D1_held1",
+          "seed": 2026111512,
+          "epoch": 0
+        },
+        {
+          "source": "D2",
+          "task": "D2_held0",
+          "seed": 2026111511,
+          "epoch": 0
+        },
+        {
+          "source": "D2",
+          "task": "D2_held0",
+          "seed": 2026111512,
+          "epoch": 300
+        },
+        {
+          "source": "D2",
+          "task": "D2_held1",
+          "seed": 2026111511,
+          "epoch": 100
+        },
+        {
+          "source": "D2",
+          "task": "D2_held1",
+          "seed": 2026111512,
+          "epoch": 50
+        }
+      ]
+    },
+    "boundary_pair": {
+      "total_selections": 12,
+      "nonzero_selections": 7,
+      "sources_with_nonzero_selection": [
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "passed": true,
+      "selections": [
+        {
+          "source": "D3",
+          "task": "D3_held0",
+          "seed": 2026111511,
+          "epoch": 300
+        },
+        {
+          "source": "D3",
+          "task": "D3_held0",
+          "seed": 2026111512,
+          "epoch": 300
+        },
+        {
+          "source": "D3",
+          "task": "D3_held1",
+          "seed": 2026111511,
+          "epoch": 0
+        },
+        {
+          "source": "D3",
+          "task": "D3_held1",
+          "seed": 2026111512,
+          "epoch": 0
+        },
+        {
+          "source": "D1",
+          "task": "D1_held0",
+          "seed": 2026111511,
+          "epoch": 200
+        },
+        {
+          "source": "D1",
+          "task": "D1_held0",
+          "seed": 2026111512,
+          "epoch": 300
+        },
+        {
+          "source": "D1",
+          "task": "D1_held1",
+          "seed": 2026111511,
+          "epoch": 0
+        },
+        {
+          "source": "D1",
+          "task": "D1_held1",
+          "seed": 2026111512,
+          "epoch": 0
+        },
+        {
+          "source": "D2",
+          "task": "D2_held0",
+          "seed": 2026111511,
+          "epoch": 100
+        },
+        {
+          "source": "D2",
+          "task": "D2_held0",
+          "seed": 2026111512,
+          "epoch": 0
+        },
+        {
+          "source": "D2",
+          "task": "D2_held1",
+          "seed": 2026111511,
+          "epoch": 50
+        },
+        {
+          "source": "D2",
+          "task": "D2_held1",
+          "seed": 2026111512,
+          "epoch": 50
+        }
+      ]
+    }
+  },
+  "proceed_to_outer": true,
+  "identity": "Resource feasibility from inner validation only, not external performance evidence"
+}

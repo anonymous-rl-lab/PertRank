@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "markdown_local_links_checked": 50,
+  "broken_local_links": [],
+  "python_sources_parse": 392,
+  "integrated_scientific_workflows": 9,
+  "all_integrated_exit_codes_zero": true,
+  "source_tests": 99,
+  "installed_wheel_tests": 99,
+  "new_training": false,
+  "remote_publication": false,
+  "payload_manuscripts_or_old_release_archives": false
+}

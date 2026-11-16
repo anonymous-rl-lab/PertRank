@@ -82,7 +82,7 @@ def replay_competition(arrays):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output-dir',type=Path,default=ROOT.parent/'PertRank_reproduced')
-    parser.add_argument('--external-benchmark-only', action='store_true', help='Replay only the v1.4.0 external benchmark supplement')
+    parser.add_argument('--external-benchmark-only', action='store_true', help='Replay only the external benchmark supplement')
     args = parser.parse_args()
     out = args.output_dir.resolve()
     if out.is_relative_to(ROOT):
@@ -138,7 +138,7 @@ def main():
     external_benchmark = json.loads((out/'external_benchmark/BENCHMARK_REPRODUCTION.json').read_text())
     report={
         'status':'FOUR_DONOR_STIM_UPGRADE_AND_EXTERNAL_BENCHMARK_REPRODUCTION_PASS',
-        'package_version':'1.4.0',
+        'package_version':'review',
         'original_four_donor_status':'FOUR_DONOR_EXACT_REPRODUCTION_PASS',
         'identity':'post-result exact fixed-method sufficient-data reproduction; not a new experiment or preregistration',
         'environment':{'python':platform.python_version(),'numpy':np.__version__},

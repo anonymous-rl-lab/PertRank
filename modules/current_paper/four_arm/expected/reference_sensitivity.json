@@ -1,0 +1,428 @@
+{
+  "status": "COMPLETE",
+  "draws_per_scheme": 500,
+  "units": "P@10 difference",
+  "interpretation": "Empirical external-reference sensitivity ranges conditional on fixed predictions, not population confidence intervals. Same external experiment and draw identities are shared by three input sources. No new reference draws, candidate changes, or model fitting.",
+  "results": {
+    "shared_labels": {
+      "D3": {
+        "readout_original_minus_compressed_at_wM": {
+          "P10_median": 0.0022184300341296925,
+          "P10_empirical_2p5_97p5": [
+            -0.0013651877133105672,
+            0.005631399317406138
+          ],
+          "fraction_positive": 0.878,
+          "fraction_negative": 0.114,
+          "fraction_numerical_zero": 0.008
+        },
+        "readout_original_minus_compressed_at_w0": {
+          "P10_median": 0.004095563139931757,
+          "P10_empirical_2p5_97p5": [
+            0.0017064846416382361,
+            0.00699658703071672
+          ],
+          "fraction_positive": 0.996,
+          "fraction_negative": 0.0,
+          "fraction_numerical_zero": 0.004
+        },
+        "geometry_on_original": {
+          "P10_median": 0.0037542662116040737,
+          "P10_empirical_2p5_97p5": [
+            0.0010238907849829393,
+            0.006143344709897595
+          ],
+          "fraction_positive": 0.998,
+          "fraction_negative": 0.0,
+          "fraction_numerical_zero": 0.002
+        },
+        "geometry_on_compressed": {
+          "P10_median": 0.005802047781569952,
+          "P10_empirical_2p5_97p5": [
+            0.0028114334470989463,
+            0.008963310580204782
+          ],
+          "fraction_positive": 1.0,
+          "fraction_negative": 0.0,
+          "fraction_numerical_zero": 0.0
+        },
+        "interaction_original_minus_compressed_geometry": {
+          "P10_median": -0.002047781569965837,
+          "P10_empirical_2p5_97p5": [
+            -0.005119453924914683,
+            0.0009428327645051224
+          ],
+          "fraction_positive": 0.086,
+          "fraction_negative": 0.906,
+          "fraction_numerical_zero": 0.008
+        }
+      },
+      "D1": {
+        "readout_original_minus_compressed_at_wM": {
+          "P10_median": -0.00916955017301041,
+          "P10_empirical_2p5_97p5": [
+            -0.011682525951557091,
+            -0.00674740484429065
+          ],
+          "fraction_positive": 0.0,
+          "fraction_negative": 1.0,
+          "fraction_numerical_zero": 0.0
+        },
+        "readout_original_minus_compressed_at_w0": {
+          "P10_median": -0.008131487889273356,
+          "P10_empirical_2p5_97p5": [
+            -0.011245674740484421,
+            -0.002595155709342545
+          ],
+          "fraction_positive": 0.0,
+          "fraction_negative": 1.0,
+          "fraction_numerical_zero": 0.0
+        },
+        "geometry_on_original": {
+          "P10_median": 0.008477508650518994,
+          "P10_empirical_2p5_97p5": [
+            0.00432525951557093,
+            0.010990484429065755
+          ],
+          "fraction_positive": 1.0,
+          "fraction_negative": 0.0,
+          "fraction_numerical_zero": 0.0
+        },
+        "geometry_on_compressed": {
+          "P10_median": 0.009688581314878889,
+          "P10_empirical_2p5_97p5": [
+            0.004844290657439436,
+            0.014796712802768152
+          ],
+          "fraction_positive": 1.0,
+          "fraction_negative": 0.0,
+          "fraction_numerical_zero": 0.0
+        },
+        "interaction_original_minus_compressed_geometry": {
+          "P10_median": -0.0012975778546712863,
+          "P10_empirical_2p5_97p5": [
+            -0.007093425605536317,
+            0.0027681660899653996
+          ],
+          "fraction_positive": 0.316,
+          "fraction_negative": 0.668,
+          "fraction_numerical_zero": 0.016
+        }
+      },
+      "D2": {
+        "readout_original_minus_compressed_at_wM": {
+          "P10_median": -0.0008650519031142001,
+          "P10_empirical_2p5_97p5": [
+            -0.003633217993079585,
+            0.0019031141868511847
+          ],
+          "fraction_positive": 0.24,
+          "fraction_negative": 0.714,
+          "fraction_numerical_zero": 0.046
+        },
+        "readout_original_minus_compressed_at_w0": {
+          "P10_median": -0.00034602076124568004,
+          "P10_empirical_2p5_97p5": [
+            -0.003114186851211065,
+            0.002339965397923878
+          ],
+          "fraction_positive": 0.366,
+          "fraction_negative": 0.61,
+          "fraction_numerical_zero": 0.024
+        },
+        "geometry_on_original": {
+          "P10_median": 0.00501730103806225,
+          "P10_empirical_2p5_97p5": [
+            0.0012110726643598656,
+            0.008741349480968863
+          ],
+          "fraction_positive": 0.996,
+          "fraction_negative": 0.0,
+          "fraction_numerical_zero": 0.004
+        },
+        "geometry_on_compressed": {
+          "P10_median": 0.00553633217993077,
+          "P10_empirical_2p5_97p5": [
+            0.002941176470588225,
+            0.00761245674740485
+          ],
+          "fraction_positive": 1.0,
+          "fraction_negative": 0.0,
+          "fraction_numerical_zero": 0.0
+        },
+        "interaction_original_minus_compressed_geometry": {
+          "P10_median": -0.0005190311418685201,
+          "P10_empirical_2p5_97p5": [
+            -0.003633217993079585,
+            0.002941176470588225
+          ],
+          "fraction_positive": 0.372,
+          "fraction_negative": 0.604,
+          "fraction_numerical_zero": 0.024
+        }
+      },
+      "equal_source": {
+        "readout_original_minus_compressed_at_wM": {
+          "P10_median": -0.0027132515322932926,
+          "P10_empirical_2p5_97p5": [
+            -0.004149552613657402,
+            -0.0008191126279863417
+          ],
+          "fraction_positive": 0.0,
+          "fraction_negative": 1.0,
+          "fraction_numerical_zero": 0.0
+        },
+        "readout_original_minus_compressed_at_w0": {
+          "P10_median": -0.00128527620644725,
+          "P10_empirical_2p5_97p5": [
+            -0.003279288092135764,
+            0.0010432043726946606
+          ],
+          "fraction_positive": 0.14,
+          "fraction_negative": 0.86,
+          "fraction_numerical_zero": 0.0
+        },
+        "geometry_on_original": {
+          "P10_median": 0.00568532974322028,
+          "P10_empirical_2p5_97p5": [
+            0.004025059933630128,
+            0.007070672476981177
+          ],
+          "fraction_positive": 1.0,
+          "fraction_negative": 0.0,
+          "fraction_numerical_zero": 0.0
+        },
+        "geometry_on_compressed": {
+          "P10_median": 0.006931470306117488,
+          "P10_empirical_2p5_97p5": [
+            0.005329393853506048,
+            0.008802350894182213
+          ],
+          "fraction_positive": 1.0,
+          "fraction_negative": 0.0,
+          "fraction_numerical_zero": 0.0
+        },
+        "interaction_original_minus_compressed_geometry": {
+          "P10_median": -0.001369124240742245,
+          "P10_empirical_2p5_97p5": [
+            -0.0029029577098858444,
+            0.00028718935877902887
+          ],
+          "fraction_positive": 0.06,
+          "fraction_negative": 0.94,
+          "fraction_numerical_zero": 0.0
+        }
+      }
+    },
+    "batch_separate": {
+      "D3": {
+        "readout_original_minus_compressed_at_wM": {
+          "P10_median": 0.0020477815699658786,
+          "P10_empirical_2p5_97p5": [
+            -0.0018771331058020646,
+            0.006484641638225264
+          ],
+          "fraction_positive": 0.802,
+          "fraction_negative": 0.184,
+          "fraction_numerical_zero": 0.014
+        },
+        "readout_original_minus_compressed_at_w0": {
+          "P10_median": 0.004095563139931757,
+          "P10_empirical_2p5_97p5": [
+            0.0005119453924914419,
+            0.0069965870307167055
+          ],
+          "fraction_positive": 0.982,
+          "fraction_negative": 0.008,
+          "fraction_numerical_zero": 0.01
+        },
+        "geometry_on_original": {
+          "P10_median": 0.0036689419795221945,
+          "P10_empirical_2p5_97p5": [
+            0.0008532423208191253,
+            0.00631399317406145
+          ],
+          "fraction_positive": 1.0,
+          "fraction_negative": 0.0,
+          "fraction_numerical_zero": 0.0
+        },
+        "geometry_on_compressed": {
+          "P10_median": 0.005460750853242324,
+          "P10_empirical_2p5_97p5": [
+            0.002730375426621162,
+            0.009044368600682598
+          ],
+          "fraction_positive": 1.0,
+          "fraction_negative": 0.0,
+          "fraction_numerical_zero": 0.0
+        },
+        "interaction_original_minus_compressed_geometry": {
+          "P10_median": -0.0020477815699658786,
+          "P10_empirical_2p5_97p5": [
+            -0.00580204778156998,
+            0.0015358361774744235
+          ],
+          "fraction_positive": 0.148,
+          "fraction_negative": 0.83,
+          "fraction_numerical_zero": 0.022
+        }
+      },
+      "D1": {
+        "readout_original_minus_compressed_at_wM": {
+          "P10_median": -0.00882352941176473,
+          "P10_empirical_2p5_97p5": [
+            -0.011855536332179917,
+            -0.006483564013840809
+          ],
+          "fraction_positive": 0.0,
+          "fraction_negative": 1.0,
+          "fraction_numerical_zero": 0.0
+        },
+        "readout_original_minus_compressed_at_w0": {
+          "P10_median": -0.00761245674740485,
+          "P10_empirical_2p5_97p5": [
+            -0.011937716262975781,
+            -0.002158304498269892
+          ],
+          "fraction_positive": 0.0,
+          "fraction_negative": 1.0,
+          "fraction_numerical_zero": 0.0
+        },
+        "geometry_on_original": {
+          "P10_median": 0.008304498269896182,
+          "P10_empirical_2p5_97p5": [
+            0.005017301038062263,
+            0.011418685121107261
+          ],
+          "fraction_positive": 1.0,
+          "fraction_negative": 0.0,
+          "fraction_numerical_zero": 0.0
+        },
+        "geometry_on_compressed": {
+          "P10_median": 0.009861591695501742,
+          "P10_empirical_2p5_97p5": [
+            0.004753460207612448,
+            0.01453287197231834
+          ],
+          "fraction_positive": 1.0,
+          "fraction_negative": 0.0,
+          "fraction_numerical_zero": 0.0
+        },
+        "interaction_original_minus_compressed_geometry": {
+          "P10_median": -0.0012110726643598801,
+          "P10_empirical_2p5_97p5": [
+            -0.0065743944636678245,
+            0.0031141868512110384
+          ],
+          "fraction_positive": 0.314,
+          "fraction_negative": 0.672,
+          "fraction_numerical_zero": 0.014
+        }
+      },
+      "D2": {
+        "readout_original_minus_compressed_at_wM": {
+          "P10_median": -0.0006920415224913323,
+          "P10_empirical_2p5_97p5": [
+            -0.0033780276816608957,
+            0.001993944636678198
+          ],
+          "fraction_positive": 0.288,
+          "fraction_negative": 0.66,
+          "fraction_numerical_zero": 0.052
+        },
+        "readout_original_minus_compressed_at_w0": {
+          "P10_median": -0.00017301038062284002,
+          "P10_empirical_2p5_97p5": [
+            -0.003287197231833905,
+            0.002537485582468302
+          ],
+          "fraction_positive": 0.396,
+          "fraction_negative": 0.538,
+          "fraction_numerical_zero": 0.066
+        },
+        "geometry_on_original": {
+          "P10_median": 0.0048442906574394096,
+          "P10_empirical_2p5_97p5": [
+            0.000947231833910023,
+            0.008477508650519036
+          ],
+          "fraction_positive": 0.996,
+          "fraction_negative": 0.002,
+          "fraction_numerical_zero": 0.002
+        },
+        "geometry_on_compressed": {
+          "P10_median": 0.00519031141868509,
+          "P10_empirical_2p5_97p5": [
+            0.002158304498269903,
+            0.00813148788927337
+          ],
+          "fraction_positive": 1.0,
+          "fraction_negative": 0.0,
+          "fraction_numerical_zero": 0.0
+        },
+        "interaction_original_minus_compressed_geometry": {
+          "P10_median": -0.0005190311418684923,
+          "P10_empirical_2p5_97p5": [
+            -0.003633217993079614,
+            0.003287197231833934
+          ],
+          "fraction_positive": 0.392,
+          "fraction_negative": 0.574,
+          "fraction_numerical_zero": 0.034
+        }
+      },
+      "equal_source": {
+        "readout_original_minus_compressed_at_wM": {
+          "P10_median": -0.002599485889517375,
+          "P10_empirical_2p5_97p5": [
+            -0.004496026075557708,
+            -0.0002865349110935276
+          ],
+          "fraction_positive": 0.02,
+          "fraction_negative": 0.98,
+          "fraction_numerical_zero": 0.0
+        },
+        "readout_original_minus_compressed_at_w0": {
+          "P10_median": -0.0012817333317587248,
+          "P10_empirical_2p5_97p5": [
+            -0.003524628883876334,
+            0.0013803728678783143
+          ],
+          "fraction_positive": 0.188,
+          "fraction_negative": 0.812,
+          "fraction_numerical_zero": 0.0
+        },
+        "geometry_on_original": {
+          "P10_median": 0.005581799071766855,
+          "P10_empirical_2p5_97p5": [
+            0.003860670548082718,
+            0.007072995028165882
+          ],
+          "fraction_positive": 1.0,
+          "fraction_negative": 0.0,
+          "fraction_numerical_zero": 0.0
+        },
+        "geometry_on_compressed": {
+          "P10_median": 0.006830465573099326,
+          "P10_empirical_2p5_97p5": [
+            0.005199755804081705,
+            0.008763403875904886
+          ],
+          "fraction_positive": 1.0,
+          "fraction_negative": 0.0,
+          "fraction_numerical_zero": 0.0
+        },
+        "interaction_original_minus_compressed_geometry": {
+          "P10_median": -0.0013714861572013126,
+          "P10_empirical_2p5_97p5": [
+            -0.002464187441690159,
+            0.00018883030023898295
+          ],
+          "fraction_positive": 0.052,
+          "fraction_negative": 0.948,
+          "fraction_numerical_zero": 0.0
+        }
+      }
+    }
+  }
+}

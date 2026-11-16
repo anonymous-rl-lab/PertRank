@@ -2,7 +2,7 @@
   "status": "FROZEN_SCALAR_COMMON_THREE_ARMS_BITWISE_PASS",
   "utc": "2026-10-14T01:45:43.197923+00:00",
   "FR_rank100_comparison": "NOT_AVAILABLE; not rerun solely for cross-check under user instruction.",
-  "frozen_scalar_report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/independent/execution/D4_Stim8hr/evaluation/evaluation_report.json",
+  "frozen_scalar_report_path": "/anonymous/workspace/fr_benchmark/independent/execution/D4_Stim8hr/evaluation/evaluation_report.json",
   "frozen_scalar_report_sha256": "e374a1ad845651aa07b79104fb2f6f9342c6441c47230e4ff303fb106c91ca0d",
   "frozen_scalar_arrays_sha256": "581a013d600e900be96e42277509f72dd1ca8af8e8cc6ef47cf93542b0db85dc",
   "checks": {

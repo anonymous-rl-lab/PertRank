@@ -1,3 +1,11 @@
 ........................................................................ [ 72%]
 ...........................                                              [100%]
-99 passed in 0.83s
+=============================== warnings summary ===============================
+tests/test_anndata_api.py: 55 warnings
+tests/test_core_contract.py: 1 warning
+tests/test_packaged_data.py: 1 warning
+  <validation-workspace>/software_env/lib/python3.12/site-packages/anndata/compat/__init__.py:249: Pandas4Warning: The 'future.infer_string' option is deprecated and will be removed in pandas 4.0. Inferring str dtype for string data has been the default since pandas 3.0, and it will no longer be possible to disable it.
+    return a if pd.options.future.infer_string else a.astype(object)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+99 passed, 57 warnings in 1.12s

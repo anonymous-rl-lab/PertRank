@@ -1,0 +1,19 @@
+[
+  {
+    "epoch": 0,
+    "loss": -0.4111480397058683,
+    "ranking_loss": -0.4111480397058683,
+    "residual_penalty": 0.0,
+    "head_ridge": 0.0,
+    "gradient_norm": 0.0,
+    "ranking_gradient_norm": 0.009995100889905777,
+    "residual_gradient_norm": 0.0,
+    "ridge_gradient_norm": 0.0,
+    "train": {
+      "precision": 0.4259385665529011,
+      "max_abs_gate": 0.0,
+      "fraction_saturated": 0.0,
+      "rms_score_change": 0.0
+    }
+  }
+]

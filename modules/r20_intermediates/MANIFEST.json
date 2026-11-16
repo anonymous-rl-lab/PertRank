@@ -1,5 +1,5 @@
 {
-  "version": "1.5.1",
+  "version": "review",
   "artifact": "R20 query-score intermediate replay",
   "files": [
     {
@@ -44,18 +44,18 @@
     },
     {
       "path": "expected/D1_Rest_results.json",
-      "bytes": 44249,
-      "sha256": "6c51f1e136477754a4be2b72159391cbaeaf35bbfc449cc541dcfc93d1871b79"
+      "bytes": 44139,
+      "sha256": "7d332d804996858cd9038d103677f33108e2cd06d24ed2661a54c456e46930fb"
     },
     {
       "path": "expected/D2_Rest_results.json",
-      "bytes": 44250,
-      "sha256": "c90a486e1168dd9dca2d523c32ac7ff9939b061cfd2c9636a06440779e4ca5e9"
+      "bytes": 44140,
+      "sha256": "70ae55f706c3ee0debc7f94856216ee2bba9a2f5ed5f72d3d18919b1773736af"
     },
     {
       "path": "expected/D3_Rest_results.json",
-      "bytes": 44307,
-      "sha256": "a9bfa40ddc9ae28afd46df8444527935e34896873df7370f94c8eb3735f65bca"
+      "bytes": 44197,
+      "sha256": "63047f6ce61df705b1d4b110a9590c1493cd7116044ab01219a58142beb3616d"
     },
     {
       "path": "expected/descriptive_summary.json",
@@ -74,8 +74,8 @@
     },
     {
       "path": "provenance/HISTORICAL_EXECUTION_FREEZE_SHA256.txt",
-      "bytes": 5394,
-      "sha256": "6a2b1f25962d5b3c44ce63b85ad9868f31844b91138df42c56f1adf7b0be3231"
+      "bytes": 5053,
+      "sha256": "296b229dbf17ecfbc3d1871e76dba7552a336d1a21a11d6ea471cc6a27959d6f"
     },
     {
       "path": "provenance/PRIOR_SAVED_MOMENTS_REPLAY.json",

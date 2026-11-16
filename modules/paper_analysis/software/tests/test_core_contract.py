@@ -12,7 +12,7 @@ from pertrank.core import nominate, reliability_weights
 def test_reference_snapshot_hash():
     directory = Path(__file__).parent
     provenance = json.loads((directory/'REFERENCE_PROVENANCE.json').read_text())
-    assert hashlib.sha256((directory/'reference_core_v21_1.py').read_bytes()).hexdigest() == provenance['sha256']
+    assert hashlib.sha256((directory/'reference_core.py').read_bytes()).hexdigest() == provenance['sha256']
 
 
 def test_weights_have_target_noise_and_control_projection_contributions():

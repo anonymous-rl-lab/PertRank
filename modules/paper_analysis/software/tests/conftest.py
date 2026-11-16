@@ -34,8 +34,8 @@ def counts_adata():
 
 @pytest.fixture
 def frozen_core():
-    path = Path(__file__).with_name('reference_core_v21_1.py')
-    spec = importlib.util.spec_from_file_location('_reference_core_v21_1', path)
+    path = Path(__file__).with_name('reference_core.py')
+    spec = importlib.util.spec_from_file_location('_reference_core', path)
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     return module

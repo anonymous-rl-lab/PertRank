@@ -1,0 +1,37 @@
+{
+  "id": "PertRank_retained_guide_mechanism_20261114_v1",
+  "identity": "Post hoc mechanistic follow-up to an already evaluated fixed cross-guide probe; no new method, blind confirmation, or unseen-guide claim",
+  "sources": ["D3", "D1", "D2"],
+  "fixed_objects": ["all original 174 source-target entries", "original 20 input cells", "k=5 beta=0.9", "four original locked arms", "query pools, K=10 and tie rules", "external and same-screen references"],
+  "questions": ["Do guide-associated response differences recur across disjoint retained-cell halves?", "Do shallow zero-weight entries show positive shared signal in retained cells?", "Which fixed candidates account for existing score changes?"],
+  "reference_data": "Existing archived role=1 cells, disjoint from original role=0 input; same two guides, same screen; retain actual counts",
+  "primary_population": "Two original input guides and at least four retained cells for each same guide. Other entries remain in tables and original ranking with unavailable diagnostics missing.",
+  "split": {
+    "seed": 2026111404,
+    "primary_repeat": 0,
+    "repeats_total": 20,
+    "rule": "Within target and guide, process sorted lanes. Within lane sort cell IDs by SHA256(seed|source|target|guide|lane|repeat|cell_id). Assign successive cells to whichever A/B half currently has fewer cells, breaking ties with A. Each lane and guide have half sizes differing by at most one; retain all cells.",
+    "interpretation": "Repeat 0 primary; 20 deterministic repartitions describe split sensitivity, not independent replicates or confidence intervals."
+  },
+  "quantities": {
+    "E1": "y1A^T M y1B / G - nu_c",
+    "E2": "y2A^T M y2B / G - nu_c",
+    "C": "(y1A^T M y2B + y1B^T M y2A)/(2G) - nu_c",
+    "D": "(y1A-y2A)^T M (y1B-y2B)/G; shared control cancels exactly",
+    "identity": "D=E1+E2-2C",
+    "C_full": "full retained guide means cross-product/G - nu_c",
+    "C_half_A_B": "within-half cross-guide mean products/G - nu_c, separately",
+    "D_input_ref": "shallow guide-mean difference dot full retained guide-mean difference / G; same lexicographic guide ordering",
+    "metric_decomposition": "Compute I, P=U U^T, M=I-0.9P using fixed controls; nu_c=tr(M V_control)/G. Plug-in estimates, no unconditional unbiasedness claim.",
+    "noise_correction": "Signed values, never clip diagnostics. Shared-control covariance trace deducted from E/C. No zero imputation for unavailable groups.",
+    "imbalance_decomposition": "lambda1=n1(n1-1)/(20*19), lambda2=n2(n2-1)/(20*19), lambdac=2*n1*n2/(20*19) using shallow counts. Sref=lambda1*E1+lambda2*E2+lambdac*C. Sref-C=(lambda1+lambda2)*D/2+(lambda1-lambda2)*(E1-E2)/2. Exact algebra, no causal interpretation."
+  },
+  "strata": {
+    "primary": ["old crossguide_wM exactly zero among original two-guide entries", "old crossguide_wM positive among original two-guide entries"],
+    "descriptive": ["newly zero versus already zero", "input min guide cells =1, 2-3, >=4", "reference min guide cells =1, 2-3, 4-9, >=10", "single-guide fallback separate", "shared lane coverage"]
+  },
+  "summary": "Per-source and pooled descriptive counts, medians, signed correlations, D>0 and C>0 counts, both-half C>0 counts, all 20 repartition positive fractions. Signs are not target-level significance tests. No pooled donor-population CI.",
+  "nomination_accounting": "For fixed crossguide_wM minus original_wM memberships, query-direction-target contribution=delta_membership*reference_membership/(2*Q*10). Sum by target and original query block; positive and negative contributions and top-5 shares reported separately. Added and displaced support, exact tie fractions, full candidate pool, both references. No new candidate selection or reranking.",
+  "stop": "One fixed diagnostic and accounting; verify identities and package all outcomes. No new weights, new list scores, parameter search, favorable-source selection, or new data collection.",
+  "resources": "Local archived data only; compact sufficient statistics, no training. Stop recovery if matching fails; retain missingness. Aim incremental package below 10 MB; no raw matrices."
+}

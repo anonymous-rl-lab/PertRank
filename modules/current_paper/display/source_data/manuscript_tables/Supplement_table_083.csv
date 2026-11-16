@@ -1,0 +1,8 @@
+Quantity,Estimate,Conditional 95% interval
+Unweighted P@25,0.251793,—
+Euclidean P@25,0.317454,—
+PR_M P@25,0.324918,—
+PertRank P@25,0.332537,—
+PertRank−Euclidean,+0.015083,"[0.013465, 0.016939]"
+PertRank−Unweighted,+0.080745,"[0.072019, 0.086610]"
+PertRank−PR_M,+0.007619,"[0.005928, 0.009994]"

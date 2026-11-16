@@ -1,7 +1,7 @@
 {
   "status": "PRE_SCORING_EFFECTIVE_PROTOCOL_APPENDIX",
   "created_utc": "2026-10-12T04:02:29.428762+00:00",
-  "effective_protocol": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/AMENDMENT_03_FR_SEARCH_21.json",
+  "effective_protocol": "/anonymous/workspace/fr_benchmark/AMENDMENT_03_FR_SEARCH_21.json",
   "effective_protocol_sha256": "edd9b8580c27bdc951938146fe90227aff8f54e9835569ce0122d2bfe0432ab6",
   "original_protocol_sha256": "bb04f4c1b635c4dbbb3d2630fd2cc0cee8275768fea46af302c56cf77bdddc57",
   "primary_scoring_code_unchanged": true,

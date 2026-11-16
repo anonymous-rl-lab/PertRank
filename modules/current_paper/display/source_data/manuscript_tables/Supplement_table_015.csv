@@ -1,0 +1,21 @@
+source,setting,mean weight,zero fraction,Spearman with Euclidean
+T cell D3,responsive 20,0.113,0.006,0.762
+T cell D3,terciles 20,0.113,0.006,0.762
+T cell D3,responsive 50,0.231,0.000,0.853
+T cell D3,terciles 50,0.231,0.000,0.853
+KOLF iPSC,responsive 20,0.009,0.463,0.677
+KOLF iPSC,responsive 50,0.011,0.423,0.677
+KOLF iPSC,terciles 20,0.009,0.463,0.677
+KOLF iPSC,terciles 50,0.011,0.423,0.677
+Replogle K562,reference-variance 20,0.025,0.327,0.776
+Replogle K562,reference-variance 50,0.049,0.200,0.864
+Orion HCT116,terciles 20,0.013,0.440,0.547
+Orion HCT116,terciles 100,0.045,0.377,0.765
+T cell D1 (corrected exclusion),responsive 20,0.077,0.056,0.823
+T cell D1 (corrected exclusion),responsive 50,0.161,0.004,0.897
+T cell D1 (corrected exclusion),terciles 20,0.077,0.056,0.823
+T cell D1 (corrected exclusion),terciles 50,0.161,0.004,0.897
+T cell D2,responsive 20,0.135,0.003,0.864
+T cell D2,terciles 20,0.135,0.003,0.864
+T cell D2,responsive 50,0.264,0.000,0.910
+T cell D2,terciles 50,0.264,0.000,0.910

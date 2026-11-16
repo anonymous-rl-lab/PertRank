@@ -1,9 +1,9 @@
-# Current payload and historical source hashes
+# Delivered file integrity
 
-The root `MANIFEST_SHA256.json` defines every file in the current v1.5.4 review payload. Executed component manifests describe their maintained payloads and dependencies. Registration aliases alter the bytes of a small number of documentation and provenance fields; the affected current dependency hashes are updated accordingly. Numeric arrays and scientific definitions are preserved.
+The root `MANIFEST_SHA256.json` contains every delivered file except itself and optional local `.git` metadata. Unknown extra files, missing files and changed bytes are rejected. Run all builds, tests and generated outputs outside the protected package.
 
-Historical source manifests, prediction locks, original output provenance and `ORIGINAL_V150_*` manifests retain the hashes of their original artifacts. They are evidence records, not substitutes for the current release manifest. In particular, a saved original D4 result hash identifies the unmodified record retained in the private provenance archive, whereas current replay checks use the review derivative's payload hash.
+Active component manifests describe the maintained inputs. Some scientific locks and source hashes describe the original logical computation; they are distinct from a compressed container's physical hash. Lossless NPZ recompression changes container bytes while preserving every internal NPY member, dtype, shape and data byte. `validation/LOSSLESS_ARRAY_COMPRESSION.json` records that verification.
 
-Some analysis-local manifests describe the original expanded input layout. Compact reconstruction restores those inputs outside the release tree and checks numeric array hashes; the current root manifest checks the stored compressed representation. A historical expanded-input filename does not mean a physical duplicate is required in the compact source directory.
+Compact payloads are restored in the output directory and checked against their declared logical arrays/files before computation. Anonymous substitutions affect source-path metadata only. The current replay checks all declared numerical outputs after those substitutions.
 
-`RELEASE_MIGRATION.csv` records changed, removed and added paths relative to v1.5.1. Scientific and numerical validation receipts explain what was actually recalculated. Archived provenance is not relabelled as a new successful run.
+Repeated archival fit/runtime reports are stored once; `SHARED_PROVENANCE.csv` identifies the canonical records. Numerical inputs, negative findings and substantive comparison protocols are retained.

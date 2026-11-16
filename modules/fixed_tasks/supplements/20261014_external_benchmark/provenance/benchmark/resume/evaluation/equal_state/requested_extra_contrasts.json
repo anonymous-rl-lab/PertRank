@@ -2,7 +2,7 @@
   "status": "COMPLETE",
   "label": "Post hoc descriptive contrast, excluded from original five-contrast family",
   "interpretation": "No preregistered superiority, noninferiority or equivalence test is claimed.",
-  "source": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evaluation/equal_state/equal_state_report.json",
+  "source": "/anonymous/workspace/fr_benchmark/resume_20261014/evaluation/equal_state/equal_state_report.json",
   "source_sha256": "46c264be0db448946ce3150ae4821d29b4da293a0e892a13b7490dd2feba3efc",
   "arrays_sha256": "29c665ff28b93b49848f6eb2f60613a97b7c2d6e48f8c6f4858455ca8e352974",
   "results": {

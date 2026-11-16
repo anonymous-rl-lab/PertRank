@@ -1,0 +1,17 @@
+{
+  "query_id": "ENSG00000163599",
+  "query_symbol": "CTLA4",
+  "input_group_zero_based": 0,
+  "selection": "Previously named biological query; first input group; both directions; no selection by gain",
+  "top_k": 25,
+  "query_in_responsive": true,
+  "query_in_tercile": false,
+  "all_ten_query_scores_match_registered": true,
+  "all_groups_mean_delta_P25": 0.028000000000000004,
+  "sources": {
+    "predictions": "9c3ff69c5c30c89302d17e76476ecd868c9fe02b787245fb28b19d6559d97d01",
+    "reference": "a2f797665d50060aefc3e3849de046b0210816b38b82dc5388b0f68d8664c189",
+    "query_context": "a30eb6765d97dd1244271e4fa8c87f761100db521f045fba753aa80ea407fc46"
+  },
+  "outcome": "Descriptive reuse of completed internal RNA task, not independent support or a new hypothesis test"
+}

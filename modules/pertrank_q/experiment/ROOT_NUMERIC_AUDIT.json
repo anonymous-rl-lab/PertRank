@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": 126,
+  "stage1_primary": "B_rank_scale_joint",
+  "stage2_primary": "B_free_pair",
+  "stage2_primary_gate": {
+    "development_passed": false,
+    "robustness_passed": false,
+    "equal_source_vs_old_B_positive": false,
+    "every_source_vs_original_nonnegative": false,
+    "sources_with_positive_conditional_lower_limit": [],
+    "both_seed_equal_source_gains_positive": true
+  },
+  "secondary_candidate": "B_rank_scale_free_pair",
+  "secondary_precision": 0.3959913849097158,
+  "secondary_delta_original": 0.0017475229401136079,
+  "secondary_delta_old_B": 0.00028126488499435,
+  "extra_members_per_10_vs_original": 0.017475229401136078,
+  "extra_members_per_10_vs_old_B": 0.0028126488499434998,
+  "secondary_does_not_replace_primary": true
+}

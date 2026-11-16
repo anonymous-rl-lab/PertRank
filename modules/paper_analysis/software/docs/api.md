@@ -1,6 +1,6 @@
 # API reference
 
-Import the public interface with `import pertrank as pr`.
+This reference describes review software `0.2.0rc3`. Import the public interface with `import pertrank as pr`. PertRank-Q has a separate replay entry point in the complete reproduction bundle and is not an API in this package.
 
 ## `rank`
 

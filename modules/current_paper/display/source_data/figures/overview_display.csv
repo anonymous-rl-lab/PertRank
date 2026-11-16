@@ -1,0 +1,15 @@
+panel,task,estimator,weight,value,ci95_lower,ci95_upper,source_key
+1b,D3 responsive 20 cells P@25,Original y,Euclidean w0,0.2758,,,b1_design_ablation.json/cells/E4 D3 responsive 20/means/w0y
+1b,D3 responsive 20 cells P@25,Compressed Ay,Euclidean w0,0.2553,,,b1_design_ablation.json/cells/E4 D3 responsive 20/means/w0y_AY
+1b,D3 responsive 20 cells P@25,Original y,Control geometry wM,0.3114,,,b1_design_ablation.json/cells/E4 D3 responsive 20/means/W1
+1b,D3 responsive 20 cells P@25,Compressed Ay,Control geometry wM,0.2853,,,b1_design_ablation.json/cells/E4 D3 responsive 20/means/wM_AY
+1c,D4 equal-state P@25,Unweighted,as labelled,0.30933014252192936,,,benchmark_scores/g002/raw/25
+1c,D4 equal-state P@25,ASH,as labelled,0.3226636358262293,,,benchmark_scores/g018/ash/25
+1c,D4 equal-state P@25,FR rank 100,as labelled,0.3498086018153544,,,benchmark_scores/g002/fr/25
+1c,D4 equal-state P@25,Euclidean,as labelled,0.36711455331414716,,,benchmark_scores/g002/euclidean/25
+1c,D4 equal-state P@25,PertRank,as labelled,0.3864504096705877,,,benchmark_scores/g002/pertrank/25
+1d,Independent RNA equal-source P@10,Unweighted,as labelled,0.2330314437422896,,,rna/equal_source/means/raw/P10
+1d,Independent RNA equal-source P@10,ASH,as labelled,0.23867303596805114,,,rna/equal_source/means/ASH/P10
+1d,Independent RNA equal-source P@10,FR rank 300,as labelled,0.2326206250418256,,,rna/equal_source/means/FR/P10
+1d,Independent RNA equal-source P@10,Euclidean,as labelled,0.2528100901071129,,,rna/equal_source/means/Euclidean/P10
+1d,Independent RNA equal-source P@10,PertRank,as labelled,0.25873515437092326,,,rna/equal_source/means/PertRank/P10

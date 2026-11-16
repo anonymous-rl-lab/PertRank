@@ -1,0 +1,5 @@
+predictions,truth,query rule,shared targets,queries
+D2,D3,responsive,173,222
+D2,D3,terciles,173,282
+D2,D1,responsive,192,239
+D2,D1,terciles,192,284

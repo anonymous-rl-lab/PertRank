@@ -1,7 +1,7 @@
 {
   "status": "COMPLETE",
   "analysis_label": "Post hoc descriptive paired contrasts",
-  "report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n50/evaluation_report.json",
+  "report_path": "/anonymous/workspace/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n50/evaluation_report.json",
   "report_sha256": "2af87462d324fa0a5eb1cac3b45ccaeb822ae50bbe589910a359c3dc79a8290a",
   "arrays_sha256": "2de0eca71de66902c4ada30078d257fa115124c1e6725ccaf70fca572abe19b2",
   "owner_sha256": "e2cf9010e0eb648845f45852327f354f87675fe40b6483385f3efd0815a85ce2",

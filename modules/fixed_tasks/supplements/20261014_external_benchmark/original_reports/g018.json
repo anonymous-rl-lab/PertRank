@@ -306,11 +306,11 @@
   "simultaneous_intervals": "Descriptive ASH comparison intervals; no new multiplicity family or D4 tuning.",
   "provenance": [
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Rest_pooled/evaluation_report.json",
+      "path": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Rest_pooled/evaluation_report.json",
       "sha256": "90ef19233b0f19bbe09e49effa9728d5b51e7c909adedc6367be11dc5368f3d9"
     },
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_pooled/evaluation_report.json",
+      "path": "/anonymous/workspace/fr_benchmark/ash_work/resume_20261014/D4_scores/D4_Stim8hr_pooled/evaluation_report.json",
       "sha256": "9cd5a42329fc7b610272684512eed31567748169c4069e1c4fd942a19339745d"
     }
   ],

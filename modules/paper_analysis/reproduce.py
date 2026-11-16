@@ -18,7 +18,7 @@ def materialize(dest):
         target=dest/rel;target.parent.mkdir(parents=True,exist_ok=True)
         kind=record['kind']
         if kind=='core':
-            p=core/record['path'];assert p.is_file(),f'Required original v1.4 fixed_tasks input missing: {p}'
+            p=core/record['path'];assert p.is_file(),f'Required fixed_tasks input missing: {p}'
             assert hashlib.sha256(p.read_bytes()).hexdigest()==record['sha256']
             shutil.copyfile(p,target);continue
         if kind=='trade':

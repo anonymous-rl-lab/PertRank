@@ -4,24 +4,24 @@
   "created_utc": "2026-10-06T23:36:12Z",
   "prediction_lock_sha256": "b643afba950abc7c9a3adf70143f63262052ce6fb04d8282ac9d5ae5568bd5ec",
   "prediction_record": {
-    "record_path": "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/predictions/D1_Rest_prediction_record.json",
+    "record_path": "/anonymous/workspace/research_round_20261006/new_experiment/predictions/D1_Rest_prediction_record.json",
     "record_sha256": "bcb5023825ef2647276fd1ccbe77937c3d9d7515b01d6cb82a6d5aec4650d66b",
     "identity": "R20 input-only prediction, all three donors must be locked before new scoring",
     "donor": "D1_Rest",
     "created_utc": "2026-10-06T23:36:01Z",
-    "state_path": "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/read/D1_Rest/aggregate.npz",
+    "state_path": "/anonymous/workspace/research_round_20261006/new_experiment/read/D1_Rest/aggregate.npz",
     "state_sha256": "71547c3a8fd689af1385c8690467fae01c9581a1e791cbd7a2fcdc863cbf014c",
-    "context_path": "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/selection/D1_Rest/context.npz",
+    "context_path": "/anonymous/workspace/research_round_20261006/new_experiment/selection/D1_Rest/context.npz",
     "context_sha256": "2037f7e5f1a517d32b3bb2a394139cdf8f4fe48266c728a0595b9608554c49c8",
-    "freeze_record_path": "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/EXECUTION_FREEZE_SHA256.txt",
+    "freeze_record_path": "/anonymous/workspace/research_round_20261006/new_experiment/EXECUTION_FREEZE_SHA256.txt",
     "freeze_record_sha256": "6a2b1f25962d5b3c44ce63b85ad9868f31844b91138df42c56f1adf7b0be3231",
     "script_sha256": "7bb192ca17187d667967ce99803f645bcde3ce2cd514db6d21ffc49a3919d5d9",
     "verified_frozen_inputs": {
-      "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/evaluation/evaluate_real_cells.py": "7bb192ca17187d667967ce99803f645bcde3ce2cd514db6d21ffc49a3919d5d9",
-      "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/selection/D1_Rest/context.npz": "2037f7e5f1a517d32b3bb2a394139cdf8f4fe48266c728a0595b9608554c49c8",
-      "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/selection/D1_Rest/selection.npz": "e5608981726985c6e8377a6dc28425861bd3ce3d8735e1d2d4a5f897ca52e92d",
-      "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/evaluation/reference/external_uncertainty/results/query_reference.npz": "d1636d01e9728427232d57d70156762f86364e2ac8dd4f20b4bead34d6a48ce9",
-      "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/evaluation/reference/external_uncertainty/A19R/D1_Rest/predictions_locked.npz": "cd3044f825c1623e0c1ec90220d8a11fdab7c862b657f0c6bbcd97baf87b18fa"
+      "/anonymous/workspace/research_round_20261006/new_experiment/evaluation/evaluate_real_cells.py": "7bb192ca17187d667967ce99803f645bcde3ce2cd514db6d21ffc49a3919d5d9",
+      "/anonymous/workspace/research_round_20261006/new_experiment/selection/D1_Rest/context.npz": "2037f7e5f1a517d32b3bb2a394139cdf8f4fe48266c728a0595b9608554c49c8",
+      "/anonymous/workspace/research_round_20261006/new_experiment/selection/D1_Rest/selection.npz": "e5608981726985c6e8377a6dc28425861bd3ce3d8735e1d2d4a5f897ca52e92d",
+      "/anonymous/workspace/research_round_20261006/new_experiment/evaluation/reference/external_uncertainty/results/query_reference.npz": "d1636d01e9728427232d57d70156762f86364e2ac8dd4f20b4bead34d6a48ce9",
+      "/anonymous/workspace/research_round_20261006/new_experiment/evaluation/reference/external_uncertainty/A19R/D1_Rest/predictions_locked.npz": "cd3044f825c1623e0c1ec90220d8a11fdab7c862b657f0c6bbcd97baf87b18fa"
     },
     "parameters": {
       "directions": 5,
@@ -78,7 +78,7 @@
         false
       ]
     },
-    "prediction_path": "/workspace/scratch/09ac4e5b2530/research_round_20261006/new_experiment/predictions/D1_Rest_predictions.npz",
+    "prediction_path": "/anonymous/workspace/research_round_20261006/new_experiment/predictions/D1_Rest_predictions.npz",
     "prediction_sha256": "69f1da65c5561309d3531fe73a79ff38bdd650bc6eea00c6dd084d960dc3a9fe"
   },
   "scope": "new target-cell replacement with freshly estimated target weights; fixed original controls and metric. Shared queries/reference/donor are not independent replicates.",

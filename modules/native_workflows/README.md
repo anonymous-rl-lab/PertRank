@@ -19,7 +19,7 @@ ASH input is a float64 NPZ containing `effects`, strictly positive `ses`, `row_i
 
 GPerturb needs its separate PyTorch environment, full frozen raw count/axis manifest and aligned technical/lane covariates. See `GPerturb_CPU_ENVIRONMENT.json` and `GPerturb_REAL_D3_RESOURCE_GATE_PROTOCOL.json`. This module does not supply the large raw matrix or automatically start the resource pilot.
 
-No large counts, fitted effect matrices, posterior arrays or runtime binaries are copied into this module. Native fitting requires the separate original A19-R count archive, full-gene controls and input-builder products; those raw inputs are not included in this compact package. Historical absolute paths are retained as provenance. A fresh rerun requires rebinding local paths in a new configuration while preserving the recorded input identities; these scripts are not advertised as an automatically relocated, one-command training environment.
+No large counts, fitted effect matrices, posterior arrays or runtime binaries are copied into this module. Native fitting requires the separate original A19-R count archive, full-gene controls and input-builder products; those raw inputs are not included in this compact package. Source identities are retained; reruns require explicit local paths. A fresh rerun requires rebinding local paths in a new configuration while preserving the recorded input identities; these scripts are not advertised as an automatically relocated, one-command training environment.
 
 ## Third-party source and licensing
 

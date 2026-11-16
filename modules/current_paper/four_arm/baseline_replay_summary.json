@@ -1,0 +1,149 @@
+{
+  "D3": {
+    "means": {
+      "raw": {
+        "P10": 0.24504320091295165,
+        "expected_members_per_10": 2.4504320091295164
+      },
+      "Euclidean": {
+        "P10": 0.25341296928327645,
+        "expected_members_per_10": 2.5341296928327646
+      },
+      "PertRank": {
+        "P10": 0.2566552901023891,
+        "expected_members_per_10": 2.5665529010238908
+      }
+    },
+    "geometry": {
+      "P10_difference": 0.003242320819112627,
+      "expected_members_difference": 0.03242320819112627,
+      "conditional_query_block_95_interval": [
+        -0.002174661636124129,
+        0.009641820853902134
+      ],
+      "conditional_query_block_99_interval": [
+        -0.0036165428655007686,
+        0.011555290297937355
+      ],
+      "bootstrap_draws": 2000,
+      "seed": 2026100502,
+      "query_blocks": 30,
+      "confirmatory": false
+    },
+    "checks": {
+      "raw": {
+        "legacy_membership_maxabs": 0.0,
+        "P10": 0.24504320091295165,
+        "legacy_expected_members_error": 4.440892098500626e-16
+      },
+      "Euclidean": {
+        "legacy_membership_maxabs": 0.0,
+        "P10": 0.25341296928327645,
+        "legacy_expected_members_error": 0.0
+      },
+      "PertRank": {
+        "legacy_membership_maxabs": 0.0,
+        "P10": 0.2566552901023891,
+        "legacy_expected_members_error": 0.0
+      }
+    }
+  },
+  "D1": {
+    "means": {
+      "raw": {
+        "P10": 0.221165603655132,
+        "expected_members_per_10": 2.21165603655132
+      },
+      "Euclidean": {
+        "P10": 0.24238754325259515,
+        "expected_members_per_10": 2.4238754325259517
+      },
+      "PertRank": {
+        "P10": 0.2522491349480969,
+        "expected_members_per_10": 2.522491349480969
+      }
+    },
+    "geometry": {
+      "P10_difference": 0.009861591695501729,
+      "expected_members_difference": 0.09861591695501729,
+      "conditional_query_block_95_interval": [
+        0.0036582190040650433,
+        0.0152583001787159
+      ],
+      "conditional_query_block_99_interval": [
+        0.002089450414621737,
+        0.01708130376001726
+      ],
+      "bootstrap_draws": 2000,
+      "seed": 2026100502,
+      "query_blocks": 30,
+      "confirmatory": false
+    },
+    "checks": {
+      "raw": {
+        "legacy_membership_maxabs": 0.0,
+        "P10": 0.221165603655132,
+        "legacy_expected_members_error": 0.0
+      },
+      "Euclidean": {
+        "legacy_membership_maxabs": 0.0,
+        "P10": 0.24238754325259515,
+        "legacy_expected_members_error": 0.0
+      },
+      "PertRank": {
+        "legacy_membership_maxabs": 0.0,
+        "P10": 0.2522491349480969,
+        "legacy_expected_members_error": 4.440892098500626e-16
+      }
+    }
+  },
+  "D2": {
+    "means": {
+      "raw": {
+        "P10": 0.23288552665878515,
+        "expected_members_per_10": 2.3288552665878512
+      },
+      "Euclidean": {
+        "P10": 0.26262975778546715,
+        "expected_members_per_10": 2.6262975778546718
+      },
+      "PertRank": {
+        "P10": 0.2673010380622837,
+        "expected_members_per_10": 2.6730103806228374
+      }
+    },
+    "geometry": {
+      "P10_difference": 0.0046712802768166094,
+      "expected_members_difference": 0.0467128027681661,
+      "conditional_query_block_95_interval": [
+        0.0,
+        0.010256696428571391
+      ],
+      "conditional_query_block_99_interval": [
+        -0.0011556690479175246,
+        0.012559809552929903
+      ],
+      "bootstrap_draws": 2000,
+      "seed": 2026100502,
+      "query_blocks": 30,
+      "confirmatory": false
+    },
+    "checks": {
+      "raw": {
+        "legacy_membership_maxabs": 0.0,
+        "P10": 0.23288552665878515,
+        "legacy_expected_members_error": 0.0
+      },
+      "Euclidean": {
+        "legacy_membership_maxabs": 0.0,
+        "P10": 0.26262975778546715,
+        "legacy_expected_members_error": 4.440892098500626e-16
+      },
+      "PertRank": {
+        "legacy_membership_maxabs": 0.0,
+        "P10": 0.2673010380622837,
+        "legacy_expected_members_error": 0.0
+      }
+    }
+  }
+}

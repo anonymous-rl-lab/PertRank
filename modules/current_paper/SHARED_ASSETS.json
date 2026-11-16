@@ -1,0 +1,74 @@
+[
+  {
+    "destination": "four_arm/score_native.py",
+    "source": "modules/fixed_tasks/supplements/20261014_upgrade/native_rna/code/score_native.py",
+    "sha256": "1c712c364109161bba20be575472ab8ea21fb83523244fa57db50d7de682e26c",
+    "bytes": 11092
+  },
+  {
+    "destination": "four_arm/query_reference.npz",
+    "source": "modules/fixed_tasks/supplements/20261014_upgrade/native_rna/reference/query_reference.npz",
+    "sha256": "7de9aa40b96bf0807c736abf881430d7a4bd1bdc0229beab5816d5965aed5883",
+    "bytes": 259266
+  },
+  {
+    "destination": "four_arm/predictions_D3.npz",
+    "source": "modules/fixed_tasks/supplements/20261014_upgrade/native_rna/legacy/D3_Rest/predictions_locked.npz",
+    "sha256": "14023f8044a499b5dd49885a41e81915bd061e2b1da041e09d1e142f9c42b50b",
+    "bytes": 140358
+  },
+  {
+    "destination": "four_arm/predictions_D1.npz",
+    "source": "modules/fixed_tasks/supplements/20261014_upgrade/native_rna/legacy/D1_Rest/predictions_locked.npz",
+    "sha256": "06060bf5b5732941d36bc086d95ddf8f70773203eff95b0cc2d7290febfc4625",
+    "bytes": 155060
+  },
+  {
+    "destination": "four_arm/predictions_D2.npz",
+    "source": "modules/fixed_tasks/supplements/20261014_upgrade/native_rna/legacy/D2_Rest/predictions_locked.npz",
+    "sha256": "d2cbbb38cbba1a64f6a27de9be257f0d59e1faf3658117667bace93dd0e2927c",
+    "bytes": 164270
+  },
+  {
+    "destination": "four_arm/reference_draws/D1_batch_separate.npz",
+    "source": "modules/fixed_tasks/supplements/20261014_upgrade/native_rna/reference/D1_Rest/draws_batch_separate.npz",
+    "sha256": "703d7878353eadb649581d041fc9b28fe45b8d3c4141a0c7e53cb8500b65ff13",
+    "bytes": 712486
+  },
+  {
+    "destination": "four_arm/reference_draws/D3_shared_labels.npz",
+    "source": "modules/fixed_tasks/supplements/20261014_upgrade/native_rna/reference/D3_Rest/draws_shared_labels.npz",
+    "sha256": "fb654a9a2582325ba7a588588293b11fd1b8c94b548d5221e4e164f39f482f0e",
+    "bytes": 654482
+  },
+  {
+    "destination": "four_arm/reference_draws/D2_batch_separate.npz",
+    "source": "modules/fixed_tasks/supplements/20261014_upgrade/native_rna/reference/D2_Rest/draws_batch_separate.npz",
+    "sha256": "d7f979a365727085dc945d6d478ec2648c7de82d24fcfd82b4c2e541e836484e",
+    "bytes": 733207
+  },
+  {
+    "destination": "four_arm/reference_draws/D2_shared_labels.npz",
+    "source": "modules/fixed_tasks/supplements/20261014_upgrade/native_rna/reference/D2_Rest/draws_shared_labels.npz",
+    "sha256": "3e706637103c09b77fdb7c253b04921489e4f2b2b789fd6bddc40cccf59bfc59",
+    "bytes": 675304
+  },
+  {
+    "destination": "four_arm/reference_draws/D3_batch_separate.npz",
+    "source": "modules/fixed_tasks/supplements/20261014_upgrade/native_rna/reference/D3_Rest/draws_batch_separate.npz",
+    "sha256": "7386260d5689be9abda3efed3f4150d415a4482e64741593f18d49ad69258468",
+    "bytes": 711461
+  },
+  {
+    "destination": "four_arm/reference_draws/D1_shared_labels.npz",
+    "source": "modules/fixed_tasks/supplements/20261014_upgrade/native_rna/reference/D1_Rest/draws_shared_labels.npz",
+    "sha256": "78bfec6f8a3b096b5714636d7b9dec1f5adb1ab8f4ae94600c7a5ce2e910edf6",
+    "bytes": 659619
+  },
+  {
+    "destination": "guide/prior/crossfit_pilot/evaluation_inputs/reference.npz",
+    "source": "modules/fixed_tasks/supplements/20261014_upgrade/native_rna/reference/query_reference.npz",
+    "sha256": "7de9aa40b96bf0807c736abf881430d7a4bd1bdc0229beab5816d5965aed5883",
+    "bytes": 259266
+  }
+]

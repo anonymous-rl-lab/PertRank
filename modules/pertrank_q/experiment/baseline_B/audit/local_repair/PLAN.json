@@ -1,0 +1,171 @@
+{
+  "created_utc": "2026-11-15T06:24:51.941567+00:00",
+  "identity": "POST HOC fixed local-list repair after reference-aware backtrace; not a new primary model or confirmation",
+  "rule": "core=membership(base,K-2); cap=membership(base,K+2)-core; select residual2 by modelscore with fractional caps and proportional allocation inside exact ties",
+  "K": 10,
+  "m": 2,
+  "arms": [
+    "base_context",
+    "boundary_context",
+    "boundary_pair"
+  ],
+  "seeds": [
+    2026111511,
+    2026111512
+  ],
+  "ensemble": "average seed scores before local membership repair",
+  "constraints": "preserve core and far exclusion; sumK; each membership<=1; own excluded",
+  "no_window_search": true,
+  "no_model_selection": true,
+  "no_training": true,
+  "score_representation": "two local directional memberships, not a single scalar full ranking",
+  "primary_C_result_remains_failed": true,
+  "script_sha256": "208e75309d7b0f27306bfed7ab6a9070b143f79f2932e298ca410a214a40b024",
+  "primary_plan_sha256": "faf0129e1844001e79c26ff689b1262ce58a2beea8b4543c7c37281b13e1b924",
+  "primary_result_hashes": {
+    "results/SCORING_LOCK.json": "659823eda50ef67cceccedf8e28183006c1660856d5776866995cd8448e215bf",
+    "results/SUMMARY.json": "65dab3f932ebfcd47c6336e9bedf8232e28e4dd44e6ada83de08a168a23fc006",
+    "results/REPORT_zh.md": "f95347e1a578d8ea091c193aa7c43f832643848d51d65198d626b9a91cfaace4",
+    "results/per_source/D1.npz": "e43db1159bd0f14d566c4771f0d15f0900d87868ff29e648e7251b89ad689ac2",
+    "results/per_source/D2.npz": "918ebf3321110534fc73a17958d3ea69701ddb368d48d6b4ae30882d4438e992",
+    "results/per_source/D3.npz": "58c7d2fef8ead6d1828de97b02b5837f546198337ea7d94ba9c5c5eafab9eea2",
+    "results/per_task/D1_held1.npz": "5f7658e25bc47727e6b26480bd1a520e6f04ba7126a54dab6fe71357d7b73cad",
+    "results/per_task/D3_held1.npz": "16f756e2346c0d556734b476d2a0d7603bc18467f397d1acf8caffc4539d5124",
+    "results/per_task/D1_held0.npz": "62b09b512fe173844c094fd6bf4931159a10ef3c2f06f89ff9006aa10b86f271",
+    "results/per_task/D2_held1.npz": "6dc5f59f8b1ee0d19c292ac7641e63da914b1dcd74395a497390415edb5923ff",
+    "results/per_task/D3_held0.npz": "04b8a40bf51bb2aa80a4546d2c62467f9bc567e645535c93ae63d344b24c86a5",
+    "results/per_task/D2_held0.npz": "666641a664144f34c0c378831dab1a7e9250e60a9ba3ca720f466f9121b5bba1"
+  },
+  "synthetic_checks": {
+    "passed": true,
+    "random_tied_cases": 60,
+    "baseline_identity_max_error": 4.440892098500626e-16,
+    "all_tie_case": true,
+    "proportional_capacity_tie": true,
+    "permutation_invariant": true,
+    "sign_flip_equivariant": true,
+    "identity_note": "Mathematically exact baseline membership; floating fractional arithmetic checked to1e-12."
+  },
+  "input_checks": {
+    "D3": {
+      "prediction_lock_sha256": "039fcb03e4d7640577cb8c75c8f52d63d705baa5497236240da2c6588b2972cb",
+      "prediction_time_utc": "2026-11-15T06:16:04.621473+00:00",
+      "tasks": {
+        "D3_held0": {
+          "prediction_sha256": "2aaf2e8ce1caf2ee8de6ecdbc9299e1ab9448e34626ddc3e69400650401169da",
+          "evaluation_sha256": "cd999131edac932508628429b10e878d8039a2d8acb5d0d79aee6149cfbf8101",
+          "calibration_sha256": "4553fbdbaf55ae6227bc2912ac62cf40178c6df9db8fcd5c3c28385552f3a29d",
+          "held_features_sha256": "69dda6000642eaaadd1e51796fe4185b28b43eedce50dc40f62ad56881670b2d",
+          "queries": 293,
+          "held_candidates": 26,
+          "fit_hashes_verified": true,
+          "selected_epochs": {
+            "base_context_seed2026111511": 50,
+            "base_context_seed2026111512": 50,
+            "boundary_context_seed2026111511": 50,
+            "boundary_context_seed2026111512": 50,
+            "boundary_pair_seed2026111511": 300,
+            "boundary_pair_seed2026111512": 300
+          }
+        },
+        "D3_held1": {
+          "prediction_sha256": "bb4361117d4386f9b0e32b570cf807f3fb5cd1a8dd31299c58469364607045cd",
+          "evaluation_sha256": "c6b95b55211d7c32ef0ce79f4bfc1be0db9f3ab7d5af7a21f94f67dbe0cdf809",
+          "calibration_sha256": "f21615110be2fe40802bf8a1791cd501d94880e6d35c8d75d89897f403b132af",
+          "held_features_sha256": "6fa038670438673f2869e47a993423d2c325d27da131b30ef6a462e4020511f3",
+          "queries": 293,
+          "held_candidates": 26,
+          "fit_hashes_verified": true,
+          "selected_epochs": {
+            "base_context_seed2026111511": 100,
+            "base_context_seed2026111512": 300,
+            "boundary_context_seed2026111511": 0,
+            "boundary_context_seed2026111512": 0,
+            "boundary_pair_seed2026111511": 0,
+            "boundary_pair_seed2026111512": 0
+          }
+        }
+      }
+    },
+    "D1": {
+      "prediction_lock_sha256": "09b33cc8d65759b34b4a804c895d0cc3cf5ce18f932714ade0bded7a98bcb38e",
+      "prediction_time_utc": "2026-11-15T06:16:11.224896+00:00",
+      "tasks": {
+        "D1_held0": {
+          "prediction_sha256": "82f68b141c9768aa898ad67fbfec055478431ce323f88fb92f07719527f87ba4",
+          "evaluation_sha256": "4489531d7d27a5456fee0b13aa72651d00d97c4fefe57dd5c85ded6593a26b2d",
+          "calibration_sha256": "9868fe796f71783ee0495a7b2d7f5bbbf4bdf444b241a43e20f96c87060932a0",
+          "held_features_sha256": "ec9c5aa135338954eca6b329e635ff04e532c17aab117193ca73f9f1f5500737",
+          "queries": 289,
+          "held_candidates": 32,
+          "fit_hashes_verified": true,
+          "selected_epochs": {
+            "base_context_seed2026111511": 100,
+            "base_context_seed2026111512": 100,
+            "boundary_context_seed2026111511": 100,
+            "boundary_context_seed2026111512": 200,
+            "boundary_pair_seed2026111511": 200,
+            "boundary_pair_seed2026111512": 300
+          }
+        },
+        "D1_held1": {
+          "prediction_sha256": "0b5bac36864b839913de538aa5bacdcef617630e850e05589ae4a4e8bf6c07b4",
+          "evaluation_sha256": "c3d85e88a91d8ace6eb4e45524e955952db490ba53f85f477012527d4091522a",
+          "calibration_sha256": "d20898b66dc1dffee0dfaacd99cb97fbc8e05ab40b9ea98837141164f542feff",
+          "held_features_sha256": "8acc33f299e99d0f0ddf260208d56899c38b09a771ed51b3f16538d784340a0f",
+          "queries": 289,
+          "held_candidates": 27,
+          "fit_hashes_verified": true,
+          "selected_epochs": {
+            "base_context_seed2026111511": 50,
+            "base_context_seed2026111512": 50,
+            "boundary_context_seed2026111511": 300,
+            "boundary_context_seed2026111512": 0,
+            "boundary_pair_seed2026111511": 0,
+            "boundary_pair_seed2026111512": 0
+          }
+        }
+      }
+    },
+    "D2": {
+      "prediction_lock_sha256": "b077ae0f4f55f78bfb69702190c336b89c0ecbadeea88e5f7f07004f8c5937be",
+      "prediction_time_utc": "2026-11-15T06:16:08.757246+00:00",
+      "tasks": {
+        "D2_held0": {
+          "prediction_sha256": "d755b4580e8379aef7450bd8e5d12905696f342b54f4c4101b1a460ea6739f31",
+          "evaluation_sha256": "138ccb5f23900ed88e6da6f670098d2b114e751460bbeef1a094b3b7b10834e3",
+          "calibration_sha256": "6039ac6ff85a15328638b0a0ac5ee2fcebc795bfc2c80b4c6db7de0dece51c74",
+          "held_features_sha256": "945d4069c059a4e0792a2ea7ecaff024b49c4ac00f85014376464f0bc166033d",
+          "queries": 289,
+          "held_candidates": 35,
+          "fit_hashes_verified": true,
+          "selected_epochs": {
+            "base_context_seed2026111511": 300,
+            "base_context_seed2026111512": 200,
+            "boundary_context_seed2026111511": 0,
+            "boundary_context_seed2026111512": 300,
+            "boundary_pair_seed2026111511": 100,
+            "boundary_pair_seed2026111512": 0
+          }
+        },
+        "D2_held1": {
+          "prediction_sha256": "c890ce48e4d6a70fb0ca88d4e5a607d4811af0c0023b73a80f055883d3a487a0",
+          "evaluation_sha256": "4e2a6a5ac412da014b535c482399ee0272f317023826b387f77af029c556299c",
+          "calibration_sha256": "193f3b604788189cec7ea5d75e105434c7fa284fdff422908f70487fdfcb2683",
+          "held_features_sha256": "c7136527c3ca60eff1194a5eac17ce6674a4d2b36dc84bb20ec39146842f341e",
+          "queries": 289,
+          "held_candidates": 28,
+          "fit_hashes_verified": true,
+          "selected_epochs": {
+            "base_context_seed2026111511": 50,
+            "base_context_seed2026111512": 0,
+            "boundary_context_seed2026111511": 100,
+            "boundary_context_seed2026111512": 50,
+            "boundary_pair_seed2026111511": 50,
+            "boundary_pair_seed2026111512": 50
+          }
+        }
+      }
+    }
+  }
+}

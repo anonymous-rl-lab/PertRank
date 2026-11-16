@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "synthetic_only": true,
+  "real_reference_access": false,
+  "two_half_trials": 25,
+  "checks": 700,
+  "scorer_sha256": "09aed1b3c62a8927b2ebf5c9ab67d7337b78177cf2bf211acfb9e6b5174a3b94",
+  "tested": [
+    "exact ties versus independently grouped ranks",
+    "score ensemble versus rank ensemble",
+    "seed axes",
+    "pairwise error versus brute force",
+    "primary comparison axes",
+    "turnover identities",
+    "two-half mean",
+    "paired block confidence intervals",
+    "secondary B-A per-task/source/seed comparisons and turnover"
+  ]
+}

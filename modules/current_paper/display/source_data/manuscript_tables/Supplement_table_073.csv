@@ -1,0 +1,6 @@
+Contrast,Responsive difference [95% interval],Tercile difference [95% interval]
+PertRank − Unweighted,"+0.07742 [0.06758, 0.08444]","+0.03218 [0.02147, 0.04156]"
+PertRank − Euclidean,"+0.02352 [0.02142, 0.02631]","+0.00544 [0.00296, 0.00764]"
+PertRank − PR_M,"+0.01024 [0.00772, 0.01270]","+0.00173 [0.00041, 0.00299]"
+PertRank − TRADE scalar,"+0.02806 [0.02028, 0.03497]","+0.00847 [0.00469, 0.01203]"
+TRADE scalar − Euclidean,"−0.00454 [−0.01087, 0.00223]","−0.00304 [−0.00556, −0.00078]"

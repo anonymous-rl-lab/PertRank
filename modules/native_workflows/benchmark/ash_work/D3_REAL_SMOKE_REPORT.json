@@ -38,7 +38,7 @@
       "warnings_primary": 0
     }
   ],
-  "output_selection_equivalence": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/ash_work/OUTPUT_SELECTION_EQUIVALENCE.json",
+  "output_selection_equivalence": "/anonymous/workspace/fr_benchmark/ash_work/OUTPUT_SELECTION_EQUIVALENCE.json",
   "shard_equivalence": {
     "status": "PASS_EXACT",
     "targets": 32,

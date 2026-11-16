@@ -1,0 +1,62 @@
+{
+  "objective": "frozen_scale",
+  "seed": 2026111512,
+  "epochs": 300,
+  "k": 5,
+  "source_specific": true,
+  "training_target_ids": [
+    "ENSG00000134852",
+    "ENSG00000116016",
+    "ENSG00000164916",
+    "ENSG00000162676",
+    "ENSG00000134460",
+    "ENSG00000213928",
+    "ENSG00000162601",
+    "ENSG00000162924",
+    "ENSG00000173039",
+    "ENSG00000143390",
+    "ENSG00000143365",
+    "ENSG00000168769",
+    "ENSG00000060138",
+    "ENSG00000112365",
+    "ENSG00000180787",
+    "ENSG00000166188",
+    "ENSG00000182141"
+  ],
+  "validation_target_ids": [
+    "ENSG00000105127",
+    "ENSG00000196843",
+    "ENSG00000112182",
+    "ENSG00000067955",
+    "ENSG00000179388",
+    "ENSG00000158711",
+    "ENSG00000134954",
+    "ENSG00000049768",
+    "ENSG00000107485",
+    "ENSG00000137265",
+    "ENSG00000140968",
+    "ENSG00000118513",
+    "ENSG00000102908",
+    "ENSG00000116044",
+    "ENSG00000115415",
+    "ENSG00000071564",
+    "ENSG00000141510",
+    "ENSG00000197343"
+  ],
+  "duration_seconds": 2.7869823289947817,
+  "parameters": 129,
+  "inner_checkpoint_epochs": [
+    0,
+    50,
+    100,
+    200,
+    300
+  ],
+  "old_B_replay": {
+    "state_max_abs_difference": 0.0,
+    "precision_curve_max_abs_difference": 0.0,
+    "normalization_bytes_identical": true,
+    "old_fit_path": "fits/D2_held1_boundary_context_seed2026111512_inner0",
+    "old_weights_sha256": "09a07847bcbbb84b95772c2edd2f76fdf3ac0943ad6b2daa238fd44437e66c9f"
+  }
+}

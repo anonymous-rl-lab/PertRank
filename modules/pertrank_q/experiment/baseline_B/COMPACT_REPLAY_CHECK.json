@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "training_performed": false,
+  "tasks": 6,
+  "reconstructed_predictions_byte_identical": true,
+  "numeric_summary_fields_compared": 1436,
+  "maximum_numeric_summary_difference": 0,
+  "scoring_arrays_byte_identical": true,
+  "scoring_array_sha256": {
+    "per_task/D3_held0.npz": "04b8a40bf51bb2aa80a4546d2c62467f9bc567e645535c93ae63d344b24c86a5",
+    "per_task/D3_held1.npz": "16f756e2346c0d556734b476d2a0d7603bc18467f397d1acf8caffc4539d5124",
+    "per_source/D3.npz": "58c7d2fef8ead6d1828de97b02b5837f546198337ea7d94ba9c5c5eafab9eea2",
+    "per_task/D1_held0.npz": "62b09b512fe173844c094fd6bf4931159a10ef3c2f06f89ff9006aa10b86f271",
+    "per_task/D1_held1.npz": "5f7658e25bc47727e6b26480bd1a520e6f04ba7126a54dab6fe71357d7b73cad",
+    "per_source/D1.npz": "e43db1159bd0f14d566c4771f0d15f0900d87868ff29e648e7251b89ad689ac2",
+    "per_task/D2_held0.npz": "666641a664144f34c0c378831dab1a7e9250e60a9ba3ca720f466f9121b5bba1",
+    "per_task/D2_held1.npz": "6dc5f59f8b1ee0d19c292ac7641e63da914b1dcd74395a497390415edb5923ff",
+    "per_source/D2.npz": "918ebf3321110534fc73a17958d3ea69701ddb368d48d6b4ae30882d4438e992"
+  },
+  "scoring_arrays_match_recorded_sha256": true,
+  "original_scoring_array_files_checked": 0,
+  "original_scoring_array_files_missing": 9,
+  "original_scoring_array_paths_missing": [
+    "results/per_task/D3_held0.npz",
+    "results/per_task/D3_held1.npz",
+    "results/per_source/D3.npz",
+    "results/per_task/D1_held0.npz",
+    "results/per_task/D1_held1.npz",
+    "results/per_source/D1.npz",
+    "results/per_task/D2_held0.npz",
+    "results/per_task/D2_held1.npz",
+    "results/per_source/D2.npz"
+  ],
+  "original_summary_sha256": "65dab3f932ebfcd47c6336e9bedf8232e28e4dd44e6ada83de08a168a23fc006",
+  "replay_summary_sha256": "87d3a891aff1985b1132d63d1f06024ae7db5d1551d5df13655389aa6fd3d663",
+  "note": "Scoring timestamps, their lock hashes, and output-directory paths are intentionally fresh.",
+  "compact_fixture_initially_omitted": [
+    "views",
+    "evaluation",
+    "predictions/*.npz",
+    "results/per_task",
+    "results/per_source"
+  ],
+  "historical_A_assets_self_contained": true,
+  "rebuild_check": {
+    "passed": true,
+    "training_performed": false,
+    "all_source_locks_verified_before_input_load": true,
+    "plan_sha256": "faf0129e1844001e79c26ff689b1262ce58a2beea8b4543c7c37281b13e1b924",
+    "input_sha256": {
+      "inputs/D3_neural_inputs.npz": "82a24270cd2f12f831e17dcdcf6a70986e76b31159c27d1285e3b292700cb8e1",
+      "inputs/D1_neural_inputs.npz": "bebd75b04ae05cd95a6d61f6177719b348696078eff8c00362bf55217518d6ab",
+      "inputs/D2_neural_inputs.npz": "f21ea23d78e1112df267c171abf8c0c5b6de20b3f4fad8c9f1621bc41355f6e0"
+    },
+    "torch_version": "2.15.0+cpu",
+    "historical_A_replayed_exactly": true,
+    "tasks": {
+      "D3_held0": {
+        "prediction_sha256": "2aaf2e8ce1caf2ee8de6ecdbc9299e1ab9448e34626ddc3e69400650401169da",
+        "prediction_bytes_match_lock": true,
+        "existing_score_max_absolute_difference": null,
+        "calibration_held_evaluation_and_split_hashes_match": true
+      },
+      "D3_held1": {
+        "prediction_sha256": "bb4361117d4386f9b0e32b570cf807f3fb5cd1a8dd31299c58469364607045cd",
+        "prediction_bytes_match_lock": true,
+        "existing_score_max_absolute_difference": null,
+        "calibration_held_evaluation_and_split_hashes_match": true
+      },
+      "D1_held0": {
+        "prediction_sha256": "82f68b141c9768aa898ad67fbfec055478431ce323f88fb92f07719527f87ba4",
+        "prediction_bytes_match_lock": true,
+        "existing_score_max_absolute_difference": null,
+        "calibration_held_evaluation_and_split_hashes_match": true
+      },
+      "D1_held1": {
+        "prediction_sha256": "0b5bac36864b839913de538aa5bacdcef617630e850e05589ae4a4e8bf6c07b4",
+        "prediction_bytes_match_lock": true,
+        "existing_score_max_absolute_difference": null,
+        "calibration_held_evaluation_and_split_hashes_match": true
+      },
+      "D2_held0": {
+        "prediction_sha256": "d755b4580e8379aef7450bd8e5d12905696f342b54f4c4101b1a460ea6739f31",
+        "prediction_bytes_match_lock": true,
+        "existing_score_max_absolute_difference": null,
+        "calibration_held_evaluation_and_split_hashes_match": true
+      },
+      "D2_held1": {
+        "prediction_sha256": "c890ce48e4d6a70fb0ca88d4e5a607d4811af0c0023b73a80f055883d3a487a0",
+        "prediction_bytes_match_lock": true,
+        "existing_score_max_absolute_difference": null,
+        "calibration_held_evaluation_and_split_hashes_match": true
+      }
+    }
+  },
+  "clean_fixture_replay": true
+}

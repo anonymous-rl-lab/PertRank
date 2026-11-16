@@ -1,0 +1,16 @@
+{
+  "change": "Empty own-target mask assertion: max(empty) replaced with all(empty==0)",
+  "scientific_outputs_changed": false,
+  "frozen_original_script": "audit/local_repair_probe_frozen.py",
+  "frozen_original_script_sha256": "208e75309d7b0f27306bfed7ab6a9070b143f79f2932e298ca410a214a40b024",
+  "corrected_script_sha256": "6709d7f1b1bd49b06c069077277f6ccc35657502231fcaf9f40e0d00dbd89b93",
+  "all_actual_tasks_had_own_entries": {
+    "D1_held1.npz": true,
+    "D3_held1.npz": true,
+    "D1_held0.npz": true,
+    "D2_held1.npz": true,
+    "D3_held0.npz": true,
+    "D2_held0.npz": true
+  },
+  "scope": "Generic assertion robustness only; all six original task predictions and scores are unaffected"
+}

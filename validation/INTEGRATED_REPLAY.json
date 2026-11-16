@@ -1,0 +1,259 @@
+{
+  "package_version": "1.6.1",
+  "status": "REQUESTED_COMMANDS_COMPLETED",
+  "scientific_scope": "Selected workflows reproduce their declared stages from retained intermediate inputs. Current-paper four-arm and guide diagnostics supplement the core workflows. Optional PertRank-Q reconstructs checkpoint predictions and original subpool statistics without retraining. Raw-count preprocessing, native estimator refitting, and explicitly unavailable historical inputs are outside the default scope.",
+  "manifest": {
+    "status": "VERIFIED",
+    "files": 2356,
+    "manifest_sha256": "0618b99f1de33a4999fc0d46dce695cdef66281368332afd902f11fe8b138cab",
+    "policy": "All release files, including nested manifests; root MANIFEST_SHA256.json and root .git metadata excluded."
+  },
+  "selected_modules": [
+    "fixed_tasks",
+    "early_intermediates",
+    "corrected_intermediates",
+    "r20_intermediates",
+    "paper_analysis",
+    "il2_intermediates",
+    "sensitivity_replay",
+    "current_paper",
+    "pertrank_q"
+  ],
+  "modules": [
+    {
+      "module": "fixed_tasks",
+      "reproduction_level": "Sufficient-statistic and retained-prediction numerical replay",
+      "declared_scope": "Existing retained four-donor ranking/depth, D4 supplement and Stim, independent RNA, interactions and external-baseline replay. Native model fits and raw-cell preprocessing are not rerun.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "<REVIEW_WORK>/work/PertRank/modules/fixed_tasks/reproduce.py",
+        "--output-dir",
+        "<REVIEW_WORK>/release_gate/fixed_tasks"
+      ],
+      "timeout_seconds": 600,
+      "log": "logs/fixed_tasks.log",
+      "output": "<REVIEW_WORK>/release_gate/fixed_tasks",
+      "started_utc": "2026-11-16T11:47:07.409819+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 53.17592467200302,
+      "native_report": "fixed_tasks/VERIFICATION.json",
+      "native_report_sha256": "0a759791a743fb06bb2f4e175ad89d1fb428351e43f6bc661abe2a4dfc442d94",
+      "native_statuses": [
+        "D4_SUPPLEMENT_REPLAY_PASS",
+        "EXTERNAL_BENCHMARK_FIXED_RESULT_REPRODUCTION_PASS",
+        "FOUR_DONOR_STIM_UPGRADE_AND_EXTERNAL_BENCHMARK_REPRODUCTION_PASS",
+        "PASS",
+        "PASS_ARCHIVED_D3_RECONCILIATION_SCORE_REPLAY",
+        "PASS_ARCHIVED_SCORE_STATISTICS_REPLAY",
+        "STIM_EXACT_REPRODUCTION_PASS",
+        "SUPPLEMENTS_PASS",
+        "UPGRADE_FIXED_TASK_REPRODUCTION_PASS"
+      ]
+    },
+    {
+      "module": "early_intermediates",
+      "reproduction_level": "Saved-query score/block to original statistical summary replay",
+      "declared_scope": "Recomputes the supplied four-source, factorial and early-study statistics from retained intermediate scores and bootstrap definitions. Original raw inputs, effects, reliability weights and candidate rankings are not reconstructed; archival-only items retain their identity.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "<REVIEW_WORK>/work/PertRank/modules/early_intermediates/reproduce.py",
+        "--output-dir",
+        "<REVIEW_WORK>/release_gate/early_intermediates"
+      ],
+      "timeout_seconds": 180,
+      "log": "logs/early_intermediates.log",
+      "output": "<REVIEW_WORK>/release_gate/early_intermediates",
+      "started_utc": "2026-11-16T11:48:00.586899+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 8.65155118000257,
+      "native_report": "early_intermediates/report.json",
+      "native_report_sha256": "9042dabe395b74ae82d2ea94e47b529147f3537de0a18caf172d56796a2a6957",
+      "native_statuses": [
+        "RECOMPUTED_DESCRIPTIVE_MATCH",
+        "RECOMPUTED_STATISTICS_MATCH",
+        "STATISTICAL_REPLAY_MATCH"
+      ]
+    },
+    {
+      "module": "corrected_intermediates",
+      "reproduction_level": "Saved intermediate quantities to corrected-evidence statistical comparisons",
+      "declared_scope": "Corrected guide and RNA evidence summary replay from retained intermediate arrays; the native report specifies recomputed contrasts and omitted upstream stages.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "<REVIEW_WORK>/work/PertRank/modules/corrected_intermediates/reproduce.py",
+        "--output-dir",
+        "<REVIEW_WORK>/release_gate/corrected_intermediates"
+      ],
+      "timeout_seconds": 180,
+      "log": "logs/corrected_intermediates.log",
+      "output": "<REVIEW_WORK>/release_gate/corrected_intermediates",
+      "started_utc": "2026-11-16T11:48:09.239718+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 18.560916018999706,
+      "native_report": "corrected_intermediates/REPRODUCTION_REPORT.json",
+      "native_report_sha256": "fad95bf683d72ab975c8920d3c0c34bd6808e4590ec20795863e4f64fc841c6f",
+      "native_statuses": [
+        "PASS"
+      ]
+    },
+    {
+      "module": "r20_intermediates",
+      "reproduction_level": "Saved per-query scores to original within-screen and independent-RNA statistics",
+      "declared_scope": "Five within-screen and two external-reference input groups per donor; original block definitions and bootstrap statistics. Does not reconstruct moments, predictions or raw CSR aggregation.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "<REVIEW_WORK>/work/PertRank/modules/r20_intermediates/reproduce.py",
+        "--output-dir",
+        "<REVIEW_WORK>/release_gate/r20_intermediates"
+      ],
+      "timeout_seconds": 120,
+      "log": "logs/r20_intermediates.log",
+      "output": "<REVIEW_WORK>/release_gate/r20_intermediates",
+      "started_utc": "2026-11-16T11:48:27.801576+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 5.08441255499929,
+      "native_report": "r20_intermediates/REPRODUCTION_CHECK.json",
+      "native_report_sha256": "b195dd8e3614f240d5fbdd7f10b2ce360c9b9a269cc6a3c0402d7f071d1739d5",
+      "native_statuses": [
+        "PASS"
+      ]
+    },
+    {
+      "module": "paper_analysis",
+      "reproduction_level": "Mechanism, intervention-strata, query-transfer and application numerical replay",
+      "declared_scope": "Retained analysis inputs reconstruct S3 decomposition, biological strata, transfer, TRADE sensitivity and CTLA4 application. Current manuscript figures are rendered by current_paper.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "<REVIEW_WORK>/work/PertRank/modules/paper_analysis/reproduce.py",
+        "--out",
+        "<REVIEW_WORK>/release_gate/paper_analysis"
+      ],
+      "timeout_seconds": 600,
+      "log": "logs/paper_analysis.log",
+      "output": "<REVIEW_WORK>/release_gate/paper_analysis",
+      "started_utc": "2026-11-16T11:48:32.888446+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 16.428731015002995,
+      "native_report": "paper_analysis/REPLAY_REPORT.json",
+      "native_report_sha256": "ad4fa94b2a992a44b36ee4830442dda9049247acde269c269c7ea216fc4a7c65",
+      "native_statuses": [
+        "PASS",
+        "PRESERVED_NOT_RUN"
+      ]
+    },
+    {
+      "module": "il2_intermediates",
+      "reproduction_level": "Fixed guide/MAGeCK readout scores to original primary and secondary comparisons",
+      "declared_scope": "All 561 candidates and ten fixed top-25 lists; reconstruct target medians, original 20,000 paired guide/control draws, intervals and MAGeCK support comparisons. Eligibility remains fixed and no raw counts or model fitting are used.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "<REVIEW_WORK>/work/PertRank/modules/il2_intermediates/reproduce.py",
+        "--output-dir",
+        "<REVIEW_WORK>/release_gate/il2_intermediates"
+      ],
+      "timeout_seconds": 120,
+      "log": "logs/il2_intermediates.log",
+      "output": "<REVIEW_WORK>/release_gate/il2_intermediates",
+      "started_utc": "2026-11-16T11:48:49.318147+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 3.5272801950050052,
+      "native_report": "il2_intermediates/REPRODUCTION_REPORT.json",
+      "native_report_sha256": "4481370c18125032e2959dee325f8ee3ea0ba70dcd3eec9611573193b2a1b948",
+      "native_statuses": [
+        "PASS"
+      ]
+    },
+    {
+      "module": "sensitivity_replay",
+      "reproduction_level": "Saved-draw summary and fixed-coefficient numerical reconstruction",
+      "declared_scope": "Four archived sensitivity draw groups and Mixscale fixed-coefficient scores/intervals; preserves the existing definitions and does not refit coefficients.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "<REVIEW_WORK>/work/PertRank/modules/sensitivity_replay/reproduce.py",
+        "--output-dir",
+        "<REVIEW_WORK>/release_gate/sensitivity_replay"
+      ],
+      "timeout_seconds": 120,
+      "log": "logs/sensitivity_replay.log",
+      "output": "<REVIEW_WORK>/release_gate/sensitivity_replay",
+      "started_utc": "2026-11-16T11:48:52.847506+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 1.118068542004039,
+      "native_report": "sensitivity_replay/REPLAY_REPORT.json",
+      "native_report_sha256": "6e4d0f1ba77777475837515027fb5598654e61ebe45a3ba6e0c473ecca4e3671",
+      "native_statuses": [
+        "PASS"
+      ]
+    },
+    {
+      "module": "current_paper",
+      "reproduction_level": "Independent-RNA four-arm ranking replay, guide diagnostic replay, current source-table figure rendering",
+      "declared_scope": "Uses retained projected effects, reference draws, guide statistics and fixed predictions. Does not recreate raw cells or refit estimators. Figure output is separately identified as rendering from source tables.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "<REVIEW_WORK>/work/PertRank/modules/current_paper/reproduce.py",
+        "--output-dir",
+        "<REVIEW_WORK>/release_gate/current_paper"
+      ],
+      "timeout_seconds": 600,
+      "log": "logs/current_paper.log",
+      "output": "<REVIEW_WORK>/release_gate/current_paper",
+      "started_utc": "2026-11-16T11:48:53.966597+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 21.32879103199957,
+      "native_report": "current_paper/REPRODUCTION_REPORT.json",
+      "native_report_sha256": "689878a311665de35f63d2b77bd24b4913ac00ea78f3ccd5cfd1c0f082a1f242",
+      "native_statuses": [
+        "PASS"
+      ]
+    },
+    {
+      "module": "pertrank_q",
+      "reproduction_level": "Frozen-checkpoint inference and original query-block statistical replay",
+      "declared_scope": "PertRank-Q/B2 retained model predictions, candidate-subpool rankings and conditional paired intervals. Starts from retained model inputs and selected checkpoints, not raw cells; training is not run. Requires optional Torch dependency. Failure and exploratory arms retain their analysis identities.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "<REVIEW_WORK>/work/PertRank/modules/pertrank_q/reproduce.py",
+        "--output-dir",
+        "<REVIEW_WORK>/release_gate/pertrank_q"
+      ],
+      "timeout_seconds": 1200,
+      "log": "logs/pertrank_q.log",
+      "output": "<REVIEW_WORK>/release_gate/pertrank_q",
+      "started_utc": "2026-11-16T11:49:15.296474+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 28.665743241996097,
+      "native_report": "pertrank_q/REPRODUCTION_REPORT.json",
+      "native_report_sha256": "edd9a890eb8d281db3e8b61158f196df9cc97bf12f240960505e9454824b33ec",
+      "native_statuses": []
+    }
+  ],
+  "started_utc": "2026-11-16T11:47:07.409370+00:00",
+  "dispatcher_python": "3.12.14",
+  "numeric_python": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "offline_guard": "Python socket/DNS blocking inherited by child Python processes; registered entry points perform no download or new model training.",
+  "numeric_library_threads": 1,
+  "not_run": [],
+  "wall_seconds": 156.55365240600077,
+  "all_requested_commands_exit_zero": true,
+  "exit_code": 0,
+  "completed_utc": "2026-11-16T11:49:43.963274+00:00"
+}

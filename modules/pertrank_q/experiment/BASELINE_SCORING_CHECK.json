@@ -1,0 +1,496 @@
+{
+  "passed": true,
+  "comparisons": 81,
+  "maximum_absolute_error": 1.1102230246251565e-16,
+  "exact_ensemble_precision_and_pairwise_comparisons": 72,
+  "seed_arithmetic_tolerance": 2e-16,
+  "checks": [
+    {
+      "task": "D3_held0",
+      "field": "original_PertRank:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3_held0",
+      "field": "original_PertRank:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3_held0",
+      "field": "Unweighted:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3_held0",
+      "field": "Unweighted:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3_held0",
+      "field": "Euclidean:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3_held0",
+      "field": "Euclidean:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3_held0",
+      "field": "old_B:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3_held0",
+      "field": "old_B:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3_held0",
+      "field": "old_B_seed_precision",
+      "max_error": 1.1102230246251565e-16,
+      "exact": false
+    },
+    {
+      "task": "D3_held1",
+      "field": "original_PertRank:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3_held1",
+      "field": "original_PertRank:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3_held1",
+      "field": "Unweighted:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3_held1",
+      "field": "Unweighted:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3_held1",
+      "field": "Euclidean:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3_held1",
+      "field": "Euclidean:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3_held1",
+      "field": "old_B:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3_held1",
+      "field": "old_B:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3_held1",
+      "field": "old_B_seed_precision",
+      "max_error": 1.1102230246251565e-16,
+      "exact": false
+    },
+    {
+      "task": "D1_held0",
+      "field": "original_PertRank:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1_held0",
+      "field": "original_PertRank:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1_held0",
+      "field": "Unweighted:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1_held0",
+      "field": "Unweighted:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1_held0",
+      "field": "Euclidean:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1_held0",
+      "field": "Euclidean:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1_held0",
+      "field": "old_B:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1_held0",
+      "field": "old_B:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1_held0",
+      "field": "old_B_seed_precision",
+      "max_error": 1.1102230246251565e-16,
+      "exact": false
+    },
+    {
+      "task": "D1_held1",
+      "field": "original_PertRank:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1_held1",
+      "field": "original_PertRank:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1_held1",
+      "field": "Unweighted:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1_held1",
+      "field": "Unweighted:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1_held1",
+      "field": "Euclidean:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1_held1",
+      "field": "Euclidean:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1_held1",
+      "field": "old_B:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1_held1",
+      "field": "old_B:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1_held1",
+      "field": "old_B_seed_precision",
+      "max_error": 1.1102230246251565e-16,
+      "exact": false
+    },
+    {
+      "task": "D2_held0",
+      "field": "original_PertRank:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2_held0",
+      "field": "original_PertRank:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2_held0",
+      "field": "Unweighted:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2_held0",
+      "field": "Unweighted:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2_held0",
+      "field": "Euclidean:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2_held0",
+      "field": "Euclidean:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2_held0",
+      "field": "old_B:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2_held0",
+      "field": "old_B:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2_held0",
+      "field": "old_B_seed_precision",
+      "max_error": 5.551115123125783e-17,
+      "exact": false
+    },
+    {
+      "task": "D2_held1",
+      "field": "original_PertRank:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2_held1",
+      "field": "original_PertRank:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2_held1",
+      "field": "Unweighted:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2_held1",
+      "field": "Unweighted:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2_held1",
+      "field": "Euclidean:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2_held1",
+      "field": "Euclidean:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2_held1",
+      "field": "old_B:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2_held1",
+      "field": "old_B:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2_held1",
+      "field": "old_B_seed_precision",
+      "max_error": 1.1102230246251565e-16,
+      "exact": false
+    },
+    {
+      "task": "D3",
+      "field": "original_PertRank:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3",
+      "field": "original_PertRank:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3",
+      "field": "Unweighted:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3",
+      "field": "Unweighted:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3",
+      "field": "Euclidean:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3",
+      "field": "Euclidean:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3",
+      "field": "old_B:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3",
+      "field": "old_B:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D3",
+      "field": "old_B_seed_precision",
+      "max_error": 1.1102230246251565e-16,
+      "exact": false
+    },
+    {
+      "task": "D1",
+      "field": "original_PertRank:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1",
+      "field": "original_PertRank:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1",
+      "field": "Unweighted:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1",
+      "field": "Unweighted:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1",
+      "field": "Euclidean:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1",
+      "field": "Euclidean:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1",
+      "field": "old_B:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1",
+      "field": "old_B:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D1",
+      "field": "old_B_seed_precision",
+      "max_error": 1.1102230246251565e-16,
+      "exact": false
+    },
+    {
+      "task": "D2",
+      "field": "original_PertRank:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2",
+      "field": "original_PertRank:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2",
+      "field": "Unweighted:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2",
+      "field": "Unweighted:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2",
+      "field": "Euclidean:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2",
+      "field": "Euclidean:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2",
+      "field": "old_B:precision_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2",
+      "field": "old_B:pairwise_error_per_query",
+      "max_error": 0.0,
+      "exact": true
+    },
+    {
+      "task": "D2",
+      "field": "old_B_seed_precision",
+      "max_error": 1.1102230246251565e-16,
+      "exact": false
+    }
+  ],
+  "note": "All 72 ensemble precision and pairwise arrays match original B scoring exactly. Nine per-seed precision arrays differ by <=1.11e-16 because mean(up/down overlap)/K versus mean(up/down overlap/K) changes floating operation order. Same membership and mathematical score; frozen new scorer was not changed."
+}

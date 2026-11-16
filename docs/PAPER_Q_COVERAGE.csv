@@ -1,0 +1,4 @@
+location,module,scope
+Main optional refinement,pertrank_q,Selected checkpoint predictions and candidate-subpool conditional intervals
+SM12,pertrank_q,Architecture and training definitions; replay does not retrain
+SN24,pertrank_q,Selected refinement and direct comparison arms

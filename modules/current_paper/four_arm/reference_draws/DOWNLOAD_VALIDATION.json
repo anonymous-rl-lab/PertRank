@@ -1,0 +1,38 @@
+[
+  {
+    "file": "D1_batch_separate.npz",
+    "bytes": 712486,
+    "sha256": "703d7878353eadb649581d041fc9b28fe45b8d3c4141a0c7e53cb8500b65ff13",
+    "uncompressed_array_identity_verified": true
+  },
+  {
+    "file": "D1_shared_labels.npz",
+    "bytes": 659619,
+    "sha256": "78bfec6f8a3b096b5714636d7b9dec1f5adb1ab8f4ae94600c7a5ce2e910edf6",
+    "uncompressed_array_identity_verified": true
+  },
+  {
+    "file": "D2_batch_separate.npz",
+    "bytes": 733207,
+    "sha256": "d7f979a365727085dc945d6d478ec2648c7de82d24fcfd82b4c2e541e836484e",
+    "uncompressed_array_identity_verified": true
+  },
+  {
+    "file": "D2_shared_labels.npz",
+    "bytes": 675304,
+    "sha256": "3e706637103c09b77fdb7c253b04921489e4f2b2b789fd6bddc40cccf59bfc59",
+    "uncompressed_array_identity_verified": true
+  },
+  {
+    "file": "D3_batch_separate.npz",
+    "bytes": 711461,
+    "sha256": "7386260d5689be9abda3efed3f4150d415a4482e64741593f18d49ad69258468",
+    "uncompressed_array_identity_verified": true
+  },
+  {
+    "file": "D3_shared_labels.npz",
+    "bytes": 654482,
+    "sha256": "fb654a9a2582325ba7a588588293b11fd1b8c94b548d5221e4e164f39f482f0e",
+    "uncompressed_array_identity_verified": true
+  }
+]

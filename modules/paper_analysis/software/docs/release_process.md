@@ -1,35 +1,64 @@
-# Private release and public handoff
+# Distribution and release process
 
-## Current delivery
+## Current status
 
-Version `0.2.0rc2` is a private review artifact aligned with manuscript v25.2. Install from this source tree or from the separately supplied wheel. The archive includes the implementation, API documentation, real-data tutorial fixtures, provenance and software checks. The scientific implementation retains the frozen manuscript equations and fixed parameters; interface and provenance corrections are listed in [CHANGELOG](../CHANGELOG.md).
+This anonymous review source is version `0.2.0rc3` and accompanies the current
+manuscript. It preserves the numerical API, fixed parameters and tutorial
+arrays. No public upload or ecosystem acceptance is performed by this package.
 
-The distribution and import name `pertrank` are the intended names for this artifact. The existence of a local wheel does not reserve a public registry name. No author identity, public repository, package-registry upload or community endorsement is implied by the private metadata.
+The inherited license still states that the public license is pending author
+selection. The rights holder must confirm the intended license before a public
+release. This audit does not assign a license.
 
 ## Rebuild and verify
 
-From the package root:
+Copy the software source outside the checksum-protected reproduction bundle.
+From that copy, build into a new directory:
 
 ```bash
-python -m pip install '.[test]' build
+python -m pip install '.[test]' build twine
+python scripts/build_pypi_description.py
 python -m pytest
-python -m build
+python -m build --outdir ../pertrank-dist-rc3
+python scripts/check_distribution.py ../pertrank-dist-rc3
+python -m twine check ../pertrank-dist-rc3/*
 ```
 
-Use a fresh environment to install the resulting wheel and execute the tutorials. [Current validation](validation.md) records the performed source and distribution checks. Verify the current delivery checksums before installation. The original separate-release metadata and manifest in `provenance/` describe the initial release, not this revised tree. Keep distribution artifacts and their current release checksums together so the installed version can be identified.
+Install the resulting wheel in a fresh environment, then run
+`scripts/check_installation.py` and
+`python scripts/check_tutorials.py --output-dir ../pertrank-tutorial-check`.
+[Current validation](validation.md) identifies the checks actually completed.
+Do not overwrite published
+version files or mix old distributions into an upload directory.
 
-Review artifacts should preserve method and source-data attribution while keeping manuscript author identities, workstation paths, access tokens and private links out of public-facing metadata. Source dataset citation alone is not a claim that the tutorial redistributes the complete atlas.
+## Documentation links
 
-## What the tutorials reproduce
+The source distribution includes `docs/scientific_design.md`, `docs/api.md`
+and `tutorials/01_replogle.ipynb`. The wheel includes runtime code and tutorial
+fixtures; installing it does not install the standalone documentation tree.
+PyPI does not turn source-archive paths into separately hosted web pages.
 
-The compact real-data fixtures store previously computed effects and sufficient statistics from the named public screens. Their tutorial outputs reproduce the corresponding ranking operations from those statistics. They are not substitutes for the full raw-cell reproduction archive. AnnData cell input is supported by the package and checked separately against the frozen cell engine.
+`README.md` uses HTTPS links to the scientific design, API reference and
+Replogle tutorial in the anonymous GitHub repository. The API scoring-rule
+link retains its `#evaluate_reference` anchor. Other documentation and
+tutorial links remain local for browsing the extracted source tree.
 
-No new biological comparison, hyperparameter search or reference-data analysis is required for this software release. Regression checks address implementation identity and interface behavior.
+`PYPI_DESCRIPTION.md`, generated from the README, preserves these HTTPS links
+and converts the remaining local links into explicit source-archive paths.
+It is the configured long description in `pyproject.toml`. This keeps the
+three online documentation targets clickable without creating false PyPI
+URLs for files that remain available through the source archive.
 
-## Public release fields to complete
+## Scientific and execution scope
 
-Before public distribution, the rights holder supplies the software license, public attribution and maintaining person or team. The maintainers verify the registry name, repository URL, documentation URL, data redistribution terms and citation record. They then enable the supplied CI workflow in the public repository and link its successful run to the versioned release.
+Both authentic tutorial fixtures contain retained effects and sufficient
+statistics from the named screens. They recompute reliability and rankings;
+they do not repeat raw-cell preprocessing. The AnnData quickstart is synthetic
+and checks software use. Scientific uncertainty, source aggregation and
+PertRank-Q are reproduced separately in the complete code bundle.
 
-For double-blind review, retain the private artifact and defer author-linked registry uploads or community contributions until the authors choose the public-release date. Public listing and upstream acceptance remain separate from the private artifact's technical completion.
-
-After the public fields and rights are resolved, the maintainer can run the standard package-index checks on the built distributions, publish through the chosen registry's authenticated release process and verify installation in a clean environment. Credentials belong in the registry or CI secret mechanism, never in the source archive.
+No new biological comparison, parameter search or reference analysis is
+performed by this software update. Package publication, remote CI execution,
+community registration and original-data reanalysis are not implied by a
+successful local build. Keep credentials outside source files. A subsequent
+registry upload remains an explicit maintainer action.

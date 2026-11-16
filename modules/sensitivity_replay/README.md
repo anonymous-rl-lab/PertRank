@@ -1,4 +1,4 @@
-# Compact v1.5.1 layout
+# Compact retained analysis layout
 
 The numerical replay scope is unchanged. `array_payload.tar.xz` contains NPY
 arrays in one standard-library xz archive; it contains no nested ZIP or old
@@ -13,9 +13,7 @@ Mixscale coefficient/scoring inputs are retained. This module needs no other
 module to restore its data. The default remains draw-summary and coefficient
 scoring replay; it does not run the 200 original fits or fit native Mixscale.
 
-`ORIGINAL_V150_FILE_MANIFEST_SHA256.json` preserves the previous physical-file
-provenance. `FILE_MANIFEST_SHA256.json` describes this compact distribution;
-logical data files moved into the payload appear in `COMPACT_LAYOUT.json`.
+The root manifest covers the current compact payload.
 
 # Saved cell-sensitivity distributions and completed Mixscale scoring
 

@@ -1,6 +1,6 @@
 from pathlib import Path
 import shutil,subprocess,os,sys,json,numpy as np
-R=Path('/workspace/scratch/9bb77e8faf2b');src=R/'code_v150_release/PertRank_GitHub_Repro_v1.5.0/modules/corrected_evidence/guide';out=R/'code_v151_release/staging/corrected_intermediates/guide';work=R/'code_v151_release/qa/guide_export';work.mkdir(parents=True,exist_ok=True)
+R=Path('/anonymous/workspace');src=R/'upstream/corrected_evidence/guide';out=R/'export/staging/corrected_intermediates/guide';work=R/'export/qa/guide_export';work.mkdir(parents=True,exist_ok=True)
 env={**os.environ,'OPENBLAS_NUM_THREADS':'1','OMP_NUM_THREADS':'1'}
 for mode in ['legacy','corrected']:
  w=work/mode;shutil.copytree(src/'canonical',w,dirs_exist_ok=True);stage=w/'same_budget_weight/stage3/data'

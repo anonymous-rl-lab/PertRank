@@ -1,0 +1,513 @@
+{
+  "passed": true,
+  "held_references_opened": false,
+  "training_performed": false,
+  "fits_checked": 72,
+  "imported_A_prediction_arrays_exact": 6,
+  "fits": [
+    {
+      "path": "fits/D3_held0_boundary_context_seed2026111511_inner0",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held0_boundary_context_seed2026111511_inner1",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held0_boundary_context_seed2026111511_outer",
+      "targets": 26,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held0_boundary_context_seed2026111512_inner0",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held0_boundary_context_seed2026111512_inner1",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held0_boundary_context_seed2026111512_outer",
+      "targets": 26,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held0_boundary_pair_seed2026111511_inner0",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held0_boundary_pair_seed2026111511_inner1",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held0_boundary_pair_seed2026111511_outer",
+      "targets": 26,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held0_boundary_pair_seed2026111512_inner0",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held0_boundary_pair_seed2026111512_inner1",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held0_boundary_pair_seed2026111512_outer",
+      "targets": 26,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held1_boundary_context_seed2026111511_inner0",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held1_boundary_context_seed2026111511_inner1",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held1_boundary_context_seed2026111511_outer",
+      "targets": 26,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held1_boundary_context_seed2026111512_inner0",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held1_boundary_context_seed2026111512_inner1",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held1_boundary_context_seed2026111512_outer",
+      "targets": 26,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held1_boundary_pair_seed2026111511_inner0",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held1_boundary_pair_seed2026111511_inner1",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held1_boundary_pair_seed2026111511_outer",
+      "targets": 26,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held1_boundary_pair_seed2026111512_inner0",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held1_boundary_pair_seed2026111512_inner1",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D3_held1_boundary_pair_seed2026111512_outer",
+      "targets": 26,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held0_boundary_context_seed2026111511_inner0",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held0_boundary_context_seed2026111511_inner1",
+      "targets": 14,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held0_boundary_context_seed2026111511_outer",
+      "targets": 27,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held0_boundary_context_seed2026111512_inner0",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held0_boundary_context_seed2026111512_inner1",
+      "targets": 14,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held0_boundary_context_seed2026111512_outer",
+      "targets": 27,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held0_boundary_pair_seed2026111511_inner0",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held0_boundary_pair_seed2026111511_inner1",
+      "targets": 14,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held0_boundary_pair_seed2026111511_outer",
+      "targets": 27,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held0_boundary_pair_seed2026111512_inner0",
+      "targets": 13,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held0_boundary_pair_seed2026111512_inner1",
+      "targets": 14,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held0_boundary_pair_seed2026111512_outer",
+      "targets": 27,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held1_boundary_context_seed2026111511_inner0",
+      "targets": 16,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held1_boundary_context_seed2026111511_inner1",
+      "targets": 16,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held1_boundary_context_seed2026111511_outer",
+      "targets": 32,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held1_boundary_context_seed2026111512_inner0",
+      "targets": 16,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held1_boundary_context_seed2026111512_inner1",
+      "targets": 16,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held1_boundary_context_seed2026111512_outer",
+      "targets": 32,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held1_boundary_pair_seed2026111511_inner0",
+      "targets": 16,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held1_boundary_pair_seed2026111511_inner1",
+      "targets": 16,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held1_boundary_pair_seed2026111511_outer",
+      "targets": 32,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held1_boundary_pair_seed2026111512_inner0",
+      "targets": 16,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held1_boundary_pair_seed2026111512_inner1",
+      "targets": 16,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D1_held1_boundary_pair_seed2026111512_outer",
+      "targets": 32,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held0_boundary_context_seed2026111511_inner0",
+      "targets": 14,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held0_boundary_context_seed2026111511_inner1",
+      "targets": 14,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held0_boundary_context_seed2026111511_outer",
+      "targets": 28,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held0_boundary_context_seed2026111512_inner0",
+      "targets": 14,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held0_boundary_context_seed2026111512_inner1",
+      "targets": 14,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held0_boundary_context_seed2026111512_outer",
+      "targets": 28,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held0_boundary_pair_seed2026111511_inner0",
+      "targets": 14,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held0_boundary_pair_seed2026111511_inner1",
+      "targets": 14,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held0_boundary_pair_seed2026111511_outer",
+      "targets": 28,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held0_boundary_pair_seed2026111512_inner0",
+      "targets": 14,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held0_boundary_pair_seed2026111512_inner1",
+      "targets": 14,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held0_boundary_pair_seed2026111512_outer",
+      "targets": 28,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held1_boundary_context_seed2026111511_inner0",
+      "targets": 17,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held1_boundary_context_seed2026111511_inner1",
+      "targets": 18,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held1_boundary_context_seed2026111511_outer",
+      "targets": 35,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held1_boundary_context_seed2026111512_inner0",
+      "targets": 17,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held1_boundary_context_seed2026111512_inner1",
+      "targets": 18,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held1_boundary_context_seed2026111512_outer",
+      "targets": 35,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held1_boundary_pair_seed2026111511_inner0",
+      "targets": 17,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held1_boundary_pair_seed2026111511_inner1",
+      "targets": 18,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held1_boundary_pair_seed2026111511_outer",
+      "targets": 35,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held1_boundary_pair_seed2026111512_inner0",
+      "targets": 17,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held1_boundary_pair_seed2026111512_inner1",
+      "targets": 18,
+      "k": 5,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    },
+    {
+      "path": "fits/D2_held1_boundary_pair_seed2026111512_outer",
+      "targets": 35,
+      "k": 10,
+      "normalizer_exact": true,
+      "reference_poison_invariant": true
+    }
+  ]
+}

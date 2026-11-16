@@ -1,0 +1,1039 @@
+{
+  "identity": "Post hoc empirical reference-resampling sensitivity; not CI, posterior, new experiment or selection",
+  "cases": 100,
+  "probability_sum": 0.9999999999999998,
+  "batch_ids": [
+    "1",
+    "2"
+  ],
+  "replicate_labels_by_batch": {
+    "1": [
+      1,
+      3,
+      4
+    ],
+    "2": [
+      1,
+      2,
+      3
+    ]
+  },
+  "same_batch_counts_shared_across_all_sources_and_halves": true,
+  "batches_independently_reweighted": true,
+  "shared_query_target_reference_entries_checked": 27556,
+  "nominal_reference_maximum_precision_difference": 1.1102230246251565e-16,
+  "methods": [
+    "original_PertRank",
+    "Unweighted",
+    "Euclidean",
+    "old_B",
+    "B_joint_selection",
+    "B_rank_scale",
+    "B_rank_scale_joint",
+    "B_free_pair",
+    "B_rank_scale_free_pair"
+  ],
+  "aggregate_comparisons": {
+    "original_PertRank": {
+      "original_PertRank": {
+        "nominal_delta": 0.0,
+        "weighted_mean_delta": 0.0,
+        "weighted_empirical_2p5_97p5": [
+          0.0,
+          0.0
+        ],
+        "weighted_mass_positive": 0.0,
+        "weighted_mass_zero": 0.9999999999999998,
+        "weighted_mass_negative": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "Unweighted": {
+        "nominal_delta": -0.009856036327239692,
+        "weighted_mean_delta": -0.008657124366858355,
+        "weighted_empirical_2p5_97p5": [
+          -0.010581689357286705,
+          -0.004411386293764807
+        ],
+        "weighted_mass_positive": 0.0,
+        "weighted_mass_zero": 0.0,
+        "weighted_mass_negative": 0.9999999999999998,
+        "minimum": -0.010962351279551696,
+        "maximum": -0.003728942790587886
+      },
+      "Euclidean": {
+        "nominal_delta": -0.00041105547485681404,
+        "weighted_mean_delta": -0.0003618226348308215,
+        "weighted_empirical_2p5_97p5": [
+          -0.001694740668133743,
+          0.001562612765108773
+        ],
+        "weighted_mass_positive": 0.35939643347050754,
+        "weighted_mass_zero": 0.0,
+        "weighted_mass_negative": 0.6406035665294922,
+        "minimum": -0.001907493573619079,
+        "maximum": 0.0018823982112419202
+      },
+      "old_B": {
+        "nominal_delta": 0.0014662580551191295,
+        "weighted_mean_delta": 0.0006887814016975092,
+        "weighted_empirical_2p5_97p5": [
+          -0.0005790631852018446,
+          0.0014662580551191295
+        ],
+        "weighted_mass_positive": 0.8271604938271603,
+        "weighted_mass_zero": 0.0,
+        "weighted_mass_negative": 0.17283950617283955,
+        "minimum": -0.0007236321551306601,
+        "maximum": 0.001579900681412838
+      },
+      "B_joint_selection": {
+        "nominal_delta": 0.0012399077277969739,
+        "weighted_mean_delta": 0.0007356478352335628,
+        "weighted_empirical_2p5_97p5": [
+          -0.00034483980301613926,
+          0.0015243218347367193
+        ],
+        "weighted_mass_positive": 0.8381344307270232,
+        "weighted_mass_zero": 0.0,
+        "weighted_mass_negative": 0.16186556927297668,
+        "minimum": -0.00048744050922922,
+        "maximum": 0.0016075137811265572
+      },
+      "B_rank_scale": {
+        "nominal_delta": 0.00097803024040366,
+        "weighted_mean_delta": 0.0006488848205678793,
+        "weighted_empirical_2p5_97p5": [
+          -0.00014338801169938575,
+          0.0011494660100539456
+        ],
+        "weighted_mass_positive": 0.9547325102880655,
+        "weighted_mass_zero": 0.0,
+        "weighted_mass_negative": 0.04526748971193415,
+        "minimum": -0.00031639839232217026,
+        "maximum": 0.001176332809775249
+      },
+      "B_rank_scale_joint": {
+        "nominal_delta": 0.0004909833839177313,
+        "weighted_mean_delta": -6.573222632088121e-05,
+        "weighted_empirical_2p5_97p5": [
+          -0.0008681944150695231,
+          0.0006900732587755143
+        ],
+        "weighted_mass_positive": 0.4471879286694101,
+        "weighted_mass_zero": 0.0,
+        "weighted_mass_negative": 0.5528120713305897,
+        "minimum": -0.0010400238374629334,
+        "maximum": 0.0008330676177317198
+      },
+      "B_free_pair": {
+        "nominal_delta": 0.0006636001117973356,
+        "weighted_mean_delta": 0.0002790883779745214,
+        "weighted_empirical_2p5_97p5": [
+          -0.0010629608197424978,
+          0.001237939464081128
+        ],
+        "weighted_mass_positive": 0.6913580246913579,
+        "weighted_mass_zero": 0.0,
+        "weighted_mass_negative": 0.30864197530864196,
+        "minimum": -0.0011490723573107098,
+        "maximum": 0.0015274710566820504
+      },
+      "B_rank_scale_free_pair": {
+        "nominal_delta": 0.0017475229401135994,
+        "weighted_mean_delta": 0.001085228296182261,
+        "weighted_empirical_2p5_97p5": [
+          -0.00026384575110915964,
+          0.001865225110321167
+        ],
+        "weighted_mass_positive": 0.8984910836762687,
+        "weighted_mass_zero": 0.0,
+        "weighted_mass_negative": 0.10150891632373112,
+        "minimum": -0.0003211222252403334,
+        "maximum": 0.0018944538265014965
+      }
+    },
+    "old_B": {
+      "original_PertRank": {
+        "nominal_delta": -0.0014662580551191295,
+        "weighted_mean_delta": -0.0006887814016975092,
+        "weighted_empirical_2p5_97p5": [
+          -0.0014662580551191295,
+          0.0005790631852018446
+        ],
+        "weighted_mass_positive": 0.17283950617283955,
+        "weighted_mass_zero": 0.0,
+        "weighted_mass_negative": 0.8271604938271603,
+        "minimum": -0.001579900681412838,
+        "maximum": 0.0007236321551306601
+      },
+      "Unweighted": {
+        "nominal_delta": -0.011322294382358822,
+        "weighted_mean_delta": -0.009345905768555863,
+        "weighted_empirical_2p5_97p5": [
+          -0.011554733049230825,
+          -0.004619143458350072
+        ],
+        "weighted_mass_positive": 0.0,
+        "weighted_mass_zero": 0.0,
+        "weighted_mass_negative": 0.9999999999999998,
+        "minimum": -0.011563951084299862,
+        "maximum": -0.004390775500502264
+      },
+      "Euclidean": {
+        "nominal_delta": -0.0018773135299759436,
+        "weighted_mean_delta": -0.001050604036528331,
+        "weighted_empirical_2p5_97p5": [
+          -0.0024701709633864755,
+          0.0003035554715762334
+        ],
+        "weighted_mass_positive": 0.0905349794238683,
+        "weighted_mass_zero": 0.0,
+        "weighted_mass_negative": 0.9094650205761315,
+        "minimum": -0.0025976816477779052,
+        "maximum": 0.0005908071587062969
+      },
+      "old_B": {
+        "nominal_delta": 0.0,
+        "weighted_mean_delta": 0.0,
+        "weighted_empirical_2p5_97p5": [
+          0.0,
+          0.0
+        ],
+        "weighted_mass_positive": 0.0,
+        "weighted_mass_zero": 0.9999999999999998,
+        "weighted_mass_negative": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "B_joint_selection": {
+        "nominal_delta": -0.00022635032732215565,
+        "weighted_mean_delta": 4.6866433536053575e-05,
+        "weighted_empirical_2p5_97p5": [
+          -0.0003416905810707527,
+          0.0005490471635351546
+        ],
+        "weighted_mass_positive": 0.5596707818930039,
+        "weighted_mass_zero": 0.0,
+        "weighted_mass_negative": 0.4403292181069958,
+        "minimum": -0.0005439296778739777,
+        "maximum": 0.0006371269648193234
+      },
+      "B_rank_scale": {
+        "nominal_delta": -0.0004882278147154695,
+        "weighted_mean_delta": -3.9896581129629876e-05,
+        "weighted_empirical_2p5_97p5": [
+          -0.0006616318480815453,
+          0.0006944034389503861
+        ],
+        "weighted_mass_positive": 0.44444444444444436,
+        "weighted_mass_zero": 0.0,
+        "weighted_mass_negative": 0.5555555555555555,
+        "minimum": -0.000772166257924034,
+        "maximum": 0.0008670201668300459
+      },
+      "B_rank_scale_joint": {
+        "nominal_delta": -0.0009752746712013982,
+        "weighted_mean_delta": -0.0007545136280183903,
+        "weighted_empirical_2p5_97p5": [
+          -0.002012155996709175,
+          0.0002065692769780414
+        ],
+        "weighted_mass_positive": 0.10973936899862824,
+        "weighted_mass_zero": 0.0,
+        "weighted_mass_negative": 0.8902606310013715,
+        "minimum": -0.00230050663108039,
+        "maximum": 0.0004917706894040919
+      },
+      "B_free_pair": {
+        "nominal_delta": -0.000802657943321794,
+        "weighted_mean_delta": -0.00040969302372298786,
+        "weighted_empirical_2p5_97p5": [
+          -0.000860328070196148,
+          0.00022595667457908641
+        ],
+        "weighted_mass_positive": 0.093278463648834,
+        "weighted_mass_zero": 0.0,
+        "weighted_mass_negative": 0.9067215363511658,
+        "minimum": -0.0009179981970704465,
+        "maximum": 0.0003132491703767837
+      },
+      "B_rank_scale_free_pair": {
+        "nominal_delta": 0.0002812648849944699,
+        "weighted_mean_delta": 0.0003964468944847517,
+        "weighted_empirical_2p5_97p5": [
+          -0.00043410056252973783,
+          0.00117790742074797
+        ],
+        "weighted_mass_positive": 0.8491083676268859,
+        "weighted_mass_zero": 0.0,
+        "weighted_mass_negative": 0.15089163237311387,
+        "minimum": -0.0006908605642618748,
+        "maximum": 0.0012908857580374855
+      }
+    }
+  },
+  "source_comparisons": {
+    "original_PertRank": {
+      "D3": {
+        "original_PertRank": {
+          "nominal_delta": 0.0,
+          "weighted_mean_delta": 0.0,
+          "weighted_empirical_2p5_97p5": [
+            0.0,
+            0.0
+          ],
+          "weighted_mass_positive": 0.0,
+          "weighted_mass_zero": 0.9999999999999998,
+          "weighted_mass_negative": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "Unweighted": {
+          "nominal_delta": -0.0046807998599807665,
+          "weighted_mean_delta": -0.0041346368424698245,
+          "weighted_empirical_2p5_97p5": [
+            -0.006422836264986409,
+            -0.001546775181587412
+          ],
+          "weighted_mass_positive": 0.0,
+          "weighted_mass_zero": 0.0,
+          "weighted_mass_negative": 0.9999999999999998,
+          "minimum": -0.006607705434497235,
+          "maximum": -0.0014526997462150915
+        },
+        "Euclidean": {
+          "nominal_delta": 0.0005546075085323676,
+          "weighted_mean_delta": -0.00031010501083817283,
+          "weighted_empirical_2p5_97p5": [
+            -0.0029436860068259296,
+            0.001237201365187679
+          ],
+          "weighted_mass_positive": 0.5048010973936898,
+          "weighted_mass_zero": 0.028806584362139915,
+          "weighted_mass_negative": 0.46639231824417005,
+          "minimum": -0.0034982935153583528,
+          "maximum": 0.0015358361774743812
+        },
+        "old_B": {
+          "nominal_delta": 0.0009385665529009768,
+          "weighted_mean_delta": 0.000483621024639854,
+          "weighted_empirical_2p5_97p5": [
+            -0.0003412969283276279,
+            0.0010238907849828838
+          ],
+          "weighted_mass_positive": 0.8532235939643346,
+          "weighted_mass_zero": 0.037037037037037035,
+          "weighted_mass_negative": 0.10973936899862825,
+          "minimum": -0.0004266211604095904,
+          "maximum": 0.0010238907849829393
+        },
+        "B_joint_selection": {
+          "nominal_delta": 0.0,
+          "weighted_mean_delta": -5.676577854557674e-05,
+          "weighted_empirical_2p5_97p5": [
+            -0.0006825938566553114,
+            0.0008532423208191808
+          ],
+          "weighted_mass_positive": 0.3141289437585733,
+          "weighted_mass_zero": 0.1371742112482853,
+          "weighted_mass_negative": 0.5486968449931412,
+          "minimum": -0.0008532423208191253,
+          "maximum": 0.0010238907849829948
+        },
+        "B_rank_scale": {
+          "nominal_delta": 0.0005119453924914419,
+          "weighted_mean_delta": 0.00038787997958772495,
+          "weighted_empirical_2p5_97p5": [
+            -0.0004266211604095349,
+            0.0013651877133106227
+          ],
+          "weighted_mass_positive": 0.8052126200274348,
+          "weighted_mass_zero": 0.05349794238683127,
+          "weighted_mass_negative": 0.14128943758573392,
+          "minimum": -0.0006825938566552558,
+          "maximum": 0.0014505119453924742
+        },
+        "B_rank_scale_joint": {
+          "nominal_delta": -0.00017064846416381396,
+          "weighted_mean_delta": -0.0003581510976277793,
+          "weighted_empirical_2p5_97p5": [
+            -0.0015358361774743257,
+            0.0005972696245734044
+          ],
+          "weighted_mass_positive": 0.18655692729766804,
+          "weighted_mass_zero": 0.04663923182441701,
+          "weighted_mass_negative": 0.7668038408779148,
+          "minimum": -0.0017064846416382506,
+          "maximum": 0.0008532423208190698
+        },
+        "B_free_pair": {
+          "nominal_delta": -8.532423208196249e-05,
+          "weighted_mean_delta": -2.7973239324532076e-05,
+          "weighted_empirical_2p5_97p5": [
+            -0.0011092150170648463,
+            0.0010238907849829393
+          ],
+          "weighted_mass_positive": 0.41289437585733874,
+          "weighted_mass_zero": 0.037037037037037035,
+          "weighted_mass_negative": 0.5500685871056239,
+          "minimum": -0.0013651877133106227,
+          "maximum": 0.0011092150170648463
+        },
+        "B_rank_scale_free_pair": {
+          "nominal_delta": 0.002474402730375358,
+          "weighted_mean_delta": 0.0016915031578158804,
+          "weighted_empirical_2p5_97p5": [
+            -8.532423208185147e-05,
+            0.002986348122866911
+          ],
+          "weighted_mass_positive": 0.9684499314128941,
+          "weighted_mass_zero": 0.0054869684499314125,
+          "weighted_mass_negative": 0.026063100137174205,
+          "minimum": -0.0005972696245734044,
+          "maximum": 0.0030716723549488734
+        }
+      },
+      "D1": {
+        "original_PertRank": {
+          "nominal_delta": 0.0,
+          "weighted_mean_delta": 0.0,
+          "weighted_empirical_2p5_97p5": [
+            0.0,
+            0.0
+          ],
+          "weighted_mass_positive": 0.0,
+          "weighted_mass_zero": 0.9999999999999998,
+          "weighted_mass_negative": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "Unweighted": {
+          "nominal_delta": -0.012709054209919246,
+          "weighted_mean_delta": -0.011311530411809684,
+          "weighted_empirical_2p5_97p5": [
+            -0.013824353270719958,
+            -0.005312860438292988
+          ],
+          "weighted_mass_positive": 0.0,
+          "weighted_mass_zero": 0.0,
+          "weighted_mass_negative": 0.9999999999999998,
+          "minimum": -0.013927335640138427,
+          "maximum": -0.0034777146152578653
+        },
+        "Euclidean": {
+          "nominal_delta": -0.001758938869665494,
+          "weighted_mean_delta": -0.0006795028186373369,
+          "weighted_empirical_2p5_97p5": [
+            -0.0032006920415225126,
+            0.0014994232987312617
+          ],
+          "weighted_mass_positive": 0.2853223593964334,
+          "weighted_mass_zero": 0.0,
+          "weighted_mass_negative": 0.7146776406035664,
+          "minimum": -0.0037629757785467843,
+          "maximum": 0.002811418685121081
+        },
+        "old_B": {
+          "nominal_delta": 0.0006920415224913601,
+          "weighted_mean_delta": 0.0005191978348670192,
+          "weighted_empirical_2p5_97p5": [
+            -0.0019031141868511847,
+            0.0030276816608996726
+          ],
+          "weighted_mass_positive": 0.6694101508916322,
+          "weighted_mass_zero": 0.0,
+          "weighted_mass_negative": 0.33058984910836753,
+          "minimum": -0.0023356401384083125,
+          "maximum": 0.003287197231833905
+        },
+        "B_joint_selection": {
+          "nominal_delta": 0.0021626297577854725,
+          "weighted_mean_delta": 0.0017534394133672272,
+          "weighted_empirical_2p5_97p5": [
+            -0.0004325259515570723,
+            0.0037197231833910327
+          ],
+          "weighted_mass_positive": 0.9176954732510286,
+          "weighted_mass_zero": 0.004115226337448559,
+          "weighted_mass_negative": 0.07818930041152264,
+          "minimum": -0.0006920415224913601,
+          "maximum": 0.00446943483275658
+        },
+        "B_rank_scale": {
+          "nominal_delta": 0.0014705882352941124,
+          "weighted_mean_delta": 0.0011504359671731222,
+          "weighted_empirical_2p5_97p5": [
+            0.00034602076124568004,
+            0.0016435986159169524
+          ],
+          "weighted_mass_positive": 0.9999999999999998,
+          "weighted_mass_zero": 0.0,
+          "weighted_mass_negative": 0.0,
+          "minimum": 0.0002595155709342878,
+          "maximum": 0.0016435986159169524
+        },
+        "B_rank_scale_joint": {
+          "nominal_delta": 0.0,
+          "weighted_mean_delta": 0.0,
+          "weighted_empirical_2p5_97p5": [
+            0.0,
+            0.0
+          ],
+          "weighted_mass_positive": 0.0,
+          "weighted_mass_zero": 0.9999999999999998,
+          "weighted_mass_negative": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "B_free_pair": {
+          "nominal_delta": 0.0005190311418685201,
+          "weighted_mean_delta": 0.0003549685023690737,
+          "weighted_empirical_2p5_97p5": [
+            -0.0021626297577854725,
+            0.0030276816608996726
+          ],
+          "weighted_mass_positive": 0.5994513031550067,
+          "weighted_mass_zero": 0.04526748971193415,
+          "weighted_mass_negative": 0.3552812071330589,
+          "minimum": -0.0025951557093426003,
+          "maximum": 0.003373702422145297
+        },
+        "B_rank_scale_free_pair": {
+          "nominal_delta": 0.0011245674740484324,
+          "weighted_mean_delta": 0.000675586945824884,
+          "weighted_empirical_2p5_97p5": [
+            -0.0010380622837369846,
+            0.0022491349480968648
+          ],
+          "weighted_mass_positive": 0.727023319615912,
+          "weighted_mass_zero": 0.05624142661179697,
+          "weighted_mass_negative": 0.2167352537722908,
+          "minimum": -0.0012975778546712724,
+          "maximum": 0.0028546712802768326
+        }
+      },
+      "D2": {
+        "original_PertRank": {
+          "nominal_delta": 0.0,
+          "weighted_mean_delta": 0.0,
+          "weighted_empirical_2p5_97p5": [
+            0.0,
+            0.0
+          ],
+          "weighted_mass_positive": 0.0,
+          "weighted_mass_zero": 0.9999999999999998,
+          "weighted_mass_negative": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "Unweighted": {
+          "nominal_delta": -0.012178254911818953,
+          "weighted_mean_delta": -0.010525205846295547,
+          "weighted_empirical_2p5_97p5": [
+            -0.013459813286802902,
+            -0.005408669249499676
+          ],
+          "weighted_mass_positive": 0.0,
+          "weighted_mass_zero": 0.0,
+          "weighted_mass_negative": 0.9999999999999998,
+          "minimum": -0.013845882747266836,
+          "maximum": -0.004561238774041576
+        },
+        "Euclidean": {
+          "nominal_delta": -2.8835063437149255e-05,
+          "weighted_mean_delta": -9.586007501694737e-05,
+          "weighted_empirical_2p5_97p5": [
+            -0.002220299884659771,
+            0.0025951557093426003
+          ],
+          "weighted_mass_positive": 0.36625514403292175,
+          "weighted_mass_zero": 0.004115226337448559,
+          "weighted_mass_negative": 0.6296296296296294,
+          "minimum": -0.0026239907727796385,
+          "maximum": 0.00283304498269904
+        },
+        "old_B": {
+          "nominal_delta": 0.002768166089965385,
+          "weighted_mean_delta": 0.0010635253455856715,
+          "weighted_empirical_2p5_97p5": [
+            -0.0008650519031142001,
+            0.002768166089965385
+          ],
+          "weighted_mass_positive": 0.8449931412894374,
+          "weighted_mass_zero": 0.020576131687242795,
+          "weighted_mass_negative": 0.13443072702331962,
+          "minimum": -0.0012759515570933688,
+          "maximum": 0.002768166089965385
+        },
+        "B_joint_selection": {
+          "nominal_delta": 0.0015570934256055602,
+          "weighted_mean_delta": 0.0005102698708790413,
+          "weighted_empirical_2p5_97p5": [
+            -0.0005190311418684646,
+            0.0015570934256055602
+          ],
+          "weighted_mass_positive": 0.7489711934156377,
+          "weighted_mass_zero": 0.05349794238683127,
+          "weighted_mass_negative": 0.19753086419753085,
+          "minimum": -0.0006055363321799678,
+          "maximum": 0.0015570934256055602
+        },
+        "B_rank_scale": {
+          "nominal_delta": 0.0009515570934255924,
+          "weighted_mean_delta": 0.00040833851494281734,
+          "weighted_empirical_2p5_97p5": [
+            -0.0006055363321799123,
+            0.0014705882352941124
+          ],
+          "weighted_mass_positive": 0.775034293552812,
+          "weighted_mass_zero": 0.013717421124828532,
+          "weighted_mass_negative": 0.21124828532235942,
+          "minimum": -0.0010380622837370401,
+          "maximum": 0.0020761245674740247
+        },
+        "B_rank_scale_joint": {
+          "nominal_delta": 0.0016435986159169524,
+          "weighted_mean_delta": 0.00016095441866513594,
+          "weighted_empirical_2p5_97p5": [
+            -0.002007313620635387,
+            0.001816608996539737
+          ],
+          "weighted_mass_positive": 0.5651577503429355,
+          "weighted_mass_zero": 0.016460905349794237,
+          "weighted_mass_negative": 0.4183813443072702,
+          "minimum": -0.002597121736395036,
+          "maximum": 0.0019896193771626325
+        },
+        "B_free_pair": {
+          "nominal_delta": 0.0015570934256055602,
+          "weighted_mean_delta": 0.0005102698708790413,
+          "weighted_empirical_2p5_97p5": [
+            -0.0005190311418684646,
+            0.0015570934256055602
+          ],
+          "weighted_mass_positive": 0.7489711934156377,
+          "weighted_mass_zero": 0.05349794238683127,
+          "weighted_mass_negative": 0.19753086419753085,
+          "minimum": -0.0006055363321799678,
+          "maximum": 0.0015570934256055602
+        },
+        "B_rank_scale_free_pair": {
+          "nominal_delta": 0.0016435986159169524,
+          "weighted_mean_delta": 0.0008885947849060322,
+          "weighted_empirical_2p5_97p5": [
+            -0.001393913180245343,
+            0.0026816608996539926
+          ],
+          "weighted_mass_positive": 0.7599451303155006,
+          "weighted_mass_zero": 0.0,
+          "weighted_mass_negative": 0.24005486968449932,
+          "minimum": -0.002251100975149356,
+          "maximum": 0.0031141868512110094
+        }
+      }
+    },
+    "old_B": {
+      "D3": {
+        "original_PertRank": {
+          "nominal_delta": -0.0009385665529009768,
+          "weighted_mean_delta": -0.000483621024639854,
+          "weighted_empirical_2p5_97p5": [
+            -0.0010238907849828838,
+            0.0003412969283276279
+          ],
+          "weighted_mass_positive": 0.10973936899862825,
+          "weighted_mass_zero": 0.037037037037037035,
+          "weighted_mass_negative": 0.8532235939643346,
+          "minimum": -0.0010238907849829393,
+          "maximum": 0.0004266211604095904
+        },
+        "Unweighted": {
+          "nominal_delta": -0.005619366412881743,
+          "weighted_mean_delta": -0.004618257867109677,
+          "weighted_empirical_2p5_97p5": [
+            -0.006751553338584015,
+            -0.0017196114465738432
+          ],
+          "weighted_mass_positive": 0.0,
+          "weighted_mass_zero": 0.0,
+          "weighted_mass_negative": 0.9999999999999998,
+          "minimum": -0.006954471864881406,
+          "maximum": -0.0016233482103789054
+        },
+        "Euclidean": {
+          "nominal_delta": -0.00038395904436860917,
+          "weighted_mean_delta": -0.0007937260354780268,
+          "weighted_empirical_2p5_97p5": [
+            -0.003540955631399334,
+            0.0012798634812287157
+          ],
+          "weighted_mass_positive": 0.28120713305898487,
+          "weighted_mass_zero": 0.028806584362139915,
+          "weighted_mass_negative": 0.6899862825788751,
+          "minimum": -0.0037542662116040737,
+          "maximum": 0.0016638225255972694
+        },
+        "old_B": {
+          "nominal_delta": 0.0,
+          "weighted_mean_delta": 0.0,
+          "weighted_empirical_2p5_97p5": [
+            0.0,
+            0.0
+          ],
+          "weighted_mass_positive": 0.0,
+          "weighted_mass_zero": 0.9999999999999998,
+          "weighted_mass_negative": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "B_joint_selection": {
+          "nominal_delta": -0.0009385665529009768,
+          "weighted_mean_delta": -0.0005403868031854306,
+          "weighted_empirical_2p5_97p5": [
+            -0.0011945392491468088,
+            0.00017064846416381396
+          ],
+          "weighted_mass_positive": 0.11248285322359394,
+          "weighted_mass_zero": 0.03292181069958847,
+          "weighted_mass_negative": 0.8545953360768173,
+          "minimum": -0.0013651877133105672,
+          "maximum": 0.0004266211604095904
+        },
+        "B_rank_scale": {
+          "nominal_delta": -0.0004266211604095349,
+          "weighted_mean_delta": -9.574104505212904e-05,
+          "weighted_empirical_2p5_97p5": [
+            -0.0006825938566553669,
+            0.0007679180887371628
+          ],
+          "weighted_mass_positive": 0.2647462277091906,
+          "weighted_mass_zero": 0.04938271604938271,
+          "weighted_mass_negative": 0.6858710562414263,
+          "minimum": -0.0007679180887372183,
+          "maximum": 0.0008532423208191253
+        },
+        "B_rank_scale_joint": {
+          "nominal_delta": -0.0011092150170647908,
+          "weighted_mean_delta": -0.0008417721222676333,
+          "weighted_empirical_2p5_97p5": [
+            -0.0012798634812286602,
+            -8.532423208190698e-05
+          ],
+          "weighted_mass_positive": 0.012345679012345678,
+          "weighted_mass_zero": 0.004115226337448559,
+          "weighted_mass_negative": 0.9835390946502056,
+          "minimum": -0.0015358361774743812,
+          "maximum": 8.532423208185147e-05
+        },
+        "B_free_pair": {
+          "nominal_delta": -0.0010238907849829393,
+          "weighted_mean_delta": -0.0005115942639643859,
+          "weighted_empirical_2p5_97p5": [
+            -0.0015358361774743812,
+            0.0010238907849829393
+          ],
+          "weighted_mass_positive": 0.3004115226337448,
+          "weighted_mass_zero": 0.0,
+          "weighted_mass_negative": 0.699588477366255,
+          "minimum": -0.0016211604095563437,
+          "maximum": 0.0010238907849829948
+        },
+        "B_rank_scale_free_pair": {
+          "nominal_delta": 0.0015358361774743812,
+          "weighted_mean_delta": 0.0012078821331760266,
+          "weighted_empirical_2p5_97p5": [
+            0.00017064846416381396,
+            0.002559726962457376
+          ],
+          "weighted_mass_positive": 0.9807956104252398,
+          "weighted_mass_zero": 0.012345679012345678,
+          "weighted_mass_negative": 0.006858710562414266,
+          "minimum": -0.00025597269624577645,
+          "maximum": 0.0027303754266211344
+        }
+      },
+      "D1": {
+        "original_PertRank": {
+          "nominal_delta": -0.0006920415224913601,
+          "weighted_mean_delta": -0.0005191978348670192,
+          "weighted_empirical_2p5_97p5": [
+            -0.0030276816608996726,
+            0.0019031141868511847
+          ],
+          "weighted_mass_positive": 0.33058984910836753,
+          "weighted_mass_zero": 0.0,
+          "weighted_mass_negative": 0.6694101508916322,
+          "minimum": -0.003287197231833905,
+          "maximum": 0.0023356401384083125
+        },
+        "Unweighted": {
+          "nominal_delta": -0.013401095732410606,
+          "weighted_mean_delta": -0.011830728246676702,
+          "weighted_empirical_2p5_97p5": [
+            -0.014690434997528423,
+            -0.004620818915801628
+          ],
+          "weighted_mass_positive": 0.0,
+          "weighted_mass_zero": 0.0,
+          "weighted_mass_negative": 0.9999999999999998,
+          "minimum": -0.015486488713132296,
+          "maximum": -0.003609532048113373
+        },
+        "Euclidean": {
+          "nominal_delta": -0.002450980392156854,
+          "weighted_mean_delta": -0.001198700653504356,
+          "weighted_empirical_2p5_97p5": [
+            -0.003633217993079585,
+            0.00162918108419835
+          ],
+          "weighted_mass_positive": 0.25377229080932784,
+          "weighted_mass_zero": 0.013717421124828532,
+          "weighted_mass_negative": 0.7325102880658434,
+          "minimum": -0.0038494809688581766,
+          "maximum": 0.002104959630911174
+        },
+        "old_B": {
+          "nominal_delta": 0.0,
+          "weighted_mean_delta": 0.0,
+          "weighted_empirical_2p5_97p5": [
+            0.0,
+            0.0
+          ],
+          "weighted_mass_positive": 0.0,
+          "weighted_mass_zero": 0.9999999999999998,
+          "weighted_mass_negative": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "B_joint_selection": {
+          "nominal_delta": 0.0014705882352941124,
+          "weighted_mean_delta": 0.0012342415785002079,
+          "weighted_empirical_2p5_97p5": [
+            8.650519031150328e-05,
+            0.0020761245674740803
+          ],
+          "weighted_mass_positive": 0.9917695473251027,
+          "weighted_mass_zero": 0.0,
+          "weighted_mass_negative": 0.008230452674897118,
+          "minimum": -8.650519031144777e-05,
+          "maximum": 0.0022491349480969203
+        },
+        "B_rank_scale": {
+          "nominal_delta": 0.0007785467128027523,
+          "weighted_mean_delta": 0.0006312381323061034,
+          "weighted_empirical_2p5_97p5": [
+            -0.0017301038062283447,
+            0.0025086505190311525
+          ],
+          "weighted_mass_positive": 0.7407407407407405,
+          "weighted_mass_zero": 0.024691358024691357,
+          "weighted_mass_negative": 0.23456790123456794,
+          "minimum": -0.0020761245674740803,
+          "maximum": 0.002941176470588225
+        },
+        "B_rank_scale_joint": {
+          "nominal_delta": -0.0006920415224913601,
+          "weighted_mean_delta": -0.0005191978348670192,
+          "weighted_empirical_2p5_97p5": [
+            -0.0030276816608996726,
+            0.0019031141868511847
+          ],
+          "weighted_mass_positive": 0.33058984910836753,
+          "weighted_mass_zero": 0.0,
+          "weighted_mass_negative": 0.6694101508916322,
+          "minimum": -0.003287197231833905,
+          "maximum": 0.0023356401384083125
+        },
+        "B_free_pair": {
+          "nominal_delta": -0.00017301038062284002,
+          "weighted_mean_delta": -0.0001642293324979453,
+          "weighted_empirical_2p5_97p5": [
+            -0.0005190311418685201,
+            0.0001730103806227845
+          ],
+          "weighted_mass_positive": 0.09739368998628256,
+          "weighted_mass_zero": 0.12208504801097392,
+          "weighted_mass_negative": 0.7805212620027433,
+          "minimum": -0.0007785467128028078,
+          "maximum": 0.0002595155709342878
+        },
+        "B_rank_scale_free_pair": {
+          "nominal_delta": 0.0004325259515570723,
+          "weighted_mean_delta": 0.00015638911095786494,
+          "weighted_empirical_2p5_97p5": [
+            -0.0019031141868511292,
+            0.0015570934256056157
+          ],
+          "weighted_mass_positive": 0.6570644718792865,
+          "weighted_mass_zero": 0.016460905349794237,
+          "weighted_mass_negative": 0.326474622770919,
+          "minimum": -0.0020761245674739692,
+          "maximum": 0.0019031141868512402
+        }
+      },
+      "D2": {
+        "original_PertRank": {
+          "nominal_delta": -0.002768166089965385,
+          "weighted_mean_delta": -0.0010635253455856715,
+          "weighted_empirical_2p5_97p5": [
+            -0.002768166089965385,
+            0.0008650519031142001
+          ],
+          "weighted_mass_positive": 0.13443072702331962,
+          "weighted_mass_zero": 0.020576131687242795,
+          "weighted_mass_negative": 0.8449931412894374,
+          "minimum": -0.002768166089965385,
+          "maximum": 0.0012759515570933688
+        },
+        "Unweighted": {
+          "nominal_delta": -0.014946421001784338,
+          "weighted_mean_delta": -0.01158873119188122,
+          "weighted_empirical_2p5_97p5": [
+            -0.015189917093031247,
+            -0.006489989729609069
+          ],
+          "weighted_mass_positive": 0.0,
+          "weighted_mass_zero": 0.0,
+          "weighted_mass_negative": 0.9999999999999998,
+          "minimum": -0.01562885083646326,
+          "maximum": -0.005878040004337559
+        },
+        "Euclidean": {
+          "nominal_delta": -0.002797001153402534,
+          "weighted_mean_delta": -0.0011593854206026187,
+          "weighted_empirical_2p5_97p5": [
+            -0.003085351787773971,
+            0.001989619377162688
+          ],
+          "weighted_mass_positive": 0.252400548696845,
+          "weighted_mass_zero": 0.0,
+          "weighted_mass_negative": 0.7475994513031547,
+          "minimum": -0.0035178777393310434,
+          "maximum": 0.002162629757785528
+        },
+        "old_B": {
+          "nominal_delta": 0.0,
+          "weighted_mean_delta": 0.0,
+          "weighted_empirical_2p5_97p5": [
+            0.0,
+            0.0
+          ],
+          "weighted_mass_positive": 0.0,
+          "weighted_mass_zero": 0.9999999999999998,
+          "weighted_mass_negative": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "B_joint_selection": {
+          "nominal_delta": -0.0012110726643598246,
+          "weighted_mean_delta": -0.0005532554747066301,
+          "weighted_empirical_2p5_97p5": [
+            -0.0014705882352941124,
+            0.0005190311418685756
+          ],
+          "weighted_mass_positive": 0.13443072702331962,
+          "weighted_mass_zero": 0.053497942386831275,
+          "weighted_mass_negative": 0.8120713305898489,
+          "minimum": -0.0016435986159169524,
+          "maximum": 0.0009299307958476888
+        },
+        "B_rank_scale": {
+          "nominal_delta": -0.0018166089965397925,
+          "weighted_mean_delta": -0.0006551868306428541,
+          "weighted_empirical_2p5_97p5": [
+            -0.0019031141868511847,
+            0.0006920415224913046
+          ],
+          "weighted_mass_positive": 0.16460905349794241,
+          "weighted_mass_zero": 0.028806584362139915,
+          "weighted_mass_negative": 0.8065843621399176,
+          "minimum": -0.0019031141868512402,
+          "maximum": 0.0009515570934255924
+        },
+        "B_rank_scale_joint": {
+          "nominal_delta": -0.0011245674740484324,
+          "weighted_mean_delta": -0.0009025709269205353,
+          "weighted_empirical_2p5_97p5": [
+            -0.0021626297577854725,
+            0.0004325259515571278
+          ],
+          "weighted_mass_positive": 0.05624142661179698,
+          "weighted_mass_zero": 0.0,
+          "weighted_mass_negative": 0.9437585733882028,
+          "minimum": -0.0026816608996539926,
+          "maximum": 0.0007785467128027523
+        },
+        "B_free_pair": {
+          "nominal_delta": -0.0012110726643598246,
+          "weighted_mean_delta": -0.0005532554747066301,
+          "weighted_empirical_2p5_97p5": [
+            -0.0014705882352941124,
+            0.0005190311418685756
+          ],
+          "weighted_mass_positive": 0.13443072702331962,
+          "weighted_mass_zero": 0.053497942386831275,
+          "weighted_mass_negative": 0.8120713305898489,
+          "minimum": -0.0016435986159169524,
+          "maximum": 0.0009299307958476888
+        },
+        "B_rank_scale_free_pair": {
+          "nominal_delta": -0.0011245674740484324,
+          "weighted_mean_delta": -0.00017493056067963895,
+          "weighted_empirical_2p5_97p5": [
+            -0.0012975778546712724,
+            0.0012975778546712724
+          ],
+          "weighted_mass_positive": 0.3086419753086419,
+          "weighted_mass_zero": 0.04938271604938271,
+          "weighted_mass_negative": 0.6419753086419752,
+          "minimum": -0.0016829191569676105,
+          "maximum": 0.0018166089965397925
+        }
+      }
+    }
+  },
+  "feature_checks": {
+    "D3_held0": {
+      "queries": 293,
+      "candidates": 26,
+      "reference_replicates_match_frozen_evaluator": true
+    },
+    "D3_held1": {
+      "queries": 293,
+      "candidates": 26,
+      "reference_replicates_match_frozen_evaluator": true
+    },
+    "D1_held0": {
+      "queries": 289,
+      "candidates": 32,
+      "reference_replicates_match_frozen_evaluator": true
+    },
+    "D1_held1": {
+      "queries": 289,
+      "candidates": 27,
+      "reference_replicates_match_frozen_evaluator": true
+    },
+    "D2_held0": {
+      "queries": 289,
+      "candidates": 35,
+      "reference_replicates_match_frozen_evaluator": true
+    },
+    "D2_held1": {
+      "queries": 289,
+      "candidates": 28,
+      "reference_replicates_match_frozen_evaluator": true
+    }
+  },
+  "protocol_sha256": "6382d9a55c81bb0dabec55335d0500aba79bf0f7f3d60690769c02854518386f",
+  "arrays_sha256": "b9acb00626873def398986f554b1995e116abac030b0c75bd57fbd2811407721",
+  "model_or_prediction_changed": false,
+  "original_phase2_primary_gates_preserved": {
+    "development_passed": false,
+    "robustness_passed": false,
+    "equal_source_vs_old_B_positive": false,
+    "every_source_vs_original_nonnegative": false,
+    "sources_with_positive_conditional_lower_limit": [],
+    "both_seed_equal_source_gains_positive": true
+  }
+}

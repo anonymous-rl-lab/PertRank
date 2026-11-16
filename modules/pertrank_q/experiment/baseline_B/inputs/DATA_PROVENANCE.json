@@ -1,0 +1,409 @@
+{
+  "identity": "Original20 conditional neural ranking inputs, no fitting",
+  "prepare_code_sha256": "d78d29007b528493f3e33b86a6443342a5d862f3059baf2df7c7e3c8c80f5ba5",
+  "feature_names": [
+    "raw_signed",
+    "pertrank_score",
+    "euclidean_score",
+    "query_se_input",
+    "wM",
+    "w0",
+    "n_cells",
+    "profile_energy_I",
+    "profile_energy_M",
+    "control_projection_fraction",
+    "guide_abs_contrast",
+    "guide_contrast_available",
+    "guide_min_fraction"
+  ],
+  "feature_types": [
+    "effect",
+    "effect",
+    "effect",
+    "effect",
+    "dimensionless",
+    "dimensionless",
+    "count",
+    "energy",
+    "energy",
+    "dimensionless",
+    "effect",
+    "indicator",
+    "dimensionless"
+  ],
+  "feature_definitions": {
+    "raw_signed": "Original signed source effect: original20 mean natural-log normalized RNA minus observed archived control mean.",
+    "pertrank_score": "Original stored PertRank score; exactly raw*wM.",
+    "euclidean_score": "Original stored Euclidean score; exactly raw*w0.",
+    "query_se_input": "sqrt(original20 unbiased query sample variance/20), conditional on observed control mean; excludes control uncertainty.",
+    "wM": "Original fixed PertRank weight.",
+    "w0": "Original fixed Euclidean weight.",
+    "n_cells": "Original target-cell count, exactly 20 throughout.",
+    "profile_energy_I": "Squared original20 mean full-profile norm / G; source squared natural-log units.",
+    "profile_energy_M": "Original20 mean profile energy under fixed M=I-beta*U*U.T / G.",
+    "control_projection_fraction": "(energy_I-energy_M)/(beta*energy_I); fraction of mean-profile energy in the fixed control subspace.",
+    "guide_abs_contrast": "Absolute same20 guide mean query difference; missing single-guide contrast gets deterministic zero fill.",
+    "guide_contrast_available": "One iff two guides occur in the original20; distinguishes zero fill from measured agreement.",
+    "guide_min_fraction": "Minor observed guide count divided by original20 count; zero for single-guide targets."
+  },
+  "sources": {
+    "D3": {
+      "dimensions": {
+        "queries": 293,
+        "targets": 52,
+        "features": 13
+      },
+      "half_counts": [
+        26,
+        26
+      ],
+      "minimum_eligible_held_candidates": [
+        25,
+        25
+      ],
+      "source_files": {
+        "paired": {
+          "path": "upstream_record_01/D3_paired_effects.npz",
+          "relative_path": "pertrank_transfer_map_20261115/inputs/D3_paired_effects.npz",
+          "sha256": "d4aae91e37eb917a332281031f9ed494da35c70f3ea0c0796740f33bbf7f2303",
+          "bytes": 581458
+        },
+        "original20_statistics": {
+          "path": "upstream_record_02/D3_query_inputs.npz",
+          "relative_path": "pertrank_boundary_20261115/inputs/D3_query_inputs.npz",
+          "sha256": "f6744d02933e235ac8121c01a1073997d5eb8dab7a6e8fdc390d89f8fa27820e",
+          "bytes": 1378463
+        },
+        "original20_cells": {
+          "path": "upstream_record_03/D3_shallow_cells.npz",
+          "relative_path": "pro_continuation_20261114/work/prior_input/PertRank_Failure_Localization_20261114/crossfit_pilot/inputs/D3_shallow_cells.npz",
+          "sha256": "f065658097142f397488b4b9566a77104dbeed7aebbc987745307e2666281ae2",
+          "bytes": 2071126
+        },
+        "source_metadata": {
+          "path": "upstream_record_04/D3_source_replicates.npz",
+          "relative_path": "pertrank_bias_decomposition_20261115/source/inputs/D3_source_replicates.npz",
+          "sha256": "ea4c6da35e21b6f13f59b114ec20d420e73d50bec4bd96ecc7b8e089bde2ffda",
+          "bytes": 6115025
+        },
+        "external": {
+          "path": "upstream_record_05/D3_external_replicates.npz",
+          "relative_path": "pertrank_bias_decomposition_20261115/external/outputs/D3_external_replicates.npz",
+          "sha256": "5f549ddd1fef2dbaa3036e7dbcbbbe6106329ddb79f6bb668c9e5e691721cd13",
+          "bytes": 627400
+        }
+      },
+      "source_replicate_read_keys": [
+        "query_ids",
+        "query_blocks",
+        "target_ids",
+        "target_symbols",
+        "own_mask",
+        "cell_ids",
+        "cell_role",
+        "cell_target_index",
+        "cell_guide_index",
+        "guide_ids",
+        "role_names"
+      ],
+      "output": {
+        "path": "upstream_record_06/D3_neural_inputs.npz",
+        "sha256": "82a24270cd2f12f831e17dcdcf6a70986e76b31159c27d1285e3b292700cb8e1",
+        "bytes": 1433624
+      },
+      "single_guide_targets": 10,
+      "dual_guide_targets": 42,
+      "dual_guide_targets_minimum_one_cell": 10,
+      "reference_batch_counts": {
+        "1": 14,
+        "2": 38
+      },
+      "checks": {
+        "identifier_order_exact": true,
+        "ownmask_identity_exact": true,
+        "original20_cell_and_guide_ids_exact": true,
+        "baseline_values_bitwise_equal": true,
+        "reference_bitwise_equal": true,
+        "donor_mean_bitwise_equal": true,
+        "same20_query_variance_bitwise_equal": true,
+        "same20_energy_bitwise_equal": true,
+        "same20_guide_contrast_bitwise_equal": true,
+        "saved_arrays_bitwise_equal": true,
+        "all_features_finite": true,
+        "cell_mean_roundoff_max_abs": 1.4432899320127035e-15,
+        "projection_energy_roundoff_max_abs": 3.0357660829594124e-18
+      }
+    },
+    "D1": {
+      "dimensions": {
+        "queries": 289,
+        "targets": 59,
+        "features": 13
+      },
+      "half_counts": [
+        32,
+        27
+      ],
+      "minimum_eligible_held_candidates": [
+        31,
+        26
+      ],
+      "source_files": {
+        "paired": {
+          "path": "upstream_record_07/D1_paired_effects.npz",
+          "relative_path": "pertrank_transfer_map_20261115/inputs/D1_paired_effects.npz",
+          "sha256": "46a5170739e70f1ba12487e81961ee4b380688e3f09b8e3ec41a82eb818776b4",
+          "bytes": 637175
+        },
+        "original20_statistics": {
+          "path": "upstream_record_08/D1_query_inputs.npz",
+          "relative_path": "pertrank_boundary_20261115/inputs/D1_query_inputs.npz",
+          "sha256": "0eec6eada658813b20799ab6bd6175fa5b5b4e9f8b3bce96385ba2555694c5e0",
+          "bytes": 1585502
+        },
+        "original20_cells": {
+          "path": "upstream_record_09/D1_shallow_cells.npz",
+          "relative_path": "pro_continuation_20261114/work/prior_input/PertRank_Failure_Localization_20261114/crossfit_pilot/inputs/D1_shallow_cells.npz",
+          "sha256": "9c319774b2914ffdc0cf27fdcf7f418d5f4dd603150f74c6cd5cd2da3b3a3ca3",
+          "bytes": 2323166
+        },
+        "source_metadata": {
+          "path": "upstream_record_10/D1_source_replicates.npz",
+          "relative_path": "pertrank_bias_decomposition_20261115/source/inputs/D1_source_replicates.npz",
+          "sha256": "db6d19de024a1f12908a95870a5dd0680c2b3a950298e72221dbd054c1ab897d",
+          "bytes": 6998342
+        },
+        "external": {
+          "path": "upstream_record_11/D1_external_replicates.npz",
+          "relative_path": "pertrank_bias_decomposition_20261115/external/outputs/D1_external_replicates.npz",
+          "sha256": "7f51361781fed7f64456060ff1cca2f9acf83ec9b0f4fc306d964710932acddc",
+          "bytes": 695828
+        }
+      },
+      "source_replicate_read_keys": [
+        "query_ids",
+        "query_blocks",
+        "target_ids",
+        "target_symbols",
+        "own_mask",
+        "cell_ids",
+        "cell_role",
+        "cell_target_index",
+        "cell_guide_index",
+        "guide_ids",
+        "role_names"
+      ],
+      "output": {
+        "path": "upstream_record_12/D1_neural_inputs.npz",
+        "sha256": "bebd75b04ae05cd95a6d61f6177719b348696078eff8c00362bf55217518d6ab",
+        "bytes": 1596380
+      },
+      "single_guide_targets": 9,
+      "dual_guide_targets": 50,
+      "dual_guide_targets_minimum_one_cell": 6,
+      "reference_batch_counts": {
+        "1": 15,
+        "2": 44
+      },
+      "checks": {
+        "identifier_order_exact": true,
+        "ownmask_identity_exact": true,
+        "original20_cell_and_guide_ids_exact": true,
+        "baseline_values_bitwise_equal": true,
+        "reference_bitwise_equal": true,
+        "donor_mean_bitwise_equal": true,
+        "same20_query_variance_bitwise_equal": true,
+        "same20_energy_bitwise_equal": true,
+        "same20_guide_contrast_bitwise_equal": true,
+        "saved_arrays_bitwise_equal": true,
+        "all_features_finite": true,
+        "cell_mean_roundoff_max_abs": 1.3322676295501878e-15,
+        "projection_energy_roundoff_max_abs": 3.3610267347050637e-18
+      }
+    },
+    "D2": {
+      "dimensions": {
+        "queries": 289,
+        "targets": 63,
+        "features": 13
+      },
+      "half_counts": [
+        35,
+        28
+      ],
+      "minimum_eligible_held_candidates": [
+        34,
+        27
+      ],
+      "source_files": {
+        "paired": {
+          "path": "upstream_record_13/D2_paired_effects.npz",
+          "relative_path": "pertrank_transfer_map_20261115/inputs/D2_paired_effects.npz",
+          "sha256": "db44d4e7cb42fe527e8d2517c86a871e964195db9fc76154ea18390c5d264776",
+          "bytes": 690537
+        },
+        "original20_statistics": {
+          "path": "upstream_record_14/D2_query_inputs.npz",
+          "relative_path": "pertrank_boundary_20261115/inputs/D2_query_inputs.npz",
+          "sha256": "26e0f4913967cdbc2ea61beb069b727dc1208736ea879a2a174c974e50770729",
+          "bytes": 1626623
+        },
+        "original20_cells": {
+          "path": "upstream_record_15/D2_shallow_cells.npz",
+          "relative_path": "pro_continuation_20261114/work/prior_input/PertRank_Failure_Localization_20261114/crossfit_pilot/inputs/D2_shallow_cells.npz",
+          "sha256": "97eb420a7cce92357dde89e398b35a0032701c393a9289037b5130974726195d",
+          "bytes": 2443260
+        },
+        "source_metadata": {
+          "path": "upstream_record_16/D2_source_replicates.npz",
+          "relative_path": "pertrank_bias_decomposition_20261115/source/inputs/D2_source_replicates.npz",
+          "sha256": "3e8c34cfdbafc40db2db125dee14f1a52598c11e02d416e58512937b535dfe15",
+          "bytes": 7154530
+        },
+        "external": {
+          "path": "upstream_record_17/D2_external_replicates.npz",
+          "relative_path": "pertrank_bias_decomposition_20261115/external/outputs/D2_external_replicates.npz",
+          "sha256": "1c1145f50102149eefa41ce6d8e1a257e6fbd4da0b7daa3bf70b6f44f0624cf5",
+          "bytes": 740045
+        }
+      },
+      "source_replicate_read_keys": [
+        "query_ids",
+        "query_blocks",
+        "target_ids",
+        "target_symbols",
+        "own_mask",
+        "cell_ids",
+        "cell_role",
+        "cell_target_index",
+        "cell_guide_index",
+        "guide_ids",
+        "role_names"
+      ],
+      "output": {
+        "path": "upstream_record_18/D2_neural_inputs.npz",
+        "sha256": "f21ea23d78e1112df267c171abf8c0c5b6de20b3f4fad8c9f1621bc41355f6e0",
+        "bytes": 1699382
+      },
+      "single_guide_targets": 17,
+      "dual_guide_targets": 46,
+      "dual_guide_targets_minimum_one_cell": 7,
+      "reference_batch_counts": {
+        "1": 17,
+        "2": 46
+      },
+      "checks": {
+        "identifier_order_exact": true,
+        "ownmask_identity_exact": true,
+        "original20_cell_and_guide_ids_exact": true,
+        "baseline_values_bitwise_equal": true,
+        "reference_bitwise_equal": true,
+        "donor_mean_bitwise_equal": true,
+        "same20_query_variance_bitwise_equal": true,
+        "same20_energy_bitwise_equal": true,
+        "same20_guide_contrast_bitwise_equal": true,
+        "saved_arrays_bitwise_equal": true,
+        "all_features_finite": true,
+        "cell_mean_roundoff_max_abs": 1.817990202823694e-15,
+        "projection_energy_roundoff_max_abs": 4.7704895589362195e-18
+      }
+    }
+  },
+  "cross_source_checks": {
+    "D3_D1": {
+      "shared_queries": 216,
+      "shared_targets": 44,
+      "reference_and_donors_exact": true
+    },
+    "D3_D2": {
+      "shared_queries": 216,
+      "shared_targets": 45,
+      "reference_and_donors_exact": true
+    },
+    "D1_D2": {
+      "shared_queries": 231,
+      "shared_targets": 49,
+      "reference_and_donors_exact": true
+    }
+  },
+  "split": {
+    "seed": 2026111504,
+    "unique_targets": 75,
+    "global_half_counts": [
+      38,
+      37
+    ],
+    "preserved_exactly": true,
+    "whole_target_same_half_across_sources": true,
+    "historically_unseen_assay": false,
+    "algorithm": "Sort stable IDs by sha256(str(seed)+|+target_id); assign sorted position modulo 2."
+  },
+  "reference": {
+    "scale": "log2(CPM+1) KO minus batch/donor-matched control mean, then equal three-donor mean",
+    "standardization_applied": false,
+    "matches_old_reference_bitwise": true,
+    "replicate_shape": "Q,T,3",
+    "batch1_donors": [
+      1,
+      3,
+      4
+    ],
+    "batch2_donors": [
+      1,
+      2,
+      3
+    ],
+    "cross_batch_person_identity_confirmed": false,
+    "sampling_constraint": "Use one shared multiplier per batch-donor control_group across every candidate in a list; normalize within batch. Never draw donor weights independently per candidate. Same tensor column is not same donor across batches.",
+    "cross_batch_sensitivity": "Sharing multipliers for matching donor numbers across batches is an additional, unconfirmed-person-identity assumption.",
+    "uncertainty": "Three donor effects support donor sensitivity; one KO well per donor cannot identify pure assay noise separately from biological and well variation."
+  },
+  "access_and_fit": {
+    "model_fitted": false,
+    "normalizers_fitted": false,
+    "external_in_X": false,
+    "retained_deep_expression_used": false,
+    "planning_features_used": false,
+    "new_assays_or_downloads": false,
+    "labels_constructed": false,
+    "downstream_requirement": "Fit every scaler and model only on permitted training targets. Arrays separate predictors and reference; downstream code enforces access."
+  },
+  "provenance_code": {
+    "pertrank_boundary_20261115/prepare_query_inputs.py": {
+      "path": "upstream_record_19/prepare_query_inputs.py",
+      "relative_path": "pertrank_boundary_20261115/prepare_query_inputs.py",
+      "sha256": "605e9e33597ca02ea74591a593f6fc33ce7bef9b07bfc3dce62bde250f8c7d57",
+      "bytes": 9400
+    },
+    "pertrank_transfer_map_20261115/prepare_inputs.py": {
+      "path": "upstream_record_20/prepare_inputs.py",
+      "relative_path": "pertrank_transfer_map_20261115/prepare_inputs.py",
+      "sha256": "97be6a95c855bdf939cf51a313d15bb1c6b0bca6ee287b7f3cf84e30febe582e",
+      "bytes": 6765
+    },
+    "pertrank_transfer_map_20261115/TARGET_SPLIT_LOCK.json": {
+      "path": "upstream_record_21/TARGET_SPLIT_LOCK.json",
+      "relative_path": "pertrank_transfer_map_20261115/TARGET_SPLIT_LOCK.json",
+      "sha256": "e084af70f8061be4a88ccf6d357d4bde0656b300b119bd951cc619dba20c1cab",
+      "bytes": 15068
+    },
+    "pertrank_bias_decomposition_20261115/source/recover_source_replicates.py": {
+      "path": "upstream_record_22/recover_source_replicates.py",
+      "relative_path": "pertrank_bias_decomposition_20261115/source/recover_source_replicates.py",
+      "sha256": "52da89a8ec965f7e33e43f6be053e0856d059615c4e415647c6c090d939f5159",
+      "bytes": 9623
+    },
+    "pertrank_bias_decomposition_20261115/external/rebuild_external.py": {
+      "path": "upstream_record_23/rebuild_external.py",
+      "relative_path": "pertrank_bias_decomposition_20261115/external/rebuild_external.py",
+      "sha256": "7592cd1cf434de03c99a9f87217deb1c6b448eeecc9284d8956157b23cbe6ee1",
+      "bytes": 7012
+    },
+    "pertrank_bias_decomposition_20261115/external/recovered/selected/external_uncertainty/reference_sensitivity.py": {
+      "path": "upstream_record_24/reference_sensitivity.py",
+      "relative_path": "pertrank_bias_decomposition_20261115/external/recovered/selected/external_uncertainty/reference_sensitivity.py",
+      "sha256": "97444e283738434c83fe1dd80d25a077655ac41cb7a00f712b92a358b4fa09d9",
+      "bytes": 10333
+    }
+  }
+}

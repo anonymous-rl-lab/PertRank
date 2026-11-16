@@ -1,0 +1,24 @@
+[
+  {
+    "epoch": 0,
+    "loss": -0.4135294959085881,
+    "gradient_norm": 0.0,
+    "train": {
+      "precision": 0.42559726962457345,
+      "max_abs_gate": 0.0,
+      "fraction_saturated": 0.0,
+      "rms_score_change": 0.0
+    }
+  },
+  {
+    "epoch": 50,
+    "loss": -0.4174789345102582,
+    "gradient_norm": 0.0011779183018448649,
+    "train": {
+      "precision": 0.4325938566552901,
+      "max_abs_gate": 0.8889685914521044,
+      "fraction_saturated": 0.0,
+      "rms_score_change": 0.012727361180347917
+    }
+  }
+]

@@ -435,11 +435,11 @@
   "paired_input_reps": "The same repetition labels are equal-weighted across states for stability only; they are not biological replicate donors.",
   "provenance": [
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evaluation/D4_Rest/evaluation_report.json",
+      "path": "/anonymous/workspace/fr_benchmark/resume_20261014/evaluation/D4_Rest/evaluation_report.json",
       "sha256": "e9308b5c4038c39ae172dff04f1ee2f5a76d19d92f59edcf9a8a08e1b45a7c75"
     },
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evaluation/D4_Stim8hr/evaluation_report.json",
+      "path": "/anonymous/workspace/fr_benchmark/resume_20261014/evaluation/D4_Stim8hr/evaluation_report.json",
       "sha256": "04a4747ff178d81494a8abeef07ffaee45a2ccbecafc68e433ad2d51f1c182e6"
     }
   ],

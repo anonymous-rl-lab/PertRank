@@ -1,0 +1,77 @@
+[
+  {
+    "epoch": 0,
+    "loss": -0.39223119983771115,
+    "ranking_loss": -0.39223119983771115,
+    "residual_penalty": 0.0,
+    "head_ridge": 0.0,
+    "gradient_norm": 0.0,
+    "train": {
+      "precision": 0.4100346020761246,
+      "max_abs_gate": 0.0,
+      "fraction_saturated": 0.0,
+      "rms_score_change": 0.0
+    },
+    "scale_floor_rows": 0
+  },
+  {
+    "epoch": 50,
+    "loss": -0.3949635913662823,
+    "ranking_loss": -0.39646526102549073,
+    "residual_penalty": 0.0014962580423222732,
+    "head_ridge": 5.411616886160997e-06,
+    "gradient_norm": 0.0011530609077384751,
+    "train": {
+      "precision": 0.40951557093425606,
+      "max_abs_gate": 0.8642656498890773,
+      "fraction_saturated": 0.0,
+      "rms_score_change": 0.014539007631072486
+    },
+    "scale_floor_rows": 0
+  },
+  {
+    "epoch": 100,
+    "loss": -0.3973074171708806,
+    "ranking_loss": -0.39976065146605944,
+    "residual_penalty": 0.0024254452156975037,
+    "head_ridge": 2.778907948135793e-05,
+    "gradient_norm": 0.001045111154471073,
+    "train": {
+      "precision": 0.4166089965397924,
+      "max_abs_gate": 1.0612255094693839,
+      "fraction_saturated": 0.0,
+      "rms_score_change": 0.018401898026040003
+    },
+    "scale_floor_rows": 0
+  },
+  {
+    "epoch": 200,
+    "loss": -0.3997274150488761,
+    "ranking_loss": -0.4033103908097938,
+    "residual_penalty": 0.0035029759991045705,
+    "head_ridge": 7.999976181311346e-05,
+    "gradient_norm": 0.00033583673760582245,
+    "train": {
+      "precision": 0.42335640138408315,
+      "max_abs_gate": 1.093079284315382,
+      "fraction_saturated": 0.0003707823507601038,
+      "rms_score_change": 0.02121232430058806
+    },
+    "scale_floor_rows": 0
+  },
+  {
+    "epoch": 300,
+    "loss": -0.4005370976909642,
+    "ranking_loss": -0.40415907444333005,
+    "residual_penalty": 0.0035025930990114497,
+    "head_ridge": 0.00011938365335441472,
+    "gradient_norm": 0.00030521449654445556,
+    "train": {
+      "precision": 0.42318339100346025,
+      "max_abs_gate": 1.0983886203762234,
+      "fraction_saturated": 0.006921270547521938,
+      "rms_score_change": 0.02026221750086485
+    },
+    "scale_floor_rows": 0
+  }
+]

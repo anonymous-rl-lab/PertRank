@@ -1,0 +1,3 @@
+# Tested environment: Python3.12, CPU
+numpy==2.3.5
+torch==2.15.0+cpu

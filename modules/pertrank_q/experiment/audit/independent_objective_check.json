@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "training_performed": false,
+  "trainer_sha256": "bc9f0f59011822e803473e8d5286fbf00481341295a9de3eee3da653980a06a3",
+  "autograd_finite_difference_gradcheck": true,
+  "rank_scale_no_detach": true,
+  "eligible_mean_and_population_sd": true,
+  "variance_floor_before_sqrt": true,
+  "radial_gradient_dot_max": 6.938893903907228e-18,
+  "translation_gradient_dot_max": 6.938893903907228e-18,
+  "excluded_score_gradient_zero": true,
+  "checks": {
+    "scale_half": 0.0,
+    "scale_double": 0.0,
+    "query_shift": 1.1102230246251565e-16,
+    "zero_finite": true,
+    "constant_finite": true,
+    "nearzero_finite": true
+  },
+  "code_review_joint_selection": "Physical predictions are averaged before exact precision; not averaging per-seed precision",
+  "code_review_regularization": "Residual penalty remains normalized by frozen training baseline SD",
+  "held_reference_opened": false
+}

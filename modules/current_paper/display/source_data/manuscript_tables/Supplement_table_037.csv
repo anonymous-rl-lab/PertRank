@@ -1,0 +1,9 @@
+predictions,truth,queries,slots changed,difference
+D3,D1 (cross),responsive,5.05,"+0.043 [+0.024, +0.059]"
+D3,D3 (within),responsive,5.05,"+0.124 [+0.105, +0.145]"
+D3,D1 (cross),terciles,6.20,"-0.000 [-0.013, +0.012]"
+D3,D3 (within),terciles,6.20,"+0.004 [-0.014, +0.021]"
+D1,D3 (cross),responsive,5.19,"+0.009 [-0.016, +0.034]"
+D1,D1 (within),responsive,5.19,"+0.070 [+0.040, +0.099]"
+D1,D3 (cross),terciles,6.20,"+0.003 [-0.013, +0.016]"
+D1,D1 (within),terciles,6.20,"+0.021 [+0.006, +0.036]"

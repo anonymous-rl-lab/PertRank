@@ -1,4 +1,4 @@
-# PertRank v20: from input counts to nomination lists
+# PertRank current manuscript: from input counts to nomination lists
 
 This application example calculates PertRank weights from supplied cells and returns original-gene-coordinate nominations. It uses the unchanged v17 cell engine, with a new count-input adapter matching the T-cell study's normalization and numerical precision. It does not load saved rankings, a deep reference or a selected outcome. The separate frozen research replay remains the source for reproducing the manuscript's experiments.
 
@@ -6,7 +6,7 @@ The supported task is a prespecified query list in one prespecified control-matc
 
 ## Run the educational example
 
-The v20 release was verified with Python 3.12.14; exact tested dependencies are in `requirements_verified_v20.txt`. NumPy runs the count-input application; SciPy supports verification and sparse matrices, and AnnData enables `.h5ad` input.
+The current manuscript release was verified with Python 3.12.14; exact tested dependencies are in `requirements_verified.txt`. NumPy runs the count-input application; SciPy supports verification and sparse matrices, and AnnData enables `.h5ad` input.
 
 ```bash
 python -m pip install -r requirements.txt
@@ -48,7 +48,7 @@ python run_counts.py input.npz --out nominations_v20 --top-k 25
 
 The adapter calculates library totals **before** retaining genes detected in input controls. It scales each cell to the median total of the input controls and applies `log1p`. It follows the frozen T-cell implementation by storing control log values at float32 precision before float64 moments; target log values remain float64. Five control covariance directions and attenuation 0.9 are fixed. Each target's own sample variance, including variance after projection, contributes to its noise estimate; control variance is not substituted for target variance. A gene not detected in controls cannot be used as a query in this adapter.
 
-The NPZ adapter loads the complete dense matrix. The v20 AnnData adapter below instead batch-reads the full raw gene axis, retains the control matrix for the exact eigendecomposition and processes one target at a time. The control matrix and smaller control/gene Gram matrix must fit in memory. A minimum of six controls and two target cells are numerical requirements only, not recommended experimental budgets. For a specified multi-stratum design or an already normalized gene axis, the original v17 `pertrank` Python interface remains available in this directory. That general interface has its own input conventions; this adapter deliberately has a narrower T-cell path.
+The NPZ adapter loads the complete dense matrix. The current manuscript AnnData adapter below instead batch-reads the full raw gene axis, retains the control matrix for the exact eigendecomposition and processes one target at a time. The control matrix and smaller control/gene Gram matrix must fit in memory. A minimum of six controls and two target cells are numerical requirements only, not recommended experimental budgets. For a specified multi-stratum design or an already normalized gene axis, the original v17 `pertrank` Python interface remains available in this directory. That general interface has its own input conventions; this adapter deliberately has a narrower T-cell path.
 
 ## Use AnnData or backed h5ad
 
@@ -68,7 +68,7 @@ result, metadata = fit_anndata(adata, prespecified_query_ids, batch_rows=512)
 
 Dense and CSR matrices are supported both in memory and through `read_h5ad(..., backed="r")`. The first pass computes library totals over every provided gene and identifies the input-control gene axis. A second pass computes the control model; each perturbation is then processed separately. The complete target-cell matrix is never densified. All supplied controls contribute to the fixed five-direction model, and all supplied target cells contribute to that target's mean and sample variance. Use the full measured gene axis, since a gene-filtered object cannot recover omitted library counts. Raw counts in a named layer can be explicitly assigned to `X` before writing the input file.
 
-`VALIDATION_H5AD_v20.json` records exact parity with the dense adapter for four paths (dense/CSR × in-memory/backed), using shuffled cell order and an extra gene with counts only in target cells. This final check confirms that denominator counts survive control-axis filtering. On the software fixture of 2,160 cells × 321 genes, the four fits took 0.027–0.089 seconds with one BLAS thread; peak process resident memory was 133.1 MiB. These numbers describe the synthetic correctness fixture and include the Python/AnnData process. Actual experiment cost is reported in each `run.json`; the `.h5ad` raw-data interface has not been timed on the original full cohort.
+`H5AD_VALIDATION.json` records exact parity with the dense adapter for four paths (dense/CSR × in-memory/backed), using shuffled cell order and an extra gene with counts only in target cells. This final check confirms that denominator counts survive control-axis filtering. On the software fixture of 2,160 cells × 321 genes, the four fits took 0.027–0.089 seconds with one BLAS thread; peak process resident memory was 133.1 MiB. These numbers describe the synthetic correctness fixture and include the Python/AnnData process. Actual experiment cost is reported in each `run.json`; the `.h5ad` raw-data interface has not been timed on the original full cohort.
 
 ## Inspect the outputs
 
@@ -85,7 +85,7 @@ For an up list, the signed score is the weighted original effect; for a down lis
 
 ## Verification and limits
 
-`verify_application.py` refits controls from the synthetic counts and checks cell-level effects and weights against the unmodified frozen D4/Stim engine in `verification/frozen_engine.py`. It also checks noise by constructing the full covariance matrix, including off-diagonal terms, and tests complete output generation, own-gene exclusion, tie probability mass and duplicate-cell rejection. The results and numerical tolerances are recorded in `VALIDATION_v20.json`; code identities are in `SOURCE_PROVENANCE.json`.
+`verify_application.py` refits controls from the synthetic counts and checks cell-level effects and weights against the unmodified frozen D4/Stim engine in `verification/frozen_engine.py`. It also checks noise by constructing the full covariance matrix, including off-diagonal terms, and tests complete output generation, own-gene exclusion, tie probability mass and duplicate-cell rejection. The results and numerical tolerances are recorded in `APPLICATION_VALIDATION.json`; code identities are in `SOURCE_PROVENANCE.json`.
 
 These checks verify the implemented equations and input-to-output path. They are not new biological validation, a replay of every original raw-data preprocessing step, or a claim that arbitrary screen designs share the paper's benefit. The entry point adds no learned adoption threshold, statistical test, calibrated reliability probability or independent-reference claim. The paper's strongest evidence concerns shallow RNA nomination for responsive queries with matched controls.
 
@@ -93,4 +93,4 @@ The `CTLA4_worked_example.md` and associated tables separately describe one fixe
 
 ## Source and rights
 
-The `pertrank/` computational core is copied unchanged from the v17 manuscript's local usage interface. The v20 adapters support dense NPZ and backed AnnData inputs. The archived core exposes its original version 0.1.0; `run.json` identifies this application adapter as v20.0. No package registry release or new software/data license is implied. Rights and source attribution remain those of the manuscript and source experiments.
+The `pertrank/` computational core is copied unchanged from the v17 manuscript's local usage interface. The current manuscript adapters support dense NPZ and backed AnnData inputs. The archived core exposes its original version 0.1.0; `run.json` identifies this application adapter as current manuscript.0. No package registry release or new software/data license is implied. Rights and source attribution remain those of the manuscript and source experiments.

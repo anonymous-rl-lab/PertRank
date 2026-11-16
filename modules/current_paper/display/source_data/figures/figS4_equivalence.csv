@@ -1,0 +1,7 @@
+donor,method,value,state,low,high,source
+D3,Euclidean,,left_boundary_raw20_already_attains,,22.17074422243614,D3_depth_source.json
+D3,PertRank,25.42963657222289,identified,23.388715293322278,27.30041628045226,D3_depth_source.json
+D2,Euclidean,21.975191555618608,identified,20.068076853698884,24.243892361395535,D2_depth_source.json
+D2,PertRank,24.81439768563269,identified,22.696784009748175,27.219061056437216,D2_depth_source.json
+D4,Euclidean,31.80578459167604,identified,29.02437822733206,34.117761972444725,D4_depth_source.json
+D4,PertRank,38.873777373886824,identified,36.10397196793444,41.32735422951563,D4_depth_source.json

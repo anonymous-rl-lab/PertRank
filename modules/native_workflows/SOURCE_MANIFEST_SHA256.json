@@ -1,6 +1,6 @@
 {
   "status": "SOURCE_AND_CONFIGURATION_ARCHIVE_NOT_EXECUTED_TRAINING",
-  "created_for": "PertRank v1.5.0 paper reproduction package",
+  "created_for": "PertRank retained paper reproduction package",
   "files": [
     {
       "path": "benchmark/vendor_work/synthetic_official_LFCs.txt",

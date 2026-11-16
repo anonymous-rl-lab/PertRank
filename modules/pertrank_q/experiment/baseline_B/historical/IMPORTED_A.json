@@ -1,0 +1,770 @@
+{
+  "identity": "All prior neural_no_extra_geometry seeds and source halves imported without refitting or selection",
+  "original_plan_sha256": "9ab0971788b7fa6822b5f0b5adbfb68840e5615056e5f9de4f952149d67647a2",
+  "tasks": {
+    "D3_held0": {
+      "path": "historical/predictions/D3_held0.npz",
+      "sha256": "6bcbe7cc9bf8396cba519729fd4f02fbf94f62deef5372df477e00793fd7155f",
+      "fits": {
+        "base_context_seed2026111511": {
+          "selected_epoch": 50,
+          "selection": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                0.005119453924914641,
+                0.011604095563139905
+              ],
+              "mean_gain": 0.008361774744027273,
+              "eligible": true
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                0.006484641638225264,
+                0.00989761092150171
+              ],
+              "mean_gain": 0.008191126279863487,
+              "eligible": true
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                0.0023890784982935065,
+                0.008532423208191087
+              ],
+              "mean_gain": 0.005460750853242297,
+              "eligible": true
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                0.003754266211604129,
+                0.003071672354948818
+              ],
+              "mean_gain": 0.0034129692832764735,
+              "eligible": true
+            }
+          ],
+          "outer_fit": "historical/fits/D3_held0_base_context_seed2026111511",
+          "weights_sha256": "4c70a5307605bcedab589ef3c7fe4d2d25570724d1ee2c6dbe5a11ec448c509a",
+          "normalization_sha256": "3168b5957cf31d21ad646a578bda392f6df0985c5cca797354b8f160bc1b13a6",
+          "historical_import": true,
+          "original_arm": "neural_no_extra_geometry"
+        },
+        "base_context_seed2026111512": {
+          "selected_epoch": 50,
+          "selection": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                0.0047781569965870685,
+                0.014675767918088722
+              ],
+              "mean_gain": 0.009726962457337895,
+              "eligible": true
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                0.005119453924914641,
+                0.011604095563139905
+              ],
+              "mean_gain": 0.008361774744027273,
+              "eligible": true
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                0.005802047781569952,
+                0.011604095563139905
+              ],
+              "mean_gain": 0.008703071672354928,
+              "eligible": true
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                0.006484641638225264,
+                0.009215017064846454
+              ],
+              "mean_gain": 0.007849829351535859,
+              "eligible": true
+            }
+          ],
+          "outer_fit": "historical/fits/D3_held0_base_context_seed2026111512",
+          "weights_sha256": "c378b4a7e3605fa32c8ec2b222d408f06ce50914855600e0a1068ea5bc009a8f",
+          "normalization_sha256": "3168b5957cf31d21ad646a578bda392f6df0985c5cca797354b8f160bc1b13a6",
+          "historical_import": true,
+          "original_arm": "neural_no_extra_geometry"
+        }
+      },
+      "original_prediction_sha256": "1297b252db0cc8c57a2ffb5565668760c04894e1d13089687acd8c1a331e90d4",
+      "original_prediction_lock_sha256": "d4cc0168248e6fb0e5cf2cd3c30a64f0b1e866280dabcc55a60b07de0eef8220"
+    },
+    "D3_held1": {
+      "path": "historical/predictions/D3_held1.npz",
+      "sha256": "ba26b7d4cd285e58102f8fcfa5c507b64fd7747e0d7b6d87db858b32f96563c9",
+      "fits": {
+        "base_context_seed2026111511": {
+          "selected_epoch": 100,
+          "selection": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                -0.003071672354948818,
+                -0.0003412969283275724
+              ],
+              "mean_gain": -0.0017064846416381951,
+              "eligible": false
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                0.0010238907849828838,
+                5.551115123125783e-17
+              ],
+              "mean_gain": 0.0005119453924914696,
+              "eligible": true
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                -0.00273037542662119,
+                0.0010238907849829948
+              ],
+              "mean_gain": -0.0008532423208190976,
+              "eligible": false
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                -0.0034129692832764458,
+                0.002047781569965934
+              ],
+              "mean_gain": -0.0006825938566552558,
+              "eligible": false
+            }
+          ],
+          "outer_fit": "historical/fits/D3_held1_base_context_seed2026111511",
+          "weights_sha256": "26c27689e212353bc3bf77720704cad41cf5be5932d88d7a0aa0820c01fcd97e",
+          "normalization_sha256": "59e7c6b462dba576912eda599d6679d47ee48da57ba2a0515cec3c36897cf188",
+          "historical_import": true,
+          "original_arm": "neural_no_extra_geometry"
+        },
+        "base_context_seed2026111512": {
+          "selected_epoch": 300,
+          "selection": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                -0.0013651877133105672,
+                -0.002047781569965823
+              ],
+              "mean_gain": -0.0017064846416381951,
+              "eligible": false
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                -0.0020477815699658786,
+                0.0013651877133106227
+              ],
+              "mean_gain": -0.0003412969283276279,
+              "eligible": false
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                -0.0034129692832765013,
+                0.0017064846416382506
+              ],
+              "mean_gain": -0.0008532423208191253,
+              "eligible": false
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                0.0003412969283276279,
+                0.0017064846416382506
+              ],
+              "mean_gain": 0.0010238907849829393,
+              "eligible": true
+            }
+          ],
+          "outer_fit": "historical/fits/D3_held1_base_context_seed2026111512",
+          "weights_sha256": "c9d1aba242856f2962181822f406121d388de5182eaa6ad90c33a76985215675",
+          "normalization_sha256": "59e7c6b462dba576912eda599d6679d47ee48da57ba2a0515cec3c36897cf188",
+          "historical_import": true,
+          "original_arm": "neural_no_extra_geometry"
+        }
+      },
+      "original_prediction_sha256": "239bdbb365970e1c2ae3ab22640b2255c436793756cd9c81800c87b60d7c25bd",
+      "original_prediction_lock_sha256": "d4cc0168248e6fb0e5cf2cd3c30a64f0b1e866280dabcc55a60b07de0eef8220"
+    },
+    "D1_held0": {
+      "path": "historical/predictions/D1_held0.npz",
+      "sha256": "247e9d009a95aac39c8762d24fa94262aaada519bf0fbd8a0ca186b2f2e9b943",
+      "fits": {
+        "base_context_seed2026111511": {
+          "selected_epoch": 100,
+          "selection": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                -0.0017301038062283447,
+                0.0024221453287197603
+              ],
+              "mean_gain": 0.0003460207612457078,
+              "eligible": false
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                0.00034602076124568004,
+                0.003460207612456745
+              ],
+              "mean_gain": 0.0019031141868512125,
+              "eligible": true
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                0.00034602076124568004,
+                0.0024221453287197603
+              ],
+              "mean_gain": 0.0013840830449827202,
+              "eligible": true
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                -0.0006920415224913601,
+                0.00553633217993077
+              ],
+              "mean_gain": 0.0024221453287197048,
+              "eligible": false
+            }
+          ],
+          "outer_fit": "historical/fits/D1_held0_base_context_seed2026111511",
+          "weights_sha256": "8c78104093d61c71e993750e12b379f8a5d9e94441ebe37c8001173712802df9",
+          "normalization_sha256": "b7ee4f0e17160bbb2690b97b4cd335e1d08a71919309914a23003e01b57b1ee6",
+          "historical_import": true,
+          "original_arm": "neural_no_extra_geometry"
+        },
+        "base_context_seed2026111512": {
+          "selected_epoch": 100,
+          "selection": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                -0.00034602076124562453,
+                0.0024221453287197048
+              ],
+              "mean_gain": 0.0010380622837370401,
+              "eligible": false
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                0.00034602076124568004,
+                0.005536332179930825
+              ],
+              "mean_gain": 0.0029411764705882526,
+              "eligible": true
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                -0.0017301038062283447,
+                0.004152249134948105
+              ],
+              "mean_gain": 0.0012110726643598801,
+              "eligible": false
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                0.0,
+                0.003460207612456745
+              ],
+              "mean_gain": 0.0017301038062283725,
+              "eligible": true
+            }
+          ],
+          "outer_fit": "historical/fits/D1_held0_base_context_seed2026111512",
+          "weights_sha256": "b6f40b6be0a781d412f9287cf9377deaf4004e2ffd1398d4fb3ddf2af11e38fd",
+          "normalization_sha256": "b7ee4f0e17160bbb2690b97b4cd335e1d08a71919309914a23003e01b57b1ee6",
+          "historical_import": true,
+          "original_arm": "neural_no_extra_geometry"
+        }
+      },
+      "original_prediction_sha256": "69d9c91c139759199600711e7f706e881029b8de9aecc333982f12c045aa509c",
+      "original_prediction_lock_sha256": "ad6c5405bac4d4d2bef7c80a80fb26550b5921d4619ee2884dbcdead7d4f502c"
+    },
+    "D1_held1": {
+      "path": "historical/predictions/D1_held1.npz",
+      "sha256": "ea0bcce21399c9ef16009588f9b17ff42f3e830ec1c57cdac36519dfbc27a033",
+      "fits": {
+        "base_context_seed2026111511": {
+          "selected_epoch": 50,
+          "selection": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                0.0013840830449827202,
+                0.0010380622837369846
+              ],
+              "mean_gain": 0.0012110726643598524,
+              "eligible": true
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                -0.0006920415224913601,
+                0.002768166089965385
+              ],
+              "mean_gain": 0.0010380622837370124,
+              "eligible": false
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                -0.0006920415224913601,
+                0.0024221453287196493
+              ],
+              "mean_gain": 0.0008650519031141446,
+              "eligible": false
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                -0.002768166089965385,
+                0.0013840830449827202
+              ],
+              "mean_gain": -0.0006920415224913323,
+              "eligible": false
+            }
+          ],
+          "outer_fit": "historical/fits/D1_held1_base_context_seed2026111511",
+          "weights_sha256": "a7731387b0fb934e6d2e257ccb02c2cb0ef410dcb0a007c9821e38bdbcde8e3e",
+          "normalization_sha256": "f7fe5d86fd97c55c6ae425d2d9ae1780c83d2797f5c8c0031d13a3a27df3bacb",
+          "historical_import": true,
+          "original_arm": "neural_no_extra_geometry"
+        },
+        "base_context_seed2026111512": {
+          "selected_epoch": 50,
+          "selection": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                0.0020761245674740247,
+                0.0006920415224913601
+              ],
+              "mean_gain": 0.0013840830449826924,
+              "eligible": true
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                -0.0031141868512110094,
+                0.002768166089965385
+              ],
+              "mean_gain": -0.00017301038062281227,
+              "eligible": false
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                -0.0041522491349480495,
+                0.00657439446366781
+              ],
+              "mean_gain": 0.0012110726643598801,
+              "eligible": false
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                -0.0031141868512110094,
+                0.00553633217993077
+              ],
+              "mean_gain": 0.0012110726643598801,
+              "eligible": false
+            }
+          ],
+          "outer_fit": "historical/fits/D1_held1_base_context_seed2026111512",
+          "weights_sha256": "9680cd264a305127a1088460f62899e02ff8527bc9eb2718f4037faf81d32b60",
+          "normalization_sha256": "f7fe5d86fd97c55c6ae425d2d9ae1780c83d2797f5c8c0031d13a3a27df3bacb",
+          "historical_import": true,
+          "original_arm": "neural_no_extra_geometry"
+        }
+      },
+      "original_prediction_sha256": "17d7f171fea635bbe9bc0ad10677b24187b3ba77b3daf6a2f18b84bc577869fa",
+      "original_prediction_lock_sha256": "ad6c5405bac4d4d2bef7c80a80fb26550b5921d4619ee2884dbcdead7d4f502c"
+    },
+    "D2_held0": {
+      "path": "historical/predictions/D2_held0.npz",
+      "sha256": "49c0d0f8dd32538fe3a985d238e8a54b5345713c17d7646f891edeea66bc44e7",
+      "fits": {
+        "base_context_seed2026111511": {
+          "selected_epoch": 300,
+          "selection": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                -0.0020761245674740247,
+                -0.004844290657439521
+              ],
+              "mean_gain": -0.0034602076124567727,
+              "eligible": false
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                0.0006920415224914156,
+                -0.0041522491349481605
+              ],
+              "mean_gain": -0.0017301038062283725,
+              "eligible": false
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                0.003114186851211065,
+                -0.00034602076124573555
+              ],
+              "mean_gain": 0.0013840830449826647,
+              "eligible": false
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                0.00553633217993077,
+                0.003806228373702425
+              ],
+              "mean_gain": 0.004671280276816597,
+              "eligible": true
+            }
+          ],
+          "outer_fit": "historical/fits/D2_held0_base_context_seed2026111511",
+          "weights_sha256": "67b0b77075056d163309d8b3935fb4831fe153c80634b0a4b1606b4a692f4de2",
+          "normalization_sha256": "f4516b0057b5125032741c236a1f9c0c75547b0cc1d0f6b84805eee4ce1ff575",
+          "historical_import": true,
+          "original_arm": "neural_no_extra_geometry"
+        },
+        "base_context_seed2026111512": {
+          "selected_epoch": 200,
+          "selection": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                -0.0031141868512111204,
+                -0.005536332179930825
+              ],
+              "mean_gain": -0.004325259515570973,
+              "eligible": false
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                -0.003806228373702425,
+                -0.005536332179930825
+              ],
+              "mean_gain": -0.004671280276816625,
+              "eligible": false
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                0.0013840830449827202,
+                0.0006920415224913601
+              ],
+              "mean_gain": 0.0010380622837370401,
+              "eligible": true
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                0.0006920415224914156,
+                0.0013840830449826647
+              ],
+              "mean_gain": 0.0010380622837370401,
+              "eligible": true
+            }
+          ],
+          "outer_fit": "historical/fits/D2_held0_base_context_seed2026111512",
+          "weights_sha256": "673d140bafa1f02343267d2e068226dd4f61c839aee1ac95405a4a4d3c9e8663",
+          "normalization_sha256": "f4516b0057b5125032741c236a1f9c0c75547b0cc1d0f6b84805eee4ce1ff575",
+          "historical_import": true,
+          "original_arm": "neural_no_extra_geometry"
+        }
+      },
+      "original_prediction_sha256": "85dc308b0631aa672dc341c6751bde355d012e66d37735f1e72874ce7c22bc40",
+      "original_prediction_lock_sha256": "1951c5eee5a3d24b0ac6b0c3d85d33814e1840f2e97132d8cb682f03c1ed76b2"
+    },
+    "D2_held1": {
+      "path": "historical/predictions/D2_held1.npz",
+      "sha256": "7fd3db8bb5c736d7660eaab2dd52b37542cc4bd60f3ff14a68a2663ce6c8af9e",
+      "fits": {
+        "base_context_seed2026111511": {
+          "selected_epoch": 50,
+          "selection": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                0.00034602076124568004,
+                0.0010380622837369846
+              ],
+              "mean_gain": 0.0006920415224913323,
+              "eligible": true
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                -0.00034602076124568004,
+                0.0010380622837369846
+              ],
+              "mean_gain": 0.0003460207612456523,
+              "eligible": false
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                -0.00692041522491349,
+                0.0038062283737023694
+              ],
+              "mean_gain": -0.0015570934256055602,
+              "eligible": false
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                -0.00795847750865053,
+                0.00692041522491349
+              ],
+              "mean_gain": -0.0005190311418685201,
+              "eligible": false
+            }
+          ],
+          "outer_fit": "historical/fits/D2_held1_base_context_seed2026111511",
+          "weights_sha256": "3e743d350c314d4439d525e3c4735f48dbdf08561fa5e8655589068d4c627526",
+          "normalization_sha256": "f9c4bcb001b8015621e600c3f92a5cc7144795dcfc8880f4ea84046adc37a4b2",
+          "historical_import": true,
+          "original_arm": "neural_no_extra_geometry"
+        },
+        "base_context_seed2026111512": {
+          "selected_epoch": 0,
+          "selection": [
+            {
+              "epoch": 0,
+              "gains": [
+                0.0,
+                0.0
+              ],
+              "mean_gain": 0.0,
+              "eligible": true
+            },
+            {
+              "epoch": 50,
+              "gains": [
+                -0.0017301038062284002,
+                0.002768166089965385
+              ],
+              "mean_gain": 0.0005190311418684923,
+              "eligible": false
+            },
+            {
+              "epoch": 100,
+              "gains": [
+                0.007266435986159114,
+                -0.00034602076124573555
+              ],
+              "mean_gain": 0.0034602076124566894,
+              "eligible": false
+            },
+            {
+              "epoch": 200,
+              "gains": [
+                -0.0006920415224913601,
+                0.0010380622837369846
+              ],
+              "mean_gain": 0.00017301038062281227,
+              "eligible": false
+            },
+            {
+              "epoch": 300,
+              "gains": [
+                -5.551115123125783e-17,
+                0.006574394463667754
+              ],
+              "mean_gain": 0.0032871972318338494,
+              "eligible": false
+            }
+          ],
+          "outer_fit": "historical/fits/D2_held1_base_context_seed2026111512",
+          "weights_sha256": "15473d9f9c0b9f7e045addaece86364481c60f54f274e83e2af2e32ed0ffd737",
+          "normalization_sha256": "f9c4bcb001b8015621e600c3f92a5cc7144795dcfc8880f4ea84046adc37a4b2",
+          "historical_import": true,
+          "original_arm": "neural_no_extra_geometry"
+        }
+      },
+      "original_prediction_sha256": "8220690f680e01576fc9a675ff27a59f7b0a0fb3e35db4c774de429881797c23",
+      "original_prediction_lock_sha256": "1951c5eee5a3d24b0ac6b0c3d85d33814e1840f2e97132d8cb682f03c1ed76b2"
+    }
+  },
+  "files": {
+    "historical/predictions/D3_held0.npz": "6bcbe7cc9bf8396cba519729fd4f02fbf94f62deef5372df477e00793fd7155f",
+    "historical/fits/D3_held0_base_context_seed2026111511/weights.pt": "4c70a5307605bcedab589ef3c7fe4d2d25570724d1ee2c6dbe5a11ec448c509a",
+    "historical/fits/D3_held0_base_context_seed2026111511/normalization.npz": "3168b5957cf31d21ad646a578bda392f6df0985c5cca797354b8f160bc1b13a6",
+    "historical/fits/D3_held0_base_context_seed2026111511/curve.json": "b9e77b1689713caf3a292132a04b2da773b50a656d9680a64be59b02ec728165",
+    "historical/fits/D3_held0_base_context_seed2026111511/FIT.json": "c5dcde7cb8812fd5fb2870c9f5cf64c33b754a79f41206828d176ad8e117365c",
+    "historical/fits/D3_held0_base_context_seed2026111512/weights.pt": "c378b4a7e3605fa32c8ec2b222d408f06ce50914855600e0a1068ea5bc009a8f",
+    "historical/fits/D3_held0_base_context_seed2026111512/normalization.npz": "3168b5957cf31d21ad646a578bda392f6df0985c5cca797354b8f160bc1b13a6",
+    "historical/fits/D3_held0_base_context_seed2026111512/curve.json": "aa12fcbe83b24a5638992659c072a8c2354807cdc2d5b9b8629710dd4a9d0459",
+    "historical/fits/D3_held0_base_context_seed2026111512/FIT.json": "3e9e9746782098dad70c7dfda809d14fbe59e3166d74c834e0629fbecb09983c",
+    "historical/predictions/D3_held1.npz": "ba26b7d4cd285e58102f8fcfa5c507b64fd7747e0d7b6d87db858b32f96563c9",
+    "historical/fits/D3_held1_base_context_seed2026111511/weights.pt": "26c27689e212353bc3bf77720704cad41cf5be5932d88d7a0aa0820c01fcd97e",
+    "historical/fits/D3_held1_base_context_seed2026111511/normalization.npz": "59e7c6b462dba576912eda599d6679d47ee48da57ba2a0515cec3c36897cf188",
+    "historical/fits/D3_held1_base_context_seed2026111511/curve.json": "15bbc58fe3416b0b50354f09816d351fdb59720bd55e1f3c1927ca8a8f251c38",
+    "historical/fits/D3_held1_base_context_seed2026111511/FIT.json": "6049ce748d3833e0961780be5f23c11ad7c643613c292a319183d9b111f740fc",
+    "historical/fits/D3_held1_base_context_seed2026111512/weights.pt": "c9d1aba242856f2962181822f406121d388de5182eaa6ad90c33a76985215675",
+    "historical/fits/D3_held1_base_context_seed2026111512/normalization.npz": "59e7c6b462dba576912eda599d6679d47ee48da57ba2a0515cec3c36897cf188",
+    "historical/fits/D3_held1_base_context_seed2026111512/curve.json": "97576afae80ebc15abf8987acec4885721e2ccfaca0340890b69ff02f4e02f31",
+    "historical/fits/D3_held1_base_context_seed2026111512/FIT.json": "1d9a71fb61229102bfc47aabc6e7ef95be99fedf0e5e14b57a97660bbe2016de",
+    "historical/predictions/D1_held0.npz": "247e9d009a95aac39c8762d24fa94262aaada519bf0fbd8a0ca186b2f2e9b943",
+    "historical/fits/D1_held0_base_context_seed2026111511/weights.pt": "8c78104093d61c71e993750e12b379f8a5d9e94441ebe37c8001173712802df9",
+    "historical/fits/D1_held0_base_context_seed2026111511/normalization.npz": "b7ee4f0e17160bbb2690b97b4cd335e1d08a71919309914a23003e01b57b1ee6",
+    "historical/fits/D1_held0_base_context_seed2026111511/curve.json": "e80b8bca16199ce98544f7dbe4bdfe1a5a53a1c0b4df8134bb166f5f1b5340fd",
+    "historical/fits/D1_held0_base_context_seed2026111511/FIT.json": "a98a7f86d8869932d42457fce118caa54aa956a1da694d67fb3bbd55963c3491",
+    "historical/fits/D1_held0_base_context_seed2026111512/weights.pt": "b6f40b6be0a781d412f9287cf9377deaf4004e2ffd1398d4fb3ddf2af11e38fd",
+    "historical/fits/D1_held0_base_context_seed2026111512/normalization.npz": "b7ee4f0e17160bbb2690b97b4cd335e1d08a71919309914a23003e01b57b1ee6",
+    "historical/fits/D1_held0_base_context_seed2026111512/curve.json": "658d5b6c881490b046a4045ddcc45a511a385685c912ae4fc702d67114662499",
+    "historical/fits/D1_held0_base_context_seed2026111512/FIT.json": "02f1c316c29a00459784a29f293918913c24c88f6523c67a6c7bbdd99098d46c",
+    "historical/predictions/D1_held1.npz": "ea0bcce21399c9ef16009588f9b17ff42f3e830ec1c57cdac36519dfbc27a033",
+    "historical/fits/D1_held1_base_context_seed2026111511/weights.pt": "a7731387b0fb934e6d2e257ccb02c2cb0ef410dcb0a007c9821e38bdbcde8e3e",
+    "historical/fits/D1_held1_base_context_seed2026111511/normalization.npz": "f7fe5d86fd97c55c6ae425d2d9ae1780c83d2797f5c8c0031d13a3a27df3bacb",
+    "historical/fits/D1_held1_base_context_seed2026111511/curve.json": "cf1653d53b38497c2b661f02bf87082e4bc0cac08f65eff295827ab7e8d2687f",
+    "historical/fits/D1_held1_base_context_seed2026111511/FIT.json": "2dcdebf9df5e825b444cf6a5e0436dd1cc1a190e9d19fe1e282db95a28f1ef5a",
+    "historical/fits/D1_held1_base_context_seed2026111512/weights.pt": "9680cd264a305127a1088460f62899e02ff8527bc9eb2718f4037faf81d32b60",
+    "historical/fits/D1_held1_base_context_seed2026111512/normalization.npz": "f7fe5d86fd97c55c6ae425d2d9ae1780c83d2797f5c8c0031d13a3a27df3bacb",
+    "historical/fits/D1_held1_base_context_seed2026111512/curve.json": "dadd06f1a538c196f0404ae77cf2d92de727cc0f4f2998af2afd6e65992eb8f3",
+    "historical/fits/D1_held1_base_context_seed2026111512/FIT.json": "3136ee5bacfefea3a4a77e5b71c8f29fe7ee4f66456bb45b2838d5a5c1bdfa6e",
+    "historical/predictions/D2_held0.npz": "49c0d0f8dd32538fe3a985d238e8a54b5345713c17d7646f891edeea66bc44e7",
+    "historical/fits/D2_held0_base_context_seed2026111511/weights.pt": "67b0b77075056d163309d8b3935fb4831fe153c80634b0a4b1606b4a692f4de2",
+    "historical/fits/D2_held0_base_context_seed2026111511/normalization.npz": "f4516b0057b5125032741c236a1f9c0c75547b0cc1d0f6b84805eee4ce1ff575",
+    "historical/fits/D2_held0_base_context_seed2026111511/curve.json": "6843c334aa90c35a56e78baee319da6006147dade4808ce17d2c9cc0699df457",
+    "historical/fits/D2_held0_base_context_seed2026111511/FIT.json": "3f13ae0d4a2bca74d853bc904c2473cfcfaaac4029dc8174ea6aea6e96f6d61a",
+    "historical/fits/D2_held0_base_context_seed2026111512/weights.pt": "673d140bafa1f02343267d2e068226dd4f61c839aee1ac95405a4a4d3c9e8663",
+    "historical/fits/D2_held0_base_context_seed2026111512/normalization.npz": "f4516b0057b5125032741c236a1f9c0c75547b0cc1d0f6b84805eee4ce1ff575",
+    "historical/fits/D2_held0_base_context_seed2026111512/curve.json": "11421cd16047e20ada6a30805f5d9821139168ce675d5d2326b91002bc3fb3cb",
+    "historical/fits/D2_held0_base_context_seed2026111512/FIT.json": "6cc98332a1bfc4ba4a3fb9337444af653ec6ba6a933b39ffd11120a962ccde98",
+    "historical/predictions/D2_held1.npz": "7fd3db8bb5c736d7660eaab2dd52b37542cc4bd60f3ff14a68a2663ce6c8af9e",
+    "historical/fits/D2_held1_base_context_seed2026111511/weights.pt": "3e743d350c314d4439d525e3c4735f48dbdf08561fa5e8655589068d4c627526",
+    "historical/fits/D2_held1_base_context_seed2026111511/normalization.npz": "f9c4bcb001b8015621e600c3f92a5cc7144795dcfc8880f4ea84046adc37a4b2",
+    "historical/fits/D2_held1_base_context_seed2026111511/curve.json": "7f240fa51711ceef840687e047209272b98550e97b75807ae97474a057b918ba",
+    "historical/fits/D2_held1_base_context_seed2026111511/FIT.json": "af3bf872e9637e33111a522a960054066e0b7a76af900f0972be878e7e0c0c34",
+    "historical/fits/D2_held1_base_context_seed2026111512/weights.pt": "15473d9f9c0b9f7e045addaece86364481c60f54f274e83e2af2e32ed0ffd737",
+    "historical/fits/D2_held1_base_context_seed2026111512/normalization.npz": "f9c4bcb001b8015621e600c3f92a5cc7144795dcfc8880f4ea84046adc37a4b2",
+    "historical/fits/D2_held1_base_context_seed2026111512/curve.json": "abaeb08733ecb6c2dd54cb4af7f043b2b1cca4e369418d580fafa2049c67fcc0",
+    "historical/fits/D2_held1_base_context_seed2026111512/FIT.json": "f3036f20565f3c992bb40a344e396ad0e680b7b94992ff5818623923fa5c62ae"
+  }
+}

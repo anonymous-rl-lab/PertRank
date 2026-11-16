@@ -1,0 +1,7 @@
+Measurement,Role and separation
+Planning target cells,"Define queries, blocks and specified mechanism variables; disjoint from ranking and reference targets."
+Shallow target cells,"Estimate effects, variances and weights separately in five disjoint 20-cell inputs."
+Input controls,"Define normalization, centering, geometry and control-mean variance; shared across matched methods."
+Deep targets and evaluation controls,Construct internal reference lists independently of ranking cells.
+Mechanism controls,Supply separate control means for the specified alignment analysis.
+External RNA,Evaluate original PertRank; later Q fits additionally use calibration-target labels.

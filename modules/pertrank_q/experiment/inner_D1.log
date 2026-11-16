@@ -1,0 +1,4 @@
+D1 0 frozen_scale per_seed [100, 200] ensemble 100
+D1 0 rank_scale per_seed [0, 50] ensemble 0
+D1 1 frozen_scale per_seed [300, 0] ensemble 300
+D1 1 rank_scale per_seed [0, 0] ensemble 0

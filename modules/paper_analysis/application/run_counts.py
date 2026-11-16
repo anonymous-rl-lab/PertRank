@@ -15,7 +15,7 @@ from pathlib import Path
 import numpy as np
 from pertrank.core import ARMS, fit_cells, normalize_counts, nominate
 
-VERSION = "v20.0"
+VERSION = "review"
 
 
 def write_csv(path, rows):

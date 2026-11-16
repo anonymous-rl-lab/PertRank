@@ -1,18 +1,11 @@
-# Fixture curation provenance
+# Software and fixture checks
 
-The two curation scripts record how the packaged numerical fixtures were
-selected from the existing manuscript archives. They are archival provenance
-scripts: their relative input paths refer to the original preparation
-workspace, not to files shipped inside the lightweight review release.
+`check_tutorials.py --output-dir PATH` runs every code cell in both notebooks with the installed package and keeps generated tables outside the protected source tree. `check_installation.py` checks installed runtime and resource bytes against this source.
 
-All data needed to run the tutorials is already installed in
-`pertrank/data/`. No curation script, original atlas download or cell-level
-model fit is required to run the package, tests or notebooks. To audit curation
-against the original archives, obtain the exact source files named and hashed
-in each `*.provenance.json`, then map the source paths before running these
-scripts. Inputs are summarized cell statistics; evaluation references are not
-used by these scripts.
+`build_pypi_description.py` generates a long description without repository-relative web links. `check_distribution.py DIST` verifies the three requested documentation files in the source archive, the description in the wheel and both fixture arrays.
 
-`check_tutorials.py` is the portable offline execution check. Unlike the
-archival curation scripts, it runs directly in this release using only the
-installed package and bundled notebooks.
+## Fixture curation
+
+`curate_replogle.py` and `curate_tcell.py` preserve the numerical conversion of upstream statistics into tutorial fixtures. They take explicit input paths; use `--help` for all arguments. Exact upstream input SHA256 values and logical filenames are recorded in the packaged `*.provenance.json`. These upstream files are not shipped in the lightweight software source; no curation step is needed to run the installed examples. The scripts write to a new output directory and do not overwrite the packaged fixture arrays.
+
+Curation CLI and syntax are checked here; upstream curation is not rerun by the current validation. The precomputed fixtures retain their verified content hashes. No reference fitting or biological performance evaluation is part of fixture construction.

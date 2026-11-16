@@ -3,7 +3,7 @@ import hashlib,json,shutil,ast,zipfile
 import numpy as np
 
 BASE=Path(__file__).resolve().parent
-SOURCE=Path('/workspace/scratch/9bb77e8faf2b/package_v130/extracted/PertRank_A19R_Native_Baselines_20261014')
+SOURCE=Path('/anonymous/workspace/package_v130/extracted/PertRank_A19R_Native_Baselines_20261014')
 OUT=BASE/'native_rna'
 OUT.mkdir(parents=True,exist_ok=True)
 def sha(p):

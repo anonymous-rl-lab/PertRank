@@ -53,7 +53,7 @@
   "resource_budget": {
     "per_fit_seconds": 900,
     "maximum_additional_fits": 10,
-    "same_heavy_memory_lock": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/heavy_memory.lock",
+    "same_heavy_memory_lock": "/anonymous/workspace/fr_benchmark/heavy_memory.lock",
     "sequential": true,
     "no_ranks_beyond_300": true,
     "failure_policy": "Retain failures and mark incomplete, never zero-score or silently change algorithm."

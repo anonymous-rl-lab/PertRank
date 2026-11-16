@@ -1,0 +1,2138 @@
+{
+  "identity": "Read-only exploratory training-objective probe; archived calibrations only, no held-feature/ref join and no new fit",
+  "code": {
+    "train_boundary.py": "9037e332a84fe93aafa8caee69ea2485f74d9034f34e487453f883c423c4f492",
+    "ranking_ops.py": "1451daefab9fdbd57f8cc2facd0e7d0aba42f7e2608e72a1c995fd977227331c",
+    "common.py": "735d05e69672d4c2227a895241a044337d328c62e1413375652eb1a4b03191da",
+    "boundary_components.py": "de5d0220a8261262c1ba648a4f0163b532622f95fce62b8c23a6c722969dc9fb"
+  },
+  "pools": {
+    "D3_held0_inner0": {
+      "n_targets": 13,
+      "k": 5,
+      "queries": 293,
+      "selection_fraction_range": [
+        0.38461538461538464,
+        0.4166666666666667
+      ],
+      "bootstrap_label_mass_moved_from_nominal_topk": 0.14913575565199896,
+      "reference_hard_topk_vs_bootstrap_support_topk_membership_change": 0.007849829351535836,
+      "baseline_nominal_precision": 0.442320819112628,
+      "baseline_expected_bootstrap_precision": 0.4434779826807804,
+      "temperatures": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.3434798711022144,
+          "soft_nominal_precision": 0.43123481413173437,
+          "soft_bootstrap_precision": 0.4306787993855593,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9556407135755808,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.020070608229185428,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.43693022642837676
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.23969849023358109,
+          "soft_nominal_precision": 0.4382504824543748,
+          "soft_bootstrap_precision": 0.43772975551733306,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.953914464742473,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.017793660417432147,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.5605897498118029
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.12935977792229375,
+          "soft_nominal_precision": 0.4417594456246146,
+          "soft_bootstrap_precision": 0.4417109734628098,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9469905085580619,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.01551496858670192,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.7754598176756499
+        }
+      }
+    },
+    "D3_held0_inner1": {
+      "n_targets": 13,
+      "k": 5,
+      "queries": 293,
+      "selection_fraction_range": [
+        0.38461538461538464,
+        0.38461538461538464
+      ],
+      "bootstrap_label_mass_moved_from_nominal_topk": 0.16264647911721616,
+      "reference_hard_topk_vs_bootstrap_support_topk_membership_change": 0.008873720136518772,
+      "baseline_nominal_precision": 0.3962457337883959,
+      "baseline_expected_bootstrap_precision": 0.400409649948267,
+      "temperatures": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.32689026686473155,
+          "soft_nominal_precision": 0.3950637504339386,
+          "soft_bootstrap_precision": 0.3968777270872844,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9499246086039446,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.026650792320812747,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.4522150964487279
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.22515892723650383,
+          "soft_nominal_precision": 0.3978903243719992,
+          "soft_bootstrap_precision": 0.40013125655020704,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9474716944325691,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.02097817400941946,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.5892966089125726
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.12241379950466529,
+          "soft_nominal_precision": 0.39901893881461936,
+          "soft_bootstrap_precision": 0.40167035617910296,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9394232090639678,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.019082581040520484,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.8014336908012123
+        }
+      }
+    },
+    "D3_held0_outer": {
+      "n_targets": 26,
+      "k": 10,
+      "queries": 293,
+      "selection_fraction_range": [
+        0.38461538461538464,
+        0.4
+      ],
+      "bootstrap_label_mass_moved_from_nominal_topk": 0.15350463723741448,
+      "reference_hard_topk_vs_bootstrap_support_topk_membership_change": 0.007679180887372013,
+      "baseline_nominal_precision": 0.42559726962457345,
+      "baseline_expected_bootstrap_precision": 0.42504290790600985,
+      "temperatures": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.3535040839274005,
+          "soft_nominal_precision": 0.4150157611071224,
+          "soft_bootstrap_precision": 0.4135294959085881,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9563079712033178,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.022994894502108797,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.21646558127199325
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.24708707994433093,
+          "soft_nominal_precision": 0.42080805008772415,
+          "soft_bootstrap_precision": 0.4194904988771624,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9536296425816678,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.01883074249935601,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.29178617361154274
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.13160609443294105,
+          "soft_nominal_precision": 0.42503112424759343,
+          "soft_bootstrap_precision": 0.424221587529127,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9436586775054885,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.014519368533846484,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.4863718328998511
+        }
+      }
+    },
+    "D3_held1_inner0": {
+      "n_targets": 13,
+      "k": 5,
+      "queries": 293,
+      "selection_fraction_range": [
+        0.38461538461538464,
+        0.4166666666666667
+      ],
+      "bootstrap_label_mass_moved_from_nominal_topk": 0.18283140680814816,
+      "reference_hard_topk_vs_bootstrap_support_topk_membership_change": 0.008873720136518772,
+      "baseline_nominal_precision": 0.4238907849829351,
+      "baseline_expected_bootstrap_precision": 0.42109683188434294,
+      "temperatures": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.31710236309918255,
+          "soft_nominal_precision": 0.41571221213288795,
+          "soft_bootstrap_precision": 0.4145881997423329,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9428054496667243,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.020475283411134533,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.4622109588188377
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.2163527834550953,
+          "soft_nominal_precision": 0.4197742815432569,
+          "soft_bootstrap_precision": 0.4186594649618026,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9384517339285501,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.018231178901837144,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.6090007664379845
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.11988838334854668,
+          "soft_nominal_precision": 0.4213136453427656,
+          "soft_bootstrap_precision": 0.4199803548957509,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.926323533665062,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.020651299204910295,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.8171326146068618
+        }
+      }
+    },
+    "D3_held1_inner1": {
+      "n_targets": 13,
+      "k": 5,
+      "queries": 293,
+      "selection_fraction_range": [
+        0.38461538461538464,
+        0.4166666666666667
+      ],
+      "bootstrap_label_mass_moved_from_nominal_topk": 0.17533840429808076,
+      "reference_hard_topk_vs_bootstrap_support_topk_membership_change": 0.005802047781569966,
+      "baseline_nominal_precision": 0.4129692832764505,
+      "baseline_expected_bootstrap_precision": 0.41081515992399564,
+      "temperatures": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.3216213442748369,
+          "soft_nominal_precision": 0.40658687070943483,
+          "soft_bootstrap_precision": 0.4051326430384637,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9472465472557329,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.020739773604255596,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.45650609900307987
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.21960686958301934,
+          "soft_nominal_precision": 0.41002131759951854,
+          "soft_bootstrap_precision": 0.4082295616857163,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9425842829135084,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.019900621963913023,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.5973113436920249
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.12052073286233722,
+          "soft_nominal_precision": 0.41203182094344976,
+          "soft_bootstrap_precision": 0.4099696910952881,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9299788524075223,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.02417141133440447,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.7984556928911671
+        }
+      }
+    },
+    "D3_held1_outer": {
+      "n_targets": 26,
+      "k": 10,
+      "queries": 293,
+      "selection_fraction_range": [
+        0.38461538461538464,
+        0.4
+      ],
+      "bootstrap_label_mass_moved_from_nominal_topk": 0.1735545677139661,
+      "reference_hard_topk_vs_bootstrap_support_topk_membership_change": 0.006058020477815699,
+      "baseline_nominal_precision": 0.4259385665529011,
+      "baseline_expected_bootstrap_precision": 0.41863151167853474,
+      "temperatures": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.32739362007550143,
+          "soft_nominal_precision": 0.41491158606658757,
+          "soft_bootstrap_precision": 0.41114803970586833,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9498571638090635,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.018989963833760694,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.22896079432751787
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.2239778478866877,
+          "soft_nominal_precision": 0.4200622738392732,
+          "soft_bootstrap_precision": 0.41525015165479395,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9467313066547752,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.01610080470281158,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.31704482394965755
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.12124961804442655,
+          "soft_nominal_precision": 0.4231969831255059,
+          "soft_bootstrap_precision": 0.41717473678535566,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9361011807024967,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.015478055652312249,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.5181367523743612
+        }
+      }
+    },
+    "D1_held0_inner0": {
+      "n_targets": 13,
+      "k": 5,
+      "queries": 289,
+      "selection_fraction_range": [
+        0.38461538461538464,
+        0.38461538461538464
+      ],
+      "bootstrap_label_mass_moved_from_nominal_topk": 0.15822213836716817,
+      "reference_hard_topk_vs_bootstrap_support_topk_membership_change": 0.010380622837370242,
+      "baseline_nominal_precision": 0.43079584775086505,
+      "baseline_expected_bootstrap_precision": 0.4274850761736147,
+      "temperatures": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.36445503610141716,
+          "soft_nominal_precision": 0.42439095665794957,
+          "soft_bootstrap_precision": 0.4221731308040752,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9498086433443641,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.022735038030040233,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.42233180803222287
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.2712271674621848,
+          "soft_nominal_precision": 0.42872445832389794,
+          "soft_bootstrap_precision": 0.42606745155868814,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9464485971659182,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.02088650264625729,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.5240143068193944
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.16382946154629147,
+          "soft_nominal_precision": 0.4308444809594504,
+          "soft_bootstrap_precision": 0.42782460582385495,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.937857273137228,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.0200281329250624,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.7005981796733778
+        }
+      }
+    },
+    "D1_held0_inner1": {
+      "n_targets": 14,
+      "k": 5,
+      "queries": 289,
+      "selection_fraction_range": [
+        0.35714285714285715,
+        0.38461538461538464
+      ],
+      "bootstrap_label_mass_moved_from_nominal_topk": 0.17733908135997084,
+      "reference_hard_topk_vs_bootstrap_support_topk_membership_change": 0.010380622837370242,
+      "baseline_nominal_precision": 0.4083044982698962,
+      "baseline_expected_bootstrap_precision": 0.4061724835177352,
+      "temperatures": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.37869208947308913,
+          "soft_nominal_precision": 0.39636137605578037,
+          "soft_bootstrap_precision": 0.39395535086797545,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9474919079542291,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.0291229494802418,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.3984797725548776
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.2774286148928645,
+          "soft_nominal_precision": 0.4026023054310051,
+          "soft_bootstrap_precision": 0.4007409515089372,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9441069622342312,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.02485073321398151,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.5006490475302942
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.16193464231851407,
+          "soft_nominal_precision": 0.4058216857315551,
+          "soft_bootstrap_precision": 0.4047108136578162,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9352269262320437,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.021477292946548925,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.684346035942711
+        }
+      }
+    },
+    "D1_held0_outer": {
+      "n_targets": 27,
+      "k": 10,
+      "queries": 289,
+      "selection_fraction_range": [
+        0.37037037037037035,
+        0.38461538461538464
+      ],
+      "bootstrap_label_mass_moved_from_nominal_topk": 0.1628726704512194,
+      "reference_hard_topk_vs_bootstrap_support_topk_membership_change": 0.010813148788927337,
+      "baseline_nominal_precision": 0.41825259515570934,
+      "baseline_expected_bootstrap_precision": 0.41710629755412204,
+      "temperatures": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.38446978000579024,
+          "soft_nominal_precision": 0.40800134526003207,
+          "soft_bootstrap_precision": 0.406186285796274,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9532316305673915,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.026575890737817257,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.19927408819231207
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.28498452421642906,
+          "soft_nominal_precision": 0.41312855745764,
+          "soft_bootstrap_precision": 0.41142378229741816,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9506089020419909,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.024140893923745604,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.25463460576584757
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.165183078018948,
+          "soft_nominal_precision": 0.41569905393603224,
+          "soft_bootstrap_precision": 0.41441741907864804,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9423378530085981,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.020237955768804914,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.39808447411965414
+        }
+      }
+    },
+    "D1_held1_inner0": {
+      "n_targets": 16,
+      "k": 5,
+      "queries": 289,
+      "selection_fraction_range": [
+        0.3125,
+        0.3333333333333333
+      ],
+      "bootstrap_label_mass_moved_from_nominal_topk": 0.22313623101140725,
+      "reference_hard_topk_vs_bootstrap_support_topk_membership_change": 0.007612456747404844,
+      "baseline_nominal_precision": 0.32698961937716264,
+      "baseline_expected_bootstrap_precision": 0.32489813645138516,
+      "temperatures": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.34921424099329423,
+          "soft_nominal_precision": 0.3244428756305964,
+          "soft_bootstrap_precision": 0.32222829776502865,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9337325653808592,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.03747484815057113,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.40003218604373303
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.22648102999121936,
+          "soft_nominal_precision": 0.32759214830875993,
+          "soft_bootstrap_precision": 0.32449905326613077,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9235333107830549,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.0317039857011793,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.5515614046419842
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.11526496386984715,
+          "soft_nominal_precision": 0.32999995785169606,
+          "soft_bootstrap_precision": 0.3265924733073906,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9089450890119417,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.03473621199861972,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.7899576410596751
+        }
+      }
+    },
+    "D1_held1_inner1": {
+      "n_targets": 16,
+      "k": 5,
+      "queries": 289,
+      "selection_fraction_range": [
+        0.3125,
+        0.3125
+      ],
+      "bootstrap_label_mass_moved_from_nominal_topk": 0.17152997765447403,
+      "reference_hard_topk_vs_bootstrap_support_topk_membership_change": 0.009688581314878892,
+      "baseline_nominal_precision": 0.359515570934256,
+      "baseline_expected_bootstrap_precision": 0.36139673250079496,
+      "temperatures": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.37053431511425944,
+          "soft_nominal_precision": 0.3480761284466153,
+          "soft_bootstrap_precision": 0.3498784323515602,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.944736857330022,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.03621135159564342,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.38471846506807383
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.2518807471801994,
+          "soft_nominal_precision": 0.35342154079289206,
+          "soft_bootstrap_precision": 0.3561554760778035,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9380899837819263,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.030699616959899846,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.5169630040340414
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.13378480780494564,
+          "soft_nominal_precision": 0.3565095129696376,
+          "soft_bootstrap_precision": 0.35943096519098755,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9264295651566467,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.03333508028353328,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.7448669937463879
+        }
+      }
+    },
+    "D1_held1_outer": {
+      "n_targets": 32,
+      "k": 10,
+      "queries": 289,
+      "selection_fraction_range": [
+        0.3125,
+        0.3225806451612903
+      ],
+      "bootstrap_label_mass_moved_from_nominal_topk": 0.19344574770116235,
+      "reference_hard_topk_vs_bootstrap_support_topk_membership_change": 0.007439446366782007,
+      "baseline_nominal_precision": 0.34619377162629755,
+      "baseline_expected_bootstrap_precision": 0.3458556012576901,
+      "temperatures": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.39188368134337404,
+          "soft_nominal_precision": 0.33643410392350337,
+          "soft_bootstrap_precision": 0.3373618194614759,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9432727257663781,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.04119258037754876,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.1855076825373407
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.2703714859192478,
+          "soft_nominal_precision": 0.34016926662102187,
+          "soft_bootstrap_precision": 0.3412717214524732,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9356040151440946,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.03337629954140595,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.25771195745481795
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.1396937684375562,
+          "soft_nominal_precision": 0.3428111688873647,
+          "soft_bootstrap_precision": 0.34356742621620645,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9210546371006835,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.027853948263213055,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.4521774743124384
+        }
+      }
+    },
+    "D2_held0_inner0": {
+      "n_targets": 14,
+      "k": 5,
+      "queries": 289,
+      "selection_fraction_range": [
+        0.35714285714285715,
+        0.38461538461538464
+      ],
+      "bootstrap_label_mass_moved_from_nominal_topk": 0.17955506191825568,
+      "reference_hard_topk_vs_bootstrap_support_topk_membership_change": 0.00795847750865052,
+      "baseline_nominal_precision": 0.37093425605536334,
+      "baseline_expected_bootstrap_precision": 0.37031682970937096,
+      "temperatures": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.37294220476537204,
+          "soft_nominal_precision": 0.36416351320526813,
+          "soft_bootstrap_precision": 0.3628499960898578,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9441375262512544,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.03364489871083363,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.40211644580549477
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.26635681671089356,
+          "soft_nominal_precision": 0.3691575232156651,
+          "soft_bootstrap_precision": 0.36701529225687535,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9398778688523018,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.028323029812406454,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.5117034458686069
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.14802344753956834,
+          "soft_nominal_precision": 0.37229406588319347,
+          "soft_bootstrap_precision": 0.3702372926801178,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9300916930900798,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.027397243308766656,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.7167276718688507
+        }
+      }
+    },
+    "D2_held0_inner1": {
+      "n_targets": 14,
+      "k": 5,
+      "queries": 289,
+      "selection_fraction_range": [
+        0.35714285714285715,
+        0.35714285714285715
+      ],
+      "bootstrap_label_mass_moved_from_nominal_topk": 0.15906144835082434,
+      "reference_hard_topk_vs_bootstrap_support_topk_membership_change": 0.009688581314878892,
+      "baseline_nominal_precision": 0.4519031141868512,
+      "baseline_expected_bootstrap_precision": 0.4459521741400505,
+      "temperatures": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.3998624827986868,
+          "soft_nominal_precision": 0.42775774582290893,
+          "soft_bootstrap_precision": 0.4230733292245442,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9508441655485917,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.02831604147298271,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.3843596231878409
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.3129330733343844,
+          "soft_nominal_precision": 0.43822478404076304,
+          "soft_bootstrap_precision": 0.43250316231215685,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9484124030385408,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.02536113064699253,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.46248446574281554
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.20005389791010125,
+          "soft_nominal_precision": 0.446809337539087,
+          "soft_bootstrap_precision": 0.4405351963380288,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.942782418731912,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.02047710307603271,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.6171479790561539
+        }
+      }
+    },
+    "D2_held0_outer": {
+      "n_targets": 28,
+      "k": 10,
+      "queries": 289,
+      "selection_fraction_range": [
+        0.35714285714285715,
+        0.37037037037037035
+      ],
+      "bootstrap_label_mass_moved_from_nominal_topk": 0.16524274587857693,
+      "reference_hard_topk_vs_bootstrap_support_topk_membership_change": 0.007352941176470588,
+      "baseline_nominal_precision": 0.4100346020761246,
+      "baseline_expected_bootstrap_precision": 0.40799591562599363,
+      "temperatures": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.41824146204340573,
+          "soft_nominal_precision": 0.3938446197413736,
+          "soft_bootstrap_precision": 0.39223119983771115,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9519922409895628,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.03299454705880153,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.18668274631114404
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.3226228340675013,
+          "soft_nominal_precision": 0.3998441123600275,
+          "soft_bootstrap_precision": 0.3977285991131897,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9490736099271555,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.02971094112679853,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.23084798668756934
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.19333105506472628,
+          "soft_nominal_precision": 0.40736166519928974,
+          "soft_bootstrap_precision": 0.40439511990545596,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9407803849220631,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.02187661801167366,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.35622248779587024
+        }
+      }
+    },
+    "D2_held1_inner0": {
+      "n_targets": 17,
+      "k": 5,
+      "queries": 289,
+      "selection_fraction_range": [
+        0.29411764705882354,
+        0.3125
+      ],
+      "bootstrap_label_mass_moved_from_nominal_topk": 0.22452597596772922,
+      "reference_hard_topk_vs_bootstrap_support_topk_membership_change": 0.011072664359861591,
+      "baseline_nominal_precision": 0.32422145328719726,
+      "baseline_expected_bootstrap_precision": 0.31884114575387157,
+      "temperatures": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.353437104965176,
+          "soft_nominal_precision": 0.31568662710781636,
+          "soft_bootstrap_precision": 0.3125734337176794,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9325698297053201,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.0400335990057621,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.3909022959169418
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.2251090883021652,
+          "soft_nominal_precision": 0.3210758094205323,
+          "soft_bootstrap_precision": 0.31647831133496335,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9227179170774192,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.03227852064869451,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.5497438784265687
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.1121592695556481,
+          "soft_nominal_precision": 0.3257083209189595,
+          "soft_bootstrap_precision": 0.3193478774161036,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.910921498377602,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.03581248054532953,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.7944495267215433
+        }
+      }
+    },
+    "D2_held1_inner1": {
+      "n_targets": 18,
+      "k": 5,
+      "queries": 289,
+      "selection_fraction_range": [
+        0.2777777777777778,
+        0.29411764705882354
+      ],
+      "bootstrap_label_mass_moved_from_nominal_topk": 0.19375839934941141,
+      "reference_hard_topk_vs_bootstrap_support_topk_membership_change": 0.01643598615916955,
+      "baseline_nominal_precision": 0.36020761245674743,
+      "baseline_expected_bootstrap_precision": 0.3565731761921261,
+      "temperatures": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.4741066222053728,
+          "soft_nominal_precision": 0.3356753300925387,
+          "soft_bootstrap_precision": 0.3326090926276705,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9371614966924062,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.05097835399748041,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.30311239704254506
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.36888175185995287,
+          "soft_nominal_precision": 0.34628219097958657,
+          "soft_bootstrap_precision": 0.34262343566990705,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9319019587109696,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.04462723946322223,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.3767445845287977
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.22747108081144357,
+          "soft_nominal_precision": 0.35599252906290546,
+          "soft_bootstrap_precision": 0.35211349333623926,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9197101666238637,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.04004024791571649,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.5375067513631497
+        }
+      }
+    },
+    "D2_held1_outer": {
+      "n_targets": 35,
+      "k": 10,
+      "queries": 289,
+      "selection_fraction_range": [
+        0.2857142857142857,
+        0.29411764705882354
+      ],
+      "bootstrap_label_mass_moved_from_nominal_topk": 0.20074849553532975,
+      "reference_hard_topk_vs_bootstrap_support_topk_membership_change": 0.012197231833910034,
+      "baseline_nominal_precision": 0.33944636678200696,
+      "baseline_expected_bootstrap_precision": 0.33770323056270757,
+      "temperatures": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.4837930732647777,
+          "soft_nominal_precision": 0.3204892376312626,
+          "soft_bootstrap_precision": 0.31929702082225,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9428790190277796,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.05121732035460293,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.15144345567217357
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.3688102017052367,
+          "soft_nominal_precision": 0.32744682654503593,
+          "soft_bootstrap_precision": 0.3261934532980765,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9385188236345695,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.04413659296095555,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.19221651205051996
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.21401085847439552,
+          "soft_nominal_precision": 0.3340096006072784,
+          "soft_bootstrap_precision": 0.33286731386405843,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9279059904283574,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.03467961982794467,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.3114076807614793
+        }
+      }
+    }
+  },
+  "fits": {
+    "D3_held0_inner0_seed2026111511": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.033788395904436865,
+      "expected_bootstrap_precision_gain": 0.028264285859195826,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9526248918054051,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.986993644249002
+    },
+    "D3_held0_inner0_seed2026111512": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.031399317406143344,
+      "expected_bootstrap_precision_gain": 0.025015878812280345,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9522034607551848,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.990024217234383
+    },
+    "D3_held0_inner1_seed2026111511": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.021501706484641635,
+      "expected_bootstrap_precision_gain": 0.018350444996886595,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9478004337908228,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9714875641100345
+    },
+    "D3_held0_inner1_seed2026111512": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.018088737201365186,
+      "expected_bootstrap_precision_gain": 0.015750689382341476,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9484174406954384,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.934785254260732
+    },
+    "D3_held0_outer_seed2026111511": {
+      "epochs": 50,
+      "nominal_precision_gain": 0.006996587030716723,
+      "expected_bootstrap_precision_gain": 0.0059714790001731965,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9541368008139798,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9954291829189403
+    },
+    "D3_held0_outer_seed2026111512": {
+      "epochs": 50,
+      "nominal_precision_gain": 0.008020477815699659,
+      "expected_bootstrap_precision_gain": 0.006602808091873857,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9541405288827836,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9949706477675089
+    },
+    "D3_held1_inner0_seed2026111511": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.01160409556313993,
+      "expected_bootstrap_precision_gain": 0.009298351568608088,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9409072515133078,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9802482555850088
+    },
+    "D3_held1_inner0_seed2026111512": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.01501706484641638,
+      "expected_bootstrap_precision_gain": 0.01185316273168624,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9418606753844062,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9602713409461915
+    },
+    "D3_held1_inner1_seed2026111511": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.010580204778156995,
+      "expected_bootstrap_precision_gain": 0.008465942873729482,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9453840099817624,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9913318767109379
+    },
+    "D3_held1_inner1_seed2026111512": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.004436860068259387,
+      "expected_bootstrap_precision_gain": 0.0044125151570481025,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9465386658623581,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9929328152632976
+    },
+    "D3_held1_outer_seed2026111511": {
+      "epochs": 0,
+      "nominal_precision_gain": 0.0,
+      "expected_bootstrap_precision_gain": 0.0,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9498571638090635,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9962932062300188
+    },
+    "D3_held1_outer_seed2026111512": {
+      "epochs": 0,
+      "nominal_precision_gain": 0.0,
+      "expected_bootstrap_precision_gain": 0.0,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9498571638090635,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9968058103479828
+    },
+    "D1_held0_inner0_seed2026111511": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.013840830449826988,
+      "expected_bootstrap_precision_gain": 0.01197226296312115,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9479379212288723,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9960770660660483
+    },
+    "D1_held0_inner0_seed2026111512": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.01522491349480969,
+      "expected_bootstrap_precision_gain": 0.01227214762286738,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9480622984994844,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9904983151487473
+    },
+    "D1_held0_inner1_seed2026111511": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.01384083044982699,
+      "expected_bootstrap_precision_gain": 0.013443547353581997,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.945236444779451,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9816903491719353
+    },
+    "D1_held0_inner1_seed2026111512": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.00865051903114187,
+      "expected_bootstrap_precision_gain": 0.008131725214898466,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9455701582735153,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9865780127809103
+    },
+    "D1_held0_outer_seed2026111511": {
+      "epochs": 100,
+      "nominal_precision_gain": 0.0034602076124567484,
+      "expected_bootstrap_precision_gain": 0.0029725430073586634,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9519288527731228,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9947492760345971
+    },
+    "D1_held0_outer_seed2026111512": {
+      "epochs": 200,
+      "nominal_precision_gain": 0.005017301038062283,
+      "expected_bootstrap_precision_gain": 0.0049779445385835785,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.952077714472182,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9966548438535954
+    },
+    "D1_held1_inner0_seed2026111511": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.01453287197231834,
+      "expected_bootstrap_precision_gain": 0.01293187330608836,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9336415842863929,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9639984583338579
+    },
+    "D1_held1_inner0_seed2026111512": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.01903114186851211,
+      "expected_bootstrap_precision_gain": 0.015995035147925052,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9338208450806723,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9518973769637434
+    },
+    "D1_held1_inner1_seed2026111511": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.007266435986159168,
+      "expected_bootstrap_precision_gain": 0.009571289717102582,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9417559879050803,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9765140541572256
+    },
+    "D1_held1_inner1_seed2026111512": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.011764705882352943,
+      "expected_bootstrap_precision_gain": 0.011676842662076303,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9419145703974863,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9777528695490328
+    },
+    "D1_held1_outer_seed2026111511": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.01055363321799308,
+      "expected_bootstrap_precision_gain": 0.01043684640805409,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9419716067456074,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9879599009718592
+    },
+    "D1_held1_outer_seed2026111512": {
+      "epochs": 0,
+      "nominal_precision_gain": 0.0,
+      "expected_bootstrap_precision_gain": 0.0,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9432727257663781,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9897209531169899
+    },
+    "D2_held0_inner0_seed2026111511": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.016608996539792385,
+      "expected_bootstrap_precision_gain": 0.013281786207583968,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9430286756597297,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9777319974352947
+    },
+    "D2_held0_inner0_seed2026111512": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.017993079584775088,
+      "expected_bootstrap_precision_gain": 0.015026604202562188,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9427856862324838,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9519074579223648
+    },
+    "D2_held0_inner1_seed2026111511": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.013840830449826988,
+      "expected_bootstrap_precision_gain": 0.01301564925171228,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9487994094644507,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9767973540310506
+    },
+    "D2_held0_inner1_seed2026111512": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.012110726643598616,
+      "expected_bootstrap_precision_gain": 0.011076461569861529,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.949149135720475,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9743217325107181
+    },
+    "D2_held0_outer_seed2026111511": {
+      "epochs": 0,
+      "nominal_precision_gain": 0.0,
+      "expected_bootstrap_precision_gain": 0.0,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9519922409895628,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9979301978690565
+    },
+    "D2_held0_outer_seed2026111512": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.0157439446366782,
+      "expected_bootstrap_precision_gain": 0.0126838416584526,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9500141381758993,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.989380967836127
+    },
+    "D2_held1_inner0_seed2026111511": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.03356401384083045,
+      "expected_bootstrap_precision_gain": 0.02848826289169748,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9288948770707328,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9761437390321256
+    },
+    "D2_held1_inner0_seed2026111512": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.02698961937716263,
+      "expected_bootstrap_precision_gain": 0.022655036354895353,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9310163911740815,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9379350426331678
+    },
+    "D2_held1_inner1_seed2026111511": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.011764705882352943,
+      "expected_bootstrap_precision_gain": 0.011147659257360665,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9337719423591261,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9934009976477037
+    },
+    "D2_held1_inner1_seed2026111512": {
+      "epochs": 300,
+      "nominal_precision_gain": 0.014532871972318336,
+      "expected_bootstrap_precision_gain": 0.013220461266084782,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9337080127070423,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9922340338283303
+    },
+    "D2_held1_outer_seed2026111511": {
+      "epochs": 100,
+      "nominal_precision_gain": 0.003114186851211072,
+      "expected_bootstrap_precision_gain": 0.0041187862218236004,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9406724707553866,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9925605637320428
+    },
+    "D2_held1_outer_seed2026111512": {
+      "epochs": 50,
+      "nominal_precision_gain": 0.0019031141868512107,
+      "expected_bootstrap_precision_gain": 0.0027342716757045027,
+      "score_gradient_cosine_bootstrap_vs_nominal": 0.9408663622834651,
+      "parameter_gradient_cosine_bootstrap_vs_nominal": 0.9980735156582423
+    }
+  },
+  "curve_audit": {
+    "D3_held0_inner0_seed2026111511": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.011729652279416858,
+        "exact_train_precision_gain": 0.017406143344709857,
+        "exact_validation_precision_gain": 0.003071672354948818
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.004429655859682635,
+        "exact_train_precision_gain": 0.008532423208191142,
+        "exact_validation_precision_gain": -0.0010238907849829948
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.003804775085198442,
+        "exact_train_precision_gain": 0.005119453924914641,
+        "exact_validation_precision_gain": 0.0003412969283276279
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.004136152671656679,
+        "exact_train_precision_gain": 0.00273037542662119,
+        "exact_validation_precision_gain": -0.0006825938566552558
+      }
+    ],
+    "D3_held0_inner0_seed2026111512": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.011339227994880907,
+        "exact_train_precision_gain": 0.01706484641638223,
+        "exact_validation_precision_gain": 0.005460750853242324
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.00435296333093832,
+        "exact_train_precision_gain": 0.007849829351535775,
+        "exact_validation_precision_gain": -0.004095563139931757
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.004932866153610771,
+        "exact_train_precision_gain": 0.006484641638225375,
+        "exact_validation_precision_gain": 0.0013651877133106227
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.0032440153642238068,
+        "exact_train_precision_gain": 0.0,
+        "exact_validation_precision_gain": -0.0013651877133106227
+      }
+    ],
+    "D3_held0_inner1_seed2026111511": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.0070801692441622155,
+        "exact_train_precision_gain": 0.009215017064846398,
+        "exact_validation_precision_gain": 0.012969283276450527
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.006425964873488399,
+        "exact_train_precision_gain": 0.006825938566552947,
+        "exact_validation_precision_gain": -0.0006825938566553669
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.005593901687013569,
+        "exact_train_precision_gain": 0.0030716723549487623,
+        "exact_validation_precision_gain": -0.0003412969283276279
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.0029543356912550833,
+        "exact_train_precision_gain": 0.0023890784982935065,
+        "exact_validation_precision_gain": -0.005802047781570008
+      }
+    ],
+    "D3_held0_inner1_seed2026111512": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.007096607741176264,
+        "exact_train_precision_gain": 0.010921501706484649,
+        "exact_validation_precision_gain": 0.010921501706484649
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.007964648574414701,
+        "exact_train_precision_gain": 0.0013651877133105672,
+        "exact_validation_precision_gain": -0.00273037542662119
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.005882568289195922,
+        "exact_train_precision_gain": 0.0034129692832764458,
+        "exact_validation_precision_gain": -0.005119453924914641
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.003327314044742291,
+        "exact_train_precision_gain": 0.002389078498293562,
+        "exact_validation_precision_gain": 0.002047781569965823
+      }
+    ],
+    "D3_held0_outer_seed2026111511": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.008435455187390084,
+        "exact_train_precision_gain": 0.00699658703071665,
+        "exact_validation_precision_gain": null
+      }
+    ],
+    "D3_held0_outer_seed2026111512": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.007916581018814706,
+        "exact_train_precision_gain": 0.008020477815699645,
+        "exact_validation_precision_gain": null
+      }
+    ],
+    "D3_held1_inner0_seed2026111511": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.0040241282433950976,
+        "exact_train_precision_gain": -0.0010238907849828838,
+        "exact_validation_precision_gain": -0.0006825938566553114
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.0038382369946767247,
+        "exact_train_precision_gain": 0.003754266211604129,
+        "exact_validation_precision_gain": -0.0017064846416381951
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.004237817797105026,
+        "exact_train_precision_gain": 0.007508532423208147,
+        "exact_validation_precision_gain": -0.0034129692832764458
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.001983701380156966,
+        "exact_train_precision_gain": 0.0013651877133105117,
+        "exact_validation_precision_gain": -0.0017064846416382506
+      }
+    ],
+    "D3_held1_inner0_seed2026111512": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.0045507782129072805,
+        "exact_train_precision_gain": 0.0034129692832765013,
+        "exact_validation_precision_gain": -0.0023890784982935065
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.0037543199865638366,
+        "exact_train_precision_gain": 0.0037542662116040737,
+        "exact_validation_precision_gain": -0.0010238907849829948
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.0052862020065729265,
+        "exact_train_precision_gain": 0.0037542662116040737,
+        "exact_validation_precision_gain": -0.0006825938566552558
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.003613445354906708,
+        "exact_train_precision_gain": 0.004095563139931757,
+        "exact_validation_precision_gain": 0.002389078498293562
+      }
+    ],
+    "D3_held1_inner1_seed2026111511": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.006218594099046237,
+        "exact_train_precision_gain": -0.0006825938566552558,
+        "exact_validation_precision_gain": -0.0013651877133105117
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.00517650425270566,
+        "exact_train_precision_gain": 0.0020477815699657675,
+        "exact_validation_precision_gain": -0.0006825938566553114
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.0050173027524177405,
+        "exact_train_precision_gain": 0.00546075085324238,
+        "exact_validation_precision_gain": -0.0006825938566552558
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.0028922088080983732,
+        "exact_train_precision_gain": 0.003754266211604129,
+        "exact_validation_precision_gain": 0.0013651877133106227
+      }
+    ],
+    "D3_held1_inner1_seed2026111512": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.005938346432123209,
+        "exact_train_precision_gain": 0.0010238907849828838,
+        "exact_validation_precision_gain": 0.0003412969283276279
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.003707458023652077,
+        "exact_train_precision_gain": 0.0,
+        "exact_validation_precision_gain": -0.002047781569965823
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.005082076563496407,
+        "exact_train_precision_gain": 5.551115123125783e-17,
+        "exact_validation_precision_gain": -0.0013651877133105672
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.0047560331382777155,
+        "exact_train_precision_gain": 0.0034129692832763903,
+        "exact_validation_precision_gain": 0.002389078498293562
+      }
+    ],
+    "D3_held1_outer_seed2026111511": [],
+    "D3_held1_outer_seed2026111512": [],
+    "D1_held0_inner0_seed2026111511": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.005270364293920471,
+        "exact_train_precision_gain": 0.006574394463667865,
+        "exact_validation_precision_gain": -0.0020761245674740247
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.004116936732442511,
+        "exact_train_precision_gain": 0.003114186851210954,
+        "exact_validation_precision_gain": 0.0041522491349480495
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.007631824970627976,
+        "exact_train_precision_gain": 0.003806228373702536,
+        "exact_validation_precision_gain": -0.004844290657439465
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.0033440113387210313,
+        "exact_train_precision_gain": 0.00034602076124562453,
+        "exact_validation_precision_gain": -0.002768166089965385
+      }
+    ],
+    "D1_held0_inner0_seed2026111512": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.005086477125491762,
+        "exact_train_precision_gain": 0.00726643598615917,
+        "exact_validation_precision_gain": -0.0010380622837370401
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.005013057146912692,
+        "exact_train_precision_gain": 0.003460207612456745,
+        "exact_validation_precision_gain": 0.003806228373702425
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.005404405859564976,
+        "exact_train_precision_gain": 0.0010380622837369846,
+        "exact_validation_precision_gain": 0.0
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.0021458425747815646,
+        "exact_train_precision_gain": 0.0034602076124568004,
+        "exact_validation_precision_gain": -0.0013840830449826647
+      }
+    ],
+    "D1_held0_inner1_seed2026111511": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.004824313497254651,
+        "exact_train_precision_gain": 0.0020761245674740247,
+        "exact_validation_precision_gain": 0.002768166089965385
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.004404355185247455,
+        "exact_train_precision_gain": 0.01003460207612461,
+        "exact_validation_precision_gain": -0.0013840830449826647
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.005046989272061875,
+        "exact_train_precision_gain": 0.006574394463667865,
+        "exact_validation_precision_gain": 0.0006920415224913046
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.0021324734241154886,
+        "exact_train_precision_gain": -0.004844290657439521,
+        "exact_validation_precision_gain": -0.0017301038062283447
+      }
+    ],
+    "D1_held0_inner1_seed2026111512": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.004749298026057613,
+        "exact_train_precision_gain": 0.0010380622837370401,
+        "exact_validation_precision_gain": 0.002768166089965385
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.00395197092577293,
+        "exact_train_precision_gain": 0.00692041522491349,
+        "exact_validation_precision_gain": 0.003114186851211065
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.005497746406226467,
+        "exact_train_precision_gain": 0.003806228373702425,
+        "exact_validation_precision_gain": 0.0027681660899654403
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.0031222862708725208,
+        "exact_train_precision_gain": -0.0031141868512111204,
+        "exact_validation_precision_gain": -0.0006920415224914156
+      }
+    ],
+    "D1_held0_outer_seed2026111511": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.003635084623395568,
+        "exact_train_precision_gain": 0.0017301038062284002,
+        "exact_validation_precision_gain": null
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.0021660645983014315,
+        "exact_train_precision_gain": 0.0017301038062283447,
+        "exact_validation_precision_gain": null
+      }
+    ],
+    "D1_held0_outer_seed2026111512": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.003781337687925823,
+        "exact_train_precision_gain": 0.0032871972318339604,
+        "exact_validation_precision_gain": null
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.0025416402295117546,
+        "exact_train_precision_gain": -0.00017301038062289553,
+        "exact_validation_precision_gain": null
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.0033512932292822373,
+        "exact_train_precision_gain": 0.0019031141868512402,
+        "exact_validation_precision_gain": null
+      }
+    ],
+    "D1_held1_inner0_seed2026111511": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.004108316515842814,
+        "exact_train_precision_gain": 0.00553633217993077,
+        "exact_validation_precision_gain": 0.0006920415224913601
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.005140220285166641,
+        "exact_train_precision_gain": 0.0020761245674740247,
+        "exact_validation_precision_gain": -0.003460207612456745
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.005132587137361921,
+        "exact_train_precision_gain": 0.004498269896193785,
+        "exact_validation_precision_gain": 0.0006920415224914156
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.002416438316572289,
+        "exact_train_precision_gain": 0.0024221453287197603,
+        "exact_validation_precision_gain": 0.0034602076124566894
+      }
+    ],
+    "D1_held1_inner0_seed2026111512": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.0035713317056699223,
+        "exact_train_precision_gain": 0.0024221453287196493,
+        "exact_validation_precision_gain": -0.0013840830449826647
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.005647040556258309,
+        "exact_train_precision_gain": 0.006920415224913545,
+        "exact_validation_precision_gain": -0.004844290657439465
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.005730422806746849,
+        "exact_train_precision_gain": 0.008650519031141835,
+        "exact_validation_precision_gain": -0.003460207612456745
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.0012424499857842108,
+        "exact_train_precision_gain": 0.0010380622837370401,
+        "exact_validation_precision_gain": -0.00034602076124562453
+      }
+    ],
+    "D1_held1_inner1_seed2026111511": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.00670362523340895,
+        "exact_train_precision_gain": 0.005882352941176505,
+        "exact_validation_precision_gain": 0.0027681660899654403
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.0034456057253812733,
+        "exact_train_precision_gain": -0.0010380622837370401,
+        "exact_validation_precision_gain": -0.00034602076124579106
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.005063287520666038,
+        "exact_train_precision_gain": 0.0038062283737024805,
+        "exact_validation_precision_gain": -0.00034602076124562453
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.0032040812569691934,
+        "exact_train_precision_gain": -0.0013840830449827202,
+        "exact_validation_precision_gain": 0.0017301038062283447
+      }
+    ],
+    "D1_held1_inner1_seed2026111512": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.006147245133727941,
+        "exact_train_precision_gain": 0.0031141868512111204,
+        "exact_validation_precision_gain": 0.003114186851211065
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.004688013933859758,
+        "exact_train_precision_gain": 0.0031141868512110094,
+        "exact_validation_precision_gain": 0.0027681660899653293
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.00676808699293957,
+        "exact_train_precision_gain": 0.0041522491349481605,
+        "exact_validation_precision_gain": -0.004844290657439354
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.003136499548611671,
+        "exact_train_precision_gain": 0.0013840830449826647,
+        "exact_validation_precision_gain": -0.00034602076124568004
+      }
+    ],
+    "D1_held1_outer_seed2026111511": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.0033247241393911664,
+        "exact_train_precision_gain": 0.0019031141868512402,
+        "exact_validation_precision_gain": null
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.0035947206527632836,
+        "exact_train_precision_gain": 0.00501730103806225,
+        "exact_validation_precision_gain": null
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.0037894285766770786,
+        "exact_train_precision_gain": 0.0029411764705882804,
+        "exact_validation_precision_gain": null
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.0018831046211404412,
+        "exact_train_precision_gain": 0.0006920415224913046,
+        "exact_validation_precision_gain": null
+      }
+    ],
+    "D1_held1_outer_seed2026111512": [],
+    "D2_held0_inner0_seed2026111511": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.005552502280040117,
+        "exact_train_precision_gain": 0.006574394463667754,
+        "exact_validation_precision_gain": 0.0017301038062283447
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.004922394735747626,
+        "exact_train_precision_gain": 0.0024221453287197048,
+        "exact_validation_precision_gain": 0.0
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.0053506614104047445,
+        "exact_train_precision_gain": 0.006574394463667865,
+        "exact_validation_precision_gain": 0.00034602076124568004
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.002824228002577589,
+        "exact_train_precision_gain": 0.0010380622837370401,
+        "exact_validation_precision_gain": 0.0020761245674741358
+      }
+    ],
+    "D2_held0_inner0_seed2026111512": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.005814430389108616,
+        "exact_train_precision_gain": 0.0048442906574394096,
+        "exact_validation_precision_gain": 0.0010380622837369846
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.0044899481516636475,
+        "exact_train_precision_gain": 0.00588235294117645,
+        "exact_validation_precision_gain": 0.00034602076124573555
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.005743543920061933,
+        "exact_train_precision_gain": 0.004152249134948105,
+        "exact_validation_precision_gain": 0.0038062283737024805
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.003300547123432862,
+        "exact_train_precision_gain": 0.003114186851211065,
+        "exact_validation_precision_gain": 0.0027681660899654403
+      }
+    ],
+    "D2_held0_inner1_seed2026111511": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.008320642541518042,
+        "exact_train_precision_gain": -0.00034602076124568004,
+        "exact_validation_precision_gain": -0.004498269896193785
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.0024653386351045636,
+        "exact_train_precision_gain": 0.00622837370242213,
+        "exact_validation_precision_gain": -5.551115123125783e-17
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.004298796658107229,
+        "exact_train_precision_gain": 0.0020761245674740803,
+        "exact_validation_precision_gain": 0.0010380622837370401
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.002244332634931623,
+        "exact_train_precision_gain": 0.00588235294117645,
+        "exact_validation_precision_gain": -0.0010380622837369846
+      }
+    ],
+    "D2_held0_inner1_seed2026111512": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.008318214111403877,
+        "exact_train_precision_gain": 1.1102230246251565e-16,
+        "exact_validation_precision_gain": -0.004152249134948105
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.002329152582158933,
+        "exact_train_precision_gain": 0.0020761245674739137,
+        "exact_validation_precision_gain": -0.00034602076124573555
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.003431172862240872,
+        "exact_train_precision_gain": 0.004844290657439465,
+        "exact_validation_precision_gain": 0.0034602076124568004
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.0029391931178768815,
+        "exact_train_precision_gain": 0.005190311418685145,
+        "exact_validation_precision_gain": 0.0024221453287197048
+      }
+    ],
+    "D2_held0_outer_seed2026111511": [],
+    "D2_held0_outer_seed2026111512": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.004219801676333068,
+        "exact_train_precision_gain": 0.0,
+        "exact_validation_precision_gain": null
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.002804877469422651,
+        "exact_train_precision_gain": 0.006747404844290594,
+        "exact_validation_precision_gain": null
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.004142883659206287,
+        "exact_train_precision_gain": 0.007093425605536385,
+        "exact_validation_precision_gain": null
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.002428439067806598,
+        "exact_train_precision_gain": 0.0019031141868511847,
+        "exact_validation_precision_gain": null
+      }
+    ],
+    "D2_held1_inner0_seed2026111511": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.005337168185857666,
+        "exact_train_precision_gain": 0.00553633217993077,
+        "exact_validation_precision_gain": 0.0017301038062283447
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.0058806113260359005,
+        "exact_train_precision_gain": 0.014532871972318284,
+        "exact_validation_precision_gain": 0.0010380622837370401
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.008470746618529423,
+        "exact_train_precision_gain": 0.011072664359861595,
+        "exact_validation_precision_gain": -0.012802768166089995
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.003068464044630237,
+        "exact_train_precision_gain": 0.002422145328719816,
+        "exact_validation_precision_gain": -0.0017301038062284002
+      }
+    ],
+    "D2_held1_inner0_seed2026111512": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.006680797144426431,
+        "exact_train_precision_gain": 0.0100346020761245,
+        "exact_validation_precision_gain": 0.006920415224913434
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.004608412624676428,
+        "exact_train_precision_gain": 0.00761245674740485,
+        "exact_validation_precision_gain": -0.007266435986159114
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.00528013247463488,
+        "exact_train_precision_gain": 0.006920415224913545,
+        "exact_validation_precision_gain": -0.003460207612456745
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.001779447676720225,
+        "exact_train_precision_gain": 0.0024221453287197048,
+        "exact_validation_precision_gain": 0.0041522491349480495
+      }
+    ],
+    "D2_held1_inner1_seed2026111511": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.00815484459618454,
+        "exact_train_precision_gain": 0.0013840830449826647,
+        "exact_validation_precision_gain": 0.0031141868512110094
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.0023686876773605925,
+        "exact_train_precision_gain": 0.004152249134948105,
+        "exact_validation_precision_gain": -0.0006920415224913046
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.0037764768672630677,
+        "exact_train_precision_gain": 0.004498269896193785,
+        "exact_validation_precision_gain": 0.0013840830449826091
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.0024847527377948597,
+        "exact_train_precision_gain": 0.0017301038062283447,
+        "exact_validation_precision_gain": 0.0027681660899654403
+      }
+    ],
+    "D2_held1_inner1_seed2026111512": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.007805252566142784,
+        "exact_train_precision_gain": 0.0013840830449826647,
+        "exact_validation_precision_gain": 0.0020761245674740247
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.0029404868861670486,
+        "exact_train_precision_gain": 0.0017301038062284002,
+        "exact_validation_precision_gain": -0.00034602076124573555
+      },
+      {
+        "epochs": [
+          100,
+          200
+        ],
+        "soft_objective_improvement": 0.0041174117937751165,
+        "exact_train_precision_gain": 0.00657439446366781,
+        "exact_validation_precision_gain": 0.0
+      },
+      {
+        "epochs": [
+          200,
+          300
+        ],
+        "soft_objective_improvement": 0.0024594162389049434,
+        "exact_train_precision_gain": 0.0048442906574394096,
+        "exact_validation_precision_gain": 0.0010380622837370956
+      }
+    ],
+    "D2_held1_outer_seed2026111511": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.005327084682226979,
+        "exact_train_precision_gain": 0.0020761245674739692,
+        "exact_validation_precision_gain": null
+      },
+      {
+        "epochs": [
+          50,
+          100
+        ],
+        "soft_objective_improvement": 0.0022474846892691636,
+        "exact_train_precision_gain": 0.0010380622837370401,
+        "exact_validation_precision_gain": null
+      }
+    ],
+    "D2_held1_outer_seed2026111512": [
+      {
+        "epochs": [
+          0,
+          50
+        ],
+        "soft_objective_improvement": 0.005388707331221154,
+        "exact_train_precision_gain": 0.0019031141868511847,
+        "exact_validation_precision_gain": null
+      }
+    ]
+  },
+  "summary": {
+    "inner": {
+      "pools": 12,
+      "fits": 24,
+      "mean_label_mass_moved": 0.1797566966545571,
+      "mean_bootstrap_vs_nominal_optimal_membership_change": 0.009551442540477344,
+      "soft_improving_curve_steps": 96,
+      "soft_improving_but_exact_train_declines": 7,
+      "soft_improving_but_exact_validation_declines": 49,
+      "mean_fitted_parameter_gradient_cosine": 0.9755647427321602,
+      "temperature_averages": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.3643614951464695,
+          "soft_nominal_precision": 0.3820960167022891,
+          "soft_bootstrap_precision": 0.3805515360585026,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.944675025942419,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.030537794834078643,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.4078262811958961
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.258426280020172,
+          "soft_nominal_precision": 0.3877514305401876,
+          "soft_bootstrap_precision": 0.38590276439171006,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9397925981384551,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.02630286619876962,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.5291718838705739
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.14622535541618353,
+          "soft_nominal_precision": 0.39150864513682787,
+          "soft_bootstrap_precision": 0.3895103411152909,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9295567278379945,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.026060337763845573,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.7315068829505617
+        }
+      }
+    },
+    "outer": {
+      "pools": 6,
+      "fits": 12,
+      "mean_label_mass_moved": 0.1748948107529448,
+      "mean_bootstrap_vs_nominal_optimal_membership_change": 0.008589994921879613,
+      "soft_improving_curve_steps": 18,
+      "soft_improving_but_exact_train_declines": 1,
+      "soft_improving_but_exact_validation_declines": 0,
+      "mean_fitted_parameter_gradient_cosine": 0.9942107555280802,
+      "temperature_averages": {
+        "0.5": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.39321428344337495,
+          "soft_nominal_precision": 0.3814494422883136,
+          "soft_bootstrap_precision": 0.3799589769220279,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9495901252272488,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.03232753281077333,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.19472239138541358
+        },
+        "0.25": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.2863089956232389,
+          "soft_nominal_precision": 0.38690984781845383,
+          "soft_bootstrap_precision": 0.3852263677821856,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.945694383330709,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.027716045792512203,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.25737367658665916
+        },
+        "0.1": {
+          "soft_vs_hard_predictor_membership_mass_moved": 0.1608457454121656,
+          "soft_nominal_precision": 0.3913515993338441,
+          "soft_bootstrap_precision": 0.38944060056314195,
+          "gradient_cosine_bootstrap_vs_nominal_labels": 0.9353064539446145,
+          "bootstrap_gradient_absolute_mass_with_opposite_nominal_sign": 0.022440927676299172,
+          "threshold_curvature_mass_in_rank_K_plusminus2_band": 0.42040011704394237
+        }
+      }
+    }
+  },
+  "probe_script_sha256": "42ba7208836f72b8a95b22f5fc22e785381472a9cf4761100f80682b2b9bd0e5"
+}

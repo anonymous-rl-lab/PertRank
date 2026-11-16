@@ -1,0 +1,8 @@
+D3 0 B_free_pair 2026111511 200 new_fit
+D3 0 B_free_pair 2026111512 50 reused
+D3 0 B_rank_scale_free_pair 2026111511 50 reused
+D3 0 B_rank_scale_free_pair 2026111512 100 reused
+D3 1 B_free_pair 2026111511 0 reused
+D3 1 B_free_pair 2026111512 0 reused
+D3 1 B_rank_scale_free_pair 2026111511 0 reused
+D3 1 B_rank_scale_free_pair 2026111512 100 new_fit

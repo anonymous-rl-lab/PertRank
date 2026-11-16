@@ -1,0 +1,22 @@
+{
+  "scope": "Existing verified results only; no new fit, bootstrap, rescore, or hypothesis test.",
+  "inputs": {
+    "figure_values.json": "5e00f648f598193e9dc86497a81a8883f7336921724a79ab0452b0363378d941",
+    "design_ablation.json": "52dd2e50ebf3c7ae00ada9205157a638fd86ec4baf0d49c2d2c1dec89f0aa8dc",
+    "new_figure_values.json": "8ee99e43767cc4da5355d72bd0e4d3c808207cd5e50024a916d85f0f33065778"
+  },
+  "figures": [
+    "fig1.pdf",
+    "fig2.pdf",
+    "fig3.pdf",
+    "fig4.pdf",
+    "fig5.pdf",
+    "fig6.pdf",
+    "figS6_guide_response.pdf",
+    "figS7_query_refinement.pdf"
+  ],
+  "relocated_panels": {
+    "4e": "Supplementary Figure 6",
+    "6d": "Supplementary Figure 7"
+  }
+}

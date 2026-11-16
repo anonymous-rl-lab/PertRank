@@ -25,7 +25,7 @@ def assert_same(left,right):
         assert_frame_equal(getattr(left,name), getattr(right,name), check_exact=False, check_dtype=False, rtol=1e-12, atol=1e-12)
 
 
-def test_counts_adapter_matches_frozen_v211_and_preserves_full_denominator(counts_adata,frozen_core):
+def test_counts_adapter_matches_frozen_reference_and_preserves_full_denominator(counts_adata,frozen_core):
     a=counts_adata
     result=run(a)
     ctrl=a.obs['control'].to_numpy()

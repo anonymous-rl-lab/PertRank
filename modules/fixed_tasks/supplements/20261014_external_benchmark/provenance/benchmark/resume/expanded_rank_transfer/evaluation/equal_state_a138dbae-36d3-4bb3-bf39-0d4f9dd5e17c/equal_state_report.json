@@ -18,29 +18,29 @@
     "D3_score_owner_evidence": [
       {
         "audit_sha256": "567c62a2a96e99dc6442dc1a90fad4446042589615146fb371647d971f2681bb",
-        "owner_completion": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/rank_boundary_evaluation/rank150_default_lasso/OWNER_COMPLETION.json",
+        "owner_completion": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/rank_boundary_evaluation/rank150_default_lasso/OWNER_COMPLETION.json",
         "owner_completion_sha256": "15c8593dc487a06946b4076c7026784f7d0bd9d42322a0cf35e3cabcb849cbdc",
         "rank": 150
       },
       {
         "audit_sha256": "cf914d0c981a33cdbfddede03aa5ae9601fab3205bfc30e9a9f47f6091278b68",
-        "owner_completion": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/rank_boundary_evaluation/rank200_default_lasso/OWNER_COMPLETION.json",
+        "owner_completion": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/rank_boundary_evaluation/rank200_default_lasso/OWNER_COMPLETION.json",
         "owner_completion_sha256": "2446da780259ad54ab65856d80185bd7b4621008b65048647a6a2da704d85c8e",
         "rank": 200
       },
       {
         "audit_sha256": "731ca2a7741b681b45300103bdcde42a0cff70130b701fdc1ebc4391fd378a85",
-        "owner_completion": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/rank_boundary_evaluation/rank300_default_lasso/OWNER_COMPLETION.json",
+        "owner_completion": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/rank_boundary_evaluation/rank300_default_lasso/OWNER_COMPLETION.json",
         "owner_completion_sha256": "0a163f347b666df06aafb9767b08499ff4b56d4cb2d457e1865f6495188855f8",
         "rank": 300
       }
     ],
     "expanded_rule_sha256": "9925d185212de1d4b71a07d6cfb50b2574f168abe5aa2444e75d2cb017e1bd82",
-    "expanded_selection_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/POSTHOC_EXPANDED_RANK_WINNER.json",
+    "expanded_selection_path": "/anonymous/workspace/fr_benchmark/resume_20261014/expanded_rank_transfer/POSTHOC_EXPANDED_RANK_WINNER.json",
     "expanded_selection_sha256": "9f6180331c52b334782f6a5c4951a40e80164a210118b6d7b5a0475de0ed062a",
     "expanded_selection_status": "LOCKED_POSTHOC_TRANSFER",
     "original_primary_winner_sha256": "3b03f312908d7fbad7a84ae8fd1dff29fefb7e7319e95aa9144108cd7a1b8e18",
-    "protocol_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/POSTHOC_D3_RANK_BOUNDARY.json",
+    "protocol_path": "/anonymous/workspace/fr_benchmark/resume_20261014/POSTHOC_D3_RANK_BOUNDARY.json",
     "protocol_sha256": "aafa69c2d13127a90cf531d91489ce2c116e67b9b3d9344ec9687faac0e67060"
   },
   "in_prespecified_five_contrast_family": false,
@@ -49,11 +49,11 @@
   "primary_continuation_gate_computed": false,
   "provenance": [
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/evaluation_report.json",
+      "path": "/anonymous/workspace/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/evaluation_report.json",
       "sha256": "67f2da4d6ae3bd13362802ca01f1378d520ddcb3fcf91d3b9db58d12d532bb0f"
     },
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/evaluation_report.json",
+      "path": "/anonymous/workspace/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/evaluation_report.json",
       "sha256": "af7a173b8a0e4b4bd058d1ff25b614b6a29b27f3362661debb7ec1c5984b129d"
     }
   ],
@@ -533,11 +533,11 @@
   "status": "COMPLETE",
   "task_owner_evidence": [
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/OWNER_COMPLETION.json",
+      "path": "/anonymous/workspace/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Rest_0d19950f-5b9c-44d4-a49b-aa3c9be8da6a/OWNER_COMPLETION.json",
       "sha256": "ec3f699a2d8e5b8cc2b12f4447e79e75b8eed70723279f07c3473ae55c06e969"
     },
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/OWNER_COMPLETION.json",
+      "path": "/anonymous/workspace/fr_benchmark/resume_20261014/expanded_rank_transfer/evaluation/D4_Stim8hr_a5b0195b-a4da-417f-8209-c83d8246fcbc/OWNER_COMPLETION.json",
       "sha256": "ddf07c143ec3c1025e8f9c9b9780d8186210e1fec0cc3ee0750a0a7249bcb547"
     }
   ],

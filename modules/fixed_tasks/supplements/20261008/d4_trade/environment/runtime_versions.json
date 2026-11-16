@@ -16,7 +16,7 @@
     "etrunct": "0.1",
     "invgamma": "1.2"
   },
-  "libraries": ["/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/run/environment/R-library", "/workspace/scratch/6cdbaefbed9f/perturbseq_recovery/run/environment/r-binary/opt/R/4.4.3/lib/R/library"],
+  "libraries": ["/anonymous/workspace/perturbseq_recovery/run/environment/R-library", "/anonymous/workspace/perturbseq_recovery/run/environment/r-binary/opt/R/4.4.3/lib/R/library"],
   "extSoftVersion": {
     "zlib": "1.3",
     "bzlib": "1.0.8, 13-Jul-2019",

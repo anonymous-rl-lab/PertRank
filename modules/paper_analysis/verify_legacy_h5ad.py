@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the unchanged v20 fixture with its original object-string convention.
+"""Run the unchanged current manuscript fixture with its original object-string convention.
 
 Pandas 3 infers nullable StringArray columns by default; AnnData 0.12 does not
 write them without an experimental opt-in. Disabling that inference only

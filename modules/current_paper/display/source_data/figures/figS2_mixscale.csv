@@ -1,0 +1,8 @@
+kind,label,value,low,high,source
+score,Unweighted,0.2773123584257502,,,audit/current_results/mixscale_D3_results.json
+score,Euclidean,0.2757554779794853,,,audit/current_results/mixscale_D3_results.json
+score,PertRank,0.3113689768996245,,,audit/current_results/mixscale_D3_results.json
+score,Mixscale adaptation,0.06104553722295985,,,audit/current_results/mixscale_D3_results.json
+contrast,PertRank - Mixscale,0.25032343967666465,0.2196270894788594,0.2779403576609545,audit/current_results/mixscale_D3_results.json
+contrast,Euclidean - Mixscale,0.2147099407565255,0.1938968952767407,0.23503209225896018,audit/current_results/mixscale_D3_results.json
+contrast,Mixscale - Unweighted,-0.21626682120279034,-0.24288804189701274,-0.18963369688677448,audit/current_results/mixscale_D3_results.json

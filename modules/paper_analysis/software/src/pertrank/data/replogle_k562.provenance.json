@@ -33,15 +33,15 @@
   "symbol_annotation_note": "Human Ensembl-to-symbol annotations reused from the archived T-cell feature table; unmatched IDs remain unchanged.",
   "sources": {
     "reduced_input": {
-      "path": "pertrank_ecosystem/sources/recovered_v6/Pertrescue_v6/code/repro_v10/data/e1_stage6.npz",
+      "path": "external_sources/reduced_input/e1_stage6.npz",
       "sha256": "d79f3d5c18f6317fbe8d1ef62b86efdbfaeb7f1f6463af5267955ba7cd67beba"
     },
     "projection_statistics": {
-      "path": "pertrank_ecosystem/sources/recovered_w1/Pertrescue_v5/code/repro_v10/same_budget_weight/stage3/data/e1_w1_stage3.npz",
+      "path": "external_sources/projection_statistics/e1_w1_stage3.npz",
       "sha256": "9a47d008d68c35e9520fe7202dadf646e8234bad34f3cecaadd4e8a75270009b"
     },
     "symbol_annotation": {
-      "path": "pertrank_ecosystem/sources/recovered/Pertrescue_Code_v9/code/repro_v10/same_budget_weight/stage3/data/tcell_gene_symbols.json",
+      "path": "external_sources/symbol_annotation/tcell_gene_symbols.json",
       "sha256": "19775af812cff6486caf595868368e29f98666933d4f341da6a24c600e3b55a0"
     }
   },
@@ -58,5 +58,6 @@
   "new_model_fits": 0,
   "scientific_performance_evaluations": 0,
   "redistribution": "Derived numerical tutorial fixture from public-source data; retain source-study attribution. Source data are not relicensed by the software license.",
-  "source_dataset_doi": "10.25452/figshare.plus.20029387"
+  "source_dataset_doi": "10.25452/figshare.plus.20029387",
+  "source_path_note": "Logical source filenames replace preparation-workspace paths; SHA256 identifiers and numerical conversion definitions are preserved. These upstream files are not required for tutorial execution."
 }

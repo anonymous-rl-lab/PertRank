@@ -8,7 +8,7 @@
     "official_index": "https://download.pytorch.org/whl/cpu"
   },
   "other_index": "https://pypi.org/simple",
-  "isolated_env": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/gperturb_cpu_env",
+  "isolated_env": "/anonymous/workspace/fr_benchmark/resume_20261014/gperturb_cpu_env",
   "uses_system_site_packages": true,
   "pinned_packages": {
     "torch": "2.2.2+cpu",

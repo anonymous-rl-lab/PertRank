@@ -1,0 +1,539 @@
+{
+  "source": "D3",
+  "plan_sha256": "faf0129e1844001e79c26ff689b1262ce58a2beea8b4543c7c37281b13e1b924",
+  "created_utc": "2026-11-15T06:14:45.779900+00:00",
+  "tasks": {
+    "D3_held0": {
+      "boundary_context_seed2026111511": {
+        "selected_epoch": 50,
+        "selection": [
+          {
+            "epoch": 0,
+            "gains": [
+              0.0,
+              0.0
+            ],
+            "mean_gain": 0.0,
+            "eligible": true
+          },
+          {
+            "epoch": 50,
+            "gains": [
+              0.003071672354948818,
+              0.012969283276450527
+            ],
+            "mean_gain": 0.008020477815699673,
+            "eligible": true
+          },
+          {
+            "epoch": 100,
+            "gains": [
+              0.002047781569965823,
+              0.01228668941979516
+            ],
+            "mean_gain": 0.007167235494880492,
+            "eligible": true
+          },
+          {
+            "epoch": 200,
+            "gains": [
+              0.002389078498293451,
+              0.011945392491467532
+            ],
+            "mean_gain": 0.007167235494880492,
+            "eligible": true
+          },
+          {
+            "epoch": 300,
+            "gains": [
+              0.0017064846416381951,
+              0.006143344709897525
+            ],
+            "mean_gain": 0.00392491467576786,
+            "eligible": true
+          }
+        ],
+        "inner_fits": [
+          {
+            "path": "fits/D3_held0_boundary_context_seed2026111511_inner0",
+            "fit_sha256": "1646b2e52f8527404f9c76c5334158a9f57683acaf8626276582e9d5b1b617d9",
+            "curve_sha256": "0c903377155b66a14b12a4238593aff8b7032f13a1cf2d72d1e938805d1e2d44",
+            "weights_sha256": "34ba11fc4edccdb63f10b904555d77ffc1a1311d79e12c6fb5f891cec3eb8f59",
+            "normalization_sha256": "a5e9c200bb4540f042d670c1b7ff7873bcdbd6304af63ee374b16b6a07f07cbf"
+          },
+          {
+            "path": "fits/D3_held0_boundary_context_seed2026111511_inner1",
+            "fit_sha256": "6ec6f99d5d6f71f897542a40496606ec1488f686861dbcf4b342742d57afe165",
+            "curve_sha256": "4a9f11ef3930167f77cf741ba42cb6848adf725a389b0e1e6e25e16d59670cd5",
+            "weights_sha256": "a1d823f9d6c3e16cfb2fdfb38ea259ddd2b8c4c08dc21823ecba0e43ba60462d",
+            "normalization_sha256": "c6d613889c715a5bc803f921f2ec84e11c0177bf0272a6cfaa735bcd9896a1b0"
+          }
+        ]
+      },
+      "boundary_context_seed2026111512": {
+        "selected_epoch": 50,
+        "selection": [
+          {
+            "epoch": 0,
+            "gains": [
+              0.0,
+              0.0
+            ],
+            "mean_gain": 0.0,
+            "eligible": true
+          },
+          {
+            "epoch": 50,
+            "gains": [
+              0.005460750853242324,
+              0.010921501706484649
+            ],
+            "mean_gain": 0.008191126279863487,
+            "eligible": true
+          },
+          {
+            "epoch": 100,
+            "gains": [
+              0.0013651877133105672,
+              0.008191126279863459
+            ],
+            "mean_gain": 0.004778156996587013,
+            "eligible": true
+          },
+          {
+            "epoch": 200,
+            "gains": [
+              0.00273037542662119,
+              0.003071672354948818
+            ],
+            "mean_gain": 0.002901023890785004,
+            "eligible": true
+          },
+          {
+            "epoch": 300,
+            "gains": [
+              0.0013651877133105672,
+              0.005119453924914641
+            ],
+            "mean_gain": 0.003242320819112604,
+            "eligible": true
+          }
+        ],
+        "inner_fits": [
+          {
+            "path": "fits/D3_held0_boundary_context_seed2026111512_inner0",
+            "fit_sha256": "ab7c4e19be273a7754a3678a2fccca370482aeb3effe324656e3978eaa9c393c",
+            "curve_sha256": "1ede32122f3fb2ddf532c647aeb2dd48248bcffcf95fddbe63a60e5b101e589e",
+            "weights_sha256": "ba4e2c5e2419fc1e965dbc7bd45939093010fec81982672c3879086e146d24ef",
+            "normalization_sha256": "a5e9c200bb4540f042d670c1b7ff7873bcdbd6304af63ee374b16b6a07f07cbf"
+          },
+          {
+            "path": "fits/D3_held0_boundary_context_seed2026111512_inner1",
+            "fit_sha256": "0f110c82b0e52d4050f2c3096433f782af87978228cb97c7d5b82dba7337904e",
+            "curve_sha256": "d17a06e9c25cd2358777eb89aaffe7bf731ca3e43fb9a22681ea308594b45fc1",
+            "weights_sha256": "99c577bc84c468d6b314213d2bd5b2ddff8cfb0c49f6d9561e6c7a68ae6fd1be",
+            "normalization_sha256": "c6d613889c715a5bc803f921f2ec84e11c0177bf0272a6cfaa735bcd9896a1b0"
+          }
+        ]
+      },
+      "boundary_pair_seed2026111511": {
+        "selected_epoch": 300,
+        "selection": [
+          {
+            "epoch": 0,
+            "gains": [
+              0.0,
+              0.0
+            ],
+            "mean_gain": 0.0,
+            "eligible": true
+          },
+          {
+            "epoch": 50,
+            "gains": [
+              0.0047781569965870685,
+              -0.0017064846416382506
+            ],
+            "mean_gain": 0.001535836177474409,
+            "eligible": false
+          },
+          {
+            "epoch": 100,
+            "gains": [
+              0.0071672354948805195,
+              0.003071672354948818
+            ],
+            "mean_gain": 0.005119453924914669,
+            "eligible": true
+          },
+          {
+            "epoch": 200,
+            "gains": [
+              0.008191126279863514,
+              0.006484641638225264
+            ],
+            "mean_gain": 0.007337883959044389,
+            "eligible": true
+          },
+          {
+            "epoch": 300,
+            "gains": [
+              0.01058020477815702,
+              0.005119453924914641
+            ],
+            "mean_gain": 0.00784982935153583,
+            "eligible": true
+          }
+        ],
+        "inner_fits": [
+          {
+            "path": "fits/D3_held0_boundary_pair_seed2026111511_inner0",
+            "fit_sha256": "a57c1f79173d43a5d9c98e2b6bd70978de60f074f4545f48df7eb3b6ad457bb1",
+            "curve_sha256": "226668d5a194b46a6c892b2ab21d0f0094e02e86bb3303108a25b0243ebe4f0e",
+            "weights_sha256": "72978005b67d47d1e5cb0c5b28d23addef41db67484c43e51aef43e049d2d2eb",
+            "normalization_sha256": "a5e9c200bb4540f042d670c1b7ff7873bcdbd6304af63ee374b16b6a07f07cbf"
+          },
+          {
+            "path": "fits/D3_held0_boundary_pair_seed2026111511_inner1",
+            "fit_sha256": "e2e28aefcdf87280b085f3a0a8359bd894ee86945aa1a792eb615611ef0e1568",
+            "curve_sha256": "a2a90de21d959632bc7fff401266b87f3d17749d679ffc53ccdb81819d2e64fd",
+            "weights_sha256": "1a508de71c73d4cce3221a9a149664281ef6a5ba2f92b6771066aaf67a4ada28",
+            "normalization_sha256": "c6d613889c715a5bc803f921f2ec84e11c0177bf0272a6cfaa735bcd9896a1b0"
+          }
+        ]
+      },
+      "boundary_pair_seed2026111512": {
+        "selected_epoch": 300,
+        "selection": [
+          {
+            "epoch": 0,
+            "gains": [
+              0.0,
+              0.0
+            ],
+            "mean_gain": 0.0,
+            "eligible": true
+          },
+          {
+            "epoch": 50,
+            "gains": [
+              0.0047781569965870685,
+              -0.0003412969283276279
+            ],
+            "mean_gain": 0.0022184300341297203,
+            "eligible": false
+          },
+          {
+            "epoch": 100,
+            "gains": [
+              0.005802047781569952,
+              0.0034129692832765013
+            ],
+            "mean_gain": 0.004607508532423227,
+            "eligible": true
+          },
+          {
+            "epoch": 200,
+            "gains": [
+              0.0010238907849829393,
+              0.002047781569965823
+            ],
+            "mean_gain": 0.0015358361774743812,
+            "eligible": true
+          },
+          {
+            "epoch": 300,
+            "gains": [
+              0.006484641638225264,
+              0.0034129692832765013
+            ],
+            "mean_gain": 0.0049488054607508825,
+            "eligible": true
+          }
+        ],
+        "inner_fits": [
+          {
+            "path": "fits/D3_held0_boundary_pair_seed2026111512_inner0",
+            "fit_sha256": "c965eaed31f02d46833e02fc8efad36d377d2a1b1efbb1011308e06fa73f5380",
+            "curve_sha256": "0d64f854c1127c775a0e8d6761e0afda44078bae3747a59f7ee2d4f8a285dc2a",
+            "weights_sha256": "876f8f542aa2c1f14fee18b72d5f9d3bf986edd3d8cb3547c4b6b1e0cc19917b",
+            "normalization_sha256": "a5e9c200bb4540f042d670c1b7ff7873bcdbd6304af63ee374b16b6a07f07cbf"
+          },
+          {
+            "path": "fits/D3_held0_boundary_pair_seed2026111512_inner1",
+            "fit_sha256": "00d7d9d2af9542654dd7e7e0a3e87c7c200929078235cd5d930ca4529d5cf30e",
+            "curve_sha256": "8b89da57506823bb2b3d93ec4d7a11f5ed33e3e502548ceeac50408bf2a772c4",
+            "weights_sha256": "6161e9777d34dd4a8311bc62cd8ff63fc3d73d20b1989662b87f46e93dc208b9",
+            "normalization_sha256": "c6d613889c715a5bc803f921f2ec84e11c0177bf0272a6cfaa735bcd9896a1b0"
+          }
+        ]
+      }
+    },
+    "D3_held1": {
+      "boundary_context_seed2026111511": {
+        "selected_epoch": 0,
+        "selection": [
+          {
+            "epoch": 0,
+            "gains": [
+              0.0,
+              0.0
+            ],
+            "mean_gain": 0.0,
+            "eligible": true
+          },
+          {
+            "epoch": 50,
+            "gains": [
+              -0.0006825938566553114,
+              -0.0013651877133105117
+            ],
+            "mean_gain": -0.0010238907849829115,
+            "eligible": false
+          },
+          {
+            "epoch": 100,
+            "gains": [
+              -0.0023890784982935065,
+              -0.002047781569965823
+            ],
+            "mean_gain": -0.0022184300341296648,
+            "eligible": false
+          },
+          {
+            "epoch": 200,
+            "gains": [
+              -0.005802047781569952,
+              -0.002730375426621079
+            ],
+            "mean_gain": -0.004266211604095516,
+            "eligible": false
+          },
+          {
+            "epoch": 300,
+            "gains": [
+              -0.007508532423208203,
+              -0.0013651877133104562
+            ],
+            "mean_gain": -0.0044368600682593295,
+            "eligible": false
+          }
+        ],
+        "inner_fits": [
+          {
+            "path": "fits/D3_held1_boundary_context_seed2026111511_inner0",
+            "fit_sha256": "8e253ccb359cb740b2027981c77a5bdf28b86118300942f01c3c4478ccb02c51",
+            "curve_sha256": "52d2a31e423d851edc938413f849af9a12788ab7618d85853c274015c6c49064",
+            "weights_sha256": "5ab27c6200376f59fbd45fdc3d24916d9f9f61bbded3f8e078446b1d0400d75d",
+            "normalization_sha256": "79c28cd576e4643b112dbef77e10e57cc81635cef93c727319212a2e10865874"
+          },
+          {
+            "path": "fits/D3_held1_boundary_context_seed2026111511_inner1",
+            "fit_sha256": "ee38de8bb19732fe4ad60adb7b22b4a5ac298cf3729188f7e2397a5e2c2e76c1",
+            "curve_sha256": "eb1a90c49a2705276a23fde2dc3a94802dd169a88ac8822e68d9e744553e4daa",
+            "weights_sha256": "b44555b3157f4043b5991ead49707ff84a818439d9cf50f0085bb349aed0ec65",
+            "normalization_sha256": "e92556b51d29a7e0ac5c03161e0f0245a3dead4fafcf3f1a5018f735cf581746"
+          }
+        ]
+      },
+      "boundary_context_seed2026111512": {
+        "selected_epoch": 0,
+        "selection": [
+          {
+            "epoch": 0,
+            "gains": [
+              0.0,
+              0.0
+            ],
+            "mean_gain": 0.0,
+            "eligible": true
+          },
+          {
+            "epoch": 50,
+            "gains": [
+              -0.0023890784982935065,
+              0.0003412969283276279
+            ],
+            "mean_gain": -0.0010238907849829393,
+            "eligible": false
+          },
+          {
+            "epoch": 100,
+            "gains": [
+              -0.0034129692832765013,
+              -0.0017064846416381951
+            ],
+            "mean_gain": -0.002559726962457348,
+            "eligible": false
+          },
+          {
+            "epoch": 200,
+            "gains": [
+              -0.004095563139931757,
+              -0.0030716723549487623
+            ],
+            "mean_gain": -0.0035836177474402597,
+            "eligible": false
+          },
+          {
+            "epoch": 300,
+            "gains": [
+              -0.0017064846416381951,
+              -0.0006825938566552003
+            ],
+            "mean_gain": -0.0011945392491466977,
+            "eligible": false
+          }
+        ],
+        "inner_fits": [
+          {
+            "path": "fits/D3_held1_boundary_context_seed2026111512_inner0",
+            "fit_sha256": "423f22a2698329931b4233c0f9d651fd92bc427199181f18a31021b85899305d",
+            "curve_sha256": "a467f2969e5a3c731c932f85be22689dc96de311e90eee18d0ae55bdc8b82637",
+            "weights_sha256": "2d56bdf37933ef7634db4efdaf86e67474dfcc2b39dc670bee36dc6a5ef2ce9d",
+            "normalization_sha256": "79c28cd576e4643b112dbef77e10e57cc81635cef93c727319212a2e10865874"
+          },
+          {
+            "path": "fits/D3_held1_boundary_context_seed2026111512_inner1",
+            "fit_sha256": "4fb917136724b19d9d7696e7345e16ebc0423a0e21c22ac4829a0c46e1f67d3e",
+            "curve_sha256": "d931adb0300016e1a29a8973f9b8ee2bde6418b5905214fdc0761e3c2d76cfda",
+            "weights_sha256": "2fa7886c515544d75f499897703a336dbe8e1a204f8ab64ab64af8fbe6a49b73",
+            "normalization_sha256": "e92556b51d29a7e0ac5c03161e0f0245a3dead4fafcf3f1a5018f735cf581746"
+          }
+        ]
+      },
+      "boundary_pair_seed2026111511": {
+        "selected_epoch": 0,
+        "selection": [
+          {
+            "epoch": 0,
+            "gains": [
+              0.0,
+              0.0
+            ],
+            "mean_gain": 0.0,
+            "eligible": true
+          },
+          {
+            "epoch": 50,
+            "gains": [
+              0.0,
+              -0.0006825938566552003
+            ],
+            "mean_gain": -0.00034129692832760017,
+            "eligible": false
+          },
+          {
+            "epoch": 100,
+            "gains": [
+              -0.0003412969283276279,
+              -0.002730375426621079
+            ],
+            "mean_gain": -0.0015358361774743534,
+            "eligible": false
+          },
+          {
+            "epoch": 200,
+            "gains": [
+              -0.002389078498293562,
+              -0.0047781569965869575
+            ],
+            "mean_gain": -0.0035836177474402597,
+            "eligible": false
+          },
+          {
+            "epoch": 300,
+            "gains": [
+              -0.004095563139931757,
+              -0.0037542662116040737
+            ],
+            "mean_gain": -0.003924914675767915,
+            "eligible": false
+          }
+        ],
+        "inner_fits": [
+          {
+            "path": "fits/D3_held1_boundary_pair_seed2026111511_inner0",
+            "fit_sha256": "d4ddf2a6f1f19cf6a4c9ab494e6587ad5139f70fee3eb9c0427cfbf359db584d",
+            "curve_sha256": "1b866ad45b450c4c6068edf237fbd790fbc19d1190636dbb81f8a11e9bac31ee",
+            "weights_sha256": "9797c9c606efe90e770c9035ac5595f336942113663799f3e665e04f569322b7",
+            "normalization_sha256": "79c28cd576e4643b112dbef77e10e57cc81635cef93c727319212a2e10865874"
+          },
+          {
+            "path": "fits/D3_held1_boundary_pair_seed2026111511_inner1",
+            "fit_sha256": "5765154eedb9b481870833ff77758552cb10f564d58c9c0a5f75a6416166e57e",
+            "curve_sha256": "10f26605349c67fb627e3ca46c9ff28ce1e538c8da25b3e8bd49dde61f5d3a64",
+            "weights_sha256": "eb7c9260675c9f19e1dd79ff959b792c6bade34f3ebd5e2a88322577b14ba39b",
+            "normalization_sha256": "e92556b51d29a7e0ac5c03161e0f0245a3dead4fafcf3f1a5018f735cf581746"
+          }
+        ]
+      },
+      "boundary_pair_seed2026111512": {
+        "selected_epoch": 0,
+        "selection": [
+          {
+            "epoch": 0,
+            "gains": [
+              0.0,
+              0.0
+            ],
+            "mean_gain": 0.0,
+            "eligible": true
+          },
+          {
+            "epoch": 50,
+            "gains": [
+              -0.0003412969283276279,
+              -0.0006825938566552003
+            ],
+            "mean_gain": -0.0005119453924914141,
+            "eligible": false
+          },
+          {
+            "epoch": 100,
+            "gains": [
+              0.0,
+              -0.004095563139931702
+            ],
+            "mean_gain": -0.002047781569965851,
+            "eligible": false
+          },
+          {
+            "epoch": 200,
+            "gains": [
+              -0.004095563139931757,
+              -0.004095563139931702
+            ],
+            "mean_gain": -0.004095563139931729,
+            "eligible": false
+          },
+          {
+            "epoch": 300,
+            "gains": [
+              -0.0013651877133105672,
+              -0.005119453924914641
+            ],
+            "mean_gain": -0.003242320819112604,
+            "eligible": false
+          }
+        ],
+        "inner_fits": [
+          {
+            "path": "fits/D3_held1_boundary_pair_seed2026111512_inner0",
+            "fit_sha256": "ce0ee024defeaded8b3b67cb597b54d649c334d9925a70efbaf8438d2c358adc",
+            "curve_sha256": "25d6c5780cb61b50bc5d2e47888ab832f31bb7f9a8f56cc73561c13cf9012ed4",
+            "weights_sha256": "3de8fb69208ddb459440cf3b7dd721e489f7b8921a29b6967d04b51eb81b59c4",
+            "normalization_sha256": "79c28cd576e4643b112dbef77e10e57cc81635cef93c727319212a2e10865874"
+          },
+          {
+            "path": "fits/D3_held1_boundary_pair_seed2026111512_inner1",
+            "fit_sha256": "a19fb528c2f0fc49a443277a3ac48c43b440120c8394014925abbe529aa7a4dc",
+            "curve_sha256": "bfabe5c2036622b2cb2fdb1ba07d80ba10b69edfa8500b7414f3a61ba1a33789",
+            "weights_sha256": "77a99042fa8b641631e3f8384a4cf82bb43f3bab578d2b3ecbbb100f16fd49eb",
+            "normalization_sha256": "e92556b51d29a7e0ac5c03161e0f0245a3dead4fafcf3f1a5018f735cf581746"
+          }
+        ]
+      }
+    }
+  }
+}

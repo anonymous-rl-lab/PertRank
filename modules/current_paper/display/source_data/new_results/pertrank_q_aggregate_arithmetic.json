@@ -1,0 +1,11 @@
+{
+  "old_mean": 0.39424386196960215,
+  "Q_mean": 0.39599138490971575,
+  "Q_minus_original": 0.0017475229401135994,
+  "percentage_points": 0.17475229401135994,
+  "relative_percent": 0.44325939061756164,
+  "members_per_10": 0.017475229401135994,
+  "overall_interval": "not computed",
+  "positive_source_estimates": 3,
+  "source_conditional_intervals_above_zero": 1
+}

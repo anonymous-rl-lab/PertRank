@@ -3,12 +3,12 @@
   "created_utc": "2026-10-14T01:39:04.166734+00:00",
   "archive_scope_limit": "Restored old Code ZIP contains only Rest rank100 rep0 RUNNING and two independent rank20 COMPLETE pilot reports; no old Nscaled fit/evaluation reports. This archive is an earlier checkpoint, not proof that later fits were never done. Original rank100 D4 average +0.036642 comes from the historical summary reported by root and has no restored matched per-fit record here.",
   "old_code_archive": {
-    "path": "/workspace/scratch/9bb77e8faf2b/resume_20261014/PertRank_External_Benchmark_Code_20261012.zip",
+    "path": "/anonymous/workspace/resume_20261014/PertRank_External_Benchmark_Code_20261012.zip",
     "sha256": "4fd26eaff043a8cd3077f59acc6c558434ef3cd03dbb1d9b2ba8336d115fac9f"
   },
   "old_report_evidence": [
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D4_Rest/rank100_default_lasso_rep0/fit_report.json",
+      "path": "/anonymous/workspace/fr_benchmark/fr_outputs/D4_Rest/rank100_default_lasso_rep0/fit_report.json",
       "sha256": "b0f80687df701f9189dd8e5d1d048505d61e5068ca809f639a8acfd3c2b74f08",
       "status": "RUNNING",
       "parameters": {
@@ -21,7 +21,7 @@
       }
     },
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D4_Stim_independent/default_rep0/fit_report.json",
+      "path": "/anonymous/workspace/fr_benchmark/fr_outputs/D4_Stim_independent/default_rep0/fit_report.json",
       "sha256": "c9f866fb469d639ed593c7ea9cfc6d3750b1a274658ed5f3b827771733797c55",
       "status": "COMPLETE",
       "parameters": {
@@ -34,7 +34,7 @@
       }
     },
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D4_Stim_independent/default_rep0_memorycheck/fit_report.json",
+      "path": "/anonymous/workspace/fr_benchmark/fr_outputs/D4_Stim_independent/default_rep0_memorycheck/fit_report.json",
       "sha256": "d7729e3d42d9c43e7a3cec5f4b3d421ac9fdf17482c7b5c5f3b387ecd498b656",
       "status": "COMPLETE",
       "parameters": {
@@ -48,18 +48,18 @@
     }
   ],
   "frozen_primary_winner": {
-    "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/FR_D3_WINNER_LOCK.json",
+    "path": "/anonymous/workspace/fr_benchmark/FR_D3_WINNER_LOCK.json",
     "sha256": "3b03f312908d7fbad7a84ae8fd1dff29fefb7e7319e95aa9144108cd7a1b8e18"
   },
   "frozen_Nscaled_protocol": {
-    "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/AMENDMENT_04_FR_EFFECTIVE_PENALTY.json",
+    "path": "/anonymous/workspace/fr_benchmark/AMENDMENT_04_FR_EFFECTIVE_PENALTY.json",
     "sha256": "8e8d61122a445792432752f9d16d7d34ec99ab6e71313b80b121a494ceeec67d"
   },
   "historical_known_completed": [
     {
       "scope": "Original D3 21-grid",
       "evidence": {
-        "path": "/workspace/scratch/9bb77e8faf2b/resume_20261014/PertRank_FR_D3_All21_Compact_20261012.zip",
+        "path": "/anonymous/workspace/resume_20261014/PertRank_FR_D3_All21_Compact_20261012.zip",
         "sha256": "09470b749c06edab89fdf3e42c5204398c8a910727b807d3e3a058ff79fca91e"
       },
       "rerun_this_continuation": false
@@ -68,7 +68,7 @@
       "scope": "Independent rank20 pilot and memory-equivalence repeat",
       "evidence": [
         {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D4_Stim_independent/default_rep0/fit_report.json",
+          "path": "/anonymous/workspace/fr_benchmark/fr_outputs/D4_Stim_independent/default_rep0/fit_report.json",
           "sha256": "c9f866fb469d639ed593c7ea9cfc6d3750b1a274658ed5f3b827771733797c55",
           "status": "COMPLETE",
           "parameters": {
@@ -81,7 +81,7 @@
           }
         },
         {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D4_Stim_independent/default_rep0_memorycheck/fit_report.json",
+          "path": "/anonymous/workspace/fr_benchmark/fr_outputs/D4_Stim_independent/default_rep0_memorycheck/fit_report.json",
           "sha256": "d7729e3d42d9c43e7a3cec5f4b3d421ac9fdf17482c7b5c5f3b387ecd498b656",
           "status": "COMPLETE",
           "parameters": {
@@ -108,9 +108,9 @@
       "lasso_alpha": 0.0001,
       "seed": 20261012,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep0",
+        "input_directory": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep0",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep0/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep0/INPUT_AUDIT.json",
           "sha256": "96ec84b20047f3726bf4a241d76902373f30333db68fab7ae30d861f9646852f"
         },
         "recorded_input_hashes": {
@@ -122,11 +122,11 @@
       "classification": "CURRENT_RUN_COMPLETED_FIXED_CONFIGURATION_NOT_NEW_INDEPENDENT_VALIDATION",
       "historical_completion": "PRIOR_SUMMARY_REPORTED_BY_ROOT_NO_MATCHED_HISTORICAL_PER_FIT_COMPLETION_IN_RESTORED_ARCHIVE",
       "report": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep0/fit_report.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep0/fit_report.json",
         "sha256": "e8c5ad9beb73212fbf69ba2610a0ddfdd768f418c097ba125a7f8e000ff2af3d"
       },
       "compact_manifest": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_compact/D4_Rest/rank100_default_lasso_rep0/COMPACT_MANIFEST.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/fr_compact/D4_Rest/rank100_default_lasso_rep0/COMPACT_MANIFEST.json",
         "sha256": "ce251a612b85040f4225b7591b077e409b77ade66a39a82c4d3b5a246355c009"
       },
       "effects_sha256": "d5f2ba4e60fe172d5ea36cef2dcaabd69bebdc598f3b304611520e09d7ce9490",
@@ -141,9 +141,9 @@
       "lasso_alpha": 0.0001,
       "seed": 20261013,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep1",
+        "input_directory": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep1",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep1/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep1/INPUT_AUDIT.json",
           "sha256": "1231c66bab02b78ab79a3d5867b5159eb2154c5775eb2f499688c137b0cad502"
         },
         "recorded_input_hashes": {
@@ -155,11 +155,11 @@
       "classification": "CURRENT_RUN_COMPLETED_FIXED_CONFIGURATION_NOT_NEW_INDEPENDENT_VALIDATION",
       "historical_completion": "PRIOR_SUMMARY_REPORTED_BY_ROOT_NO_MATCHED_HISTORICAL_PER_FIT_COMPLETION_IN_RESTORED_ARCHIVE",
       "report": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep1/fit_report.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep1/fit_report.json",
         "sha256": "eaea720b73d859e2e5e2c9f25a3ea92ab246e1f440209200b8488a4c685c17c1"
       },
       "compact_manifest": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_compact/D4_Rest/rank100_default_lasso_rep1/COMPACT_MANIFEST.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/fr_compact/D4_Rest/rank100_default_lasso_rep1/COMPACT_MANIFEST.json",
         "sha256": "a80ade73567dc33aa03a41b526281c8ef60c68100ddae0caa453a72b8931c0ef"
       },
       "effects_sha256": "70cac6d9868718ffaf54d4ecad7e858cea4eebb563e104c6727e6fda92c922be",
@@ -174,9 +174,9 @@
       "lasso_alpha": 0.0001,
       "seed": 20261014,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep2",
+        "input_directory": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep2",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep2/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep2/INPUT_AUDIT.json",
           "sha256": "579c971e911522aa70ef852a41ff089c7aee712dc82b2672a9731a665bf21556"
         },
         "recorded_input_hashes": {
@@ -188,11 +188,11 @@
       "classification": "CURRENT_RUN_COMPLETED_FIXED_CONFIGURATION_NOT_NEW_INDEPENDENT_VALIDATION",
       "historical_completion": "PRIOR_SUMMARY_REPORTED_BY_ROOT_NO_MATCHED_HISTORICAL_PER_FIT_COMPLETION_IN_RESTORED_ARCHIVE",
       "report": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/replay_retry1/fr_outputs/D4_Rest/rank100_default_lasso_rep2/fit_report.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/replay_retry1/fr_outputs/D4_Rest/rank100_default_lasso_rep2/fit_report.json",
         "sha256": "1f6c1caf98e92135eaba6281c1d6f1c46e7ec9b07dea21a0c94ce7c1633b2e2c"
       },
       "compact_manifest": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/replay_retry1/fr_compact/D4_Rest/rank100_default_lasso_rep2/COMPACT_MANIFEST.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/replay_retry1/fr_compact/D4_Rest/rank100_default_lasso_rep2/COMPACT_MANIFEST.json",
         "sha256": "85391018f75eb3f181e71e3ede059212b9b4b33e7e84bda7886634729eec39c3"
       },
       "effects_sha256": "d1e8a736184a1a7598d534d8871ce32cddd503a94a6634dcc95aa9f78f6c0e66",
@@ -207,9 +207,9 @@
       "lasso_alpha": 0.0001,
       "seed": 20261015,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep3",
+        "input_directory": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep3",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep3/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep3/INPUT_AUDIT.json",
           "sha256": "7002afa99ab503903d638032d17787531a2fa92307a8a6d829d429135f807901"
         },
         "recorded_input_hashes": {
@@ -221,11 +221,11 @@
       "classification": "CURRENT_RUN_COMPLETED_FIXED_CONFIGURATION_NOT_NEW_INDEPENDENT_VALIDATION",
       "historical_completion": "PRIOR_SUMMARY_REPORTED_BY_ROOT_NO_MATCHED_HISTORICAL_PER_FIT_COMPLETION_IN_RESTORED_ARCHIVE",
       "report": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep3/fit_report.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep3/fit_report.json",
         "sha256": "e9e7297e541a54556bd958adc2b9ada30878c8732ceddac5571992e27a4602ce"
       },
       "compact_manifest": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_compact/D4_Rest/rank100_default_lasso_rep3/COMPACT_MANIFEST.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/fr_compact/D4_Rest/rank100_default_lasso_rep3/COMPACT_MANIFEST.json",
         "sha256": "e1124c884a1f15c914cc51d9dddcf1cf87d7e441e388986470827b4940a0dc71"
       },
       "effects_sha256": "3a759408b45675250d98a81768820b655506dc810d5f04a9b2f614c38d3f055a",
@@ -240,9 +240,9 @@
       "lasso_alpha": 0.0001,
       "seed": 20261016,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep4",
+        "input_directory": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep4",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep4/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep4/INPUT_AUDIT.json",
           "sha256": "840a2b1d9e8257debc62b35c6ef7f55a5b443329de5e71ad6310e79d98b0abd5"
         },
         "recorded_input_hashes": {
@@ -254,11 +254,11 @@
       "classification": "CURRENT_RUN_COMPLETED_FIXED_CONFIGURATION_NOT_NEW_INDEPENDENT_VALIDATION",
       "historical_completion": "PRIOR_SUMMARY_REPORTED_BY_ROOT_NO_MATCHED_HISTORICAL_PER_FIT_COMPLETION_IN_RESTORED_ARCHIVE",
       "report": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep4/fit_report.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/fr_outputs/D4_Rest/rank100_default_lasso_rep4/fit_report.json",
         "sha256": "0f3ff4e9e6f3fb139ff97f878850c92000a07378f2537628728ea988c1986518"
       },
       "compact_manifest": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/fr_compact/D4_Rest/rank100_default_lasso_rep4/COMPACT_MANIFEST.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/fr_compact/D4_Rest/rank100_default_lasso_rep4/COMPACT_MANIFEST.json",
         "sha256": "0c41463eb54ac4c4ba81b36fe94c0298d02fdd9736ed94aba493a23e32d97fa4"
       },
       "effects_sha256": "36842c16308e6f315d22a5044f39c7d3b778abbd8deb2eee275fea488f2e3b67",
@@ -273,9 +273,9 @@
       "lasso_alpha": 0.0001,
       "seed": 20261012,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Stim8hr/rep0",
+        "input_directory": "/anonymous/workspace/fr_benchmark/inputs/D4_Stim8hr/rep0",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Stim8hr/rep0/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/inputs/D4_Stim8hr/rep0/INPUT_AUDIT.json",
           "sha256": "767a8be0a4e9f99e58bac37b2cc760d53ba6cf1291981f80db65b8bdebdf98d7"
         },
         "recorded_input_hashes": {
@@ -287,11 +287,11 @@
       "classification": "CURRENT_RUN_COMPLETED_FIXED_CONFIGURATION_NOT_NEW_INDEPENDENT_VALIDATION",
       "historical_completion": "PRIOR_SUMMARY_REPORTED_BY_ROOT_NO_MATCHED_HISTORICAL_PER_FIT_COMPLETION_IN_RESTORED_ARCHIVE",
       "report": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep0_95a64e7d-d507-4c4c-b14d-f6d421436ebf/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep0/fit_report.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep0_95a64e7d-d507-4c4c-b14d-f6d421436ebf/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep0/fit_report.json",
         "sha256": "5f42a80a43de1ba57f1b7f9f73f34a482e416099f9e77752fa63d7153958645e"
       },
       "compact_manifest": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep0_95a64e7d-d507-4c4c-b14d-f6d421436ebf/fr_compact/D4_Stim8hr/rank100_default_lasso_rep0/COMPACT_MANIFEST.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep0_95a64e7d-d507-4c4c-b14d-f6d421436ebf/fr_compact/D4_Stim8hr/rank100_default_lasso_rep0/COMPACT_MANIFEST.json",
         "sha256": "8ee3912576e4daecf9464bbb470e1a45106cb6321666dea7257057efb260d96d"
       },
       "effects_sha256": "c57e4b49a851845c930d9b6fdee120b0efa590898eec57e096c2713cd692e237",
@@ -306,9 +306,9 @@
       "lasso_alpha": 0.0001,
       "seed": 20261013,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep1_e70899a1aa9b",
+        "input_directory": "/anonymous/workspace/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep1_e70899a1aa9b",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep1_e70899a1aa9b/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep1_e70899a1aa9b/INPUT_AUDIT.json",
           "sha256": "6dfe67bfa29b5ee226d2711deb6bdc31ccaf914b68f1cba6af06215e9f9d33a7"
         },
         "recorded_input_hashes": {
@@ -320,11 +320,11 @@
       "classification": "CURRENT_RUN_COMPLETED_FIXED_CONFIGURATION_NOT_NEW_INDEPENDENT_VALIDATION",
       "historical_completion": "PRIOR_SUMMARY_REPORTED_BY_ROOT_NO_MATCHED_HISTORICAL_PER_FIT_COMPLETION_IN_RESTORED_ARCHIVE",
       "report": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep1_5487004e-58d4-4833-bcad-0f4eb15b9c3d/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep1/fit_report.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep1_5487004e-58d4-4833-bcad-0f4eb15b9c3d/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep1/fit_report.json",
         "sha256": "4e01ad2bba6a28724a65649f9da1391f0bf0ad8c9455a1146de64aa18109059c"
       },
       "compact_manifest": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep1_5487004e-58d4-4833-bcad-0f4eb15b9c3d/fr_compact/D4_Stim8hr/rank100_default_lasso_rep1/COMPACT_MANIFEST.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep1_5487004e-58d4-4833-bcad-0f4eb15b9c3d/fr_compact/D4_Stim8hr/rank100_default_lasso_rep1/COMPACT_MANIFEST.json",
         "sha256": "7d27cc0d285602bdb00fe2962f01234ed2a04f9bcb37f6973b1721e593dcc3f3"
       },
       "effects_sha256": "deb8ea98c5d014369ed090819ae390a9915b90eb4e7440be0a5c951ec2e9526a",
@@ -339,9 +339,9 @@
       "lasso_alpha": 0.0001,
       "seed": 20261014,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Stim8hr/rep2",
+        "input_directory": "/anonymous/workspace/fr_benchmark/inputs/D4_Stim8hr/rep2",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Stim8hr/rep2/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/inputs/D4_Stim8hr/rep2/INPUT_AUDIT.json",
           "sha256": "b7289d78fbdc4225f3108b2ec85b4fa0eed40cff63a257503245f973410fad7b"
         },
         "recorded_input_hashes": {
@@ -353,11 +353,11 @@
       "classification": "CURRENT_RUN_COMPLETED_FIXED_CONFIGURATION_NOT_NEW_INDEPENDENT_VALIDATION",
       "historical_completion": "PRIOR_SUMMARY_REPORTED_BY_ROOT_NO_MATCHED_HISTORICAL_PER_FIT_COMPLETION_IN_RESTORED_ARCHIVE",
       "report": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep2_92d407a6-0fb8-46a3-9f18-7f0a3f84c787/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep2/fit_report.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep2_92d407a6-0fb8-46a3-9f18-7f0a3f84c787/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep2/fit_report.json",
         "sha256": "c49671ec4d6c43d9248293e3d519297e13443b54f355eb152f7328ce60d09c29"
       },
       "compact_manifest": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep2_92d407a6-0fb8-46a3-9f18-7f0a3f84c787/fr_compact/D4_Stim8hr/rank100_default_lasso_rep2/COMPACT_MANIFEST.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep2_92d407a6-0fb8-46a3-9f18-7f0a3f84c787/fr_compact/D4_Stim8hr/rank100_default_lasso_rep2/COMPACT_MANIFEST.json",
         "sha256": "8319389ec686faa0e466a367fd0fc05bc30abd3ff5945163656fb3f9bd9694c6"
       },
       "effects_sha256": "d1ed3c494ea61d61356c8887dddc6b5242ddba6f712cdc648e8323ab0e6bde3a",
@@ -372,9 +372,9 @@
       "lasso_alpha": 0.0001,
       "seed": 20261015,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep3_a68d73eb22f7/D4_Stim8hr/rep3",
+        "input_directory": "/anonymous/workspace/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep3_a68d73eb22f7/D4_Stim8hr/rep3",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep3_a68d73eb22f7/D4_Stim8hr/rep3/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep3_a68d73eb22f7/D4_Stim8hr/rep3/INPUT_AUDIT.json",
           "sha256": "d17414d9e0293d3c8e9e980c610c15b697b7ebea59eb133920ff1d8fed904ff0"
         },
         "recorded_input_hashes": {
@@ -386,11 +386,11 @@
       "classification": "CURRENT_RUN_COMPLETED_FIXED_CONFIGURATION_NOT_NEW_INDEPENDENT_VALIDATION",
       "historical_completion": "PRIOR_SUMMARY_REPORTED_BY_ROOT_NO_MATCHED_HISTORICAL_PER_FIT_COMPLETION_IN_RESTORED_ARCHIVE",
       "report": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep3_49a280e6-3ae5-4f7b-b852-8ceb39de15af/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep3/fit_report.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep3_49a280e6-3ae5-4f7b-b852-8ceb39de15af/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep3/fit_report.json",
         "sha256": "091653a4b059e17963fa80d09951642872d66aede84b2ff0dfab7de841f7a49b"
       },
       "compact_manifest": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep3_49a280e6-3ae5-4f7b-b852-8ceb39de15af/fr_compact/D4_Stim8hr/rank100_default_lasso_rep3/COMPACT_MANIFEST.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep3_49a280e6-3ae5-4f7b-b852-8ceb39de15af/fr_compact/D4_Stim8hr/rank100_default_lasso_rep3/COMPACT_MANIFEST.json",
         "sha256": "e64ad92a24848020fcf63f16a72f8766bb3d1d7f7c8711b566a27863143b06a4"
       },
       "effects_sha256": "4b8cfb1b417ad187e88275a4b11703bc08a7b29f08e8fb1020ddd75181063a90",
@@ -405,9 +405,9 @@
       "lasso_alpha": 0.0001,
       "seed": 20261016,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep4_5af7f27f176d/D4_Stim8hr/rep4",
+        "input_directory": "/anonymous/workspace/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep4_5af7f27f176d/D4_Stim8hr/rep4",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep4_5af7f27f176d/D4_Stim8hr/rep4/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep4_5af7f27f176d/D4_Stim8hr/rep4/INPUT_AUDIT.json",
           "sha256": "2ded89e50a897f89596b98308ca142c555374fa766ac5346f81107e0a8f5ff53"
         },
         "recorded_input_hashes": {
@@ -419,11 +419,11 @@
       "classification": "CURRENT_RUN_COMPLETED_FIXED_CONFIGURATION_NOT_NEW_INDEPENDENT_VALIDATION",
       "historical_completion": "PRIOR_SUMMARY_REPORTED_BY_ROOT_NO_MATCHED_HISTORICAL_PER_FIT_COMPLETION_IN_RESTORED_ARCHIVE",
       "report": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep4_dfef6ecf-f9b5-4bc2-bc71-d8a7af106204/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep4/fit_report.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep4_dfef6ecf-f9b5-4bc2-bc71-d8a7af106204/fr_outputs/D4_Stim8hr/rank100_default_lasso_rep4/fit_report.json",
         "sha256": "f9999f6b6d211ccfdc1f6faddb12875cd7c5a70741fa163a28bb91a4d94d943a"
       },
       "compact_manifest": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep4_dfef6ecf-f9b5-4bc2-bc71-d8a7af106204/fr_compact/D4_Stim8hr/rank100_default_lasso_rep4/COMPACT_MANIFEST.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/D4_Stim8hr_primary_rep4_dfef6ecf-f9b5-4bc2-bc71-d8a7af106204/fr_compact/D4_Stim8hr/rank100_default_lasso_rep4/COMPACT_MANIFEST.json",
         "sha256": "2f53c5f2f65ae026f771cf717cb58c5c452f91b87324a69c87e9f4b89ffe20a7"
       },
       "effects_sha256": "5580dc56d55df74cf8c73d81613569b1fba94dfa41f8d6117a4f00dc72600e22",
@@ -438,9 +438,9 @@
       "lasso_alpha": 0.00018867924528301889,
       "seed": 20261012,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep0",
+        "input_directory": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep0",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep0/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep0/INPUT_AUDIT.json",
           "sha256": "96ec84b20047f3726bf4a241d76902373f30333db68fab7ae30d861f9646852f"
         },
         "recorded_input_hashes": {
@@ -452,11 +452,11 @@
       "classification": "CURRENT_RUN_COMPLETED_FIXED_CONFIGURATION_NOT_NEW_INDEPENDENT_VALIDATION",
       "historical_completion": "UNKNOWN_FOR_NSCALED",
       "report": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/D4_Rest_sensitivity_rep0_f0e98e6b-053e-4e4d-9b04-c0c5fb19cc7b/fr_outputs_sensitivity/D4_Rest/rank100_default_lasso_rep0/fit_report.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/D4_Rest_sensitivity_rep0_f0e98e6b-053e-4e4d-9b04-c0c5fb19cc7b/fr_outputs_sensitivity/D4_Rest/rank100_default_lasso_rep0/fit_report.json",
         "sha256": "da8d6cc5cbaab02e008d39e1708e0197be30e39d208627f3e335429d05ea9137"
       },
       "compact_manifest": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/D4_Rest_sensitivity_rep0_f0e98e6b-053e-4e4d-9b04-c0c5fb19cc7b/fr_compact_sensitivity/D4_Rest/rank100_default_lasso_rep0/COMPACT_MANIFEST.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/D4_Rest_sensitivity_rep0_f0e98e6b-053e-4e4d-9b04-c0c5fb19cc7b/fr_compact_sensitivity/D4_Rest/rank100_default_lasso_rep0/COMPACT_MANIFEST.json",
         "sha256": "a43131f9a12d67940b1acfd111bfdfdd463c5054a785f3336269257aab828761"
       },
       "effects_sha256": "d5a37a96e6f2ea7f447ab9d7ebe60671fb3e9d8ae0a7e375ac12f6d89c038dfe",
@@ -471,9 +471,9 @@
       "lasso_alpha": 0.00018867924528301889,
       "seed": 20261013,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep1",
+        "input_directory": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep1",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep1/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep1/INPUT_AUDIT.json",
           "sha256": "1231c66bab02b78ab79a3d5867b5159eb2154c5775eb2f499688c137b0cad502"
         },
         "recorded_input_hashes": {
@@ -485,11 +485,11 @@
       "classification": "CURRENT_RUN_COMPLETED_FIXED_CONFIGURATION_NOT_NEW_INDEPENDENT_VALIDATION",
       "historical_completion": "UNKNOWN_FOR_NSCALED",
       "report": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/D4_Rest_sensitivity_rep1_0d1ee448-f776-4a68-9bee-581d8cec2099/fr_outputs_sensitivity/D4_Rest/rank100_default_lasso_rep1/fit_report.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/D4_Rest_sensitivity_rep1_0d1ee448-f776-4a68-9bee-581d8cec2099/fr_outputs_sensitivity/D4_Rest/rank100_default_lasso_rep1/fit_report.json",
         "sha256": "9627a22c4b2ebd50168a07ab137438fb48cee44607cb322dff19ca5e5d0402bf"
       },
       "compact_manifest": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/D4_Rest_sensitivity_rep1_0d1ee448-f776-4a68-9bee-581d8cec2099/fr_compact_sensitivity/D4_Rest/rank100_default_lasso_rep1/COMPACT_MANIFEST.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/D4_Rest_sensitivity_rep1_0d1ee448-f776-4a68-9bee-581d8cec2099/fr_compact_sensitivity/D4_Rest/rank100_default_lasso_rep1/COMPACT_MANIFEST.json",
         "sha256": "0565a7d163bddbe8a220d134859bebe988ed5ebec5af568f193785933a9988eb"
       },
       "effects_sha256": "8dc421fcc46b743e6cb3eab7e676abca938f9f28ff9b1d881db2874d6506642b",
@@ -520,7 +520,7 @@
       "fits": 3,
       "status": "COMPLETE",
       "evidence": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/RANK_BOUNDARY_EXECUTION.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/RANK_BOUNDARY_EXECUTION.json",
         "sha256": "c054b0f444360b00ebb2a524bc5a73011102c1cc2ba687e13139a05dedaffc24"
       }
     },
@@ -529,7 +529,7 @@
       "fits": 6,
       "status": "COMPLETE",
       "evidence": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/DEPTH_VERIFIED_OUTPUT_PATHS.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/DEPTH_VERIFIED_OUTPUT_PATHS.json",
         "sha256": "0d592f0a3626be19416a8b50ce1922fa511a27fa8979cf5860da17861ea72c6e"
       },
       "independent_donor_replication": false
@@ -539,7 +539,7 @@
       "planned_fits": 10,
       "status": "IN_PROGRESS_ONLY_NEW_FITS_CONTINUE",
       "evidence": {
-        "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/expanded_rank_transfer/POSTHOC_EXPANDED_RANK_WINNER.json",
+        "path": "/anonymous/workspace/fr_benchmark/resume_20261014/expanded_rank_transfer/POSTHOC_EXPANDED_RANK_WINNER.json",
         "sha256": "9f6180331c52b334782f6a5c4951a40e80164a210118b6d7b5a0475de0ed062a"
       }
     }
@@ -554,9 +554,9 @@
       "lasso_alpha": 0.0001,
       "seed": 20261012,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/recovery_20261014/repaired_inputs/independent_ad20633fc2f9",
+        "input_directory": "/anonymous/workspace/fr_benchmark/recovery_20261014/repaired_inputs/independent_ad20633fc2f9",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/recovery_20261014/repaired_inputs/independent_ad20633fc2f9/PREPARATION.json",
+          "path": "/anonymous/workspace/fr_benchmark/recovery_20261014/repaired_inputs/independent_ad20633fc2f9/PREPARATION.json",
           "sha256": "28cc10d274cf36ab6b51df26f1afd0d71363e7110220b937c1e2eab2aba1b2a7"
         },
         "recorded_input_hashes": {}
@@ -575,9 +575,9 @@
       "lasso_alpha": 0.00018867924528301889,
       "seed": 20261014,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep2",
+        "input_directory": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep2",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep2/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep2/INPUT_AUDIT.json",
           "sha256": "579c971e911522aa70ef852a41ff089c7aee712dc82b2672a9731a665bf21556"
         },
         "recorded_input_hashes": {
@@ -600,9 +600,9 @@
       "lasso_alpha": 0.00018867924528301889,
       "seed": 20261015,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep3",
+        "input_directory": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep3",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep3/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep3/INPUT_AUDIT.json",
           "sha256": "7002afa99ab503903d638032d17787531a2fa92307a8a6d829d429135f807901"
         },
         "recorded_input_hashes": {
@@ -625,9 +625,9 @@
       "lasso_alpha": 0.00018867924528301889,
       "seed": 20261016,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep4",
+        "input_directory": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep4",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Rest/rep4/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/inputs/D4_Rest/rep4/INPUT_AUDIT.json",
           "sha256": "840a2b1d9e8257debc62b35c6ef7f55a5b443329de5e71ad6310e79d98b0abd5"
         },
         "recorded_input_hashes": {
@@ -650,9 +650,9 @@
       "lasso_alpha": 0.00019667170953101363,
       "seed": 20261012,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Stim8hr/rep0",
+        "input_directory": "/anonymous/workspace/fr_benchmark/inputs/D4_Stim8hr/rep0",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Stim8hr/rep0/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/inputs/D4_Stim8hr/rep0/INPUT_AUDIT.json",
           "sha256": "767a8be0a4e9f99e58bac37b2cc760d53ba6cf1291981f80db65b8bdebdf98d7"
         },
         "recorded_input_hashes": {
@@ -675,9 +675,9 @@
       "lasso_alpha": 0.00019667170953101363,
       "seed": 20261013,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep1_e70899a1aa9b",
+        "input_directory": "/anonymous/workspace/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep1_e70899a1aa9b",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep1_e70899a1aa9b/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep1_e70899a1aa9b/INPUT_AUDIT.json",
           "sha256": "6dfe67bfa29b5ee226d2711deb6bdc31ccaf914b68f1cba6af06215e9f9d33a7"
         },
         "recorded_input_hashes": {
@@ -700,9 +700,9 @@
       "lasso_alpha": 0.00019667170953101363,
       "seed": 20261014,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Stim8hr/rep2",
+        "input_directory": "/anonymous/workspace/fr_benchmark/inputs/D4_Stim8hr/rep2",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D4_Stim8hr/rep2/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/inputs/D4_Stim8hr/rep2/INPUT_AUDIT.json",
           "sha256": "b7289d78fbdc4225f3108b2ec85b4fa0eed40cff63a257503245f973410fad7b"
         },
         "recorded_input_hashes": {
@@ -725,9 +725,9 @@
       "lasso_alpha": 0.00019667170953101363,
       "seed": 20261015,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep3_a68d73eb22f7/D4_Stim8hr/rep3",
+        "input_directory": "/anonymous/workspace/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep3_a68d73eb22f7/D4_Stim8hr/rep3",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep3_a68d73eb22f7/D4_Stim8hr/rep3/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep3_a68d73eb22f7/D4_Stim8hr/rep3/INPUT_AUDIT.json",
           "sha256": "d17414d9e0293d3c8e9e980c610c15b697b7ebea59eb133920ff1d8fed904ff0"
         },
         "recorded_input_hashes": {
@@ -750,9 +750,9 @@
       "lasso_alpha": 0.00019667170953101363,
       "seed": 20261016,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep4_5af7f27f176d/D4_Stim8hr/rep4",
+        "input_directory": "/anonymous/workspace/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep4_5af7f27f176d/D4_Stim8hr/rep4",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep4_5af7f27f176d/D4_Stim8hr/rep4/INPUT_AUDIT.json",
+          "path": "/anonymous/workspace/fr_benchmark/recovery_20261014/repaired_inputs/Stimrep4_5af7f27f176d/D4_Stim8hr/rep4/INPUT_AUDIT.json",
           "sha256": "2ded89e50a897f89596b98308ca142c555374fa766ac5346f81107e0a8f5ff53"
         },
         "recorded_input_hashes": {
@@ -775,9 +775,9 @@
       "lasso_alpha": 0.00026262626262626266,
       "seed": 20261012,
       "source": {
-        "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/recovery_20261014/repaired_inputs/independent_ad20633fc2f9",
+        "input_directory": "/anonymous/workspace/fr_benchmark/recovery_20261014/repaired_inputs/independent_ad20633fc2f9",
         "audit": {
-          "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/recovery_20261014/repaired_inputs/independent_ad20633fc2f9/PREPARATION.json",
+          "path": "/anonymous/workspace/fr_benchmark/recovery_20261014/repaired_inputs/independent_ad20633fc2f9/PREPARATION.json",
           "sha256": "28cc10d274cf36ab6b51df26f1afd0d71363e7110220b937c1e2eab2aba1b2a7"
         },
         "recorded_input_hashes": {}

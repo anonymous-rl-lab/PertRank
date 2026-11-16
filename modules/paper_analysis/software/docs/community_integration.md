@@ -53,4 +53,4 @@ This is a submission specification, not a validated `meta.yaml`: unresolved iden
 
 ## Public handoff sequence
 
-Finalize rights, attribution and maintainership; release the tested standalone package; verify installation from the selected registry; submit the ecosystem registration; then discuss the scoped pertpy contribution. These are separate deliverables, each with its own acceptance decision. The current private review package establishes the installable and testable implementation before those public actions.
+Finalize rights, attribution and maintainership; release the tested standalone package; verify installation from the selected registry; submit the ecosystem registration; then discuss the scoped pertpy contribution. These are separate deliverables, each with its own acceptance decision. This anonymous review source does not claim ecosystem acceptance or perform public release actions.

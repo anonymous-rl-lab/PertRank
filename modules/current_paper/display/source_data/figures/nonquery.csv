@@ -1,0 +1,4 @@
+setting,quantity,point,lower_95,upper_95
+"Replogle, non-query genes",value,0.0103,0.0048,0.0167
+"D3, non-query genes",value,0.046,0.0324,0.0595
+"D4 Stim, suppression subset",value,0.015949,0.014187,0.018429

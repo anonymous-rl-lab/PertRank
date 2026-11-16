@@ -1,0 +1,43 @@
+{
+  "objective": "rank_scale",
+  "seed": 2026111512,
+  "epochs": 300,
+  "k": 10,
+  "source_specific": true,
+  "training_target_ids": [
+    "ENSG00000160224",
+    "ENSG00000166454",
+    "ENSG00000087152",
+    "ENSG00000171634",
+    "ENSG00000117505",
+    "ENSG00000114861",
+    "ENSG00000010818",
+    "ENSG00000127124",
+    "ENSG00000185811",
+    "ENSG00000125347",
+    "ENSG00000126456",
+    "ENSG00000127528",
+    "ENSG00000119138",
+    "ENSG00000050344",
+    "ENSG00000109320",
+    "ENSG00000077150",
+    "ENSG00000171862",
+    "ENSG00000125826",
+    "ENSG00000143379",
+    "ENSG00000170581",
+    "ENSG00000168610",
+    "ENSG00000126561",
+    "ENSG00000173757",
+    "ENSG00000073861",
+    "ENSG00000118503",
+    "ENSG00000106261",
+    "ENSG00000176472",
+    "ENSG00000173875"
+  ],
+  "validation_target_ids": null,
+  "duration_seconds": 3.746541227999842,
+  "parameters": 129,
+  "inner_checkpoint_epochs": [
+    300
+  ]
+}

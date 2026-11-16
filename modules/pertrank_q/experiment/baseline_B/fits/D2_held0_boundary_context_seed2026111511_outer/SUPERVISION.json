@@ -1,0 +1,14 @@
+{
+  "queries": 289,
+  "k": 10,
+  "edge_count": 2090,
+  "structural_edge_count": 2312,
+  "structural_band_mass": 2312.0,
+  "total_confidence_weight": 961.4889498552049,
+  "correct_confidence_weight": 477.3999390336836,
+  "wrong_confidence_weight": 484.08901082152084,
+  "tied_confidence_weight": 0.0,
+  "denominator": 2312.0,
+  "reference_identity": "Empirical donor-bootstrap TopK membership stability, not latent truth",
+  "support_float64_sha256": "c451f13a92c4bad164db532ca6cebad526b5363c03078452c25df0b1a3664139"
+}

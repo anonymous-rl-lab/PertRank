@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "training_performed": false,
+  "model_selection_performed": false,
+  "all_sensitivity_results_reproduced": true,
+  "case_array_bytes_identical": true,
+  "exact_multinomial_mass_sum": "1",
+  "exact_unique_cases": 100,
+  "independent_statistic_checks": 432,
+  "independent_maximum_numeric_difference": 3.3306690738754696e-16,
+  "original_results_sha256": "42301c7b33e9ec91894b05583d3aeaf7a2329e8b09a810e872846830d6396d27",
+  "case_array_sha256": "b9acb00626873def398986f554b1995e116abac030b0c75bd57fbd2811407721",
+  "temporary_replay_removed": true,
+  "note": "Only fresh protocol timestamps and their hash differ; no change to original model scores, main results, or selection."
+}

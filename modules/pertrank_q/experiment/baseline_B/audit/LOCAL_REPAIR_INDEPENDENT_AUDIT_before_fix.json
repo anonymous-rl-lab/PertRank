@@ -1,0 +1,12 @@
+{
+  "synthetic_only": true,
+  "trials": 200,
+  "baseline_identity": true,
+  "candidate_permutation_equivariance": true,
+  "self_exclusion": true,
+  "fixed_mass_10": true,
+  "core_and_cap_constraints": true,
+  "independent_reference_max_difference": 2.220446049250313e-16,
+  "production_function": "local_repair_probe.repair",
+  "passed": true
+}

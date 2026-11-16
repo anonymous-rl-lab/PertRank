@@ -1,0 +1,107 @@
+{
+  "created_utc": "2026-11-15T10:22:13.207041+00:00",
+  "arms": [
+    "old_B",
+    "B_joint_selection",
+    "B_rank_scale",
+    "B_rank_scale_joint"
+  ],
+  "seeds": [
+    2026111511,
+    2026111512
+  ],
+  "objectives": [
+    "frozen_scale",
+    "rank_scale"
+  ],
+  "checkpoints": [
+    0,
+    50,
+    100,
+    200,
+    300
+  ],
+  "primary_arm": "B_rank_scale_joint",
+  "primary_contrast": "B_rank_scale_joint minus old_B",
+  "source_specific": true,
+  "tasks": {
+    "D3_held0": {
+      "held": 26,
+      "calibration": 26,
+      "calibration_sha256": "4553fbdbaf55ae6227bc2912ac62cf40178c6df9db8fcd5c3c28385552f3a29d",
+      "held_features_sha256": "69dda6000642eaaadd1e51796fe4185b28b43eedce50dc40f62ad56881670b2d",
+      "evaluation_sha256": "cd999131edac932508628429b10e878d8039a2d8acb5d0d79aee6149cfbf8101",
+      "inner_split_sha256": "876cd47dfc66e9ea7b6def606e51dd308c60642359fa7a89bd4868d76197ac96"
+    },
+    "D3_held1": {
+      "held": 26,
+      "calibration": 26,
+      "calibration_sha256": "f21615110be2fe40802bf8a1791cd501d94880e6d35c8d75d89897f403b132af",
+      "held_features_sha256": "6fa038670438673f2869e47a993423d2c325d27da131b30ef6a462e4020511f3",
+      "evaluation_sha256": "c6b95b55211d7c32ef0ce79f4bfc1be0db9f3ab7d5af7a21f94f67dbe0cdf809",
+      "inner_split_sha256": "91f68db6f24b3a2238902433ff13f7e90b2452951183f0f5a50b588ac7d7f854"
+    },
+    "D1_held0": {
+      "held": 32,
+      "calibration": 27,
+      "calibration_sha256": "9868fe796f71783ee0495a7b2d7f5bbbf4bdf444b241a43e20f96c87060932a0",
+      "held_features_sha256": "ec9c5aa135338954eca6b329e635ff04e532c17aab117193ca73f9f1f5500737",
+      "evaluation_sha256": "4489531d7d27a5456fee0b13aa72651d00d97c4fefe57dd5c85ded6593a26b2d",
+      "inner_split_sha256": "d1fa54ea9afee21d1c0dc6696ff8119648cee90b15db20bf52b2f5dc006a73ac"
+    },
+    "D1_held1": {
+      "held": 27,
+      "calibration": 32,
+      "calibration_sha256": "d20898b66dc1dffee0dfaacd99cb97fbc8e05ab40b9ea98837141164f542feff",
+      "held_features_sha256": "8acc33f299e99d0f0ddf260208d56899c38b09a771ed51b3f16538d784340a0f",
+      "evaluation_sha256": "c3d85e88a91d8ace6eb4e45524e955952db490ba53f85f477012527d4091522a",
+      "inner_split_sha256": "8a1afd75cdd315a7ce21985ad4783fded8951c847fd86e7e8065a64bb90c5a2c"
+    },
+    "D2_held0": {
+      "held": 35,
+      "calibration": 28,
+      "calibration_sha256": "6039ac6ff85a15328638b0a0ac5ee2fcebc795bfc2c80b4c6db7de0dece51c74",
+      "held_features_sha256": "945d4069c059a4e0792a2ea7ecaff024b49c4ac00f85014376464f0bc166033d",
+      "evaluation_sha256": "138ccb5f23900ed88e6da6f670098d2b114e751460bbeef1a094b3b7b10834e3",
+      "inner_split_sha256": "9450165f66181ec9d6f6e40321a4ef1c4bc9d826c0be65dcbc81a9bba158835b"
+    },
+    "D2_held1": {
+      "held": 28,
+      "calibration": 35,
+      "calibration_sha256": "193f3b604788189cec7ea5d75e105434c7fa284fdff422908f70487fdfcb2683",
+      "held_features_sha256": "c7136527c3ca60eff1194a5eac17ce6674a4d2b36dc84bb20ec39146842f341e",
+      "evaluation_sha256": "4e2a6a5ac412da014b535c482399ee0272f317023826b387f77af029c556299c",
+      "inner_split_sha256": "f692e08f5f4545d59ce26d5f3e1cff8ce9ab93e54fb1645422af6ab3018e06f4"
+    }
+  },
+  "code_hashes": {
+    "train_optimization.py": "bc9f0f59011822e803473e8d5286fbf00481341295a9de3eee3da653980a06a3",
+    "PROTOCOL.md": "ecbee16463ed95621ad0b98671754d51790ad2496b43d16c5dacc5d8a39ad86e",
+    "EXPERIMENT_SCOPE.md": "d853eb871dfea6e1f6fc0c10b86f6bea261bd2528adc5fb2206c5807200eeefd",
+    "score_optimization.py": "2eb8e8d0413f2a23b81154c9c7f61c214706b5870231ce62b913094f9449f669",
+    "check_scoring.py": "b395f4826a18f2b49d42a2c307b4c71bfbfdd2bb26a96ba2e87e56920758c799",
+    "SCORING_CHECKS.json": "10c4466b7c69065a3a6c2e670b878b9c57fb3a2aa83fe2ac8776774cc0d854bf"
+  },
+  "base_code_hashes": {
+    "base_training.py": "24e7b4ac2261b824fba71ec317c11a9b0945e943cdde4ddfdd3d46f2ea664fcb",
+    "boundary_components.py": "de5d0220a8261262c1ba648a4f0163b532622f95fce62b8c23a6c722969dc9fb",
+    "gate_model.py": "843988708dff8f289667d88f6248731153d1f63929dd86959c344046019b1814",
+    "ranking_ops.py": "1451daefab9fdbd57f8cc2facd0e7d0aba42f7e2608e72a1c995fd977227331c",
+    "common.py": "735d05e69672d4c2227a895241a044337d328c62e1413375652eb1a4b03191da"
+  },
+  "input_hashes": {
+    "inputs/D3_neural_inputs.npz": "82a24270cd2f12f831e17dcdcf6a70986e76b31159c27d1285e3b292700cb8e1",
+    "inputs/D1_neural_inputs.npz": "bebd75b04ae05cd95a6d61f6177719b348696078eff8c00362bf55217518d6ab",
+    "inputs/D2_neural_inputs.npz": "f21ea23d78e1112df267c171abf8c0c5b6de20b3f4fad8c9f1621bc41355f6e0"
+  },
+  "base_plan_sha256": "faf0129e1844001e79c26ff689b1262ce58a2beea8b4543c7c37281b13e1b924",
+  "base_prediction_lock_sha256": {
+    "D3": "039fcb03e4d7640577cb8c75c8f52d63d705baa5497236240da2c6588b2972cb",
+    "D1": "09b33cc8d65759b34b4a804c895d0cc3cf5ce18f932714ade0bded7a98bcb38e",
+    "D2": "b077ae0f4f55f78bfb69702190c336b89c0ecbadeea88e5f7f07004f8c5937be"
+  },
+  "checks_sha256": "e6de05256ee44d98b6aec09011481af4955f1d307e84d36ffead7447b50dadb2",
+  "identity": "One exploratory 2x2 update on historically accessed references; no new-confirmation claim",
+  "no_outer_reference_read_by_training": true,
+  "torch_version": "2.15.0+cpu"
+}

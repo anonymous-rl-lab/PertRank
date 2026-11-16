@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "scope": "Documentation links and distribution integrity",
+  "repository": "https://github.com/anonymous-rl-lab/PertRank",
+  "documentation_urls": [
+    "https://github.com/anonymous-rl-lab/PertRank/blob/main/modules/paper_analysis/software/docs/scientific_design.md",
+    "https://github.com/anonymous-rl-lab/PertRank/blob/main/modules/paper_analysis/software/docs/api.md",
+    "https://github.com/anonymous-rl-lab/PertRank/blob/main/modules/paper_analysis/software/tutorials/01_replogle.ipynb"
+  ],
+  "github_file_existence": "Verified before this documentation revision",
+  "package_version": "1.6.2",
+  "changed_source_files": [
+    "MODULES.json",
+    "README.md",
+    "README_zh.md",
+    "VERSION",
+    "docs/AUDIT_zh.md",
+    "modules/paper_analysis/software/PYPI_DESCRIPTION.md",
+    "modules/paper_analysis/software/README.md",
+    "modules/paper_analysis/software/docs/release_process.md"
+  ],
+  "numerical_code_and_data_byte_identical": true,
+  "scientific_workflows_rerun": false,
+  "existing_scientific_validation": "validation/INTEGRATED_REPLAY.json",
+  "software_distribution_check": "PASS",
+  "twine_description_check": "PASS",
+  "python_sources_parse": 392,
+  "local_markdown_links_checked": 36,
+  "broken_local_links": [],
+  "project_identity_scan_text_files": 2065,
+  "project_identity_hits": [],
+  "permitted_project_link": "User-specified anonymous repository",
+  "email_added_to_payload": false,
+  "remote_publication": false
+}

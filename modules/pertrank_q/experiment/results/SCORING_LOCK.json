@@ -1,0 +1,125 @@
+{
+  "created_utc": "2026-11-15T10:24:36.739545+00:00",
+  "score_code_sha256": "2eb8e8d0413f2a23b81154c9c7f61c214706b5870231ce62b913094f9449f669",
+  "plan_sha256": "fcb8a8a1a3ac9813be91b032090307a40148053e496bedd99c5aa996dcd688dd",
+  "all_six_predictions_verified_before_reference": true,
+  "audit": {
+    "D3": {
+      "lock_sha256": "6c1fa060c1c1938ef96095f3269e2740b0f434b9d6cdbe57dae784648b10bdb9",
+      "tasks": {
+        "D3_held0": {
+          "prediction_sha256": "d437b726ac45642b1b4078bc1d8ee74cf222bcb371f879acdf9a2d5dcd072fb8",
+          "queries": 293,
+          "candidates": 26,
+          "fit_hashes_checked": true,
+          "old_B_bytewise_preserved": true,
+          "selected_epochs": {
+            "old_B_seed2026111511": 50,
+            "old_B_seed2026111512": 50,
+            "B_joint_selection_seed2026111511": 100,
+            "B_joint_selection_seed2026111512": 100,
+            "B_rank_scale_seed2026111511": 50,
+            "B_rank_scale_seed2026111512": 100,
+            "B_rank_scale_joint_seed2026111511": 100,
+            "B_rank_scale_joint_seed2026111512": 100
+          }
+        },
+        "D3_held1": {
+          "prediction_sha256": "fc2c9d407b9d19ffefe9a3813bb7c836105257ea1383e150877df171e37fab35",
+          "queries": 293,
+          "candidates": 26,
+          "fit_hashes_checked": true,
+          "old_B_bytewise_preserved": true,
+          "selected_epochs": {
+            "old_B_seed2026111511": 0,
+            "old_B_seed2026111512": 0,
+            "B_joint_selection_seed2026111511": 0,
+            "B_joint_selection_seed2026111512": 0,
+            "B_rank_scale_seed2026111511": 0,
+            "B_rank_scale_seed2026111512": 0,
+            "B_rank_scale_joint_seed2026111511": 0,
+            "B_rank_scale_joint_seed2026111512": 0
+          }
+        }
+      }
+    },
+    "D1": {
+      "lock_sha256": "35a2123e104c3caca4711d3a6e7f537cc58c7ba1cfda9eea8f4bdeac52a7e3c2",
+      "tasks": {
+        "D1_held0": {
+          "prediction_sha256": "0e011d60b2f5a2e7f3a17362d5a8a5eae0ad9298aacff52156f835fe7a4c73e5",
+          "queries": 289,
+          "candidates": 32,
+          "fit_hashes_checked": true,
+          "old_B_bytewise_preserved": true,
+          "selected_epochs": {
+            "old_B_seed2026111511": 100,
+            "old_B_seed2026111512": 200,
+            "B_joint_selection_seed2026111511": 100,
+            "B_joint_selection_seed2026111512": 100,
+            "B_rank_scale_seed2026111511": 0,
+            "B_rank_scale_seed2026111512": 50,
+            "B_rank_scale_joint_seed2026111511": 0,
+            "B_rank_scale_joint_seed2026111512": 0
+          }
+        },
+        "D1_held1": {
+          "prediction_sha256": "2f06aa31aa8b1d8ff926e4ea8dfc42e70da72edf768f4a25d0807c44ed1c2bf8",
+          "queries": 289,
+          "candidates": 27,
+          "fit_hashes_checked": true,
+          "old_B_bytewise_preserved": true,
+          "selected_epochs": {
+            "old_B_seed2026111511": 300,
+            "old_B_seed2026111512": 0,
+            "B_joint_selection_seed2026111511": 300,
+            "B_joint_selection_seed2026111512": 300,
+            "B_rank_scale_seed2026111511": 0,
+            "B_rank_scale_seed2026111512": 0,
+            "B_rank_scale_joint_seed2026111511": 0,
+            "B_rank_scale_joint_seed2026111512": 0
+          }
+        }
+      }
+    },
+    "D2": {
+      "lock_sha256": "e80ed8870836db459f9cfecfe110db5f723630db5afce0995bbda047e3d8ff32",
+      "tasks": {
+        "D2_held0": {
+          "prediction_sha256": "f4a3dcd079b709f809291055c236c00d74405701c998493885fa1833085ca52c",
+          "queries": 289,
+          "candidates": 35,
+          "fit_hashes_checked": true,
+          "old_B_bytewise_preserved": true,
+          "selected_epochs": {
+            "old_B_seed2026111511": 0,
+            "old_B_seed2026111512": 300,
+            "B_joint_selection_seed2026111511": 0,
+            "B_joint_selection_seed2026111512": 0,
+            "B_rank_scale_seed2026111511": 0,
+            "B_rank_scale_seed2026111512": 0,
+            "B_rank_scale_joint_seed2026111511": 300,
+            "B_rank_scale_joint_seed2026111512": 300
+          }
+        },
+        "D2_held1": {
+          "prediction_sha256": "753d8995dee54c883bc078e7b4522da72ee545428f4098b7a8b8ecbc1222662a",
+          "queries": 289,
+          "candidates": 28,
+          "fit_hashes_checked": true,
+          "old_B_bytewise_preserved": true,
+          "selected_epochs": {
+            "old_B_seed2026111511": 100,
+            "old_B_seed2026111512": 50,
+            "B_joint_selection_seed2026111511": 50,
+            "B_joint_selection_seed2026111512": 50,
+            "B_rank_scale_seed2026111511": 50,
+            "B_rank_scale_seed2026111512": 100,
+            "B_rank_scale_joint_seed2026111511": 50,
+            "B_rank_scale_joint_seed2026111512": 50
+          }
+        }
+      }
+    }
+  }
+}

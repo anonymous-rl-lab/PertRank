@@ -1,0 +1,351 @@
+{
+  "mechanism/D2_diagnostic_arrays.npz": {
+    "type": "npz",
+    "arrays": {
+      "quantities": {
+        "dtype": "<f8",
+        "shape": [
+          63,
+          20,
+          3,
+          10
+        ],
+        "sha256": "c3d5625f39d8fd3d6db936d78ab6f771fb49d76e3f076d74cd667c63882e0024"
+      },
+      "C_full": {
+        "dtype": "<f8",
+        "shape": [
+          63,
+          3
+        ],
+        "sha256": "2d84e7a93bfccedb544372b15851819dd4de104e7699f0f73fac3f753d971551"
+      },
+      "D_input_ref": {
+        "dtype": "<f8",
+        "shape": [
+          63,
+          3
+        ],
+        "sha256": "e35b900aac142fc98da76c61400aa34cb36040cd26c669041dd7301efe8c039f"
+      },
+      "C_input": {
+        "dtype": "<f8",
+        "shape": [
+          63,
+          3
+        ],
+        "sha256": "49fcdbac92217586f6bc699752cf79cffee1003dd0bd299718c40f1c42a0c906"
+      },
+      "S_all_input": {
+        "dtype": "<f8",
+        "shape": [
+          63,
+          3
+        ],
+        "sha256": "84f0fa2bacf114a4742138eb8c28a0e0ba98d3ca73ed27ccd6b3b0b7c7eca6b3"
+      },
+      "metrics": {
+        "dtype": "<U1",
+        "shape": [
+          3
+        ],
+        "sha256": "35774d0cf92810ce43e0a4588e5802a0910753a1539c5cb9d0535c8fafc763b9"
+      },
+      "quantity_names": {
+        "dtype": "<U26",
+        "shape": [
+          10
+        ],
+        "sha256": "f1579c3ec7e35f19a311a23ddb10dc5278ab4d29f123c9f5e9c20bfd7ec3f2fe"
+      },
+      "eligible_primary": {
+        "dtype": "|b1",
+        "shape": [
+          63
+        ],
+        "sha256": "d67b2e7a3eccd693984a622f520012ab01c313ec4aee16a270d0019a9d987f37"
+      },
+      "target_ids": {
+        "dtype": "<U15",
+        "shape": [
+          63
+        ],
+        "sha256": "faf351383022a2da3e4e22dfadf775a31d08a39170d1a107893e0acfe3d1c0f4"
+      },
+      "target_symbols": {
+        "dtype": "<U7",
+        "shape": [
+          63
+        ],
+        "sha256": "5aba8a111d849bd7581dbfbe91f79076ca38e99c4b79c4b72f6dd72cd7ed3200"
+      },
+      "reference_half_assignment": {
+        "dtype": "|i1",
+        "shape": [
+          20,
+          4880
+        ],
+        "sha256": "ade8b6c4060981213d68405f8c1b740b039ff0f0aa3106fcbb48d3266061566d"
+      },
+      "reference_offsets": {
+        "dtype": "<i8",
+        "shape": [
+          64
+        ],
+        "sha256": "7691545f5921b63e815f289c008a888781659ad5e2a00e1567cd0d5cbe015cf7"
+      },
+      "reference_cell_ids": {
+        "dtype": "<i8",
+        "shape": [
+          4880
+        ],
+        "sha256": "372135bbd765e40898ace13a4b24a639e8a3ff16612b468cf8ce852e0c6ea8e4"
+      },
+      "nu_c": {
+        "dtype": "<f8",
+        "shape": [
+          3
+        ],
+        "sha256": "10fb0439cf9d07cf7bb87f29984e5f7c2aa7614f3fbc23a261bfe759917b54ff"
+      }
+    }
+  },
+  "mechanism/D1_diagnostic_arrays.npz": {
+    "type": "npz",
+    "arrays": {
+      "quantities": {
+        "dtype": "<f8",
+        "shape": [
+          59,
+          20,
+          3,
+          10
+        ],
+        "sha256": "54a01dd49eafe37c72cc45db2b7412320cd025690698de713d9072e188b0a1f9"
+      },
+      "C_full": {
+        "dtype": "<f8",
+        "shape": [
+          59,
+          3
+        ],
+        "sha256": "afbc853716e21b4a387038fedd6aca310e5a21eaf3d3a54e34cc7efb72f09cb5"
+      },
+      "D_input_ref": {
+        "dtype": "<f8",
+        "shape": [
+          59,
+          3
+        ],
+        "sha256": "1c961c1d68733d959ecaf647c779e96f1835da9ef5359091c59b710d539007e3"
+      },
+      "C_input": {
+        "dtype": "<f8",
+        "shape": [
+          59,
+          3
+        ],
+        "sha256": "eb30cf67a57eb87a3d49bf520c5e34da8057bc8cbc42be6cbe6ac3a375d738fe"
+      },
+      "S_all_input": {
+        "dtype": "<f8",
+        "shape": [
+          59,
+          3
+        ],
+        "sha256": "087b70379c8415860470d0e5c86adb95ac3b61c5227c7fc1f94571ff89e6aa13"
+      },
+      "metrics": {
+        "dtype": "<U1",
+        "shape": [
+          3
+        ],
+        "sha256": "35774d0cf92810ce43e0a4588e5802a0910753a1539c5cb9d0535c8fafc763b9"
+      },
+      "quantity_names": {
+        "dtype": "<U26",
+        "shape": [
+          10
+        ],
+        "sha256": "f1579c3ec7e35f19a311a23ddb10dc5278ab4d29f123c9f5e9c20bfd7ec3f2fe"
+      },
+      "eligible_primary": {
+        "dtype": "|b1",
+        "shape": [
+          59
+        ],
+        "sha256": "b1b5f4c10b7778a43f4196c6c238476d18be6db67a1eb390b62c4997874dc672"
+      },
+      "target_ids": {
+        "dtype": "<U15",
+        "shape": [
+          59
+        ],
+        "sha256": "f26078cb23a90f8b1ab47d99d80361c0511d8e8ba0415389b4ae1825892e472f"
+      },
+      "target_symbols": {
+        "dtype": "<U7",
+        "shape": [
+          59
+        ],
+        "sha256": "9f5596dd676d11510ac9798e2ebc68d6dcac80d9baa0ff62e26ea5a449958695"
+      },
+      "reference_half_assignment": {
+        "dtype": "|i1",
+        "shape": [
+          20,
+          4563
+        ],
+        "sha256": "d91a0b2c7b50ac860ff95024e3662c7434afdf4bd315dfa6ef5234d5ecedbaa7"
+      },
+      "reference_offsets": {
+        "dtype": "<i8",
+        "shape": [
+          60
+        ],
+        "sha256": "8349dd9eeca78bb5019916338176734b5735970f2ea6c5168daf3c1d6071d40c"
+      },
+      "reference_cell_ids": {
+        "dtype": "<i8",
+        "shape": [
+          4563
+        ],
+        "sha256": "8a446b3476ac6e56afb8309ee140f9bb38f8775df5d965904be6c888d18f3f30"
+      },
+      "nu_c": {
+        "dtype": "<f8",
+        "shape": [
+          3
+        ],
+        "sha256": "00282bf674a5ba2d09bb0457cc5eae5f6b03d4359e6d852f92fff685f8ee815f"
+      }
+    }
+  },
+  "mechanism/target_diagnostics.csv": {
+    "type": "file",
+    "sha256": "543e4b08694a69027fd44e6c7db3952b86d5237c45786f690ecb87843d584b9d"
+  },
+  "mechanism/D3_diagnostic_arrays.npz": {
+    "type": "npz",
+    "arrays": {
+      "quantities": {
+        "dtype": "<f8",
+        "shape": [
+          52,
+          20,
+          3,
+          10
+        ],
+        "sha256": "93c071669fcc60e0c541f67882a2a7baffd51c363a86e357e641e6fae7d11a99"
+      },
+      "C_full": {
+        "dtype": "<f8",
+        "shape": [
+          52,
+          3
+        ],
+        "sha256": "f67ee732e882376e1ab2857627e3d4f3eeb89d772e125ea18aab0719b08b5eea"
+      },
+      "D_input_ref": {
+        "dtype": "<f8",
+        "shape": [
+          52,
+          3
+        ],
+        "sha256": "9462de480dbad065af7093562bd268e0e716df33248e5108e8f4864e9d7151ec"
+      },
+      "C_input": {
+        "dtype": "<f8",
+        "shape": [
+          52,
+          3
+        ],
+        "sha256": "6dbb284d4b93abaf072512661731064d01cc8b610e98bc1ff4a4d3338a8affcf"
+      },
+      "S_all_input": {
+        "dtype": "<f8",
+        "shape": [
+          52,
+          3
+        ],
+        "sha256": "993bd05363a3e577462e849b8457737f12b86fbb063e1966b6573816b54e6fd8"
+      },
+      "metrics": {
+        "dtype": "<U1",
+        "shape": [
+          3
+        ],
+        "sha256": "35774d0cf92810ce43e0a4588e5802a0910753a1539c5cb9d0535c8fafc763b9"
+      },
+      "quantity_names": {
+        "dtype": "<U26",
+        "shape": [
+          10
+        ],
+        "sha256": "f1579c3ec7e35f19a311a23ddb10dc5278ab4d29f123c9f5e9c20bfd7ec3f2fe"
+      },
+      "eligible_primary": {
+        "dtype": "|b1",
+        "shape": [
+          52
+        ],
+        "sha256": "88f16cc5e1986ea7e7145b845828496a34f4e9a2ebac2c37886cda23f85eee1c"
+      },
+      "target_ids": {
+        "dtype": "<U15",
+        "shape": [
+          52
+        ],
+        "sha256": "b47e59eab7d269750e849fd442adaacb68728e1cb40fc54d9a5b7290354a268b"
+      },
+      "target_symbols": {
+        "dtype": "<U7",
+        "shape": [
+          52
+        ],
+        "sha256": "8b43afa5d29dee7126dd3bf29aeebb2d2402f4c3458d1320c26463aa1f2f0874"
+      },
+      "reference_half_assignment": {
+        "dtype": "|i1",
+        "shape": [
+          20,
+          4284
+        ],
+        "sha256": "2d865790f5a052ddf09d9f131dfea1a08d6fb03c7d898c28b1401f9757c76eea"
+      },
+      "reference_offsets": {
+        "dtype": "<i8",
+        "shape": [
+          53
+        ],
+        "sha256": "57e22f70a246e7432834d42d1e0ea836325367d12575d76eca4d74ed6472573a"
+      },
+      "reference_cell_ids": {
+        "dtype": "<i8",
+        "shape": [
+          4284
+        ],
+        "sha256": "9385ae6693a04992d2b504e7fb732e59e6dcade9d47777e36d07e2fad69c513f"
+      },
+      "nu_c": {
+        "dtype": "<f8",
+        "shape": [
+          3
+        ],
+        "sha256": "ce310a0fd4bb91df992728fb39a0ac9ed115c40d715eaa857720efff440c8906"
+      }
+    }
+  },
+  "accounting/block_accounting.csv": {
+    "type": "file",
+    "sha256": "05d6d34799348be8bbeb0bceefccae9d6c1feb5533cb131f5bb14d96004f2cf5"
+  },
+  "accounting/target_accounting.csv": {
+    "type": "file",
+    "sha256": "b3518da567c3aaa20feab8dc047300ee5b6e09671fc16ed4035b8c514b3ef289"
+  },
+  "accounting/query_accounting.csv": {
+    "type": "file",
+    "sha256": "8392fb9b7107d079f6a05307ee5016913f3618eb4c44975fd3b6906baaa8bd18"
+  }
+}

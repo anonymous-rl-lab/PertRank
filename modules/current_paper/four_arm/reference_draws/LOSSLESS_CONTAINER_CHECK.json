@@ -1,0 +1,74 @@
+[
+  {
+    "file": "D1_batch_separate.npz",
+    "original_container_sha256": "f13e390af6df8e24f8f95bc0828acbe8081c31b75220420906cc318b564b7e72",
+    "current_container_sha256": "703d7878353eadb649581d041fc9b28fe45b8d3c4141a0c7e53cb8500b65ff13",
+    "uncompressed_npy_hashes": {
+      "definite_xor.npy": "bd3efcd9185d6ba62cba0fa5fcbd6dd7d361c714ddd4c9bc001c06cb8d5c8f5d",
+      "fractional_xor.npy": "b302a6b6270af4747231df355668222d6e5e7604b49fdc8a40c50afd0fe01c21",
+      "query_ids.npy": "80bd39feabc017203a9ebf83c7f3a1ec5b0ee1290cc1033f2b763c83849a9db7",
+      "target_ids.npy": "c75ab358753c96200ec228132fe562e7302e62da1d12ca91cbd2724cf76ef25e",
+      "source_sha256.npy": "b28063d633cbcdd42edf1513193ead910ee71219f13e6374bcb3b6bdf2bd6b04"
+    }
+  },
+  {
+    "file": "D3_shared_labels.npz",
+    "original_container_sha256": "7fd71bcb93c85c08ce5b083d413ee6b1bce95d0152d1cf09fdd99a544784adec",
+    "current_container_sha256": "fb654a9a2582325ba7a588588293b11fd1b8c94b548d5221e4e164f39f482f0e",
+    "uncompressed_npy_hashes": {
+      "definite_xor.npy": "8e8489bade4806b32bf1dcc20d11995756023e05e9e4df0c9224ced3297ed049",
+      "fractional_xor.npy": "30f7b478642294da61fad82586997ee3741f8254e1aa167c6890995c9c825f59",
+      "query_ids.npy": "68a45cf400c241130d2e6964943057bfc3edc5fbc30c3045a3078e9a3503a989",
+      "target_ids.npy": "a510c3da0e9e858040c20a9b3057aaa5ad08b61d0961511ecd4ed1cc306574ae",
+      "source_sha256.npy": "aee92d1b9ea9eebc3667aa388b3e873d5ae4418623ac555064753be15c93170b"
+    }
+  },
+  {
+    "file": "D2_batch_separate.npz",
+    "original_container_sha256": "9123a5527f3148341fc68548b86f2035a498573d79459ee04c170fd858c82980",
+    "current_container_sha256": "d7f979a365727085dc945d6d478ec2648c7de82d24fcfd82b4c2e541e836484e",
+    "uncompressed_npy_hashes": {
+      "definite_xor.npy": "7518c37407413aa28e9a71095637f8d39aa8dcc014c0f83a9176a95333a74166",
+      "fractional_xor.npy": "b302a6b6270af4747231df355668222d6e5e7604b49fdc8a40c50afd0fe01c21",
+      "query_ids.npy": "15bc2615e912cdfe3e3dccb512e1e91d7e704b25b1e9b1368597db343efa6cc8",
+      "target_ids.npy": "1a63b17b940fa3570efef2c9e1d3a42bb685dec5149ca5bee2b1180c5b1c078b",
+      "source_sha256.npy": "b28063d633cbcdd42edf1513193ead910ee71219f13e6374bcb3b6bdf2bd6b04"
+    }
+  },
+  {
+    "file": "D2_shared_labels.npz",
+    "original_container_sha256": "d2dfba675c04b9a169267f31254e23348a11dbac654e9d5a09e75f52b188d4c0",
+    "current_container_sha256": "3e706637103c09b77fdb7c253b04921489e4f2b2b789fd6bddc40cccf59bfc59",
+    "uncompressed_npy_hashes": {
+      "definite_xor.npy": "3f10f081749df39944898811413856c8a17402ac0a29fa37dc5430026e0f13ee",
+      "fractional_xor.npy": "b302a6b6270af4747231df355668222d6e5e7604b49fdc8a40c50afd0fe01c21",
+      "query_ids.npy": "15bc2615e912cdfe3e3dccb512e1e91d7e704b25b1e9b1368597db343efa6cc8",
+      "target_ids.npy": "1a63b17b940fa3570efef2c9e1d3a42bb685dec5149ca5bee2b1180c5b1c078b",
+      "source_sha256.npy": "aee92d1b9ea9eebc3667aa388b3e873d5ae4418623ac555064753be15c93170b"
+    }
+  },
+  {
+    "file": "D3_batch_separate.npz",
+    "original_container_sha256": "02aa51e3850f9bb7a8deff41870214bc5f442872cf21a4be8a99d3c89c4b4894",
+    "current_container_sha256": "7386260d5689be9abda3efed3f4150d415a4482e64741593f18d49ad69258468",
+    "uncompressed_npy_hashes": {
+      "definite_xor.npy": "7b2c6fe8ae38d0de50707bf38497fd81c7ae2c41bf8b1457aa2cebd387193053",
+      "fractional_xor.npy": "30f7b478642294da61fad82586997ee3741f8254e1aa167c6890995c9c825f59",
+      "query_ids.npy": "68a45cf400c241130d2e6964943057bfc3edc5fbc30c3045a3078e9a3503a989",
+      "target_ids.npy": "a510c3da0e9e858040c20a9b3057aaa5ad08b61d0961511ecd4ed1cc306574ae",
+      "source_sha256.npy": "b28063d633cbcdd42edf1513193ead910ee71219f13e6374bcb3b6bdf2bd6b04"
+    }
+  },
+  {
+    "file": "D1_shared_labels.npz",
+    "original_container_sha256": "fcfdda3ebfe662caf964fdede091bf5d22a40914fd10ddd2a249061aafb37c65",
+    "current_container_sha256": "78bfec6f8a3b096b5714636d7b9dec1f5adb1ab8f4ae94600c7a5ce2e910edf6",
+    "uncompressed_npy_hashes": {
+      "definite_xor.npy": "64768c639b9b45d898003bdf24b93d450c2bacafc0bcae24adef3fb3cf2b0d1d",
+      "fractional_xor.npy": "b302a6b6270af4747231df355668222d6e5e7604b49fdc8a40c50afd0fe01c21",
+      "query_ids.npy": "80bd39feabc017203a9ebf83c7f3a1ec5b0ee1290cc1033f2b763c83849a9db7",
+      "target_ids.npy": "c75ab358753c96200ec228132fe562e7302e62da1d12ca91cbd2724cf76ef25e",
+      "source_sha256.npy": "aee92d1b9ea9eebc3667aa388b3e873d5ae4418623ac555064753be15c93170b"
+    }
+  }
+]

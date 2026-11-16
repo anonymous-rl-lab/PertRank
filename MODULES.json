@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "package_version": "1.5.4",
-  "scientific_scope": "Success means the selected commands completed their declared reproduction levels. The retained v1.4 scientific implementation provides its sufficient-statistic/prediction replay; new compact modules reconstruct comparisons, uncertainty summaries and figures from archived intermediate quantities. Raw-data preprocessing and native estimator refitting are not part of the default command. Archival-only and missing-input states remain explicit.",
+  "package_version": "1.6.2",
+  "scientific_scope": "Selected workflows reproduce their declared stages from retained intermediate inputs. Current-paper four-arm and guide diagnostics supplement the core workflows. Optional PertRank-Q reconstructs checkpoint predictions and original subpool statistics without retraining. Raw-count preprocessing, native estimator refitting, and explicitly unavailable historical inputs are outside the default scope.",
   "exit_codes": {
     "0": "All selected commands completed with no explicitly partial native status. Consult declared scope and native reports for reproduction level.",
     "1": "Setup, integrity, execution, invalid/missing receipt or numerical verification failure.",
@@ -20,7 +20,7 @@
       "timeout_seconds": 600,
       "report": "VERIFICATION.json",
       "reproduction_level": "Sufficient-statistic and retained-prediction numerical replay",
-      "scope": "Existing v1.4 four-donor ranking/depth, D4 supplement and Stim, independent RNA, interactions and external-baseline replay. Native model fits and raw-cell preprocessing are not rerun."
+      "scope": "Existing retained four-donor ranking/depth, D4 supplement and Stim, independent RNA, interactions and external-baseline replay. Native model fits and raw-cell preprocessing are not rerun."
     },
     {
       "name": "early_intermediates",
@@ -75,8 +75,8 @@
       ],
       "timeout_seconds": 600,
       "report": "REPLAY_REPORT.json",
-      "reproduction_level": "Existing analysis replay and frozen-source figure regeneration",
-      "scope": "S3 post hoc analysis, biology strata, fixed-panel transfer, TRADE sensitivity, application and figures. Figure regeneration is identified separately from recomputing source experiments."
+      "reproduction_level": "Mechanism, intervention-strata, query-transfer and application numerical replay",
+      "scope": "Retained analysis inputs reconstruct S3 decomposition, biological strata, transfer, TRADE sensitivity and CTLA4 application. Current manuscript figures are rendered by current_paper."
     },
     {
       "name": "il2_intermediates",
@@ -107,6 +107,20 @@
       "scope": "Four archived sensitivity draw groups and Mixscale fixed-coefficient scores/intervals; preserves the existing definitions and does not refit coefficients."
     },
     {
+      "name": "current_paper",
+      "default": true,
+      "script": "modules/current_paper/reproduce.py",
+      "working_directory": "modules/current_paper",
+      "arguments": [
+        "--output-dir",
+        "{output}"
+      ],
+      "timeout_seconds": 600,
+      "report": "REPRODUCTION_REPORT.json",
+      "reproduction_level": "Independent-RNA four-arm ranking replay, guide diagnostic replay, current source-table figure rendering",
+      "scope": "Uses retained projected effects, reference draws, guide statistics and fixed predictions. Does not recreate raw cells or refit estimators. Figure output is separately identified as rendering from source tables."
+    },
+    {
       "name": "software",
       "default": false,
       "script": "modules/paper_analysis/reproduce.py",
@@ -123,6 +137,20 @@
       "report": "REPLAY_REPORT.json",
       "reproduction_level": "Optional software tests and tutorial smoke tests",
       "scope": "Requires a separate environment with modules/paper_analysis/software[test] installed. This verifies the software interface; it does not add biological validation."
+    },
+    {
+      "name": "pertrank_q",
+      "default": false,
+      "script": "modules/pertrank_q/reproduce.py",
+      "working_directory": "modules/pertrank_q",
+      "arguments": [
+        "--output-dir",
+        "{output}"
+      ],
+      "timeout_seconds": 1200,
+      "report": "REPRODUCTION_REPORT.json",
+      "reproduction_level": "Frozen-checkpoint inference and original query-block statistical replay",
+      "scope": "PertRank-Q/B2 retained model predictions, candidate-subpool rankings and conditional paired intervals. Starts from retained model inputs and selected checkpoints, not raw cells; training is not run. Requires optional Torch dependency. Failure and exploratory arms retain their analysis identities."
     }
   ]
 }

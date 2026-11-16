@@ -1,0 +1,11 @@
+Main-text question / display,Method and inference entry,Full results and sensitivity entry
+Control geometry and matched readouts (Fig. 1),SM1–SM5; SM6.2,SN1–SN4; SN3.1 contains all six constructions
+Held-out donor and estimator reuse (Fig. 2),SM7–SM9; SM9.6,"SN11–SN12, SN14.1–SN14.2, SN19.1–SN19.2, SN21.1"
+Independent knockout RNA (Fig. 3),"SM8.3, SM9.5, SM10; SM6.4",SN7: reference and reconstruction; SN20: native methods; SN22: four-arm design
+Directional reliability diagnostics (Fig. 4),SM4–SM5; SM8.2,"SN3.2–SN4, SN13, SN14.3, SN15–SN16"
+Input efficiency and depth (Fig. 5),SM6.5; inversion in SN10.1,"SN10–SN12, SN19.3, SN21.2; protein boundaries in SN8"
+Candidate lists and panel reuse (Fig. 6),SM3; fixed-panel design in SN17,SN16.2–SN17; complete candidate exports in Source Data
+Donor and independent-guide support,SM8.1–SM8.2; SM6.1,"SN5–SN6, SN19.4"
+Guide response versus agreement (Supplementary Fig. 6),SM11,SN23
+Reference-supervised refinement (Supplementary Fig. 7),SM12,SN24
+"Uncertainty, analysis identity and replay scope",Table SM6.1 in SM6.4; Supplementary Table 1,SN9; registration records in SN11.5 and SN14.6

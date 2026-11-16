@@ -54,7 +54,7 @@ def main():
                        check=True, env=env)
         receipts[folder] = json.loads((out / folder / receipt).read_text())
     result = {'status': 'EXTERNAL_BENCHMARK_FIXED_RESULT_REPRODUCTION_PASS',
-              'package_version': '1.4.0', 'manifest_files': n,
+              'package_version': 'review', 'manifest_files': n,
               'new_model_fits': 0, 'expression_matrices_read': False,
               'network_required': False, 'results': receipts,
               'elapsed_seconds': time.monotonic() - start}

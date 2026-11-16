@@ -1,0 +1,7 @@
+Extension,D3,D1,D2,Equal-source difference
+Mean-reference labels,-0.002133,-0.002509,+0.000519,-0.001374
+Boundary-temperature objective,-0.001451,-0.003547,-0.003893,-0.002963
+Shared-head refinement,-0.000256,-0.000519,+0.000000,-0.000258
+Protected routing,+0.000000,-0.001038,+0.000346,-0.000231
+Additional query geometry,-0.000256,-0.000173,+0.000000,-0.000143
+Mismatched query geometry,-0.000256,+0.000000,-0.000433,-0.000229

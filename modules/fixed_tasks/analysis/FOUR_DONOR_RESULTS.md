@@ -56,7 +56,7 @@ On the expression-tercile panel, the five-group PertRank-minus-Euclidean differe
 
 D4's secondary responsive-panel depth analysis places 20-cell PertRank at an unweighted ranking-input equivalent of **38.87 cells [36.10, 41.33]**; the Euclidean equivalent is **31.81 [29.02, 34.12]**. These quantities use measured depth anchors and linear interpolation. They describe conditional ranking-input equivalence, not total experimental-cell or sequencing-cost savings; interpolation on a concave curve can overestimate the crossing. D1's corrected-panel result is not paired with a historical, different-panel depth estimate here.
 
-## What this release establishes
+## What this four-donor module establishes
 
 The development comparisons show a reproducible metric increment across the tested shallow T-cell input groups. The frozen D4 analysis adds prospective same-study donor evidence both beyond Euclidean weighting and beyond the preselected Pearson-residual competitor. The benefit remains task dependent and is markedly smaller on tercile panels.
 

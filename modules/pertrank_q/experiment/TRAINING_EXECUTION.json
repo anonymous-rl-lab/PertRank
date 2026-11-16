@@ -1,0 +1,15 @@
+{
+  "inner_fits": 48,
+  "outer_unique_new_fits": 23,
+  "positive_epoch_outer_unique_new_fits": 14,
+  "new_objective_inner_fits": 24,
+  "original_B_inner_replay_fits": 24,
+  "all_original_replay_state_exact": true,
+  "all_original_replay_precision_curves_exact": true,
+  "epochs_sum": 16150,
+  "summed_fit_wall_seconds": 170.33281866487232,
+  "outer_arm_seed_slots": 48,
+  "outer_imported_slots": 18,
+  "all_six_predictions_sha256": "3252183d8ac702d8c3c88a49570b1b381c48661d3cd78dc0c9c24d7e7dc3ebb5",
+  "evaluation_performed_by_training": false
+}

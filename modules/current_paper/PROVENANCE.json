@@ -1,0 +1,47 @@
+{
+  "scope": "Current-paper supplementary calculations and display inputs, not a manuscript snapshot or raw-cell/model-training bundle.",
+  "guide_original_fresh_check": {
+    "status": "PASS",
+    "fixed_prediction_hashes_unchanged": {
+      "D3": true,
+      "D1": true,
+      "D2": true
+    },
+    "observed_numeric_tables": {
+      "mechanism/D1_diagnostic_arrays.npz": 0.0,
+      "mechanism/D2_diagnostic_arrays.npz": 0.0,
+      "mechanism/D3_diagnostic_arrays.npz": 0.0,
+      "mechanism/target_diagnostics.csv": "byte-identical",
+      "accounting/block_accounting.csv": "byte-identical",
+      "accounting/query_accounting.csv": "byte-identical",
+      "accounting/target_accounting.csv": "byte-identical"
+    },
+    "old_failed_selector_not_rerun_or_changed": true,
+    "new_method_fits": 0,
+    "offline": true,
+    "seconds": 11.983372750000854
+  },
+  "asset_reuse": "SHARED_ASSETS.json identifies byte-identical assets already retained in sibling modules; the runner materializes an output-only working copy and verifies every shared source hash.",
+  "input_archives": [
+    {
+      "role": "supervised_development",
+      "bytes": 19691014,
+      "sha256": "1952264bad07d1d5864345882419ce9b9a55fb3ef8a0aaf743bf0d89783d95a8"
+    },
+    {
+      "role": "retained_guide_diagnostic",
+      "bytes": 15507488,
+      "sha256": "d5553b3038226afd770e6ec3bf9d2ea03be704ec804b38509fee79555716eebb"
+    },
+    {
+      "role": "external_rna_four_arm",
+      "bytes": 9443286,
+      "sha256": "fe158ad2ff196381325e75ca228d9213838e21b1380f54293e60edef37821d7d"
+    },
+    {
+      "role": "core_dependency",
+      "bytes": 92229942,
+      "sha256": "a6f1ae463a49a265a453446e4f37b42fad29ddcfb9ed80ea19c39706a57daee2"
+    }
+  ]
+}

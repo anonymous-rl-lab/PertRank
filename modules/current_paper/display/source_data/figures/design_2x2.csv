@@ -1,0 +1,5 @@
+task,weight,readout,P25_display_value,provenance,precision
+D3 responsive 20 cells,Euclidean w0,Original y,0.2758,b1_design_ablation.json/cells/E4 D3 responsive 20/means/w0y,four-decimal archived display
+D3 responsive 20 cells,Euclidean w0,Compressed Ay,0.2553,b1_design_ablation.json/cells/E4 D3 responsive 20/means/w0y_AY,four-decimal archived display
+D3 responsive 20 cells,Control geometry wM,Original y,0.3114,b1_design_ablation.json/cells/E4 D3 responsive 20/means/W1,four-decimal archived display
+D3 responsive 20 cells,Control geometry wM,Compressed Ay,0.2853,b1_design_ablation.json/cells/E4 D3 responsive 20/means/wM_AY,four-decimal archived display

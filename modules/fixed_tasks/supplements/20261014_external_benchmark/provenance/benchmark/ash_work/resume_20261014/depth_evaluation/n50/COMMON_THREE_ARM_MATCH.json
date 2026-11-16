@@ -18,13 +18,13 @@
   "checks": [
     {
       "FR_specification": "A_native_default_penalty",
-      "FR_report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n50/evaluation_report.json",
+      "FR_report_path": "/anonymous/workspace/fr_benchmark/posthoc_depth_20261014/evaluation/A_native_default_penalty/n50/evaluation_report.json",
       "FR_report_sha256": "2af87462d324fa0a5eb1cac3b45ccaeb822ae50bbe589910a359c3dc79a8290a",
       "all_nine_common_arm_fingerprints_match": true
     },
     {
       "FR_specification": "B_effective_penalty_sensitivity",
-      "FR_report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n50/evaluation_report.json",
+      "FR_report_path": "/anonymous/workspace/fr_benchmark/posthoc_depth_20261014/evaluation/B_effective_penalty_sensitivity/n50/evaluation_report.json",
       "FR_report_sha256": "76450248a41b2778da4f3ad0fed2afdad1dd8f87e56c9719164df41d44473946",
       "all_nine_common_arm_fingerprints_match": true
     }

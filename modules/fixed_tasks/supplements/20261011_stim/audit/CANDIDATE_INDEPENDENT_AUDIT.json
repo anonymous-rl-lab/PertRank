@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "candidate_path": "/workspace/scratch/6cdbaefbed9f/stim_compact_20261011/stim_module_candidate",
+  "candidate_path": "/anonymous/workspace/stim_compact_20261011/stim_module_candidate",
   "source_modules_byte_identical": {
     "frozen_engine.py": "1910bf79496cebe51ec6111c6b54acd8daca3fa65c196afa471a6a425a9fb6c8",
     "stats_frozen_exact_score.py": "9f940b35031016a5287c0c4e1ce519058cc3357b8567787cc348999cb2ce9683",

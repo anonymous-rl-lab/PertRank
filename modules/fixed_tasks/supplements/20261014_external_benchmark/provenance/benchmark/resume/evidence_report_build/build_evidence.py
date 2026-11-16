@@ -186,7 +186,7 @@ for c,items in DEPTH.items():
  for n,r in items.items():depth_rows.append(['A' if c.startswith('A') else 'B',n]+[f(p25(r,a)) for a in ARMS])
 rec_rows=[[name,f(s['native_benchmark_rep0_P25']),f(s['five_rep_average_P25'])] for name,s in REC['scores'].items()]
 newest=max([r['created_utc'] for r in ASH.values()] +[rank_exec.get('created_utc','2026-10-14T01:32:00+00:00')])
-manifest={'title':'PertRank v20：外部基线与深度诊断证据报告','date':'2026-10-14','status':'本轮实验与制稿完成；暂停项目及未评估项目单列','scope':['已完成的旧结果恢复与本轮新增实验分开标识。恢复 / 核查计算不构成额外独立复现证据；纯补档及历史状态未明的剩余旧队列已暂停。','本报告仅汇总已完成并核对的输出，不修改 v20，不读取 D1/D2 Stim 表达。本轮未读取不等于已经证明历史从未读取。'],
+manifest={'title':'PertRank current manuscript：外部基线与深度诊断证据报告','date':'2026-10-14','status':'本轮实验与制稿完成；暂停项目及未评估项目单列','scope':['已完成的旧结果恢复与本轮新增实验分开标识。恢复 / 核查计算不构成额外独立复现证据；纯补档及历史状态未明的剩余旧队列已暂停。','本报告仅汇总已完成并核对的输出，不修改 current manuscript，不读取 D1/D2 Stim 表达。本轮未读取不等于已经证明历史从未读取。'],
 'sections':[
  {'title':'当前结论','text':['D3 扩展搜索改善了原生 FR，但在同一输入组上 PertRank 仍领先；rank 300 仍是搜索边界，不能宣称已经找到最优秩或性能饱和。','恢复的 D4 原配置结果支持：PertRank 优于原生 FR；FR 加 PertRank 权重后，P@25 与完整 PertRank 的差异很小且区间跨零。因此当前证据支持权重在这些任务中的可叠加价值，不能证明保留原始坐标普遍优于 FR 重构。','新增深度诊断显示，FR 绝对分数随细胞数提高，但相对 raw 的差距扩大。ASH 则在 20 细胞低于 PertRank、50 细胞差异接近零、100 细胞 P@25 高于 PertRank；100 细胞时 PertRank 也略低于 raw。因此不能笼统宣称外部方法深输入失效，优势应限定于低细胞数任务。']},
  {'title':'哪些是旧结果，哪些是新增','text':'已有完整结果的重放只补回材料；只有历史摘要的项目标为本轮恢复 / 核查，不假定历史原始输出均曾完整保存。','tables':[{'columns':['类别','任务','科学解释'],'rows':ledger}]},

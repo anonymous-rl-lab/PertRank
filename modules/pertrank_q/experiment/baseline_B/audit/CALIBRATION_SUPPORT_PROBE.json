@@ -1,0 +1,245 @@
+{
+  "identity": "Calibration-only empirical reference stability; not predictive performance",
+  "pools": {
+    "D3_held0_inner0": {
+      "queries": 293,
+      "k": 5,
+      "edge_count": 2143,
+      "structural_edge_count": 2344,
+      "structural_band_mass": 2344.0,
+      "total_confidence_weight": 1120.0285779606766,
+      "correct_confidence_weight": 566.4152949245542,
+      "wrong_confidence_weight": 553.6132830361222,
+      "tied_confidence_weight": 0.0,
+      "denominator": 2344.0,
+      "reference_identity": "Empirical donor-bootstrap TopK membership stability, not latent truth",
+      "targets": 13,
+      "nonzero_support_gap_quantiles": [
+        0.045267489711933714,
+        0.5089163237311383,
+        0.9999999999999997
+      ],
+      "fraction_edges_gap_ge_half": 0.5058329444703686
+    },
+    "D3_held0_inner1": {
+      "queries": 293,
+      "k": 5,
+      "edge_count": 2187,
+      "structural_edge_count": 2344,
+      "structural_band_mass": 2344.0,
+      "total_confidence_weight": 1077.9286694101506,
+      "correct_confidence_weight": 534.1467764060352,
+      "wrong_confidence_weight": 543.781893004115,
+      "tied_confidence_weight": 0.0,
+      "denominator": 2344.0,
+      "reference_identity": "Empirical donor-bootstrap TopK membership stability, not latent truth",
+      "targets": 13,
+      "nonzero_support_gap_quantiles": [
+        0.04471879286694102,
+        0.46502057613168724,
+        0.9849108367626883
+      ],
+      "fraction_edges_gap_ge_half": 0.4791952446273434
+    },
+    "D3_held1_inner0": {
+      "queries": 293,
+      "k": 5,
+      "edge_count": 2201,
+      "structural_edge_count": 2344,
+      "structural_band_mass": 2344.0,
+      "total_confidence_weight": 1033.6035665294921,
+      "correct_confidence_weight": 527.0301783264747,
+      "wrong_confidence_weight": 506.5733882030173,
+      "tied_confidence_weight": 0.0,
+      "denominator": 2344.0,
+      "reference_identity": "Empirical donor-bootstrap TopK membership stability, not latent truth",
+      "targets": 13,
+      "nonzero_support_gap_quantiles": [
+        0.04801097393689986,
+        0.41289437585733874,
+        0.9629629629629625
+      ],
+      "fraction_edges_gap_ge_half": 0.4393457519309405
+    },
+    "D3_held1_inner1": {
+      "queries": 293,
+      "k": 5,
+      "edge_count": 2165,
+      "structural_edge_count": 2344,
+      "structural_band_mass": 2344.0,
+      "total_confidence_weight": 1028.5824025083282,
+      "correct_confidence_weight": 522.4589457182043,
+      "wrong_confidence_weight": 506.1234567901236,
+      "tied_confidence_weight": 0.0,
+      "denominator": 2344.0,
+      "reference_identity": "Empirical donor-bootstrap TopK membership stability, not latent truth",
+      "targets": 13,
+      "nonzero_support_gap_quantiles": [
+        0.04855967078189293,
+        0.43347050754458183,
+        0.9629629629629626
+      ],
+      "fraction_edges_gap_ge_half": 0.4484988452655889
+    },
+    "D1_held0_inner0": {
+      "queries": 289,
+      "k": 5,
+      "edge_count": 2161,
+      "structural_edge_count": 2312,
+      "structural_band_mass": 2312.0,
+      "total_confidence_weight": 1012.3743484224963,
+      "correct_confidence_weight": 496.24497027892085,
+      "wrong_confidence_weight": 516.1293781435757,
+      "tied_confidence_weight": 0.0,
+      "denominator": 2312.0,
+      "reference_identity": "Empirical donor-bootstrap TopK membership stability, not latent truth",
+      "targets": 13,
+      "nonzero_support_gap_quantiles": [
+        0.0370370370370372,
+        0.4362139917695471,
+        0.9629629629629626
+      ],
+      "fraction_edges_gap_ge_half": 0.4585839888940305
+    },
+    "D1_held0_inner1": {
+      "queries": 289,
+      "k": 5,
+      "edge_count": 2146,
+      "structural_edge_count": 2312,
+      "structural_band_mass": 2312.0,
+      "total_confidence_weight": 1000.5452674897117,
+      "correct_confidence_weight": 525.3427640603561,
+      "wrong_confidence_weight": 475.2025034293554,
+      "tied_confidence_weight": 0.0,
+      "denominator": 2312.0,
+      "reference_identity": "Empirical donor-bootstrap TopK membership stability, not latent truth",
+      "targets": 14,
+      "nonzero_support_gap_quantiles": [
+        0.04595336076817562,
+        0.40877914951989053,
+        0.9629629629629626
+      ],
+      "fraction_edges_gap_ge_half": 0.4422180801491146
+    },
+    "D1_held1_inner0": {
+      "queries": 289,
+      "k": 5,
+      "edge_count": 2053,
+      "structural_edge_count": 2312,
+      "structural_band_mass": 2312.0,
+      "total_confidence_weight": 872.8030570252791,
+      "correct_confidence_weight": 438.7042915931805,
+      "wrong_confidence_weight": 434.0987654320981,
+      "tied_confidence_weight": 0.0,
+      "denominator": 2312.0,
+      "reference_identity": "Empirical donor-bootstrap TopK membership stability, not latent truth",
+      "targets": 16,
+      "nonzero_support_gap_quantiles": [
+        0.03703703703703708,
+        0.37037037037037024,
+        0.8559670781893005
+      ],
+      "fraction_edges_gap_ge_half": 0.3852898197759376
+    },
+    "D1_held1_inner1": {
+      "queries": 289,
+      "k": 5,
+      "edge_count": 2006,
+      "structural_edge_count": 2312,
+      "structural_band_mass": 2312.0,
+      "total_confidence_weight": 945.4761012040844,
+      "correct_confidence_weight": 481.041716201798,
+      "wrong_confidence_weight": 464.4343850022861,
+      "tied_confidence_weight": 0.0,
+      "denominator": 2312.0,
+      "reference_identity": "Empirical donor-bootstrap TopK membership stability, not latent truth",
+      "targets": 16,
+      "nonzero_support_gap_quantiles": [
+        0.037037037037037035,
+        0.41563786008230424,
+        0.9782235939643344
+      ],
+      "fraction_edges_gap_ge_half": 0.4531405782652044
+    },
+    "D2_held0_inner0": {
+      "queries": 289,
+      "k": 5,
+      "edge_count": 2134,
+      "structural_edge_count": 2312,
+      "structural_band_mass": 2312.0,
+      "total_confidence_weight": 968.0417009602193,
+      "correct_confidence_weight": 485.74787379972554,
+      "wrong_confidence_weight": 482.29382716049383,
+      "tied_confidence_weight": 0.0,
+      "denominator": 2312.0,
+      "reference_identity": "Empirical donor-bootstrap TopK membership stability, not latent truth",
+      "targets": 14,
+      "nonzero_support_gap_quantiles": [
+        0.0401920438957475,
+        0.4074074074074072,
+        0.9465020576131687
+      ],
+      "fraction_edges_gap_ge_half": 0.4259606373008435
+    },
+    "D2_held0_inner1": {
+      "queries": 289,
+      "k": 5,
+      "edge_count": 2104,
+      "structural_edge_count": 2312,
+      "structural_band_mass": 2312.0,
+      "total_confidence_weight": 1038.48353909465,
+      "correct_confidence_weight": 534.186899862826,
+      "wrong_confidence_weight": 504.29663923182426,
+      "tied_confidence_weight": 0.0,
+      "denominator": 2312.0,
+      "reference_identity": "Empirical donor-bootstrap TopK membership stability, not latent truth",
+      "targets": 14,
+      "nonzero_support_gap_quantiles": [
+        0.04019204389574788,
+        0.4526748971193415,
+        0.9945130315500682
+      ],
+      "fraction_edges_gap_ge_half": 0.47480988593155893
+    },
+    "D2_held1_inner0": {
+      "queries": 289,
+      "k": 5,
+      "edge_count": 2095,
+      "structural_edge_count": 2312,
+      "structural_band_mass": 2312.0,
+      "total_confidence_weight": 899.0846560846559,
+      "correct_confidence_weight": 449.91661767587703,
+      "wrong_confidence_weight": 449.16803840877884,
+      "tied_confidence_weight": 0.0,
+      "denominator": 2312.0,
+      "reference_identity": "Empirical donor-bootstrap TopK membership stability, not latent truth",
+      "targets": 17,
+      "nonzero_support_gap_quantiles": [
+        0.03840877914951988,
+        0.37037037037037035,
+        0.9009602194787381
+      ],
+      "fraction_edges_gap_ge_half": 0.39856801909307876
+    },
+    "D2_held1_inner1": {
+      "queries": 289,
+      "k": 5,
+      "edge_count": 1975,
+      "structural_edge_count": 2312,
+      "structural_band_mass": 2312.0,
+      "total_confidence_weight": 854.571925011431,
+      "correct_confidence_weight": 446.0350022862365,
+      "wrong_confidence_weight": 408.53692272519373,
+      "tied_confidence_weight": 0.0,
+      "denominator": 2312.0,
+      "reference_identity": "Empirical donor-bootstrap TopK membership stability, not latent truth",
+      "targets": 18,
+      "nonzero_support_gap_quantiles": [
+        0.037037037037037035,
+        0.36213991769547327,
+        0.9694787379972565
+      ],
+      "fraction_edges_gap_ge_half": 0.40050632911392403
+    }
+  }
+}

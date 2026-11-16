@@ -1,0 +1,3496 @@
+{
+  "identity": "Exploratory 2x2 B optimization on previously accessed external references; no post-score retuning",
+  "K": 10,
+  "methods": [
+    "original_PertRank",
+    "Unweighted",
+    "Euclidean",
+    "old_B",
+    "B_joint_selection",
+    "B_rank_scale",
+    "B_rank_scale_joint"
+  ],
+  "arms": [
+    "old_B",
+    "B_joint_selection",
+    "B_rank_scale",
+    "B_rank_scale_joint"
+  ],
+  "primary_arm": "B_rank_scale_joint",
+  "seeds": [
+    2026111511,
+    2026111512
+  ],
+  "sources": {
+    "D3": {
+      "queries": 293,
+      "query_blocks": 30,
+      "means": {
+        "original_PertRank": 0.4257679180887372,
+        "Unweighted": 0.4210871182287565,
+        "Euclidean": 0.42632252559726963,
+        "old_B": 0.4267064846416382,
+        "B_joint_selection": 0.4257679180887372,
+        "B_rank_scale": 0.4262798634812287,
+        "B_rank_scale_joint": 0.4255972696245734
+      },
+      "contrasts": {
+        "original_PertRank": {
+          "original_PertRank": {
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ],
+            "query_win": 0,
+            "query_tie": 293,
+            "query_loss": 0
+          },
+          "Unweighted": {
+            "delta": -0.004680799859980746,
+            "conditional95": [
+              -0.009183802692779578,
+              -0.0006097130208972332
+            ],
+            "query_win": 92,
+            "query_tie": 87,
+            "query_loss": 114
+          },
+          "Euclidean": {
+            "delta": 0.0005546075085324206,
+            "conditional95": [
+              -0.002740907593534916,
+              0.0033106852497096356
+            ],
+            "query_win": 100,
+            "query_tie": 94,
+            "query_loss": 99
+          },
+          "old_B": {
+            "delta": 0.0009385665529010244,
+            "conditional95": [
+              -1.424437088198314e-18,
+              0.002136752136752138
+            ],
+            "query_win": 40,
+            "query_tie": 224,
+            "query_loss": 29
+          },
+          "B_joint_selection": {
+            "delta": -9.472892701579834e-20,
+            "conditional95": [
+              -0.0011968882978723415,
+              0.001394445473918279
+            ],
+            "query_win": 51,
+            "query_tie": 192,
+            "query_loss": 50
+          },
+          "B_rank_scale": {
+            "delta": 0.0005119453924914682,
+            "conditional95": [
+              -0.0009378267585551321,
+              0.002098708221283135
+            ],
+            "query_win": 53,
+            "query_tie": 194,
+            "query_loss": 46
+          },
+          "B_rank_scale_joint": {
+            "delta": -0.00017064846416382258,
+            "conditional95": [
+              -0.0018003172205438062,
+              0.001573564593301435
+            ],
+            "query_win": 53,
+            "query_tie": 185,
+            "query_loss": 55
+          }
+        },
+        "old_B": {
+          "original_PertRank": {
+            "delta": -0.0009385665529010244,
+            "conditional95": [
+              -0.002136752136752138,
+              1.4244370881983082e-18
+            ],
+            "query_win": 29,
+            "query_tie": 224,
+            "query_loss": 40
+          },
+          "Unweighted": {
+            "delta": -0.005619366412881771,
+            "conditional95": [
+              -0.010194108772233772,
+              -0.0013441734637445535
+            ],
+            "query_win": 87,
+            "query_tie": 91,
+            "query_loss": 115
+          },
+          "Euclidean": {
+            "delta": -0.00038395904436860386,
+            "conditional95": [
+              -0.0039282876943881025,
+              0.002673004503455235
+            ],
+            "query_win": 101,
+            "query_tie": 90,
+            "query_loss": 102
+          },
+          "old_B": {
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ],
+            "query_win": 0,
+            "query_tie": 293,
+            "query_loss": 0
+          },
+          "B_joint_selection": {
+            "delta": -0.0009385665529010245,
+            "conditional95": [
+              -0.0018283166999721156,
+              -8.302924677305324e-05
+            ],
+            "query_win": 23,
+            "query_tie": 238,
+            "query_loss": 32
+          },
+          "B_rank_scale": {
+            "delta": -0.0004266211604095562,
+            "conditional95": [
+              -0.0015127991700443928,
+              0.0006080321426500915
+            ],
+            "query_win": 18,
+            "query_tie": 253,
+            "query_loss": 22
+          },
+          "B_rank_scale_joint": {
+            "delta": -0.001109215017064847,
+            "conditional95": [
+              -0.0023870039535914874,
+              -4.84690128841403e-19
+            ],
+            "query_win": 23,
+            "query_tie": 236,
+            "query_loss": 34
+          }
+        }
+      },
+      "seed_means": {
+        "old_B": {
+          "2026111511": 0.42619453924914674,
+          "2026111512": 0.42662116040955633
+        },
+        "B_joint_selection": {
+          "2026111511": 0.426023890784983,
+          "2026111512": 0.4255119453924915
+        },
+        "B_rank_scale": {
+          "2026111511": 0.4271331058020478,
+          "2026111512": 0.4254266211604096
+        },
+        "B_rank_scale_joint": {
+          "2026111511": 0.42627986348122865,
+          "2026111512": 0.4254266211604096
+        }
+      },
+      "seed_contrasts": {
+        "original_PertRank": {
+          "old_B": {
+            "2026111511": {
+              "delta": 0.00042662116040955724,
+              "conditional95": [
+                -0.0007172253706173051,
+                0.0018617604516610693
+              ],
+              "query_win": 42,
+              "query_tie": 214,
+              "query_loss": 37
+            },
+            "2026111512": {
+              "delta": 0.000853242320819113,
+              "conditional95": [
+                -0.00015717671731128353,
+                0.0019334496124031027
+              ],
+              "query_win": 40,
+              "query_tie": 224,
+              "query_loss": 29
+            }
+          },
+          "B_joint_selection": {
+            "2026111511": {
+              "delta": 0.0002559726962457331,
+              "conditional95": [
+                -0.0010387211878618754,
+                0.0017177217688865475
+              ],
+              "query_win": 49,
+              "query_tie": 199,
+              "query_loss": 45
+            },
+            "2026111512": {
+              "delta": -0.00025597269624573363,
+              "conditional95": [
+                -0.0013514123329105288,
+                0.0010372052046625079
+              ],
+              "query_win": 48,
+              "query_tie": 196,
+              "query_loss": 49
+            }
+          },
+          "B_rank_scale": {
+            "2026111511": {
+              "delta": 0.0013651877133105813,
+              "conditional95": [
+                0.00013050624478479884,
+                0.00288861174926157
+              ],
+              "query_win": 47,
+              "query_tie": 215,
+              "query_loss": 31
+            },
+            "2026111512": {
+              "delta": -0.000341296928327645,
+              "conditional95": [
+                -0.0017149754850772237,
+                0.0011476543023343647
+              ],
+              "query_win": 55,
+              "query_tie": 179,
+              "query_loss": 59
+            }
+          },
+          "B_rank_scale_joint": {
+            "2026111511": {
+              "delta": 0.000511945392491468,
+              "conditional95": [
+                -0.0009050115514483746,
+                0.002107521088246196
+              ],
+              "query_win": 51,
+              "query_tie": 197,
+              "query_loss": 45
+            },
+            "2026111512": {
+              "delta": -0.000341296928327645,
+              "conditional95": [
+                -0.0017149754850772237,
+                0.0011476543023343647
+              ],
+              "query_win": 55,
+              "query_tie": 179,
+              "query_loss": 59
+            }
+          }
+        },
+        "old_B": {
+          "old_B": {
+            "2026111511": {
+              "delta": 0.0,
+              "conditional95": [
+                0.0,
+                0.0
+              ],
+              "query_win": 0,
+              "query_tie": 293,
+              "query_loss": 0
+            },
+            "2026111512": {
+              "delta": 0.0,
+              "conditional95": [
+                0.0,
+                0.0
+              ],
+              "query_win": 0,
+              "query_tie": 293,
+              "query_loss": 0
+            }
+          },
+          "B_joint_selection": {
+            "2026111511": {
+              "delta": -0.00017064846416382418,
+              "conditional95": [
+                -0.0011133728504429403,
+                0.0006605663978107422
+              ],
+              "query_win": 24,
+              "query_tie": 244,
+              "query_loss": 25
+            },
+            "2026111512": {
+              "delta": -0.0011092150170648467,
+              "conditional95": [
+                -0.0020395489336085307,
+                -9.433075613562465e-05
+              ],
+              "query_win": 25,
+              "query_tie": 232,
+              "query_loss": 36
+            }
+          },
+          "B_rank_scale": {
+            "2026111511": {
+              "delta": 0.000938566552901024,
+              "conditional95": [
+                0.0003759398496240607,
+                0.0015018017287650404
+              ],
+              "query_win": 16,
+              "query_tie": 272,
+              "query_loss": 5
+            },
+            "2026111512": {
+              "delta": -0.001194539249146758,
+              "conditional95": [
+                -0.002311799759593576,
+                -4.231699829082549e-19
+              ],
+              "query_win": 30,
+              "query_tie": 220,
+              "query_loss": 43
+            }
+          },
+          "B_rank_scale_joint": {
+            "2026111511": {
+              "delta": 8.532423208191078e-05,
+              "conditional95": [
+                -0.0007247035573122537,
+                0.0008771929824561404
+              ],
+              "query_win": 24,
+              "query_tie": 246,
+              "query_loss": 23
+            },
+            "2026111512": {
+              "delta": -0.001194539249146758,
+              "conditional95": [
+                -0.002311799759593576,
+                -4.231699829082549e-19
+              ],
+              "query_win": 30,
+              "query_tie": 220,
+              "query_loss": 43
+            }
+          }
+        }
+      },
+      "effects": {
+        "selection_frozen_scale": {
+          "delta": -0.0009385665529010242,
+          "conditional95": [
+            -0.0018283166999721163,
+            -8.302924677305224e-05
+          ],
+          "query_win": 23,
+          "query_tie": 238,
+          "query_loss": 32
+        },
+        "selection_rank_scale": {
+          "delta": -0.0006825938566552901,
+          "conditional95": [
+            -0.001438862546326575,
+            8.870066296638897e-05
+          ],
+          "query_win": 10,
+          "query_tie": 265,
+          "query_loss": 18
+        },
+        "rank_scale_individual_selection": {
+          "delta": -0.0004266211604095568,
+          "conditional95": [
+            -0.0015127991700443933,
+            0.0006080321426500906
+          ],
+          "query_win": 18,
+          "query_tie": 253,
+          "query_loss": 22
+        },
+        "rank_scale_joint_selection": {
+          "delta": -0.00017064846416382277,
+          "conditional95": [
+            -0.0012696401025079618,
+            0.0009450659950015607
+          ],
+          "query_win": 25,
+          "query_tie": 241,
+          "query_loss": 27
+        },
+        "interaction": {
+          "delta": 0.00025597269624573385,
+          "conditional95": [
+            -0.0009684527620267054,
+            0.001442307692307692
+          ],
+          "query_win": 33,
+          "query_tie": 231,
+          "query_loss": 29
+        }
+      },
+      "backtrace": {
+        "original_PertRank": {
+          "original_PertRank": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "Unweighted": {
+            "entered_mass": 652.7051282051282,
+            "removed_mass": 652.7051282051282,
+            "entered_supported_mass": 224.5096153846154,
+            "removed_supported_mass": 251.93910256410254,
+            "entered_unsupported_mass": 428.1955128205128,
+            "removed_unsupported_mass": 400.76602564102564,
+            "net_supported_mass": -27.429487179487154,
+            "delta_precision": -0.004680799859980746,
+            "net_over_2QK": -0.004680799859980743
+          },
+          "Euclidean": {
+            "entered_mass": 406.75,
+            "removed_mass": 406.75,
+            "entered_supported_mass": 154.5,
+            "removed_supported_mass": 151.25,
+            "entered_unsupported_mass": 252.25,
+            "removed_unsupported_mass": 255.5,
+            "net_supported_mass": 3.25,
+            "delta_precision": 0.0005546075085324206,
+            "net_over_2QK": 0.0005546075085324232
+          },
+          "old_B": {
+            "entered_mass": 75.5,
+            "removed_mass": 75.5,
+            "entered_supported_mass": 31.0,
+            "removed_supported_mass": 25.5,
+            "entered_unsupported_mass": 44.5,
+            "removed_unsupported_mass": 50.0,
+            "net_supported_mass": 5.5,
+            "delta_precision": 0.0009385665529010244,
+            "net_over_2QK": 0.0009385665529010238
+          },
+          "B_joint_selection": {
+            "entered_mass": 110.5,
+            "removed_mass": 110.5,
+            "entered_supported_mass": 43.0,
+            "removed_supported_mass": 43.0,
+            "entered_unsupported_mass": 67.5,
+            "removed_unsupported_mass": 67.5,
+            "net_supported_mass": 0.0,
+            "delta_precision": -9.472892701579834e-20,
+            "net_over_2QK": 0.0
+          },
+          "B_rank_scale": {
+            "entered_mass": 106.0,
+            "removed_mass": 106.0,
+            "entered_supported_mass": 40.0,
+            "removed_supported_mass": 37.0,
+            "entered_unsupported_mass": 66.0,
+            "removed_unsupported_mass": 69.0,
+            "net_supported_mass": 3.0,
+            "delta_precision": 0.0005119453924914682,
+            "net_over_2QK": 0.0005119453924914676
+          },
+          "B_rank_scale_joint": {
+            "entered_mass": 122.0,
+            "removed_mass": 122.0,
+            "entered_supported_mass": 45.0,
+            "removed_supported_mass": 46.0,
+            "entered_unsupported_mass": 77.0,
+            "removed_unsupported_mass": 76.0,
+            "net_supported_mass": -1.0,
+            "delta_precision": -0.00017064846416382258,
+            "net_over_2QK": -0.00017064846416382253
+          }
+        },
+        "old_B": {
+          "original_PertRank": {
+            "entered_mass": 75.5,
+            "removed_mass": 75.5,
+            "entered_supported_mass": 25.5,
+            "removed_supported_mass": 31.0,
+            "entered_unsupported_mass": 50.0,
+            "removed_unsupported_mass": 44.5,
+            "net_supported_mass": -5.5,
+            "delta_precision": -0.0009385665529010244,
+            "net_over_2QK": -0.0009385665529010238
+          },
+          "Unweighted": {
+            "entered_mass": 640.2884615384615,
+            "removed_mass": 640.2884615384615,
+            "entered_supported_mass": 216.30128205128204,
+            "removed_supported_mass": 249.23076923076923,
+            "entered_unsupported_mass": 423.9871794871795,
+            "removed_unsupported_mass": 391.05769230769226,
+            "net_supported_mass": -32.92948717948718,
+            "delta_precision": -0.005619366412881771,
+            "net_over_2QK": -0.005619366412881772
+          },
+          "Euclidean": {
+            "entered_mass": 438.75,
+            "removed_mass": 438.75,
+            "entered_supported_mass": 165.25,
+            "removed_supported_mass": 167.5,
+            "entered_unsupported_mass": 273.5,
+            "removed_unsupported_mass": 271.25,
+            "net_supported_mass": -2.25,
+            "delta_precision": -0.00038395904436860386,
+            "net_over_2QK": -0.00038395904436860066
+          },
+          "old_B": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "B_joint_selection": {
+            "entered_mass": 56.0,
+            "removed_mass": 56.0,
+            "entered_supported_mass": 20.5,
+            "removed_supported_mass": 26.0,
+            "entered_unsupported_mass": 35.5,
+            "removed_unsupported_mass": 30.0,
+            "net_supported_mass": -5.5,
+            "delta_precision": -0.0009385665529010245,
+            "net_over_2QK": -0.0009385665529010238
+          },
+          "B_rank_scale": {
+            "entered_mass": 39.5,
+            "removed_mass": 39.5,
+            "entered_supported_mass": 12.5,
+            "removed_supported_mass": 15.0,
+            "entered_unsupported_mass": 27.0,
+            "removed_unsupported_mass": 24.5,
+            "net_supported_mass": -2.5,
+            "delta_precision": -0.0004266211604095562,
+            "net_over_2QK": -0.0004266211604095563
+          },
+          "B_rank_scale_joint": {
+            "entered_mass": 60.0,
+            "removed_mass": 60.0,
+            "entered_supported_mass": 19.5,
+            "removed_supported_mass": 26.0,
+            "entered_unsupported_mass": 40.5,
+            "removed_unsupported_mass": 34.0,
+            "net_supported_mass": -6.5,
+            "delta_precision": -0.001109215017064847,
+            "net_over_2QK": -0.0011092150170648465
+          }
+        }
+      },
+      "pairwise_error": {
+        "original_PertRank": {
+          "original_PertRank": {
+            "error": 0.4637923339459175,
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ],
+            "query_win": 0,
+            "query_tie": 293,
+            "query_loss": 0
+          },
+          "Unweighted": {
+            "error": 0.4666285989323532,
+            "delta": 0.002836264986435637,
+            "conditional95": [
+              0.0010565520725662342,
+              0.004733007294429709
+            ],
+            "query_win": 160,
+            "query_tie": 12,
+            "query_loss": 121
+          },
+          "Euclidean": {
+            "error": 0.4649251772118666,
+            "delta": 0.0011328432659490689,
+            "conditional95": [
+              -0.0007414584800716391,
+              0.0030791548243989616
+            ],
+            "query_win": 162,
+            "query_tie": 0,
+            "query_loss": 131
+          },
+          "old_B": {
+            "error": 0.4638601557714187,
+            "delta": 6.782182550100216e-05,
+            "conditional95": [
+              -0.0007176279122441229,
+              0.0006991490513915691
+            ],
+            "query_win": 135,
+            "query_tie": 29,
+            "query_loss": 129
+          },
+          "B_joint_selection": {
+            "error": 0.46375164085061704,
+            "delta": -4.069309530060479e-05,
+            "conditional95": [
+              -0.0008842082471613572,
+              0.0007825409048990816
+            ],
+            "query_win": 140,
+            "query_tie": 16,
+            "query_loss": 137
+          },
+          "B_rank_scale": {
+            "error": 0.4640189901111402,
+            "delta": 0.00022665616522271747,
+            "conditional95": [
+              -0.0005332886106141918,
+              0.0009037373825269747
+            ],
+            "query_win": 142,
+            "query_tie": 14,
+            "query_loss": 137
+          },
+          "B_rank_scale_joint": {
+            "error": 0.4640828738951606,
+            "delta": 0.0002905399492430217,
+            "conditional95": [
+              -0.0005272766128484447,
+              0.0010593972198663316
+            ],
+            "query_win": 136,
+            "query_tie": 22,
+            "query_loss": 135
+          }
+        },
+        "old_B": {
+          "original_PertRank": {
+            "error": 0.4637923339459175,
+            "delta": -6.782182550100216e-05,
+            "conditional95": [
+              -0.0006991490513915693,
+              0.0007176279122441226
+            ],
+            "query_win": 129,
+            "query_tie": 29,
+            "query_loss": 135
+          },
+          "Unweighted": {
+            "error": 0.4666285989323532,
+            "delta": 0.002768443160934635,
+            "conditional95": [
+              0.0008807541649094853,
+              0.004851804491215909
+            ],
+            "query_win": 160,
+            "query_tie": 13,
+            "query_loss": 120
+          },
+          "Euclidean": {
+            "error": 0.4649251772118666,
+            "delta": 0.0010650214404480669,
+            "conditional95": [
+              -0.0008749604305159809,
+              0.003174857418929109
+            ],
+            "query_win": 157,
+            "query_tie": 0,
+            "query_loss": 136
+          },
+          "old_B": {
+            "error": 0.4638601557714187,
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ],
+            "query_win": 0,
+            "query_tie": 293,
+            "query_loss": 0
+          },
+          "B_joint_selection": {
+            "error": 0.46375164085061704,
+            "delta": -0.00010851492080160696,
+            "conditional95": [
+              -0.000490373367426343,
+              0.0003513071261664772
+            ],
+            "query_win": 123,
+            "query_tie": 47,
+            "query_loss": 123
+          },
+          "B_rank_scale": {
+            "error": 0.4640189901111402,
+            "delta": 0.0001588343397217153,
+            "conditional95": [
+              -0.00022270409470608778,
+              0.0005828358707264957
+            ],
+            "query_win": 131,
+            "query_tie": 47,
+            "query_loss": 115
+          },
+          "B_rank_scale_joint": {
+            "error": 0.4640828738951606,
+            "delta": 0.00022271812374201948,
+            "conditional95": [
+              -0.0001720049424257612,
+              0.0006950860120644556
+            ],
+            "query_win": 127,
+            "query_tie": 48,
+            "query_loss": 118
+          }
+        }
+      }
+    },
+    "D1": {
+      "queries": 289,
+      "query_blocks": 30,
+      "means": {
+        "original_PertRank": 0.3822231833910035,
+        "Unweighted": 0.3695141291810842,
+        "Euclidean": 0.380464244521338,
+        "old_B": 0.38291522491349483,
+        "B_joint_selection": 0.38438581314878895,
+        "B_rank_scale": 0.38369377162629764,
+        "B_rank_scale_joint": 0.3822231833910035
+      },
+      "contrasts": {
+        "original_PertRank": {
+          "original_PertRank": {
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ],
+            "query_win": 0,
+            "query_tie": 289,
+            "query_loss": 0
+          },
+          "Unweighted": {
+            "delta": -0.012709054209919262,
+            "conditional95": [
+              -0.01822003429299501,
+              -0.007947039986692677
+            ],
+            "query_win": 79,
+            "query_tie": 60,
+            "query_loss": 150
+          },
+          "Euclidean": {
+            "delta": -0.0017589388696655133,
+            "conditional95": [
+              -0.006630570753834643,
+              0.002654158444012864
+            ],
+            "query_win": 113,
+            "query_tie": 63,
+            "query_loss": 113
+          },
+          "old_B": {
+            "delta": 0.0006920415224913516,
+            "conditional95": [
+              -0.0021855482303955545,
+              0.0035019765049939303
+            ],
+            "query_win": 92,
+            "query_tie": 117,
+            "query_loss": 80
+          },
+          "B_joint_selection": {
+            "delta": 0.0021626297577854695,
+            "conditional95": [
+              -0.0007969102238731877,
+              0.005296645246380065
+            ],
+            "query_win": 98,
+            "query_tie": 110,
+            "query_loss": 81
+          },
+          "B_rank_scale": {
+            "delta": 0.0014705882352941185,
+            "conditional95": [
+              0.00030982248271209476,
+              0.0025995078363914375
+            ],
+            "query_win": 33,
+            "query_tie": 239,
+            "query_loss": 17
+          },
+          "B_rank_scale_joint": {
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ],
+            "query_win": 0,
+            "query_tie": 289,
+            "query_loss": 0
+          }
+        },
+        "old_B": {
+          "original_PertRank": {
+            "delta": -0.0006920415224913516,
+            "conditional95": [
+              -0.0035019765049939307,
+              0.002185548230395553
+            ],
+            "query_win": 80,
+            "query_tie": 117,
+            "query_loss": 92
+          },
+          "Unweighted": {
+            "delta": -0.01340109573241061,
+            "conditional95": [
+              -0.019001531270148288,
+              -0.008259884363824587
+            ],
+            "query_win": 78,
+            "query_tie": 69,
+            "query_loss": 142
+          },
+          "Euclidean": {
+            "delta": -0.002450980392156865,
+            "conditional95": [
+              -0.007508925908744496,
+              0.0021419038831381803
+            ],
+            "query_win": 107,
+            "query_tie": 68,
+            "query_loss": 114
+          },
+          "old_B": {
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ],
+            "query_win": 0,
+            "query_tie": 289,
+            "query_loss": 0
+          },
+          "B_joint_selection": {
+            "delta": 0.0014705882352941174,
+            "conditional95": [
+              -0.0006341736750238004,
+              0.0040774619662330295
+            ],
+            "query_win": 60,
+            "query_tie": 182,
+            "query_loss": 47
+          },
+          "B_rank_scale": {
+            "delta": 0.0007785467128027671,
+            "conditional95": [
+              -0.0019741032517599745,
+              0.0036368006993006967
+            ],
+            "query_win": 85,
+            "query_tie": 120,
+            "query_loss": 84
+          },
+          "B_rank_scale_joint": {
+            "delta": -0.0006920415224913516,
+            "conditional95": [
+              -0.0035019765049939307,
+              0.002185548230395553
+            ],
+            "query_win": 80,
+            "query_tie": 117,
+            "query_loss": 92
+          }
+        }
+      },
+      "seed_means": {
+        "old_B": {
+          "2026111511": 0.3834342560553633,
+          "2026111512": 0.3812716262975779
+        },
+        "B_joint_selection": {
+          "2026111511": 0.3834342560553633,
+          "2026111512": 0.3834342560553633
+        },
+        "B_rank_scale": {
+          "2026111511": 0.3822231833910035,
+          "2026111512": 0.3844723183391004
+        },
+        "B_rank_scale_joint": {
+          "2026111511": 0.3822231833910035,
+          "2026111512": 0.3822231833910035
+        }
+      },
+      "seed_contrasts": {
+        "original_PertRank": {
+          "old_B": {
+            "2026111511": {
+              "delta": 0.00121107266435986,
+              "conditional95": [
+                -0.0020601001946385904,
+                0.004670251785619097
+              ],
+              "query_win": 95,
+              "query_tie": 111,
+              "query_loss": 83
+            },
+            "2026111512": {
+              "delta": -0.0009515570934256075,
+              "conditional95": [
+                -0.004868238348225069,
+                0.0024542876966737585
+              ],
+              "query_win": 92,
+              "query_tie": 113,
+              "query_loss": 84
+            }
+          },
+          "B_joint_selection": {
+            "2026111511": {
+              "delta": 0.00121107266435986,
+              "conditional95": [
+                -0.0020601001946385904,
+                0.004670251785619097
+              ],
+              "query_win": 95,
+              "query_tie": 111,
+              "query_loss": 83
+            },
+            "2026111512": {
+              "delta": 0.0012110726643598585,
+              "conditional95": [
+                -0.0021263456937799063,
+                0.004778440094899164
+              ],
+              "query_win": 87,
+              "query_tie": 127,
+              "query_loss": 75
+            }
+          },
+          "B_rank_scale": {
+            "2026111511": {
+              "delta": -2.785161566966223e-18,
+              "conditional95": [
+                -4.777705591078261e-18,
+                -6.288890251133293e-19
+              ],
+              "query_win": 0,
+              "query_tie": 289,
+              "query_loss": 0
+            },
+            "2026111512": {
+              "delta": 0.0022491349480968856,
+              "conditional95": [
+                0.0006269102664576827,
+                0.004026368249365712
+              ],
+              "query_win": 53,
+              "query_tie": 208,
+              "query_loss": 28
+            }
+          },
+          "B_rank_scale_joint": {
+            "2026111511": {
+              "delta": -2.785161566966223e-18,
+              "conditional95": [
+                -4.777705591078261e-18,
+                -6.288890251133293e-19
+              ],
+              "query_win": 0,
+              "query_tie": 289,
+              "query_loss": 0
+            },
+            "2026111512": {
+              "delta": -2.785161566966223e-18,
+              "conditional95": [
+                -4.777705591078261e-18,
+                -6.288890251133293e-19
+              ],
+              "query_win": 0,
+              "query_tie": 289,
+              "query_loss": 0
+            }
+          }
+        },
+        "old_B": {
+          "old_B": {
+            "2026111511": {
+              "delta": 0.0,
+              "conditional95": [
+                0.0,
+                0.0
+              ],
+              "query_win": 0,
+              "query_tie": 289,
+              "query_loss": 0
+            },
+            "2026111512": {
+              "delta": 0.0,
+              "conditional95": [
+                0.0,
+                0.0
+              ],
+              "query_win": 0,
+              "query_tie": 289,
+              "query_loss": 0
+            }
+          },
+          "B_joint_selection": {
+            "2026111511": {
+              "delta": 0.0,
+              "conditional95": [
+                0.0,
+                0.0
+              ],
+              "query_win": 0,
+              "query_tie": 289,
+              "query_loss": 0
+            },
+            "2026111512": {
+              "delta": 0.0021626297577854664,
+              "conditional95": [
+                -0.0012712539134189797,
+                0.006354303728070174
+              ],
+              "query_win": 86,
+              "query_tie": 130,
+              "query_loss": 73
+            }
+          },
+          "B_rank_scale": {
+            "2026111511": {
+              "delta": -0.001211072664359863,
+              "conditional95": [
+                -0.004670251785619106,
+                0.0020601001946385883
+              ],
+              "query_win": 83,
+              "query_tie": 111,
+              "query_loss": 95
+            },
+            "2026111512": {
+              "delta": 0.003200692041522493,
+              "conditional95": [
+                -0.0001644872546465147,
+                0.007143783984181906
+              ],
+              "query_win": 95,
+              "query_tie": 117,
+              "query_loss": 77
+            }
+          },
+          "B_rank_scale_joint": {
+            "2026111511": {
+              "delta": -0.001211072664359863,
+              "conditional95": [
+                -0.004670251785619106,
+                0.0020601001946385883
+              ],
+              "query_win": 83,
+              "query_tie": 111,
+              "query_loss": 95
+            },
+            "2026111512": {
+              "delta": 0.0009515570934256048,
+              "conditional95": [
+                -0.0024542876966737624,
+                0.004868238348225064
+              ],
+              "query_win": 84,
+              "query_tie": 113,
+              "query_loss": 92
+            }
+          }
+        }
+      },
+      "effects": {
+        "selection_frozen_scale": {
+          "delta": 0.0014705882352941174,
+          "conditional95": [
+            -0.0006341736750238015,
+            0.004077461966233029
+          ],
+          "query_win": 60,
+          "query_tie": 182,
+          "query_loss": 47
+        },
+        "selection_rank_scale": {
+          "delta": -0.0014705882352941183,
+          "conditional95": [
+            -0.002599507836391438,
+            -0.0003098224827120943
+          ],
+          "query_win": 17,
+          "query_tie": 239,
+          "query_loss": 33
+        },
+        "rank_scale_individual_selection": {
+          "delta": 0.0007785467128027682,
+          "conditional95": [
+            -0.001974103251759972,
+            0.003636800699300698
+          ],
+          "query_win": 85,
+          "query_tie": 120,
+          "query_loss": 84
+        },
+        "rank_scale_joint_selection": {
+          "delta": -0.0021626297577854673,
+          "conditional95": [
+            -0.005296645246380062,
+            0.0007969102238731883
+          ],
+          "query_win": 81,
+          "query_tie": 110,
+          "query_loss": 98
+        },
+        "interaction": {
+          "delta": -0.0029411764705882353,
+          "conditional95": [
+            -0.005803830980066447,
+            -0.0008784952821840735
+          ],
+          "query_win": 53,
+          "query_tie": 161,
+          "query_loss": 75
+        }
+      },
+      "backtrace": {
+        "original_PertRank": {
+          "original_PertRank": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "Unweighted": {
+            "entered_mass": 758.1964285714286,
+            "removed_mass": 758.1964285714286,
+            "entered_supported_mass": 223.13690476190476,
+            "removed_supported_mass": 296.5952380952381,
+            "entered_unsupported_mass": 535.0595238095239,
+            "removed_unsupported_mass": 461.6011904761905,
+            "net_supported_mass": -73.45833333333331,
+            "delta_precision": -0.012709054209919262,
+            "net_over_2QK": -0.012709054209919258
+          },
+          "Euclidean": {
+            "entered_mass": 530.6666666666666,
+            "removed_mass": 530.6666666666667,
+            "entered_supported_mass": 168.33333333333334,
+            "removed_supported_mass": 178.5,
+            "entered_unsupported_mass": 362.33333333333337,
+            "removed_unsupported_mass": 352.16666666666663,
+            "net_supported_mass": -10.166666666666657,
+            "delta_precision": -0.0017589388696655133,
+            "net_over_2QK": -0.0017589388696655115
+          },
+          "old_B": {
+            "entered_mass": 377.0,
+            "removed_mass": 377.0,
+            "entered_supported_mass": 117.5,
+            "removed_supported_mass": 113.5,
+            "entered_unsupported_mass": 259.5,
+            "removed_unsupported_mass": 263.5,
+            "net_supported_mass": 4.0,
+            "delta_precision": 0.0006920415224913516,
+            "net_over_2QK": 0.0006920415224913495
+          },
+          "B_joint_selection": {
+            "entered_mass": 382.5,
+            "removed_mass": 382.5,
+            "entered_supported_mass": 130.5,
+            "removed_supported_mass": 118.0,
+            "entered_unsupported_mass": 252.0,
+            "removed_unsupported_mass": 264.5,
+            "net_supported_mass": 12.5,
+            "delta_precision": 0.0021626297577854695,
+            "net_over_2QK": 0.0021626297577854673
+          },
+          "B_rank_scale": {
+            "entered_mass": 74.5,
+            "removed_mass": 74.5,
+            "entered_supported_mass": 24.0,
+            "removed_supported_mass": 15.5,
+            "entered_unsupported_mass": 50.5,
+            "removed_unsupported_mass": 59.0,
+            "net_supported_mass": 8.5,
+            "delta_precision": 0.0014705882352941185,
+            "net_over_2QK": 0.0014705882352941176
+          },
+          "B_rank_scale_joint": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          }
+        },
+        "old_B": {
+          "original_PertRank": {
+            "entered_mass": 377.0,
+            "removed_mass": 377.0,
+            "entered_supported_mass": 113.5,
+            "removed_supported_mass": 117.5,
+            "entered_unsupported_mass": 263.5,
+            "removed_unsupported_mass": 259.5,
+            "net_supported_mass": -4.0,
+            "delta_precision": -0.0006920415224913516,
+            "net_over_2QK": -0.0006920415224913495
+          },
+          "Unweighted": {
+            "entered_mass": 928.1130952380953,
+            "removed_mass": 928.1130952380952,
+            "entered_supported_mass": 276.8452380952381,
+            "removed_supported_mass": 354.30357142857144,
+            "entered_unsupported_mass": 651.2678571428571,
+            "removed_unsupported_mass": 573.8095238095239,
+            "net_supported_mass": -77.45833333333337,
+            "delta_precision": -0.01340109573241061,
+            "net_over_2QK": -0.013401095732410618
+          },
+          "Euclidean": {
+            "entered_mass": 517.1666666666666,
+            "removed_mass": 517.1666666666667,
+            "entered_supported_mass": 162.33333333333331,
+            "removed_supported_mass": 176.5,
+            "entered_unsupported_mass": 354.83333333333337,
+            "removed_unsupported_mass": 340.6666666666667,
+            "net_supported_mass": -14.166666666666686,
+            "delta_precision": -0.002450980392156865,
+            "net_over_2QK": -0.002450980392156866
+          },
+          "old_B": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "B_joint_selection": {
+            "entered_mass": 172.0,
+            "removed_mass": 172.0,
+            "entered_supported_mass": 56.5,
+            "removed_supported_mass": 48.0,
+            "entered_unsupported_mass": 115.5,
+            "removed_unsupported_mass": 124.0,
+            "net_supported_mass": 8.5,
+            "delta_precision": 0.0014705882352941174,
+            "net_over_2QK": 0.0014705882352941176
+          },
+          "B_rank_scale": {
+            "entered_mass": 346.0,
+            "removed_mass": 346.0,
+            "entered_supported_mass": 109.5,
+            "removed_supported_mass": 105.0,
+            "entered_unsupported_mass": 236.5,
+            "removed_unsupported_mass": 241.0,
+            "net_supported_mass": 4.5,
+            "delta_precision": 0.0007785467128027671,
+            "net_over_2QK": 0.0007785467128027682
+          },
+          "B_rank_scale_joint": {
+            "entered_mass": 377.0,
+            "removed_mass": 377.0,
+            "entered_supported_mass": 113.5,
+            "removed_supported_mass": 117.5,
+            "entered_unsupported_mass": 263.5,
+            "removed_unsupported_mass": 259.5,
+            "net_supported_mass": -4.0,
+            "delta_precision": -0.0006920415224913516,
+            "net_over_2QK": -0.0006920415224913495
+          }
+        }
+      },
+      "pairwise_error": {
+        "original_PertRank": {
+          "original_PertRank": {
+            "error": 0.46583397888258915,
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ],
+            "query_win": 0,
+            "query_tie": 289,
+            "query_loss": 0
+          },
+          "Unweighted": {
+            "error": 0.4731377060709297,
+            "delta": 0.0073037271883404226,
+            "conditional95": [
+              0.005512477317777962,
+              0.00921564358124153
+            ],
+            "query_win": 199,
+            "query_tie": 0,
+            "query_loss": 90
+          },
+          "Euclidean": {
+            "error": 0.466894672755818,
+            "delta": 0.0010606938732287512,
+            "conditional95": [
+              -0.0005633695133023156,
+              0.0026682404465094567
+            ],
+            "query_win": 150,
+            "query_tie": 0,
+            "query_loss": 139
+          },
+          "old_B": {
+            "error": 0.46632536906814176,
+            "delta": 0.0004913901855524806,
+            "conditional95": [
+              -0.0008694884884133144,
+              0.0018929743808999901
+            ],
+            "query_win": 145,
+            "query_tie": 0,
+            "query_loss": 144
+          },
+          "B_joint_selection": {
+            "error": 0.46597136201988854,
+            "delta": 0.00013738313729942209,
+            "conditional95": [
+              -0.001405489715444351,
+              0.0016691075304689014
+            ],
+            "query_win": 142,
+            "query_tie": 2,
+            "query_loss": 145
+          },
+          "B_rank_scale": {
+            "error": 0.4657428228755944,
+            "delta": -9.115600699482913e-05,
+            "conditional95": [
+              -0.000527290745185217,
+              0.00033905370974670213
+            ],
+            "query_win": 117,
+            "query_tie": 35,
+            "query_loss": 137
+          },
+          "B_rank_scale_joint": {
+            "error": 0.46583397888258915,
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ],
+            "query_win": 0,
+            "query_tie": 289,
+            "query_loss": 0
+          }
+        },
+        "old_B": {
+          "original_PertRank": {
+            "error": 0.46583397888258915,
+            "delta": -0.0004913901855524806,
+            "conditional95": [
+              -0.0018929743808999908,
+              0.0008694884884133089
+            ],
+            "query_win": 144,
+            "query_tie": 0,
+            "query_loss": 145
+          },
+          "Unweighted": {
+            "error": 0.4731377060709297,
+            "delta": 0.0068123370027879425,
+            "conditional95": [
+              0.004358841028270676,
+              0.009593398604910385
+            ],
+            "query_win": 184,
+            "query_tie": 0,
+            "query_loss": 105
+          },
+          "Euclidean": {
+            "error": 0.466894672755818,
+            "delta": 0.0005693036876762707,
+            "conditional95": [
+              -0.0009086639300274672,
+              0.002521384873418752
+            ],
+            "query_win": 147,
+            "query_tie": 0,
+            "query_loss": 142
+          },
+          "old_B": {
+            "error": 0.46632536906814176,
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ],
+            "query_win": 0,
+            "query_tie": 289,
+            "query_loss": 0
+          },
+          "B_joint_selection": {
+            "error": 0.46597136201988854,
+            "delta": -0.0003540070482530585,
+            "conditional95": [
+              -0.0009705498211152154,
+              0.00016224365832937505
+            ],
+            "query_win": 131,
+            "query_tie": 4,
+            "query_loss": 154
+          },
+          "B_rank_scale": {
+            "error": 0.4657428228755944,
+            "delta": -0.0005825461925473097,
+            "conditional95": [
+              -0.001955100272308012,
+              0.0007820493209875759
+            ],
+            "query_win": 148,
+            "query_tie": 2,
+            "query_loss": 139
+          },
+          "B_rank_scale_joint": {
+            "error": 0.46583397888258915,
+            "delta": -0.0004913901855524806,
+            "conditional95": [
+              -0.0018929743808999908,
+              0.0008694884884133089
+            ],
+            "query_win": 144,
+            "query_tie": 0,
+            "query_loss": 145
+          }
+        }
+      }
+    },
+    "D2": {
+      "queries": 289,
+      "query_blocks": 30,
+      "means": {
+        "original_PertRank": 0.37474048442906577,
+        "Unweighted": 0.3625622295172468,
+        "Euclidean": 0.37471164936562856,
+        "old_B": 0.37750865051903115,
+        "B_joint_selection": 0.3762975778546713,
+        "B_rank_scale": 0.37569204152249136,
+        "B_rank_scale_joint": 0.37638408304498266
+      },
+      "contrasts": {
+        "original_PertRank": {
+          "original_PertRank": {
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ],
+            "query_win": 0,
+            "query_tie": 289,
+            "query_loss": 0
+          },
+          "Unweighted": {
+            "delta": -0.012178254911818927,
+            "conditional95": [
+              -0.01563774462211963,
+              -0.00791803497338096
+            ],
+            "query_win": 75,
+            "query_tie": 66,
+            "query_loss": 148
+          },
+          "Euclidean": {
+            "delta": -2.883506343714138e-05,
+            "conditional95": [
+              -0.005035309770742359,
+              0.0040968439633767804
+            ],
+            "query_win": 94,
+            "query_tie": 99,
+            "query_loss": 96
+          },
+          "old_B": {
+            "delta": 0.0027681660899653974,
+            "conditional95": [
+              0.0005949485825458578,
+              0.005089404668607253
+            ],
+            "query_win": 85,
+            "query_tie": 141,
+            "query_loss": 63
+          },
+          "B_joint_selection": {
+            "delta": 0.001557093425605536,
+            "conditional95": [
+              -0.00017543462513582202,
+              0.002866270575074767
+            ],
+            "query_win": 46,
+            "query_tie": 214,
+            "query_loss": 29
+          },
+          "B_rank_scale": {
+            "delta": 0.0009515570934256048,
+            "conditional95": [
+              -0.0005367050331642628,
+              0.0024557016093474404
+            ],
+            "query_win": 47,
+            "query_tie": 207,
+            "query_loss": 35
+          },
+          "B_rank_scale_joint": {
+            "delta": 0.0016435986159169518,
+            "conditional95": [
+              -0.0013657482223658722,
+              0.004601403692290292
+            ],
+            "query_win": 84,
+            "query_tie": 131,
+            "query_loss": 74
+          }
+        },
+        "old_B": {
+          "original_PertRank": {
+            "delta": -0.0027681660899653974,
+            "conditional95": [
+              -0.005089404668607254,
+              -0.0005949485825458594
+            ],
+            "query_win": 63,
+            "query_tie": 141,
+            "query_loss": 85
+          },
+          "Unweighted": {
+            "delta": -0.014946421001784324,
+            "conditional95": [
+              -0.018656285683160193,
+              -0.010665771228906237
+            ],
+            "query_win": 69,
+            "query_tie": 67,
+            "query_loss": 153
+          },
+          "Euclidean": {
+            "delta": -0.0027970011534025384,
+            "conditional95": [
+              -0.008958464635854339,
+              0.0025193477059148634
+            ],
+            "query_win": 104,
+            "query_tie": 70,
+            "query_loss": 115
+          },
+          "old_B": {
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ],
+            "query_win": 0,
+            "query_tie": 289,
+            "query_loss": 0
+          },
+          "B_joint_selection": {
+            "delta": -0.0012110726643598613,
+            "conditional95": [
+              -0.0033403912079048178,
+              0.000687052327894944
+            ],
+            "query_win": 58,
+            "query_tie": 162,
+            "query_loss": 69
+          },
+          "B_rank_scale": {
+            "delta": -0.001816608996539792,
+            "conditional95": [
+              -0.0039031558204550747,
+              0.0003142588032732255
+            ],
+            "query_win": 62,
+            "query_tie": 149,
+            "query_loss": 78
+          },
+          "B_rank_scale_joint": {
+            "delta": -0.0011245674740484454,
+            "conditional95": [
+              -0.0039186468970934816,
+              0.0014474411166036602
+            ],
+            "query_win": 69,
+            "query_tie": 145,
+            "query_loss": 75
+          }
+        }
+      },
+      "seed_means": {
+        "old_B": {
+          "2026111511": 0.37664359861591695,
+          "2026111512": 0.3768166089965398
+        },
+        "B_joint_selection": {
+          "2026111511": 0.37664359861591695,
+          "2026111512": 0.3758650519031142
+        },
+        "B_rank_scale": {
+          "2026111511": 0.3756920415224914,
+          "2026111512": 0.3764705882352941
+        },
+        "B_rank_scale_joint": {
+          "2026111511": 0.3756055363321799,
+          "2026111512": 0.3770761245674741
+        }
+      },
+      "seed_contrasts": {
+        "original_PertRank": {
+          "old_B": {
+            "2026111511": {
+              "delta": 0.0019031141868512097,
+              "conditional95": [
+                -0.0003946678040301327,
+                0.004368406918360448
+              ],
+              "query_win": 66,
+              "query_tie": 175,
+              "query_loss": 48
+            },
+            "2026111512": {
+              "delta": 0.002076124567474045,
+              "conditional95": [
+                -0.000499042145593878,
+                0.0051232440525473275
+              ],
+              "query_win": 88,
+              "query_tie": 134,
+              "query_loss": 67
+            }
+          },
+          "B_joint_selection": {
+            "2026111511": {
+              "delta": 0.0019031141868512092,
+              "conditional95": [
+                0.00034246575342465575,
+                0.0031053151279552085
+              ],
+              "query_win": 47,
+              "query_tie": 214,
+              "query_loss": 28
+            },
+            "2026111512": {
+              "delta": 0.0011245674740484408,
+              "conditional95": [
+                -0.00040826138147567124,
+                0.002272727272727273
+              ],
+              "query_win": 40,
+              "query_tie": 221,
+              "query_loss": 28
+            }
+          },
+          "B_rank_scale": {
+            "2026111511": {
+              "delta": 0.0009515570934256033,
+              "conditional95": [
+                -0.000400279605263161,
+                0.002328464315833861
+              ],
+              "query_win": 40,
+              "query_tie": 220,
+              "query_loss": 29
+            },
+            "2026111512": {
+              "delta": 0.0017301038062283718,
+              "conditional95": [
+                -0.00018821138815418659,
+                0.003691665702383705
+              ],
+              "query_win": 63,
+              "query_tie": 180,
+              "query_loss": 46
+            }
+          },
+          "B_rank_scale_joint": {
+            "2026111511": {
+              "delta": 0.0008650519031141837,
+              "conditional95": [
+                -0.002905033610755447,
+                0.004245988550233826
+              ],
+              "query_win": 88,
+              "query_tie": 114,
+              "query_loss": 87
+            },
+            "2026111512": {
+              "delta": 0.002335640138408301,
+              "conditional95": [
+                -0.0005470407633763891,
+                0.004834282563717795
+              ],
+              "query_win": 81,
+              "query_tie": 135,
+              "query_loss": 73
+            }
+          }
+        },
+        "old_B": {
+          "old_B": {
+            "2026111511": {
+              "delta": 0.0,
+              "conditional95": [
+                0.0,
+                0.0
+              ],
+              "query_win": 0,
+              "query_tie": 289,
+              "query_loss": 0
+            },
+            "2026111512": {
+              "delta": 0.0,
+              "conditional95": [
+                0.0,
+                0.0
+              ],
+              "query_win": 0,
+              "query_tie": 289,
+              "query_loss": 0
+            }
+          },
+          "B_joint_selection": {
+            "2026111511": {
+              "delta": -6.722803782332263e-19,
+              "conditional95": [
+                -0.0022125815765196297,
+                0.0020508510044642825
+              ],
+              "query_win": 50,
+              "query_tie": 192,
+              "query_loss": 47
+            },
+            "2026111512": {
+              "delta": -0.0009515570934256041,
+              "conditional95": [
+                -0.0037795576875667668,
+                0.0013335173501577307
+              ],
+              "query_win": 64,
+              "query_tie": 151,
+              "query_loss": 74
+            }
+          },
+          "B_rank_scale": {
+            "2026111511": {
+              "delta": -0.0009515570934256068,
+              "conditional95": [
+                -0.003276082305562548,
+                0.0011469971538438206
+              ],
+              "query_win": 41,
+              "query_tie": 198,
+              "query_loss": 50
+            },
+            "2026111512": {
+              "delta": -0.00034602076124567305,
+              "conditional95": [
+                -0.0033763228581271637,
+                0.0024926359516616323
+              ],
+              "query_win": 71,
+              "query_tie": 137,
+              "query_loss": 81
+            }
+          },
+          "B_rank_scale_joint": {
+            "2026111511": {
+              "delta": -0.0010380622837370262,
+              "conditional95": [
+                -0.006055106026785717,
+                0.0034216470754850487
+              ],
+              "query_win": 95,
+              "query_tie": 94,
+              "query_loss": 100
+            },
+            "2026111512": {
+              "delta": 0.0002595155709342557,
+              "conditional95": [
+                -0.0029029728464419475,
+                0.003211867559523809
+              ],
+              "query_win": 78,
+              "query_tie": 124,
+              "query_loss": 87
+            }
+          }
+        }
+      },
+      "effects": {
+        "selection_frozen_scale": {
+          "delta": -0.0012110726643598621,
+          "conditional95": [
+            -0.003340391207904821,
+            0.0006870523278949437
+          ],
+          "query_win": 58,
+          "query_tie": 162,
+          "query_loss": 69
+        },
+        "selection_rank_scale": {
+          "delta": 0.0006920415224913487,
+          "conditional95": [
+            -0.002077083333333334,
+            0.003428059837818568
+          ],
+          "query_win": 81,
+          "query_tie": 135,
+          "query_loss": 73
+        },
+        "rank_scale_individual_selection": {
+          "delta": -0.001816608996539793,
+          "conditional95": [
+            -0.003903155820455077,
+            0.0003142588032732239
+          ],
+          "query_win": 62,
+          "query_tie": 149,
+          "query_loss": 78
+        },
+        "rank_scale_joint_selection": {
+          "delta": 8.650519031141795e-05,
+          "conditional95": [
+            -0.002170418006430869,
+            0.0028091103652901407
+          ],
+          "query_win": 70,
+          "query_tie": 154,
+          "query_loss": 65
+        },
+        "interaction": {
+          "delta": 0.0019031141868512105,
+          "conditional95": [
+            -0.0014506841243361569,
+            0.0058116336882282045
+          ],
+          "query_win": 99,
+          "query_tie": 107,
+          "query_loss": 83
+        }
+      },
+      "backtrace": {
+        "original_PertRank": {
+          "original_PertRank": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "Unweighted": {
+            "entered_mass": 710.8660968660968,
+            "removed_mass": 710.8660968660969,
+            "entered_supported_mass": 185.73219373219374,
+            "removed_supported_mass": 256.12250712250716,
+            "entered_unsupported_mass": 525.1339031339031,
+            "removed_unsupported_mass": 454.7435897435897,
+            "net_supported_mass": -70.39031339031342,
+            "delta_precision": -0.012178254911818927,
+            "net_over_2QK": -0.01217825491181893
+          },
+          "Euclidean": {
+            "entered_mass": 595.5,
+            "removed_mass": 595.5,
+            "entered_supported_mass": 176.16666666666666,
+            "removed_supported_mass": 176.33333333333334,
+            "entered_unsupported_mass": 419.3333333333333,
+            "removed_unsupported_mass": 419.1666666666667,
+            "net_supported_mass": -0.16666666666668561,
+            "delta_precision": -2.883506343714138e-05,
+            "net_over_2QK": -2.8835063437142838e-05
+          },
+          "old_B": {
+            "entered_mass": 279.5,
+            "removed_mass": 279.5,
+            "entered_supported_mass": 98.5,
+            "removed_supported_mass": 82.5,
+            "entered_unsupported_mass": 181.0,
+            "removed_unsupported_mass": 197.0,
+            "net_supported_mass": 16.0,
+            "delta_precision": 0.0027681660899653974,
+            "net_over_2QK": 0.002768166089965398
+          },
+          "B_joint_selection": {
+            "entered_mass": 96.5,
+            "removed_mass": 96.5,
+            "entered_supported_mass": 37.0,
+            "removed_supported_mass": 28.0,
+            "entered_unsupported_mass": 59.5,
+            "removed_unsupported_mass": 68.5,
+            "net_supported_mass": 9.0,
+            "delta_precision": 0.001557093425605536,
+            "net_over_2QK": 0.0015570934256055363
+          },
+          "B_rank_scale": {
+            "entered_mass": 121.0,
+            "removed_mass": 121.0,
+            "entered_supported_mass": 41.5,
+            "removed_supported_mass": 36.0,
+            "entered_unsupported_mass": 79.5,
+            "removed_unsupported_mass": 85.0,
+            "net_supported_mass": 5.5,
+            "delta_precision": 0.0009515570934256048,
+            "net_over_2QK": 0.0009515570934256056
+          },
+          "B_rank_scale_joint": {
+            "entered_mass": 337.0,
+            "removed_mass": 337.0,
+            "entered_supported_mass": 100.0,
+            "removed_supported_mass": 90.5,
+            "entered_unsupported_mass": 237.0,
+            "removed_unsupported_mass": 246.5,
+            "net_supported_mass": 9.5,
+            "delta_precision": 0.0016435986159169518,
+            "net_over_2QK": 0.001643598615916955
+          }
+        },
+        "old_B": {
+          "original_PertRank": {
+            "entered_mass": 279.5,
+            "removed_mass": 279.5,
+            "entered_supported_mass": 82.5,
+            "removed_supported_mass": 98.5,
+            "entered_unsupported_mass": 197.0,
+            "removed_unsupported_mass": 181.0,
+            "net_supported_mass": -16.0,
+            "delta_precision": -0.0027681660899653974,
+            "net_over_2QK": -0.002768166089965398
+          },
+          "Unweighted": {
+            "entered_mass": 785.7143874643875,
+            "removed_mass": 785.7143874643875,
+            "entered_supported_mass": 208.88817663817662,
+            "removed_supported_mass": 295.27849002849007,
+            "entered_unsupported_mass": 576.8262108262109,
+            "removed_unsupported_mass": 490.43589743589746,
+            "net_supported_mass": -86.39031339031345,
+            "delta_precision": -0.014946421001784324,
+            "net_over_2QK": -0.014946421001784334
+          },
+          "Euclidean": {
+            "entered_mass": 665.3333333333333,
+            "removed_mass": 665.3333333333334,
+            "entered_supported_mass": 191.5,
+            "removed_supported_mass": 207.66666666666669,
+            "entered_unsupported_mass": 473.8333333333333,
+            "removed_unsupported_mass": 457.6666666666667,
+            "net_supported_mass": -16.166666666666686,
+            "delta_precision": -0.0027970011534025384,
+            "net_over_2QK": -0.0027970011534025406
+          },
+          "old_B": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "B_joint_selection": {
+            "entered_mass": 204.5,
+            "removed_mass": 204.5,
+            "entered_supported_mass": 61.5,
+            "removed_supported_mass": 68.5,
+            "entered_unsupported_mass": 143.0,
+            "removed_unsupported_mass": 136.0,
+            "net_supported_mass": -7.0,
+            "delta_precision": -0.0012110726643598613,
+            "net_over_2QK": -0.0012110726643598615
+          },
+          "B_rank_scale": {
+            "entered_mass": 225.0,
+            "removed_mass": 225.0,
+            "entered_supported_mass": 67.5,
+            "removed_supported_mass": 78.0,
+            "entered_unsupported_mass": 157.5,
+            "removed_unsupported_mass": 147.0,
+            "net_supported_mass": -10.5,
+            "delta_precision": -0.001816608996539792,
+            "net_over_2QK": -0.0018166089965397925
+          },
+          "B_rank_scale_joint": {
+            "entered_mass": 284.5,
+            "removed_mass": 284.5,
+            "entered_supported_mass": 78.5,
+            "removed_supported_mass": 85.0,
+            "entered_unsupported_mass": 206.0,
+            "removed_unsupported_mass": 199.5,
+            "net_supported_mass": -6.5,
+            "delta_precision": -0.0011245674740484454,
+            "net_over_2QK": -0.001124567474048443
+          }
+        }
+      },
+      "pairwise_error": {
+        "original_PertRank": {
+          "original_PertRank": {
+            "error": 0.45741852059784077,
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ],
+            "query_win": 0,
+            "query_tie": 289,
+            "query_loss": 0
+          },
+          "Unweighted": {
+            "error": 0.4622976357608965,
+            "delta": 0.004879115163055734,
+            "conditional95": [
+              0.002350810397426217,
+              0.0071210440497357745
+            ],
+            "query_win": 169,
+            "query_tie": 1,
+            "query_loss": 119
+          },
+          "Euclidean": {
+            "error": 0.4580319263099641,
+            "delta": 0.0006134057121234006,
+            "conditional95": [
+              -0.0007418477603374358,
+              0.002155953801207235
+            ],
+            "query_win": 153,
+            "query_tie": 0,
+            "query_loss": 136
+          },
+          "old_B": {
+            "error": 0.45748486460882143,
+            "delta": 6.634401098069521e-05,
+            "conditional95": [
+              -0.0011330492904346667,
+              0.0010911152953200372
+            ],
+            "query_win": 148,
+            "query_tie": 3,
+            "query_loss": 138
+          },
+          "B_joint_selection": {
+            "error": 0.45717981274667613,
+            "delta": -0.00023870785116459465,
+            "conditional95": [
+              -0.0008801645796455807,
+              0.0002600205350205378
+            ],
+            "query_win": 117,
+            "query_tie": 40,
+            "query_loss": 132
+          },
+          "B_rank_scale": {
+            "error": 0.4575413952881895,
+            "delta": 0.0001228746903487409,
+            "conditional95": [
+              -0.0005788021227009297,
+              0.0006547458389563669
+            ],
+            "query_win": 129,
+            "query_tie": 33,
+            "query_loss": 127
+          },
+          "B_rank_scale_joint": {
+            "error": 0.45729423270640457,
+            "delta": -0.00012428789143626882,
+            "conditional95": [
+              -0.0012216963121528034,
+              0.0008579984999095786
+            ],
+            "query_win": 142,
+            "query_tie": 1,
+            "query_loss": 146
+          }
+        },
+        "old_B": {
+          "original_PertRank": {
+            "error": 0.45741852059784077,
+            "delta": -6.634401098069521e-05,
+            "conditional95": [
+              -0.0010911152953200374,
+              0.0011330492904346662
+            ],
+            "query_win": 138,
+            "query_tie": 3,
+            "query_loss": 148
+          },
+          "Unweighted": {
+            "error": 0.4622976357608965,
+            "delta": 0.00481277115207504,
+            "conditional95": [
+              0.0022640943860061493,
+              0.007413193321479874
+            ],
+            "query_win": 174,
+            "query_tie": 0,
+            "query_loss": 115
+          },
+          "Euclidean": {
+            "error": 0.4580319263099641,
+            "delta": 0.0005470617011427054,
+            "conditional95": [
+              -0.0011585316222343166,
+              0.0025340143939561635
+            ],
+            "query_win": 150,
+            "query_tie": 0,
+            "query_loss": 139
+          },
+          "old_B": {
+            "error": 0.45748486460882143,
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ],
+            "query_win": 0,
+            "query_tie": 289,
+            "query_loss": 0
+          },
+          "B_joint_selection": {
+            "error": 0.45717981274667613,
+            "delta": -0.00030505186214528987,
+            "conditional95": [
+              -0.0010422138324943236,
+              0.0005180492297629021
+            ],
+            "query_win": 130,
+            "query_tie": 8,
+            "query_loss": 151
+          },
+          "B_rank_scale": {
+            "error": 0.4575413952881895,
+            "delta": 5.6530679368045716e-05,
+            "conditional95": [
+              -0.0008254996014845265,
+              0.0009103192953579283
+            ],
+            "query_win": 140,
+            "query_tie": 5,
+            "query_loss": 144
+          },
+          "B_rank_scale_joint": {
+            "error": 0.45729423270640457,
+            "delta": -0.00019063190241696404,
+            "conditional95": [
+              -0.0009479533348740153,
+              0.0007467660754477795
+            ],
+            "query_win": 128,
+            "query_tie": 6,
+            "query_loss": 155
+          }
+        }
+      }
+    }
+  },
+  "tasks": {
+    "D3_held0": {
+      "queries": 293,
+      "candidates": 26,
+      "means": {
+        "original_PertRank": 0.4259385665529011,
+        "Unweighted": 0.4151450511945393,
+        "Euclidean": 0.4253412969283277,
+        "old_B": 0.42781569965870303,
+        "B_joint_selection": 0.4259385665529011,
+        "B_rank_scale": 0.42696245733788396,
+        "B_rank_scale_joint": 0.4255972696245734
+      },
+      "seed_means": {
+        "old_B": {
+          "2026111511": 0.4267918088737202,
+          "2026111512": 0.42764505119453927
+        },
+        "B_joint_selection": {
+          "2026111511": 0.4264505119453926,
+          "2026111512": 0.4254266211604096
+        },
+        "B_rank_scale": {
+          "2026111511": 0.4286689419795222,
+          "2026111512": 0.4252559726962457
+        },
+        "B_rank_scale_joint": {
+          "2026111511": 0.42696245733788396,
+          "2026111512": 0.4252559726962457
+        }
+      },
+      "effects": {
+        "selection_frozen_scale": -0.0018771331058020483,
+        "selection_rank_scale": -0.0013651877133105802,
+        "rank_scale_individual_selection": -0.0008532423208191136,
+        "rank_scale_joint_selection": -0.00034129692832764554,
+        "interaction": 0.0005119453924914677
+      },
+      "backtrace": {
+        "original_PertRank": {
+          "original_PertRank": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "Unweighted": {
+            "entered_mass": 703.1666666666667,
+            "removed_mass": 703.1666666666667,
+            "entered_supported_mass": 210.08333333333331,
+            "removed_supported_mass": 273.3333333333333,
+            "entered_unsupported_mass": 493.08333333333337,
+            "removed_unsupported_mass": 429.83333333333337,
+            "net_supported_mass": -63.25,
+            "delta_precision": -0.010793515358361776,
+            "net_over_2QK": -0.010793515358361774
+          },
+          "Euclidean": {
+            "entered_mass": 357.5,
+            "removed_mass": 357.5,
+            "entered_supported_mass": 127.0,
+            "removed_supported_mass": 130.5,
+            "entered_unsupported_mass": 230.5,
+            "removed_unsupported_mass": 227.0,
+            "net_supported_mass": -3.5,
+            "delta_precision": -0.000597269624573381,
+            "net_over_2QK": -0.0005972696245733788
+          },
+          "old_B": {
+            "entered_mass": 151.0,
+            "removed_mass": 151.0,
+            "entered_supported_mass": 62.0,
+            "removed_supported_mass": 51.0,
+            "entered_unsupported_mass": 89.0,
+            "removed_unsupported_mass": 100.0,
+            "net_supported_mass": 11.0,
+            "delta_precision": 0.001877133105802048,
+            "net_over_2QK": 0.0018771331058020477
+          },
+          "B_joint_selection": {
+            "entered_mass": 221.0,
+            "removed_mass": 221.0,
+            "entered_supported_mass": 86.0,
+            "removed_supported_mass": 86.0,
+            "entered_unsupported_mass": 135.0,
+            "removed_unsupported_mass": 135.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": -3.7891570806319336e-19,
+            "net_over_2QK": 0.0
+          },
+          "B_rank_scale": {
+            "entered_mass": 212.0,
+            "removed_mass": 212.0,
+            "entered_supported_mass": 80.0,
+            "removed_supported_mass": 74.0,
+            "entered_unsupported_mass": 132.0,
+            "removed_unsupported_mass": 138.0,
+            "net_supported_mass": 6.0,
+            "delta_precision": 0.0010238907849829343,
+            "net_over_2QK": 0.0010238907849829352
+          },
+          "B_rank_scale_joint": {
+            "entered_mass": 244.0,
+            "removed_mass": 244.0,
+            "entered_supported_mass": 90.0,
+            "removed_supported_mass": 92.0,
+            "entered_unsupported_mass": 154.0,
+            "removed_unsupported_mass": 152.0,
+            "net_supported_mass": -2.0,
+            "delta_precision": -0.0003412969283276459,
+            "net_over_2QK": -0.00034129692832764505
+          }
+        },
+        "old_B": {
+          "original_PertRank": {
+            "entered_mass": 151.0,
+            "removed_mass": 151.0,
+            "entered_supported_mass": 51.0,
+            "removed_supported_mass": 62.0,
+            "entered_unsupported_mass": 100.0,
+            "removed_unsupported_mass": 89.0,
+            "net_supported_mass": -11.0,
+            "delta_precision": -0.001877133105802048,
+            "net_over_2QK": -0.0018771331058020477
+          },
+          "Unweighted": {
+            "entered_mass": 678.3333333333333,
+            "removed_mass": 678.3333333333334,
+            "entered_supported_mass": 193.66666666666666,
+            "removed_supported_mass": 267.9166666666667,
+            "entered_unsupported_mass": 484.66666666666663,
+            "removed_unsupported_mass": 410.4166666666667,
+            "net_supported_mass": -74.25000000000003,
+            "delta_precision": -0.012670648464163823,
+            "net_over_2QK": -0.012670648464163827
+          },
+          "Euclidean": {
+            "entered_mass": 421.5,
+            "removed_mass": 421.5,
+            "entered_supported_mass": 148.5,
+            "removed_supported_mass": 163.0,
+            "entered_unsupported_mass": 273.0,
+            "removed_unsupported_mass": 258.5,
+            "net_supported_mass": -14.5,
+            "delta_precision": -0.002474402730375429,
+            "net_over_2QK": -0.0024744027303754265
+          },
+          "old_B": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "B_joint_selection": {
+            "entered_mass": 112.0,
+            "removed_mass": 112.0,
+            "entered_supported_mass": 41.0,
+            "removed_supported_mass": 52.0,
+            "entered_unsupported_mass": 71.0,
+            "removed_unsupported_mass": 60.0,
+            "net_supported_mass": -11.0,
+            "delta_precision": -0.0018771331058020483,
+            "net_over_2QK": -0.0018771331058020477
+          },
+          "B_rank_scale": {
+            "entered_mass": 79.0,
+            "removed_mass": 79.0,
+            "entered_supported_mass": 25.0,
+            "removed_supported_mass": 30.0,
+            "entered_unsupported_mass": 54.0,
+            "removed_unsupported_mass": 49.0,
+            "net_supported_mass": -5.0,
+            "delta_precision": -0.0008532423208191136,
+            "net_over_2QK": -0.0008532423208191126
+          },
+          "B_rank_scale_joint": {
+            "entered_mass": 120.0,
+            "removed_mass": 120.0,
+            "entered_supported_mass": 39.0,
+            "removed_supported_mass": 52.0,
+            "entered_unsupported_mass": 81.0,
+            "removed_unsupported_mass": 68.0,
+            "net_supported_mass": -13.0,
+            "delta_precision": -0.002218430034129694,
+            "net_over_2QK": -0.002218430034129693
+          }
+        }
+      }
+    },
+    "D3_held1": {
+      "queries": 293,
+      "candidates": 26,
+      "means": {
+        "original_PertRank": 0.42559726962457345,
+        "Unweighted": 0.4270291852629737,
+        "Euclidean": 0.4273037542662116,
+        "old_B": 0.42559726962457345,
+        "B_joint_selection": 0.42559726962457345,
+        "B_rank_scale": 0.42559726962457345,
+        "B_rank_scale_joint": 0.42559726962457345
+      },
+      "seed_means": {
+        "old_B": {
+          "2026111511": 0.42559726962457345,
+          "2026111512": 0.42559726962457345
+        },
+        "B_joint_selection": {
+          "2026111511": 0.42559726962457345,
+          "2026111512": 0.42559726962457345
+        },
+        "B_rank_scale": {
+          "2026111511": 0.42559726962457345,
+          "2026111512": 0.42559726962457345
+        },
+        "B_rank_scale_joint": {
+          "2026111511": 0.42559726962457345,
+          "2026111512": 0.42559726962457345
+        }
+      },
+      "effects": {
+        "selection_frozen_scale": 0.0,
+        "selection_rank_scale": 0.0,
+        "rank_scale_individual_selection": 0.0,
+        "rank_scale_joint_selection": 0.0,
+        "interaction": 0.0
+      },
+      "backtrace": {
+        "original_PertRank": {
+          "original_PertRank": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "Unweighted": {
+            "entered_mass": 602.2435897435898,
+            "removed_mass": 602.2435897435897,
+            "entered_supported_mass": 238.93589743589743,
+            "removed_supported_mass": 230.5448717948718,
+            "entered_unsupported_mass": 363.30769230769226,
+            "removed_unsupported_mass": 371.69871794871796,
+            "net_supported_mass": 8.391025641025635,
+            "delta_precision": 0.0014319156384002784,
+            "net_over_2QK": 0.001431915638400279
+          },
+          "Euclidean": {
+            "entered_mass": 456.0,
+            "removed_mass": 456.0,
+            "entered_supported_mass": 182.0,
+            "removed_supported_mass": 172.0,
+            "entered_unsupported_mass": 274.0,
+            "removed_unsupported_mass": 284.0,
+            "net_supported_mass": 10.0,
+            "delta_precision": 0.0017064846416382244,
+            "net_over_2QK": 0.0017064846416382253
+          },
+          "old_B": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "B_joint_selection": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "B_rank_scale": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "B_rank_scale_joint": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          }
+        },
+        "old_B": {
+          "original_PertRank": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "Unweighted": {
+            "entered_mass": 602.2435897435898,
+            "removed_mass": 602.2435897435897,
+            "entered_supported_mass": 238.93589743589743,
+            "removed_supported_mass": 230.5448717948718,
+            "entered_unsupported_mass": 363.30769230769226,
+            "removed_unsupported_mass": 371.69871794871796,
+            "net_supported_mass": 8.391025641025635,
+            "delta_precision": 0.0014319156384002784,
+            "net_over_2QK": 0.001431915638400279
+          },
+          "Euclidean": {
+            "entered_mass": 456.0,
+            "removed_mass": 456.0,
+            "entered_supported_mass": 182.0,
+            "removed_supported_mass": 172.0,
+            "entered_unsupported_mass": 274.0,
+            "removed_unsupported_mass": 284.0,
+            "net_supported_mass": 10.0,
+            "delta_precision": 0.0017064846416382244,
+            "net_over_2QK": 0.0017064846416382253
+          },
+          "old_B": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "B_joint_selection": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "B_rank_scale": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "B_rank_scale_joint": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          }
+        }
+      }
+    },
+    "D1_held0": {
+      "queries": 289,
+      "candidates": 32,
+      "means": {
+        "original_PertRank": 0.34619377162629755,
+        "Unweighted": 0.33372260668973475,
+        "Euclidean": 0.34039792387543255,
+        "old_B": 0.3456747404844291,
+        "B_joint_selection": 0.3460207612456747,
+        "B_rank_scale": 0.34913494809688583,
+        "B_rank_scale_joint": 0.34619377162629755
+      },
+      "seed_means": {
+        "old_B": {
+          "2026111511": 0.3456747404844291,
+          "2026111512": 0.34429065743944637
+        },
+        "B_joint_selection": {
+          "2026111511": 0.3456747404844291,
+          "2026111512": 0.34584775086505193
+        },
+        "B_rank_scale": {
+          "2026111511": 0.34619377162629755,
+          "2026111512": 0.3506920415224914
+        },
+        "B_rank_scale_joint": {
+          "2026111511": 0.34619377162629755,
+          "2026111512": 0.34619377162629755
+        }
+      },
+      "effects": {
+        "selection_frozen_scale": 0.00034602076124567457,
+        "selection_rank_scale": -0.0029411764705882366,
+        "rank_scale_individual_selection": 0.0034602076124567475,
+        "rank_scale_joint_selection": 0.00017301038062283617,
+        "interaction": -0.0032871972318339105
+      },
+      "backtrace": {
+        "original_PertRank": {
+          "original_PertRank": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "Unweighted": {
+            "entered_mass": 808.5833333333333,
+            "removed_mass": 808.5833333333333,
+            "entered_supported_mass": 218.25,
+            "removed_supported_mass": 290.3333333333333,
+            "entered_unsupported_mass": 590.3333333333334,
+            "removed_unsupported_mass": 518.25,
+            "net_supported_mass": -72.08333333333331,
+            "delta_precision": -0.012471164936562862,
+            "net_over_2QK": -0.012471164936562857
+          },
+          "Euclidean": {
+            "entered_mass": 672.0,
+            "removed_mass": 672.0,
+            "entered_supported_mass": 192.0,
+            "removed_supported_mass": 225.5,
+            "entered_unsupported_mass": 480.0,
+            "removed_unsupported_mass": 446.5,
+            "net_supported_mass": -33.5,
+            "delta_precision": -0.005795847750865049,
+            "net_over_2QK": -0.005795847750865052
+          },
+          "old_B": {
+            "entered_mass": 572.0,
+            "removed_mass": 572.0,
+            "entered_supported_mass": 169.0,
+            "removed_supported_mass": 172.0,
+            "entered_unsupported_mass": 403.0,
+            "removed_unsupported_mass": 400.0,
+            "net_supported_mass": -3.0,
+            "delta_precision": -0.0005190311418685114,
+            "net_over_2QK": -0.0005190311418685121
+          },
+          "B_joint_selection": {
+            "entered_mass": 491.0,
+            "removed_mass": 491.0,
+            "entered_supported_mass": 148.0,
+            "removed_supported_mass": 149.0,
+            "entered_unsupported_mass": 343.0,
+            "removed_unsupported_mass": 342.0,
+            "net_supported_mass": -1.0,
+            "delta_precision": -0.00017301038062283617,
+            "net_over_2QK": -0.00017301038062283736
+          },
+          "B_rank_scale": {
+            "entered_mass": 149.0,
+            "removed_mass": 149.0,
+            "entered_supported_mass": 48.0,
+            "removed_supported_mass": 31.0,
+            "entered_unsupported_mass": 101.0,
+            "removed_unsupported_mass": 118.0,
+            "net_supported_mass": 17.0,
+            "delta_precision": 0.0029411764705882366,
+            "net_over_2QK": 0.0029411764705882353
+          },
+          "B_rank_scale_joint": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          }
+        },
+        "old_B": {
+          "original_PertRank": {
+            "entered_mass": 572.0,
+            "removed_mass": 572.0,
+            "entered_supported_mass": 172.0,
+            "removed_supported_mass": 169.0,
+            "entered_unsupported_mass": 400.0,
+            "removed_unsupported_mass": 403.0,
+            "net_supported_mass": 3.0,
+            "delta_precision": 0.0005190311418685114,
+            "net_over_2QK": 0.0005190311418685121
+          },
+          "Unweighted": {
+            "entered_mass": 1036.5833333333333,
+            "removed_mass": 1036.5833333333333,
+            "entered_supported_mass": 295.66666666666663,
+            "removed_supported_mass": 364.75,
+            "entered_unsupported_mass": 740.9166666666666,
+            "removed_unsupported_mass": 671.8333333333333,
+            "net_supported_mass": -69.08333333333337,
+            "delta_precision": -0.01195213379469435,
+            "net_over_2QK": -0.011952133794694356
+          },
+          "Euclidean": {
+            "entered_mass": 684.0,
+            "removed_mass": 684.0,
+            "entered_supported_mass": 194.0,
+            "removed_supported_mass": 224.5,
+            "entered_unsupported_mass": 490.0,
+            "removed_unsupported_mass": 459.5,
+            "net_supported_mass": -30.5,
+            "delta_precision": -0.005276816608996538,
+            "net_over_2QK": -0.00527681660899654
+          },
+          "old_B": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "B_joint_selection": {
+            "entered_mass": 185.0,
+            "removed_mass": 185.0,
+            "entered_supported_mass": 50.0,
+            "removed_supported_mass": 48.0,
+            "entered_unsupported_mass": 135.0,
+            "removed_unsupported_mass": 137.0,
+            "net_supported_mass": 2.0,
+            "delta_precision": 0.00034602076124567457,
+            "net_over_2QK": 0.00034602076124567473
+          },
+          "B_rank_scale": {
+            "entered_mass": 510.0,
+            "removed_mass": 510.0,
+            "entered_supported_mass": 164.0,
+            "removed_supported_mass": 144.0,
+            "entered_unsupported_mass": 346.0,
+            "removed_unsupported_mass": 366.0,
+            "net_supported_mass": 20.0,
+            "delta_precision": 0.0034602076124567475,
+            "net_over_2QK": 0.0034602076124567475
+          },
+          "B_rank_scale_joint": {
+            "entered_mass": 572.0,
+            "removed_mass": 572.0,
+            "entered_supported_mass": 172.0,
+            "removed_supported_mass": 169.0,
+            "entered_unsupported_mass": 400.0,
+            "removed_unsupported_mass": 403.0,
+            "net_supported_mass": 3.0,
+            "delta_precision": 0.0005190311418685114,
+            "net_over_2QK": 0.0005190311418685121
+          }
+        }
+      }
+    },
+    "D1_held1": {
+      "queries": 289,
+      "candidates": 27,
+      "means": {
+        "original_PertRank": 0.41825259515570934,
+        "Unweighted": 0.4053056516724337,
+        "Euclidean": 0.42053056516724335,
+        "old_B": 0.4201557093425606,
+        "B_joint_selection": 0.4227508650519031,
+        "B_rank_scale": 0.41825259515570934,
+        "B_rank_scale_joint": 0.41825259515570934
+      },
+      "seed_means": {
+        "old_B": {
+          "2026111511": 0.4211937716262976,
+          "2026111512": 0.41825259515570934
+        },
+        "B_joint_selection": {
+          "2026111511": 0.4211937716262976,
+          "2026111512": 0.4210207612456748
+        },
+        "B_rank_scale": {
+          "2026111511": 0.41825259515570934,
+          "2026111512": 0.41825259515570934
+        },
+        "B_rank_scale_joint": {
+          "2026111511": 0.41825259515570934,
+          "2026111512": 0.41825259515570934
+        }
+      },
+      "effects": {
+        "selection_frozen_scale": 0.0025951557093425604,
+        "selection_rank_scale": 0.0,
+        "rank_scale_individual_selection": -0.0019031141868512112,
+        "rank_scale_joint_selection": -0.004498269896193771,
+        "interaction": -0.0025951557093425604
+      },
+      "backtrace": {
+        "original_PertRank": {
+          "original_PertRank": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "Unweighted": {
+            "entered_mass": 707.8095238095239,
+            "removed_mass": 707.8095238095239,
+            "entered_supported_mass": 228.02380952380952,
+            "removed_supported_mass": 302.8571428571429,
+            "entered_unsupported_mass": 479.7857142857143,
+            "removed_unsupported_mass": 404.95238095238096,
+            "net_supported_mass": -74.83333333333337,
+            "delta_precision": -0.012946943483275661,
+            "net_over_2QK": -0.01294694348327567
+          },
+          "Euclidean": {
+            "entered_mass": 389.3333333333333,
+            "removed_mass": 389.33333333333337,
+            "entered_supported_mass": 144.66666666666666,
+            "removed_supported_mass": 131.5,
+            "entered_unsupported_mass": 244.66666666666666,
+            "removed_unsupported_mass": 257.83333333333337,
+            "net_supported_mass": 13.166666666666657,
+            "delta_precision": 0.0022779700115340205,
+            "net_over_2QK": 0.0022779700115340236
+          },
+          "old_B": {
+            "entered_mass": 182.0,
+            "removed_mass": 182.0,
+            "entered_supported_mass": 66.0,
+            "removed_supported_mass": 55.0,
+            "entered_unsupported_mass": 116.0,
+            "removed_unsupported_mass": 127.0,
+            "net_supported_mass": 11.0,
+            "delta_precision": 0.0019031141868512112,
+            "net_over_2QK": 0.0019031141868512112
+          },
+          "B_joint_selection": {
+            "entered_mass": 274.0,
+            "removed_mass": 274.0,
+            "entered_supported_mass": 113.0,
+            "removed_supported_mass": 87.0,
+            "entered_unsupported_mass": 161.0,
+            "removed_unsupported_mass": 187.0,
+            "net_supported_mass": 26.0,
+            "delta_precision": 0.004498269896193771,
+            "net_over_2QK": 0.004498269896193772
+          },
+          "B_rank_scale": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "B_rank_scale_joint": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          }
+        },
+        "old_B": {
+          "original_PertRank": {
+            "entered_mass": 182.0,
+            "removed_mass": 182.0,
+            "entered_supported_mass": 55.0,
+            "removed_supported_mass": 66.0,
+            "entered_unsupported_mass": 127.0,
+            "removed_unsupported_mass": 116.0,
+            "net_supported_mass": -11.0,
+            "delta_precision": -0.0019031141868512112,
+            "net_over_2QK": -0.0019031141868512112
+          },
+          "Unweighted": {
+            "entered_mass": 819.6428571428571,
+            "removed_mass": 819.6428571428571,
+            "entered_supported_mass": 258.0238095238095,
+            "removed_supported_mass": 343.8571428571429,
+            "entered_unsupported_mass": 561.6190476190477,
+            "removed_unsupported_mass": 475.7857142857143,
+            "net_supported_mass": -85.83333333333337,
+            "delta_precision": -0.014850057670126872,
+            "net_over_2QK": -0.014850057670126881
+          },
+          "Euclidean": {
+            "entered_mass": 350.3333333333333,
+            "removed_mass": 350.33333333333337,
+            "entered_supported_mass": 130.66666666666666,
+            "removed_supported_mass": 128.5,
+            "entered_unsupported_mass": 219.66666666666666,
+            "removed_unsupported_mass": 221.83333333333334,
+            "net_supported_mass": 2.166666666666657,
+            "delta_precision": 0.0003748558246828089,
+            "net_over_2QK": 0.00037485582468281265
+          },
+          "old_B": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "B_joint_selection": {
+            "entered_mass": 159.0,
+            "removed_mass": 159.0,
+            "entered_supported_mass": 63.0,
+            "removed_supported_mass": 48.0,
+            "entered_unsupported_mass": 96.0,
+            "removed_unsupported_mass": 111.0,
+            "net_supported_mass": 15.0,
+            "delta_precision": 0.0025951557093425604,
+            "net_over_2QK": 0.0025951557093425604
+          },
+          "B_rank_scale": {
+            "entered_mass": 182.0,
+            "removed_mass": 182.0,
+            "entered_supported_mass": 55.0,
+            "removed_supported_mass": 66.0,
+            "entered_unsupported_mass": 127.0,
+            "removed_unsupported_mass": 116.0,
+            "net_supported_mass": -11.0,
+            "delta_precision": -0.0019031141868512112,
+            "net_over_2QK": -0.0019031141868512112
+          },
+          "B_rank_scale_joint": {
+            "entered_mass": 182.0,
+            "removed_mass": 182.0,
+            "entered_supported_mass": 55.0,
+            "removed_supported_mass": 66.0,
+            "entered_unsupported_mass": 127.0,
+            "removed_unsupported_mass": 116.0,
+            "net_supported_mass": -11.0,
+            "delta_precision": -0.0019031141868512112,
+            "net_over_2QK": -0.0019031141868512112
+          }
+        }
+      }
+    },
+    "D2_held0": {
+      "queries": 289,
+      "candidates": 35,
+      "means": {
+        "original_PertRank": 0.33944636678200696,
+        "Unweighted": 0.32233115468409584,
+        "Euclidean": 0.33056516724336793,
+        "old_B": 0.3410034602076125,
+        "B_joint_selection": 0.33944636678200696,
+        "B_rank_scale": 0.33944636678200696,
+        "B_rank_scale_joint": 0.3401384083044983
+      },
+      "seed_means": {
+        "old_B": {
+          "2026111511": 0.33944636678200696,
+          "2026111512": 0.34134948096885814
+        },
+        "B_joint_selection": {
+          "2026111511": 0.33944636678200696,
+          "2026111512": 0.33944636678200696
+        },
+        "B_rank_scale": {
+          "2026111511": 0.33944636678200696,
+          "2026111512": 0.33944636678200696
+        },
+        "B_rank_scale_joint": {
+          "2026111511": 0.33927335640138406,
+          "2026111512": 0.34134948096885814
+        }
+      },
+      "effects": {
+        "selection_frozen_scale": -0.0015570934256055368,
+        "selection_rank_scale": 0.0006920415224913477,
+        "rank_scale_individual_selection": -0.0015570934256055368,
+        "rank_scale_joint_selection": 0.0006920415224913477,
+        "interaction": 0.002249134948096884
+      },
+      "backtrace": {
+        "original_PertRank": {
+          "original_PertRank": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "Unweighted": {
+            "entered_mass": 877.2962962962963,
+            "removed_mass": 877.2962962962963,
+            "entered_supported_mass": 203.5925925925926,
+            "removed_supported_mass": 302.51851851851853,
+            "entered_unsupported_mass": 673.7037037037037,
+            "removed_unsupported_mass": 574.7777777777778,
+            "net_supported_mass": -98.92592592592592,
+            "delta_precision": -0.017115212097911062,
+            "net_over_2QK": -0.01711521209791106
+          },
+          "Euclidean": {
+            "entered_mass": 818.0,
+            "removed_mass": 818.0,
+            "entered_supported_mass": 194.33333333333331,
+            "removed_supported_mass": 245.66666666666669,
+            "entered_unsupported_mass": 623.6666666666666,
+            "removed_unsupported_mass": 572.3333333333334,
+            "net_supported_mass": -51.33333333333337,
+            "delta_precision": -0.008881199538638987,
+            "net_over_2QK": -0.008881199538638992
+          },
+          "old_B": {
+            "entered_mass": 298.0,
+            "removed_mass": 298.0,
+            "entered_supported_mass": 93.0,
+            "removed_supported_mass": 84.0,
+            "entered_unsupported_mass": 205.0,
+            "removed_unsupported_mass": 214.0,
+            "net_supported_mass": 9.0,
+            "delta_precision": 0.0015570934256055368,
+            "net_over_2QK": 0.0015570934256055363
+          },
+          "B_joint_selection": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "B_rank_scale": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "B_rank_scale_joint": {
+            "entered_mass": 484.0,
+            "removed_mass": 484.0,
+            "entered_supported_mass": 129.0,
+            "removed_supported_mass": 125.0,
+            "entered_unsupported_mass": 355.0,
+            "removed_unsupported_mass": 359.0,
+            "net_supported_mass": 4.0,
+            "delta_precision": 0.0006920415224913477,
+            "net_over_2QK": 0.0006920415224913495
+          }
+        },
+        "old_B": {
+          "original_PertRank": {
+            "entered_mass": 298.0,
+            "removed_mass": 298.0,
+            "entered_supported_mass": 84.0,
+            "removed_supported_mass": 93.0,
+            "entered_unsupported_mass": 214.0,
+            "removed_unsupported_mass": 205.0,
+            "net_supported_mass": -9.0,
+            "delta_precision": -0.0015570934256055368,
+            "net_over_2QK": -0.0015570934256055363
+          },
+          "Unweighted": {
+            "entered_mass": 874.7962962962963,
+            "removed_mass": 874.7962962962963,
+            "entered_supported_mass": 209.98148148148147,
+            "removed_supported_mass": 317.9074074074074,
+            "entered_unsupported_mass": 664.8148148148148,
+            "removed_unsupported_mass": 556.8888888888889,
+            "net_supported_mass": -107.92592592592592,
+            "delta_precision": -0.018672305523516595,
+            "net_over_2QK": -0.018672305523516595
+          },
+          "Euclidean": {
+            "entered_mass": 929.6666666666665,
+            "removed_mass": 929.6666666666667,
+            "entered_supported_mass": 227.0,
+            "removed_supported_mass": 287.33333333333337,
+            "entered_unsupported_mass": 702.6666666666666,
+            "removed_unsupported_mass": 642.3333333333334,
+            "net_supported_mass": -60.33333333333337,
+            "delta_precision": -0.010438292964244525,
+            "net_over_2QK": -0.010438292964244528
+          },
+          "old_B": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "B_joint_selection": {
+            "entered_mass": 298.0,
+            "removed_mass": 298.0,
+            "entered_supported_mass": 84.0,
+            "removed_supported_mass": 93.0,
+            "entered_unsupported_mass": 214.0,
+            "removed_unsupported_mass": 205.0,
+            "net_supported_mass": -9.0,
+            "delta_precision": -0.0015570934256055368,
+            "net_over_2QK": -0.0015570934256055363
+          },
+          "B_rank_scale": {
+            "entered_mass": 298.0,
+            "removed_mass": 298.0,
+            "entered_supported_mass": 84.0,
+            "removed_supported_mass": 93.0,
+            "entered_unsupported_mass": 214.0,
+            "removed_unsupported_mass": 205.0,
+            "net_supported_mass": -9.0,
+            "delta_precision": -0.0015570934256055368,
+            "net_over_2QK": -0.0015570934256055363
+          },
+          "B_rank_scale_joint": {
+            "entered_mass": 437.0,
+            "removed_mass": 437.0,
+            "entered_supported_mass": 113.0,
+            "removed_supported_mass": 118.0,
+            "entered_unsupported_mass": 324.0,
+            "removed_unsupported_mass": 319.0,
+            "net_supported_mass": -5.0,
+            "delta_precision": -0.0008650519031141892,
+            "net_over_2QK": -0.0008650519031141869
+          }
+        }
+      }
+    },
+    "D2_held1": {
+      "queries": 289,
+      "candidates": 28,
+      "means": {
+        "original_PertRank": 0.4100346020761246,
+        "Unweighted": 0.4027933043503978,
+        "Euclidean": 0.41885813148788925,
+        "old_B": 0.41401384083044984,
+        "B_joint_selection": 0.41314878892733564,
+        "B_rank_scale": 0.4119377162629758,
+        "B_rank_scale_joint": 0.4126297577854671
+      },
+      "seed_means": {
+        "old_B": {
+          "2026111511": 0.413840830449827,
+          "2026111512": 0.4122837370242215
+        },
+        "B_joint_selection": {
+          "2026111511": 0.41384083044982695,
+          "2026111512": 0.4122837370242215
+        },
+        "B_rank_scale": {
+          "2026111511": 0.41193771626297576,
+          "2026111512": 0.4134948096885813
+        },
+        "B_rank_scale_joint": {
+          "2026111511": 0.41193771626297576,
+          "2026111512": 0.41280276816609
+        }
+      },
+      "effects": {
+        "selection_frozen_scale": -0.0008650519031141876,
+        "selection_rank_scale": 0.0006920415224913496,
+        "rank_scale_individual_selection": -0.0020761245674740486,
+        "rank_scale_joint_selection": -0.0005190311418685118,
+        "interaction": 0.001557093425605537
+      },
+      "backtrace": {
+        "original_PertRank": {
+          "original_PertRank": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "Unweighted": {
+            "entered_mass": 544.4358974358975,
+            "removed_mass": 544.4358974358975,
+            "entered_supported_mass": 167.87179487179486,
+            "removed_supported_mass": 209.72649572649573,
+            "entered_unsupported_mass": 376.5641025641026,
+            "removed_unsupported_mass": 334.70940170940173,
+            "net_supported_mass": -41.854700854700866,
+            "delta_precision": -0.007241297725726794,
+            "net_over_2QK": -0.007241297725726794
+          },
+          "Euclidean": {
+            "entered_mass": 373.0,
+            "removed_mass": 373.0,
+            "entered_supported_mass": 158.0,
+            "removed_supported_mass": 107.0,
+            "entered_unsupported_mass": 215.0,
+            "removed_unsupported_mass": 266.0,
+            "net_supported_mass": 51.0,
+            "delta_precision": 0.008823529411764706,
+            "net_over_2QK": 0.008823529411764706
+          },
+          "old_B": {
+            "entered_mass": 261.0,
+            "removed_mass": 261.0,
+            "entered_supported_mass": 104.0,
+            "removed_supported_mass": 81.0,
+            "entered_unsupported_mass": 157.0,
+            "removed_unsupported_mass": 180.0,
+            "net_supported_mass": 23.0,
+            "delta_precision": 0.003979238754325259,
+            "net_over_2QK": 0.00397923875432526
+          },
+          "B_joint_selection": {
+            "entered_mass": 193.0,
+            "removed_mass": 193.0,
+            "entered_supported_mass": 74.0,
+            "removed_supported_mass": 56.0,
+            "entered_unsupported_mass": 119.0,
+            "removed_unsupported_mass": 137.0,
+            "net_supported_mass": 18.0,
+            "delta_precision": 0.0031141868512110714,
+            "net_over_2QK": 0.0031141868512110727
+          },
+          "B_rank_scale": {
+            "entered_mass": 242.0,
+            "removed_mass": 242.0,
+            "entered_supported_mass": 83.0,
+            "removed_supported_mass": 72.0,
+            "entered_unsupported_mass": 159.0,
+            "removed_unsupported_mass": 170.0,
+            "net_supported_mass": 11.0,
+            "delta_precision": 0.0019031141868512097,
+            "net_over_2QK": 0.0019031141868512112
+          },
+          "B_rank_scale_joint": {
+            "entered_mass": 190.0,
+            "removed_mass": 190.0,
+            "entered_supported_mass": 71.0,
+            "removed_supported_mass": 56.0,
+            "entered_unsupported_mass": 119.0,
+            "removed_unsupported_mass": 134.0,
+            "net_supported_mass": 15.0,
+            "delta_precision": 0.00259515570934256,
+            "net_over_2QK": 0.0025951557093425604
+          }
+        },
+        "old_B": {
+          "original_PertRank": {
+            "entered_mass": 261.0,
+            "removed_mass": 261.0,
+            "entered_supported_mass": 81.0,
+            "removed_supported_mass": 104.0,
+            "entered_unsupported_mass": 180.0,
+            "removed_unsupported_mass": 157.0,
+            "net_supported_mass": -23.0,
+            "delta_precision": -0.003979238754325259,
+            "net_over_2QK": -0.00397923875432526
+          },
+          "Unweighted": {
+            "entered_mass": 696.6324786324786,
+            "removed_mass": 696.6324786324786,
+            "entered_supported_mass": 207.79487179487177,
+            "removed_supported_mass": 272.64957264957263,
+            "entered_unsupported_mass": 488.83760683760687,
+            "removed_unsupported_mass": 423.982905982906,
+            "net_supported_mass": -64.85470085470087,
+            "delta_precision": -0.011220536480052053,
+            "net_over_2QK": -0.011220536480052053
+          },
+          "Euclidean": {
+            "entered_mass": 401.0,
+            "removed_mass": 401.0,
+            "entered_supported_mass": 156.0,
+            "removed_supported_mass": 128.0,
+            "entered_unsupported_mass": 245.0,
+            "removed_unsupported_mass": 273.0,
+            "net_supported_mass": 28.0,
+            "delta_precision": 0.004844290657439447,
+            "net_over_2QK": 0.004844290657439446
+          },
+          "old_B": {
+            "entered_mass": 0.0,
+            "removed_mass": 0.0,
+            "entered_supported_mass": 0.0,
+            "removed_supported_mass": 0.0,
+            "entered_unsupported_mass": 0.0,
+            "removed_unsupported_mass": 0.0,
+            "net_supported_mass": 0.0,
+            "delta_precision": 0.0,
+            "net_over_2QK": 0.0
+          },
+          "B_joint_selection": {
+            "entered_mass": 111.0,
+            "removed_mass": 111.0,
+            "entered_supported_mass": 39.0,
+            "removed_supported_mass": 44.0,
+            "entered_unsupported_mass": 72.0,
+            "removed_unsupported_mass": 67.0,
+            "net_supported_mass": -5.0,
+            "delta_precision": -0.0008650519031141876,
+            "net_over_2QK": -0.0008650519031141869
+          },
+          "B_rank_scale": {
+            "entered_mass": 152.0,
+            "removed_mass": 152.0,
+            "entered_supported_mass": 51.0,
+            "removed_supported_mass": 63.0,
+            "entered_unsupported_mass": 101.0,
+            "removed_unsupported_mass": 89.0,
+            "net_supported_mass": -12.0,
+            "delta_precision": -0.0020761245674740486,
+            "net_over_2QK": -0.0020761245674740486
+          },
+          "B_rank_scale_joint": {
+            "entered_mass": 132.0,
+            "removed_mass": 132.0,
+            "entered_supported_mass": 44.0,
+            "removed_supported_mass": 52.0,
+            "entered_unsupported_mass": 88.0,
+            "removed_unsupported_mass": 80.0,
+            "net_supported_mass": -8.0,
+            "delta_precision": -0.0013840830449826994,
+            "net_over_2QK": -0.001384083044982699
+          }
+        }
+      }
+    }
+  },
+  "equal_source_aggregate": {
+    "original_PertRank": {
+      "precision": 0.3942438619696022,
+      "delta_original": 0.0,
+      "delta_old_B": -0.001466258055119258
+    },
+    "Unweighted": {
+      "precision": 0.3843878256423625,
+      "delta_original": -0.009856036327239644,
+      "delta_old_B": -0.0113222943823589
+    },
+    "Euclidean": {
+      "precision": 0.3938328064947454,
+      "delta_original": -0.00041105547485674465,
+      "delta_old_B": -0.0018773135299760026
+    },
+    "old_B": {
+      "precision": 0.39571012002472133,
+      "delta_original": 0.001466258055119258,
+      "delta_old_B": 0.0
+    },
+    "B_joint_selection": {
+      "precision": 0.3954837696973992,
+      "delta_original": 0.0012399077277970019,
+      "delta_old_B": -0.00022635032732225613
+    },
+    "B_rank_scale": {
+      "precision": 0.3952218922100059,
+      "delta_original": 0.0009780302404037305,
+      "delta_old_B": -0.000488227814715527
+    },
+    "B_rank_scale_joint": {
+      "precision": 0.3947348453535198,
+      "delta_original": 0.0004909833839177098,
+      "delta_old_B": -0.0009752746712015479
+    }
+  },
+  "equal_source_seed_deltas_original": {
+    "old_B": {
+      "2026111511": 0.0011802693372068756,
+      "2026111512": 0.000659269931622517
+    },
+    "B_joint_selection": {
+      "2026111511": 0.001123386515818934,
+      "2026111512": 0.0006932224807208552
+    },
+    "B_rank_scale": {
+      "2026111511": 0.0007722482689120606,
+      "2026111512": 0.0012126472753325374
+    },
+    "B_rank_scale_joint": {
+      "2026111511": 0.0004589990985352163,
+      "2026111512": 0.0006647810700268843
+    }
+  },
+  "equal_source_effects": {
+    "selection_frozen_scale": -0.0002263503273222563,
+    "selection_rank_scale": -0.0004870468564860198,
+    "rank_scale_individual_selection": -0.0004882278147155272,
+    "rank_scale_joint_selection": -0.0007489243438792907,
+    "interaction": -0.0002606965291637636
+  },
+  "primary_gates": {
+    "development_passed": false,
+    "robustness_passed": false,
+    "equal_source_vs_old_B_positive": false,
+    "every_source_vs_original_nonnegative": false,
+    "sources_with_positive_conditional_lower_limit": [],
+    "both_seed_equal_source_gains_positive": true
+  },
+  "gate_definition": "Development: equal-source primary-oldB>0 and each primary-original>=0. Robustness additionally requires >=2 source conditional 95% lower limits>1e-12 and positive equal-source primary-original for both seeds.",
+  "aggregation": "Average physical scores across seeds within each held pool, then up/down precision, half precision, query mean, equal source mean. Never join cross-fold scores.",
+  "intervals": "2000 paired query-block percentile draws, seed2026111518; conditional on fixed inputs, candidates, models and shared reference. No independent-study aggregate CI or multiplicity correction.",
+  "attribution": "2x2 contrasts use exact precision after fixed selection. Interaction=joint_scale-joint_only-scale_only+old_B. All contrasts retained, not post-score selection.",
+  "reference_identity": "Existing external RNA mean of three replicate effects, unchanged. Training label remains empirical donor-bootstrap membership support.",
+  "scoring_lock_sha256": "68002b53dfad2add096b8d3cfb25fccb7e48c63dda1e9541e509edee7ed3c44e",
+  "files": {
+    "per_task/D3_held0.npz": "8181cd5697d9597062c89c75d9a29b2b6ca8d326e7b82b942cafe9fe181f62a0",
+    "per_task/D3_held1.npz": "5081643c12147509c70a809ce37ae92ea9d3f32aef0d116affcf5d1fe5717a02",
+    "per_source/D3.npz": "c860759d371a5ef95cde1740fe151a1ebab089a2a2c71598cb2f5721c7aaa09c",
+    "per_task/D1_held0.npz": "8e0b750834598eea42da721f5bce8cc78fb39452799260392c2ad4d155009c22",
+    "per_task/D1_held1.npz": "c4cef23547b010946bce017068d103ec7c4e0232120956028f183f8a5653959b",
+    "per_source/D1.npz": "c685f2299a430fd8f9f8063ef34e0d791d02feb436761a0f7d82127ab73acc85",
+    "per_task/D2_held0.npz": "9b8815bd1d2174ef3ffe466e89d2a77181348f1fc87315949231c71a352ede6b",
+    "per_task/D2_held1.npz": "d80812440712ca54772bc89e43ba9cc63ec56696834dd68183af33832ecaf815",
+    "per_source/D2.npz": "fe4b66c484e8f1c48794f3b5fdad29eb27be2b0dff7a9e07f7ad8c6ceed8625b"
+  }
+}

@@ -208,6 +208,7 @@ def main():
     parser.add_argument("--software-python", help="Python environment containing the optional software/test dependencies.")
     parser.add_argument("--timeout-seconds", type=float, help="Override the per-module time budget (positive seconds).")
     parser.add_argument("--keep-going", action="store_true", help="Continue independent modules after a hard failure; failures remain nonzero.")
+    parser.add_argument("--with-q", action="store_true", help="Append the optional frozen-checkpoint PertRank-Q replay; requires its separate Torch dependency.")
     args = parser.parse_args()
     try:
         registry = json.loads((ROOT / "MODULES.json").read_text())
@@ -219,6 +220,8 @@ def main():
         if args.timeout_seconds is not None and args.timeout_seconds <= 0:
             raise ValueError("--timeout-seconds must be positive.")
         selected = list(dict.fromkeys(name for group in args.only for name in group)) if args.only else [module["name"] for module in modules if module["default"]]
+        if args.with_q and "pertrank_q" not in selected:
+            selected.append("pertrank_q")
         unknown = sorted(set(selected) - set(by_name))
         if unknown:
             raise ValueError("Unknown modules: " + ", ".join(unknown) + "; use --list.")

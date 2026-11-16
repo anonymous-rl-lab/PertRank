@@ -1,7 +1,7 @@
 {
   "archives": [
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/restored/PertRank_External_Reference_Method_Differences_20261005.zip",
+      "path": "/anonymous/workspace/fr_benchmark/upgrade_experiments_20261014/external_inputs/restored/PertRank_External_Reference_Method_Differences_20261005.zip",
       "library_file_id": "libfile_4ece4466a97c81918883a6f26659d420",
       "version_id_observed": null,
       "bytes": 186082515,
@@ -11,7 +11,7 @@
       "deletion_allowed_duplicate_archive_only": true
     },
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/restored/PertRank_Guide_Correction_20261005.zip",
+      "path": "/anonymous/workspace/fr_benchmark/upgrade_experiments_20261014/external_inputs/restored/PertRank_Guide_Correction_20261005.zip",
       "library_file_id": "libfile_2c805de3e77c8191b25ed7826d90e393",
       "version_id_observed": 1,
       "bytes": 153861462,
@@ -21,7 +21,7 @@
       "deletion_allowed_duplicate_archive_only": true
     },
     {
-      "path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/upgrade_experiments_20261014/external_inputs/restored/PertRank_External_Reference_Checkpoint_20261005.zip",
+      "path": "/anonymous/workspace/fr_benchmark/upgrade_experiments_20261014/external_inputs/restored/PertRank_External_Reference_Checkpoint_20261005.zip",
       "library_file_id": "libfile_87370546833c8191885bfcfc60e85be0",
       "version_id_observed": null,
       "bytes": 306369871,

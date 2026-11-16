@@ -7,7 +7,7 @@ from pathlib import Path
 import numpy as np
 ROOT=Path(__file__).resolve().parent
 REC=ROOT.parents[1]
-OLD=Path('/workspace/scratch/09ac4e5b2530')
+OLD=Path('/anonymous/workspace')
 SALT='pertrank-ntc-guide-replan-20261008|D3_Rest|'
 def h(s):return hashlib.sha256(s.encode()).hexdigest()
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()

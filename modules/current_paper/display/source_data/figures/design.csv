@@ -1,0 +1,29 @@
+setting,quantity,point,lower_95,upper_95
+E4 D3 responsive 20,coordinate,0.0261,0.0181,0.0325
+E4 D3 responsive 20,weighting,0.0483,0.0363,0.0586
+E4 D3 responsive 50,coordinate,0.0365,0.0272,0.0437
+E4 D3 responsive 50,weighting,0.0267,0.0118,0.0373
+E4 D3 terciles 20,coordinate,0.0102,0.0038,0.0171
+E4 D3 terciles 20,weighting,0.0219,0.0149,0.0281
+E4 D3 terciles 50,coordinate,0.0146,0.0065,0.0229
+E4 D3 terciles 50,weighting,0.0191,0.0109,0.0265
+D1 responsive 20,coordinate,0.0177,0.0127,0.0218
+D1 responsive 20,weighting,0.0574,0.0479,0.0649
+D1 responsive 50,coordinate,0.0244,0.0175,0.0306
+D1 responsive 50,weighting,0.023,0.0105,0.0325
+D1 terciles 20,coordinate,0.0056,0.0033,0.0077
+D1 terciles 20,weighting,0.0214,0.016,0.0266
+D1 terciles 50,coordinate,0.0066,0.0025,0.0101
+D1 terciles 50,weighting,0.0218,0.016,0.0268
+E5 KOLF responsive 20,coordinate,0.0004,-0.0006,0.0014
+E5 KOLF responsive 20,weighting,0.0059,0.0037,0.0083
+E5 KOLF responsive 50,coordinate,0.0006,-0.0007,0.0019
+E5 KOLF responsive 50,weighting,0.0112,0.0077,0.0141
+E1 Replogle 20,coordinate,0.0157,0.0088,0.0217
+E1 Replogle 20,weighting,0.1151,0.1022,0.1237
+E1 Replogle 50,coordinate,0.0191,0.0094,0.0274
+E1 Replogle 50,weighting,0.0849,0.062,0.1025
+E3 Orion 20,coordinate,0.0009,0.0002,0.0018
+E3 Orion 20,weighting,0.0082,0.0051,0.0116
+E3 Orion 100,coordinate,0.0013,0.0004,0.0024
+E3 Orion 100,weighting,0.0075,0.0047,0.0103

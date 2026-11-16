@@ -49,10 +49,10 @@ def main():
                         part=[r for r in rows if r['method']==arm and r['query_id']==query and r['direction']==direction]
                         assert abs(sum(float(r['tie_inclusion_probability']) for r in part)-3)<1e-12
                         assert all(r['target_gene_id']!=query for r in part)
-    report=dict(status='PASS',version='v20.0',fixture='Synthetic raw counts, 2000 controls, 8 targets x20 cells, 321 full genes including a target-only count gene',
+    report=dict(status='PASS',version='review',fixture='Synthetic raw counts, 2000 controls, 8 targets x20 cells, 321 full genes including a target-only count gene',
         max_absolute_error=errors,elapsed_seconds=timings,peak_process_rss_MiB=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss/1024,
         full_axis_normalization=True,shuffled_rows=True,dense_and_CSR=True,backed_and_in_memory=True,CLI_both_formats=True,
         scope='Software correctness and example cost; no claim of original raw cohort timing',anndata_version=ad.__version__)
-    (root/'VALIDATION_H5AD_v20.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))
+    (root/'H5AD_VALIDATION.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))
 
 if __name__=='__main__': main()

@@ -12,10 +12,10 @@
       "fit_report_sha256": "7e43865993333ad91a29a8d4ada5998a8f4f0780ae9161942e8f65581aa70325",
       "native_fr_P10": 0.24748951575043368,
       "native_fr_P25": 0.27731922269559256,
-      "owner_completion": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/OWNER_COMPLETION.json",
+      "owner_completion": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/OWNER_COMPLETION.json",
       "owner_completion_sha256": "45c04c3b7f1de57bb094e56cc7e966bc6c4ee75b8ecb91109c4bfec4da7dfc84",
       "rank": 150,
-      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/rank_boundary_evaluation/rank150_default_lasso/evaluation_report.json",
+      "score_file": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/rank_0c21b453-fec0-4e2a-b6b0-93a61f3721f2/rank_boundary_evaluation/rank150_default_lasso/evaluation_report.json",
       "score_sha256": "c80da27bcba861c7732ec27ff1d83daa808350962f44150037984d1974d29b91"
     },
     {
@@ -26,10 +26,10 @@
       "fit_report_sha256": "5275730697c42cdcc8bca4507be6385ba0fa17b7957db7c41ba20d3d1dab6e31",
       "native_fr_P10": 0.25411538333773187,
       "native_fr_P25": 0.2782060913824613,
-      "owner_completion": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/OWNER_COMPLETION.json",
+      "owner_completion": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/OWNER_COMPLETION.json",
       "owner_completion_sha256": "ce9fe7cfaff8bf1ff7eb0f6b050b3d0bf5b3963aad3c71bafef9a98d3d6d3a66",
       "rank": 200,
-      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/rank_boundary_evaluation/rank200_default_lasso/evaluation_report.json",
+      "score_file": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/rank_b7f3c055-2082-4c18-bdb9-b49793d04f2d/rank_boundary_evaluation/rank200_default_lasso/evaluation_report.json",
       "score_sha256": "1b31eac0a5444b25dee5ef1abf3899fb3f7500bdc16edcd5f5c7f43242af2d07"
     },
     {
@@ -40,10 +40,10 @@
       "fit_report_sha256": "be161a25a9f055acb006e65219ab4c9f1374a385fcf8fbb257c51cdbd4e399e3",
       "native_fr_P10": 0.255166090772731,
       "native_fr_P25": 0.27867193205519847,
-      "owner_completion": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/OWNER_COMPLETION.json",
+      "owner_completion": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/OWNER_COMPLETION.json",
       "owner_completion_sha256": "ade7ff4e2c8ff57f72159f4fd56d1f68dc78241984de428e61933a56f007167b",
       "rank": 300,
-      "score_file": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/atomic_runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/rank_boundary_evaluation/rank300_default_lasso/evaluation_report.json",
+      "score_file": "/anonymous/workspace/fr_benchmark/resume_20261014/atomic_runs/rank_2f6d3393-0eea-47da-8d22-24b837c9323f/rank_boundary_evaluation/rank300_default_lasso/evaluation_report.json",
       "score_sha256": "b68848b16313372b7de9840f561ed40a13afe36b7702ffda317aa6f75a92e369"
     }
   ],

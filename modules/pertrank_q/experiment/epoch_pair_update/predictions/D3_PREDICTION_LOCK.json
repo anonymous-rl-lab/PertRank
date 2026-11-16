@@ -1,0 +1,111 @@
+{
+  "plan_sha256": "d0e4130782d0648d1bcae7c77488589a845ad1cb65ead12851e220a4cbbcfc0d",
+  "selection_sha256": {
+    "D3": "4f808711b906427cd588a88c654ed50427a9cd8ff45f294062140c128b0868b9",
+    "D1": "9da5d04bf33f1b190cf8a82ab0fe6c7deba5b7f5591f775c73c70c7792aa4d25",
+    "D2": "12866ccda7d1f9459bd69bc995d8bdd55ae0227cc5f26d4ae0c7058b579339bf"
+  },
+  "prediction_time_utc": "2026-11-15T10:31:15.177281+00:00",
+  "tasks": {
+    "D3_held0": {
+      "path": "predictions/D3_held0.npz",
+      "sha256": "98f127762f64a5a3727c6170f5dbcef8fadf072f5118d7964172303c42068276",
+      "fits": {
+        "B_free_pair_seed2026111511": {
+          "fit_root": "new",
+          "fit_path": "fits/D3_held0_frozen_scale_seed2026111511_outer_e200",
+          "selected_epoch": 200,
+          "objective": "frozen_scale",
+          "seed": 2026111511,
+          "weights_sha256": "02fbcb0c0894e115cad6dacd99552eacebe55e13f18ae965d66b13a32ef98c6e",
+          "normalization_sha256": "bdd8d5aaf75f4e5b49ce1a59d77ab4ad1613157b7e97b162ca8b7319a8ef6c30",
+          "historical_import": false,
+          "selection_rule": "fixed_25_epoch_pairs"
+        },
+        "B_free_pair_seed2026111512": {
+          "fit_root": "base",
+          "fit_path": "fits/D3_held0_boundary_context_seed2026111512_outer",
+          "selected_epoch": 50,
+          "objective": "frozen_scale",
+          "seed": 2026111512,
+          "weights_sha256": "5455940a506f14622d8797d319d0d34a4fae423058c2e621dbba5af94445624f",
+          "normalization_sha256": "bdd8d5aaf75f4e5b49ce1a59d77ab4ad1613157b7e97b162ca8b7319a8ef6c30",
+          "historical_import": true,
+          "selection_rule": "fixed_25_epoch_pairs"
+        },
+        "B_rank_scale_free_pair_seed2026111511": {
+          "fit_root": "parent",
+          "fit_path": "fits/D3_held0_rank_scale_seed2026111511_outer_e50",
+          "selected_epoch": 50,
+          "objective": "rank_scale",
+          "seed": 2026111511,
+          "weights_sha256": "81d0afc6e5925ae67ff9f0d85f28e45e7be385405d2709c609b429c0c6e3c18e",
+          "normalization_sha256": "bdd8d5aaf75f4e5b49ce1a59d77ab4ad1613157b7e97b162ca8b7319a8ef6c30",
+          "historical_import": true,
+          "selection_rule": "fixed_25_epoch_pairs"
+        },
+        "B_rank_scale_free_pair_seed2026111512": {
+          "fit_root": "parent",
+          "fit_path": "fits/D3_held0_rank_scale_seed2026111512_outer_e100",
+          "selected_epoch": 100,
+          "objective": "rank_scale",
+          "seed": 2026111512,
+          "weights_sha256": "905fcb4db0ca15dea6dee112c22ab634ec96f7993745887d5b665b147f05f513",
+          "normalization_sha256": "bdd8d5aaf75f4e5b49ce1a59d77ab4ad1613157b7e97b162ca8b7319a8ef6c30",
+          "historical_import": true,
+          "selection_rule": "fixed_25_epoch_pairs"
+        }
+      }
+    },
+    "D3_held1": {
+      "path": "predictions/D3_held1.npz",
+      "sha256": "7394d06a0f1d63a282fae816aa08f7a243ac909d551c6ed2a8d1947a9d88e490",
+      "fits": {
+        "B_free_pair_seed2026111511": {
+          "fit_root": "base",
+          "fit_path": "fits/D3_held1_boundary_context_seed2026111511_outer",
+          "selected_epoch": 0,
+          "objective": "frozen_scale",
+          "seed": 2026111511,
+          "weights_sha256": "b4b3d71118ab57e6d1915fea1da99d083b4999c9e4eb9da239fd5ab59671eed8",
+          "normalization_sha256": "9bd08cfc90581a854606511b4afc359ebe9b7113d431f0835925a76dcf5b81ef",
+          "historical_import": true,
+          "selection_rule": "fixed_25_epoch_pairs"
+        },
+        "B_free_pair_seed2026111512": {
+          "fit_root": "base",
+          "fit_path": "fits/D3_held1_boundary_context_seed2026111512_outer",
+          "selected_epoch": 0,
+          "objective": "frozen_scale",
+          "seed": 2026111512,
+          "weights_sha256": "1fab8641f4bdd8f434304629d8972b9e7e843a63ae855f83538e6dec3828430a",
+          "normalization_sha256": "9bd08cfc90581a854606511b4afc359ebe9b7113d431f0835925a76dcf5b81ef",
+          "historical_import": true,
+          "selection_rule": "fixed_25_epoch_pairs"
+        },
+        "B_rank_scale_free_pair_seed2026111511": {
+          "fit_root": "parent",
+          "fit_path": "fits/D3_held1_rank_scale_seed2026111511_outer_e0",
+          "selected_epoch": 0,
+          "objective": "rank_scale",
+          "seed": 2026111511,
+          "weights_sha256": "b4b3d71118ab57e6d1915fea1da99d083b4999c9e4eb9da239fd5ab59671eed8",
+          "normalization_sha256": "9bd08cfc90581a854606511b4afc359ebe9b7113d431f0835925a76dcf5b81ef",
+          "historical_import": true,
+          "selection_rule": "fixed_25_epoch_pairs"
+        },
+        "B_rank_scale_free_pair_seed2026111512": {
+          "fit_root": "new",
+          "fit_path": "fits/D3_held1_rank_scale_seed2026111512_outer_e100",
+          "selected_epoch": 100,
+          "objective": "rank_scale",
+          "seed": 2026111512,
+          "weights_sha256": "bfee3b0155f005815b6ca203ccf4b2f71e65dc6de8aa1ed44c954fe0f33da8e1",
+          "normalization_sha256": "9bd08cfc90581a854606511b4afc359ebe9b7113d431f0835925a76dcf5b81ef",
+          "historical_import": false,
+          "selection_rule": "fixed_25_epoch_pairs"
+        }
+      }
+    }
+  }
+}

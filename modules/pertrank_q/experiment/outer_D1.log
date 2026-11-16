@@ -1,0 +1,12 @@
+D1 0 B_joint_selection 2026111511 100
+D1 0 B_joint_selection 2026111512 100
+D1 0 B_rank_scale 2026111511 0
+D1 0 B_rank_scale 2026111512 50
+D1 0 B_rank_scale_joint 2026111511 0
+D1 0 B_rank_scale_joint 2026111512 0
+D1 1 B_joint_selection 2026111511 300
+D1 1 B_joint_selection 2026111512 300
+D1 1 B_rank_scale 2026111511 0
+D1 1 B_rank_scale 2026111512 0
+D1 1 B_rank_scale_joint 2026111511 0
+D1 1 B_rank_scale_joint 2026111512 0

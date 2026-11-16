@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fixed IL2 external protein support analysis; see ANALYSIS_PLAN_v1.2.0.md."""
+"""Fixed IL2 external protein support analysis; see ANALYSIS_PLAN.md."""
 import argparse
 import csv
 import gzip

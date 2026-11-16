@@ -1,6 +1,6 @@
 External-method comparison: Methods text for later manuscript integration
-Working draft, 14 October 2026. This file does not modify manuscript v20.
-Scientific wording updated from completed and verified reports; completed, paused and unevaluated scopes are identified separately. This is working text for later integration, not a modification of the frozen protocol or v20 manuscript.
+Working draft, 14 October 2026. This file does not modify current manuscript.
+Scientific wording updated from completed and verified reports; completed, paused and unevaluated scopes are identified separately. This is working text for later integration, not a modification of the frozen protocol or current manuscript manuscript.
 
 Task definition and comparator roles
 We evaluated perturbation nomination from 20 cells per target using the frozen candidate sets, query panels, controls, and deep reference for each benchmark task. Euclidean shrinkage was an internal ablation of PertRank and was not counted as an independent external method. External comparisons used the original FR-Perturb implementation and the official ashr posterior-mean estimator. These comparisons assess the specified nomination task rather than all tasks for which either external method was developed. They do not establish superiority over all existing perturbation-analysis methods.

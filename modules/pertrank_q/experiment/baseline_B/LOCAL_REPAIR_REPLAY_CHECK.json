@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "training_performed": false,
+  "post_hoc_identity_preserved": true,
+  "membership_arrays_exact": 12,
+  "numeric_source_task_fields_exact": 819,
+  "maximum_difference": 0
+}

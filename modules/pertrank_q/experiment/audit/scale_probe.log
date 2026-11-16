@@ -1,0 +1,33 @@
+SOURCE_DONE D3
+SOURCE_DONE D1
+SOURCE_DONE D2
+{
+  "inner": {
+    "conditions": 36,
+    "precision_identical_across_scales": true,
+    "scale2_beats_scale1_soft_count": 36,
+    "mean_soft_overlap_gain_scale2_minus1": 0.006369787842566498,
+    "mean_gradient_squared_scale_fraction": 0.013184056363100568,
+    "max_adaptive_scale_score_difference": 0.0,
+    "max_abs_adaptive_logscale_gradient_dot": 1.734723475976807e-18,
+    "fitted_mean_scale_slope": 1.0310507456271423,
+    "fitted_mean_affine_correction_energy_fraction": 0.17497435168182793,
+    "fitted_mean_soft_gain": 0.018992407802153395,
+    "affine_projection_mean_soft_gain": 0.0010693908681242796,
+    "affine_projection_exact_precision_changed_count": 0
+  },
+  "outer": {
+    "conditions": 18,
+    "precision_identical_across_scales": true,
+    "scale2_beats_scale1_soft_count": 18,
+    "mean_soft_overlap_gain_scale2_minus1": 0.00560954945724585,
+    "mean_gradient_squared_scale_fraction": 0.006193938555209482,
+    "max_adaptive_scale_score_difference": 0.0,
+    "max_abs_adaptive_logscale_gradient_dot": 1.5178830414797062e-18,
+    "fitted_mean_scale_slope": 1.0339796357851727,
+    "fitted_mean_affine_correction_energy_fraction": 0.15060861477735077,
+    "fitted_mean_soft_gain": 0.005914892761673289,
+    "affine_projection_mean_soft_gain": 0.00041021693473812976,
+    "affine_projection_exact_precision_changed_count": 0
+  }
+}

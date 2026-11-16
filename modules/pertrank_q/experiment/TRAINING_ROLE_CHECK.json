@@ -1,0 +1,11 @@
+{
+  "fits_checked": 71,
+  "inner_disjoint_train_validation": 48,
+  "train_held_disjoint": 71,
+  "all_stored_losses_and_gradient_norms_finite": true,
+  "maximum_scale_floor_rows": 0,
+  "all_scale_floor_counts": [
+    0
+  ],
+  "passed": true
+}

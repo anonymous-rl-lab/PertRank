@@ -1,0 +1,16 @@
+Event,UTC time,Record or interpretation
+Original Stim registration R-STIM timestamp,03:05:38,OSF registration record; not a separate approval timestamp
+Frozen source ZIP deposited in project P-STIM,03:47:12,"Attachment supplement, before input access"
+Explicit approval confirmation recorded,03:58:35,Execution log; OSF approval time not independently verified
+Input release recorded,03:59:14.917,Input-stage release record
+First source probe,03:59:15.800,Source identity check
+Cell-role lock,04:15:33.439,Metadata-only main/guide role allocation
+Input-control expression decoding began,04:33:03.724,Role-specific access log
+TRADE not-evaluable adjudication,04:47:07.550,Before truth; failure preserved
+Prediction manifest created,05:42:33.274,Complete locked prediction state
+Prediction ZIP version 1 created on OSF,10:45:53.316,Fresh file-version metadata; exact ZIP size and SHA-256 match
+Evaluation receipt recorded,10:52:53.309,Execution record; separate E4 archive/approval not independently verified
+Truth release recorded,10:56:07.383,Separate E4 archive/approval not independently verified
+Evaluation-control expression decoding began,10:57:55.706,After truth release
+Main reference expression decoding began,10:58:39.530,After truth release
+Final independent evaluation audit,11:29:10.441,Completed fixed-result verification

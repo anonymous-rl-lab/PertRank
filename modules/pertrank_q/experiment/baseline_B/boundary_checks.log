@@ -1,0 +1,110 @@
+{
+  "all_passed": true,
+  "synthetic_only": true,
+  "real_reference_access": false,
+  "torch_version": "2.15.0+cpu",
+  "checks": [
+    {
+      "name": "first_eleven_columns_exact_prior_normalizer_and_geometry_predictors_zero",
+      "passed": true
+    },
+    {
+      "name": "extended_gate_exact_original_initialization",
+      "passed": true
+    },
+    {
+      "name": "boundary_features_exact_global_sign_flip_invariance",
+      "passed": true
+    },
+    {
+      "name": "boundary_features_exact_candidate_permutation_equivariance",
+      "passed": true
+    },
+    {
+      "name": "manual_cutoff_midpoint_and_tie_midrank_check",
+      "passed": true
+    },
+    {
+      "name": "own_target_poisoning_cannot_change_fitted_moments_or_eligible_context",
+      "passed": true
+    },
+    {
+      "name": "normalizer_never_reads_reference",
+      "passed": true
+    },
+    {
+      "name": "normalization_roundtrip_exact",
+      "passed": true
+    },
+    {
+      "name": "zero_boundary_columns_match_old_path_after_two_updates",
+      "passed": true,
+      "max_difference": 0.0
+    },
+    {
+      "name": "matched_arms_identical_seed_and_extra_columns_seeded",
+      "passed": true
+    },
+    {
+      "name": "pair_labels_self_excluded_and_fixed_denominator",
+      "passed": true,
+      "stats": {
+        "queries": 6,
+        "k": 3,
+        "edge_count": 20,
+        "structural_edge_count": 48,
+        "structural_band_mass": 48.0,
+        "total_confidence_weight": 20.0,
+        "correct_confidence_weight": 9.0,
+        "wrong_confidence_weight": 11.0,
+        "tied_confidence_weight": 0.0,
+        "denominator": 48.0,
+        "reference_identity": "Empirical donor-bootstrap TopK membership stability, not latent truth"
+      }
+    },
+    {
+      "name": "own_reference_poison_has_no_effect",
+      "passed": true
+    },
+    {
+      "name": "low_confidence_scales_loss_without_renormalizing_it_away",
+      "passed": true,
+      "ratio": 0.10000000000000002
+    },
+    {
+      "name": "equal_reference_support_zero_loss_and_gradient",
+      "passed": true
+    },
+    {
+      "name": "pair_loss_finite_difference_gradient",
+      "passed": true
+    },
+    {
+      "name": "own_score_gradient_exact_zero",
+      "passed": true
+    },
+    {
+      "name": "pair_objective_has_nonzero_output_head_gradient_at_original_anchor",
+      "passed": true,
+      "gradient_norm": 0.18647236576908552
+    },
+    {
+      "name": "pair_loss_global_sign_flip_with_reference_directions_swapped",
+      "passed": true
+    },
+    {
+      "name": "pair_loss_candidate_permutation_invariance",
+      "passed": true
+    },
+    {
+      "name": "independent_fractional_tie_dense_pair_loss",
+      "passed": true,
+      "actual": 5.250042237619752,
+      "expected": 5.250042237619752
+    },
+    {
+      "name": "confidence_mass_correct_wrong_tied_accounting",
+      "passed": true
+    }
+  ]
+}

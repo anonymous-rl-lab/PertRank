@@ -74,7 +74,7 @@
     "family": "all posthoc descriptive; no new confirmatory pass gate; report every declared contrast/source"
   },
   "resources": {
-    "heavy_memory_lock": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/heavy_memory.lock",
+    "heavy_memory_lock": "/anonymous/workspace/fr_benchmark/heavy_memory.lock",
     "single_heavy_fit_at_a_time": true,
     "FR_process_RSS_guard_GiB": 5.5,
     "first_source_smoke_seconds": 600,

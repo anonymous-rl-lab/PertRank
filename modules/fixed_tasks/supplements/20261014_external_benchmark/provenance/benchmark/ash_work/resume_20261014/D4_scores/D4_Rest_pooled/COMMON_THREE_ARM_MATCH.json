@@ -131,7 +131,7 @@
     }
   },
   "ash_report_sha256": "90ef19233b0f19bbe09e49effa9728d5b51e7c909adedc6367be11dc5368f3d9",
-  "fr_report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/resume_20261014/evaluation/D4_Rest/evaluation_report.json",
+  "fr_report_path": "/anonymous/workspace/fr_benchmark/resume_20261014/evaluation/D4_Rest/evaluation_report.json",
   "fr_report_sha256": "e9308b5c4038c39ae172dff04f1ee2f5a76d19d92f59edcf9a8a08e1b45a7c75",
   "verification_source_sha256": "aefb9b15edc426871c95619f0a0753a2fa7ad6fc06e2a4b5a91f5b9cd97a0b42",
   "scope": "Identity check only; ASH contrasts remain descriptive and are not included in the original FR simultaneous contrast family."

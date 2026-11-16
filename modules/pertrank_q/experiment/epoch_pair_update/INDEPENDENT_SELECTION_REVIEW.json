@@ -1,0 +1,435 @@
+{
+  "passed": true,
+  "training_performed": false,
+  "held_evaluation_reference_read": false,
+  "selection_count": 25,
+  "diagonal_count": 5,
+  "compared_to_common_epoch_selection_count": 5,
+  "larger_selection_search_requires_exploratory_interpretation": true,
+  "synthetic_tie_and_eligibility_cases": 200,
+  "tasks": {
+    "D3_held0_frozen_scale": {
+      "fit_role_checks": [
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 0,
+          "training_targets": 13,
+          "validation_targets": 13
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 0,
+          "training_targets": 13,
+          "validation_targets": 13
+        },
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 1,
+          "training_targets": 13,
+          "validation_targets": 13
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 1,
+          "training_targets": 13,
+          "validation_targets": 13
+        }
+      ],
+      "all25_recomputed": true,
+      "all5_diagonal_choices_match_phase1": true,
+      "chosen_epochs": [
+        200,
+        50
+      ],
+      "saved_table_checked": true
+    },
+    "D3_held0_rank_scale": {
+      "fit_role_checks": [
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 0,
+          "training_targets": 13,
+          "validation_targets": 13
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 0,
+          "training_targets": 13,
+          "validation_targets": 13
+        },
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 1,
+          "training_targets": 13,
+          "validation_targets": 13
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 1,
+          "training_targets": 13,
+          "validation_targets": 13
+        }
+      ],
+      "all25_recomputed": true,
+      "all5_diagonal_choices_match_phase1": true,
+      "chosen_epochs": [
+        50,
+        100
+      ],
+      "saved_table_checked": true
+    },
+    "D3_held1_frozen_scale": {
+      "fit_role_checks": [
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 0,
+          "training_targets": 13,
+          "validation_targets": 13
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 0,
+          "training_targets": 13,
+          "validation_targets": 13
+        },
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 1,
+          "training_targets": 13,
+          "validation_targets": 13
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 1,
+          "training_targets": 13,
+          "validation_targets": 13
+        }
+      ],
+      "all25_recomputed": true,
+      "all5_diagonal_choices_match_phase1": true,
+      "chosen_epochs": [
+        0,
+        0
+      ],
+      "saved_table_checked": true
+    },
+    "D3_held1_rank_scale": {
+      "fit_role_checks": [
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 0,
+          "training_targets": 13,
+          "validation_targets": 13
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 0,
+          "training_targets": 13,
+          "validation_targets": 13
+        },
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 1,
+          "training_targets": 13,
+          "validation_targets": 13
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 1,
+          "training_targets": 13,
+          "validation_targets": 13
+        }
+      ],
+      "all25_recomputed": true,
+      "all5_diagonal_choices_match_phase1": true,
+      "chosen_epochs": [
+        0,
+        100
+      ],
+      "saved_table_checked": true
+    },
+    "D1_held0_frozen_scale": {
+      "fit_role_checks": [
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 0,
+          "training_targets": 13,
+          "validation_targets": 14
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 0,
+          "training_targets": 13,
+          "validation_targets": 14
+        },
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 1,
+          "training_targets": 14,
+          "validation_targets": 13
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 1,
+          "training_targets": 14,
+          "validation_targets": 13
+        }
+      ],
+      "all25_recomputed": true,
+      "all5_diagonal_choices_match_phase1": true,
+      "chosen_epochs": [
+        100,
+        200
+      ],
+      "saved_table_checked": true
+    },
+    "D1_held0_rank_scale": {
+      "fit_role_checks": [
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 0,
+          "training_targets": 13,
+          "validation_targets": 14
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 0,
+          "training_targets": 13,
+          "validation_targets": 14
+        },
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 1,
+          "training_targets": 14,
+          "validation_targets": 13
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 1,
+          "training_targets": 14,
+          "validation_targets": 13
+        }
+      ],
+      "all25_recomputed": true,
+      "all5_diagonal_choices_match_phase1": true,
+      "chosen_epochs": [
+        300,
+        0
+      ],
+      "saved_table_checked": true
+    },
+    "D1_held1_frozen_scale": {
+      "fit_role_checks": [
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 0,
+          "training_targets": 16,
+          "validation_targets": 16
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 0,
+          "training_targets": 16,
+          "validation_targets": 16
+        },
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 1,
+          "training_targets": 16,
+          "validation_targets": 16
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 1,
+          "training_targets": 16,
+          "validation_targets": 16
+        }
+      ],
+      "all25_recomputed": true,
+      "all5_diagonal_choices_match_phase1": true,
+      "chosen_epochs": [
+        200,
+        0
+      ],
+      "saved_table_checked": true
+    },
+    "D1_held1_rank_scale": {
+      "fit_role_checks": [
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 0,
+          "training_targets": 16,
+          "validation_targets": 16
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 0,
+          "training_targets": 16,
+          "validation_targets": 16
+        },
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 1,
+          "training_targets": 16,
+          "validation_targets": 16
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 1,
+          "training_targets": 16,
+          "validation_targets": 16
+        }
+      ],
+      "all25_recomputed": true,
+      "all5_diagonal_choices_match_phase1": true,
+      "chosen_epochs": [
+        300,
+        50
+      ],
+      "saved_table_checked": true
+    },
+    "D2_held0_frozen_scale": {
+      "fit_role_checks": [
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 0,
+          "training_targets": 14,
+          "validation_targets": 14
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 0,
+          "training_targets": 14,
+          "validation_targets": 14
+        },
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 1,
+          "training_targets": 14,
+          "validation_targets": 14
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 1,
+          "training_targets": 14,
+          "validation_targets": 14
+        }
+      ],
+      "all25_recomputed": true,
+      "all5_diagonal_choices_match_phase1": true,
+      "chosen_epochs": [
+        0,
+        0
+      ],
+      "saved_table_checked": true
+    },
+    "D2_held0_rank_scale": {
+      "fit_role_checks": [
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 0,
+          "training_targets": 14,
+          "validation_targets": 14
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 0,
+          "training_targets": 14,
+          "validation_targets": 14
+        },
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 1,
+          "training_targets": 14,
+          "validation_targets": 14
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 1,
+          "training_targets": 14,
+          "validation_targets": 14
+        }
+      ],
+      "all25_recomputed": true,
+      "all5_diagonal_choices_match_phase1": true,
+      "chosen_epochs": [
+        300,
+        300
+      ],
+      "saved_table_checked": true
+    },
+    "D2_held1_frozen_scale": {
+      "fit_role_checks": [
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 0,
+          "training_targets": 17,
+          "validation_targets": 18
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 0,
+          "training_targets": 17,
+          "validation_targets": 18
+        },
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 1,
+          "training_targets": 18,
+          "validation_targets": 17
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 1,
+          "training_targets": 18,
+          "validation_targets": 17
+        }
+      ],
+      "all25_recomputed": true,
+      "all5_diagonal_choices_match_phase1": true,
+      "chosen_epochs": [
+        50,
+        50
+      ],
+      "saved_table_checked": true
+    },
+    "D2_held1_rank_scale": {
+      "fit_role_checks": [
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 0,
+          "training_targets": 17,
+          "validation_targets": 18
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 0,
+          "training_targets": 17,
+          "validation_targets": 18
+        },
+        {
+          "seed": 2026111511,
+          "inner_validation_group": 1,
+          "training_targets": 18,
+          "validation_targets": 17
+        },
+        {
+          "seed": 2026111512,
+          "inner_validation_group": 1,
+          "training_targets": 18,
+          "validation_targets": 17
+        }
+      ],
+      "all25_recomputed": true,
+      "all5_diagonal_choices_match_phase1": true,
+      "chosen_epochs": [
+        100,
+        0
+      ],
+      "saved_table_checked": true
+    }
+  },
+  "selection_tables_checked": 12,
+  "source_code_sha256": "37f32178d1eec23cd027bcc1a289ede2707a2a1025da0e1a7fd9e8a12c3e72f4",
+  "script_sha256": "94c723c4036a2bfbfcde54105347800669db618a93279f1c263d0d7bb4111dd7"
+}

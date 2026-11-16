@@ -1,5 +1,3 @@
-# Validation records
+# Current validation
 
-`SOFTWARE_UPDATE.json` records the v1.5.3 software update. `SCIENTIFIC_PAYLOAD_PRESERVATION.json` verifies unchanged numerical inputs and tables. `RELEASE_VALIDATION.json` is the inherited successful seven-module scientific replay; those experiments were not rerun for this software-only update. The optional software entry point and root integrity check are verified for v1.5.3. Older per-module receipts retain their original identities.
-
-`WINDOWS_GIT.json` records the v1.5.4 Git/Windows packaging check. Earlier software and scientific validation reports retain their original version identities.
+These records describe checks performed on this review package. Scientific replay, installed-software tests, source-table rendering, lossless array compression and anonymity scans have separate records and scopes. Passing one does not substitute for the others. Older delivery receipts have been removed; the data needed to assess the current scientific results remain in their respective modules.

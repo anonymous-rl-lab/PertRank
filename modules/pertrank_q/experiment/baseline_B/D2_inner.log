@@ -1,0 +1,9 @@
+D2 0 boundary_context 2026111511 selected 0
+D2 0 boundary_context 2026111512 selected 300
+D2 0 boundary_pair 2026111511 selected 100
+D2 0 boundary_pair 2026111512 selected 0
+D2 1 boundary_context 2026111511 selected 100
+D2 1 boundary_context 2026111512 selected 50
+D2 1 boundary_pair 2026111511 selected 50
+D2 1 boundary_pair 2026111512 selected 50
+INNER_COMPLETE D2

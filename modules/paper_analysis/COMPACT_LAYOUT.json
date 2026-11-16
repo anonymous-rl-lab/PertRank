@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
   "records": {
-    "analysis_v20/robustness/TRADE_SENSITIVITY_REPLAY_INPUTS.npz": {
+    "analysis/robustness/TRADE_SENSITIVITY_REPLAY_INPUTS.npz": {
       "kind": "trade",
       "arrays": {
         "effects": "3919d07a1bd87e4ee27b2f4d6549532b0bafcde5d111d998a9be7ed2a0a0685c",
@@ -34,7 +34,7 @@
         "weight_TRADE_scalar": "C"
       }
     },
-    "analysis_v20/biology/compact_inputs.npz": {
+    "analysis/biology/compact_inputs.npz": {
       "kind": "biology",
       "arrays": {
         "target_ids": "82458163a9d6112e6129d3c9f4ec28e4ce59a75ced817e83badc9e115e202ecb",
@@ -81,7 +81,7 @@
         "alignment_d_I": "C"
       }
     },
-    "analysis_v20/transfer/transfer_inputs.npz": {
+    "analysis/transfer/transfer_inputs.npz": {
       "kind": "transfer",
       "arrays": {
         "effects": "36aa928b22822809d28ba4dba7a1e22f8da4a83c17ef4fc1021cc3440da7639a",
@@ -100,22 +100,22 @@
         "source_blocks": "C"
       }
     },
-    "analysis_v20/s3/inputs/main_support.npz": {
+    "analysis/s3/inputs/main_support.npz": {
       "kind": "core",
       "path": "supplements/20261011_stim/data/main_support.npz",
       "sha256": "a65ca128ac5c75bb489f3ee5253479dbc51c538ac552c86fbc169981026e95d5"
     },
-    "analysis_v20/s3/inputs/main_query_context.npz": {
+    "analysis/s3/inputs/main_query_context.npz": {
       "kind": "core",
       "path": "supplements/20261011_stim/data/main_query_context.npz",
       "sha256": "a30eb6765d97dd1244271e4fa8c87f761100db521f045fba753aa80ea407fc46"
     },
-    "analysis_v20/s3/inputs/alignment_pretruth.npz": {
+    "analysis/s3/inputs/alignment_pretruth.npz": {
       "kind": "core",
       "path": "supplements/20261011_stim/data/alignment_pretruth.npz",
       "sha256": "cf41c2eb6a33f0c0db15d6ffcf15e01b068054f92052b4d3ddd54c72a55b7814"
     },
-    "analysis_v20/s3/inputs/original_registered_scores.npz": {
+    "analysis/s3/inputs/original_registered_scores.npz": {
       "kind": "core",
       "path": "supplements/20261011_stim/expected/registered_scores.npz",
       "sha256": "acf866f94c8be3e99cb3e5540a67caca9798eb44b7037a1530c28ec4107bfcbe"

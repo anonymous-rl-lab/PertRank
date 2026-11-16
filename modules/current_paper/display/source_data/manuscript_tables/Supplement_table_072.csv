@@ -1,0 +1,6 @@
+Method,Responsive P@25,Reference members per 25,Tercile P@25
+Unweighted,0.301751,7.5438,0.078453
+Euclidean,0.355650,8.8912,0.105190
+TRADE scalar adaptation,0.351115,8.7779,0.102155
+PR_M,0.368936,9.2234,0.108896
+PertRank,0.379173,9.4793,0.110630

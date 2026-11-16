@@ -1,0 +1,13 @@
+{
+  "positive_scaling_loss_max_difference": 0.0,
+  "radial_gradient_dot_max": 2.6020852139652106e-18,
+  "excluded_score_gradient_max": 0.0,
+  "candidate_permutation_loss_difference": 0.0,
+  "zero_variance_gradient_finite": true,
+  "all_passed": true,
+  "training_performed": false,
+  "zero_initialization_exact_all_sources": true,
+  "reference_independent_normalization_all_sources": true,
+  "finite_initial_model_gradients_all_objectives": true,
+  "formula": "centered prediction / eligible prediction population SD; differentiates through mean and SD; floor=1e-6*fixed training baseline SD"
+}

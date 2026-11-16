@@ -1,6 +1,6 @@
 from pathlib import Path
 import os,sys,numpy as np,json
-R=Path('/workspace/scratch/9bb77e8faf2b');H=R/'code_v151_release/staging/corrected_intermediates/guide';work=R/'code_v151_release/qa/guide_export';D={}
+R=Path('/anonymous/workspace');H=R/'code_v151_release/staging/corrected_intermediates/guide';work=R/'code_v151_release/qa/guide_export';D={}
 root=work/'corrected';stage=root/'same_budget_weight/stage3';os.environ['PR10_ROOT']=str(root);os.environ['PR10_DATA']=str(root/'data');sys.path[:0]=[str(stage),str(stage.parent/'stage2'),str(stage.parent/'scripts'),str(root)]
 import evaluate_a15_guide_split as E
 for mode in ['legacy','corrected']:

@@ -1,0 +1,6 @@
+screen,weight genes,rule
+E1 Stage 6,"8,202","the intersection of the Replogle export's 8,248 genes with the stage-5 reference"
+E2 Stage 7,"7,501",the probe panel intersected with the stage-6 gene set
+E3 Orion,"12,203","detected in at least 5% of 2,000 planning-control cells"
+E4 T cell,"13,390","non-zero mean in 2,000 input control cells, at least one count"
+E5 KOLF,"10,940",detected in at least 5% of all cells

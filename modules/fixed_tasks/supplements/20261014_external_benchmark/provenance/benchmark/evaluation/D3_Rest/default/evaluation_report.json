@@ -351,26 +351,26 @@
   "scope": "Conditional on observed inputs/reference, query panels, control geometry, candidates and donor/state. Query-block resampling only.",
   "simultaneous_intervals": "99% marginal percentile intervals form Bonferroni family for five prespecified contrasts at one task/K; PR-minus-E is extra descriptive and excluded from that family.",
   "provenance": {
-    "task_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/pooled_data/D3_Rest/frozen_task.npz",
+    "task_path": "/anonymous/workspace/fr_benchmark/pooled_data/D3_Rest/frozen_task.npz",
     "task_sha256": "b39c8361168c70e363b4453ac4523ba6a30727b24d53dea3e6e0f020c794b730",
-    "selection_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/pooled_data/D3_Rest/selection.npz",
+    "selection_path": "/anonymous/workspace/fr_benchmark/pooled_data/D3_Rest/selection.npz",
     "selection_sha256": "4fbd305116589ea88689e3d7ed3323e45e91ff9ce7748fce5b0d4995e03e5892",
-    "protocol_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/AMENDMENT_03_FR_SEARCH_21.json",
+    "protocol_path": "/anonymous/workspace/fr_benchmark/AMENDMENT_03_FR_SEARCH_21.json",
     "protocol_sha256": "edd9b8580c27bdc951938146fe90227aff8f54e9835569ce0122d2bfe0432ab6",
     "evaluator_sha256": "4acd8cebce3162b25874518942dbed4fae8299cd8fead65da2ef1b789dd95237",
     "score_primitive_sha256": "21cfcbe73404d7560922069de96b25fa706ac75900afb014a8aed1880fbc05cf",
     "fr": [
       {
         "input_rep": 0,
-        "effects_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/default_rep0/effects.npz",
+        "effects_path": "/anonymous/workspace/fr_benchmark/fr_outputs/D3_Rest/default_rep0/effects.npz",
         "effects_sha256": "03d11d5ea38de911c8b5fd5656f47a16f6129156761ebf83f4cdafa70593977b",
-        "solver_audit_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/default_rep0/NATIVE_SOLVER_OBJECTIVE_AUDIT.json",
+        "solver_audit_path": "/anonymous/workspace/fr_benchmark/fr_outputs/D3_Rest/default_rep0/NATIVE_SOLVER_OBJECTIVE_AUDIT.json",
         "solver_audit_sha256": "09239e1faaa3b51d178f0dfb7b434267a9ec193dc1be60446ebc9d9f0da4e7f0",
         "solver_audit_amendment_sha256": "106aeab3637b5bf5925bd289cd31c455df0d2638a741734803c1bdd6680126dd",
-        "fit_report_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/default_rep0/fit_report.json",
+        "fit_report_path": "/anonymous/workspace/fr_benchmark/fr_outputs/D3_Rest/default_rep0/fit_report.json",
         "fit_report_sha256": "4a4ae5396d45c658f9e94e6669fe5ad036f5e285471d3ce12acea9229705606b",
         "input_provenance": {
-          "input_directory": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/inputs/D3_Rest/rep0",
+          "input_directory": "/anonymous/workspace/fr_benchmark/inputs/D3_Rest/rep0",
           "counts_sha256": "d349da549202ba1e4618b684b6d940aaf3eedfa3be18b97ba5472bece830c0d7",
           "axes_sha256": "752d9f232b7c4a2ad2dd53f4fcbe12d03f0efb5c3ee40e1cc0a0102096aabb59"
         },

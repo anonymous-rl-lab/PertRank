@@ -44,7 +44,8 @@ def mixture_replay(weights):
     for d in sorted((HERE/'fits').iterdir()):
         meta=scorer.read_json(d/'COMPLETE.json')
         for name,want in meta['outputs'].items():
-            assert scorer.sha(d/name)==want,(d.name,name)
+            member = HERE / meta['shared_outputs'][name] if name in meta.get('shared_outputs', {}) else d/name
+            assert scorer.sha(member)==want,(d.name,name)
         with (d/'result_weights.tsv').open() as f:
             for row in csv.DictReader(f,delimiter='\t'):
                 i=ids[row['target']];g=int(row['replicate']);tsv_checked+=1

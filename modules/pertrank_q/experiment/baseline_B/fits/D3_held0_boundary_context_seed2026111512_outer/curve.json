@@ -1,0 +1,36 @@
+[
+  {
+    "epoch": 0,
+    "loss": -0.4135294959085881,
+    "ranking_loss": -0.4135294959085881,
+    "residual_penalty": 0.0,
+    "head_ridge": 0.0,
+    "gradient_norm": 0.0,
+    "ranking_gradient_norm": 0.009366890620727545,
+    "residual_gradient_norm": 0.0,
+    "ridge_gradient_norm": 0.0,
+    "train": {
+      "precision": 0.42559726962457345,
+      "max_abs_gate": 0.0,
+      "fraction_saturated": 0.0,
+      "rms_score_change": 0.0
+    }
+  },
+  {
+    "epoch": 50,
+    "loss": -0.4186164844512444,
+    "ranking_loss": -0.4214460769274028,
+    "residual_penalty": 0.0028208518609035634,
+    "head_ridge": 8.740615254830364e-06,
+    "gradient_norm": 0.001422466438738115,
+    "ranking_gradient_norm": 0.009730637076659627,
+    "residual_gradient_norm": 0.009549609499909429,
+    "ridge_gradient_norm": 1.9709687696753893e-05,
+    "train": {
+      "precision": 0.4336177474402731,
+      "max_abs_gate": 0.97606430898252,
+      "fraction_saturated": 0.0,
+      "rms_score_change": 0.013206557151853107
+    }
+  }
+]

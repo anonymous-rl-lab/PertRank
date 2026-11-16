@@ -1,0 +1,70 @@
+[
+  {
+    "epoch": 0,
+    "loss": -0.4061862857962741,
+    "ranking_loss": -0.4061862857962741,
+    "residual_penalty": 0.0,
+    "head_ridge": 0.0,
+    "gradient_norm": 0.0,
+    "ranking_gradient_norm": 0.009347656470890425,
+    "residual_gradient_norm": 0.0,
+    "ridge_gradient_norm": 0.0,
+    "train": {
+      "precision": 0.41825259515570934,
+      "max_abs_gate": 0.0,
+      "fraction_saturated": 0.0,
+      "rms_score_change": 0.0
+    }
+  },
+  {
+    "epoch": 50,
+    "loss": -0.4086272622447279,
+    "ranking_loss": -0.4099676234841999,
+    "residual_penalty": 0.0013361572646523915,
+    "head_ridge": 4.2039748196063216e-06,
+    "gradient_norm": 0.0009291881288473206,
+    "ranking_gradient_norm": 0.010769031616148927,
+    "residual_gradient_norm": 0.010540018378367317,
+    "ridge_gradient_norm": 1.3669064536969473e-05,
+    "train": {
+      "precision": 0.4215397923875433,
+      "max_abs_gate": 0.9723775378149774,
+      "fraction_saturated": 0.0,
+      "rms_score_change": 0.0077088856125428025
+    }
+  },
+  {
+    "epoch": 100,
+    "loss": -0.4106054088274437,
+    "ranking_loss": -0.41250926371371166,
+    "residual_penalty": 0.0018853733943344393,
+    "head_ridge": 1.848149193355311e-05,
+    "gradient_norm": 0.0010097487349290137,
+    "ranking_gradient_norm": 0.011325608996043826,
+    "residual_gradient_norm": 0.01094682543778609,
+    "ridge_gradient_norm": 2.8660070507436813e-05,
+    "train": {
+      "precision": 0.4213667820069204,
+      "max_abs_gate": 1.0758401147307108,
+      "fraction_saturated": 0.0,
+      "rms_score_change": 0.008929049135641787
+    }
+  },
+  {
+    "epoch": 200,
+    "loss": -0.4131528057861701,
+    "ranking_loss": -0.4158605569429939,
+    "residual_penalty": 0.002623933963795403,
+    "head_ridge": 8.381719302840947e-05,
+    "gradient_norm": 0.0005798683988838948,
+    "ranking_gradient_norm": 0.01230302274145074,
+    "residual_gradient_norm": 0.012103590241838082,
+    "ridge_gradient_norm": 6.103448680082779e-05,
+    "train": {
+      "precision": 0.42326989619377164,
+      "max_abs_gate": 1.0974806760965756,
+      "fraction_saturated": 0.020507562163547807,
+      "rms_score_change": 0.010747762851664207
+    }
+  }
+]

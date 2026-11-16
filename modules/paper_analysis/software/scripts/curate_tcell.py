@@ -2,28 +2,27 @@
 from pathlib import Path
 import hashlib
 import json
-import sys
+import argparse
 import numpy as np
 
-ROOT = Path(__file__).resolve().parents[2]
-OUT = Path(__file__).resolve().parent
-BASE = ROOT / "package_v140/total/PertRank_D1_D4_GitHub_Core/supplements/20261014_upgrade/native_rna"
-SOURCES = {
-    "moments": ROOT / "package_v130/release/PertRank_Code_v1.3.0/modules/native_rna/raw_inputs/D3_Rest/sufficient_state.npz",
-    "predictions": BASE / "legacy/D3_Rest/predictions_locked.npz",
-    "fr": BASE / "models/D3_Rest/FR/native/effects.npz",
-    "symbols": ROOT / "pertrank_ecosystem/sources/recovered/Pertrescue_Code_v9/code/repro_v10/same_budget_weight/stage3/data/tcell_gene_symbols.json",
-}
 
 def digest(path):
     with path.open("rb") as handle:
-        return hashlib.file_digest(handle, "sha256").hexdigest()
+        return hashlib.sha256(handle.read()).hexdigest()
 
 def load(path):
     with np.load(path, allow_pickle=False) as z:
         return {k: z[k] for k in z.files}
 
 def main():
+    ap = argparse.ArgumentParser()
+    for name in ("moments", "predictions", "fr", "symbols"):
+        ap.add_argument("--" + name, type=Path, required=True)
+    ap.add_argument("--output-dir", type=Path, required=True)
+    a = ap.parse_args()
+    SOURCES = {name:getattr(a, name) for name in ("moments", "predictions", "fr", "symbols")}
+    OUT = a.output_dir
+    OUT.mkdir(parents=True, exist_ok=False)
     s, p, f = (load(SOURCES[k]) for k in ("moments", "predictions", "fr"))
     symbols = json.loads(SOURCES["symbols"].read_text())["symbols"]
     assert np.array_equal(f["targets"], p["target_ids"])
@@ -36,7 +35,6 @@ def main():
     pe = (ps / b - s["proj_control"][:5]) ** 2
     pv = (pq - ps * ps / b) / (b - 1) / b + s["lam"][:5] / nc
     # Software parity only: no reference or performance endpoint is read.
-    sys.path.insert(0, str(ROOT / "paper_v21_1/release/PertRank_Paper_v21_1/application"))
     from pertrank.core import reliability_weights
     weights = reliability_weights(energy, noise, pe, pv)
     errors = {"Euclidean": float(np.max(abs(weights["Euclidean"] - p["w0y"]))),
@@ -68,7 +66,7 @@ def main():
         "units_conversion": {"energy": "G * m2", "noise_trace": "G * vb / 20 + trC / n_control", "direction_energy": "(Psum/20 - proj_control)^2, first 5 directions", "direction_noise": "(Psumsq - Psum^2/20)/19/20 + eigenvalue/n_control, first 5 directions"},
         "source_study_doi": "10.1016/j.cell.2026.08.002",
         "source_release": "genome-scale-tcell-perturb-seq/marson2025_data",
-        "sources": {k: {"path": str(v.relative_to(ROOT)), "sha256": digest(v)} for k, v in SOURCES.items()},
+        "sources": {k: {"path": v.name, "sha256": digest(v)} for k, v in SOURCES.items()},
         "fixture": {"file": destination.name, "sha256": digest(destination), "bytes": destination.stat().st_size},
         "archived_weight_max_absolute_error": errors,
         "new_model_fits": 0, "reference_matrices_read": 0, "scientific_performance_evaluations": 0,

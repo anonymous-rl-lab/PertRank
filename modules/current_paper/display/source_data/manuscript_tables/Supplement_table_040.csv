@@ -1,0 +1,7 @@
+source,query rule,Unweighted,Euclidean,PertRank
+D3,responsive,0.0534,0.0577,0.0592
+D3,terciles,0.0396,0.0427,0.0439
+D1,responsive,0.0661,0.0787,0.0846
+D1,terciles,0.0438,0.0497,0.0522
+descriptive mean,responsive,,,
+descriptive mean,terciles,,,

@@ -71,13 +71,13 @@ def main():
             pass
         else:
             raise AssertionError("Duplicate-cell input accepted")
-    audit = dict(status="PASS", version="v20.0", fixture="Synthetic raw integer counts only",
+    audit = dict(status="PASS", version="review", fixture="Synthetic raw integer counts only",
                  dimensions=list(x.shape), targets=8, target_cells_each=20, input_controls=2000,
                  frozen_engine_cell_level_parity=True, maximum_absolute_errors=errors,
                  full_covariance_check=True, cli_end_to_end=True,
                  own_gene_exclusion_and_probability_mass=True, duplicate_cells_rejected=True,
                  limitations="Software/algebra validation; not real-cell pipeline equivalence or biological performance validation")
-    (root/"VALIDATION_v20.json").write_text(json.dumps(audit, indent=2)+"\n")
+    (root/"APPLICATION_VALIDATION.json").write_text(json.dumps(audit, indent=2)+"\n")
     print(json.dumps(audit, indent=2))
 
 

@@ -1,0 +1,54 @@
+{
+  "package_version": "1.6.1",
+  "status": "REQUESTED_COMMANDS_COMPLETED",
+  "scientific_scope": "Selected workflows reproduce their declared stages from retained intermediate inputs. Current-paper four-arm and guide diagnostics supplement the core workflows. Optional PertRank-Q reconstructs checkpoint predictions and original subpool statistics without retraining. Raw-count preprocessing, native estimator refitting, and explicitly unavailable historical inputs are outside the default scope.",
+  "manifest": {
+    "status": "VERIFIED",
+    "files": 2349,
+    "manifest_sha256": "05de81c3275d2a5f7470cb2618eebb062a3e26e5a61cc1ebbd2c44941c9f502b",
+    "policy": "All release files, including nested manifests; root MANIFEST_SHA256.json and root .git metadata excluded."
+  },
+  "selected_modules": [
+    "software"
+  ],
+  "modules": [
+    {
+      "module": "software",
+      "reproduction_level": "Optional software tests and tutorial smoke tests",
+      "declared_scope": "Requires a separate environment with modules/paper_analysis/software[test] installed. This verifies the software interface; it does not add biological validation.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "<REVIEW_WORK>/work/PertRank/modules/paper_analysis/reproduce.py",
+        "--only",
+        "software",
+        "--out",
+        "<REVIEW_WORK>/final_software_dispatch/software",
+        "--software-python",
+        "<REVIEW_WORK>/software_env/bin/python"
+      ],
+      "timeout_seconds": 600,
+      "log": "logs/software.log",
+      "output": "<REVIEW_WORK>/final_software_dispatch/software",
+      "started_utc": "2026-11-16T11:42:19.554208+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 10.54576624299807,
+      "native_report": "software/REPLAY_REPORT.json",
+      "native_report_sha256": "764f763bc5dbc1212a51c1dd86a04bf4dc91f15c4c5aa690dee3553ce8fe7552",
+      "native_statuses": [
+        "PASS"
+      ]
+    }
+  ],
+  "started_utc": "2026-11-16T11:42:19.553487+00:00",
+  "dispatcher_python": "3.12.14",
+  "numeric_python": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "offline_guard": "Python socket/DNS blocking inherited by child Python processes; registered entry points perform no download or new model training.",
+  "numeric_library_threads": 1,
+  "not_run": [],
+  "wall_seconds": 10.547033613001986,
+  "all_requested_commands_exit_zero": true,
+  "exit_code": 0,
+  "completed_utc": "2026-11-16T11:42:30.100766+00:00"
+}

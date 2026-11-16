@@ -4,16 +4,16 @@
   "mode": "D4_final_authorized_audit",
   "D4_access": "only after completed score release",
   "source_sha256": {
-    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/protocol/ACCESS_RELEASE.json": "f575482f20609ee126251aaf223a61b18189ba633fad06ff55b97c71c7b2ce87",
-    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/protocol/LOCK1_PROTOCOL_CODE.json": "9f3809ffe7fb0d65e9b67d4264adcc71373cf4937d78a95174783f0c353a3781",
-    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/protocol/PREDICTION_LOCK.json": "9e38269eb3deabba3118f1833be26d72bda3d8537130687eda42a9e5e46c5a0c",
-    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/data/D4_Rest/predictions.npz": "4f06d79a11a54693b6115861b6b23708717ef1fc40d4ca38b2b89c6f28e42666",
-    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/data/D4_Rest/query_context.npz": "6d86658f85454e7c916a6415c008a78820b44f5b235eb9d38e74ceedcaa44eca",
-    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/data/D4_Rest/truth.npz": "3ed963d1076079810afeeb0df3e4cfb6ee1cb9ff4da923cc5db462b87c96c09a",
-    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/data/D4_Rest/TRUTH_COMPLETE.json": "7dabcf59fc29d344bacba3dc4ecb4ba379e68400ec73052560f6fc14f46a314f",
-    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/results/D4_RESULT.json": "e89aab5d08a103b3db37b57a230387726bb7933af60328fc6cfa50e36c52e4d0",
-    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/results/EVALUATION_COMPLETE.json": "90348287a8443f301f345ba6df83af52bbeaad938027f1fdb234975f101fba44",
-    "/workspace/scratch/09ac4e5b2530/v18_d4_confirmation/results/query_scores_and_depth_bootstrap.npz": "c5fcee361069f2d21eb0da33754a4fc2f27506d2a37edf3f8cbabc16462e4d03"
+    "/anonymous/workspace/v18_d4_confirmation/protocol/ACCESS_RELEASE.json": "f575482f20609ee126251aaf223a61b18189ba633fad06ff55b97c71c7b2ce87",
+    "/anonymous/workspace/v18_d4_confirmation/protocol/LOCK1_PROTOCOL_CODE.json": "9f3809ffe7fb0d65e9b67d4264adcc71373cf4937d78a95174783f0c353a3781",
+    "/anonymous/workspace/v18_d4_confirmation/protocol/PREDICTION_LOCK.json": "9e38269eb3deabba3118f1833be26d72bda3d8537130687eda42a9e5e46c5a0c",
+    "/anonymous/workspace/v18_d4_confirmation/data/D4_Rest/predictions.npz": "4f06d79a11a54693b6115861b6b23708717ef1fc40d4ca38b2b89c6f28e42666",
+    "/anonymous/workspace/v18_d4_confirmation/data/D4_Rest/query_context.npz": "6d86658f85454e7c916a6415c008a78820b44f5b235eb9d38e74ceedcaa44eca",
+    "/anonymous/workspace/v18_d4_confirmation/data/D4_Rest/truth.npz": "3ed963d1076079810afeeb0df3e4cfb6ee1cb9ff4da923cc5db462b87c96c09a",
+    "/anonymous/workspace/v18_d4_confirmation/data/D4_Rest/TRUTH_COMPLETE.json": "7dabcf59fc29d344bacba3dc4ecb4ba379e68400ec73052560f6fc14f46a314f",
+    "/anonymous/workspace/v18_d4_confirmation/results/D4_RESULT.json": "e89aab5d08a103b3db37b57a230387726bb7933af60328fc6cfa50e36c52e4d0",
+    "/anonymous/workspace/v18_d4_confirmation/results/EVALUATION_COMPLETE.json": "90348287a8443f301f345ba6df83af52bbeaad938027f1fdb234975f101fba44",
+    "/anonymous/workspace/v18_d4_confirmation/results/query_scores_and_depth_bootstrap.npz": "c5fcee361069f2d21eb0da33754a4fc2f27506d2a37edf3f8cbabc16462e4d03"
   },
   "decision": {
     "primary_endpoint": "responsive PertRank minus Euclidean, five groups averaged within query",

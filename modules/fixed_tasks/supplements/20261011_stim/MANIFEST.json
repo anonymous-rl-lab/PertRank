@@ -4,7 +4,7 @@
   "file_sha256": {
     "README.md": "6e1c385503ca33dc2d9f51208ec87aa48b340183b99b2112569f85fbbc6ac78d",
     "RESULTS.md": "4b9f8f0d48713700cbdf122b60b3e176653a902ac2be2c77f009bbe2c1b2242b",
-    "audit/CANDIDATE_INDEPENDENT_AUDIT.json": "6e81f7f882a8bb455730246dae0a3ef7be15162d68ec84074492533cd24d07a6",
+    "audit/CANDIDATE_INDEPENDENT_AUDIT.json": "c9ca9e8d2c6b51a33e13fedb545332bdd1ab2216a32ddcd377555bc849fdccfd",
     "audit/COMPACTION_BUILD.json": "c5f04cd85579481c85cfdd3994ba60de0518423f3250c74a390caf16f840bbca",
     "audit/INDEPENDENT_TRADE_FAILURE_AUDIT.json": "ffeb1dbefa179249e791059e04f524ebfe55c763ba1db4d1a4d26271e47c86df",
     "audit/INVESTIGATOR_DIRECTED_EVALUATION_RECEIPT_PUBLIC.json": "b01013619271994990ddb5458aa36b91fe9b342067bf77d41dbebbcc220f0102",
@@ -41,5 +41,5 @@
   },
   "self_contained": true,
   "scope": "Frozen fixed-method result reproduction; not arbitrary refitting or complete raw-data reconstruction",
-  "review_packaging_version": "1.5.2"
+  "review_packaging_version": "1.6.1"
 }

@@ -4,7 +4,7 @@
   "title": "Native LASSO convergence acceptance audit correction",
   "authorization": "Parent approval after independent benchmark_audit and numerical_audit; no performance read",
   "primary_protocol_sha256": "edd9b8580c27bdc951938146fe90227aff8f54e9835569ce0122d2bfe0432ab6",
-  "original_grid_path": "/workspace/scratch/9bb77e8faf2b/fr_benchmark/fr_outputs/D3_Rest/GRID_EXECUTION.json",
+  "original_grid_path": "/anonymous/workspace/fr_benchmark/fr_outputs/D3_Rest/GRID_EXECUTION.json",
   "original_grid_sha256": "ad29dcf24293934549693962683865e1c170c1d507dba46526a7bf6d03a3826f",
   "original_fit_results": "19 COMPLETE; two adapter coefficient-precision audit rejections after valid native fits",
   "affected": [

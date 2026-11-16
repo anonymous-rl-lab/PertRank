@@ -1,0 +1,2058 @@
+{
+  "identity": "Post hoc fixed local membership repair; all arms reported; no training/window scan/primary replacement",
+  "sources": {
+    "D3": {
+      "original_precision": 0.4257679180887372,
+      "arms": {
+        "base_context": {
+          "local_precision": 0.4273890784982935,
+          "unrestricted_precision": 0.4275597269624573,
+          "local_vs_original": {
+            "delta": 0.0016211604095563148,
+            "conditional95": [
+              -0.0005983038742044889,
+              0.003432502817719186
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": -0.0001706484641638227,
+            "conditional95": [
+              -0.0013443380376344102,
+              0.0009348403828242908
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.42755972696245736,
+              "unrestricted_precision": 0.4264505119453925,
+              "local_vs_original": {
+                "delta": 0.0017918088737201366,
+                "conditional95": [
+                  -0.000559913500678429,
+                  0.004292984915231611
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0011092150170648458,
+                "conditional95": [
+                  -0.00019457152845330758,
+                  0.0021777184206341173
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.4267918088737202,
+              "unrestricted_precision": 0.42602389078498293,
+              "local_vs_original": {
+                "delta": 0.001023890784982938,
+                "conditional95": [
+                  -0.0008789924172794098,
+                  0.0025332729784215665
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0007679180887372022,
+                "conditional95": [
+                  -0.0008899197368084168,
+                  0.002836523868102374
+                ]
+              }
+            }
+          }
+        },
+        "boundary_context": {
+          "local_precision": 0.426877133105802,
+          "unrestricted_precision": 0.4267064846416382,
+          "local_vs_original": {
+            "delta": 0.001109215017064847,
+            "conditional95": [
+              0.00016261741824303547,
+              0.0021780401263674083
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": 0.0001706484641638227,
+            "conditional95": [
+              -0.0006554307116104866,
+              0.0008755586812493433
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.4262798634812287,
+              "unrestricted_precision": 0.42619453924914674,
+              "local_vs_original": {
+                "delta": 0.0005119453924914682,
+                "conditional95": [
+                  -0.0004562671599812517,
+                  0.0016026376146789016
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 8.532423208191134e-05,
+                "conditional95": [
+                  -0.0008866831306990885,
+                  0.0009063444108761326
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.42653583617747437,
+              "unrestricted_precision": 0.42662116040955633,
+              "local_vs_original": {
+                "delta": 0.0007679180887372019,
+                "conditional95": [
+                  -0.00020088517334644826,
+                  0.0016007730836236926
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -8.532423208191078e-05,
+                "conditional95": [
+                  -0.0010576923076923061,
+                  0.0007703141187982043
+                ]
+              }
+            }
+          }
+        },
+        "boundary_pair": {
+          "local_precision": 0.4253412969283277,
+          "unrestricted_precision": 0.42457337883959045,
+          "local_vs_original": {
+            "delta": -0.0004266211604095571,
+            "conditional95": [
+              -0.002403896443514646,
+              0.0018033488125662272
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": 0.000767918088737201,
+            "conditional95": [
+              -0.0004902999335327368,
+              0.002220203561826599
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.4262798634812287,
+              "unrestricted_precision": 0.42508532423208195,
+              "local_vs_original": {
+                "delta": 0.0005119453924914669,
+                "conditional95": [
+                  -0.0016215702639462285,
+                  0.002947399558616283
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0011945392491467565,
+                "conditional95": [
+                  -0.00014885434595525153,
+                  0.00294800623508756
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.42474402730375427,
+              "unrestricted_precision": 0.42448805460750855,
+              "local_vs_original": {
+                "delta": -0.001023890784982935,
+                "conditional95": [
+                  -0.003341831039816306,
+                  0.0015330302458259908
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0002559726962457349,
+                "conditional95": [
+                  -0.0015117159971811123,
+                  0.0022567279291105993
+                ]
+              }
+            }
+          }
+        }
+      },
+      "local_contrasts": {
+        "boundary_context_minus_base_context": {
+          "delta": -0.0005119453924914678,
+          "conditional95": [
+            -0.00220598391290218,
+            0.0017057914673046176
+          ]
+        },
+        "boundary_pair_minus_base_context": {
+          "delta": -0.002047781569965872,
+          "conditional95": [
+            -0.004283698006497936,
+            0.0009052587003387721
+          ]
+        }
+      },
+      "seed_local_contrasts": {
+        "boundary_context_minus_base_context": {
+          "2026111511": {
+            "delta": -0.0012798634812286685,
+            "conditional95": [
+              -0.003571756827731094,
+              0.0010539973011676554
+            ]
+          },
+          "2026111512": {
+            "delta": -0.0002559726962457361,
+            "conditional95": [
+              -0.0016923728813559328,
+              0.0013489249339871691
+            ]
+          }
+        },
+        "boundary_pair_minus_base_context": {
+          "2026111511": {
+            "delta": -0.0012798634812286698,
+            "conditional95": [
+              -0.003956305132775724,
+              0.0013199641015269473
+            ]
+          },
+          "2026111512": {
+            "delta": -0.002047781569965873,
+            "conditional95": [
+              -0.004629892676767678,
+              0.0008588608844432713
+            ]
+          }
+        }
+      }
+    },
+    "D1": {
+      "original_precision": 0.3822231833910035,
+      "arms": {
+        "base_context": {
+          "local_precision": 0.3830017301038062,
+          "unrestricted_precision": 0.3829152249134948,
+          "local_vs_original": {
+            "delta": 0.0007785467128027699,
+            "conditional95": [
+              -0.001402686616976303,
+              0.003166791044776121
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": 8.650519031141954e-05,
+            "conditional95": [
+              -0.0020835227272727264,
+              0.0021582733812949653
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.38239619377162637,
+              "unrestricted_precision": 0.38265570934256055,
+              "local_vs_original": {
+                "delta": 0.00017301038062283896,
+                "conditional95": [
+                  -0.0016410250376506013,
+                  0.002294912697235
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.00025951557093425494,
+                "conditional95": [
+                  -0.0025005252100840335,
+                  0.0017514057606529364
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.38230968858131487,
+              "unrestricted_precision": 0.38256920415224915,
+              "local_vs_original": {
+                "delta": 8.650519031142088e-05,
+                "conditional95": [
+                  -0.002363701833146276,
+                  0.0026318687688383956
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.0002595155709342543,
+                "conditional95": [
+                  -0.0022482464028776962,
+                  0.0014170903110047872
+                ]
+              }
+            }
+          }
+        },
+        "boundary_context": {
+          "local_precision": 0.3828287197231834,
+          "unrestricted_precision": 0.38291522491349483,
+          "local_vs_original": {
+            "delta": 0.0006055363321799329,
+            "conditional95": [
+              -0.00212532973267706,
+              0.003125280017921149
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": -8.650519031141943e-05,
+            "conditional95": [
+              -0.0020272772772772763,
+              0.0020038268592778644
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.38317474048442907,
+              "unrestricted_precision": 0.3834342560553633,
+              "local_vs_original": {
+                "delta": 0.0009515570934256075,
+                "conditional95": [
+                  -0.0023001923076923086,
+                  0.004073846625273777
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.00025951557093425564,
+                "conditional95": [
+                  -0.0022727272727272717,
+                  0.0015457647693552703
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.3812716262975779,
+              "unrestricted_precision": 0.3812716262975779,
+              "local_vs_original": {
+                "delta": -0.0009515570934256033,
+                "conditional95": [
+                  -0.003351618267358854,
+                  0.001233756862147091
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 1.4406008104997705e-18,
+                "conditional95": [
+                  -0.002821641257199094,
+                  0.0036090374056957746
+                ]
+              }
+            }
+          }
+        },
+        "boundary_pair": {
+          "local_precision": 0.382136678200692,
+          "unrestricted_precision": 0.3805795847750865,
+          "local_vs_original": {
+            "delta": -8.650519031141674e-05,
+            "conditional95": [
+              -0.002477597278129191,
+              0.002215365682137835
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": 0.0015570934256055385,
+            "conditional95": [
+              -0.000789515323117919,
+              0.004417537985588974
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.38265570934256055,
+              "unrestricted_precision": 0.37980103806228377,
+              "local_vs_original": {
+                "delta": 0.0004325259515570965,
+                "conditional95": [
+                  -0.001885048478154145,
+                  0.0026121659845931644
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0028546712802768196,
+                "conditional95": [
+                  -0.00027080735149326925,
+                  0.006492543486481379
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.38265570934256055,
+              "unrestricted_precision": 0.3809256055363322,
+              "local_vs_original": {
+                "delta": 0.0004325259515570958,
+                "conditional95": [
+                  -0.0022982760939741723,
+                  0.003220982584603208
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0017301038062283748,
+                "conditional95": [
+                  -0.0013405275563632404,
+                  0.005376058377234185
+                ]
+              }
+            }
+          }
+        }
+      },
+      "local_contrasts": {
+        "boundary_context_minus_base_context": {
+          "delta": -0.00017301038062283704,
+          "conditional95": [
+            -0.0025893058236808224,
+            0.0019532707555970155
+          ]
+        },
+        "boundary_pair_minus_base_context": {
+          "delta": -0.0008650519031141867,
+          "conditional95": [
+            -0.004060077519379847,
+            0.0016820181859587466
+          ]
+        }
+      },
+      "seed_local_contrasts": {
+        "boundary_context_minus_base_context": {
+          "2026111511": {
+            "delta": 0.0007785467128027685,
+            "conditional95": [
+              -0.002008808517644477,
+              0.003188884782885116
+            ]
+          },
+          "2026111512": {
+            "delta": -0.001038062283737024,
+            "conditional95": [
+              -0.003456494500319555,
+              0.0009450171821305831
+            ]
+          }
+        },
+        "boundary_pair_minus_base_context": {
+          "2026111511": {
+            "delta": 0.00025951557093425765,
+            "conditional95": [
+              -0.0022364450342487016,
+              0.0023953575899049364
+            ]
+          },
+          "2026111512": {
+            "delta": 0.00034602076124567495,
+            "conditional95": [
+              -0.0024915619148773095,
+              0.003000396825396823
+            ]
+          }
+        }
+      }
+    },
+    "D2": {
+      "original_precision": 0.37474048442906577,
+      "arms": {
+        "base_context": {
+          "local_precision": 0.3745674740484429,
+          "unrestricted_precision": 0.37595155709342565,
+          "local_vs_original": {
+            "delta": -0.00017301038062283867,
+            "conditional95": [
+              -0.0022835931867339595,
+              0.0022268562030075168
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": -0.0013840830449826983,
+            "conditional95": [
+              -0.004545618759852863,
+              0.0015631901501766752
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.37404844290657435,
+              "unrestricted_precision": 0.3763840830449827,
+              "local_vs_original": {
+                "delta": -0.0006920415224913508,
+                "conditional95": [
+                  -0.0027345087756849343,
+                  0.0012590836421771646
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.002335640138408306,
+                "conditional95": [
+                  -0.00547945205479452,
+                  0.0008936061840843665
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.3738754325259516,
+              "unrestricted_precision": 0.37430795847750864,
+              "local_vs_original": {
+                "delta": -0.0008650519031141867,
+                "conditional95": [
+                  -0.0025723768205031224,
+                  0.0006062779433681077
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.0004325259515570936,
+                "conditional95": [
+                  -0.0027110547452969774,
+                  0.0016026929260450154
+                ]
+              }
+            }
+          }
+        },
+        "boundary_context": {
+          "local_precision": 0.3752595155709343,
+          "unrestricted_precision": 0.37750865051903115,
+          "local_vs_original": {
+            "delta": 0.0005190311418685121,
+            "conditional95": [
+              -0.0015158756684491986,
+              0.002567031598269302
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": -0.0022491349480968847,
+            "conditional95": [
+              -0.0037499999999999986,
+              -0.0008665517241379318
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.37569204152249136,
+              "unrestricted_precision": 0.37664359861591695,
+              "local_vs_original": {
+                "delta": 0.0009515570934256053,
+                "conditional95": [
+                  -0.000527123335028768,
+                  0.002520230652559927
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.0009515570934256066,
+                "conditional95": [
+                  -0.0025362659365805833,
+                  0.0006756756756756742
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.37482698961937716,
+              "unrestricted_precision": 0.3768166089965398,
+              "local_vs_original": {
+                "delta": 8.650519031141848e-05,
+                "conditional95": [
+                  -0.002024414730006837,
+                  0.0020582424622175664
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.0019896193771626286,
+                "conditional95": [
+                  -0.004225525396473326,
+                  2.346410654169957e-18
+                ]
+              }
+            }
+          }
+        },
+        "boundary_pair": {
+          "local_precision": 0.3719723183391003,
+          "unrestricted_precision": 0.37396193771626296,
+          "local_vs_original": {
+            "delta": -0.002768166089965401,
+            "conditional95": [
+              -0.005455086580086583,
+              -0.0004731790925863824
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": -0.0019896193771626325,
+            "conditional95": [
+              -0.004265341890349211,
+              0.0006069323154098138
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.3720588235294118,
+              "unrestricted_precision": 0.37422145328719725,
+              "local_vs_original": {
+                "delta": -0.0026816608996539813,
+                "conditional95": [
+                  -0.005648211567732112,
+                  -0.0004370629370629386
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.0021626297577854708,
+                "conditional95": [
+                  -0.006449326441102759,
+                  0.0022657634115229187
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.37603806228373704,
+              "unrestricted_precision": 0.37603806228373704,
+              "local_vs_original": {
+                "delta": 0.001297577854671279,
+                "conditional95": [
+                  -0.0003183358578111835,
+                  0.002993689320388346
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -1.5366408645330887e-18,
+                "conditional95": [
+                  -0.002338196858243744,
+                  0.00252967879758907
+                ]
+              }
+            }
+          }
+        }
+      },
+      "local_contrasts": {
+        "boundary_context_minus_base_context": {
+          "delta": 0.0006920415224913509,
+          "conditional95": [
+            -0.0014708444353351076,
+            0.002572973650144068
+          ]
+        },
+        "boundary_pair_minus_base_context": {
+          "delta": -0.002595155709342562,
+          "conditional95": [
+            -0.00560344827586207,
+            -0.00016639408099688655
+          ]
+        }
+      },
+      "seed_local_contrasts": {
+        "boundary_context_minus_base_context": {
+          "2026111511": {
+            "delta": 0.0016435986159169561,
+            "conditional95": [
+              -0.0003651677742673471,
+              0.0038020574580713696
+            ]
+          },
+          "2026111512": {
+            "delta": 0.0009515570934256053,
+            "conditional95": [
+              -0.0009387766315027406,
+              0.002589715213221189
+            ]
+          }
+        },
+        "boundary_pair_minus_base_context": {
+          "2026111511": {
+            "delta": -0.0019896193771626303,
+            "conditional95": [
+              -0.005075659367855379,
+              0.000490244326076886
+            ]
+          },
+          "2026111512": {
+            "delta": 0.0021626297577854656,
+            "conditional95": [
+              0.0001944619455645151,
+              0.0043479267310789025
+            ]
+          }
+        }
+      }
+    }
+  },
+  "tasks": {
+    "D3_held0": {
+      "original_precision": 0.4259385665529011,
+      "arms": {
+        "base_context": {
+          "local_precision": 0.42696245733788396,
+          "unrestricted_precision": 0.42645051194539246,
+          "local_vs_original": {
+            "delta": 0.001023890784982936,
+            "conditional95": [
+              -0.0009350699151030891,
+              0.002707748839608048
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": 0.000511945392491468,
+            "conditional95": [
+              -0.0013700652572538015,
+              0.002083514808362369
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.4259385665529011,
+              "unrestricted_precision": 0.4254266211604096,
+              "local_vs_original": {
+                "delta": 8.52560343142185e-19,
+                "conditional95": [
+                  -0.0018003629032258058,
+                  0.002099665778100891
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.000511945392491468,
+                "conditional95": [
+                  -0.0013700652572538015,
+                  0.002083514808362369
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.4271331058020478,
+              "unrestricted_precision": 0.42679180887372015,
+              "local_vs_original": {
+                "delta": 0.0011945392491467585,
+                "conditional95": [
+                  -0.0007283338092518561,
+                  0.0028881066987565206
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.00034129692832764554,
+                "conditional95": [
+                  -0.0013566110701883607,
+                  0.0020516055045871552
+                ]
+              }
+            }
+          }
+        },
+        "boundary_context": {
+          "local_precision": 0.4281569965870307,
+          "unrestricted_precision": 0.42781569965870303,
+          "local_vs_original": {
+            "delta": 0.0022184300341296943,
+            "conditional95": [
+              0.00032523483648607164,
+              0.004356080252734819
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": 0.00034129692832764576,
+            "conditional95": [
+              -0.0013108614232209723,
+              0.001751117362498686
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.42696245733788396,
+              "unrestricted_precision": 0.4267918088737202,
+              "local_vs_original": {
+                "delta": 0.0010238907849829367,
+                "conditional95": [
+                  -0.0009125343199624979,
+                  0.003205275229357801
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.00017064846416382342,
+                "conditional95": [
+                  -0.001773366261398175,
+                  0.0018126888217522667
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.4274744027303754,
+              "unrestricted_precision": 0.42764505119453927,
+              "local_vs_original": {
+                "delta": 0.0015358361774744042,
+                "conditional95": [
+                  -0.000401770346692892,
+                  0.0032015461672473856
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.0001706484641638217,
+                "conditional95": [
+                  -0.0021153846153846136,
+                  0.001540628237596408
+                ]
+              }
+            }
+          }
+        },
+        "boundary_pair": {
+          "local_precision": 0.42508532423208195,
+          "unrestricted_precision": 0.4235494880546075,
+          "local_vs_original": {
+            "delta": -0.000853242320819113,
+            "conditional95": [
+              -0.00480779288702929,
+              0.003606697625132455
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": 0.0015358361774744018,
+            "conditional95": [
+              -0.0009805998670654734,
+              0.0044404071236531974
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.42696245733788396,
+              "unrestricted_precision": 0.42457337883959045,
+              "local_vs_original": {
+                "delta": 0.0010238907849829345,
+                "conditional95": [
+                  -0.0032431405278924535,
+                  0.005894799117232569
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0023890784982935143,
+                "conditional95": [
+                  -0.00029770869191050094,
+                  0.005896012470175117
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.42389078498293514,
+              "unrestricted_precision": 0.4233788395904437,
+              "local_vs_original": {
+                "delta": -0.0020477815699658708,
+                "conditional95": [
+                  -0.0066836620796326095,
+                  0.003066060491651978
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0005119453924914686,
+                "conditional95": [
+                  -0.0030234319943622276,
+                  0.0045134558582211985
+                ]
+              }
+            }
+          }
+        }
+      },
+      "local_contrasts": {
+        "boundary_context_minus_base_context": {
+          "delta": 0.0011945392491467585,
+          "conditional95": [
+            -0.00017429325129117527,
+            0.0031131444552529187
+          ]
+        },
+        "boundary_pair_minus_base_context": {
+          "delta": -0.0018771331058020494,
+          "conditional95": [
+            -0.0058491512589133625,
+            0.002737423071418345
+          ]
+        }
+      },
+      "seed_local_contrasts": {
+        "boundary_context_minus_base_context": {
+          "2026111511": {
+            "delta": 0.0010238907849829358,
+            "conditional95": [
+              -0.0006466216972682495,
+              0.0025842383355272774
+            ]
+          },
+          "2026111512": {
+            "delta": 0.00034129692832764554,
+            "conditional95": [
+              -0.0011321826758147505,
+              0.0017991269236266592
+            ]
+          }
+        },
+        "boundary_pair_minus_base_context": {
+          "2026111511": {
+            "delta": 0.0010238907849829339,
+            "conditional95": [
+              -0.003088325524319503,
+              0.005682506291286564
+            ]
+          },
+          "2026111512": {
+            "delta": -0.003242320819112629,
+            "conditional95": [
+              -0.007705628535405169,
+              0.0020005050505050455
+            ]
+          }
+        }
+      }
+    },
+    "D3_held1": {
+      "original_precision": 0.42559726962457345,
+      "arms": {
+        "base_context": {
+          "local_precision": 0.4278156996587031,
+          "unrestricted_precision": 0.42866894197952216,
+          "local_vs_original": {
+            "delta": 0.002218430034129694,
+            "conditional95": [
+              -0.0014440992630605368,
+              0.005297707405574797
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": -0.0008532423208191137,
+            "conditional95": [
+              -0.0024754010760877584,
+              0.0009218733254742241
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.42918088737201365,
+              "unrestricted_precision": 0.4274744027303754,
+              "local_vs_original": {
+                "delta": 0.003583617747440274,
+                "conditional95": [
+                  -0.00036401515151515234,
+                  0.007588257273172362
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0017064846416382253,
+                "conditional95": [
+                  0.000182432343408258,
+                  0.0032197130200308168
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.4264505119453925,
+              "unrestricted_precision": 0.4252559726962457,
+              "local_vs_original": {
+                "delta": 0.0008532423208191152,
+                "conditional95": [
+                  -0.002443868490244013,
+                  0.0036484617803759097
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0011945392491467582,
+                "conditional95": [
+                  -0.0015290909941958434,
+                  0.00493886061634153
+                ]
+              }
+            }
+          }
+        },
+        "boundary_context": {
+          "local_precision": 0.42559726962457345,
+          "unrestricted_precision": 0.42559726962457345,
+          "local_vs_original": {
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.42559726962457345,
+              "unrestricted_precision": 0.42559726962457345,
+              "local_vs_original": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.42559726962457345,
+              "unrestricted_precision": 0.42559726962457345,
+              "local_vs_original": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              }
+            }
+          }
+        },
+        "boundary_pair": {
+          "local_precision": 0.42559726962457345,
+          "unrestricted_precision": 0.42559726962457345,
+          "local_vs_original": {
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.42559726962457345,
+              "unrestricted_precision": 0.42559726962457345,
+              "local_vs_original": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.42559726962457345,
+              "unrestricted_precision": 0.42559726962457345,
+              "local_vs_original": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              }
+            }
+          }
+        }
+      },
+      "local_contrasts": {
+        "boundary_context_minus_base_context": {
+          "delta": -0.002218430034129694,
+          "conditional95": [
+            -0.0052977074055748,
+            0.0014440992630605364
+          ]
+        },
+        "boundary_pair_minus_base_context": {
+          "delta": -0.002218430034129694,
+          "conditional95": [
+            -0.0052977074055748,
+            0.0014440992630605364
+          ]
+        }
+      },
+      "seed_local_contrasts": {
+        "boundary_context_minus_base_context": {
+          "2026111511": {
+            "delta": -0.003583617747440274,
+            "conditional95": [
+              -0.007588257273172366,
+              0.00036401515151515034
+            ]
+          },
+          "2026111512": {
+            "delta": -0.0008532423208191152,
+            "conditional95": [
+              -0.003648461780375912,
+              0.0024438684902440113
+            ]
+          }
+        },
+        "boundary_pair_minus_base_context": {
+          "2026111511": {
+            "delta": -0.003583617747440274,
+            "conditional95": [
+              -0.007588257273172366,
+              0.00036401515151515034
+            ]
+          },
+          "2026111512": {
+            "delta": -0.0008532423208191152,
+            "conditional95": [
+              -0.003648461780375912,
+              0.0024438684902440113
+            ]
+          }
+        }
+      }
+    },
+    "D1_held0": {
+      "original_precision": 0.34619377162629755,
+      "arms": {
+        "base_context": {
+          "local_precision": 0.3463667820069204,
+          "unrestricted_precision": 0.34636678200692045,
+          "local_vs_original": {
+            "delta": 0.00017301038062283685,
+            "conditional95": [
+              -0.00393573334785687,
+              0.0051155765182817475
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": -9.604005403331805e-19,
+            "conditional95": [
+              -0.0040110499650594005,
+              0.0037460301302931587
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.34584775086505193,
+              "unrestricted_precision": 0.3465397923875433,
+              "local_vs_original": {
+                "delta": -0.00034602076124567457,
+                "conditional95": [
+                  -0.004197952657712284,
+                  0.003956923570054844
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.0006920415224913496,
+                "conditional95": [
+                  -0.004630039331366766,
+                  0.002919991190536117
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.3453287197231834,
+              "unrestricted_precision": 0.3461937716262976,
+              "local_vs_original": {
+                "delta": -0.0008650519031141871,
+                "conditional95": [
+                  -0.00523086642599278,
+                  0.003650060827250606
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.0008650519031141869,
+                "conditional95": [
+                  -0.0044070202641287495,
+                  0.0020000000000000005
+                ]
+              }
+            }
+          }
+        },
+        "boundary_context": {
+          "local_precision": 0.34584775086505193,
+          "unrestricted_precision": 0.3456747404844291,
+          "local_vs_original": {
+            "delta": -0.0003460207612456739,
+            "conditional95": [
+              -0.004717700671570194,
+              0.003711667999507868
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": 0.00017301038062283753,
+            "conditional95": [
+              -0.003697197251030297,
+              0.004295726297110021
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.3463667820069204,
+              "unrestricted_precision": 0.3456747404844291,
+              "local_vs_original": {
+                "delta": 0.00017301038062283753,
+                "conditional95": [
+                  -0.0038328212215543137,
+                  0.003980154537049264
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0006920415224913496,
+                "conditional95": [
+                  -0.002433877836183381,
+                  0.00404860081541883
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.34429065743944637,
+              "unrestricted_precision": 0.34429065743944637,
+              "local_vs_original": {
+                "delta": -0.0019031141868512105,
+                "conditional95": [
+                  -0.006703236534717715,
+                  0.002467513724294177
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -1.9208010806663609e-19,
+                "conditional95": [
+                  -0.005643282514398193,
+                  0.007218074811391545
+                ]
+              }
+            }
+          }
+        },
+        "boundary_pair": {
+          "local_precision": 0.3460207612456747,
+          "unrestricted_precision": 0.34290657439446365,
+          "local_vs_original": {
+            "delta": -0.00017301038062283734,
+            "conditional95": [
+              -0.004955194556258386,
+              0.004430731364275666
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": 0.0031141868512110722,
+            "conditional95": [
+              -0.001579030646235842,
+              0.008835075971177943
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.3470588235294118,
+              "unrestricted_precision": 0.3413494809688581,
+              "local_vs_original": {
+                "delta": 0.0008650519031141874,
+                "conditional95": [
+                  -0.0037700969563082957,
+                  0.005224331969186324
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.005709342560553632,
+                "conditional95": [
+                  -0.000541614702986548,
+                  0.01298508697296275
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.3470588235294118,
+              "unrestricted_precision": 0.34359861591695506,
+              "local_vs_original": {
+                "delta": 0.0008650519031141862,
+                "conditional95": [
+                  -0.004596552187948352,
+                  0.00644196516920641
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0034602076124567466,
+                "conditional95": [
+                  -0.0026810551127264865,
+                  0.010752116754468365
+                ]
+              }
+            }
+          }
+        }
+      },
+      "local_contrasts": {
+        "boundary_context_minus_base_context": {
+          "delta": -0.0005190311418685108,
+          "conditional95": [
+            -0.004243542435424353,
+            0.002688764352104973
+          ]
+        },
+        "boundary_pair_minus_base_context": {
+          "delta": -0.0003460207612456739,
+          "conditional95": [
+            -0.005645161290322577,
+            0.003968420003984859
+          ]
+        }
+      },
+      "seed_local_contrasts": {
+        "boundary_context_minus_base_context": {
+          "2026111511": {
+            "delta": 0.0005190311418685123,
+            "conditional95": [
+              -0.0025211600885841692,
+              0.0030928975458443565
+            ]
+          },
+          "2026111512": {
+            "delta": -0.0010380622837370236,
+            "conditional95": [
+              -0.0048446408808820035,
+              0.0021600119289170295
+            ]
+          }
+        },
+        "boundary_pair_minus_base_context": {
+          "2026111511": {
+            "delta": 0.0012110726643598621,
+            "conditional95": [
+              -0.003254636210907209,
+              0.005400925344148056
+            ]
+          },
+          "2026111512": {
+            "delta": 0.0017301038062283725,
+            "conditional95": [
+              -0.002419505296100144,
+              0.005327847580183268
+            ]
+          }
+        }
+      }
+    },
+    "D1_held1": {
+      "original_precision": 0.41825259515570934,
+      "arms": {
+        "base_context": {
+          "local_precision": 0.41963667820069206,
+          "unrestricted_precision": 0.4194636678200692,
+          "local_vs_original": {
+            "delta": 0.0013840830449826994,
+            "conditional95": [
+              -0.0012123059866962303,
+              0.003963479409935744
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": 0.0001730103806228376,
+            "conditional95": [
+              -0.000803293820443063,
+              0.0011077713053293558
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.4189446366782007,
+              "unrestricted_precision": 0.41877162629757786,
+              "local_vs_original": {
+                "delta": 0.0006920415224913497,
+                "conditional95": [
+                  -0.0016485031512605036,
+                  0.003201363951503946
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.00017301038062283742,
+                "conditional95": [
+                  -0.0007463151821937692,
+                  0.0011280331510594662
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.4192906574394464,
+              "unrestricted_precision": 0.4189446366782007,
+              "local_vs_original": {
+                "delta": 0.0010380622837370247,
+                "conditional95": [
+                  -0.0016668060200668903,
+                  0.003639255662253263
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.00034602076124567495,
+                "conditional95": [
+                  -0.0006805066854327934,
+                  0.0012618723593253542
+                ]
+              }
+            }
+          }
+        },
+        "boundary_context": {
+          "local_precision": 0.4198096885813149,
+          "unrestricted_precision": 0.4201557093425606,
+          "local_vs_original": {
+            "delta": 0.0015570934256055374,
+            "conditional95": [
+              -0.001336929734928171,
+              0.004255643487285933
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": -0.00034602076124567505,
+            "conditional95": [
+              -0.0012146983311938394,
+              0.0006849315068493143
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.41998269896193774,
+              "unrestricted_precision": 0.4211937716262976,
+              "local_vs_original": {
+                "delta": 0.0017301038062283757,
+                "conditional95": [
+                  -0.0026482008217075226,
+                  0.006029445288753793
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.0012110726643598613,
+                "conditional95": [
+                  -0.003832467714766984,
+                  0.0008504126906735383
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.41825259515570934,
+              "unrestricted_precision": 0.41825259515570934,
+              "local_vs_original": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              }
+            }
+          }
+        },
+        "boundary_pair": {
+          "local_precision": 0.41825259515570934,
+          "unrestricted_precision": 0.41825259515570934,
+          "local_vs_original": {
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": 0.0,
+            "conditional95": [
+              0.0,
+              0.0
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.41825259515570934,
+              "unrestricted_precision": 0.41825259515570934,
+              "local_vs_original": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.41825259515570934,
+              "unrestricted_precision": 0.41825259515570934,
+              "local_vs_original": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              }
+            }
+          }
+        }
+      },
+      "local_contrasts": {
+        "boundary_context_minus_base_context": {
+          "delta": 0.0001730103806228379,
+          "conditional95": [
+            -0.0020523026988345924,
+            0.002402111978701643
+          ]
+        },
+        "boundary_pair_minus_base_context": {
+          "delta": -0.0013840830449826994,
+          "conditional95": [
+            -0.003963479409935744,
+            0.0012123059866962292
+          ]
+        }
+      },
+      "seed_local_contrasts": {
+        "boundary_context_minus_base_context": {
+          "2026111511": {
+            "delta": 0.0010380622837370258,
+            "conditional95": [
+              -0.002737361021281837,
+              0.004341406021631101
+            ]
+          },
+          "2026111512": {
+            "delta": -0.0010380622837370247,
+            "conditional95": [
+              -0.003639255662253263,
+              0.0016668060200668896
+            ]
+          }
+        },
+        "boundary_pair_minus_base_context": {
+          "2026111511": {
+            "delta": -0.0006920415224913497,
+            "conditional95": [
+              -0.003201363951503947,
+              0.0016485031512605028
+            ]
+          },
+          "2026111512": {
+            "delta": -0.0010380622837370247,
+            "conditional95": [
+              -0.003639255662253263,
+              0.0016668060200668896
+            ]
+          }
+        }
+      }
+    },
+    "D2_held0": {
+      "original_precision": 0.33944636678200696,
+      "arms": {
+        "base_context": {
+          "local_precision": 0.33858131487889276,
+          "unrestricted_precision": 0.3399653979238754,
+          "local_vs_original": {
+            "delta": -0.0008650519031141876,
+            "conditional95": [
+              -0.003882243277420316,
+              0.0026319270398217757
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": -0.0013840830449827009,
+            "conditional95": [
+              -0.007266861700678421,
+              0.004440154440154438
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.33771626297577856,
+              "unrestricted_precision": 0.3399653979238754,
+              "local_vs_original": {
+                "delta": -0.0017301038062283735,
+                "conditional95": [
+                  -0.004473634976829864,
+                  0.0010966814710277265
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.0022491349480968873,
+                "conditional95": [
+                  -0.008809873949579832,
+                  0.004512502755259477
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.3377162629757785,
+              "unrestricted_precision": 0.3385813148788927,
+              "local_vs_original": {
+                "delta": -0.0017301038062283733,
+                "conditional95": [
+                  -0.005144753641006241,
+                  0.001212555886736214
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.0008650519031141876,
+                "conditional95": [
+                  -0.005422109490593955,
+                  0.0032053858520900307
+                ]
+              }
+            }
+          }
+        },
+        "boundary_context": {
+          "local_precision": 0.3385813148788927,
+          "unrestricted_precision": 0.3410034602076125,
+          "local_vs_original": {
+            "delta": -0.0008650519031141869,
+            "conditional95": [
+              -0.0036680915609487046,
+              0.0019337746089798462
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": -0.002422145328719723,
+            "conditional95": [
+              -0.0060244601594784935,
+              0.0006690658049353693
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.33944636678200696,
+              "unrestricted_precision": 0.33944636678200696,
+              "local_vs_original": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.3384083044982699,
+              "unrestricted_precision": 0.34134948096885814,
+              "local_vs_original": {
+                "delta": -0.001038062283737024,
+                "conditional95": [
+                  -0.004035987679485439,
+                  0.0019574701321809856
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.0029411764705882353,
+                "conditional95": [
+                  -0.007500000000000001,
+                  0.0009833987434658537
+                ]
+              }
+            }
+          }
+        },
+        "boundary_pair": {
+          "local_precision": 0.3309688581314879,
+          "unrestricted_precision": 0.3316608996539792,
+          "local_vs_original": {
+            "delta": -0.008477508650519031,
+            "conditional95": [
+              -0.012750305944055941,
+              -0.004761733223548788
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": -0.0006920415224913489,
+            "conditional95": [
+              -0.005172861233742989,
+              0.003929249547920429
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.3316608996539792,
+              "unrestricted_precision": 0.3316608996539792,
+              "local_vs_original": {
+                "delta": -0.007785467128027681,
+                "conditional95": [
+                  -0.01244659664181914,
+                  -0.00393762167357678
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 1.9208010806663609e-19,
+                "conditional95": [
+                  -0.0076929530201342265,
+                  0.008154827043756306
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.33944636678200696,
+              "unrestricted_precision": 0.33944636678200696,
+              "local_vs_original": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              }
+            }
+          }
+        }
+      },
+      "local_contrasts": {
+        "boundary_context_minus_base_context": {
+          "delta": 8.643604862998623e-19,
+          "conditional95": [
+            -0.003090074077756784,
+            0.002713841987894233
+          ]
+        },
+        "boundary_pair_minus_base_context": {
+          "delta": -0.007612456747404845,
+          "conditional95": [
+            -0.012236703857507377,
+            -0.0037217520382843
+          ]
+        }
+      },
+      "seed_local_contrasts": {
+        "boundary_context_minus_base_context": {
+          "2026111511": {
+            "delta": 0.0017301038062283735,
+            "conditional95": [
+              -0.0010966814710277276,
+              0.00447363497682986
+            ]
+          },
+          "2026111512": {
+            "delta": 0.0006920415224913494,
+            "conditional95": [
+              -0.0018991381632103414,
+              0.0035427476415094273
+            ]
+          }
+        },
+        "boundary_pair_minus_base_context": {
+          "2026111511": {
+            "delta": -0.006055363321799309,
+            "conditional95": [
+              -0.010218072729690199,
+              -0.0024745551478224793
+            ]
+          },
+          "2026111512": {
+            "delta": 0.0017301038062283733,
+            "conditional95": [
+              -0.0012125558867362163,
+              0.0051447536410062404
+            ]
+          }
+        }
+      }
+    },
+    "D2_held1": {
+      "original_precision": 0.4100346020761246,
+      "arms": {
+        "base_context": {
+          "local_precision": 0.4105536332179931,
+          "unrestricted_precision": 0.4119377162629758,
+          "local_vs_original": {
+            "delta": 0.0005190311418685106,
+            "conditional95": [
+              -0.0014708605664488037,
+              0.0025373571595149243
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": -0.0013840830449826985,
+            "conditional95": [
+              -0.002389724191469416,
+              -0.00036900369003689987
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.4103806228373702,
+              "unrestricted_precision": 0.41280276816608996,
+              "local_vs_original": {
+                "delta": 0.0003460207612456743,
+                "conditional95": [
+                  -0.001896606285464864,
+                  0.002583385249436907
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.002422145328719724,
+                "conditional95": [
+                  -0.004152000601684718,
+                  -0.0007432220815120473
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.4100346020761246,
+              "unrestricted_precision": 0.4100346020761246,
+              "local_vs_original": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": 0.0,
+                "conditional95": [
+                  0.0,
+                  0.0
+                ]
+              }
+            }
+          }
+        },
+        "boundary_context": {
+          "local_precision": 0.41193771626297576,
+          "unrestricted_precision": 0.41401384083044984,
+          "local_vs_original": {
+            "delta": 0.0019031141868512105,
+            "conditional95": [
+              -0.0008428156541611122,
+              0.004698091771685846
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": -0.0020761245674740486,
+            "conditional95": [
+              -0.004448121409870658,
+              0.00046641940657577243
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.4119377162629758,
+              "unrestricted_precision": 0.413840830449827,
+              "local_vs_original": {
+                "delta": 0.0019031141868512112,
+                "conditional95": [
+                  -0.0010542466700575383,
+                  0.005040461305119857
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.0019031141868512112,
+                "conditional95": [
+                  -0.005072531873161165,
+                  0.00135135135135135
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.4112456747404844,
+              "unrestricted_precision": 0.4122837370242215,
+              "local_vs_original": {
+                "delta": 0.0012110726643598602,
+                "conditional95": [
+                  -0.0014523387400980769,
+                  0.003480066445182722
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.0010380622837370243,
+                "conditional95": [
+                  -0.0028340080971659925,
+                  0.0006713115686497541
+                ]
+              }
+            }
+          }
+        },
+        "boundary_pair": {
+          "local_precision": 0.4129757785467128,
+          "unrestricted_precision": 0.41626297577854676,
+          "local_vs_original": {
+            "delta": 0.002941176470588233,
+            "conditional95": [
+              -0.00021108413356613005,
+              0.006118598964326811
+            ]
+          },
+          "local_vs_unrestricted": {
+            "delta": -0.003287197231833913,
+            "conditional95": [
+              -0.006980158730158735,
+              0.0009510779283103785
+            ]
+          },
+          "seeds": {
+            "2026111511": {
+              "local_precision": 0.4124567474048443,
+              "unrestricted_precision": 0.4167820069204152,
+              "local_vs_original": {
+                "delta": 0.0024221453287197217,
+                "conditional95": [
+                  -0.0007043502147637614,
+                  0.00528059032318326
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -0.004325259515570937,
+                "conditional95": [
+                  -0.007444572452636971,
+                  -0.0009288611017235607
+                ]
+              }
+            },
+            "2026111512": {
+              "local_precision": 0.4126297577854671,
+              "unrestricted_precision": 0.4126297577854671,
+              "local_vs_original": {
+                "delta": 0.002595155709342559,
+                "conditional95": [
+                  -0.0006366717156223651,
+                  0.005987378640776696
+                ]
+              },
+              "local_vs_unrestricted": {
+                "delta": -1.920801080666361e-18,
+                "conditional95": [
+                  -0.004676393716487488,
+                  0.0050593575951781425
+                ]
+              }
+            }
+          }
+        }
+      },
+      "local_contrasts": {
+        "boundary_context_minus_base_context": {
+          "delta": 0.0013840830449826998,
+          "conditional95": [
+            -0.0011666828793774316,
+            0.00392156862745098
+          ]
+        },
+        "boundary_pair_minus_base_context": {
+          "delta": 0.0024221453287197226,
+          "conditional95": [
+            -0.0009250993356763682,
+            0.005872992569511023
+          ]
+        }
+      },
+      "seed_local_contrasts": {
+        "boundary_context_minus_base_context": {
+          "2026111511": {
+            "delta": 0.0015570934256055366,
+            "conditional95": [
+              -0.0011013910699148146,
+              0.004545454545454545
+            ]
+          },
+          "2026111512": {
+            "delta": 0.0012110726643598602,
+            "conditional95": [
+              -0.0014523387400980769,
+              0.003480066445182722
+            ]
+          }
+        },
+        "boundary_pair_minus_base_context": {
+          "2026111511": {
+            "delta": 0.0020761245674740473,
+            "conditional95": [
+              -0.0014831032891424762,
+              0.005435099813906274
+            ]
+          },
+          "2026111512": {
+            "delta": 0.002595155709342559,
+            "conditional95": [
+              -0.0006366717156223651,
+              0.005987378640776696
+            ]
+          }
+        }
+      }
+    }
+  },
+  "equal_source_aggregate": {
+    "base_context": {
+      "local_precision": 0.3949860942168475,
+      "unrestricted_precision": 0.39547550298979256,
+      "delta_vs_original": 0.0007422322472454153,
+      "delta_vs_unrestricted": -0.0004894087729450338
+    },
+    "boundary_context": {
+      "local_precision": 0.3949884561333065,
+      "unrestricted_precision": 0.39571012002472133,
+      "delta_vs_original": 0.0007445941637044307,
+      "delta_vs_unrestricted": -0.0007216638914148273
+    },
+    "boundary_pair": {
+      "local_precision": 0.3931500978227067,
+      "unrestricted_precision": 0.3930383004436466,
+      "delta_vs_original": -0.0010937641468954581,
+      "delta_vs_unrestricted": 0.00011179737906003567
+    }
+  },
+  "equal_source_local_contrasts": {
+    "boundary_context_minus_base_context": 2.3619164590153252e-06,
+    "boundary_pair_minus_base_context": -0.0018359963941408737
+  },
+  "synthetic_checks": {
+    "passed": true,
+    "random_tied_cases": 60,
+    "baseline_identity_max_error": 4.440892098500626e-16,
+    "all_tie_case": true,
+    "proportional_capacity_tie": true,
+    "permutation_invariant": true,
+    "sign_flip_equivariant": true,
+    "identity_note": "Mathematically exact baseline membership; floating fractional arithmetic checked to1e-12."
+  },
+  "prediction_lock_sha256": "16f0a336de0463b51f1d7745a53375f5ba7b9d33f3340085424bf6eee1254774",
+  "plan_sha256": "a6609be719fa46caeb9a27b9faaea08bab45f1f5ceec0b59d2d1f6c08936dc58",
+  "interval": "2000 paired query-block bootstrap; conditional on fixed data/models/shared assay; no multiplicity correction or independent-study aggregate interval",
+  "primary_results_unchanged": true,
+  "declared_primary_C_still_failed": true,
+  "files": {
+    "audit/local_repair/per_source/D3.npz": "acfa998afc733196a4adadd1044a1b6334a2464b39c4d4bba3095aa557cdc942",
+    "audit/local_repair/per_source/D1.npz": "ec205a8c4fa230d6c48c648d974ff9e3dde62757586f270ccf4536a2de0565c5",
+    "audit/local_repair/per_source/D2.npz": "2c6b2825495f2544f746b1d50341fa71be834202a77b776947e423d2b3862cc0"
+  }
+}

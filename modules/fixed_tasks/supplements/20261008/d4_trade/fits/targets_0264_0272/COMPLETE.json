@@ -19,9 +19,12 @@
   "outputs": {
     "result_weights.tsv": "9c1ab1bd77e740f6ece06d0de4e6d4dd93217ec7eebf388fe21184b141d5c14a",
     "result_mixtures.rds": "58381ce8e0ea8d1e700750d223f99084730d24a26617697a196de1f0563592a4",
-    "result_runtime.json": "7b8b1cbe10207a32e1db677f899d3d142af5503f070cff31ee04ebd18cf93f3e"
+    "result_runtime.json": "3eb03ae0f1ffd5fd6c80e0ff8d8dd5d0a5a34af22b8721ea9cd5c0652c24a97e"
   },
   "fits": 40,
   "seconds": 165.05709718599974,
-  "warnings_present": false
+  "warnings_present": false,
+  "shared_outputs": {
+    "result_runtime.json": "fits/targets_0000_0008/result_runtime.json"
+  }
 }

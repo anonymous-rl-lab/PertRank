@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "number_of_pairs": 25,
+  "number_of_diagonal_pairs": 5,
+  "zero_pair_fallback": true,
+  "tie_order_sum_max_then_lexicographic": true,
+  "noneligible_pair_excluded": true,
+  "training_performed": false
+}

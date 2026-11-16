@@ -1,0 +1,5 @@
+setting,Unweighted,Euclidean,PertRank,EB-entry,query rows with tau^2 = 0
+D3 responsive 20,0.2773,0.2758,0.3114,0.2594,0
+D1 responsive 20,0.2554,0.2877,0.3139,0.2342,0
+D3 terciles 20,0.0574,0.0747,0.0802,0.0529,79
+D1 terciles 20,0.0521,0.0728,0.0755,0.0476,94
