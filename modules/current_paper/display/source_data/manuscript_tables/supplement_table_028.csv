@@ -1,0 +1,5 @@
+Common pool,Targets,Panel,Unweighted P@25,Euclidean P@25,PertRank P@25,PertRank−Euclidean [95% interval]
+Expression threshold,312,responsive,0.351419,0.403685,0.420595,"+0.016910 [0.015234, 0.019111]"
+Expression threshold,312,terciles,0.130114,0.159097,0.162331,"+0.003234 [0.001910, 0.004642]"
+Consistent suppression,291,responsive,0.344649,0.394713,0.410662,"+0.015949 [0.014187, 0.018429]"
+Consistent suppression,291,terciles,0.133661,0.159595,0.161986,"+0.002391 [0.001412, 0.003392]"

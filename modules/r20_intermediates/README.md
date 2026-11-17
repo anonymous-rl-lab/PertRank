@@ -1,5 +1,16 @@
 # R20 intermediate-data replay
 
+## Run from the package root
+
+The distributed inputs are stored losslessly in the shared `storage/` directory. Use the root dispatcher to restore the exact input files automatically:
+
+```bash
+python reproduce.py --only r20_intermediates --output-dir ../pertrank-r20_intermediates-reproduced
+```
+
+The lower-level commands below apply to the restored module under `OUTPUT/_source/modules/`, where the original files and checksums are available. Do not run those commands directly on the compact module directory.
+
+
 This compact module preserves the archived per-query scores for all three
 methods (Unweighted, Euclidean, PertRank), the original query IDs and block
 definitions, and the unchanged statistical code. For each of three source

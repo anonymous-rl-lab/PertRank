@@ -1,0 +1,6 @@
+Setting,Query rule,Information source
+Replogle/VIPerturb K562,300 rows of highest cross-target variance after own-target zeroing,Separate 422-target essential-gene reference
+Orion terciles,100 hash-selected genes per expression tercile,"2,000 planning controls"
+Original T-cell/KOLF tercile probes,Same tercile rule,Source input controls
+Original T-cell/KOLF responsive probes,300 genes of highest cross-target variance,"100-cell input pool, containing the shallow prediction cells"
+Orion responsive development,300 genes of highest cross-target variance,Disjoint input sub-block

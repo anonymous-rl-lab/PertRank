@@ -1,0 +1,7 @@
+Method,D4 P@25,External RNA P@10
+Unweighted,0.309330,0.233031
+Euclidean,0.367115,0.252810
+PertRank,0.386450,0.258735
+Native FR-Perturb,0.349809,0.232621
+Gene-effect ASH,0.322664,0.238673
+Native rvalues,0.296164,0.232510

@@ -1,0 +1,9 @@
+Reference draw convention,Contrast,Median members/10,Empirical 2.5–97.5% range
+shared labels,PertRank−FR,+0.239689,"[+0.188721, +0.270674]"
+shared labels,PertRank−ASH,+0.197647,"[+0.161173, +0.223919]"
+shared labels,PertRank−Euclidean,+0.056853,"[+0.040251, +0.070707]"
+shared labels,FR × PertRank−FR × Euclidean,+0.048207,"[+0.032416, +0.061296]"
+batch separate,PertRank−FR,+0.241126,"[+0.182285, +0.273237]"
+batch separate,PertRank−ASH,+0.197525,"[+0.161549, +0.224179]"
+batch separate,PertRank−Euclidean,+0.055818,"[+0.038607, +0.070730]"
+batch separate,FR × PertRank−FR × Euclidean,+0.047085,"[+0.028643, +0.061912]"

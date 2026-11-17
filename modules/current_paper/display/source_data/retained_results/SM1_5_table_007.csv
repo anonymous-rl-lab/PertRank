@@ -1,0 +1,8 @@
+item,value
+source,"figshare+ 10.25452/figshare.plus.27261219.v1, file 64650261, 189.4 GB"
+probe cohort,"1,000 targets with at least 300 cells, last 1,000 in `SHA256(""pertrescue-kolf-probe\|<gene>"")` order, permanently excluded from any future frozen KOLF cohort"
+blocks,"as E4: 0 to 19, 20 to 49, 50 to 99, deep A 100 to 199, deep B 200 to 299"
+genes,"the first probe estimated weights on 2,000 of the 10,940 detected genes; the calibrated state uses all 10,940 (SN8.4)"
+batch,"three batches. Every one of the 1,000 targets lies entirely in one batch (ALPHA 378, BETA 536, GAMMA 86). Nested."
+controls,"the original probe pooled its non-targeting controls across batches (54.8 / 27.5 / 17.7 on the input side). The calibrated state takes, within each batch, the first 2,000 non-targeting cells in the same hash order as the input control and the next 2,000 as the truth control, out of 81,050 / 39,135 / 26,562. Both the input side and the truth side are re-centred, so the truth values themselves change."
+unchanged by the calibration,"targets, all cell blocks including the truth blocks, query lists, bootstrap blocks, scorer"

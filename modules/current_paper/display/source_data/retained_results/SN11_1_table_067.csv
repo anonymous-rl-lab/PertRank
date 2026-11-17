@@ -1,0 +1,15 @@
+Panel,Weighting method,D3,D1 corrected,D2,D4
+responsive,Unweighted,0.283072,0.255676,0.337692,0.301751
+responsive,Euclidean,0.281769,0.287249,0.348262,0.355650
+responsive,Diagonal,0.278511,0.287658,0.349097,Not tested
+responsive,TRADE scalar,0.291280,0.293617,0.356714,Not tested
+responsive,Pearson Euclidean,0.289894,0.294653,0.345168,Not tested
+responsive,Pearson metric,0.301370,0.305647,0.343645,0.368936
+responsive,PertRank,0.313099,0.313371,0.363457,0.379173
+terciles,Unweighted,0.058279,0.051299,0.067396,0.078453
+terciles,Euclidean,0.075362,0.070676,0.087619,0.105190
+terciles,Diagonal,0.075995,0.071852,0.088678,Not tested
+terciles,TRADE scalar,0.075146,0.069251,0.089398,Not tested
+terciles,Pearson Euclidean,0.076872,0.072249,0.087202,Not tested
+terciles,Pearson metric,0.078085,0.073665,0.087762,0.108896
+terciles,PertRank,0.080645,0.074847,0.090899,0.110630

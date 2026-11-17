@@ -46,10 +46,10 @@ are in `COMPACT_EXTRACTION_PROVENANCE.json`. No native R fit is run. This retain
 the historical single-input opened-D3 development identity; it does not replace
 the later five-input competition or imply external confirmation.
 
-`original_source/` preserves the original execution, protocol and audit scripts
+`original_source/` preserves the native generation, protocol and audit scripts
 without claiming that their original workstation paths are the portable entry
 point. The raw 26,000-by-18,130 D3 count matrix is intentionally not duplicated
-here; full cell-level refitting requires the separate shared original inputs.
+here; full cell-level refitting requires raw-cell inputs beyond the retained-statistic replay.
 The lightweight replay verifies actual numerical arrays and summaries rather
 than treating a file-hash check as experimental reproduction.
 ## Archived weight diagnostics

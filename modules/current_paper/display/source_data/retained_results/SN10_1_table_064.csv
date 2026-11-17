@@ -1,0 +1,13 @@
+Donor,Panel,20-cell method,Equivalent depth,Conditional 95% endpoints,Measured bracket,Bootstrap L / U
+D3,responsive,Euclidean,"≤20, unlocated below grid","[unlocated lower, 22.17]",—,60.65% / 0.00%
+D3,responsive,PertRank,25.43,"[23.39, 27.30]","[25, 30]",0.00% / 0.00%
+D3,terciles,Euclidean,38.67,"[29.77, 48.22]","[35, 40]",0.00% / 1.05%
+D3,terciles,PertRank,46.75,"[38.38, unlocated upper]","[45, 50]",0.00% / 14.45%
+D1,responsive,Euclidean,26.03,"[23.71, 28.30]","[25, 30]",0.00% / 0.00%
+D1,responsive,PertRank,32.31,"[29.54, 34.76]","[30, 35]",0.00% / 0.00%
+D1,terciles,Euclidean,47.33,"[41.26, unlocated upper]","[45, 50]",0.00% / 25.00%
+D1,terciles,PertRank,">50, not attained","[48.80, unlocated upper]",—,0.00% / 94.10%
+D2,responsive,Euclidean,21.98,"[20.07, 24.24]","[20, 25]",2.30% / 0.00%
+D2,responsive,PertRank,24.81,"[22.70, 27.22]","[20, 25]",0.00% / 0.00%
+D2,terciles,Euclidean,40.28,"[35.71, 45.55]","[40, 45]",0.00% / 0.05%
+D2,terciles,PertRank,44.02,"[40.10, 49.12]","[40, 45]",0.00% / 1.70%

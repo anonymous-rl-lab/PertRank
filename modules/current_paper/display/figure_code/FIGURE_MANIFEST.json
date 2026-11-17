@@ -3,7 +3,8 @@
   "inputs": {
     "figure_values.json": "5e00f648f598193e9dc86497a81a8883f7336921724a79ab0452b0363378d941",
     "design_ablation.json": "52dd2e50ebf3c7ae00ada9205157a638fd86ec4baf0d49c2d2c1dec89f0aa8dc",
-    "new_figure_values.json": "8ee99e43767cc4da5355d72bd0e4d3c808207cd5e50024a916d85f0f33065778"
+    "new_figure_values.json": "8ee99e43767cc4da5355d72bd0e4d3c808207cd5e50024a916d85f0f33065778",
+    "program_ranking_values.json": "b6cade1a6fd79b8c6b02e8db9c9437784417b7c3a189c97c3e5aa3595a906d03"
   },
   "figures": [
     "fig1.pdf",
@@ -15,8 +16,19 @@
     "figS6_guide_response.pdf",
     "figS7_query_refinement.pdf"
   ],
-  "relocated_panels": {
-    "4e": "Supplementary Figure 6",
-    "6d": "Supplementary Figure 7"
+  "new_exact_values_csv": "plotted_values.csv",
+  "source_map": "PANEL_SOURCE_MAP.csv",
+  "new_exact_plot_value_rows": 35,
+  "figure_typography": {
+    "fig1_to_2_minimum_source_pt": 10.5,
+    "fig3_to_4_minimum_source_pt": 11.0,
+    "fig5_minimum_source_pt": 10.5,
+    "fig6_minimum_source_pt": 10.0,
+    "placement": "Figures 5 and 6 occupy separate full-width manuscript pages; legends follow on the next page."
+  },
+  "script_sha256": {
+    "draw_main_figures.py": "64c4dde0363d5053b48732a47ca6274fce943f35737e52135f704db028cbbdee",
+    "prepare_plot_inputs.py": "0e3bcec1f5d92f7413105cd6d81325afae100472b86d6b9d0ae84fb025dcf07a",
+    "export_plot_values.py": "13d187112b8d0b7819a805540d17a389b82bd25ad102fb28d19afe806726e4b3"
   }
 }

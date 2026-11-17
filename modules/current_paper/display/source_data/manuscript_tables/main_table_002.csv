@@ -1,0 +1,8 @@
+Comparison,Configuration,Comparison objective
+Six constructions,"\(1,w_0,w_M\) crossed with \(y,Ay\)",Weight and readout contributions
+D4 native methods,Native FR rank 100; ASH posterior means,Complete workflow precision
+D4 estimator reuse,"Fixed FR rank 300 output with original shallow \(w_0,w_M\)",Added geometry on another estimator
+External RNA,Complete pools; native FR rank 300 and ASH,Independent-reference list support
+Native rvalues,Query-wise candidate-axis fits; original effects and marginal SEs,Ranking-and-selection comparison
+Program nomination,Raw/program-ASH readouts crossed with three weights,Held-out program-response utility
+PertRank-Q,Reference-labelled calibration targets; separate evaluation subpools,Optional supervised refinement

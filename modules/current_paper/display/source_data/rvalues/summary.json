@@ -1,0 +1,450 @@
+{
+  "tasks": {
+    "External_D3_Rest": {
+      "task": "External_D3_Rest",
+      "K": 10,
+      "input_reps": 1,
+      "queries": 293,
+      "candidates": 52,
+      "means": {
+        "raw": 0.2450432009129516,
+        "Euclidean": 0.25341296928327645,
+        "PertRank": 0.256655290102389,
+        "FR": 0.24197952218430036,
+        "FR_x_Euclidean": 0.2486348122866894,
+        "FR_x_PertRank": 0.2511945392491468,
+        "ASH": 0.2551194539249147,
+        "rvalues": 0.2467005015019808
+      },
+      "contrasts": {
+        "raw_minus_rvalues": {
+          "precision_difference": -0.0016573005890292147,
+          "conditional_query_block_95_interval": [
+            -0.0034561565770425155,
+            0.0007473067393858088
+          ],
+          "expected_reference_members_difference": -0.016573005890292147
+        },
+        "Euclidean_minus_rvalues": {
+          "precision_difference": 0.006712467781295639,
+          "conditional_query_block_95_interval": [
+            -7.868636585107927e-06,
+            0.013140105133605025
+          ],
+          "expected_reference_members_difference": 0.06712467781295639
+        },
+        "PertRank_minus_rvalues": {
+          "precision_difference": 0.009954788600408215,
+          "conditional_query_block_95_interval": [
+            0.0030904834655433367,
+            0.01705215179548563
+          ],
+          "expected_reference_members_difference": 0.09954788600408215
+        },
+        "FR_minus_rvalues": {
+          "precision_difference": -0.0047209793176804515,
+          "conditional_query_block_95_interval": [
+            -0.012845958749708158,
+            0.005597419589673446
+          ],
+          "expected_reference_members_difference": -0.047209793176804515
+        },
+        "FR_x_Euclidean_minus_rvalues": {
+          "precision_difference": 0.0019343107847085983,
+          "conditional_query_block_95_interval": [
+            -0.007785139744416777,
+            0.009984382780330833
+          ],
+          "expected_reference_members_difference": 0.019343107847085983
+        },
+        "FR_x_PertRank_minus_rvalues": {
+          "precision_difference": 0.004494037747166002,
+          "conditional_query_block_95_interval": [
+            -0.004852568310290698,
+            0.014577388074646667
+          ],
+          "expected_reference_members_difference": 0.04494037747166002
+        },
+        "ASH_minus_rvalues": {
+          "precision_difference": 0.00841895242293389,
+          "conditional_query_block_95_interval": [
+            0.003936645138976085,
+            0.014730482345265007
+          ],
+          "expected_reference_members_difference": 0.0841895242293389
+        }
+      },
+      "native_fit_status_counts": {
+        "native_success": 586,
+        "boundary_degenerate": 0
+      },
+      "analysis_identity": "FIXED_POST_HOC_COMPARATOR_ADDITION",
+      "interval_scope": "Conditional paired query-block bootstrap, 2000 draws; directions and input repetitions averaged within query before inference."
+    },
+    "External_D1_Rest": {
+      "task": "External_D1_Rest",
+      "K": 10,
+      "input_reps": 1,
+      "queries": 289,
+      "candidates": 59,
+      "means": {
+        "raw": 0.221165603655132,
+        "Euclidean": 0.2423875432525952,
+        "PertRank": 0.2522491349480969,
+        "FR": 0.22266435986159172,
+        "FR_x_Euclidean": 0.23408304498269897,
+        "FR_x_PertRank": 0.2493079584775087,
+        "ASH": 0.2204152249134948,
+        "rvalues": 0.22031122856382374
+      },
+      "contrasts": {
+        "raw_minus_rvalues": {
+          "precision_difference": 0.0008543750913082571,
+          "conditional_query_block_95_interval": [
+            -0.0028714145831043496,
+            0.004575685765810392
+          ],
+          "expected_reference_members_difference": 0.00854375091308257
+        },
+        "Euclidean_minus_rvalues": {
+          "precision_difference": 0.02207631468877147,
+          "conditional_query_block_95_interval": [
+            0.015230397085184382,
+            0.029698153548200837
+          ],
+          "expected_reference_members_difference": 0.2207631468877147
+        },
+        "PertRank_minus_rvalues": {
+          "precision_difference": 0.031937906384273185,
+          "conditional_query_block_95_interval": [
+            0.025342218331516408,
+            0.038005773912493254
+          ],
+          "expected_reference_members_difference": 0.31937906384273185
+        },
+        "FR_minus_rvalues": {
+          "precision_difference": 0.0023531312977679852,
+          "conditional_query_block_95_interval": [
+            -0.0055900879992879324,
+            0.01149505212150277
+          ],
+          "expected_reference_members_difference": 0.023531312977679852
+        },
+        "FR_x_Euclidean_minus_rvalues": {
+          "precision_difference": 0.013771816418875232,
+          "conditional_query_block_95_interval": [
+            0.005588311829773644,
+            0.024806074585083448
+          ],
+          "expected_reference_members_difference": 0.13771816418875232
+        },
+        "FR_x_PertRank_minus_rvalues": {
+          "precision_difference": 0.02899672991368496,
+          "conditional_query_block_95_interval": [
+            0.019999353815198843,
+            0.03955915228686888
+          ],
+          "expected_reference_members_difference": 0.2899672991368496
+        },
+        "ASH_minus_rvalues": {
+          "precision_difference": 0.00010399634967106497,
+          "conditional_query_block_95_interval": [
+            -0.0034026165011458638,
+            0.003851467293089003
+          ],
+          "expected_reference_members_difference": 0.0010399634967106497
+        }
+      },
+      "native_fit_status_counts": {
+        "native_success": 578,
+        "boundary_degenerate": 0
+      },
+      "analysis_identity": "FIXED_POST_HOC_COMPARATOR_ADDITION",
+      "interval_scope": "Conditional paired query-block bootstrap, 2000 draws; directions and input repetitions averaged within query before inference."
+    },
+    "External_D2_Rest": {
+      "task": "External_D2_Rest",
+      "K": 10,
+      "input_reps": 1,
+      "queries": 289,
+      "candidates": 63,
+      "means": {
+        "raw": 0.23288552665878515,
+        "Euclidean": 0.26262975778546715,
+        "PertRank": 0.2673010380622837,
+        "FR": 0.2332179930795848,
+        "FR_x_Euclidean": 0.2626874279123414,
+        "FR_x_PertRank": 0.26280276816609,
+        "ASH": 0.24048442906574394,
+        "rvalues": 0.23051801352306311
+      },
+      "contrasts": {
+        "raw_minus_rvalues": {
+          "precision_difference": 0.0023675131357220325,
+          "conditional_query_block_95_interval": [
+            -0.0017209666374874068,
+            0.006568307484108423
+          ],
+          "expected_reference_members_difference": 0.023675131357220325
+        },
+        "Euclidean_minus_rvalues": {
+          "precision_difference": 0.03211174426240404,
+          "conditional_query_block_95_interval": [
+            0.02395345734154519,
+            0.04161861290444284
+          ],
+          "expected_reference_members_difference": 0.3211174426240404
+        },
+        "PertRank_minus_rvalues": {
+          "precision_difference": 0.03678302453922061,
+          "conditional_query_block_95_interval": [
+            0.029208720522923462,
+            0.046214969764137095
+          ],
+          "expected_reference_members_difference": 0.3678302453922061
+        },
+        "FR_minus_rvalues": {
+          "precision_difference": 0.002699979556521681,
+          "conditional_query_block_95_interval": [
+            -0.004701923923381012,
+            0.010164312989901015
+          ],
+          "expected_reference_members_difference": 0.02699979556521681
+        },
+        "FR_x_Euclidean_minus_rvalues": {
+          "precision_difference": 0.032169414389278284,
+          "conditional_query_block_95_interval": [
+            0.02395265977849581,
+            0.04263435288954122
+          ],
+          "expected_reference_members_difference": 0.32169414389278284
+        },
+        "FR_x_PertRank_minus_rvalues": {
+          "precision_difference": 0.03228475464302688,
+          "conditional_query_block_95_interval": [
+            0.023399221789368103,
+            0.043768702399201116
+          ],
+          "expected_reference_members_difference": 0.3228475464302688
+        },
+        "ASH_minus_rvalues": {
+          "precision_difference": 0.009966415542680823,
+          "conditional_query_block_95_interval": [
+            0.004702119131495612,
+            0.014350631453297132
+          ],
+          "expected_reference_members_difference": 0.09966415542680823
+        }
+      },
+      "native_fit_status_counts": {
+        "native_success": 578,
+        "boundary_degenerate": 0
+      },
+      "analysis_identity": "FIXED_POST_HOC_COMPARATOR_ADDITION",
+      "interval_scope": "Conditional paired query-block bootstrap, 2000 draws; directions and input repetitions averaged within query before inference."
+    },
+    "D4_Rest": {
+      "task": "D4_Rest",
+      "K": 25,
+      "input_reps": 5,
+      "queries": 300,
+      "candidates": 589,
+      "means": {
+        "raw": 0.30175088491079294,
+        "Euclidean": 0.35564993100378434,
+        "PertRank": 0.37917332608905385,
+        "FR": 0.34288805169341613,
+        "ASH": 0.31228997616601734,
+        "rvalues": 0.28996489717408463
+      },
+      "contrasts": {
+        "raw_minus_rvalues": {
+          "precision_difference": 0.011785987736708303,
+          "conditional_query_block_95_interval": [
+            0.0062800352052730084,
+            0.01871172587336168
+          ],
+          "expected_reference_members_difference": 0.2946496934177076
+        },
+        "Euclidean_minus_rvalues": {
+          "precision_difference": 0.0656850338296997,
+          "conditional_query_block_95_interval": [
+            0.05916496689708735,
+            0.07130489904769897
+          ],
+          "expected_reference_members_difference": 1.6421258457424925
+        },
+        "PertRank_minus_rvalues": {
+          "precision_difference": 0.08920842891496922,
+          "conditional_query_block_95_interval": [
+            0.0833392919599208,
+            0.09546911855911472
+          ],
+          "expected_reference_members_difference": 2.2302107228742303
+        },
+        "FR_minus_rvalues": {
+          "precision_difference": 0.052923154519331495,
+          "conditional_query_block_95_interval": [
+            0.03675750162041684,
+            0.06691036272199367
+          ],
+          "expected_reference_members_difference": 1.3230788629832873
+        },
+        "ASH_minus_rvalues": {
+          "precision_difference": 0.0223250789919327,
+          "conditional_query_block_95_interval": [
+            0.014667638970671911,
+            0.0296738074063719
+          ],
+          "expected_reference_members_difference": 0.5581269747983175
+        }
+      },
+      "native_fit_status_counts": {
+        "native_success": 3000,
+        "boundary_degenerate": 0
+      },
+      "analysis_identity": "FIXED_POST_HOC_COMPARATOR_ADDITION",
+      "interval_scope": "Conditional paired query-block bootstrap, 2000 draws; directions and input repetitions averaged within query before inference."
+    },
+    "D4_Stim8hr": {
+      "task": "D4_Stim8hr",
+      "K": 25,
+      "input_reps": 5,
+      "queries": 300,
+      "candidates": 561,
+      "means": {
+        "raw": 0.31690940013306584,
+        "Euclidean": 0.3785791756245099,
+        "PertRank": 0.39372749325212164,
+        "FR": 0.35672915193729265,
+        "ASH": 0.33303729548644123,
+        "rvalues": 0.30236317555171827
+      },
+      "contrasts": {
+        "raw_minus_rvalues": {
+          "precision_difference": 0.014546224581347578,
+          "conditional_query_block_95_interval": [
+            0.009569670952855514,
+            0.019064384201966055
+          ],
+          "expected_reference_members_difference": 0.36365561453368944
+        },
+        "Euclidean_minus_rvalues": {
+          "precision_difference": 0.07621600007279161,
+          "conditional_query_block_95_interval": [
+            0.0684896437586335,
+            0.08187411394089404
+          ],
+          "expected_reference_members_difference": 1.9054000018197903
+        },
+        "PertRank_minus_rvalues": {
+          "precision_difference": 0.09136431770040337,
+          "conditional_query_block_95_interval": [
+            0.08447714341982751,
+            0.09716119446049576
+          ],
+          "expected_reference_members_difference": 2.2841079425100843
+        },
+        "FR_minus_rvalues": {
+          "precision_difference": 0.05436597638557439,
+          "conditional_query_block_95_interval": [
+            0.03935184209119491,
+            0.06388676595576581
+          ],
+          "expected_reference_members_difference": 1.3591494096393597
+        },
+        "ASH_minus_rvalues": {
+          "precision_difference": 0.030674119934722965,
+          "conditional_query_block_95_interval": [
+            0.026591099247866148,
+            0.034613375775891256
+          ],
+          "expected_reference_members_difference": 0.7668529983680741
+        }
+      },
+      "native_fit_status_counts": {
+        "native_success": 3000,
+        "boundary_degenerate": 0
+      },
+      "analysis_identity": "FIXED_POST_HOC_COMPARATOR_ADDITION",
+      "interval_scope": "Conditional paired query-block bootstrap, 2000 draws; directions and input repetitions averaged within query before inference."
+    }
+  },
+  "D4_equal_state": {
+    "means": {
+      "raw": 0.30933014252192936,
+      "Euclidean": 0.3671145533141471,
+      "PertRank": 0.38645040967058775,
+      "FR": 0.3498086018153544,
+      "ASH": 0.32266363582622926,
+      "rvalues": 0.29616403636290145
+    },
+    "contrasts": {
+      "raw_minus_rvalues": {
+        "precision_difference": 0.013166106159027913,
+        "conditional_query_block_95_interval": [
+          0.009388271987871972,
+          0.01726351046278638
+        ],
+        "expected_reference_members_difference": 0.3291526539756978
+      },
+      "Euclidean_minus_rvalues": {
+        "precision_difference": 0.07095051695124566,
+        "conditional_query_block_95_interval": [
+          0.06574609954994182,
+          0.07507231128429682
+        ],
+        "expected_reference_members_difference": 1.7737629237811414
+      },
+      "PertRank_minus_rvalues": {
+        "precision_difference": 0.0902863733076863,
+        "conditional_query_block_95_interval": [
+          0.08550910059702156,
+          0.09432455847935182
+        ],
+        "expected_reference_members_difference": 2.2571593326921575
+      },
+      "FR_minus_rvalues": {
+        "precision_difference": 0.05364456545245294,
+        "conditional_query_block_95_interval": [
+          0.041753147036705913,
+          0.06230331901745789
+        ],
+        "expected_reference_members_difference": 1.3411141363113235
+      },
+      "ASH_minus_rvalues": {
+        "precision_difference": 0.026499599463327805,
+        "conditional_query_block_95_interval": [
+          0.021946876313513726,
+          0.030760924613871882
+        ],
+        "expected_reference_members_difference": 0.6624899865831951
+      }
+    },
+    "scope": "Equal-weighted two states of one D4 donor; original independently spawned state query-block resampling, conditional on measurements."
+  },
+  "External_equal_source": {
+    "means": {
+      "raw": 0.23303144374228957,
+      "Euclidean": 0.2528100901071129,
+      "PertRank": 0.25873515437092326,
+      "FR": 0.2326206250418256,
+      "FR_x_Euclidean": 0.24846842839390992,
+      "FR_x_PertRank": 0.2544350886309152,
+      "ASH": 0.23867303596805114,
+      "rvalues": 0.23250991452962255
+    },
+    "contrasts": {
+      "raw_minus_rvalues": 0.0005215292126670157,
+      "Euclidean_minus_rvalues": 0.020300175577490365,
+      "PertRank_minus_rvalues": 0.026225239841300707,
+      "FR_minus_rvalues": 0.00011071051220304384,
+      "FR_x_Euclidean_minus_rvalues": 0.01595851386428737,
+      "FR_x_PertRank_minus_rvalues": 0.021925174101292633,
+      "ASH_minus_rvalues": 0.006163121438428593
+    },
+    "pooled_population_CI": null,
+    "scope": "Equal-weighted three source means, sharing one external RNA reference experiment. No independent-source population CI is constructed."
+  },
+  "contrast_sign": "A_minus_rvalues > 0 favors A; < 0 favors rvalues. Workflow contrasts do not isolate geometry."
+}

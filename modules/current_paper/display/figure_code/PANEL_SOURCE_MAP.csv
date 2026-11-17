@@ -1,0 +1,20 @@
+panel,plotted_source,publication_source,notes
+1a,diagram,Methods,Task schematic; no quantitative comparison
+1b,design_ablation.json / cells,source_data/figures/design_2x2.csv,D3 four-arm values and exact differences
+1c-1d,figure_values.json / design,source_data/figures/design.csv,Four sources and fourteen related settings
+2a,figure_values.json / donors,source_data/figures/donors.csv,Fixed D4 geometry gains
+2b,figure_values.json / benchmark_scores; program_ranking_values.json / rvalues,source_data/figures/benchmark_scores.csv; source_data/rvalues/primary_contrasts.csv,Equal-state original method and rvalues averages
+2c-2d,figure_values.json / benchmark_scores and interactions,source_data/figures/benchmark_scores.csv; source_data/figures/geometry_interaction.csv,FR rank-300 reuse
+3a-3b,figure_values.json / rna; program_ranking_values.json / rvalues,source_data/figures/external_rna_scores.csv; source_data/figures/external_rna_contrasts.csv; source_data/rvalues/primary_contrasts.csv,Eight methods; complete candidate pools
+3c-3d,new_figure_values.json / four_arm,source_data/new_results/four_arm_contrasts.csv,Readout and geometry contrasts
+4a-4c,figure_values.json / energy and direction and nonquery,source_data/figures/energy.csv; source_data/figures/direction.csv; source_data/figures/nonquery.csv,Unchanged scientific content
+4d,figure_values.json / alignment,source_data/figures/alignment_gains_losses.csv,Gain and loss accounting; no new intervention
+5a,program_ranking_values.json / program_external,source_data/programs/external_summary.json,Design counts
+5b-5c,program_ranking_values.json / program_external,source_data/programs/external_summary.json,Utility point estimates and paired conditional reference intervals
+5d,program_ranking_values.json / program_D3 and program_external,source_data/programs/d3_mechanism_summary.json; source_data/programs/external_summary.json,Source-specific control-SD units; 95 and 97.5 percent levels explicit
+5e,program_ranking_values.json / program_external replacement,source_data/programs/external_replacement_summary.csv,Replacement-mass-weighted means and net utility
+6a-6b,figure_values.json / equivalence and d4_depth,source_data/figures/equivalence.csv; source_data/figures/d4_raw_depth_curve.csv; source_data/figures/figure_values.json,Ranking-cell equivalents; not total experimental costs
+6c,figure_values.json / interactions,source_data/figures/depth_interaction.csv,D3 common depth chain
+6d,new_figure_values.json / CTLA4,source_data/application/CTLA4_summary.csv; source_data/application/CTLA4_all_groups.csv,First fixed input; complete repeated inputs retained
+6e,diagram,Methods; source_data/application/CTLA4_top25_lists.csv,Nomination workflow
+6f,figure_values.json / transfer,source_data/figures/panel_transfer.csv,Complete fixed 300-gene panel

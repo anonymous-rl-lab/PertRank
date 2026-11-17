@@ -28,7 +28,6 @@
       "recomputed_by_launcher": false
     }
   ],
-  "distribution_version": "1.5.1",
   "lossless_materialization": {
     "array_archive": "array_payload.tar.xz",
     "layout": "COMPACT_LAYOUT.json",

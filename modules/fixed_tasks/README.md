@@ -1,5 +1,16 @@
 # Fixed-task replay component
 
+## Run from the package root
+
+The distributed inputs are stored losslessly in the shared `storage/` directory. Use the root dispatcher to restore the exact input files automatically:
+
+```bash
+python reproduce.py --only fixed_tasks --output-dir ../pertrank-fixed_tasks-reproduced
+```
+
+The lower-level commands below apply to the restored module under `OUTPUT/_source/modules/`, where the original files and checksums are available. Do not run those commands directly on the compact module directory.
+
+
 This repository contains a compact, offline reproduction of the completed **four-donor resting T-cell experiments and the Stim experiment**: experimental sufficient data, executable analysis code, original result records and English scientific analysis. It preserves the fixed methods and their exact top-25 ranking information, rather than storing only final scores.
 
 **Start with [the four-donor analysis](analysis/FOUR_DONOR_RESULTS.md).** The full held-out D4 report is [here](analysis/D4_Results_and_Analysis.md).
@@ -114,8 +125,8 @@ Original OSF Project: REST_ASSOCIATED_PROJECT
 
 The D4 report discloses the actual project-based addendum and durable prediction-archive procedure. This GitHub package is a results deposit, not a new registration or a replacement for the historical prediction lock. No private view-only token is included.
 
-## GitHub upload
+## Distribution
 
-Extract the ZIP and upload the **contents of this repository folder**, rather than nesting another copy of the folder. All individual files are below 25 MB, and the complete delivery ZIP is below 60 MB. Git LFS is not required for these files. Preserve the directory structure, including `data/` and `reference_results/`; the verifier checks their integrity.
+This component is included in the single repository bundle. Keep the shared `storage/` directory when copying the repository; the root dispatcher restores these inputs and verifies their original hashes.
 
-See [rights and third-party provenance](RIGHTS_AND_THIRD_PARTY.md) before applying a repository-wide software or data license. No license is fabricated by this packaging step.
+See [rights and third-party provenance](RIGHTS_AND_THIRD_PARTY.md) for component-specific notices.

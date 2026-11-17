@@ -1,0 +1,288 @@
+{
+  "package_version": "reproducibility-bundle",
+  "status": "REQUESTED_COMMANDS_COMPLETED",
+  "scientific_scope": "Self-contained offline reproduction from declared retained inputs. Includes fixed-task rankings, independent RNA, guide diagnostics, program nomination, native rvalues fitting materials and optional PertRank-Q checkpoint inference. Numerical replay, native fitting, checkpoint inference and source-table rendering are reported separately.",
+  "manifest": {
+    "status": "VERIFIED",
+    "files": 2328,
+    "manifest_sha256": "764cefb03205218efd25a87852f1a3d403f7b9081c7f26ee1c8e1824288d6fb1",
+    "policy": "All release files, including nested manifests; root MANIFEST_SHA256.json and root .git metadata excluded."
+  },
+  "selected_modules": [
+    "fixed_tasks",
+    "early_intermediates",
+    "corrected_intermediates",
+    "r20_intermediates",
+    "paper_analysis",
+    "il2_intermediates",
+    "sensitivity_replay",
+    "current_paper",
+    "new_results"
+  ],
+  "modules": [
+    {
+      "module": "fixed_tasks",
+      "reproduction_level": "Sufficient-statistic and retained-prediction numerical replay",
+      "declared_scope": "Existing retained four-donor ranking/depth, D4 supplement and Stim, independent RNA, interactions and external-baseline replay. Native model fits and raw-cell preprocessing are not rerun.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "WORKSPACE/clean_code_work/full_check/_source/modules/fixed_tasks/reproduce.py",
+        "--output-dir",
+        "WORKSPACE/clean_code_work/full_check/fixed_tasks"
+      ],
+      "timeout_seconds": 600,
+      "log": "logs/fixed_tasks.log",
+      "output": "WORKSPACE/clean_code_work/full_check/fixed_tasks",
+      "started_utc": "2026-11-17T04:10:53.901826+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 53.08722606500669,
+      "native_report": "fixed_tasks/VERIFICATION.json",
+      "native_report_sha256": "d39c48bb5276da90280c7c33675f5294ee937abd3f01b457f5839babf228c58a",
+      "native_statuses": [
+        "D4_SUPPLEMENT_REPLAY_PASS",
+        "EXTERNAL_BENCHMARK_FIXED_RESULT_REPRODUCTION_PASS",
+        "FOUR_DONOR_STIM_UPGRADE_AND_EXTERNAL_BENCHMARK_REPRODUCTION_PASS",
+        "PASS",
+        "PASS_ARCHIVED_D3_RECONCILIATION_SCORE_REPLAY",
+        "PASS_ARCHIVED_SCORE_STATISTICS_REPLAY",
+        "STIM_EXACT_REPRODUCTION_PASS",
+        "SUPPLEMENTS_PASS",
+        "UPGRADE_FIXED_TASK_REPRODUCTION_PASS"
+      ]
+    },
+    {
+      "module": "early_intermediates",
+      "reproduction_level": "Saved-query score/block to original statistical summary replay",
+      "declared_scope": "Recomputes the supplied four-source, factorial and early-study statistics from retained intermediate scores and bootstrap definitions. Original raw inputs, effects, reliability weights and candidate rankings are not reconstructed; archival-only items retain their identity.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "WORKSPACE/clean_code_work/full_check/_source/modules/early_intermediates/reproduce.py",
+        "--output-dir",
+        "WORKSPACE/clean_code_work/full_check/early_intermediates"
+      ],
+      "timeout_seconds": 180,
+      "log": "logs/early_intermediates.log",
+      "output": "WORKSPACE/clean_code_work/full_check/early_intermediates",
+      "started_utc": "2026-11-17T04:11:46.990111+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 8.203027833995293,
+      "native_report": "early_intermediates/report.json",
+      "native_report_sha256": "7eb47e68ca88a055c7cf80aafe7def0f1730b1969f8914901fa04a0d5ae0165a",
+      "native_statuses": [
+        "RECOMPUTED_DESCRIPTIVE_MATCH",
+        "RECOMPUTED_STATISTICS_MATCH",
+        "STATISTICAL_REPLAY_MATCH"
+      ]
+    },
+    {
+      "module": "corrected_intermediates",
+      "reproduction_level": "Saved intermediate quantities to corrected-evidence statistical comparisons",
+      "declared_scope": "Corrected guide and RNA evidence summary replay from retained intermediate arrays; the native report specifies recomputed contrasts and omitted upstream stages.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "WORKSPACE/clean_code_work/full_check/_source/modules/corrected_intermediates/reproduce.py",
+        "--output-dir",
+        "WORKSPACE/clean_code_work/full_check/corrected_intermediates"
+      ],
+      "timeout_seconds": 180,
+      "log": "logs/corrected_intermediates.log",
+      "output": "WORKSPACE/clean_code_work/full_check/corrected_intermediates",
+      "started_utc": "2026-11-17T04:11:55.194070+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 19.383344961999683,
+      "native_report": "corrected_intermediates/REPRODUCTION_REPORT.json",
+      "native_report_sha256": "7c405c1a1373c6efea520e0f2c23c9b16555839c8402f19325a120687654953d",
+      "native_statuses": [
+        "PASS"
+      ]
+    },
+    {
+      "module": "r20_intermediates",
+      "reproduction_level": "Saved per-query scores to original within-screen and independent-RNA statistics",
+      "declared_scope": "Five within-screen and two external-reference input groups per donor; original block definitions and bootstrap statistics. Does not reconstruct moments, predictions or raw CSR aggregation.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "WORKSPACE/clean_code_work/full_check/_source/modules/r20_intermediates/reproduce.py",
+        "--output-dir",
+        "WORKSPACE/clean_code_work/full_check/r20_intermediates"
+      ],
+      "timeout_seconds": 120,
+      "log": "logs/r20_intermediates.log",
+      "output": "WORKSPACE/clean_code_work/full_check/r20_intermediates",
+      "started_utc": "2026-11-17T04:12:14.578281+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 5.135712524002884,
+      "native_report": "r20_intermediates/REPRODUCTION_CHECK.json",
+      "native_report_sha256": "b421d15ae481ae09aa4ee3536b1bdd1051529a2322826f49cbf73be983a18f2d",
+      "native_statuses": [
+        "PASS"
+      ]
+    },
+    {
+      "module": "paper_analysis",
+      "reproduction_level": "Mechanism, intervention-strata, query-transfer and application numerical replay",
+      "declared_scope": "Retained analysis inputs reconstruct S3 decomposition, biological strata, transfer, TRADE sensitivity and CTLA4 application. Current manuscript figures are rendered by current_paper.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "WORKSPACE/clean_code_work/full_check/_source/modules/paper_analysis/reproduce.py",
+        "--out",
+        "WORKSPACE/clean_code_work/full_check/paper_analysis"
+      ],
+      "timeout_seconds": 600,
+      "log": "logs/paper_analysis.log",
+      "output": "WORKSPACE/clean_code_work/full_check/paper_analysis",
+      "started_utc": "2026-11-17T04:12:19.715822+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 17.148612228993443,
+      "native_report": "paper_analysis/REPLAY_REPORT.json",
+      "native_report_sha256": "ebb237acf76a5f81c18e0caf49645e6948d89ec153a8d528ea0e3ded76042d0f",
+      "native_statuses": [
+        "PASS",
+        "PRESERVED_NOT_RUN"
+      ]
+    },
+    {
+      "module": "il2_intermediates",
+      "reproduction_level": "Fixed guide/MAGeCK readout scores to original primary and secondary comparisons",
+      "declared_scope": "All 561 candidates and ten fixed top-25 lists; reconstruct target medians, original 20,000 paired guide/control draws, intervals and MAGeCK support comparisons. Eligibility remains fixed and no raw counts or model fitting are used.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "WORKSPACE/clean_code_work/full_check/_source/modules/il2_intermediates/reproduce.py",
+        "--output-dir",
+        "WORKSPACE/clean_code_work/full_check/il2_intermediates"
+      ],
+      "timeout_seconds": 120,
+      "log": "logs/il2_intermediates.log",
+      "output": "WORKSPACE/clean_code_work/full_check/il2_intermediates",
+      "started_utc": "2026-11-17T04:12:36.865747+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 3.6931868249957915,
+      "native_report": "il2_intermediates/REPRODUCTION_REPORT.json",
+      "native_report_sha256": "8ee2a4146d4c34a49ffbdfbb973bb628e0a62df2d616b69bb91935817d0eea2a",
+      "native_statuses": [
+        "PASS"
+      ]
+    },
+    {
+      "module": "sensitivity_replay",
+      "reproduction_level": "Saved-draw summary and fixed-coefficient numerical reconstruction",
+      "declared_scope": "Four archived sensitivity draw groups and Mixscale fixed-coefficient scores/intervals; preserves the existing definitions and does not refit coefficients.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "WORKSPACE/clean_code_work/full_check/_source/modules/sensitivity_replay/reproduce.py",
+        "--output-dir",
+        "WORKSPACE/clean_code_work/full_check/sensitivity_replay"
+      ],
+      "timeout_seconds": 120,
+      "log": "logs/sensitivity_replay.log",
+      "output": "WORKSPACE/clean_code_work/full_check/sensitivity_replay",
+      "started_utc": "2026-11-17T04:12:40.560368+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 1.0673303860094165,
+      "native_report": "sensitivity_replay/REPLAY_REPORT.json",
+      "native_report_sha256": "fcc6b8e487ac114f5f208b95fe2905e794c36ba6085b235c5534775cf576a998",
+      "native_statuses": [
+        "PASS"
+      ]
+    },
+    {
+      "module": "current_paper",
+      "reproduction_level": "Independent-RNA four-arm ranking replay, guide diagnostic replay, current source-table figure rendering",
+      "declared_scope": "Uses retained projected effects, reference draws, guide statistics and fixed predictions. Does not recreate raw cells or refit estimators. Figure output is separately identified as rendering from source tables.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "WORKSPACE/clean_code_work/full_check/_source/modules/current_paper/reproduce.py",
+        "--output-dir",
+        "WORKSPACE/clean_code_work/full_check/current_paper"
+      ],
+      "timeout_seconds": 600,
+      "log": "logs/current_paper.log",
+      "output": "WORKSPACE/clean_code_work/full_check/current_paper",
+      "started_utc": "2026-11-17T04:12:41.628686+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 22.251950740013854,
+      "native_report": "current_paper/REPRODUCTION_REPORT.json",
+      "native_report_sha256": "5675e40ff288d5f4d768d4c7ca4b611f98f37c1778ee8319ba6f41fb7ed5c46f",
+      "native_statuses": [
+        "PASS"
+      ]
+    },
+    {
+      "module": "new_results",
+      "reproduction_level": "Lossless retained-input reconstruction and numerical recomputation",
+      "declared_scope": "Fixed rvalues memberships to five-task scoring and intervals; D3 program mechanism and sci-Plex3 frozen evaluation from retained moments, native outputs and reference projections. Recomputes weights, lists, utility, resampling and exact replacement accounting. No native model fitting.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "WORKSPACE/clean_code_work/full_check/_source/modules/new_results/run.py",
+        "core",
+        "--out",
+        "WORKSPACE/clean_code_work/full_check/new_results"
+      ],
+      "timeout_seconds": 600,
+      "log": "logs/new_results.log",
+      "output": "WORKSPACE/clean_code_work/full_check/new_results",
+      "started_utc": "2026-11-17T04:13:03.881449+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 37.49017484798969,
+      "native_report": "new_results/REPLAY_SUMMARY.json",
+      "native_report_sha256": "45e3cf7157c9214797a80efa3cb4d61e10e4e1f81d533f2da7f6f88e4da5e125",
+      "native_statuses": [
+        "PASS"
+      ]
+    }
+  ],
+  "started_utc": "2026-11-17T04:10:53.901264+00:00",
+  "dispatcher_python": "3.12.14",
+  "numeric_python": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "offline_guard": "Python socket/DNS blocking inherited by child Python processes; registered entry points perform no download or new model training.",
+  "numeric_library_threads": 1,
+  "lossless_storage": {
+    "status": "PASS",
+    "storage_indexes": {
+      "fixed_tasks_index.json": {
+        "status": "PASS",
+        "restored_files": 69,
+        "restored_bytes": 47978273,
+        "all_original_file_hashes_match": true,
+        "all_original_blob_hashes_match": true,
+        "precision_changed": false,
+        "source_files_modified": false
+      },
+      "other_inputs_index.json": {
+        "status": "PASS",
+        "restored_files": 44,
+        "restored_bytes": 12114056,
+        "all_original_file_hashes_match": true,
+        "all_original_blob_hashes_match": true,
+        "precision_changed": false,
+        "source_files_modified": false
+      }
+    },
+    "scope": "Lossless file restoration; scientific computation runs separately.",
+    "precision_changed": false,
+    "seconds": 40.157079427008284
+  },
+  "not_run": [],
+  "wall_seconds": 167.47083684099198,
+  "all_requested_commands_exit_zero": true,
+  "exit_code": 0,
+  "completed_utc": "2026-11-17T04:13:41.372392+00:00"
+}

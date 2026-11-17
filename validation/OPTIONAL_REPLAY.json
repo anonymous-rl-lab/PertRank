@@ -1,0 +1,126 @@
+{
+  "package_version": "reproducibility-bundle",
+  "status": "REQUESTED_COMMANDS_COMPLETED",
+  "scientific_scope": "Self-contained offline reproduction from declared retained inputs. Includes fixed-task rankings, independent RNA, guide diagnostics, program nomination, native rvalues fitting materials and optional PertRank-Q checkpoint inference. Numerical replay, native fitting, checkpoint inference and source-table rendering are reported separately.",
+  "manifest": {
+    "status": "VERIFIED",
+    "files": 2328,
+    "manifest_sha256": "764cefb03205218efd25a87852f1a3d403f7b9081c7f26ee1c8e1824288d6fb1",
+    "policy": "All release files, including nested manifests; root MANIFEST_SHA256.json and root .git metadata excluded."
+  },
+  "selected_modules": [
+    "new_results_exploratory",
+    "rvalues_native",
+    "sn4_diagnostics"
+  ],
+  "modules": [
+    {
+      "module": "new_results_exploratory",
+      "reproduction_level": "Lossless retained-input reconstruction and numerical recomputation",
+      "declared_scope": "Original exploratory ASH geometry adjustments, including unsuccessful branches, from retained statistics and fixed ASH outputs. Recomputes original comparisons without changing the frozen validation or selecting a new model.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "WORKSPACE/clean_code_work/optional_check/_source/modules/new_results/run.py",
+        "exploratory",
+        "--out",
+        "WORKSPACE/clean_code_work/optional_check/new_results_exploratory"
+      ],
+      "timeout_seconds": 600,
+      "log": "logs/new_results_exploratory.log",
+      "output": "WORKSPACE/clean_code_work/optional_check/new_results_exploratory",
+      "started_utc": "2026-11-17T04:11:08.897253+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 31.47011446300894,
+      "native_report": "new_results_exploratory/REPLAY_SUMMARY.json",
+      "native_report_sha256": "42bb0dcfc2cf1ff6370e56234620ca759885e05ee6d2b7d9ed36ebdda80373a1",
+      "native_statuses": [
+        "PASS"
+      ]
+    },
+    {
+      "module": "rvalues_native",
+      "reproduction_level": "Original native-fitting material verification and preparation",
+      "declared_scope": "Restores and verifies complete native rvalues inputs and scripts for optional R fitting. The preparation command does not run the fits.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "WORKSPACE/clean_code_work/optional_check/_source/modules/rvalues_native/reproduce.py",
+        "--output-dir",
+        "WORKSPACE/clean_code_work/optional_check/rvalues_native"
+      ],
+      "timeout_seconds": 180,
+      "log": "logs/rvalues_native.log",
+      "output": "WORKSPACE/clean_code_work/optional_check/rvalues_native",
+      "started_utc": "2026-11-17T04:11:40.368349+00:00",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 3.022787023001001,
+      "native_report": "rvalues_native/REPRODUCTION_REPORT.json",
+      "native_report_sha256": "dac0ab18868582ee48d4f3f6ffa58420cf6956a70d0624f7ea3cf43ad77333bc",
+      "native_statuses": [
+        "PASS"
+      ]
+    },
+    {
+      "module": "sn4_diagnostics",
+      "reproduction_level": "Retained target-table reaggregation",
+      "declared_scope": "SN4.2–SN4.4 definitions, bins, support rates, original target bootstrap and recovered A10 summaries; no raw-cell projections or reranking.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "WORKSPACE/clean_code_work/optional_check/sn4_diagnostics/verify_sn4.py"
+      ],
+      "timeout_seconds": 180,
+      "log": "logs/sn4_diagnostics.log",
+      "output": "WORKSPACE/clean_code_work/optional_check/sn4_diagnostics",
+      "started_utc": "2026-11-17T04:11:43.391872+00:00",
+      "execution_workspace": "Copied module payload; original module remains unchanged.",
+      "exit_code": 0,
+      "outcome": "COMMAND_COMPLETED",
+      "wall_seconds": 1.0685239790036576,
+      "native_report": "sn4_diagnostics/verification_results.json",
+      "native_report_sha256": "aff0c157b22458084130e809e4fb513254e7a29e19c2ff147f5ec2fa8c5bcb08",
+      "native_statuses": [
+        "passed"
+      ]
+    }
+  ],
+  "started_utc": "2026-11-17T04:11:08.896147+00:00",
+  "dispatcher_python": "3.12.14",
+  "numeric_python": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "offline_guard": "Python socket/DNS blocking inherited by child Python processes; registered entry points perform no download or new model training.",
+  "numeric_library_threads": 1,
+  "lossless_storage": {
+    "status": "PASS",
+    "storage_indexes": {
+      "fixed_tasks_index.json": {
+        "status": "PASS",
+        "restored_files": 69,
+        "restored_bytes": 47978273,
+        "all_original_file_hashes_match": true,
+        "all_original_blob_hashes_match": true,
+        "precision_changed": false,
+        "source_files_modified": false
+      },
+      "other_inputs_index.json": {
+        "status": "PASS",
+        "restored_files": 44,
+        "restored_bytes": 12114056,
+        "all_original_file_hashes_match": true,
+        "all_original_blob_hashes_match": true,
+        "precision_changed": false,
+        "source_files_modified": false
+      }
+    },
+    "scope": "Lossless file restoration; scientific computation runs separately.",
+    "precision_changed": false,
+    "seconds": 39.86809518399241
+  },
+  "not_run": [],
+  "wall_seconds": 35.56471293899813,
+  "all_requested_commands_exit_zero": true,
+  "exit_code": 0,
+  "completed_utc": "2026-11-17T04:11:44.461149+00:00"
+}

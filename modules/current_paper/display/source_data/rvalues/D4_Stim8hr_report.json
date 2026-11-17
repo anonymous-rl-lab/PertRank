@@ -1,0 +1,63 @@
+{
+  "task": "D4_Stim8hr",
+  "K": 25,
+  "input_reps": 5,
+  "queries": 300,
+  "candidates": 561,
+  "means": {
+    "raw": 0.31690940013306584,
+    "Euclidean": 0.3785791756245099,
+    "PertRank": 0.39372749325212164,
+    "FR": 0.35672915193729265,
+    "ASH": 0.33303729548644123,
+    "rvalues": 0.30236317555171827
+  },
+  "contrasts": {
+    "raw_minus_rvalues": {
+      "precision_difference": 0.014546224581347578,
+      "conditional_query_block_95_interval": [
+        0.009569670952855514,
+        0.019064384201966055
+      ],
+      "expected_reference_members_difference": 0.36365561453368944
+    },
+    "Euclidean_minus_rvalues": {
+      "precision_difference": 0.07621600007279161,
+      "conditional_query_block_95_interval": [
+        0.0684896437586335,
+        0.08187411394089404
+      ],
+      "expected_reference_members_difference": 1.9054000018197903
+    },
+    "PertRank_minus_rvalues": {
+      "precision_difference": 0.09136431770040337,
+      "conditional_query_block_95_interval": [
+        0.08447714341982751,
+        0.09716119446049576
+      ],
+      "expected_reference_members_difference": 2.2841079425100843
+    },
+    "FR_minus_rvalues": {
+      "precision_difference": 0.05436597638557439,
+      "conditional_query_block_95_interval": [
+        0.03935184209119491,
+        0.06388676595576581
+      ],
+      "expected_reference_members_difference": 1.3591494096393597
+    },
+    "ASH_minus_rvalues": {
+      "precision_difference": 0.030674119934722965,
+      "conditional_query_block_95_interval": [
+        0.026591099247866148,
+        0.034613375775891256
+      ],
+      "expected_reference_members_difference": 0.7668529983680741
+    }
+  },
+  "native_fit_status_counts": {
+    "native_success": 3000,
+    "boundary_degenerate": 0
+  },
+  "analysis_identity": "FIXED_POST_HOC_COMPARATOR_ADDITION",
+  "interval_scope": "Conditional paired query-block bootstrap, 2000 draws; directions and input repetitions averaged within query before inference."
+}

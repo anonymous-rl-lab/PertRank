@@ -1,0 +1,858 @@
+{
+  "geometry_on_raw_readout": {
+    "all_programs": {
+      "enter": {
+        "total_membership_mass": 126.0,
+        "mean_mass_per_list": 3.5,
+        "distinct_targets": 74,
+        "means": {
+          "directed_raw_program_effect": 0.549999444239129,
+          "directed_ash_program_effect": 0.25840665926982503,
+          "program_SE": 0.21211564369483615,
+          "ash_posterior_over_raw": 0.4673227906532498,
+          "Euclidean_weight": 0.34833295802584174,
+          "PertRank_weight": 0.295877354489477,
+          "directed_reference_effect": 0.3194711139763367
+        }
+      },
+      "leave": {
+        "total_membership_mass": 126.0,
+        "mean_mass_per_list": 3.5,
+        "distinct_targets": 69,
+        "means": {
+          "directed_raw_program_effect": 0.6544840967675296,
+          "directed_ash_program_effect": 0.343169255394902,
+          "program_SE": 0.20220214297298628,
+          "ash_posterior_over_raw": 0.5195299826582205,
+          "Euclidean_weight": 0.4148294525590595,
+          "PertRank_weight": 0.1692648894540811,
+          "directed_reference_effect": 0.31305931296824047
+        }
+      }
+    },
+    "per_program": {
+      "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+        "enter": {
+          "total_membership_mass": 19.0,
+          "mean_mass_per_list": 3.1666666666666665,
+          "distinct_targets": 17,
+          "means": {
+            "directed_raw_program_effect": 0.6644876173126918,
+            "directed_ash_program_effect": 0.34134063120336033,
+            "program_SE": 0.221772526453862,
+            "ash_posterior_over_raw": 0.48915846786659783,
+            "Euclidean_weight": 0.32633583504009533,
+            "PertRank_weight": 0.2912297511233958,
+            "directed_reference_effect": 0.5021573983737325
+          }
+        },
+        "leave": {
+          "total_membership_mass": 19.0,
+          "mean_mass_per_list": 3.1666666666666665,
+          "distinct_targets": 18,
+          "means": {
+            "directed_raw_program_effect": 0.6652774602144883,
+            "directed_ash_program_effect": 0.33688349246007404,
+            "program_SE": 0.22280244346772327,
+            "ash_posterior_over_raw": 0.49595850090955307,
+            "Euclidean_weight": 0.426826451927052,
+            "PertRank_weight": 0.18120232503910694,
+            "directed_reference_effect": 0.3432529206241814
+          }
+        }
+      },
+      "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+        "enter": {
+          "total_membership_mass": 19.0,
+          "mean_mass_per_list": 3.1666666666666665,
+          "distinct_targets": 16,
+          "means": {
+            "directed_raw_program_effect": 0.543356896871243,
+            "directed_ash_program_effect": 0.17939805842282605,
+            "program_SE": 0.2191680267623626,
+            "ash_posterior_over_raw": 0.34591162966306416,
+            "Euclidean_weight": 0.262156881242166,
+            "PertRank_weight": 0.2661350160734154,
+            "directed_reference_effect": 0.16880643025243158
+          }
+        },
+        "leave": {
+          "total_membership_mass": 19.0,
+          "mean_mass_per_list": 3.1666666666666665,
+          "distinct_targets": 18,
+          "means": {
+            "directed_raw_program_effect": 0.5116758265375302,
+            "directed_ash_program_effect": 0.1808848400704436,
+            "program_SE": 0.21489368329610947,
+            "ash_posterior_over_raw": 0.364127256774184,
+            "Euclidean_weight": 0.3926534267609034,
+            "PertRank_weight": 0.1845095357099991,
+            "directed_reference_effect": 0.17407035136598062
+          }
+        }
+      },
+      "HALLMARK_IL2_STAT5_SIGNALING": {
+        "enter": {
+          "total_membership_mass": 24.0,
+          "mean_mass_per_list": 4.0,
+          "distinct_targets": 24,
+          "means": {
+            "directed_raw_program_effect": 0.6151220180715176,
+            "directed_ash_program_effect": 0.2885320066399076,
+            "program_SE": 0.22459486397952644,
+            "ash_posterior_over_raw": 0.47980447474506976,
+            "Euclidean_weight": 0.27460519803720346,
+            "PertRank_weight": 0.2641812215045448,
+            "directed_reference_effect": 0.4154260797362725
+          }
+        },
+        "leave": {
+          "total_membership_mass": 24.0,
+          "mean_mass_per_list": 4.0,
+          "distinct_targets": 23,
+          "means": {
+            "directed_raw_program_effect": 0.6225427315501474,
+            "directed_ash_program_effect": 0.30108295635338206,
+            "program_SE": 0.22302057646121534,
+            "ash_posterior_over_raw": 0.4913579421575496,
+            "Euclidean_weight": 0.39102432560488176,
+            "PertRank_weight": 0.18684918238013917,
+            "directed_reference_effect": 0.4274070406891264
+          }
+        }
+      },
+      "HALLMARK_E2F_TARGETS": {
+        "enter": {
+          "total_membership_mass": 21.0,
+          "mean_mass_per_list": 3.5,
+          "distinct_targets": 18,
+          "means": {
+            "directed_raw_program_effect": 0.4786857941756571,
+            "directed_ash_program_effect": 0.23670535624007322,
+            "program_SE": 0.2019536960434565,
+            "ash_posterior_over_raw": 0.4880499156315239,
+            "Euclidean_weight": 0.4264574508067985,
+            "PertRank_weight": 0.310744241023387,
+            "directed_reference_effect": 0.24250028275164098
+          }
+        },
+        "leave": {
+          "total_membership_mass": 21.0,
+          "mean_mass_per_list": 3.5,
+          "distinct_targets": 21,
+          "means": {
+            "directed_raw_program_effect": 0.6928051085140008,
+            "directed_ash_program_effect": 0.4413569982322619,
+            "program_SE": 0.17021069695362498,
+            "ash_posterior_over_raw": 0.6347801748274543,
+            "Euclidean_weight": 0.42568105026194153,
+            "PertRank_weight": 0.15404626876726216,
+            "directed_reference_effect": 0.2619072660626546
+          }
+        }
+      },
+      "HALLMARK_G2M_CHECKPOINT": {
+        "enter": {
+          "total_membership_mass": 19.0,
+          "mean_mass_per_list": 3.1666666666666665,
+          "distinct_targets": 18,
+          "means": {
+            "directed_raw_program_effect": 0.46684045047765177,
+            "directed_ash_program_effect": 0.23219103077497544,
+            "program_SE": 0.2000595834748726,
+            "ash_posterior_over_raw": 0.48906162394441377,
+            "Euclidean_weight": 0.41654052846556916,
+            "PertRank_weight": 0.32272376398778,
+            "directed_reference_effect": 0.22531941688787446
+          }
+        },
+        "leave": {
+          "total_membership_mass": 19.0,
+          "mean_mass_per_list": 3.1666666666666665,
+          "distinct_targets": 19,
+          "means": {
+            "directed_raw_program_effect": 0.6817176279821152,
+            "directed_ash_program_effect": 0.42258501957850897,
+            "program_SE": 0.16827321021859867,
+            "ash_posterior_over_raw": 0.6189003609738792,
+            "Euclidean_weight": 0.4180603161817287,
+            "PertRank_weight": 0.15343128746748586,
+            "directed_reference_effect": 0.2795417770726676
+          }
+        }
+      },
+      "HALLMARK_OXIDATIVE_PHOSPHORYLATION": {
+        "enter": {
+          "total_membership_mass": 24.0,
+          "mean_mass_per_list": 4.0,
+          "distinct_targets": 23,
+          "means": {
+            "directed_raw_program_effect": 0.5277327305897878,
+            "directed_ash_program_effect": 0.2649164058323569,
+            "program_SE": 0.20484433983322015,
+            "ash_posterior_over_raw": 0.49832555383993177,
+            "Euclidean_weight": 0.38534124338381764,
+            "PertRank_weight": 0.3205369248152779,
+            "directed_reference_effect": 0.34005195186652876
+          }
+        },
+        "leave": {
+          "total_membership_mass": 24.0,
+          "mean_mass_per_list": 4.0,
+          "distinct_targets": 21,
+          "means": {
+            "directed_raw_program_effect": 0.7358464990317763,
+            "directed_ash_program_effect": 0.36992185726364485,
+            "program_SE": 0.20988058920144934,
+            "ash_posterior_over_raw": 0.5098778032201391,
+            "Euclidean_weight": 0.43464006041248227,
+            "PertRank_weight": 0.1560126764109636,
+            "directed_reference_effect": 0.3561339974145736
+          }
+        }
+      }
+    }
+  },
+  "geometry_on_ash_readout": {
+    "all_programs": {
+      "enter": {
+        "total_membership_mass": 117.0,
+        "mean_mass_per_list": 3.25,
+        "distinct_targets": 82,
+        "means": {
+          "directed_raw_program_effect": 0.5558934502986097,
+          "directed_ash_program_effect": 0.2729178668113597,
+          "program_SE": 0.19985701426430053,
+          "ash_posterior_over_raw": 0.49683091582958183,
+          "Euclidean_weight": 0.33728439528376997,
+          "PertRank_weight": 0.28758523390028307,
+          "directed_reference_effect": 0.3443444902860689
+        }
+      },
+      "leave": {
+        "total_membership_mass": 117.0,
+        "mean_mass_per_list": 3.25,
+        "distinct_targets": 74,
+        "means": {
+          "directed_raw_program_effect": 0.6154586887506435,
+          "directed_ash_program_effect": 0.32119696991545094,
+          "program_SE": 0.19556688993615792,
+          "ash_posterior_over_raw": 0.5200292421886116,
+          "Euclidean_weight": 0.41118642165482067,
+          "PertRank_weight": 0.17678641065308526,
+          "directed_reference_effect": 0.2991880118636763
+        }
+      }
+    },
+    "per_program": {
+      "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+        "enter": {
+          "total_membership_mass": 21.0,
+          "mean_mass_per_list": 3.5,
+          "distinct_targets": 20,
+          "means": {
+            "directed_raw_program_effect": 0.6547123308049423,
+            "directed_ash_program_effect": 0.32772075401803463,
+            "program_SE": 0.21489689566009135,
+            "ash_posterior_over_raw": 0.5066407619405611,
+            "Euclidean_weight": 0.3104365788495255,
+            "PertRank_weight": 0.2876033747040451,
+            "directed_reference_effect": 0.4928958012168971
+          }
+        },
+        "leave": {
+          "total_membership_mass": 21.0,
+          "mean_mass_per_list": 3.5,
+          "distinct_targets": 20,
+          "means": {
+            "directed_raw_program_effect": 0.6311946917226577,
+            "directed_ash_program_effect": 0.32972340686104634,
+            "program_SE": 0.20613353080022837,
+            "ash_posterior_over_raw": 0.5335033666081938,
+            "Euclidean_weight": 0.4126325356200982,
+            "PertRank_weight": 0.19277015318431032,
+            "directed_reference_effect": 0.3051460615734104
+          }
+        }
+      },
+      "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+        "enter": {
+          "total_membership_mass": 24.0,
+          "mean_mass_per_list": 4.0,
+          "distinct_targets": 24,
+          "means": {
+            "directed_raw_program_effect": 0.4975908491651413,
+            "directed_ash_program_effect": 0.17282505949085838,
+            "program_SE": 0.20500018818924695,
+            "ash_posterior_over_raw": 0.37707572571526543,
+            "Euclidean_weight": 0.2880335464415321,
+            "PertRank_weight": 0.27778276641220695,
+            "directed_reference_effect": 0.18838148823006587
+          }
+        },
+        "leave": {
+          "total_membership_mass": 24.0,
+          "mean_mass_per_list": 4.0,
+          "distinct_targets": 24,
+          "means": {
+            "directed_raw_program_effect": 0.4612032953473369,
+            "directed_ash_program_effect": 0.16790166593368863,
+            "program_SE": 0.20030351812632383,
+            "ash_posterior_over_raw": 0.3854985855224518,
+            "Euclidean_weight": 0.4048311931791764,
+            "PertRank_weight": 0.18901775739751123,
+            "directed_reference_effect": 0.13833534317989768
+          }
+        }
+      },
+      "HALLMARK_IL2_STAT5_SIGNALING": {
+        "enter": {
+          "total_membership_mass": 24.0,
+          "mean_mass_per_list": 4.0,
+          "distinct_targets": 22,
+          "means": {
+            "directed_raw_program_effect": 0.6048091662317457,
+            "directed_ash_program_effect": 0.3078679115161056,
+            "program_SE": 0.20389992951629646,
+            "ash_posterior_over_raw": 0.517805299134946,
+            "Euclidean_weight": 0.28788572252754124,
+            "PertRank_weight": 0.27338974667916466,
+            "directed_reference_effect": 0.4728387599521227
+          }
+        },
+        "leave": {
+          "total_membership_mass": 24.0,
+          "mean_mass_per_list": 4.0,
+          "distinct_targets": 21,
+          "means": {
+            "directed_raw_program_effect": 0.5946531809167731,
+            "directed_ash_program_effect": 0.2998327928868765,
+            "program_SE": 0.21081977578598923,
+            "ash_posterior_over_raw": 0.5120829761578899,
+            "Euclidean_weight": 0.403497924769223,
+            "PertRank_weight": 0.2065633314390576,
+            "directed_reference_effect": 0.4422495420070027
+          }
+        }
+      },
+      "HALLMARK_E2F_TARGETS": {
+        "enter": {
+          "total_membership_mass": 13.0,
+          "mean_mass_per_list": 2.1666666666666665,
+          "distinct_targets": 12,
+          "means": {
+            "directed_raw_program_effect": 0.5161108343974115,
+            "directed_ash_program_effect": 0.28325315014847696,
+            "program_SE": 0.1913137075446462,
+            "ash_posterior_over_raw": 0.543397809813696,
+            "Euclidean_weight": 0.4159398312924828,
+            "PertRank_weight": 0.2989361996719774,
+            "directed_reference_effect": 0.22333424099605786
+          }
+        },
+        "leave": {
+          "total_membership_mass": 13.0,
+          "mean_mass_per_list": 2.1666666666666665,
+          "distinct_targets": 13,
+          "means": {
+            "directed_raw_program_effect": 0.6803662842687987,
+            "directed_ash_program_effect": 0.4452716023495483,
+            "program_SE": 0.16325765612752255,
+            "ash_posterior_over_raw": 0.6528591489732436,
+            "Euclidean_weight": 0.3934733066212533,
+            "PertRank_weight": 0.1423621929310724,
+            "directed_reference_effect": 0.22945889445608783
+          }
+        }
+      },
+      "HALLMARK_G2M_CHECKPOINT": {
+        "enter": {
+          "total_membership_mass": 16.0,
+          "mean_mass_per_list": 2.6666666666666665,
+          "distinct_targets": 15,
+          "means": {
+            "directed_raw_program_effect": 0.5225932304921954,
+            "directed_ash_program_effect": 0.28043571202298984,
+            "program_SE": 0.19163462549448285,
+            "ash_posterior_over_raw": 0.5399741387578387,
+            "Euclidean_weight": 0.4060678087982162,
+            "PertRank_weight": 0.27472764648796505,
+            "directed_reference_effect": 0.2772759585301372
+          }
+        },
+        "leave": {
+          "total_membership_mass": 16.0,
+          "mean_mass_per_list": 2.6666666666666665,
+          "distinct_targets": 16,
+          "means": {
+            "directed_raw_program_effect": 0.66773130310251,
+            "directed_ash_program_effect": 0.400389094230269,
+            "program_SE": 0.1740153191535327,
+            "ash_posterior_over_raw": 0.5987245775463628,
+            "Euclidean_weight": 0.4127010448974857,
+            "PertRank_weight": 0.15065122131901582,
+            "directed_reference_effect": 0.26218348166526884
+          }
+        }
+      },
+      "HALLMARK_OXIDATIVE_PHOSPHORYLATION": {
+        "enter": {
+          "total_membership_mass": 19.0,
+          "mean_mass_per_list": 3.1666666666666665,
+          "distinct_targets": 16,
+          "means": {
+            "directed_raw_program_effect": 0.5137916754456201,
+            "directed_ash_program_effect": 0.2812295228465884,
+            "program_SE": 0.18440004363874088,
+            "ash_posterior_over_raw": 0.5425715161684606,
+            "Euclidean_weight": 0.37982846786997615,
+            "PertRank_weight": 0.3209393812532691,
+            "directed_reference_effect": 0.35412879537430236
+          }
+        },
+        "leave": {
+          "total_membership_mass": 19.0,
+          "mean_mass_per_list": 3.1666666666666665,
+          "distinct_targets": 16,
+          "means": {
+            "directed_raw_program_effect": 0.7307663201145412,
+            "directed_ash_program_effect": 0.38081424137388337,
+            "program_SE": 0.19889306766925546,
+            "ash_posterior_over_raw": 0.5279542620828055,
+            "Euclidean_weight": 0.4381715552839111,
+            "PertRank_weight": 0.15161908675024294,
+            "directed_reference_effect": 0.39394692189207636
+          }
+        }
+      }
+    }
+  },
+  "ash_replaces_raw_with_Euclidean": {
+    "all_programs": {
+      "enter": {
+        "total_membership_mass": 73.0,
+        "mean_mass_per_list": 2.0277777777777777,
+        "distinct_targets": 63,
+        "means": {
+          "directed_raw_program_effect": 0.5154683429557542,
+          "directed_ash_program_effect": 0.3204798046863026,
+          "program_SE": 0.1634943010288238,
+          "ash_posterior_over_raw": 0.6034139560076881,
+          "Euclidean_weight": 0.3781279648106927,
+          "PertRank_weight": 0.2275964345160813,
+          "directed_reference_effect": 0.2504026766108769
+        }
+      },
+      "leave": {
+        "total_membership_mass": 73.0,
+        "mean_mass_per_list": 2.0277777777777777,
+        "distinct_targets": 55,
+        "means": {
+          "directed_raw_program_effect": 0.6582352115230566,
+          "directed_ash_program_effect": 0.23179669639638262,
+          "program_SE": 0.26850199722511364,
+          "ash_posterior_over_raw": 0.3546256561273306,
+          "Euclidean_weight": 0.39758169718253317,
+          "PertRank_weight": 0.23553720112241816,
+          "directed_reference_effect": 0.32600594349076173
+        }
+      }
+    },
+    "per_program": {
+      "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+        "enter": {
+          "total_membership_mass": 15.0,
+          "mean_mass_per_list": 2.5,
+          "distinct_targets": 14,
+          "means": {
+            "directed_raw_program_effect": 0.6008650024431555,
+            "directed_ash_program_effect": 0.40763323812296964,
+            "program_SE": 0.1683603448626284,
+            "ash_posterior_over_raw": 0.6582607230975541,
+            "Euclidean_weight": 0.34855026538906486,
+            "PertRank_weight": 0.22198290244569233,
+            "directed_reference_effect": 0.3819975538345405
+          }
+        },
+        "leave": {
+          "total_membership_mass": 15.0,
+          "mean_mass_per_list": 2.5,
+          "distinct_targets": 15,
+          "means": {
+            "directed_raw_program_effect": 0.6738683814739379,
+            "directed_ash_program_effect": 0.25958002477387343,
+            "program_SE": 0.2636313290069167,
+            "ash_posterior_over_raw": 0.3867288379386294,
+            "Euclidean_weight": 0.3926687983203987,
+            "PertRank_weight": 0.25786691194231764,
+            "directed_reference_effect": 0.331536355474276
+          }
+        }
+      },
+      "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+        "enter": {
+          "total_membership_mass": 20.0,
+          "mean_mass_per_list": 3.3333333333333335,
+          "distinct_targets": 19,
+          "means": {
+            "directed_raw_program_effect": 0.3660405861828303,
+            "directed_ash_program_effect": 0.17531967577085839,
+            "program_SE": 0.1614388612143858,
+            "ash_posterior_over_raw": 0.47618517912018765,
+            "Euclidean_weight": 0.38782581374172287,
+            "PertRank_weight": 0.23470387372546025,
+            "directed_reference_effect": 0.13866466542936803
+          }
+        },
+        "leave": {
+          "total_membership_mass": 20.0,
+          "mean_mass_per_list": 3.3333333333333335,
+          "distinct_targets": 17,
+          "means": {
+            "directed_raw_program_effect": 0.6057970816197422,
+            "directed_ash_program_effect": 0.11103363598667566,
+            "program_SE": 0.3188932691193481,
+            "ash_posterior_over_raw": 0.20002038436884445,
+            "Euclidean_weight": 0.38669132828430114,
+            "PertRank_weight": 0.25510812683683354,
+            "directed_reference_effect": 0.2531202005647949
+          }
+        }
+      },
+      "HALLMARK_IL2_STAT5_SIGNALING": {
+        "enter": {
+          "total_membership_mass": 12.0,
+          "mean_mass_per_list": 2.0,
+          "distinct_targets": 12,
+          "means": {
+            "directed_raw_program_effect": 0.48024044126596016,
+            "directed_ash_program_effect": 0.29285150012402344,
+            "program_SE": 0.17333672554290203,
+            "ash_posterior_over_raw": 0.6128757886513819,
+            "Euclidean_weight": 0.3763963877313435,
+            "PertRank_weight": 0.2670305778324256,
+            "directed_reference_effect": 0.2956006151459673
+          }
+        },
+        "leave": {
+          "total_membership_mass": 12.0,
+          "mean_mass_per_list": 2.0,
+          "distinct_targets": 12,
+          "means": {
+            "directed_raw_program_effect": 0.7367895622246455,
+            "directed_ash_program_effect": 0.2655681097411029,
+            "program_SE": 0.2736886282250032,
+            "ash_posterior_over_raw": 0.36121807607045403,
+            "Euclidean_weight": 0.3359845090545091,
+            "PertRank_weight": 0.22258924668986033,
+            "directed_reference_effect": 0.4689988174720648
+          }
+        }
+      },
+      "HALLMARK_E2F_TARGETS": {
+        "enter": {
+          "total_membership_mass": 7.0,
+          "mean_mass_per_list": 1.1666666666666667,
+          "distinct_targets": 7,
+          "means": {
+            "directed_raw_program_effect": 0.6163337954110062,
+            "directed_ash_program_effect": 0.43132470965387604,
+            "program_SE": 0.1565549272913364,
+            "ash_posterior_over_raw": 0.7009877241665653,
+            "Euclidean_weight": 0.39114816833607696,
+            "PertRank_weight": 0.17249991486090588,
+            "directed_reference_effect": 0.1880294157199111
+          }
+        },
+        "leave": {
+          "total_membership_mass": 7.0,
+          "mean_mass_per_list": 1.1666666666666667,
+          "distinct_targets": 7,
+          "means": {
+            "directed_raw_program_effect": 0.6437220114959733,
+            "directed_ash_program_effect": 0.3388211898179505,
+            "program_SE": 0.20854025538606433,
+            "ash_posterior_over_raw": 0.5268967363678071,
+            "Euclidean_weight": 0.4511536057120651,
+            "PertRank_weight": 0.20147898681537293,
+            "directed_reference_effect": 0.35283896757535843
+          }
+        }
+      },
+      "HALLMARK_G2M_CHECKPOINT": {
+        "enter": {
+          "total_membership_mass": 7.0,
+          "mean_mass_per_list": 1.1666666666666667,
+          "distinct_targets": 7,
+          "means": {
+            "directed_raw_program_effect": 0.5696530689778523,
+            "directed_ash_program_effect": 0.3678951579307036,
+            "program_SE": 0.16466483296545326,
+            "ash_posterior_over_raw": 0.6470341506864844,
+            "Euclidean_weight": 0.4028842784371127,
+            "PertRank_weight": 0.2031721872484604,
+            "directed_reference_effect": 0.19980962377711448
+          }
+        },
+        "leave": {
+          "total_membership_mass": 7.0,
+          "mean_mass_per_list": 1.1666666666666667,
+          "distinct_targets": 6,
+          "means": {
+            "directed_raw_program_effect": 0.6016825868019176,
+            "directed_ash_program_effect": 0.29051747762222485,
+            "program_SE": 0.21195377208654936,
+            "ash_posterior_over_raw": 0.4831006053013588,
+            "Euclidean_weight": 0.42432844228948846,
+            "PertRank_weight": 0.23160955252562823,
+            "directed_reference_effect": 0.28631756625429106
+          }
+        }
+      },
+      "HALLMARK_OXIDATIVE_PHOSPHORYLATION": {
+        "enter": {
+          "total_membership_mass": 12.0,
+          "mean_mass_per_list": 2.0,
+          "distinct_targets": 12,
+          "means": {
+            "directed_raw_program_effect": 0.6025507441293819,
+            "directed_ash_program_effect": 0.38878138168816984,
+            "program_SE": 0.15436021246372048,
+            "ash_posterior_over_raw": 0.6550784809921867,
+            "Euclidean_weight": 0.378632282943474,
+            "PertRank_weight": 0.22972058831038933,
+            "directed_reference_effect": 0.29283817652147953
+          }
+        },
+        "leave": {
+          "total_membership_mass": 12.0,
+          "mean_mass_per_list": 2.0,
+          "distinct_targets": 11,
+          "means": {
+            "directed_raw_program_effect": 0.6889913459915201,
+            "directed_ash_program_effect": 0.26788314638498784,
+            "program_SE": 0.25338239574452026,
+            "ash_posterior_over_raw": 0.390144528025766,
+            "Euclidean_weight": 0.43661807576399464,
+            "PertRank_weight": 0.21011322753331305,
+            "directed_reference_effect": 0.30507524874527
+          }
+        }
+      }
+    }
+  },
+  "ash_replaces_raw_with_PertRank": {
+    "all_programs": {
+      "enter": {
+        "total_membership_mass": 90.0,
+        "mean_mass_per_list": 2.5,
+        "distinct_targets": 74,
+        "means": {
+          "directed_raw_program_effect": 0.5541760135624965,
+          "directed_ash_program_effect": 0.3356114244031919,
+          "program_SE": 0.16789994933966174,
+          "ash_posterior_over_raw": 0.5956334976192152,
+          "Euclidean_weight": 0.35988911968410575,
+          "PertRank_weight": 0.22963957627864579,
+          "directed_reference_effect": 0.28878081728084964
+        }
+      },
+      "leave": {
+        "total_membership_mass": 90.0,
+        "mean_mass_per_list": 2.5,
+        "distinct_targets": 64,
+        "means": {
+          "directed_raw_program_effect": 0.6011321034038585,
+          "directed_ash_program_effect": 0.20777476936157888,
+          "program_SE": 0.2613745978606567,
+          "ash_posterior_over_raw": 0.35090629873159374,
+          "Euclidean_weight": 0.37864580009934856,
+          "PertRank_weight": 0.2692994011319828,
+          "directed_reference_effect": 0.30037656654564715
+        }
+      }
+    },
+    "per_program": {
+      "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+        "enter": {
+          "total_membership_mass": 12.0,
+          "mean_mass_per_list": 2.0,
+          "distinct_targets": 12,
+          "means": {
+            "directed_raw_program_effect": 0.617426154116235,
+            "directed_ash_program_effect": 0.41238600792388724,
+            "program_SE": 0.17283627567984264,
+            "ash_posterior_over_raw": 0.6572439710849376,
+            "Euclidean_weight": 0.3470618576356541,
+            "PertRank_weight": 0.22048977971694542,
+            "directed_reference_effect": 0.48555237086950953
+          }
+        },
+        "leave": {
+          "total_membership_mass": 12.0,
+          "mean_mass_per_list": 2.0,
+          "distinct_targets": 12,
+          "means": {
+            "directed_raw_program_effect": 0.6662739249162043,
+            "directed_ash_program_effect": 0.2378812700563242,
+            "program_SE": 0.27495841541682914,
+            "ash_posterior_over_raw": 0.3540719538199593,
+            "Euclidean_weight": 0.4219428047439757,
+            "PertRank_weight": 0.2735967452283151,
+            "directed_reference_effect": 0.3455125849798664
+          }
+        }
+      },
+      "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+        "enter": {
+          "total_membership_mass": 22.0,
+          "mean_mass_per_list": 3.6666666666666665,
+          "distinct_targets": 21,
+          "means": {
+            "directed_raw_program_effect": 0.40449903938896026,
+            "directed_ash_program_effect": 0.1898181614644083,
+            "program_SE": 0.165003895726014,
+            "ash_posterior_over_raw": 0.4735222507924707,
+            "Euclidean_weight": 0.3298904306178548,
+            "PertRank_weight": 0.2693217828241115,
+            "directed_reference_effect": 0.2229166284109725
+          }
+        },
+        "leave": {
+          "total_membership_mass": 22.0,
+          "mean_mass_per_list": 3.6666666666666665,
+          "distinct_targets": 20,
+          "means": {
+            "directed_raw_program_effect": 0.6101249009094819,
+            "directed_ash_program_effect": 0.12472129362984187,
+            "program_SE": 0.30671210492819134,
+            "ash_posterior_over_raw": 0.21592024284857672,
+            "Euclidean_weight": 0.343573132785992,
+            "PertRank_weight": 0.26153128158682404,
+            "directed_reference_effect": 0.2678252066085665
+          }
+        }
+      },
+      "HALLMARK_IL2_STAT5_SIGNALING": {
+        "enter": {
+          "total_membership_mass": 16.0,
+          "mean_mass_per_list": 2.6666666666666665,
+          "distinct_targets": 16,
+          "means": {
+            "directed_raw_program_effect": 0.5272228447706053,
+            "directed_ash_program_effect": 0.3204774799973371,
+            "program_SE": 0.1729095124817257,
+            "ash_posterior_over_raw": 0.6147402405418572,
+            "Euclidean_weight": 0.3084007100108796,
+            "PertRank_weight": 0.2491031208565425,
+            "directed_reference_effect": 0.2880385594590034
+          }
+        },
+        "leave": {
+          "total_membership_mass": 16.0,
+          "mean_mass_per_list": 2.6666666666666665,
+          "distinct_targets": 16,
+          "means": {
+            "directed_raw_program_effect": 0.6932696372992158,
+            "directed_ash_program_effect": 0.2691358346960915,
+            "program_SE": 0.2609146401753074,
+            "ash_posterior_over_raw": 0.4000832705218572,
+            "Euclidean_weight": 0.27688141301425906,
+            "PertRank_weight": 0.2315305583260663,
+            "directed_reference_effect": 0.35423194285661574
+          }
+        }
+      },
+      "HALLMARK_E2F_TARGETS": {
+        "enter": {
+          "total_membership_mass": 13.0,
+          "mean_mass_per_list": 2.1666666666666665,
+          "distinct_targets": 13,
+          "means": {
+            "directed_raw_program_effect": 0.6572608106502252,
+            "directed_ash_program_effect": 0.4322782739328018,
+            "program_SE": 0.16580327852830107,
+            "ash_posterior_over_raw": 0.6541500127834994,
+            "Euclidean_weight": 0.4234912639727081,
+            "PertRank_weight": 0.18221695822529746,
+            "directed_reference_effect": 0.26068024308988175
+          }
+        },
+        "leave": {
+          "total_membership_mass": 13.0,
+          "mean_mass_per_list": 2.1666666666666665,
+          "distinct_targets": 11,
+          "means": {
+            "directed_raw_program_effect": 0.49037871525157795,
+            "directed_ash_program_effect": 0.21389602454253165,
+            "program_SE": 0.21701647923037418,
+            "ash_posterior_over_raw": 0.4328442475041355,
+            "Euclidean_weight": 0.43458954492254875,
+            "PertRank_weight": 0.2943745607966918,
+            "directed_reference_effect": 0.32419875912351526
+          }
+        }
+      },
+      "HALLMARK_G2M_CHECKPOINT": {
+        "enter": {
+          "total_membership_mass": 12.0,
+          "mean_mass_per_list": 2.0,
+          "distinct_targets": 12,
+          "means": {
+            "directed_raw_program_effect": 0.6274686145465829,
+            "directed_ash_program_effect": 0.3978423751493049,
+            "program_SE": 0.16936938510059707,
+            "ash_posterior_over_raw": 0.6320560708244533,
+            "Euclidean_weight": 0.4195183652913863,
+            "PertRank_weight": 0.18639605368244325,
+            "directed_reference_effect": 0.2426239001824817
+          }
+        },
+        "leave": {
+          "total_membership_mass": 12.0,
+          "mean_mass_per_list": 2.0,
+          "distinct_targets": 11,
+          "means": {
+            "directed_raw_program_effect": 0.4994477323756401,
+            "directed_ash_program_effect": 0.21118608897346977,
+            "program_SE": 0.22379061545573664,
+            "ash_posterior_over_raw": 0.4091840874378418,
+            "Euclidean_weight": 0.4384654451203789,
+            "PertRank_weight": 0.3055957043593247,
+            "directed_reference_effect": 0.1871114938484212
+          }
+        }
+      },
+      "HALLMARK_OXIDATIVE_PHOSPHORYLATION": {
+        "enter": {
+          "total_membership_mass": 15.0,
+          "mean_mass_per_list": 2.5,
+          "distinct_targets": 15,
+          "means": {
+            "directed_raw_program_effect": 0.6038779383554088,
+            "directed_ash_program_effect": 0.3706020537405445,
+            "program_SE": 0.16349646564376313,
+            "ash_posterior_over_raw": 0.6252087167018084,
+            "Euclidean_weight": 0.3662447220688632,
+            "PertRank_weight": 0.23369215010143046,
+            "directed_reference_effect": 0.2900354910732441
+          }
+        },
+        "leave": {
+          "total_membership_mass": 15.0,
+          "mean_mass_per_list": 2.5,
+          "distinct_targets": 15,
+          "means": {
+            "directed_raw_program_effect": 0.6148829402519044,
+            "directed_ash_program_effect": 0.23201538667584506,
+            "program_SE": 0.25301404371788805,
+            "ash_posterior_over_raw": 0.3762627668118439,
+            "Euclidean_weight": 0.40765649313706726,
+            "PertRank_weight": 0.2667726858895058,
+            "directed_reference_effect": 0.32453016956458536
+          }
+        }
+      }
+    }
+  }
+}

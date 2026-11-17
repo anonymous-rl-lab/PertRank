@@ -1,0 +1,7 @@
+Scheme,Source,Median,Empirical range,Fraction below zero
+shared labels,D3,+0.002218,"[-0.001365, +0.005631]",0.114
+shared labels,D1,-0.009170,"[-0.011683, -0.006747]",1.000
+shared labels,D2,-0.000865,"[-0.003633, +0.001903]",0.714
+batch separate,D3,+0.002048,"[-0.001877, +0.006485]",0.184
+batch separate,D1,-0.008824,"[-0.011856, -0.006484]",1.000
+batch separate,D2,-0.000692,"[-0.003378, +0.001994]",0.660

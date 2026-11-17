@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "package_version": "1.6.2",
-  "scientific_scope": "Selected workflows reproduce their declared stages from retained intermediate inputs. Current-paper four-arm and guide diagnostics supplement the core workflows. Optional PertRank-Q reconstructs checkpoint predictions and original subpool statistics without retraining. Raw-count preprocessing, native estimator refitting, and explicitly unavailable historical inputs are outside the default scope.",
+  "package_version": "reproducibility-bundle",
+  "scientific_scope": "Self-contained offline reproduction from declared retained inputs. Includes fixed-task rankings, independent RNA, guide diagnostics, program nomination, native rvalues fitting materials and optional PertRank-Q checkpoint inference. Numerical replay, native fitting, checkpoint inference and source-table rendering are reported separately.",
   "exit_codes": {
     "0": "All selected commands completed with no explicitly partial native status. Consult declared scope and native reports for reproduction level.",
     "1": "Setup, integrity, execution, invalid/missing receipt or numerical verification failure.",
@@ -151,6 +151,78 @@
       "report": "REPRODUCTION_REPORT.json",
       "reproduction_level": "Frozen-checkpoint inference and original query-block statistical replay",
       "scope": "PertRank-Q/B2 retained model predictions, candidate-subpool rankings and conditional paired intervals. Starts from retained model inputs and selected checkpoints, not raw cells; training is not run. Requires optional Torch dependency. Failure and exploratory arms retain their analysis identities."
+    },
+    {
+      "name": "sn4_diagnostics",
+      "default": false,
+      "script": "modules/sn4_diagnostics/verify_sn4.py",
+      "working_directory": "modules/sn4_diagnostics",
+      "arguments": [],
+      "copy_to_output": true,
+      "timeout_seconds": 180,
+      "report": "verification_results.json",
+      "report_required_fields": {
+        "status": "passed"
+      },
+      "reproduction_level": "Retained target-table reaggregation",
+      "scope": "SN4.2–SN4.4 definitions, bins, support rates, original target bootstrap and recovered A10 summaries; no raw-cell projections or reranking."
+    },
+    {
+      "name": "rvalues_native",
+      "default": false,
+      "script": "modules/rvalues_native/reproduce.py",
+      "working_directory": "modules/rvalues_native",
+      "arguments": [
+        "--output-dir",
+        "{output}"
+      ],
+      "timeout_seconds": 180,
+      "report": "REPRODUCTION_REPORT.json",
+      "report_required_fields": {
+        "status": "PASS"
+      },
+      "reproduction_level": "Original native-fitting material verification and preparation",
+      "scope": "Restores and verifies complete native rvalues inputs and scripts for optional R fitting. The preparation command does not run the fits."
+    },
+    {
+      "name": "new_results",
+      "default": true,
+      "script": "modules/new_results/run.py",
+      "working_directory": "modules/new_results",
+      "arguments": [
+        "core",
+        "--out",
+        "{output}"
+      ],
+      "timeout_seconds": 600,
+      "report": "REPLAY_SUMMARY.json",
+      "report_required_fields": {
+        "status": "PASS",
+        "mode": "core",
+        "model_refitting": false
+      },
+      "reproduction_level": "Lossless retained-input reconstruction and numerical recomputation",
+      "scope": "Fixed rvalues memberships to five-task scoring and intervals; D3 program mechanism and sci-Plex3 frozen evaluation from retained moments, native outputs and reference projections. Recomputes weights, lists, utility, resampling and exact replacement accounting. No native model fitting."
+    },
+    {
+      "name": "new_results_exploratory",
+      "default": false,
+      "script": "modules/new_results/run.py",
+      "working_directory": "modules/new_results",
+      "arguments": [
+        "exploratory",
+        "--out",
+        "{output}"
+      ],
+      "timeout_seconds": 600,
+      "report": "REPLAY_SUMMARY.json",
+      "report_required_fields": {
+        "status": "PASS",
+        "mode": "exploratory",
+        "model_refitting": false
+      },
+      "reproduction_level": "Lossless retained-input reconstruction and numerical recomputation",
+      "scope": "Original exploratory ASH geometry adjustments, including unsuccessful branches, from retained statistics and fixed ASH outputs. Recomputes original comparisons without changing the frozen validation or selecting a new model."
     }
   ]
 }

@@ -1,0 +1,63 @@
+{
+  "task": "D4_Rest",
+  "K": 25,
+  "input_reps": 5,
+  "queries": 300,
+  "candidates": 589,
+  "means": {
+    "raw": 0.30175088491079294,
+    "Euclidean": 0.35564993100378434,
+    "PertRank": 0.37917332608905385,
+    "FR": 0.34288805169341613,
+    "ASH": 0.31228997616601734,
+    "rvalues": 0.28996489717408463
+  },
+  "contrasts": {
+    "raw_minus_rvalues": {
+      "precision_difference": 0.011785987736708303,
+      "conditional_query_block_95_interval": [
+        0.0062800352052730084,
+        0.01871172587336168
+      ],
+      "expected_reference_members_difference": 0.2946496934177076
+    },
+    "Euclidean_minus_rvalues": {
+      "precision_difference": 0.0656850338296997,
+      "conditional_query_block_95_interval": [
+        0.05916496689708735,
+        0.07130489904769897
+      ],
+      "expected_reference_members_difference": 1.6421258457424925
+    },
+    "PertRank_minus_rvalues": {
+      "precision_difference": 0.08920842891496922,
+      "conditional_query_block_95_interval": [
+        0.0833392919599208,
+        0.09546911855911472
+      ],
+      "expected_reference_members_difference": 2.2302107228742303
+    },
+    "FR_minus_rvalues": {
+      "precision_difference": 0.052923154519331495,
+      "conditional_query_block_95_interval": [
+        0.03675750162041684,
+        0.06691036272199367
+      ],
+      "expected_reference_members_difference": 1.3230788629832873
+    },
+    "ASH_minus_rvalues": {
+      "precision_difference": 0.0223250789919327,
+      "conditional_query_block_95_interval": [
+        0.014667638970671911,
+        0.0296738074063719
+      ],
+      "expected_reference_members_difference": 0.5581269747983175
+    }
+  },
+  "native_fit_status_counts": {
+    "native_success": 3000,
+    "boundary_degenerate": 0
+  },
+  "analysis_identity": "FIXED_POST_HOC_COMPARATOR_ADDITION",
+  "interval_scope": "Conditional paired query-block bootstrap, 2000 draws; directions and input repetitions averaged within query before inference."
+}

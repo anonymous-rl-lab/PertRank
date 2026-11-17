@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "algorithm": "sha256",
+  "files": {
+    "ANONYMITY_CHECK.json": {
+      "bytes": 310,
+      "sha256": "f798d33882f262f188cfbb9c43699f3c28b2aa8e85351bce1d3d2e23de898fbc"
+    },
+    "README.md": {
+      "bytes": 3451,
+      "sha256": "ccca0182251a49931677385c19168987191be32f1fcd66676152eaedee34fae1"
+    },
+    "SCIENTIFIC_SUMMARY_CN.md": {
+      "bytes": 3565,
+      "sha256": "4bac9e5009a04e8f5569b5d074dff9e7ada76b407f2dc04ab0df67fdabf43cc3"
+    },
+    "VALIDATION.json": {
+      "bytes": 4750,
+      "sha256": "aea136ea05a2e234be83887c8322039330d09c201eda254c6157484dc825cd91"
+    },
+    "program/INDEX.json": {
+      "bytes": 164120,
+      "sha256": "47bf36b510b8482f58ccdb9fb79c331be5ebda519163add9cb53e2570a6d4563"
+    },
+    "program/README.md": {
+      "bytes": 4686,
+      "sha256": "6b04351d370701d08fe1ec3f0fea76b5d3bbf3d62d0702f43a141cfa5dc6abf5"
+    },
+    "program/SOURCE_ARCHIVES.json": {
+      "bytes": 919,
+      "sha256": "3354a93a9737681025abb25005099db8f9c811b19e3f0a584be71f26d5611fb5"
+    },
+    "program/VALIDATION.json": {
+      "bytes": 2943,
+      "sha256": "0497a6ced2ed6e695e33a37ddb49c3c79cd679e5c8232813c705feaa63aa123f"
+    },
+    "program/export_semantics.py": {
+      "bytes": 2486,
+      "sha256": "0969ccbd217f66fa31d5bf53bf6a2b4e2da8d4d22d2c60c3a449b9ad8f022435"
+    },
+    "program/program_data.tar.xz": {
+      "bytes": 8165712,
+      "sha256": "717064b30012c41acded5aa0ce738ea43ba3feb042b21833fac617642d1c0950"
+    },
+    "program/requirements.txt": {
+      "bytes": 23,
+      "sha256": "761c9a90a9748ff4882f1c104a7c1f563e31f5348b01395d0201941b114da696"
+    },
+    "program/run.py": {
+      "bytes": 7524,
+      "sha256": "ce05003400e053af2ce71aca679ee3b00ba0f54d16ebc15d02b4c6132d67a4c3"
+    },
+    "requirements.txt": {
+      "bytes": 59,
+      "sha256": "69c4f9449eb53cef574e2271a00b87cd9a1d01c92d564f92ee71f4062bc0e49f"
+    },
+    "run.py": {
+      "bytes": 3137,
+      "sha256": "d045bf8a728c305d99731b7f3cafedcbc786ad364fc167658717d54bbceafede"
+    },
+    "rvalues/EXPECTED_ARRAY_HASHES.json": {
+      "bytes": 5810,
+      "sha256": "f5035f0baf8d6707134d82ae6b65251edd4749fa15863e9f84ab17c23af8fa57"
+    },
+    "rvalues/INPUT_MANIFEST.json": {
+      "bytes": 31072,
+      "sha256": "31dff7eb2d0b5b2e53486da5e6421a5365b8084f9abf8b5ac00ce3d6f7f1076b"
+    },
+    "rvalues/PLAN_FIXED.md": {
+      "bytes": 4673,
+      "sha256": "ac315d4a2fb22615326b7b231aaf166033dd6ecc9fdcc34936cf2e5ac7afdb0b"
+    },
+    "rvalues/README.md": {
+      "bytes": 3093,
+      "sha256": "6dafc35fa11f572b5ee5716199935e84da28cb92b18d11a15b0d8c8962d1fbc4"
+    },
+    "rvalues/VALIDATION.json": {
+      "bytes": 1140,
+      "sha256": "b5bbd3b18086cb04f9a5e32bb036eb26e7341fb7ed8c2d043dc4844234d6601e"
+    },
+    "rvalues/expected_primary.csv": {
+      "bytes": 754,
+      "sha256": "775e3ff2e4c039a328c90829bb5701fbece5efe28e657013ce03f066aee3b40c"
+    },
+    "rvalues/expected_summary.json": {
+      "bytes": 16372,
+      "sha256": "22be856eaa3719599631b3cdf0cc273c7193b8c79144521d24cde3e0d45d7a8b"
+    },
+    "rvalues/inputs.tar.xz": {
+      "bytes": 1634580,
+      "sha256": "142477e436840e35858b2afea4b344232bc228650c7e7a71f5a725be81a29939"
+    },
+    "rvalues/native_refit/NATIVE_CONFIGURATION.md": {
+      "bytes": 2193,
+      "sha256": "24ec324c610ba78694882a680ed6d825efcc38d3e74b29cc992476aa7e48ec3f"
+    },
+    "rvalues/native_refit/code/run_rvalues_precise.R": {
+      "bytes": 4194,
+      "sha256": "0ff5b5302446528f861c136e7f83536d4dd42a1417ee4e7ebd54feaf921aec23"
+    },
+    "rvalues/native_refit/original_driver.py": {
+      "bytes": 11426,
+      "sha256": "2bdeb2ea84583dfd8a39c9ee49b13674490ddbed84ec005b711188a4a7e93c2c"
+    },
+    "rvalues/native_refit/vendor/GPL-2.txt": {
+      "bytes": 17984,
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+    },
+    "rvalues/run.py": {
+      "bytes": 5494,
+      "sha256": "c2e3adeb49ad6eea63828c7717410837af5fa5c367e41ac3f17dcaee7759c1e1"
+    },
+    "rvalues/scorer.py": {
+      "bytes": 7355,
+      "sha256": "fdb9450f596dcf4770ebe4693bc1f85074c0d24eb5cf6fc76dee4ae2a9a9f0d4"
+    }
+  }
+}

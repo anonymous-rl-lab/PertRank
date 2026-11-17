@@ -1,0 +1,21 @@
+{
+  "scope": "Source Data extraction and previous plot-payload agreement; no reanalysis",
+  "numeric_values_checked": 348,
+  "maximum_absolute_difference": 4.163336342344337e-16,
+  "tolerance": 1e-12,
+  "source_files": {
+    "rvalues": {
+      "filename": "source_data/rvalues/primary_contrasts.csv",
+      "sha256": "75a0d09325c5e1fff93a3ef099f4bdd37e9f478caeade1839fb11578ed982fb3"
+    },
+    "program_external": {
+      "filename": "source_data/programs/external_summary.json",
+      "sha256": "ebd1cf2db1fcfd0717971389b96e6728050ec657b9b170ca2e4a23d5ef13300e"
+    },
+    "program_D3": {
+      "filename": "source_data/programs/d3_mechanism_summary.json",
+      "sha256": "8046f8c8dc4eb43d3de16f98c18315136a9816965268d574229e290adc2f5c81"
+    }
+  },
+  "P10_ranges_used_in_main_figure_5": false
+}

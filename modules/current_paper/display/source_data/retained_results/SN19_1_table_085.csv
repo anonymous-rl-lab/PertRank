@@ -1,0 +1,4 @@
+Method,First input P@25,Five-input mean P@25
+Unweighted,0.277143,0.283072
+Euclidean,0.276249,0.281769
+PertRank,0.305145,0.313099

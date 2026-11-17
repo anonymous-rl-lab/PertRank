@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "scope": "Lossless storage only; original NPZ containers restored byte for byte. No precision, resampling-count or scientific-code changes.",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "zlib_runtime": "1.3.2",
+  "pools": [
+    {
+      "pool": "fixed_tasks",
+      "file_count": 69,
+      "source_bytes": 47978273,
+      "payload_bytes": 39866808,
+      "restoration": {
+        "status": "PASS",
+        "restored_files": 69,
+        "restored_bytes": 47978273,
+        "all_original_file_hashes_match": true,
+        "all_original_blob_hashes_match": true,
+        "precision_changed": false,
+        "source_files_modified": false,
+        "seconds": 42.280590295791626
+      }
+    },
+    {
+      "pool": "other_inputs",
+      "file_count": 44,
+      "source_bytes": 12114056,
+      "payload_bytes": 9452004,
+      "restoration": {
+        "status": "PASS",
+        "restored_files": 44,
+        "restored_bytes": 12114056,
+        "all_original_file_hashes_match": true,
+        "all_original_blob_hashes_match": true,
+        "precision_changed": false,
+        "source_files_modified": false,
+        "seconds": 1.5497698783874512
+      }
+    }
+  ]
+}

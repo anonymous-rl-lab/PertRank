@@ -1,0 +1,1672 @@
+{
+  "analysis_identity": "POST_REVEAL_EXPLORATORY_D3_BACKWARD_CHECK",
+  "methods": [
+    {
+      "arm": "raw_one",
+      "utility": 0.3487492152272402,
+      "conditional_lower95": 0.33122974093223906,
+      "conditional_upper95": 0.36674958663501017,
+      "P10": 0.24444444444444444,
+      "per_program_utility": [
+        0.4346086297514531,
+        0.23164165578969118,
+        0.4106735454937321,
+        0.3042591616790609,
+        0.29022630972799063,
+        0.4210859889215131
+      ]
+    },
+    {
+      "arm": "raw_w0",
+      "utility": 0.38227006468810804,
+      "conditional_lower95": 0.361747930705034,
+      "conditional_upper95": 0.4029550958760548,
+      "P10": 0.29444444444444445,
+      "per_program_utility": [
+        0.4403646093212042,
+        0.2652001211185156,
+        0.44930118904888444,
+        0.3489289600564613,
+        0.3440868758587159,
+        0.44573863272486686
+      ]
+    },
+    {
+      "arm": "raw_wM",
+      "utility": 0.3845141950409417,
+      "conditional_lower95": 0.36389781432408896,
+      "conditional_upper95": 0.406663722508741,
+      "P10": 0.28611111111111115,
+      "per_program_utility": [
+        0.4906843606085621,
+        0.26353321276589176,
+        0.44450880466774284,
+        0.3421365158976066,
+        0.3269164618001981,
+        0.43930581450564893
+      ]
+    },
+    {
+      "arm": "raw_protect",
+      "utility": 0.38261801460245054,
+      "conditional_lower95": 0.36216798907517994,
+      "conditional_upper95": 0.4033265062111652,
+      "P10": 0.29444444444444445,
+      "per_program_utility": [
+        0.4403646093212042,
+        0.2652001211185156,
+        0.4513888885349397,
+        0.3489289600564613,
+        0.3440868758587159,
+        0.44573863272486686
+      ]
+    },
+    {
+      "arm": "raw_signed",
+      "utility": 0.37644450707930854,
+      "conditional_lower95": 0.35574299687532246,
+      "conditional_upper95": 0.3965503741198653,
+      "P10": 0.2805555555555555,
+      "per_program_utility": [
+        0.4345366568207217,
+        0.24949599591511737,
+        0.455632939902,
+        0.3414122730453419,
+        0.3387612213419822,
+        0.4388279554506882
+      ]
+    },
+    {
+      "arm": "raw_up",
+      "utility": 0.3715325587814619,
+      "conditional_lower95": 0.35089204963559323,
+      "conditional_upper95": 0.391725621129511,
+      "P10": 0.2722222222222222,
+      "per_program_utility": [
+        0.41968964069099374,
+        0.24022182915951382,
+        0.4447766965808359,
+        0.3404776828974016,
+        0.3387612213419822,
+        0.445268282018044
+      ]
+    },
+    {
+      "arm": "ash_one",
+      "utility": 0.3182441248976733,
+      "conditional_lower95": 0.3019631238856205,
+      "conditional_upper95": 0.3345212391107414,
+      "P10": 0.20555555555555557,
+      "per_program_utility": [
+        0.43387948383101876,
+        0.178657466685085,
+        0.37723770628656467,
+        0.27890497033814965,
+        0.2607618990446239,
+        0.3800232232005978
+      ]
+    },
+    {
+      "arm": "ash_w0",
+      "utility": 0.36693940223746474,
+      "conditional_lower95": 0.3472493622340616,
+      "conditional_upper95": 0.38642756255622496,
+      "P10": 0.2611111111111111,
+      "per_program_utility": [
+        0.4529799089112703,
+        0.22704827607337333,
+        0.4146215485836649,
+        0.32970117900665913,
+        0.333994282569712,
+        0.4432912182801087
+      ]
+    },
+    {
+      "arm": "ash_wM",
+      "utility": 0.3816152577247423,
+      "conditional_lower95": 0.3618927876496969,
+      "conditional_upper95": 0.4022987575796105,
+      "P10": 0.27499999999999997,
+      "per_program_utility": [
+        0.5186923177864906,
+        0.24706673409344063,
+        0.426857235761713,
+        0.328374170756986,
+        0.3380189430670102,
+        0.4306821448828136
+      ]
+    },
+    {
+      "arm": "ash_protect",
+      "utility": 0.36743060442960734,
+      "conditional_lower95": 0.34766438342620387,
+      "conditional_upper95": 0.38706733431566176,
+      "P10": 0.2611111111111111,
+      "per_program_utility": [
+        0.4529799089112703,
+        0.22704827607337333,
+        0.4175687617365205,
+        0.32970117900665913,
+        0.333994282569712,
+        0.4432912182801087
+      ]
+    },
+    {
+      "arm": "ash_signed",
+      "utility": 0.35924619985110534,
+      "conditional_lower95": 0.33953203447770447,
+      "conditional_upper95": 0.3789146129849492,
+      "P10": 0.25277777777777777,
+      "per_program_utility": [
+        0.44739838088883294,
+        0.1964087623899999,
+        0.4069331179691707,
+        0.33322404289319957,
+        0.3311088574398781,
+        0.44040403752555085
+      ]
+    },
+    {
+      "arm": "ash_up",
+      "utility": 0.3555058818209765,
+      "conditional_lower95": 0.33560522795740666,
+      "conditional_upper95": 0.37550730280805394,
+      "P10": 0.25277777777777777,
+      "per_program_utility": [
+        0.45652027516061305,
+        0.1970322430784814,
+        0.39356409167790396,
+        0.3319538968088454,
+        0.32914442612117045,
+        0.4248203580788446
+      ]
+    }
+  ],
+  "contrasts": {
+    "ash_signed_minus_w0": {
+      "new_arm": "ash_signed",
+      "old_arm": "ash_w0",
+      "estimate": -0.007693202386359381,
+      "conditional_interval95": [
+        -0.013417755546755285,
+        -0.001995380596863929
+      ],
+      "delta_P10": -0.008333333333333331,
+      "primary_exploratory": true,
+      "per_program": [
+        {
+          "program": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+          "estimate": -0.0055815280224373875,
+          "conditional_interval95": [
+            -0.017780660108943615,
+            0.006105402235926458
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+          "estimate": -0.03063951368337342,
+          "conditional_interval95": [
+            -0.0494937669076991,
+            -0.010854464276756081
+          ],
+          "delta_P10": -0.033333333333333326
+        },
+        {
+          "program": "HALLMARK_IL2_STAT5_SIGNALING",
+          "estimate": -0.007688430614494202,
+          "conditional_interval95": [
+            -0.02062101012674766,
+            0.005530525001760505
+          ],
+          "delta_P10": -0.016666666666666663
+        },
+        {
+          "program": "HALLMARK_E2F_TARGETS",
+          "estimate": 0.0035228638865404394,
+          "conditional_interval95": [
+            -0.005820136905109956,
+            0.013401999404919493
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_G2M_CHECKPOINT",
+          "estimate": -0.002885425129833863,
+          "conditional_interval95": [
+            -0.015554061219539752,
+            0.009642539580393412
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_OXIDATIVE_PHOSPHORYLATION",
+          "estimate": -0.00288718075455785,
+          "conditional_interval95": [
+            -0.01454557835211466,
+            0.008235132019855939
+          ],
+          "delta_P10": 0.0
+        }
+      ],
+      "per_input": [
+        {
+          "input_id": "B3_original20",
+          "estimate": -0.0077141924812381
+        },
+        {
+          "input_id": "R20_rep0",
+          "estimate": -0.010155854310341434
+        },
+        {
+          "input_id": "R20_rep1",
+          "estimate": -0.005209560367498607
+        }
+      ]
+    },
+    "ash_signed_minus_original_wM": {
+      "new_arm": "ash_signed",
+      "old_arm": "ash_wM",
+      "estimate": -0.022369057873636994,
+      "conditional_interval95": [
+        -0.035908396523395836,
+        -0.009342596174381289
+      ],
+      "delta_P10": -0.022222222222222227,
+      "primary_exploratory": true,
+      "per_program": [
+        {
+          "program": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+          "estimate": -0.07129393689765767,
+          "conditional_interval95": [
+            -0.10001817700354382,
+            -0.04175329786042306
+          ],
+          "delta_P10": -0.08333333333333337
+        },
+        {
+          "program": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+          "estimate": -0.05065797170344072,
+          "conditional_interval95": [
+            -0.0809377426334603,
+            -0.019325587874197237
+          ],
+          "delta_P10": -0.033333333333333326
+        },
+        {
+          "program": "HALLMARK_IL2_STAT5_SIGNALING",
+          "estimate": -0.01992411779254233,
+          "conditional_interval95": [
+            -0.05064777154395327,
+            0.009936798350832653
+          ],
+          "delta_P10": -0.033333333333333326
+        },
+        {
+          "program": "HALLMARK_E2F_TARGETS",
+          "estimate": 0.004849872136213573,
+          "conditional_interval95": [
+            -0.017827685689711645,
+            0.026748133095629966
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_G2M_CHECKPOINT",
+          "estimate": -0.006910085627132079,
+          "conditional_interval95": [
+            -0.03147946045760243,
+            0.01777075064618583
+          ],
+          "delta_P10": -0.04999999999999999
+        },
+        {
+          "program": "HALLMARK_OXIDATIVE_PHOSPHORYLATION",
+          "estimate": 0.009721892642737262,
+          "conditional_interval95": [
+            -0.020051409642731544,
+            0.03796300229406938
+          ],
+          "delta_P10": 0.06666666666666665
+        }
+      ],
+      "per_input": [
+        {
+          "input_id": "B3_original20",
+          "estimate": -0.03748031929537003
+        },
+        {
+          "input_id": "R20_rep0",
+          "estimate": -0.009649829804385173
+        },
+        {
+          "input_id": "R20_rep1",
+          "estimate": -0.019977024521155736
+        }
+      ]
+    },
+    "ash_signed_minus_fixed_up": {
+      "new_arm": "ash_signed",
+      "old_arm": "ash_up",
+      "estimate": 0.003740318030128864,
+      "conditional_interval95": [
+        -0.0008817863530474087,
+        0.00839568957789309
+      ],
+      "delta_P10": 0.0,
+      "primary_exploratory": true,
+      "per_program": [
+        {
+          "program": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+          "estimate": -0.009121894271780118,
+          "conditional_interval95": [
+            -0.016738739473702142,
+            -0.0014561117714637876
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+          "estimate": -0.0006234806884815036,
+          "conditional_interval95": [
+            -0.016638249777919674,
+            0.015202024881910662
+          ],
+          "delta_P10": -0.016666666666666663
+        },
+        {
+          "program": "HALLMARK_IL2_STAT5_SIGNALING",
+          "estimate": 0.013369026291266739,
+          "conditional_interval95": [
+            0.002082925656649988,
+            0.024443584361558756
+          ],
+          "delta_P10": 0.016666666666666663
+        },
+        {
+          "program": "HALLMARK_E2F_TARGETS",
+          "estimate": 0.0012701460843541623,
+          "conditional_interval95": [
+            -0.008160843503387026,
+            0.010785682416029068
+          ],
+          "delta_P10": -0.016666666666666663
+        },
+        {
+          "program": "HALLMARK_G2M_CHECKPOINT",
+          "estimate": 0.00196443131870766,
+          "conditional_interval95": [
+            -0.005546493802961075,
+            0.009442163305507914
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_OXIDATIVE_PHOSPHORYLATION",
+          "estimate": 0.015583679446706244,
+          "conditional_interval95": [
+            0.007431852505890481,
+            0.02380507746674631
+          ],
+          "delta_P10": 0.016666666666666663
+        }
+      ],
+      "per_input": [
+        {
+          "input_id": "B3_original20",
+          "estimate": 0.005434725579433535
+        },
+        {
+          "input_id": "R20_rep0",
+          "estimate": -0.004902403289830025
+        },
+        {
+          "input_id": "R20_rep1",
+          "estimate": 0.010688631800783069
+        }
+      ]
+    },
+    "raw_protect_minus_w0": {
+      "new_arm": "raw_protect",
+      "old_arm": "raw_w0",
+      "estimate": 0.0003479499143425417,
+      "conditional_interval95": [
+        -0.0006362204253820215,
+        0.001332835790074462
+      ],
+      "delta_P10": 0.0,
+      "primary_exploratory": false,
+      "per_program": [
+        {
+          "program": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+          "estimate": 0.0,
+          "conditional_interval95": [
+            0.0,
+            0.0
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+          "estimate": 0.0,
+          "conditional_interval95": [
+            0.0,
+            0.0
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_IL2_STAT5_SIGNALING",
+          "estimate": 0.00208769948605525,
+          "conditional_interval95": [
+            -0.0038173225522921293,
+            0.007997014740446772
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_E2F_TARGETS",
+          "estimate": 0.0,
+          "conditional_interval95": [
+            0.0,
+            0.0
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_G2M_CHECKPOINT",
+          "estimate": 0.0,
+          "conditional_interval95": [
+            0.0,
+            0.0
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_OXIDATIVE_PHOSPHORYLATION",
+          "estimate": 0.0,
+          "conditional_interval95": [
+            0.0,
+            0.0
+          ],
+          "delta_P10": 0.0
+        }
+      ],
+      "per_input": [
+        {
+          "input_id": "B3_original20",
+          "estimate": 0.001043849743027625
+        },
+        {
+          "input_id": "R20_rep0",
+          "estimate": 0.0
+        },
+        {
+          "input_id": "R20_rep1",
+          "estimate": 0.0
+        }
+      ]
+    },
+    "raw_protect_minus_wM": {
+      "new_arm": "raw_protect",
+      "old_arm": "raw_wM",
+      "estimate": -0.0018961804384911296,
+      "conditional_interval95": [
+        -0.015316716945672096,
+        0.011106152032266493
+      ],
+      "delta_P10": 0.008333333333333331,
+      "primary_exploratory": false,
+      "per_program": [
+        {
+          "program": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+          "estimate": -0.05031975128735788,
+          "conditional_interval95": [
+            -0.07771924832453003,
+            -0.023672298535467384
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+          "estimate": 0.0016669083526238415,
+          "conditional_interval95": [
+            -0.025099653429943414,
+            0.029008473341981655
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_IL2_STAT5_SIGNALING",
+          "estimate": 0.006880083867196851,
+          "conditional_interval95": [
+            -0.019949445415328487,
+            0.03294769374373745
+          ],
+          "delta_P10": 0.01666666666666672
+        },
+        {
+          "program": "HALLMARK_E2F_TARGETS",
+          "estimate": 0.006792444158854716,
+          "conditional_interval95": [
+            -0.019365997229640376,
+            0.03252251416983117
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_G2M_CHECKPOINT",
+          "estimate": 0.01717041405851777,
+          "conditional_interval95": [
+            -0.006764791615773318,
+            0.04044709464216164
+          ],
+          "delta_P10": 0.016666666666666607
+        },
+        {
+          "program": "HALLMARK_OXIDATIVE_PHOSPHORYLATION",
+          "estimate": 0.006432818219217928,
+          "conditional_interval95": [
+            -0.023267796981714182,
+            0.035847080043199364
+          ],
+          "delta_P10": 0.016666666666666663
+        }
+      ],
+      "per_input": [
+        {
+          "input_id": "B3_original20",
+          "estimate": -0.005621611536082534
+        },
+        {
+          "input_id": "R20_rep0",
+          "estimate": 0.014789568284979848
+        },
+        {
+          "input_id": "R20_rep1",
+          "estimate": -0.014856498064370727
+        }
+      ]
+    },
+    "raw_signed_minus_w0": {
+      "new_arm": "raw_signed",
+      "old_arm": "raw_w0",
+      "estimate": -0.005825557608799488,
+      "conditional_interval95": [
+        -0.011022347861121209,
+        -0.0007869904295575762
+      ],
+      "delta_P10": -0.0138888888888889,
+      "primary_exploratory": false,
+      "per_program": [
+        {
+          "program": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+          "estimate": -0.005827952500482514,
+          "conditional_interval95": [
+            -0.020054108005214538,
+            0.008586248542298083
+          ],
+          "delta_P10": -0.033333333333333326
+        },
+        {
+          "program": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+          "estimate": -0.015704125203398228,
+          "conditional_interval95": [
+            -0.03277994384009221,
+            -2.3100704368012713e-05
+          ],
+          "delta_P10": -0.01666666666666669
+        },
+        {
+          "program": "HALLMARK_IL2_STAT5_SIGNALING",
+          "estimate": 0.0063317508531155475,
+          "conditional_interval95": [
+            -0.005420921504380892,
+            0.018490531568902933
+          ],
+          "delta_P10": -0.01666666666666672
+        },
+        {
+          "program": "HALLMARK_E2F_TARGETS",
+          "estimate": -0.007516687011119405,
+          "conditional_interval95": [
+            -0.015390133900962253,
+            0.0001548212255253023
+          ],
+          "delta_P10": -0.016666666666666663
+        },
+        {
+          "program": "HALLMARK_G2M_CHECKPOINT",
+          "estimate": -0.005325654516733669,
+          "conditional_interval95": [
+            -0.018250748501437656,
+            0.006633330995174461
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_OXIDATIVE_PHOSPHORYLATION",
+          "estimate": -0.006910677274178656,
+          "conditional_interval95": [
+            -0.014809272032793275,
+            0.0010231988535097025
+          ],
+          "delta_P10": 0.0
+        }
+      ],
+      "per_input": [
+        {
+          "input_id": "B3_original20",
+          "estimate": -0.022679445283783118
+        },
+        {
+          "input_id": "R20_rep0",
+          "estimate": 0.0014145273411302524
+        },
+        {
+          "input_id": "R20_rep1",
+          "estimate": 0.0037882451162544184
+        }
+      ]
+    },
+    "raw_signed_minus_wM": {
+      "new_arm": "raw_signed",
+      "old_arm": "raw_wM",
+      "estimate": -0.00806968796163316,
+      "conditional_interval95": [
+        -0.0229999127424795,
+        0.0056482769314776405
+      ],
+      "delta_P10": -0.005555555555555568,
+      "primary_exploratory": false,
+      "per_program": [
+        {
+          "program": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+          "estimate": -0.0561477037878404,
+          "conditional_interval95": [
+            -0.0884215267508797,
+            -0.02409202814485704
+          ],
+          "delta_P10": -0.033333333333333326
+        },
+        {
+          "program": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+          "estimate": -0.014037216850774387,
+          "conditional_interval95": [
+            -0.04260998328546409,
+            0.01480313198043059
+          ],
+          "delta_P10": -0.01666666666666669
+        },
+        {
+          "program": "HALLMARK_IL2_STAT5_SIGNALING",
+          "estimate": 0.011124135234257149,
+          "conditional_interval95": [
+            -0.01824276390803915,
+            0.039548849949747104
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_E2F_TARGETS",
+          "estimate": -0.0007242428522646893,
+          "conditional_interval95": [
+            -0.028592989242842735,
+            0.026194161381717228
+          ],
+          "delta_P10": -0.016666666666666663
+        },
+        {
+          "program": "HALLMARK_G2M_CHECKPOINT",
+          "estimate": 0.0118447595417841,
+          "conditional_interval95": [
+            -0.01426784984092228,
+            0.03692308374148968
+          ],
+          "delta_P10": 0.016666666666666607
+        },
+        {
+          "program": "HALLMARK_OXIDATIVE_PHOSPHORYLATION",
+          "estimate": -0.00047785905496072756,
+          "conditional_interval95": [
+            -0.03126366678327797,
+            0.029793976230034384
+          ],
+          "delta_P10": 0.016666666666666663
+        }
+      ],
+      "per_input": [
+        {
+          "input_id": "B3_original20",
+          "estimate": -0.029344906562893278
+        },
+        {
+          "input_id": "R20_rep0",
+          "estimate": 0.0162040956261101
+        },
+        {
+          "input_id": "R20_rep1",
+          "estimate": -0.011068252948116308
+        }
+      ]
+    },
+    "raw_up_minus_w0": {
+      "new_arm": "raw_up",
+      "old_arm": "raw_w0",
+      "estimate": -0.01073750590664616,
+      "conditional_interval95": [
+        -0.016552524398903878,
+        -0.005061944424719452
+      ],
+      "delta_P10": -0.022222222222222227,
+      "primary_exploratory": false,
+      "per_program": [
+        {
+          "program": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+          "estimate": -0.020674968630210455,
+          "conditional_interval95": [
+            -0.03765333856898528,
+            -0.0037393417772603075
+          ],
+          "delta_P10": -0.04999999999999999
+        },
+        {
+          "program": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+          "estimate": -0.02497829195900178,
+          "conditional_interval95": [
+            -0.04493203949124046,
+            -0.006286507255171637
+          ],
+          "delta_P10": -0.033333333333333326
+        },
+        {
+          "program": "HALLMARK_IL2_STAT5_SIGNALING",
+          "estimate": -0.0045244924680485354,
+          "conditional_interval95": [
+            -0.017572222158438303,
+            0.008488730546075303
+          ],
+          "delta_P10": -0.03333333333333338
+        },
+        {
+          "program": "HALLMARK_E2F_TARGETS",
+          "estimate": -0.008451277159059689,
+          "conditional_interval95": [
+            -0.017725915142900173,
+            0.0005936835103654475
+          ],
+          "delta_P10": -0.016666666666666663
+        },
+        {
+          "program": "HALLMARK_G2M_CHECKPOINT",
+          "estimate": -0.005325654516733669,
+          "conditional_interval95": [
+            -0.018250748501437656,
+            0.006633330995174461
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_OXIDATIVE_PHOSPHORYLATION",
+          "estimate": -0.00047035070682283076,
+          "conditional_interval95": [
+            -0.008901022720740597,
+            0.008056185137766776
+          ],
+          "delta_P10": 0.0
+        }
+      ],
+      "per_input": [
+        {
+          "input_id": "B3_original20",
+          "estimate": -0.029270149673511228
+        },
+        {
+          "input_id": "R20_rep0",
+          "estimate": -0.005063863233282617
+        },
+        {
+          "input_id": "R20_rep1",
+          "estimate": 0.0021214951868553933
+        }
+      ]
+    },
+    "raw_up_minus_wM": {
+      "new_arm": "raw_up",
+      "old_arm": "raw_wM",
+      "estimate": -0.012981636259479831,
+      "conditional_interval95": [
+        -0.02819226189337248,
+        0.0012249656898962406
+      ],
+      "delta_P10": -0.013888888888888895,
+      "primary_exploratory": false,
+      "per_program": [
+        {
+          "program": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+          "estimate": -0.07099471991756834,
+          "conditional_interval95": [
+            -0.10408095117637495,
+            -0.038693369841482785
+          ],
+          "delta_P10": -0.04999999999999999
+        },
+        {
+          "program": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+          "estimate": -0.02331138360637794,
+          "conditional_interval95": [
+            -0.05471466407748286,
+            0.006781887231974703
+          ],
+          "delta_P10": -0.033333333333333326
+        },
+        {
+          "program": "HALLMARK_IL2_STAT5_SIGNALING",
+          "estimate": 0.0002678919130930657,
+          "conditional_interval95": [
+            -0.030357176756230696,
+            0.02932507287054396
+          ],
+          "delta_P10": -0.016666666666666663
+        },
+        {
+          "program": "HALLMARK_E2F_TARGETS",
+          "estimate": -0.0016588330002049734,
+          "conditional_interval95": [
+            -0.030668163780727335,
+            0.02592499194741126
+          ],
+          "delta_P10": -0.016666666666666663
+        },
+        {
+          "program": "HALLMARK_G2M_CHECKPOINT",
+          "estimate": 0.0118447595417841,
+          "conditional_interval95": [
+            -0.01426784984092228,
+            0.03692308374148968
+          ],
+          "delta_P10": 0.016666666666666607
+        },
+        {
+          "program": "HALLMARK_OXIDATIVE_PHOSPHORYLATION",
+          "estimate": 0.005962467512395098,
+          "conditional_interval95": [
+            -0.02414111032226626,
+            0.03562573891517979
+          ],
+          "delta_P10": 0.016666666666666663
+        }
+      ],
+      "per_input": [
+        {
+          "input_id": "B3_original20",
+          "estimate": -0.035935610952621384
+        },
+        {
+          "input_id": "R20_rep0",
+          "estimate": 0.009725705051697231
+        },
+        {
+          "input_id": "R20_rep1",
+          "estimate": -0.012735002877515333
+        }
+      ]
+    },
+    "ash_protect_minus_w0": {
+      "new_arm": "ash_protect",
+      "old_arm": "ash_w0",
+      "estimate": 0.0004912021921426035,
+      "conditional_interval95": [
+        -0.0003582653869621225,
+        0.0013321372407993873
+      ],
+      "delta_P10": 0.0,
+      "primary_exploratory": false,
+      "per_program": [
+        {
+          "program": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+          "estimate": 0.0,
+          "conditional_interval95": [
+            0.0,
+            0.0
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+          "estimate": 0.0,
+          "conditional_interval95": [
+            0.0,
+            0.0
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_IL2_STAT5_SIGNALING",
+          "estimate": 0.002947213152855621,
+          "conditional_interval95": [
+            -0.002149592321772735,
+            0.007992823444796324
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_E2F_TARGETS",
+          "estimate": 0.0,
+          "conditional_interval95": [
+            0.0,
+            0.0
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_G2M_CHECKPOINT",
+          "estimate": 0.0,
+          "conditional_interval95": [
+            0.0,
+            0.0
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_OXIDATIVE_PHOSPHORYLATION",
+          "estimate": 0.0,
+          "conditional_interval95": [
+            0.0,
+            0.0
+          ],
+          "delta_P10": 0.0
+        }
+      ],
+      "per_input": [
+        {
+          "input_id": "B3_original20",
+          "estimate": 0.0014736065764277921
+        },
+        {
+          "input_id": "R20_rep0",
+          "estimate": 0.0
+        },
+        {
+          "input_id": "R20_rep1",
+          "estimate": 0.0
+        }
+      ]
+    },
+    "ash_protect_minus_wM": {
+      "new_arm": "ash_protect",
+      "old_arm": "ash_wM",
+      "estimate": -0.01418465329513501,
+      "conditional_interval95": [
+        -0.02628641084138513,
+        -0.0026405515069250957
+      ],
+      "delta_P10": -0.013888888888888895,
+      "primary_exploratory": false,
+      "per_program": [
+        {
+          "program": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+          "estimate": -0.06571240887522029,
+          "conditional_interval95": [
+            -0.09380507808192821,
+            -0.037343153362239076
+          ],
+          "delta_P10": -0.08333333333333337
+        },
+        {
+          "program": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+          "estimate": -0.020018458020067298,
+          "conditional_interval95": [
+            -0.04908131183380884,
+            0.00890865902944868
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_IL2_STAT5_SIGNALING",
+          "estimate": -0.009288474025192506,
+          "conditional_interval95": [
+            -0.03888814724441022,
+            0.01813130635422987
+          ],
+          "delta_P10": -0.016666666666666663
+        },
+        {
+          "program": "HALLMARK_E2F_TARGETS",
+          "estimate": 0.001327008249673134,
+          "conditional_interval95": [
+            -0.019516847406680214,
+            0.022219774395333954
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_G2M_CHECKPOINT",
+          "estimate": -0.004024660497298216,
+          "conditional_interval95": [
+            -0.025915110582071053,
+            0.019232596647440817
+          ],
+          "delta_P10": -0.04999999999999999
+        },
+        {
+          "program": "HALLMARK_OXIDATIVE_PHOSPHORYLATION",
+          "estimate": 0.012609073397295112,
+          "conditional_interval95": [
+            -0.015124374395441755,
+            0.03895532111866146
+          ],
+          "delta_P10": 0.06666666666666665
+        }
+      ],
+      "per_input": [
+        {
+          "input_id": "B3_original20",
+          "estimate": -0.02829252023770414
+        },
+        {
+          "input_id": "R20_rep0",
+          "estimate": 0.0005060245059562615
+        },
+        {
+          "input_id": "R20_rep1",
+          "estimate": -0.014767464153657128
+        }
+      ]
+    },
+    "ash_up_minus_w0": {
+      "new_arm": "ash_up",
+      "old_arm": "ash_w0",
+      "estimate": -0.011433520416488244,
+      "conditional_interval95": [
+        -0.018224574560886518,
+        -0.004567512691576836
+      ],
+      "delta_P10": -0.008333333333333331,
+      "primary_exploratory": false,
+      "per_program": [
+        {
+          "program": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+          "estimate": 0.00354036624934273,
+          "conditional_interval95": [
+            -0.010480283559271166,
+            0.017636318214111595
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+          "estimate": -0.030016032994891917,
+          "conditional_interval95": [
+            -0.050348385482033,
+            -0.009353211094977436
+          ],
+          "delta_P10": -0.016666666666666663
+        },
+        {
+          "program": "HALLMARK_IL2_STAT5_SIGNALING",
+          "estimate": -0.02105745690576094,
+          "conditional_interval95": [
+            -0.03734967181310183,
+            -0.004395419671738989
+          ],
+          "delta_P10": -0.033333333333333326
+        },
+        {
+          "program": "HALLMARK_E2F_TARGETS",
+          "estimate": 0.002252717802186277,
+          "conditional_interval95": [
+            -0.011408036235795397,
+            0.016033630906300594
+          ],
+          "delta_P10": 0.016666666666666663
+        },
+        {
+          "program": "HALLMARK_G2M_CHECKPOINT",
+          "estimate": -0.004849856448541523,
+          "conditional_interval95": [
+            -0.01945109621629501,
+            0.009466232365499743
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_OXIDATIVE_PHOSPHORYLATION",
+          "estimate": -0.018470860201264094,
+          "conditional_interval95": [
+            -0.03232970460157457,
+            -0.004869792940657036
+          ],
+          "delta_P10": -0.016666666666666663
+        }
+      ],
+      "per_input": [
+        {
+          "input_id": "B3_original20",
+          "estimate": -0.013148918060671635
+        },
+        {
+          "input_id": "R20_rep0",
+          "estimate": -0.005253451020511409
+        },
+        {
+          "input_id": "R20_rep1",
+          "estimate": -0.015898192168281675
+        }
+      ]
+    },
+    "ash_up_minus_wM": {
+      "new_arm": "ash_up",
+      "old_arm": "ash_wM",
+      "estimate": -0.026109375903765858,
+      "conditional_interval95": [
+        -0.040256237350011735,
+        -0.012174236054433131
+      ],
+      "delta_P10": -0.022222222222222227,
+      "primary_exploratory": false,
+      "per_program": [
+        {
+          "program": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+          "estimate": -0.062172042625877555,
+          "conditional_interval95": [
+            -0.09278643718292098,
+            -0.03171845071771649
+          ],
+          "delta_P10": -0.08333333333333337
+        },
+        {
+          "program": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+          "estimate": -0.050034491014959215,
+          "conditional_interval95": [
+            -0.08476481877338315,
+            -0.015016394660166028
+          ],
+          "delta_P10": -0.016666666666666663
+        },
+        {
+          "program": "HALLMARK_IL2_STAT5_SIGNALING",
+          "estimate": -0.03329314408380907,
+          "conditional_interval95": [
+            -0.06612807276053954,
+            -0.00221952247578686
+          ],
+          "delta_P10": -0.04999999999999999
+        },
+        {
+          "program": "HALLMARK_E2F_TARGETS",
+          "estimate": 0.003579726051859411,
+          "conditional_interval95": [
+            -0.0215561615180569,
+            0.027675236867073988
+          ],
+          "delta_P10": 0.016666666666666663
+        },
+        {
+          "program": "HALLMARK_G2M_CHECKPOINT",
+          "estimate": -0.008874516945839739,
+          "conditional_interval95": [
+            -0.03505262203307684,
+            0.017261310338169713
+          ],
+          "delta_P10": -0.04999999999999999
+        },
+        {
+          "program": "HALLMARK_OXIDATIVE_PHOSPHORYLATION",
+          "estimate": -0.0058617868039689824,
+          "conditional_interval95": [
+            -0.03756949237382275,
+            0.02449872581206556
+          ],
+          "delta_P10": 0.04999999999999999
+        }
+      ],
+      "per_input": [
+        {
+          "input_id": "B3_original20",
+          "estimate": -0.04291504487480357
+        },
+        {
+          "input_id": "R20_rep0",
+          "estimate": -0.0047474265145551475
+        },
+        {
+          "input_id": "R20_rep1",
+          "estimate": -0.030665656321938805
+        }
+      ]
+    },
+    "raw_signed_minus_fixed_up": {
+      "new_arm": "raw_signed",
+      "old_arm": "raw_up",
+      "estimate": 0.004911948297846673,
+      "conditional_interval95": [
+        0.001190014721856803,
+        0.008601625558936704
+      ],
+      "delta_P10": 0.008333333333333326,
+      "primary_exploratory": false,
+      "per_program": [
+        {
+          "program": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+          "estimate": 0.014847016129727941,
+          "conditional_interval95": [
+            0.004332483752044091,
+            0.025025795899218283
+          ],
+          "delta_P10": 0.016666666666666663
+        },
+        {
+          "program": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+          "estimate": 0.009274166755603552,
+          "conditional_interval95": [
+            -0.005441171131787199,
+            0.024278473303789766
+          ],
+          "delta_P10": 0.016666666666666635
+        },
+        {
+          "program": "HALLMARK_IL2_STAT5_SIGNALING",
+          "estimate": 0.010856243321164083,
+          "conditional_interval95": [
+            0.0007804504767145987,
+            0.02101758845240326
+          ],
+          "delta_P10": 0.016666666666666663
+        },
+        {
+          "program": "HALLMARK_E2F_TARGETS",
+          "estimate": 0.0009345901479402841,
+          "conditional_interval95": [
+            -0.004099153923231969,
+            0.0060924292267735495
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_G2M_CHECKPOINT",
+          "estimate": 0.0,
+          "conditional_interval95": [
+            0.0,
+            0.0
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_OXIDATIVE_PHOSPHORYLATION",
+          "estimate": -0.006440326567355825,
+          "conditional_interval95": [
+            -0.012139439719675137,
+            -0.0008908504501887329
+          ],
+          "delta_P10": 0.0
+        }
+      ],
+      "per_input": [
+        {
+          "input_id": "B3_original20",
+          "estimate": 0.006590704389728109
+        },
+        {
+          "input_id": "R20_rep0",
+          "estimate": 0.006478390574412869
+        },
+        {
+          "input_id": "R20_rep1",
+          "estimate": 0.0016667499293990251
+        }
+      ]
+    },
+    "raw_signed_minus_native_ASH": {
+      "new_arm": "raw_signed",
+      "old_arm": "ash_one",
+      "estimate": 0.058200382181635264,
+      "conditional_interval95": [
+        0.0411170736570798,
+        0.07485537847574197
+      ],
+      "delta_P10": 0.075,
+      "primary_exploratory": false,
+      "per_program": [
+        {
+          "program": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+          "estimate": 0.0006571729897029144,
+          "conditional_interval95": [
+            -0.035135963776889816,
+            0.03434340132833163
+          ],
+          "delta_P10": -0.033333333333333326
+        },
+        {
+          "program": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+          "estimate": 0.07083852923003237,
+          "conditional_interval95": [
+            0.021747385818483584,
+            0.1212031663431209
+          ],
+          "delta_P10": 0.033333333333333326
+        },
+        {
+          "program": "HALLMARK_IL2_STAT5_SIGNALING",
+          "estimate": 0.07839523361543532,
+          "conditional_interval95": [
+            0.03887853013046684,
+            0.11824602923726342
+          ],
+          "delta_P10": 0.1833333333333333
+        },
+        {
+          "program": "HALLMARK_E2F_TARGETS",
+          "estimate": 0.06250730270719224,
+          "conditional_interval95": [
+            0.03807023224520182,
+            0.08582237736148769
+          ],
+          "delta_P10": 0.06666666666666668
+        },
+        {
+          "program": "HALLMARK_G2M_CHECKPOINT",
+          "estimate": 0.07799932229735834,
+          "conditional_interval95": [
+            0.05165815891486814,
+            0.10436244118008851
+          ],
+          "delta_P10": 0.1
+        },
+        {
+          "program": "HALLMARK_OXIDATIVE_PHOSPHORYLATION",
+          "estimate": 0.05880473225009042,
+          "conditional_interval95": [
+            0.02463657940603387,
+            0.09261214027596223
+          ],
+          "delta_P10": 0.09999999999999998
+        }
+      ],
+      "per_input": [
+        {
+          "input_id": "B3_original20",
+          "estimate": 0.07603342475263114
+        },
+        {
+          "input_id": "R20_rep0",
+          "estimate": 0.05178985966241264
+        },
+        {
+          "input_id": "R20_rep1",
+          "estimate": 0.04677786212986199
+        }
+      ]
+    },
+    "raw_old_geometry": {
+      "new_arm": "raw_wM",
+      "old_arm": "raw_w0",
+      "estimate": 0.002244130352833671,
+      "conditional_interval95": [
+        -0.010581820836780578,
+        0.015812455898664236
+      ],
+      "delta_P10": -0.008333333333333331,
+      "primary_exploratory": false,
+      "per_program": [
+        {
+          "program": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+          "estimate": 0.05031975128735788,
+          "conditional_interval95": [
+            0.023672298535467387,
+            0.07771924832453003
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+          "estimate": -0.0016669083526238415,
+          "conditional_interval95": [
+            -0.029008473341981644,
+            0.025099653429943417
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_IL2_STAT5_SIGNALING",
+          "estimate": -0.004792384381141601,
+          "conditional_interval95": [
+            -0.030692415051648634,
+            0.0222982045935221
+          ],
+          "delta_P10": -0.01666666666666672
+        },
+        {
+          "program": "HALLMARK_E2F_TARGETS",
+          "estimate": -0.006792444158854716,
+          "conditional_interval95": [
+            -0.032522514169831165,
+            0.019365997229640382
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_G2M_CHECKPOINT",
+          "estimate": -0.01717041405851777,
+          "conditional_interval95": [
+            -0.04044709464216162,
+            0.00676479161577332
+          ],
+          "delta_P10": -0.016666666666666607
+        },
+        {
+          "program": "HALLMARK_OXIDATIVE_PHOSPHORYLATION",
+          "estimate": -0.006432818219217928,
+          "conditional_interval95": [
+            -0.035847080043199364,
+            0.023267796981714186
+          ],
+          "delta_P10": -0.016666666666666663
+        }
+      ],
+      "per_input": [
+        {
+          "input_id": "B3_original20",
+          "estimate": 0.006665461279110159
+        },
+        {
+          "input_id": "R20_rep0",
+          "estimate": -0.014789568284979848
+        },
+        {
+          "input_id": "R20_rep1",
+          "estimate": 0.014856498064370727
+        }
+      ]
+    },
+    "ash_old_geometry": {
+      "new_arm": "ash_wM",
+      "old_arm": "ash_w0",
+      "estimate": 0.014675855487277614,
+      "conditional_interval95": [
+        0.003060871865219748,
+        0.02694692572812732
+      ],
+      "delta_P10": 0.013888888888888895,
+      "primary_exploratory": false,
+      "per_program": [
+        {
+          "program": "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+          "estimate": 0.06571240887522029,
+          "conditional_interval95": [
+            0.03734315336223908,
+            0.09380507808192821
+          ],
+          "delta_P10": 0.08333333333333337
+        },
+        {
+          "program": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+          "estimate": 0.020018458020067298,
+          "conditional_interval95": [
+            -0.008908659029448679,
+            0.049081311833808844
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_IL2_STAT5_SIGNALING",
+          "estimate": 0.012235687178048127,
+          "conditional_interval95": [
+            -0.015442918761848277,
+            0.04208955970705443
+          ],
+          "delta_P10": 0.016666666666666663
+        },
+        {
+          "program": "HALLMARK_E2F_TARGETS",
+          "estimate": -0.001327008249673134,
+          "conditional_interval95": [
+            -0.022219774395333947,
+            0.019516847406680214
+          ],
+          "delta_P10": 0.0
+        },
+        {
+          "program": "HALLMARK_G2M_CHECKPOINT",
+          "estimate": 0.004024660497298216,
+          "conditional_interval95": [
+            -0.019232596647440814,
+            0.025915110582071053
+          ],
+          "delta_P10": 0.04999999999999999
+        },
+        {
+          "program": "HALLMARK_OXIDATIVE_PHOSPHORYLATION",
+          "estimate": -0.012609073397295112,
+          "conditional_interval95": [
+            -0.03895532111866146,
+            0.01512437439544176
+          ],
+          "delta_P10": -0.06666666666666665
+        }
+      ],
+      "per_input": [
+        {
+          "input_id": "B3_original20",
+          "estimate": 0.029766126814131932
+        },
+        {
+          "input_id": "R20_rep0",
+          "estimate": -0.0005060245059562615
+        },
+        {
+          "input_id": "R20_rep1",
+          "estimate": 0.014767464153657128
+        }
+      ]
+    }
+  },
+  "primary_exploratory_comparisons": [
+    "ash_signed_minus_w0",
+    "ash_signed_minus_original_wM",
+    "ash_signed_minus_fixed_up"
+  ],
+  "bootstrap": {
+    "draws": 4000,
+    "seed": 2026111603,
+    "strata": "three original 20-cell reference groups within each candidate, common draws across all inputs/arms/programs",
+    "scope": "conditional on original shared 2000 controls, all fixed input measurements, programs, candidate pool and ASH fits; no biological replication interval",
+    "interval_level": 0.95,
+    "multiplicity": "descriptive exploratory intervals; no confirmatory family claim"
+  },
+  "fixed_metrics": [
+    "protect",
+    "signed",
+    "up"
+  ],
+  "tuning": false,
+  "native_ASH_refit": false,
+  "original_weight_replay_checks": [
+    {
+      "input_id": "B3_original20",
+      "w0_max_abs_recompute_difference": 0.0,
+      "wM_max_abs_recompute_difference": 3.3200769988805945e-07,
+      "original_weights_preserved": true,
+      "checks": [
+        {
+          "readout": "raw",
+          "weight": "w0",
+          "membership_exact": true
+        },
+        {
+          "readout": "raw",
+          "weight": "wM",
+          "membership_exact": true
+        },
+        {
+          "readout": "ash",
+          "weight": "w0",
+          "membership_exact": true
+        },
+        {
+          "readout": "ash",
+          "weight": "wM",
+          "membership_exact": true
+        }
+      ]
+    },
+    {
+      "input_id": "R20_rep0",
+      "w0_max_abs_recompute_difference": 0.0,
+      "wM_max_abs_recompute_difference": 3.3306690738754696e-16,
+      "original_weights_preserved": true,
+      "checks": [
+        {
+          "readout": "raw",
+          "weight": "w0",
+          "membership_exact": true
+        },
+        {
+          "readout": "raw",
+          "weight": "wM",
+          "membership_exact": true
+        },
+        {
+          "readout": "ash",
+          "weight": "w0",
+          "membership_exact": true
+        },
+        {
+          "readout": "ash",
+          "weight": "wM",
+          "membership_exact": true
+        }
+      ]
+    },
+    {
+      "input_id": "R20_rep1",
+      "w0_max_abs_recompute_difference": 0.0,
+      "wM_max_abs_recompute_difference": 3.3306690738754696e-16,
+      "original_weights_preserved": true,
+      "checks": [
+        {
+          "readout": "raw",
+          "weight": "w0",
+          "membership_exact": true
+        },
+        {
+          "readout": "raw",
+          "weight": "wM",
+          "membership_exact": true
+        },
+        {
+          "readout": "ash",
+          "weight": "w0",
+          "membership_exact": true
+        },
+        {
+          "readout": "ash",
+          "weight": "wM",
+          "membership_exact": true
+        }
+      ]
+    }
+  ],
+  "reference_sha256": "ffa122986d27f76a767e1ae169a39878ba13e5689e0ca2263c2d2a33c6d18a37",
+  "prediction_sha256": "53e2aef22e7bb5bb947684d1af8a6630e9bcefa2c91fe71d028b46a283c2ebd3"
+}

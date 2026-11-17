@@ -1,9 +1,0 @@
-{
-  "scanned_files_and_archive_members": 11230,
-  "hits": [],
-  "scope": "Delivered files plus nested archive members scanned for project identities and private paths; independent citations and third-party license notices retained.",
-  "final_text_files_checked": 2064,
-  "final_text_hits": [],
-  "python_sources_syntax_checked": 392,
-  "compressed_tar_owner_metadata": "All UID/GID zero and username/group name empty."
-}

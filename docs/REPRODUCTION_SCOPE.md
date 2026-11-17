@@ -1,6 +1,6 @@
 # Reproduction scope
 
-The default chain uses eight modules. Each starts from retained inputs and produces fresh results in a new output directory. It does not download raw atlases or retrain upstream estimators.
+The default chain executes nine scientific modules. Each starts from retained inputs and produces fresh results in a new output directory. It does not download raw atlases or retrain upstream estimators.
 
 | Module | Starting point | Recomputed |
 |---|---|---|
@@ -12,6 +12,9 @@ The default chain uses eight modules. Each starts from retained inputs and produ
 | il2_intermediates | Guide readouts, fixed candidate/list identities and fitted MAGeCK projections | Protein-reference centering, target medians, 20,000 paired draws and fixed-list support |
 | sensitivity_replay | Saved resampling draws and fixed fitted coefficients | Empirical draw summaries and Mixscale list comparisons |
 | current_paper | Projected query effects, original reference memberships/draws, retained guide statistics and fixed predictions | Independent-RNA four arms, guide diagnostics and current manuscript figures; source tables supplied for inspection |
+| new_results | Native rvalues memberships, exact program moments and fixed ASH outputs, retained reference projections | Fixed rvalues scoring, program weights, six-arm rankings, reference utility, resampling and replacement accounting; exploratory adjustments separately callable |
+| sn4_diagnostics (optional) | Original compressed target tables | SN4 bins, support rates, target bootstrap and A10 ratios |
+| rvalues_native (optional) | Losslessly stored exact native experiment inputs and scripts | Verify and prepare the exact effects/SE and original R source; R fitting is a separate documented operation |
 | pertrank_q (optional) | Retained model inputs and selected checkpoints | Predictions, target-held-out candidate-subpool rankings, selection accounting and conditional intervals |
 | software (optional) | Installed package and bundled examples | Interface regression tests, notebook execution and cell-input correctness checks |
 
@@ -20,6 +23,8 @@ Raw count preprocessing, control PCA and upstream model fitting are not repeated
 ## Explicit unavailable stages
 
 The original A14 per-cell protein input is unavailable; its reported result, protocol and recovery description remain outside numerical replay. Original A19 cell selection is not recovered; A19-R is the separately identified reconstruction. CELLEQ-R likewise retains its reconstruction identity and is distinct from the fixed seven-depth calibration. An unavailable control-replacement ranking is not counted as a successful analysis.
+
+Original native rvalues fitting inputs and the complete R wrapper are included under `modules/rvalues_native/`; optional fitting is distinct from default fixed-output scoring.
 
 Current-paper tables and figure code are under `modules/current_paper/display/`. Display regeneration alone is not upstream model reproduction; not every source-table cell is freshly computed by the dispatcher. Analytic identities require no fitted model. Each numeric module's receipt states the fields and tolerances it verified.
 

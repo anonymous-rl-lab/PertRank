@@ -1,0 +1,6 @@
+Analysis,Varied,Held fixed,Reported uncertainty
+Paired method comparison,Query blocks,"Inputs, controls, directions, pool, reference",Conditional query-block interval
+Fixed-weight cell resampling,Target-cell multiplicities and effects,Weights and remaining design,Empirical sensitivity range
+D3 weight-refit resampling,"Target cells, effects and both weights","Controls, directions, queries, pool, reference",Empirical refit range
+A19-R reference propagation,Donor contributions and matched controls,Source predictions and task,Reference-side range
+Disjoint-input comparison,Observed target-cell groups,"Controls, directions, queries, pool, reference",Query-block interval conditional on groups

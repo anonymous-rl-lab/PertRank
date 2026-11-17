@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "mode": "exploratory",
+  "files_verified": 28,
+  "model_refitting": false,
+  "scope": "The fixed rvalues comparison and predefined-program studies, with exploratory direction adjustments kept separate. Baseline native-model fitting and raw-count recovery are outside this compact replay.",
+  "reports": {
+    "program": {
+      "status": "PASS",
+      "export_numeric_checks": {
+        "exploratory_external": {
+          "numeric_values_unchanged": 16518
+        }
+      },
+      "action": "exploratory",
+      "seconds": 31.220177173614502,
+      "restoration": {
+        "status": "PASS",
+        "restored_files": 140,
+        "unique_lossless_blobs": 399,
+        "derived_arrays_verified_bitwise": 31,
+        "dtype_precision_preserved": true,
+        "no_reference_cells_discarded": true
+      },
+      "experiments": {
+        "exploratory": {
+          "status": "PASS",
+          "verified_package_files": 29,
+          "bitwise_equal_arrays": 223,
+          "matched_summary_numbers": 17208,
+          "all_original_and_repair_arms_recomputed": true,
+          "bootstrap_draws_per_source": 4000,
+          "scope": "Recompute from fixed raw/ASH readouts, full-profile sufficient statistics and exact reference-cell program projections. Does not refit ASH or reconstruct full raw UMI."
+        }
+      },
+      "native_ASH_refitted": false,
+      "precision": "Original float64 arrays; byte-lossless transforms only; exact moments preserve the original reduction order."
+    }
+  }
+}

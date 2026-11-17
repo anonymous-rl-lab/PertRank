@@ -1,6 +1,0 @@
-Scientific question,Analytical entry,Existing evidence and analysis identity,What it tests
-Which directions inform reliability?,"SM5.0–SM5.3: energy, alignment and variance","Post hoc direction and independent-energy diagnostics, SN3.2 and SN4",Direction specificity and energy-estimation consequences
-How does alignment relate to nomination?,SM5.1–SM5.2: relative signal and noise,"Prespecified S3 association, SN14.3; post hoc accounting, SN15",Association with reference-supported gains and costs
-How do weight changes become list gains?,"SM5.4–SM5.5: relative scores, boundaries and replacement","Post hoc weight interventions, SN3.3; exact full-pool attribution, SN4.3 and SN15",Interventions on competition and the resulting beneficiaries
-Can reliability and readout be combined separately?,SM5.6: metric and output coordinates,"Internal design comparison, SN3.1; post hoc FR reuse and external four-arm analysis, SN21.1 and SN22",Geometry increments conditional on the estimator and readout
-Does re-estimation preserve the observed gain?,SM6.3: empirical resampling moments,"Disjoint-input analyses, SN11 and SN14; post hoc cell-resampling sensitivity, SN8.5",Distinct input-repetition and empirical-refitting conditions

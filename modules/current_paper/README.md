@@ -1,8 +1,19 @@
 # Current-paper evidence and figures (current submission)
 
-This module adds the independent-RNA four-arm comparison and retained-cell guide diagnostic used in the current paper, plus its current figure code and numerical source tables. It complements the retained core and the separate `pertrank_q` module. It contains no manuscript PDFs or historical manuscript versions.
+## Run from the package root
 
-From the repository root:
+The distributed inputs are stored losslessly in the shared `storage/` directory. Use the root dispatcher to restore the exact input files automatically:
+
+```bash
+python reproduce.py --only current_paper --output-dir ../pertrank-current_paper-reproduced
+```
+
+The lower-level commands below apply to the restored module under `OUTPUT/_source/modules/`, where the original files and checksums are available. Do not run those commands directly on the compact module directory.
+
+
+This module reproduces the independent-RNA four-arm comparison and retained-cell guide diagnostic, and renders manuscript figures from numerical source tables. The rvalues and program-nomination results are computed by `../new_results/`; this module renders their display values. It complements the retained core and the separate `pertrank_q` module. It contains no manuscript PDFs or historical manuscript versions.
+
+From the restored execution-tree root (`OUTPUT/_source/`):
 
 ```bash
 python modules/current_paper/reproduce.py --output-dir ../current-paper-reproduced
@@ -23,4 +34,4 @@ The guide replay starts from **fixed predictions**, whose bytes match the origin
 
 The four-arm point estimates and intervals are compared with the original reports. Reference-sensitivity ranges remain empirical ranges conditional on fixed predictions, not population confidence intervals. The three input sources share one RNA experiment. Guide counts/signs remain descriptive. PertRank-Q's checkpoint replay remains in `../pertrank_q/`; the plot of Q here is only a display of its retained results.
 
-Current numerical source tables and figure inputs use version-neutral filenames. They contain the submission's numerical evidence, not manuscript text. Analytic SM5 identities require no additional fitted model or experimental data; their empirical inputs are the existing nomination accounting and core diagnostics.
+The active source tables and figure scripts correspond to the current manuscript. They contain the submission's numerical evidence. Analytic SM5 identities require no additional fitted model or experimental data; their empirical inputs are the existing nomination accounting and core diagnostics.

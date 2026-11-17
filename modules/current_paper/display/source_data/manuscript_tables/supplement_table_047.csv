@@ -1,0 +1,7 @@
+Comparison,Utility difference,Interval level,Conditional interval
+Original PertRank − native ASH,0.026955,97.5%,"[0.012721, 0.041110]"
+ASH-readout geometry,-0.006227,97.5%,"[-0.014139, 0.001785]"
+Original-readout geometry,0.002100,95%,"[-0.005028, 0.009666]"
+Original PertRank − Unweighted,0.028252,95%,"[0.015738, 0.040219]"
+ASH × Euclidean − original PertRank,0.001118,95%,"[-0.006472, 0.008450]"
+Readout × geometry interaction,-0.008327,95%,"[-0.014391, -0.002075]"

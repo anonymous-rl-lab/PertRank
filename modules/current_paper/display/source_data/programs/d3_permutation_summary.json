@@ -1,0 +1,1094 @@
+{
+  "analysis_identity": "EXPLORATORY_FIXED_MECHANISTIC_FOLLOWUP",
+  "seed": 2026111602,
+  "permutations": 1000,
+  "K": 10,
+  "scope": "Reference held fixed. Percentiles describe random weight reassignments, not confidence intervals or p-values. Programs and inputs are fixed, not independent biological replicates.",
+  "strata_definition": "Within each eligible program pool and input: five equal-count signed-effect rank bins, then five equal-count SE rank bins within each; exact rank ties ordered by target-ID string. Same paired weight assignment is used for both directions.",
+  "rng_order": "input, program, mode(global then strata), permutation, stratum index",
+  "assignment_sha256": "b3084ae44703246479c71095798a27ad1ffc18b474f093c39c67d68296e3bca0",
+  "checks": {
+    "weight_pair_bijections": 36000,
+    "weight_distributions_preserved": true,
+    "all_strata_preserved": true,
+    "same_mapping_for_up_down": true,
+    "old_actual_utility_maxabs": 2.220446049250313e-16,
+    "boundary_ties": {
+      "lists": 144000,
+      "tied_boundary_lists": 0,
+      "fractional_boundary_lists": 0,
+      "largest_tie": 1
+    }
+  },
+  "methods": {
+    "global": {
+      "Euclidean": {
+        "overall": {
+          "observed_utility": 0.38227006468810804,
+          "permutation_mean_utility": 0.22560949008769698,
+          "observed_minus_permutation_mean": 0.156660574600411,
+          "observed_minus_permutation_diagnostic_025_975": [
+            0.13507241582180932,
+            0.1791423210667716
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            0.20312774362133643,
+            0.24719764886629872
+          ],
+          "observed_gain_over_unweighted": 0.03352084946086786,
+          "permutation_gain_over_unweighted_mean": -0.12313972513954315,
+          "permutation_gain_over_unweighted_diagnostic_025_975": [
+            -0.14562147160590375,
+            -0.10155156636094145
+          ]
+        },
+        "by_program": {
+          "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+            "observed_utility": 0.4403646093212042,
+            "permutation_mean_utility": 0.2817210561003266,
+            "observed_minus_permutation_mean": 0.15864355322087756,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.08990484252707832,
+              0.22275599050091308
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.2176086188202911,
+              0.3504597667941258
+            ],
+            "observed_gain_over_unweighted": 0.005755979569751102,
+            "permutation_gain_over_unweighted_mean": -0.15288757365112646,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.217000010931162,
+              -0.08414886295732726
+            ]
+          },
+          "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+            "observed_utility": 0.2652001211185156,
+            "permutation_mean_utility": 0.1480075916881285,
+            "observed_minus_permutation_mean": 0.1171925294303871,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.07118684585438871,
+              0.1632868048701388
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.10191331624837678,
+              0.19401327526412687
+            ],
+            "observed_gain_over_unweighted": 0.03355846532882442,
+            "permutation_gain_over_unweighted_mean": -0.08363406410156267,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.12972833954131438,
+              -0.037628380525564296
+            ]
+          },
+          "HALLMARK_IL2_STAT5_SIGNALING": {
+            "observed_utility": 0.44930118904888444,
+            "permutation_mean_utility": 0.28665817258204584,
+            "observed_minus_permutation_mean": 0.16264301646683862,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.10951574926286155,
+              0.2145892688947923
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.23471192015409215,
+              0.3397854397860229
+            ],
+            "observed_gain_over_unweighted": 0.03862764355515225,
+            "permutation_gain_over_unweighted_mean": -0.12401537291168635,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.17596162533964005,
+              -0.07088810570770931
+            ]
+          },
+          "HALLMARK_E2F_TARGETS": {
+            "observed_utility": 0.3489289600564613,
+            "permutation_mean_utility": 0.19060484439452927,
+            "observed_minus_permutation_mean": 0.15832411566193202,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.10881262607044823,
+              0.20813843209898977
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.14079052795747152,
+              0.24011633398601304
+            ],
+            "observed_gain_over_unweighted": 0.04466979837740037,
+            "permutation_gain_over_unweighted_mean": -0.11365431728453165,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.1634686337215894,
+              -0.06414282769304788
+            ]
+          },
+          "HALLMARK_G2M_CHECKPOINT": {
+            "observed_utility": 0.3440868758587159,
+            "permutation_mean_utility": 0.17985131383742084,
+            "observed_minus_permutation_mean": 0.16423556202129505,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.1160792206216375,
+              0.21260234637271763
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.13148452948599826,
+              0.22800765523707836
+            ],
+            "observed_gain_over_unweighted": 0.05386056613072526,
+            "permutation_gain_over_unweighted_mean": -0.11037499589056979,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.15874178024199237,
+              -0.062218654490912254
+            ]
+          },
+          "HALLMARK_OXIDATIVE_PHOSPHORYLATION": {
+            "observed_utility": 0.44573863272486675,
+            "permutation_mean_utility": 0.2668139619237311,
+            "observed_minus_permutation_mean": 0.17892467080113572,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.11930352866059635,
+              0.23830681365514914
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.2074318190697176,
+              0.3264351040642704
+            ],
+            "observed_gain_over_unweighted": 0.02465264380335369,
+            "permutation_gain_over_unweighted_mean": -0.15427202699778203,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.21365416985179544,
+              -0.09465088485724267
+            ]
+          }
+        },
+        "by_input": {
+          "B3_original20": {
+            "observed_utility": 0.38211030530857776,
+            "permutation_mean_utility": 0.21964627033473377,
+            "observed_minus_permutation_mean": 0.162464034973844,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.12225946455053036,
+              0.20024657138637872
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.18186373392219904,
+              0.2598508407580474
+            ],
+            "observed_gain_over_unweighted": 0.0471476558888167,
+            "permutation_gain_over_unweighted_mean": -0.1153163790850273,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.15309891549756202,
+              -0.07511180866171366
+            ]
+          },
+          "R20_rep0": {
+            "observed_utility": 0.40078669777675424,
+            "permutation_mean_utility": 0.23472362682213785,
+            "observed_minus_permutation_mean": 0.1660630709546164,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.12960823015886447,
+              0.2063342144264161
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.1944524833503381,
+              0.2711784676178898
+            ],
+            "observed_gain_over_unweighted": 0.02591171962837535,
+            "permutation_gain_over_unweighted_mean": -0.14015135132624104,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.1804224947980408,
+              -0.10369651053048913
+            ]
+          },
+          "R20_rep1": {
+            "observed_utility": 0.3639131909789921,
+            "permutation_mean_utility": 0.22245857310621944,
+            "observed_minus_permutation_mean": 0.14145461787277264,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.10117841205831549,
+              0.17547292856472516
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.18844026241426695,
+              0.26273477892067665
+            ],
+            "observed_gain_over_unweighted": 0.027503172865411596,
+            "permutation_gain_over_unweighted_mean": -0.11395144500736105,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.14796975569931356,
+              -0.07367523919290389
+            ]
+          }
+        }
+      },
+      "PertRank": {
+        "overall": {
+          "observed_utility": 0.38451419504094164,
+          "permutation_mean_utility": 0.2319794520170316,
+          "observed_minus_permutation_mean": 0.15253474302391004,
+          "observed_minus_permutation_diagnostic_025_975": [
+            0.12869596919099224,
+            0.17514750656306347
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            0.20936668847787818,
+            0.2558182258499494
+          ],
+          "observed_gain_over_unweighted": 0.03576497981370147,
+          "permutation_gain_over_unweighted_mean": -0.11676976321020857,
+          "permutation_gain_over_unweighted_diagnostic_025_975": [
+            -0.139382526749362,
+            -0.09293098937729079
+          ]
+        },
+        "by_program": {
+          "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+            "observed_utility": 0.490684360608562,
+            "permutation_mean_utility": 0.2927423241435305,
+            "observed_minus_permutation_mean": 0.1979420364650315,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.1384406593788019,
+              0.25770450526149763
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.23297985534706436,
+              0.3522437012297601
+            ],
+            "observed_gain_over_unweighted": 0.05607573085710893,
+            "permutation_gain_over_unweighted_mean": -0.14186630560792257,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.20162877440438873,
+              -0.08236492852169297
+            ]
+          },
+          "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+            "observed_utility": 0.26353321276589176,
+            "permutation_mean_utility": 0.1521199291345517,
+            "observed_minus_permutation_mean": 0.11141328363134005,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.06632439978849787,
+              0.15613323985808783
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.10739997290780391,
+              0.19720881297739387
+            ],
+            "observed_gain_over_unweighted": 0.03189155697620058,
+            "permutation_gain_over_unweighted_mean": -0.07952172665513947,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.12424168288188726,
+              -0.0344328428122973
+            ]
+          },
+          "HALLMARK_IL2_STAT5_SIGNALING": {
+            "observed_utility": 0.44450880466774284,
+            "permutation_mean_utility": 0.2909535187905527,
+            "observed_minus_permutation_mean": 0.1535552858771901,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.10234123533555077,
+              0.20482473647521018
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.23968406819253266,
+              0.34216756933219206
+            ],
+            "observed_gain_over_unweighted": 0.033835259174010646,
+            "permutation_gain_over_unweighted_mean": -0.11972002670317945,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.17098947730119954,
+              -0.06850597616154012
+            ]
+          },
+          "HALLMARK_E2F_TARGETS": {
+            "observed_utility": 0.3421365158976066,
+            "permutation_mean_utility": 0.1962011809026367,
+            "observed_minus_permutation_mean": 0.14593533499496986,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.09623999144041251,
+              0.1949789575955367
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.14715755830206986,
+              0.24589652445719404
+            ],
+            "observed_gain_over_unweighted": 0.037877354218545656,
+            "permutation_gain_over_unweighted_mean": -0.10805798077642421,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.15710160337699106,
+              -0.058362637221866874
+            ]
+          },
+          "HALLMARK_G2M_CHECKPOINT": {
+            "observed_utility": 0.32691646180019807,
+            "permutation_mean_utility": 0.1838102701790572,
+            "observed_minus_permutation_mean": 0.14310619162114085,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.09424234214315112,
+              0.19313017931546667
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.1337862824847314,
+              0.23267411965704693
+            ],
+            "observed_gain_over_unweighted": 0.03669015207220744,
+            "permutation_gain_over_unweighted_mean": -0.10641603954893342,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.15644002724325923,
+              -0.05755219007094369
+            ]
+          },
+          "HALLMARK_OXIDATIVE_PHOSPHORYLATION": {
+            "observed_utility": 0.43930581450564876,
+            "permutation_mean_utility": 0.2760494889518607,
+            "observed_minus_permutation_mean": 0.16325632555378808,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.10091239247213386,
+              0.22256241586776965
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.21674339863787911,
+              0.33839342203351486
+            ],
+            "observed_gain_over_unweighted": 0.018219825584135707,
+            "permutation_gain_over_unweighted_mean": -0.14503649996965237,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.20434259028363394,
+              -0.08269256688799817
+            ]
+          }
+        },
+        "by_input": {
+          "B3_original20": {
+            "observed_utility": 0.3887757665876879,
+            "permutation_mean_utility": 0.22417922632281154,
+            "observed_minus_permutation_mean": 0.1645965402648764,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.12735688621150332,
+              0.20259208905018203
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.1861836775375059,
+              0.2614188803761846
+            ],
+            "observed_gain_over_unweighted": 0.05381311716792686,
+            "permutation_gain_over_unweighted_mean": -0.11078342309694955,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.14877897188225517,
+              -0.07354376904357647
+            ]
+          },
+          "R20_rep0": {
+            "observed_utility": 0.38599712949177434,
+            "permutation_mean_utility": 0.24532917597411497,
+            "observed_minus_permutation_mean": 0.14066795351765937,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.10256134633692411,
+              0.1819665456732561
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.2040305838185182,
+              0.28343578315485024
+            ],
+            "observed_gain_over_unweighted": 0.011122151343395448,
+            "permutation_gain_over_unweighted_mean": -0.12954580217426395,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.17084439432986068,
+              -0.09143919499352866
+            ]
+          },
+          "R20_rep1": {
+            "observed_utility": 0.3787696890433628,
+            "permutation_mean_utility": 0.2264299537541683,
+            "observed_minus_permutation_mean": 0.15233973528919448,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.11296222932634972,
+              0.19029698631761205
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.18847270272575073,
+              0.26580745971701303
+            ],
+            "observed_gain_over_unweighted": 0.04235967092978227,
+            "permutation_gain_over_unweighted_mean": -0.10998006435941218,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.14793731538782978,
+              -0.07060255839656747
+            ]
+          }
+        }
+      }
+    },
+    "effect_SE_5x5": {
+      "Euclidean": {
+        "overall": {
+          "observed_utility": 0.38227006468810804,
+          "permutation_mean_utility": 0.24704626825906512,
+          "observed_minus_permutation_mean": 0.13522379642904292,
+          "observed_minus_permutation_diagnostic_025_975": [
+            0.11361886958379368,
+            0.15636778110332336
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            0.22590228358478467,
+            0.26865119510431434
+          ],
+          "observed_gain_over_unweighted": 0.03352084946086786,
+          "permutation_gain_over_unweighted_mean": -0.10170294696817506,
+          "permutation_gain_over_unweighted_diagnostic_025_975": [
+            -0.1228469316424555,
+            -0.08009802012292581
+          ]
+        },
+        "by_program": {
+          "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+            "observed_utility": 0.4403646093212042,
+            "permutation_mean_utility": 0.2848275550144274,
+            "observed_minus_permutation_mean": 0.15553705430677672,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.09568157375585867,
+              0.22007985307687475
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.22028475624432944,
+              0.3446830355653455
+            ],
+            "observed_gain_over_unweighted": 0.005755979569751102,
+            "permutation_gain_over_unweighted_mean": -0.14978107473702562,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.21432387350712365,
+              -0.08992559418610757
+            ]
+          },
+          "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+            "observed_utility": 0.2652001211185156,
+            "permutation_mean_utility": 0.14408174025586248,
+            "observed_minus_permutation_mean": 0.12111838086265311,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.07574870895350719,
+              0.1663534170215002
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.0988467040970154,
+              0.1894514121650084
+            ],
+            "observed_gain_over_unweighted": 0.03355846532882442,
+            "permutation_gain_over_unweighted_mean": -0.08755991553382869,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.13279495169267577,
+              -0.042190243624682766
+            ]
+          },
+          "HALLMARK_IL2_STAT5_SIGNALING": {
+            "observed_utility": 0.44930118904888444,
+            "permutation_mean_utility": 0.29847161057036314,
+            "observed_minus_permutation_mean": 0.15082957847852133,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.09948710102459817,
+              0.2034957785301392
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.24580541051874524,
+              0.34981408802428626
+            ],
+            "observed_gain_over_unweighted": 0.03862764355515225,
+            "permutation_gain_over_unweighted_mean": -0.11220193492336906,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.16486813497498695,
+              -0.06085945746944594
+            ]
+          },
+          "HALLMARK_E2F_TARGETS": {
+            "observed_utility": 0.3489289600564613,
+            "permutation_mean_utility": 0.23222435716664494,
+            "observed_minus_permutation_mean": 0.11670460288981635,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.06974851288417937,
+              0.16008179646632953
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.18884716359013176,
+              0.2791804471722819
+            ],
+            "observed_gain_over_unweighted": 0.04466979837740037,
+            "permutation_gain_over_unweighted_mean": -0.07203480451241598,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.11541199808892917,
+              -0.025078714506778996
+            ]
+          },
+          "HALLMARK_G2M_CHECKPOINT": {
+            "observed_utility": 0.3440868758587159,
+            "permutation_mean_utility": 0.22300011260741792,
+            "observed_minus_permutation_mean": 0.121086763251298,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.07642890006812163,
+              0.1674404686328415
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.17664640722587438,
+              0.26765797579059425
+            ],
+            "observed_gain_over_unweighted": 0.05386056613072526,
+            "permutation_gain_over_unweighted_mean": -0.06722619712057272,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.11357990250211626,
+              -0.022568333937396372
+            ]
+          },
+          "HALLMARK_OXIDATIVE_PHOSPHORYLATION": {
+            "observed_utility": 0.44573863272486675,
+            "permutation_mean_utility": 0.2996722339396748,
+            "observed_minus_permutation_mean": 0.14606639878519195,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.08225217352875881,
+              0.2046370204838797
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.24110161224098703,
+              0.3634864591961079
+            ],
+            "observed_gain_over_unweighted": 0.02465264380335369,
+            "permutation_gain_over_unweighted_mean": -0.12141375498183826,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.17998437668052603,
+              -0.05759952972540514
+            ]
+          }
+        },
+        "by_input": {
+          "B3_original20": {
+            "observed_utility": 0.38211030530857776,
+            "permutation_mean_utility": 0.23548469984222342,
+            "observed_minus_permutation_mean": 0.14662560546635434,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.11315794867115907,
+              0.18220461220902107
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.1999056930995567,
+              0.2689523566374187
+            ],
+            "observed_gain_over_unweighted": 0.0471476558888167,
+            "permutation_gain_over_unweighted_mean": -0.09947794957753762,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.13505695632020437,
+              -0.06601029278234237
+            ]
+          },
+          "R20_rep0": {
+            "observed_utility": 0.40078669777675424,
+            "permutation_mean_utility": 0.2671203758212498,
+            "observed_minus_permutation_mean": 0.13366632195550449,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.09565108582556209,
+              0.172602861300341
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.22818383647641324,
+              0.30513561195119215
+            ],
+            "observed_gain_over_unweighted": 0.02591171962837535,
+            "permutation_gain_over_unweighted_mean": -0.1077546023271291,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.14669114167196565,
+              -0.06973936619718674
+            ]
+          },
+          "R20_rep1": {
+            "observed_utility": 0.3639131909789921,
+            "permutation_mean_utility": 0.23853372911372214,
+            "observed_minus_permutation_mean": 0.12537946186526996,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.08998882514156345,
+              0.1611591262580999
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.20275406472089222,
+              0.27392436583742863
+            ],
+            "observed_gain_over_unweighted": 0.027503172865411596,
+            "permutation_gain_over_unweighted_mean": -0.09787628899985837,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.1336559533926883,
+              -0.06248565227615186
+            ]
+          }
+        }
+      },
+      "PertRank": {
+        "overall": {
+          "observed_utility": 0.38451419504094164,
+          "permutation_mean_utility": 0.23996707235828485,
+          "observed_minus_permutation_mean": 0.14454712268265676,
+          "observed_minus_permutation_diagnostic_025_975": [
+            0.12180463641747512,
+            0.16688152722612387
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            0.21763266781481777,
+            0.2627095586234665
+          ],
+          "observed_gain_over_unweighted": 0.03576497981370147,
+          "permutation_gain_over_unweighted_mean": -0.10878214286895534,
+          "permutation_gain_over_unweighted_diagnostic_025_975": [
+            -0.1311165474124224,
+            -0.08603965660377366
+          ]
+        },
+        "by_program": {
+          "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+            "observed_utility": 0.490684360608562,
+            "permutation_mean_utility": 0.2942983884922437,
+            "observed_minus_permutation_mean": 0.19638597211631836,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.1344792276527165,
+              0.25976552417090526
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.23091883643765673,
+              0.3562051329558455
+            ],
+            "observed_gain_over_unweighted": 0.05607573085710893,
+            "permutation_gain_over_unweighted_mean": -0.1403102412592094,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.20368979331379636,
+              -0.07840349679560757
+            ]
+          },
+          "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+            "observed_utility": 0.26353321276589176,
+            "permutation_mean_utility": 0.14663737972656765,
+            "observed_minus_permutation_mean": 0.11689583303932413,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.07220719109196808,
+              0.16083356627130632
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.10269964649458542,
+              0.19132602167392368
+            ],
+            "observed_gain_over_unweighted": 0.03189155697620058,
+            "permutation_gain_over_unweighted_mean": -0.08500427606312354,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.12894200929510577,
+              -0.040315634115767496
+            ]
+          },
+          "HALLMARK_IL2_STAT5_SIGNALING": {
+            "observed_utility": 0.44450880466774284,
+            "permutation_mean_utility": 0.2991388260002232,
+            "observed_minus_permutation_mean": 0.14536997866751972,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.09517576318421742,
+              0.19811066509601682
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.24639813957172602,
+              0.3493330414835254
+            ],
+            "observed_gain_over_unweighted": 0.033835259174010646,
+            "permutation_gain_over_unweighted_mean": -0.11153471949350907,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.16427540592200618,
+              -0.061340504010206784
+            ]
+          },
+          "HALLMARK_E2F_TARGETS": {
+            "observed_utility": 0.3421365158976066,
+            "permutation_mean_utility": 0.21169075491775455,
+            "observed_minus_permutation_mean": 0.130445760979852,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.08608170238890021,
+              0.1778639624484997
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.16427255344910688,
+              0.25605481350870635
+            ],
+            "observed_gain_over_unweighted": 0.037877354218545656,
+            "permutation_gain_over_unweighted_mean": -0.09256840676130634,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.13998660822995404,
+              -0.04820434817035456
+            ]
+          },
+          "HALLMARK_G2M_CHECKPOINT": {
+            "observed_utility": 0.32691646180019807,
+            "permutation_mean_utility": 0.20155228876280212,
+            "observed_minus_permutation_mean": 0.12536417303739594,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.07681440200129958,
+              0.17365616793991753
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.15326029386028053,
+              0.2501020597988985
+            ],
+            "observed_gain_over_unweighted": 0.03669015207220744,
+            "permutation_gain_over_unweighted_mean": -0.0886740209651885,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.1369660158677101,
+              -0.04012424992909216
+            ]
+          },
+          "HALLMARK_OXIDATIVE_PHOSPHORYLATION": {
+            "observed_utility": 0.43930581450564876,
+            "permutation_mean_utility": 0.28648479625011786,
+            "observed_minus_permutation_mean": 0.15282101825553088,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.09519106121029859,
+              0.2138351064559728
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.22547070804967592,
+              0.3441147532953502
+            ],
+            "observed_gain_over_unweighted": 0.018219825584135707,
+            "permutation_gain_over_unweighted_mean": -0.13460119267139517,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.19561528087183713,
+              -0.0769712356261629
+            ]
+          }
+        },
+        "by_input": {
+          "B3_original20": {
+            "observed_utility": 0.3887757665876879,
+            "permutation_mean_utility": 0.23107426911592963,
+            "observed_minus_permutation_mean": 0.15770149747175827,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.1219947662870168,
+              0.19435800812037074
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.19441775846731715,
+              0.2667810003006711
+            ],
+            "observed_gain_over_unweighted": 0.05381311716792686,
+            "permutation_gain_over_unweighted_mean": -0.1038883803038314,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.1405448909524439,
+              -0.06818164911908996
+            ]
+          },
+          "R20_rep0": {
+            "observed_utility": 0.38599712949177434,
+            "permutation_mean_utility": 0.26105678475355415,
+            "observed_minus_permutation_mean": 0.12494034473822022,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.08706502063812856,
+              0.16314762042424405
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.22284950906753026,
+              0.2989321088536458
+            ],
+            "observed_gain_over_unweighted": 0.011122151343395448,
+            "permutation_gain_over_unweighted_mean": -0.11381819339482477,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.15202546908084863,
+              -0.07594286929473312
+            ]
+          },
+          "R20_rep1": {
+            "observed_utility": 0.3787696890433628,
+            "permutation_mean_utility": 0.22777016320537075,
+            "observed_minus_permutation_mean": 0.15099952583799206,
+            "observed_minus_permutation_diagnostic_025_975": [
+              0.11226818648778887,
+              0.18716002003780663
+            ],
+            "permutation_utility_diagnostic_025_975": [
+              0.19160966900555615,
+              0.2665015025555739
+            ],
+            "observed_gain_over_unweighted": 0.04235967092978227,
+            "permutation_gain_over_unweighted_mean": -0.10863985490820977,
+            "permutation_gain_over_unweighted_diagnostic_025_975": [
+              -0.14480034910802436,
+              -0.0699085155580066
+            ]
+          }
+        }
+      }
+    }
+  },
+  "paired_geometry": {
+    "global": {
+      "definition": "Both observed_utility and permutation utility fields denote paired PertRank-minus-Euclidean geometry increments; they are not differences from unweighted ranking.",
+      "overall": {
+        "observed_utility": 0.002244130352833653,
+        "permutation_mean_utility": 0.006369961929334579,
+        "observed_minus_permutation_mean": -0.004125831576500927,
+        "observed_minus_permutation_diagnostic_025_975": [
+          -0.02655549863474519,
+          0.0184271549478213
+        ],
+        "permutation_utility_diagnostic_025_975": [
+          -0.016183024594987657,
+          0.02879962898757884
+        ]
+      },
+      "by_program": {
+        "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+          "observed_utility": 0.05031975128735785,
+          "permutation_mean_utility": 0.011021268043203879,
+          "observed_minus_permutation_mean": 0.03929848324415397,
+          "observed_minus_permutation_diagnostic_025_975": [
+            -0.020839847278157707,
+            0.10244865298043433
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            -0.05212890169307652,
+            0.07115959856551554
+          ]
+        },
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+          "observed_utility": -0.00166690835262386,
+          "permutation_mean_utility": 0.004112337446423215,
+          "observed_minus_permutation_mean": -0.005779245799047075,
+          "observed_minus_permutation_diagnostic_025_975": [
+            -0.05268753950923409,
+            0.042653388637337475
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            -0.044320296989961344,
+            0.05102063115661022
+          ]
+        },
+        "HALLMARK_IL2_STAT5_SIGNALING": {
+          "observed_utility": -0.004792384381141546,
+          "permutation_mean_utility": 0.004295346208506918,
+          "observed_minus_permutation_mean": -0.009087730589648462,
+          "observed_minus_permutation_diagnostic_025_975": [
+            -0.06424568534204109,
+            0.04223213070490467
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            -0.04702451508604622,
+            0.05945330096089954
+          ]
+        },
+        "HALLMARK_E2F_TARGETS": {
+          "observed_utility": -0.006792444158854753,
+          "permutation_mean_utility": 0.005596336508107436,
+          "observed_minus_permutation_mean": -0.012388780666962187,
+          "observed_minus_permutation_diagnostic_025_975": [
+            -0.06363886751645356,
+            0.036617534015949624
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            -0.043409978174804374,
+            0.05684642335759879
+          ]
+        },
+        "HALLMARK_G2M_CHECKPOINT": {
+          "observed_utility": -0.017170414058517807,
+          "permutation_mean_utility": 0.003958956341636372,
+          "observed_minus_permutation_mean": -0.02112937040015418,
+          "observed_minus_permutation_diagnostic_025_975": [
+            -0.06689119395572872,
+            0.0284120155630066
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            -0.045582429621524416,
+            0.04972077989721091
+          ]
+        },
+        "HALLMARK_OXIDATIVE_PHOSPHORYLATION": {
+          "observed_utility": -0.006432818219217966,
+          "permutation_mean_utility": 0.009235527028129657,
+          "observed_minus_permutation_mean": -0.015668345247347622,
+          "observed_minus_permutation_diagnostic_025_975": [
+            -0.07993487514344284,
+            0.04893726250931841
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            -0.05537008072853641,
+            0.07350205692422486
+          ]
+        }
+      },
+      "by_input": {
+        "B3_original20": {
+          "observed_utility": 0.006665461279110145,
+          "permutation_mean_utility": 0.004532955988077758,
+          "observed_minus_permutation_mean": 0.002132505291032387,
+          "observed_minus_permutation_diagnostic_025_975": [
+            -0.03680155692516315,
+            0.0434618775362916
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            -0.03679641625718146,
+            0.04346701820427328
+          ]
+        },
+        "R20_rep0": {
+          "observed_utility": -0.014789568284979867,
+          "permutation_mean_utility": 0.01060554915197712,
+          "observed_minus_permutation_mean": -0.025395117436956986,
+          "observed_minus_permutation_diagnostic_025_975": [
+            -0.06634077369754075,
+            0.012741740367461377
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            -0.02753130865244125,
+            0.051551205412560884
+          ]
+        },
+        "R20_rep1": {
+          "observed_utility": 0.01485649806437068,
+          "permutation_mean_utility": 0.0039713806479488595,
+          "observed_minus_permutation_mean": 0.01088511741642182,
+          "observed_minus_permutation_diagnostic_025_975": [
+            -0.024266390275381546,
+            0.048533911019786984
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            -0.03367741295541631,
+            0.03912288833975222
+          ]
+        }
+      }
+    },
+    "effect_SE_5x5": {
+      "definition": "Both observed_utility and permutation utility fields denote paired PertRank-minus-Euclidean geometry increments; they are not differences from unweighted ranking.",
+      "overall": {
+        "observed_utility": 0.002244130352833653,
+        "permutation_mean_utility": -0.007079195900780281,
+        "observed_minus_permutation_mean": 0.009323326253613934,
+        "observed_minus_permutation_diagnostic_025_975": [
+          -0.011760270606255336,
+          0.03031342456706229
+        ],
+        "permutation_utility_diagnostic_025_975": [
+          -0.028069294214228643,
+          0.01400440095908898
+        ]
+      },
+      "by_program": {
+        "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+          "observed_utility": 0.05031975128735785,
+          "permutation_mean_utility": 0.00947083347781621,
+          "observed_minus_permutation_mean": 0.04084891780954164,
+          "observed_minus_permutation_diagnostic_025_975": [
+            -0.018131576492552575,
+            0.10419596181094737
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            -0.053876210523589534,
+            0.06845132777991039
+          ]
+        },
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+          "observed_utility": -0.00166690835262386,
+          "permutation_mean_utility": 0.002555639470705143,
+          "observed_minus_permutation_mean": -0.004222547823329004,
+          "observed_minus_permutation_diagnostic_025_975": [
+            -0.04888432649800145,
+            0.038683879095770396
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            -0.040350787448394265,
+            0.04721741814537759
+          ]
+        },
+        "HALLMARK_IL2_STAT5_SIGNALING": {
+          "observed_utility": -0.004792384381141546,
+          "permutation_mean_utility": 0.0006672154298600149,
+          "observed_minus_permutation_mean": -0.00545959981100156,
+          "observed_minus_permutation_diagnostic_025_975": [
+            -0.06173897832088117,
+            0.04832124679548842
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            -0.05311363117662998,
+            0.05694659393973962
+          ]
+        },
+        "HALLMARK_E2F_TARGETS": {
+          "observed_utility": -0.006792444158854753,
+          "permutation_mean_utility": -0.020533602248890375,
+          "observed_minus_permutation_mean": 0.013741158090035626,
+          "observed_minus_permutation_diagnostic_025_975": [
+            -0.02785433652444284,
+            0.05817847646014245
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            -0.0649709206189972,
+            0.021061892365588083
+          ]
+        },
+        "HALLMARK_G2M_CHECKPOINT": {
+          "observed_utility": -0.017170414058517807,
+          "permutation_mean_utility": -0.021447823844615767,
+          "observed_minus_permutation_mean": 0.004277409786097963,
+          "observed_minus_permutation_diagnostic_025_975": [
+            -0.043659443112017526,
+            0.054228136190785196
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            -0.071398550249303,
+            0.026489029053499716
+          ]
+        },
+        "HALLMARK_OXIDATIVE_PHOSPHORYLATION": {
+          "observed_utility": -0.006432818219217966,
+          "permutation_mean_utility": -0.013187437689556904,
+          "observed_minus_permutation_mean": 0.006754619470338938,
+          "observed_minus_permutation_diagnostic_025_975": [
+            -0.05643743693621044,
+            0.07049825889526916
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            -0.07693107711448713,
+            0.05000461871699248
+          ]
+        }
+      },
+      "by_input": {
+        "B3_original20": {
+          "observed_utility": 0.006665461279110145,
+          "permutation_mean_utility": -0.004410430726293785,
+          "observed_minus_permutation_mean": 0.01107589200540393,
+          "observed_minus_permutation_diagnostic_025_975": [
+            -0.022322400679293485,
+            0.04788052893844147
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            -0.04121506765933133,
+            0.028987861958403627
+          ]
+        },
+        "R20_rep0": {
+          "observed_utility": -0.014789568284979867,
+          "permutation_mean_utility": -0.006063591067695658,
+          "observed_minus_permutation_mean": -0.00872597721728421,
+          "observed_minus_permutation_diagnostic_025_975": [
+            -0.04767621749946482,
+            0.028607553925274375
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            -0.04339712221025425,
+            0.03288664921448494
+          ]
+        },
+        "R20_rep1": {
+          "observed_utility": 0.01485649806437068,
+          "permutation_mean_utility": -0.010763565908351399,
+          "observed_minus_permutation_mean": 0.02562006397272208,
+          "observed_minus_permutation_diagnostic_025_975": [
+            -0.0098441396196941,
+            0.060597436586514286
+          ],
+          "permutation_utility_diagnostic_025_975": [
+            -0.045740938522143615,
+            0.024700637684064775
+          ]
+        }
+      }
+    }
+  },
+  "input_hashes": {
+    "assets/program_inputs.npz": "149d8d9e73faaaf653eb6c935a318ba16d1bc9f85ee3233700b195c4fe281f5f",
+    "assets/program_reference.npz": "ffa122986d27f76a767e1ae169a39878ba13e5689e0ca2263c2d2a33c6d18a37",
+    "results/primary/scores.npz": "5debb3d58ecaa9bb6634d6b8ca76f681e71d22c313574c72f36674efe6c465c3"
+  }
+}

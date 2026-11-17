@@ -130,13 +130,13 @@ def offline_environment(output):
     return env
 
 
-def run_module(module, output, interpreter, software_python, env, timeout_override):
+def run_module(module, output, interpreter, software_python, env, timeout_override, execution_root):
     name = module["name"]
     target = output / name
     log_path = output / "logs" / (name + ".log")
     substitutions = {"output": str(target), "software_python": software_python}
-    working_directory = ROOT / module["working_directory"]
-    script = ROOT / module["script"]
+    working_directory = execution_root / module["working_directory"]
+    script = execution_root / module["script"]
     if module.get("copy_to_output", False):
         script = target / script.relative_to(working_directory)
         working_directory = target
@@ -151,7 +151,7 @@ def run_module(module, output, interpreter, software_python, env, timeout_overri
     process = None
     try:
         if module.get("copy_to_output", False):
-            shutil.copytree(ROOT / module["working_directory"], target)
+            shutil.copytree(execution_root / module["working_directory"], target)
             # The runtime receipt must come from this execution, not the archive.
             (target / module["report"]).unlink(missing_ok=True)
             result["execution_workspace"] = "Copied module payload; original module remains unchanged."
@@ -241,20 +241,27 @@ def main():
         output.mkdir(parents=True)
         (output / "logs").mkdir()
         env = offline_environment(output)
+        execution_root = output / '_source'
+        with (output/'logs/storage_restoration.log').open('w') as log:
+            subprocess.run([interpreter, '-B', str(ROOT/'storage/materialize.py'),
+                            '--source-root', str(ROOT), '--output-root', str(execution_root)],
+                           stdout=log, stderr=subprocess.STDOUT, env=env, check=True)
+        storage_report = json.loads((execution_root/'STORAGE_RESTORATION.json').read_text())
+        env['PERTRANK_FIXED_TASKS'] = str(execution_root/'modules/fixed_tasks')
         report = {"package_version": registry["package_version"], "status": "RUNNING",
                   "scientific_scope": registry["scientific_scope"], "manifest": integrity,
                   "selected_modules": selected, "modules": [],
                   "started_utc": dt.datetime.now(dt.timezone.utc).isoformat(),
                   "dispatcher_python": platform.python_version(), "numeric_python": interpreter,
                   "offline_guard": "Python socket/DNS blocking inherited by child Python processes; registered entry points perform no download or new model training.",
-                  "numeric_library_threads": 1}
+                  "numeric_library_threads": 1, "lossless_storage": storage_report}
         started = time.monotonic()
         write_json(output / REPORT, report)
         hard_failure = False
         partial = False
         for name in selected:
             print("Running " + name + " ...", flush=True)
-            result = run_module(by_name[name], output, interpreter, software_python, env, args.timeout_seconds)
+            result = run_module(by_name[name], output, interpreter, software_python, env, args.timeout_seconds, execution_root)
             report["modules"].append(result)
             print(name + ": " + result["outcome"] + " (%.2f s)" % result["wall_seconds"], flush=True)
             is_partial = "PARTIAL_COVERAGE" in result["outcome"]
@@ -274,7 +281,7 @@ def main():
         write_json(output / REPORT, report)
         print(str(output / REPORT), flush=True)
         return report["exit_code"]
-    except (ValueError, OSError, KeyError) as error:
+    except (ValueError, OSError, KeyError, subprocess.SubprocessError) as error:
         print("Reproduction setup/integrity failure: " + str(error), file=sys.stderr)
         return 1
 

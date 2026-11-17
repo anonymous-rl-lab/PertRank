@@ -1,0 +1,31 @@
+{
+  "enter": {
+    "total_membership_mass": 120.0,
+    "mean_mass_per_list": 3.3333333333333335,
+    "distinct_targets": 93,
+    "means": {
+      "directed_raw_program_effect": 0.6010786672996173,
+      "directed_ash_program_effect": 0.3021527110396683,
+      "program_SE": 0.2060410106849291,
+      "ash_posterior_over_raw": 0.5022961577618549,
+      "Euclidean_weight": 0.3759047396791486,
+      "PertRank_weight": 0.22546261513062946,
+      "directed_reference_effect": 0.3112916091870899
+    }
+  },
+  "leave": {
+    "total_membership_mass": 120.0,
+    "mean_mass_per_list": 3.3333333333333335,
+    "distinct_targets": 86,
+    "means": {
+      "directed_raw_program_effect": 0.5494458896355298,
+      "directed_ash_program_effect": 0.26022411063482653,
+      "program_SE": 0.21226731522293238,
+      "ash_posterior_over_raw": 0.47009697435668957,
+      "Euclidean_weight": 0.3781378961310444,
+      "PertRank_weight": 0.2503768507517773,
+      "directed_reference_effect": 0.2739964337837582
+    }
+  },
+  "interpretation": "enter/leave here denote positive/negative FOUR-LIST contrast coefficients; not entrants/exits of one deployed list."
+}

@@ -1,0 +1,7 @@
+Readout / weight,D3 utility,D3 P@10,sci-Plex3 utility,sci-Plex3 P@10
+Original / Unweighted,0.348749,0.244444,0.131915,0.205556
+Original / Euclidean,0.382270,0.294444,0.158068,0.268056
+Original / PertRank,0.384514,0.286111,0.160168,0.263889
+ASH / Unweighted,0.318244,0.205556,0.133213,0.206944
+ASH / Euclidean,0.366939,0.261111,0.161286,0.265278
+ASH / PertRank,0.381615,0.275000,0.155059,0.256944

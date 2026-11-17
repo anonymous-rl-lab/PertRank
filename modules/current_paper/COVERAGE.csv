@@ -6,4 +6,4 @@ SM11 / SN23 guide diagnostics,guide/diagnose.py;guide/audit/audit_mechanism.py,R
 SN23 fixed-list contribution,guide/account_fixed_lists.py,Lockedmemberships to reference supported gains/losses; no rerankingselection
 SM12 / SN24 Q,../pertrank_q/reproduce.py,Checkpoint inference and originalsubpoolstatisticalreplay; currentmoduleonlyrendersQsummary
 SM5 list-accounting identity,four_arm/score_four_arm.py;guide/account_fixed_lists.py,Existing exact mass balance accounting; analyticidentity does notrequireanewfit
-Submission numerical tables,display/source_data/manuscript_tables/,"111CSVexports (2main+109SI); source-table access, not111raw-data reruns"
+Manuscript tables and figure sources,display/source_data/;display/figure_code/,Current numerical tables and rendering code; source-table rendering is distinct from experimental recomputation

@@ -1,0 +1,20 @@
+{
+  "role": "Scientific source-archive identities. The retained-statistic reproduction inputs are included in this repository; native model refitting and retained-output recomputation have separate scopes.",
+  "archives": [
+    {
+      "path_in_manuscript_package": "reproducibility/v27/core/PertRank_Program_Mechanism_20261116.zip",
+      "bytes": 8967041,
+      "sha256": "d6e967224a988cfba40e904cec67d767ca599b834c3a3f5eccce923238a664fd"
+    },
+    {
+      "path_in_manuscript_package": "reproducibility/v27/core/PertRank_Program_External_Validation_20261117.zip",
+      "bytes": 9708579,
+      "sha256": "67708f58060afaded8d3617b635902881ff127fe31fa85f8ad7bce0c6432812b"
+    },
+    {
+      "path_in_manuscript_package": "reproducibility/v27/exploratory/PertRank_ASH_Geometry_Debug_20261117.zip",
+      "bytes": 9225710,
+      "sha256": "c20405633b78fe209426fe35f11c7ec2011e006231272d5abb8d1daa8d3e4e27"
+    }
+  ]
+}

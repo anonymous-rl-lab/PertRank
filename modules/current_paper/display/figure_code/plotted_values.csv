@@ -1,0 +1,36 @@
+panel,item,metric,estimate,lower,upper,interval_level,uncertainty_kind,source
+2b,rvalues / equal-state D4,P25,0.29616403636290145,,,,point_estimate,source_data/rvalues/primary_contrasts.csv
+3a,D3 / rvalues,P10,0.2467005015019808,,,,point_estimate,source_data/rvalues/primary_contrasts.csv
+3b,D3 / PertRank minus rvalues,delta_P10,0.009954788600408215,0.0030904834655433367,0.01705215179548563,0.95,conditional_query_block_interval,source_data/rvalues/primary_contrasts.csv
+3a,D1 / rvalues,P10,0.22031122856382374,,,,point_estimate,source_data/rvalues/primary_contrasts.csv
+3b,D1 / PertRank minus rvalues,delta_P10,0.031937906384273185,0.025342218331516408,0.038005773912493254,0.95,conditional_query_block_interval,source_data/rvalues/primary_contrasts.csv
+3a,D2 / rvalues,P10,0.23051801352306311,,,,point_estimate,source_data/rvalues/primary_contrasts.csv
+3b,D2 / PertRank minus rvalues,delta_P10,0.03678302453922061,0.029208720522923462,0.046214969764137095,0.95,conditional_query_block_interval,source_data/rvalues/primary_contrasts.csv
+5b,raw_one,utility,0.13191516544090476,,,,point_estimate,source_data/programs/external_summary.json
+5b,raw_w0,utility,0.15806808040423384,,,,point_estimate,source_data/programs/external_summary.json
+5b,raw_wM,utility,0.16016765038505892,,,,point_estimate,source_data/programs/external_summary.json
+5b,ash_one,utility,0.13321270391918005,,,,point_estimate,source_data/programs/external_summary.json
+5b,ash_w0,utility,0.16128595523492226,,,,point_estimate,source_data/programs/external_summary.json
+5b,ash_wM,utility,0.1550588048028809,,,,point_estimate,source_data/programs/external_summary.json
+5c,application / overall,delta_utility,0.026954946465878864,0.012721331007244437,0.04110975604894737,0.975,conditional_reference_interval,source_data/programs/external_summary.json
+5c,application / HALLMARK_INTERFERON_GAMMA_RESPONSE,delta_utility,0.03242681854346282,0.002578891776695158,0.06213220974196953,0.95,conditional_reference_interval,source_data/programs/external_summary.json
+5c,application / HALLMARK_TNFA_SIGNALING_VIA_NFKB,delta_utility,0.05808832952478019,0.02981533025308606,0.0853812979157228,0.95,conditional_reference_interval,source_data/programs/external_summary.json
+5c,application / HALLMARK_IL2_STAT5_SIGNALING,delta_utility,0.010384741251948389,-0.018747605447890964,0.03991131540758919,0.95,conditional_reference_interval,source_data/programs/external_summary.json
+5c,application / HALLMARK_E2F_TARGETS,delta_utility,0.007577978970828954,-0.018623317838778044,0.03363410394320348,0.95,conditional_reference_interval,source_data/programs/external_summary.json
+5c,application / HALLMARK_G2M_CHECKPOINT,delta_utility,0.02919883410105854,0.005652523972400477,0.05278471154433693,0.95,conditional_reference_interval,source_data/programs/external_summary.json
+5c,application / HALLMARK_OXIDATIVE_PHOSPHORYLATION,delta_utility,0.02405297640319431,-0.001398573281921515,0.04919581803734749,0.95,conditional_reference_interval,source_data/programs/external_summary.json
+5c,application / A549,delta_utility,0.0014420372833164102,-0.018990175497952434,0.021399823653862744,0.95,conditional_reference_interval,source_data/programs/external_summary.json
+5c,application / K562,delta_utility,0.03913576988182813,0.016357965810625798,0.06311054472852447,0.95,conditional_reference_interval,source_data/programs/external_summary.json
+5c,application / MCF7,delta_utility,0.040287032232492054,0.02183032753222498,0.05934877156101543,0.95,conditional_reference_interval,source_data/programs/external_summary.json
+5d,D3 / original_geometry,delta_utility,0.00224413035283368,-0.010581820836780583,0.015812455898664212,0.95,conditional_reference_interval,source_data/programs/d3_mechanism_summary.json
+5d,D3 / ASH_geometry,delta_utility,0.014675855487277607,0.0030608718652197545,0.026946925728127326,0.95,conditional_reference_interval,source_data/programs/d3_mechanism_summary.json
+5d,sci-Plex3 / geometry_on_raw_readout,delta_utility,0.0020995699808250864,-0.005027766589940733,0.009666493680355496,0.95,conditional_reference_interval,source_data/programs/external_summary.json
+5d,sci-Plex3 / geometry_on_ASH_readout,delta_utility,-0.0062271504320413435,-0.014139132941260343,0.0017847348687195128,0.975,conditional_reference_interval,source_data/programs/external_summary.json
+5e,application_raw_PertRank_minus_native_ASH,replaced_positions,4.875,,,,point_estimate,source_data/programs/external_summary.json
+5e,application_raw_PertRank_minus_native_ASH,entering_reference_response,0.07791337808534345,,,,point_estimate,source_data/programs/external_summary.json
+5e,application_raw_PertRank_minus_native_ASH,leaving_reference_response,0.022621180206617568,,,,point_estimate,source_data/programs/external_summary.json
+5e,application_raw_PertRank_minus_native_ASH,delta_utility,0.02695494646587886,,,,point_estimate,source_data/programs/external_summary.json
+5e,geometry_on_ASH_readout,replaced_positions,1.8194444444444444,,,,point_estimate,source_data/programs/external_summary.json
+5e,geometry_on_ASH_readout,entering_reference_response,0.0037786213991977606,,,,point_estimate,source_data/programs/external_summary.json
+5e,geometry_on_ASH_readout,leaving_reference_response,0.038004181025684515,,,,point_estimate,source_data/programs/external_summary.json
+5e,geometry_on_ASH_readout,delta_utility,-0.0062271504320413375,,,,point_estimate,source_data/programs/external_summary.json

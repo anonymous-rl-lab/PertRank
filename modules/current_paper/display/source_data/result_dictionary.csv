@@ -1,0 +1,8 @@
+module,field,meaning,unit,uncertainty_field,sampling_or_weighting,analysis_identity
+rvalues,precision,P@K,fraction,conditional_query_block_95_interval,paired query blocks after input/direction averaging,fixed post hoc comparator
+programs/external,utility,U,input-control program SD,conditional_interval,reference target/vehicle cells within wells; shared plate centers,evaluation-before-reference internal freeze
+programs/external,P10,P@10,fraction,reference_resampling_range,reference target/vehicle cells and reference Top10 reranking,"stability description, not calibrated CI"
+programs/d3,delta_utility,difference in U,input-control program SD,stated conditional interval,original retained reference-cell sampling design,development analysis
+programs/exploratory,utility,difference in U,input-control program SD,stated exploratory 95% conditional interval,fixed inputs/native outputs with reference-cell resampling,post hoc development; no multiplicity adjustment
+programs/replacement,mean_replacement_mass,mean number of replaced slots,candidates per K=10 list,none,task-weighted sum of positive membership differences,exact accounting
+programs/replacement,mass_weighted_entering_reference_mean,entering response,input-control program SD,none,weights equal task weight times fractional entering mass,exact accounting

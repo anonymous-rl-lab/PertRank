@@ -1,5 +1,16 @@
 # Compact corrected and external evidence
 
+## Run from the package root
+
+The distributed inputs are stored losslessly in the shared `storage/` directory. Use the root dispatcher to restore the exact input files automatically:
+
+```bash
+python reproduce.py --only corrected_intermediates --output-dir ../pertrank-corrected_intermediates-reproduced
+```
+
+The lower-level commands below apply to the restored module under `OUTPUT/_source/modules/`, where the original files and checksums are available. Do not run those commands directly on the compact module directory.
+
+
 ```bash
 python reproduce.py --output-dir NEW_DIRECTORY --fixed-root ../fixed_tasks
 ```

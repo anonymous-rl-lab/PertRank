@@ -829,13 +829,6 @@
       "kind": "project_adapter_or_record"
     },
     {
-      "path": "a19r/records/SELECTED_RUNS_before_D2_queue_recovery.json",
-      "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/records/SELECTED_RUNS_before_D2_queue_recovery.json",
-      "sha256": "6674fd864c27fab79d36bbad7931a6bb0ecd5a2e40af2cd75ab3f4c969ca5fe4",
-      "bytes": 1313,
-      "kind": "project_adapter_or_record"
-    },
-    {
       "path": "a19r/records/EXECUTION_SPEC_PREINPUT.json",
       "source_archive_path": "package_v130/extracted/PertRank_A19R_Native_Baselines_20261014/records/EXECUTION_SPEC_PREINPUT.json",
       "sha256": "fd2fed690912faf855aede41c72a88fca30f751991df32a47b6d51d05f327e4d",
@@ -1286,13 +1279,6 @@
     {
       "path": "a19r/configs/D2_Rest.json",
       "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/upgrade_experiments_20261014/external_benchmarks/configs/D2_Rest.json",
-      "sha256": "57801fcad43e42914f91d7e33bbf22425313f3fda3d76b42fc9288c2e5be4460",
-      "bytes": 1269,
-      "kind": "project_adapter_or_record"
-    },
-    {
-      "path": "a19r/configs/D2_Rest_final_before_queue_recovery.json",
-      "source_archive_path": "package_v130/extracted/PertRank_External_Benchmark_Code_20261012/upgrade_experiments_20261014/external_benchmarks/configs/D2_Rest_final_before_queue_recovery.json",
       "sha256": "57801fcad43e42914f91d7e33bbf22425313f3fda3d76b42fc9288c2e5be4460",
       "bytes": 1269,
       "kind": "project_adapter_or_record"

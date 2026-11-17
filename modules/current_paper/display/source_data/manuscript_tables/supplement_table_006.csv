@@ -1,0 +1,8 @@
+Method or contrast,P@25 or difference,Conditional 95% interval
+Unweighted,0.277312,—
+Euclidean weighting,0.275755,—
+PertRank,0.311369,—
+Official Mixscale native `beta_weight` adaptation,0.061046,—
+PertRank − Mixscale adaptation,+0.250323,"[0.219627, 0.277940]"
+Euclidean − Mixscale adaptation,+0.214710,"[0.193897, 0.235032]"
+Mixscale adaptation − Unweighted,−0.216267,"[−0.242888, −0.189634]"

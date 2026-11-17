@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "export semantics and preserved numerical values; no statistical refitting",
+  "checks": [
+    {
+      "check": "external_summary.json: P10 interval labels",
+      "passed": true
+    },
+    {
+      "check": "exploratory_external_summary.json: P10 interval labels",
+      "passed": true
+    },
+    {
+      "check": "all external replacement identities",
+      "passed": true,
+      "comparisons": 15,
+      "maximum_absolute_error": 6.938893903907228e-18
+    },
+    {
+      "check": "five rvalues differences and K conversion",
+      "passed": true
+    }
+  ],
+  "normalized_files": 20,
+  "schema_numeric_checks": 28137
+}

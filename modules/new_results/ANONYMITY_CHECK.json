@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "scope": "Known project identity patterns in current integrated code and materialized compact-program files, including native archive text. Third-party authors and license notices retained.",
+  "counts": {
+    "text_files": 117,
+    "archives": 0
+  },
+  "matches": [],
+  "errors": []
+}

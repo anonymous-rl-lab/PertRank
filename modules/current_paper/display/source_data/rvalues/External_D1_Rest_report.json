@@ -1,0 +1,81 @@
+{
+  "task": "External_D1_Rest",
+  "K": 10,
+  "input_reps": 1,
+  "queries": 289,
+  "candidates": 59,
+  "means": {
+    "raw": 0.221165603655132,
+    "Euclidean": 0.2423875432525952,
+    "PertRank": 0.2522491349480969,
+    "FR": 0.22266435986159172,
+    "FR_x_Euclidean": 0.23408304498269897,
+    "FR_x_PertRank": 0.2493079584775087,
+    "ASH": 0.2204152249134948,
+    "rvalues": 0.22031122856382374
+  },
+  "contrasts": {
+    "raw_minus_rvalues": {
+      "precision_difference": 0.0008543750913082571,
+      "conditional_query_block_95_interval": [
+        -0.0028714145831043496,
+        0.004575685765810392
+      ],
+      "expected_reference_members_difference": 0.00854375091308257
+    },
+    "Euclidean_minus_rvalues": {
+      "precision_difference": 0.02207631468877147,
+      "conditional_query_block_95_interval": [
+        0.015230397085184382,
+        0.029698153548200837
+      ],
+      "expected_reference_members_difference": 0.2207631468877147
+    },
+    "PertRank_minus_rvalues": {
+      "precision_difference": 0.031937906384273185,
+      "conditional_query_block_95_interval": [
+        0.025342218331516408,
+        0.038005773912493254
+      ],
+      "expected_reference_members_difference": 0.31937906384273185
+    },
+    "FR_minus_rvalues": {
+      "precision_difference": 0.0023531312977679852,
+      "conditional_query_block_95_interval": [
+        -0.0055900879992879324,
+        0.01149505212150277
+      ],
+      "expected_reference_members_difference": 0.023531312977679852
+    },
+    "FR_x_Euclidean_minus_rvalues": {
+      "precision_difference": 0.013771816418875232,
+      "conditional_query_block_95_interval": [
+        0.005588311829773644,
+        0.024806074585083448
+      ],
+      "expected_reference_members_difference": 0.13771816418875232
+    },
+    "FR_x_PertRank_minus_rvalues": {
+      "precision_difference": 0.02899672991368496,
+      "conditional_query_block_95_interval": [
+        0.019999353815198843,
+        0.03955915228686888
+      ],
+      "expected_reference_members_difference": 0.2899672991368496
+    },
+    "ASH_minus_rvalues": {
+      "precision_difference": 0.00010399634967106497,
+      "conditional_query_block_95_interval": [
+        -0.0034026165011458638,
+        0.003851467293089003
+      ],
+      "expected_reference_members_difference": 0.0010399634967106497
+    }
+  },
+  "native_fit_status_counts": {
+    "native_success": 578,
+    "boundary_degenerate": 0
+  },
+  "analysis_identity": "FIXED_POST_HOC_COMPARATOR_ADDITION",
+  "interval_scope": "Conditional paired query-block bootstrap, 2000 draws; directions and input repetitions averaged within query before inference."
+}

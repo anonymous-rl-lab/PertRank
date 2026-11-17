@@ -1,0 +1,214 @@
+{
+  "scope": "Reaggregation of the original target tables; original model predictions and candidate lists are unchanged.",
+  "sources": {
+    "D3": {
+      "all_targets": 1200,
+      "active_targets": 1194,
+      "spearman_d_vs_w0y": -0.8041008977696763,
+      "own_addition_support_by_bin": [
+        {
+          "n": 239,
+          "additions": 574.0,
+          "supported_additions": 72.07012622720897,
+          "support_rate": 0.12555771119722817
+        },
+        {
+          "n": 239,
+          "additions": 889.0,
+          "supported_additions": 172.9672583063307,
+          "support_rate": 0.1945638451139828
+        },
+        {
+          "n": 239,
+          "additions": 1431.0,
+          "supported_additions": 279.5597347953589,
+          "support_rate": 0.19535970286188603
+        },
+        {
+          "n": 239,
+          "additions": 1297.0,
+          "supported_additions": 316.11877345784586,
+          "support_rate": 0.24373074283565602
+        },
+        {
+          "n": 238,
+          "additions": 711.0,
+          "supported_additions": 211.22164137872412,
+          "support_rate": 0.29707685144686935
+        }
+      ],
+      "lowest_bin_removal_share": {
+        "own": 0.9771521827825378,
+        "D1": 0.7836147592245152,
+        "D2": 0.9482027238222818
+      },
+      "a10": {
+        "bin 1": {
+          "r_C_over_A0": 0.5633509947619478,
+          "A1_over_A0": 0.3721890352066932,
+          "r_C_over_A0_ci95": [
+            0.49906276115814086,
+            0.6237597767357174
+          ],
+          "A1_over_A0_ci95": [
+            0.30164981127981827,
+            0.4418760576533277
+          ]
+        },
+        "all targets": {
+          "r_C_over_A0": 1.013141652881939,
+          "A1_over_A0": 0.9823823368781068,
+          "r_C_over_A0_ci95": [
+            0.9202756524189318,
+            1.125719136281717
+          ],
+          "A1_over_A0_ci95": [
+            0.8644786438923338,
+            1.1424289321412686
+          ]
+        }
+      },
+      "direction1_share_of_lowest_bin_reduction": 0.9026042627776744
+    },
+    "D1": {
+      "all_targets": 1127,
+      "active_targets": 1072,
+      "spearman_d_vs_w0y": -0.7633946764911113,
+      "own_addition_support_by_bin": [
+        {
+          "n": 215,
+          "additions": 373.0,
+          "supported_additions": 50.05952380952381,
+          "support_rate": 0.13420783863143113
+        },
+        {
+          "n": 215,
+          "additions": 844.0,
+          "supported_additions": 136.11904761904762,
+          "support_rate": 0.16127849243962988
+        },
+        {
+          "n": 214,
+          "additions": 910.0,
+          "supported_additions": 173.0,
+          "support_rate": 0.1901098901098901
+        },
+        {
+          "n": 214,
+          "additions": 1044.0,
+          "supported_additions": 236.0595238095238,
+          "support_rate": 0.22611065498996533
+        },
+        {
+          "n": 214,
+          "additions": 782.0,
+          "supported_additions": 199.0,
+          "support_rate": 0.2544757033248082
+        }
+      ],
+      "lowest_bin_removal_share": {
+        "own": 0.9795092334935492,
+        "D3": 0.5432258064516129,
+        "D2": 0.9433861014220553
+      },
+      "a10": {
+        "bin 1": {
+          "r_C_over_A0": 0.43368457497537427,
+          "A1_over_A0": 0.29913021119853306,
+          "r_C_over_A0_ci95": [
+            0.3579995514030515,
+            0.504602022020868
+          ],
+          "A1_over_A0_ci95": [
+            0.23115471638125076,
+            0.36962273379260774
+          ]
+        },
+        "all targets": {
+          "r_C_over_A0": 0.9929039797093513,
+          "A1_over_A0": 1.0635414212882237,
+          "r_C_over_A0_ci95": [
+            0.8489359110586344,
+            1.1822957143541724
+          ],
+          "A1_over_A0_ci95": [
+            0.8666053553634023,
+            1.3283858616438737
+          ]
+        }
+      },
+      "direction1_share_of_lowest_bin_reduction": 0.8522427856314777
+    },
+    "D2": {
+      "all_targets": 1200,
+      "active_targets": 1196,
+      "spearman_d_vs_w0y": -0.7649618204906722,
+      "own_addition_support_by_bin": [
+        {
+          "n": 240,
+          "additions": 304.0,
+          "supported_additions": 43.04302925989673,
+          "support_rate": 0.14158891203913396
+        },
+        {
+          "n": 239,
+          "additions": 698.0,
+          "supported_additions": 117.4421737973747,
+          "support_rate": 0.16825526332002108
+        },
+        {
+          "n": 239,
+          "additions": 999.0,
+          "supported_additions": 208.0476202332467,
+          "support_rate": 0.20825587610935606
+        },
+        {
+          "n": 239,
+          "additions": 771.0,
+          "supported_additions": 201.42645523786558,
+          "support_rate": 0.2612535087391253
+        },
+        {
+          "n": 239,
+          "additions": 510.0,
+          "supported_additions": 132.0,
+          "support_rate": 0.25882352941176473
+        }
+      ],
+      "lowest_bin_removal_share": {
+        "own": 0.9670932358318098,
+        "D3": 0.6362643364281814,
+        "D1": 0.5601350151003731
+      },
+      "a10": {
+        "bin 1": {
+          "r_C_over_A0": 0.6414638198734591,
+          "A1_over_A0": 0.48363180040034714,
+          "r_C_over_A0_ci95": [
+            0.5841481017954838,
+            0.7027819317130697
+          ],
+          "A1_over_A0_ci95": [
+            0.41305720360920134,
+            0.5599800498907878
+          ]
+        },
+        "all targets": {
+          "r_C_over_A0": 1.067423710015565,
+          "A1_over_A0": 1.0888923136541748,
+          "r_C_over_A0_ci95": [
+            0.984617022727456,
+            1.1683793290386948
+          ],
+          "A1_over_A0_ci95": [
+            0.9714615969538046,
+            1.2283804006161894
+          ]
+        }
+      },
+      "direction1_share_of_lowest_bin_reduction": 0.8929920091742211
+    }
+  },
+  "max_absolute_difference_from_archived_A10_point_estimates_and_intervals": 0.0,
+  "status": "passed"
+}

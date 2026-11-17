@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "scope": "Isolated directory recomputation of every core and exploratory experiment from the compact payload; fixed original native ASH outputs; no native ASH refit.",
+  "experiments": {
+    "mechanism": {
+      "passed": true,
+      "utc": "2026-11-17T03:07:46.950662+00:00",
+      "elapsed_seconds": 22.20149196899729,
+      "manifest_files_checked": 33,
+      "fixed_arms": 54,
+      "reference_bootstrap_draws": 4000,
+      "permutations_per_mode": 1000,
+      "ASH_refitted": false,
+      "ASH_source": "Retained original ashr 2.2-63 posterior means; all predictions rebuilt.",
+      "array_groups_bitwise_identical": {
+        "input_statistics": 7,
+        "original_predictions": 6,
+        "fixed_predictions": 20,
+        "all_predictions": 4
+      },
+      "summary_comparisons": {
+        "fixed_summary.json": {
+          "numeric_values_checked": 1032,
+          "maximum_absolute_difference": 0.0,
+          "absolute_tolerance": 1e-10
+        },
+        "permutation_summary.json": {
+          "numeric_values_checked": 589,
+          "maximum_absolute_difference": 0.0,
+          "absolute_tolerance": 1e-10
+        },
+        "interaction_summary.json": {
+          "numeric_values_checked": 198,
+          "maximum_absolute_difference": 0.0,
+          "absolute_tolerance": 1e-10
+        },
+        "interaction_boundary_descriptives.json": {
+          "numeric_values_checked": 560,
+          "maximum_absolute_difference": 0.0,
+          "absolute_tolerance": 1e-10
+        },
+        "interaction_interaction_coefficient_descriptives.json": {
+          "numeric_values_checked": 20,
+          "maximum_absolute_difference": 0.0,
+          "absolute_tolerance": 1e-10
+        }
+      },
+      "no_cached_bootstrap_or_permutation_draws_used": true
+    },
+    "external": {
+      "status": "PASS",
+      "summary_numeric_fields": 11619,
+      "summary_max_abs_error": 0.0,
+      "numeric_arrays": 40,
+      "array_max_abs_error": 0.0,
+      "primary_decisions": {
+        "application_point_threshold": 0.02,
+        "application_pass": true,
+        "ASH_geometry_pass": false,
+        "complete_proposed_extension_pass": false
+      },
+      "seconds": 12.608407974243164
+    },
+    "exploratory": {
+      "status": "PASS",
+      "verified_package_files": 29,
+      "bitwise_equal_arrays": 223,
+      "matched_summary_numbers": 17208,
+      "all_original_and_repair_arms_recomputed": true,
+      "bootstrap_draws_per_source": 4000,
+      "scope": "Recompute from fixed raw/ASH readouts, full-profile sufficient statistics and exact reference-cell program projections. Does not refit ASH or reconstruct full raw UMI."
+    }
+  },
+  "launcher_finalization": "Scientific payload and all experiment kernels passed the isolated replay. Additional explicit report-state gates and export-schema checks are included in the finalized launcher; the final combined-bundle cold start verifies this launcher."
+}

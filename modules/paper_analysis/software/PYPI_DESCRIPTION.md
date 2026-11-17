@@ -12,7 +12,7 @@ This **0.2.0rc3 review source** accompanies the current manuscript. It provides 
 | Read the response | Original gene effects, or a labeled upstream effect estimate such as FR-Perturb | A response-specific up/down score |
 | Allocate shortlist positions | The same eligible candidates and a fixed list length | Candidate lists and exact boundary-tie inclusion probabilities |
 
-The three returned methods make the contribution inspectable: **Unweighted** uses the effect directly, **Euclidean** uses target-level reliability without directional geometry, and **PertRank** adds the fixed control geometry. A complete-workflow comparison against Unweighted and a geometry comparison against Euclidean answer different questions. See [scientific design](https://github.com/anonymous-rl-lab/PertRank/blob/main/modules/paper_analysis/software/docs/scientific_design.md) for the equations, estimator reuse and connection to the manuscript evidence.
+The three returned methods make the contribution inspectable: **Unweighted** uses the effect directly, **Euclidean** uses target-level reliability without directional geometry, and **PertRank** adds the fixed control geometry. A complete-workflow comparison against Unweighted and a geometry comparison against Euclidean answer different questions. See scientific design (`docs/scientific_design.md` in the source archive) for the equations, estimator reuse and connection to the manuscript evidence.
 
 ## Install
 
@@ -104,7 +104,7 @@ scores = pr.evaluate_reference(result, reference)
 scores.to_csv("reference_precision.csv", index=False)
 ```
 
-Provide a target-by-gene reference effect table with the same target population and every queried gene. The evaluator returns precision and expected overlap for each method, query and direction, using the result's fixed list length and self-target exclusions. It accounts for boundary ties in both the predicted and reference lists. The reference is used only for scoring. Define its construction independently of the fitted ranking; biological interpretation depends on that design. See [API reference](https://github.com/anonymous-rl-lab/PertRank/blob/main/modules/paper_analysis/software/docs/api.md#evaluate_reference) for the exact scoring rule. Query-level uncertainty and manuscript-specific aggregation remain in the full scientific reproduction bundle.
+Provide a target-by-gene reference effect table with the same target population and every queried gene. The evaluator returns precision and expected overlap for each method, query and direction, using the result's fixed list length and self-target exclusions. It accounts for boundary ties in both the predicted and reference lists. The reference is used only for scoring. Define its construction independently of the fitted ranking; biological interpretation depends on that design. See API reference (`docs/api.md#evaluate_reference` in the source archive) for the exact scoring rule. Query-level uncertainty and manuscript-specific aggregation remain in the full scientific reproduction bundle.
 
 ## Try the interface immediately
 
@@ -117,10 +117,10 @@ check. The two atlas notebooks instead use authentic archived statistics.
 
 ## Learn and reproduce
 
-- [API reference](https://github.com/anonymous-rl-lab/PertRank/blob/main/modules/paper_analysis/software/docs/api.md): public functions and result fields.
-- [Scientific design](https://github.com/anonymous-rl-lab/PertRank/blob/main/modules/paper_analysis/software/docs/scientific_design.md): reliability, readout and the interpretation of matched comparisons.
+- API reference (`docs/api.md` in the source archive): public functions and result fields.
+- Scientific design (`docs/scientific_design.md` in the source archive): reliability, readout and the interpretation of matched comparisons.
 - Input contracts (`docs/input_contracts.md` in the source archive): counts, normalized inputs and matching strata.
-- [Replogle tutorial](https://github.com/anonymous-rl-lab/PertRank/blob/main/modules/paper_analysis/software/tutorials/01_replogle.ipynb) and T-cell tutorial (`tutorials/02_tcell.ipynb` in the source archive): worked examples using archived real-data sufficient statistics. The tutorials identify the source and processing level of each fixture. They replay candidate ranking from saved statistics; the AnnData example above is the cell-input route.
+- Replogle tutorial (`tutorials/01_replogle.ipynb` in the source archive) and T-cell tutorial (`tutorials/02_tcell.ipynb` in the source archive): worked examples using archived real-data sufficient statistics. The tutorials identify the source and processing level of each fixture. They replay candidate ranking from saved statistics; the AnnData example above is the cell-input route.
 - `tests/`: checks of the public interface and numerical agreement with the frozen implementation.
 - Community integration proposal (`docs/community_integration.md` in the source archive): prepared scverse registration and pertpy contribution scope.
 - Distribution and release process (`docs/release_process.md` in the source archive): installation, artifact verification and the remaining public-release metadata.

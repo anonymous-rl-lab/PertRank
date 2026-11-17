@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "mode": "core",
+  "files_verified": 28,
+  "model_refitting": false,
+  "scope": "The fixed rvalues comparison and predefined-program studies, with exploratory direction adjustments kept separate. Baseline native-model fitting and raw-count recovery are outside this compact replay.",
+  "reports": {
+    "rvalues": {
+      "status": "PASS",
+      "tasks": 5,
+      "aggregate_summaries": 2,
+      "native_fits_recorded": 7742,
+      "input_arrays_bitwise_preserved": 80,
+      "original_scorer_byte_identical": true,
+      "summary_numeric_values_checked": 231,
+      "summary_max_abs_error": 0.0,
+      "output_arrays_checked": 30,
+      "output_arrays_bitwise_identical": true,
+      "archived_primary_values_checked": 30,
+      "archived_primary_max_abs_error": 4.163336342344337e-16,
+      "native_model_refitted": false,
+      "baseline_models_refitted": false,
+      "scope": "Recomputed five-task membership-overlap scores, all retained baseline comparisons, 2000 paired query-block intervals, equal-state and equal-source aggregates from native memberships and retained baseline query scores."
+    },
+    "program": {
+      "status": "PASS",
+      "export_numeric_checks": {
+        "external": {
+          "numeric_values_unchanged": 11619
+        }
+      },
+      "action": "core",
+      "seconds": 36.59119653701782,
+      "restoration": {
+        "status": "PASS",
+        "restored_files": 140,
+        "unique_lossless_blobs": 399,
+        "derived_arrays_verified_bitwise": 31,
+        "dtype_precision_preserved": true,
+        "no_reference_cells_discarded": true
+      },
+      "experiments": {
+        "mechanism": {
+          "passed": true,
+          "utc": "2026-11-17T04:13:28.040758+00:00",
+          "elapsed_seconds": 20.920120789989596,
+          "manifest_files_checked": 33,
+          "fixed_arms": 54,
+          "reference_bootstrap_draws": 4000,
+          "permutations_per_mode": 1000,
+          "ASH_refitted": false,
+          "ASH_source": "Retained original ashr 2.2-63 posterior means; all predictions rebuilt.",
+          "array_groups_bitwise_identical": {
+            "input_statistics": 7,
+            "original_predictions": 6,
+            "fixed_predictions": 20,
+            "all_predictions": 4
+          },
+          "summary_comparisons": {
+            "fixed_summary.json": {
+              "numeric_values_checked": 1032,
+              "maximum_absolute_difference": 0.0,
+              "absolute_tolerance": 1e-10
+            },
+            "permutation_summary.json": {
+              "numeric_values_checked": 589,
+              "maximum_absolute_difference": 0.0,
+              "absolute_tolerance": 1e-10
+            },
+            "interaction_summary.json": {
+              "numeric_values_checked": 198,
+              "maximum_absolute_difference": 0.0,
+              "absolute_tolerance": 1e-10
+            },
+            "interaction_boundary_descriptives.json": {
+              "numeric_values_checked": 560,
+              "maximum_absolute_difference": 0.0,
+              "absolute_tolerance": 1e-10
+            },
+            "interaction_interaction_coefficient_descriptives.json": {
+              "numeric_values_checked": 20,
+              "maximum_absolute_difference": 0.0,
+              "absolute_tolerance": 1e-10
+            }
+          },
+          "no_cached_bootstrap_or_permutation_draws_used": true,
+          "output_directory": "WORKSPACE/clean_code_work/full_check/new_results/program/mechanism"
+        },
+        "external": {
+          "status": "PASS",
+          "summary_numeric_fields": 11619,
+          "summary_max_abs_error": 0.0,
+          "numeric_arrays": 40,
+          "array_max_abs_error": 0.0,
+          "primary_decisions": {
+            "application_point_threshold": 0.02,
+            "application_pass": true,
+            "ASH_geometry_pass": false,
+            "complete_proposed_extension_pass": false
+          },
+          "seconds": 13.067012786865234
+        }
+      },
+      "native_ASH_refitted": false,
+      "precision": "Original float64 arrays; byte-lossless transforms only; exact moments preserve the original reduction order."
+    }
+  }
+}

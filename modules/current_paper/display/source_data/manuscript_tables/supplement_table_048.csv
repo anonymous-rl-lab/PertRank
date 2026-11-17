@@ -1,0 +1,4 @@
+Comparison,Mean replaced mass per ten positions,Entering response,Leaving response,Complete-list difference
+Original PertRank − native program-level ASH,4.875000,0.077913,0.022621,0.026955
+Original-readout PertRank − Euclidean,2.027778,0.049765,0.039411,0.002100
+ASH-readout PertRank − Euclidean,1.819444,0.003779,0.038004,−0.006227

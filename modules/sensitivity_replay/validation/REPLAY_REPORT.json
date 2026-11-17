@@ -735,5 +735,13 @@
     "rounded_values_checked": 18,
     "rounding_absolute_tolerance": 5e-06
   },
-  "seconds": 0.246780129004037
+  "seconds": 0.35920352100220043,
+  "lossless_restoration": {
+    "status": "PASS",
+    "restored_array_files": 2,
+    "all_array_bytes_match": true,
+    "precision_changed": false,
+    "core_files_verified": 0
+  },
+  "replay_output_subdirectory": "replay"
 }

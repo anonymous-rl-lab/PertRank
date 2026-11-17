@@ -1,0 +1,121 @@
+{
+  "status": "PASS",
+  "test": "Standalone ZIP extracted into a fresh path containing spaces and invoked by absolute path from an unrelated working directory. Mode all completed.",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "rvalues": {
+    "status": "PASS",
+    "tasks": 5,
+    "aggregate_summaries": 2,
+    "native_fits_recorded": 7742,
+    "input_arrays_bitwise_preserved": 80,
+    "original_scorer_byte_identical": true,
+    "summary_numeric_values_checked": 231,
+    "summary_max_abs_error": 0.0,
+    "output_arrays_checked": 30,
+    "output_arrays_bitwise_identical": true,
+    "archived_primary_values_checked": 30,
+    "archived_primary_max_abs_error": 4.163336342344337e-16,
+    "native_model_refitted": false,
+    "baseline_models_refitted": false,
+    "scope": "Recomputed five-task membership-overlap scores, all retained baseline comparisons, 2000 paired query-block intervals, equal-state and equal-source aggregates from native memberships and retained baseline query scores."
+  },
+  "program_restoration": {
+    "status": "PASS",
+    "restored_files": 140,
+    "unique_lossless_blobs": 399,
+    "derived_arrays_verified_bitwise": 31,
+    "dtype_precision_preserved": true,
+    "no_reference_cells_discarded": true
+  },
+  "program_checks": {
+    "mechanism": {
+      "passed": true,
+      "utc": "2026-11-17T03:11:29.463489+00:00",
+      "elapsed_seconds": 21.16032211999118,
+      "manifest_files_checked": 33,
+      "fixed_arms": 54,
+      "reference_bootstrap_draws": 4000,
+      "permutations_per_mode": 1000,
+      "ASH_refitted": false,
+      "ASH_source": "Retained original ashr 2.2-63 posterior means; all predictions rebuilt.",
+      "array_groups_bitwise_identical": {
+        "input_statistics": 7,
+        "original_predictions": 6,
+        "fixed_predictions": 20,
+        "all_predictions": 4
+      },
+      "summary_comparisons": {
+        "fixed_summary.json": {
+          "numeric_values_checked": 1032,
+          "maximum_absolute_difference": 0.0,
+          "absolute_tolerance": 1e-10
+        },
+        "permutation_summary.json": {
+          "numeric_values_checked": 589,
+          "maximum_absolute_difference": 0.0,
+          "absolute_tolerance": 1e-10
+        },
+        "interaction_summary.json": {
+          "numeric_values_checked": 198,
+          "maximum_absolute_difference": 0.0,
+          "absolute_tolerance": 1e-10
+        },
+        "interaction_boundary_descriptives.json": {
+          "numeric_values_checked": 560,
+          "maximum_absolute_difference": 0.0,
+          "absolute_tolerance": 1e-10
+        },
+        "interaction_interaction_coefficient_descriptives.json": {
+          "numeric_values_checked": 20,
+          "maximum_absolute_difference": 0.0,
+          "absolute_tolerance": 1e-10
+        }
+      },
+      "no_cached_bootstrap_or_permutation_draws_used": true
+    },
+    "external": {
+      "status": "PASS",
+      "summary_numeric_fields": 11619,
+      "summary_max_abs_error": 0.0,
+      "numeric_arrays": 40,
+      "array_max_abs_error": 0.0,
+      "primary_decisions": {
+        "application_point_threshold": 0.02,
+        "application_pass": true,
+        "ASH_geometry_pass": false,
+        "complete_proposed_extension_pass": false
+      },
+      "seconds": 12.954060077667236
+    },
+    "exploratory": {
+      "status": "PASS",
+      "verified_package_files": 29,
+      "bitwise_equal_arrays": 223,
+      "matched_summary_numbers": 17208,
+      "all_original_and_repair_arms_recomputed": true,
+      "bootstrap_draws_per_source": 4000,
+      "scope": "Recompute from fixed raw/ASH readouts, full-profile sufficient statistics and exact reference-cell program projections. Does not refit ASH or reconstruct full raw UMI."
+    }
+  },
+  "export_numeric_checks": {
+    "external": {
+      "numeric_values_unchanged": 11619
+    },
+    "exploratory_external": {
+      "numeric_values_unchanged": 16518
+    }
+  },
+  "code_and_data_sha256": {
+    "run.py": "d045bf8a728c305d99731b7f3cafedcbc786ad364fc167658717d54bbceafede",
+    "rvalues/run.py": "c2e3adeb49ad6eea63828c7717410837af5fa5c367e41ac3f17dcaee7759c1e1",
+    "rvalues/scorer.py": "fdb9450f596dcf4770ebe4693bc1f85074c0d24eb5cf6fc76dee4ae2a9a9f0d4",
+    "rvalues/inputs.tar.xz": "142477e436840e35858b2afea4b344232bc228650c7e7a71f5a725be81a29939",
+    "program/run.py": "ce05003400e053af2ce71aca679ee3b00ba0f54d16ebc15d02b4c6132d67a4c3",
+    "program/export_semantics.py": "0969ccbd217f66fa31d5bf53bf6a2b4e2da8d4d22d2c60c3a449b9ad8f022435",
+    "program/INDEX.json": "47bf36b510b8482f58ccdb9fb79c331be5ebda519163add9cb53e2570a6d4563",
+    "program/program_data.tar.xz": "717064b30012c41acded5aa0ce738ea43ba3feb042b21833fac617642d1c0950"
+  },
+  "native_models_refitted": false,
+  "raw_counts_recovered": false
+}

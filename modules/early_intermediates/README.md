@@ -1,6 +1,17 @@
 # Early experiments: compact statistical reproduction
 
-Run from the repository root:
+## Run from the package root
+
+The distributed inputs are stored losslessly in the shared `storage/` directory. Use the root dispatcher to restore the exact input files automatically:
+
+```bash
+python reproduce.py --only early_intermediates --output-dir ../pertrank-early_intermediates-reproduced
+```
+
+The lower-level commands below apply to the restored module under `OUTPUT/_source/modules/`, where the original files and checksums are available. Do not run those commands directly on the compact module directory.
+
+
+Run this lower-level command from the restored execution-tree root (`OUTPUT/_source/`):
 
 ```bash
 python modules/early_intermediates/reproduce.py --output-dir ../early-intermediates-results

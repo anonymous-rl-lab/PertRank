@@ -1,0 +1,4 @@
+Level,Materials and calculation,Entry
+Fixed-output replay,Stored native outputs or membership probabilities reconstruct scores and intervals,`reproducibility/README.md`
+Retained-statistic reconstruction,"Moments and projections reconstruct supported weights, rankings and reference resampling",Analysis-specific modules listed in `reproducibility/BUNDLE_MANIFEST.json`
+Native fitting or raw preprocessing,"Requires the original cell inputs, fitting environment and source implementation",Module-specific instructions; complete rvalues inputs and native code in `reproducibility/native_fitting/README.md`

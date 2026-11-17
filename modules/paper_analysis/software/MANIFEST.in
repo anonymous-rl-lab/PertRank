@@ -1,4 +1,4 @@
-include README.md PYPI_DESCRIPTION.md READ_FIRST.zh.md LICENSE CHANGELOG.md INTEGRATION.md requirements-tested.txt
+include README.md PYPI_DESCRIPTION.md READ_FIRST.zh.md LICENSE INTEGRATION.md requirements-tested.txt
 recursive-include docs *.md
 recursive-include tutorials *.ipynb *.py *.md
 recursive-include tests *.py *.json

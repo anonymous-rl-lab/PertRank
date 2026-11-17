@@ -1,5 +1,5 @@
 {
-  "application_version": "retained",
+  "application": "CTLA4 fixed nomination",
   "core_source": "PertRank_Paper_v17/pertrank_tool/pertrank",
   "core_copied_unchanged": true,
   "frozen_engine_source": "PertRank_D1_D4_GitHub_Core/supplements/20261011_stim/frozen/frozen_engine.py",
@@ -8,7 +8,7 @@
     "cli.py": "b8973f76fe8bfc84aac0388f607ef9ead776895dee856d9e6877ab9b03fc3457",
     "frozen_engine.py": "1910bf79496cebe51ec6111c6b54acd8daca3fa65c196afa471a6a425a9fb6c8"
   },
-  "scope": "NPZ/AnnData input adapters; unchanged fixed k=5,beta=0.9 computation and query-specific original-coordinate nominations",
+  "scope": "v20 NPZ/AnnData input adapters; unchanged fixed k=5,beta=0.9 computation and query-specific original-coordinate nominations",
   "adapter_files_sha256": {
     "run_counts.py": "e2d33e42fae4e71ba1b842299891c517bbec4f4ac09eb2563eac23bf93f9b4a9",
     "make_example.py": "7b45066e4535f01f252704ec6beda645ef2a7f1c01efcd03f739e200075f8c29",

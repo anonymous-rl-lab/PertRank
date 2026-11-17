@@ -1,0 +1,21 @@
+{
+  "w1_target_explanation_targets.csv": {
+    "sha256_uncompressed": "7c0f26e02503004a091d59f101a38c89ff100cf35db47084cb68ab0cecf323c5",
+    "archive": "w1_target_explanation_targets.csv.gz"
+  },
+  "w1_direction_replication_targets.csv": {
+    "sha256_uncompressed": "7c2027be761d192895703b7c92020e62424a3eb7e42974861a4855596551cde3",
+    "archive": "w1_direction_replication_targets.csv.gz"
+  },
+  "explain_w1_targets.py": {
+    "sha256": "e0817a0dc3c215a2dbcc330a7b5389af85f692e13d83933fa2bf53f8bec47e17"
+  },
+  "replicate_w1_directions.py": {
+    "sha256": "928033f63e93f5151e623339b97717f1d7a79e33a50c57951d3f0b1a3d85faaf"
+  },
+  "w1_direction_replication.json": {
+    "sha256_original": "47730aef29834fbc20ed31e234aafc3c65a5f49ac3f659e1a758ff2f6bdfb175",
+    "retained_summary": "a10_archived_summary.json",
+    "note": "Original metadata/checks/donor summaries/reading retained; per-target records supplied in the compressed CSV."
+  }
+}

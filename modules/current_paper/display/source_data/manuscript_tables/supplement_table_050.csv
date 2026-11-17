@@ -1,0 +1,11 @@
+Comparison,Utility difference,Interval level,Conditional interval
+Program-coordinate-excluded PertRank − original program-level ASH,0.066320,97.5%,"[0.044722, 0.087796]"
+Cross-input PertRank − Unweighted,0.030267,97.5%,"[0.009915, 0.051658]"
+Program-coordinate-excluded PertRank − Unweighted,0.035815,95%,"[0.020127, 0.051671]"
+Program-coordinate exclusion: PertRank − Euclidean,−0.003489,95%,"[−0.011507, 0.004819]"
+Cross-input PertRank − Euclidean,−0.005199,95%,"[−0.016623, 0.007490]"
+ASH × PertRank − native program-level ASH,0.063371,95%,"[0.047216, 0.080391]"
+Original-readout geometry increment,0.002244,95%,"[−0.010582, 0.015812]"
+ASH-readout geometry increment,0.014676,95%,"[0.003061, 0.026947]"
+Readout × geometry interaction,0.012432,95%,"[0.001348, 0.023144]"
+ASH × PertRank − original PertRank,−0.002899,95%,"[−0.013539, 0.007273]"

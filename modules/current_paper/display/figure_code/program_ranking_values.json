@@ -1,0 +1,1178 @@
+{
+  "provenance": {
+    "rvalues": {
+      "filename": "source_data/rvalues/primary_contrasts.csv",
+      "sha256": "75a0d09325c5e1fff93a3ef099f4bdd37e9f478caeade1839fb11578ed982fb3"
+    },
+    "program_external": {
+      "filename": "source_data/programs/external_summary.json",
+      "sha256": "ebd1cf2db1fcfd0717971389b96e6728050ec657b9b170ca2e4a23d5ef13300e"
+    },
+    "program_D3": {
+      "filename": "source_data/programs/d3_mechanism_summary.json",
+      "sha256": "8046f8c8dc4eb43d3de16f98c18315136a9816965268d574229e290adc2f5c81"
+    }
+  },
+  "rvalues": [
+    {
+      "task": "D4 Rest",
+      "K": "25",
+      "PertRank": "0.37917332608905385",
+      "rvalues": "0.28996489717408463",
+      "difference": "0.08920842891496922",
+      "ci95_lower": "0.0833392919599208",
+      "ci95_upper": "0.09546911855911472",
+      "expected_member_difference": "2.2302107228742303"
+    },
+    {
+      "task": "D4 Stim",
+      "K": "25",
+      "PertRank": "0.39372749325212164",
+      "rvalues": "0.30236317555171827",
+      "difference": "0.09136431770040337",
+      "ci95_lower": "0.08447714341982751",
+      "ci95_upper": "0.09716119446049576",
+      "expected_member_difference": "2.2841079425100843"
+    },
+    {
+      "task": "External RNA D3",
+      "K": "10",
+      "PertRank": "0.256655290102389",
+      "rvalues": "0.2467005015019808",
+      "difference": "0.009954788600408215",
+      "ci95_lower": "0.0030904834655433367",
+      "ci95_upper": "0.01705215179548563",
+      "expected_member_difference": "0.09954788600408215"
+    },
+    {
+      "task": "External RNA D1",
+      "K": "10",
+      "PertRank": "0.2522491349480969",
+      "rvalues": "0.22031122856382374",
+      "difference": "0.031937906384273185",
+      "ci95_lower": "0.025342218331516408",
+      "ci95_upper": "0.038005773912493254",
+      "expected_member_difference": "0.31937906384273185"
+    },
+    {
+      "task": "External RNA D2",
+      "K": "10",
+      "PertRank": "0.2673010380622837",
+      "rvalues": "0.23051801352306311",
+      "difference": "0.03678302453922061",
+      "ci95_lower": "0.029208720522923462",
+      "ci95_upper": "0.046214969764137095",
+      "expected_member_difference": "0.3678302453922061"
+    }
+  ],
+  "program_external": {
+    "method_results": {
+      "raw_one": {
+        "estimate": 0.13191516544090476,
+        "conditional_interval_level": 0.95,
+        "conditional_interval": [
+          0.1182130689845354,
+          0.14598835195522486
+        ],
+        "uncertainty_metadata": {
+          "kind": "conditional_reference_interval",
+          "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+          "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+          "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+        }
+      },
+      "raw_w0": {
+        "estimate": 0.15806808040423384,
+        "conditional_interval_level": 0.95,
+        "conditional_interval": [
+          0.14431591547290373,
+          0.17111026023465317
+        ],
+        "uncertainty_metadata": {
+          "kind": "conditional_reference_interval",
+          "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+          "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+          "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+        }
+      },
+      "raw_wM": {
+        "estimate": 0.16016765038505892,
+        "conditional_interval_level": 0.95,
+        "conditional_interval": [
+          0.1467781179668663,
+          0.17304293969893986
+        ],
+        "uncertainty_metadata": {
+          "kind": "conditional_reference_interval",
+          "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+          "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+          "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+        }
+      },
+      "ash_one": {
+        "estimate": 0.13321270391918005,
+        "conditional_interval_level": 0.95,
+        "conditional_interval": [
+          0.11987659564722764,
+          0.14669595216301984
+        ],
+        "uncertainty_metadata": {
+          "kind": "conditional_reference_interval",
+          "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+          "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+          "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+        }
+      },
+      "ash_w0": {
+        "estimate": 0.16128595523492226,
+        "conditional_interval_level": 0.95,
+        "conditional_interval": [
+          0.14802394639603514,
+          0.1742124461341924
+        ],
+        "uncertainty_metadata": {
+          "kind": "conditional_reference_interval",
+          "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+          "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+          "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+        }
+      },
+      "ash_wM": {
+        "estimate": 0.1550588048028809,
+        "conditional_interval_level": 0.95,
+        "conditional_interval": [
+          0.14194410799168258,
+          0.16772419488377158
+        ],
+        "uncertainty_metadata": {
+          "kind": "conditional_reference_interval",
+          "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+          "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+          "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+        }
+      }
+    },
+    "application": {
+      "overall": {
+        "estimate": 0.026954946465878864,
+        "conditional_interval_level": 0.975,
+        "conditional_interval": [
+          0.012721331007244437,
+          0.04110975604894737
+        ],
+        "uncertainty_metadata": {
+          "kind": "conditional_reference_interval",
+          "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+          "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+          "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+        }
+      },
+      "by_cell_line": {
+        "A549": {
+          "estimate": 0.0014420372833164102,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            -0.018990175497952434,
+            0.021399823653862744
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "K562": {
+          "estimate": 0.03913576988182813,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.016357965810625798,
+            0.06311054472852447
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "MCF7": {
+          "estimate": 0.040287032232492054,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.02183032753222498,
+            0.05934877156101543
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        }
+      },
+      "by_culture_fold": {
+        "rep1_to_rep2": {
+          "estimate": 0.02914363802136799,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.012397555262360029,
+            0.0460149721768586
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "rep2_to_rep1": {
+          "estimate": 0.02476625491038975,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.006737265148807295,
+            0.0419360107144339
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        }
+      },
+      "by_program": {
+        "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+          "estimate": 0.03242681854346282,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.002578891776695158,
+            0.06213220974196953
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+          "estimate": 0.05808832952478019,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.02981533025308606,
+            0.0853812979157228
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "HALLMARK_IL2_STAT5_SIGNALING": {
+          "estimate": 0.010384741251948389,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            -0.018747605447890964,
+            0.03991131540758919
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "HALLMARK_E2F_TARGETS": {
+          "estimate": 0.007577978970828954,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            -0.018623317838778044,
+            0.03363410394320348
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "HALLMARK_G2M_CHECKPOINT": {
+          "estimate": 0.02919883410105854,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.005652523972400477,
+            0.05278471154433693
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "HALLMARK_OXIDATIVE_PHOSPHORYLATION": {
+          "estimate": 0.02405297640319431,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            -0.001398573281921515,
+            0.04919581803734749
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        }
+      },
+      "by_query_direction": {
+        "up": {
+          "estimate": 0.027195569101405106,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.008297687383198275,
+            0.04633451645023388
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "down": {
+          "estimate": 0.02671432383035262,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.008988537633908392,
+            0.0439997042929543
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        }
+      },
+      "by_task": {
+        "A549__rep1_to_rep2": {
+          "estimate": -0.005246811307387113,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            -0.0327370663619386,
+            0.021308449363453635
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "A549__rep2_to_rep1": {
+          "estimate": 0.008130885874019932,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            -0.022083764420989554,
+            0.03747502761474135
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "K562__rep1_to_rep2": {
+          "estimate": 0.06052999686694858,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.028726401590845795,
+            0.09349236011315433
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "K562__rep2_to_rep1": {
+          "estimate": 0.017741542896707697,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            -0.015212180179115069,
+            0.050728544944277254
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "MCF7__rep1_to_rep2": {
+          "estimate": 0.0321477285045425,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.006570844655541989,
+            0.056916234472328506
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "MCF7__rep2_to_rep1": {
+          "estimate": 0.0484263359604416,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.019876365165903402,
+            0.07726415651014278
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        }
+      },
+      "by_task_program": {
+        "A549__rep1_to_rep2": {
+          "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+            "estimate": -0.004943221602442052,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.07229361716153838,
+              0.06192755997070891
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+            "estimate": 0.020117581232341423,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.042933645077793285,
+              0.08137851256512434
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_IL2_STAT5_SIGNALING": {
+            "estimate": 0.0647155820661338,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.00951486614355565,
+              0.13521193885382074
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_E2F_TARGETS": {
+            "estimate": -0.07864257482357441,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.12937156089546067,
+              -0.029255927333540935
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_G2M_CHECKPOINT": {
+            "estimate": -0.011957186839561242,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.05221250734642055,
+              0.03033150015367002
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_OXIDATIVE_PHOSPHORYLATION": {
+            "estimate": -0.020771047877220193,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.07710741831750151,
+              0.03470996320515696
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          }
+        },
+        "A549__rep2_to_rep1": {
+          "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+            "estimate": -0.007774035662926847,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.07992961426709949,
+              0.06483525238240773
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+            "estimate": 0.02971287259152347,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.04690347457685422,
+              0.10864137498367363
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_IL2_STAT5_SIGNALING": {
+            "estimate": 0.01056285130499867,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.057382256707050036,
+              0.07844778191094956
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_E2F_TARGETS": {
+            "estimate": 0.024402112329996124,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.05793715038542491,
+              0.103721831589929
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_G2M_CHECKPOINT": {
+            "estimate": 0.014304821465381885,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.045248856015241805,
+              0.0731824095036075
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_OXIDATIVE_PHOSPHORYLATION": {
+            "estimate": -0.022423306784853707,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.08252641820389157,
+              0.03674962002286648
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          }
+        },
+        "K562__rep1_to_rep2": {
+          "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+            "estimate": 0.11041783822861331,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              0.04537537106631124,
+              0.17593196202911532
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+            "estimate": 0.04456731395610887,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.019517052101923855,
+              0.10697767267762871
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_IL2_STAT5_SIGNALING": {
+            "estimate": -0.01590202763740224,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.10887320396334858,
+              0.07839380578513595
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_E2F_TARGETS": {
+            "estimate": 0.10982751652186461,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              0.03651493751109551,
+              0.18593787579966914
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_G2M_CHECKPOINT": {
+            "estimate": 0.0637314825691413,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              0.0047137278997737885,
+              0.12590550321105642
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_OXIDATIVE_PHOSPHORYLATION": {
+            "estimate": 0.05053785756336557,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.02165095807840038,
+              0.11944554960266153
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          }
+        },
+        "K562__rep2_to_rep1": {
+          "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+            "estimate": 0.06593766349714854,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.02422550624220744,
+              0.15662177404099342
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+            "estimate": -0.008534245419935386,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.08886863396527071,
+              0.07120432594429715
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_IL2_STAT5_SIGNALING": {
+            "estimate": -0.027331464735360467,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.10183817465616561,
+              0.047256651351908006
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_E2F_TARGETS": {
+            "estimate": -0.007468681904726236,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.07322113687106317,
+              0.058368844862951595
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_G2M_CHECKPOINT": {
+            "estimate": 0.018652569463522357,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.04201637007594776,
+              0.0807494071520889
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_OXIDATIVE_PHOSPHORYLATION": {
+            "estimate": 0.06519341647959738,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.0038684341752333036,
+              0.13452596700801725
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          }
+        },
+        "MCF7__rep1_to_rep2": {
+          "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+            "estimate": -0.015057887915880974,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.08123734566393583,
+              0.05192925427020981
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+            "estimate": 0.1995909018291675,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              0.13282061467365525,
+              0.2707481273874985
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_IL2_STAT5_SIGNALING": {
+            "estimate": 0.009275001492501114,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.03978537612277924,
+              0.05816620855618075
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_E2F_TARGETS": {
+            "estimate": -0.022485952130075818,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.07469576762366538,
+              0.028935605112437982
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_G2M_CHECKPOINT": {
+            "estimate": 0.015222999006905664,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.035648699715237535,
+              0.06366765024716031
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_OXIDATIVE_PHOSPHORYLATION": {
+            "estimate": 0.006341308744637529,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.0458241021600042,
+              0.05833000928657564
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          }
+        },
+        "MCF7__rep2_to_rep1": {
+          "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+            "estimate": 0.04598055471626491,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.018649822558026205,
+              0.11260663754375504
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+            "estimate": 0.0630755529594753,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              0.01182787659517833,
+              0.11423861333652108
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_IL2_STAT5_SIGNALING": {
+            "estimate": 0.020988505020819462,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.037885957394951895,
+              0.08151391773955574
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_E2F_TARGETS": {
+            "estimate": 0.01983545383148945,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.039974299243763056,
+              0.08220000680575823
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_G2M_CHECKPOINT": {
+            "estimate": 0.07523831894096127,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              0.003975351053607201,
+              0.14298108297934975
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          },
+          "HALLMARK_OXIDATIVE_PHOSPHORYLATION": {
+            "estimate": 0.06543963029363928,
+            "conditional_interval_level": 0.95,
+            "conditional_interval": [
+              -0.010113995518635831,
+              0.13851727922711973
+            ],
+            "uncertainty_metadata": {
+              "kind": "conditional_reference_interval",
+              "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+              "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+              "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+            }
+          }
+        }
+      },
+      "leave_one_cell_line_out": {
+        "A549": {
+          "estimate": 0.039711401057160096,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.024549042026025522,
+            0.05479827576348337
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "K562": {
+          "estimate": 0.02086453475790423,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.006585390735429629,
+            0.034878932388421276
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "MCF7": {
+          "estimate": 0.02028890358257227,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.004604167669041809,
+            0.035900147689092964
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        }
+      },
+      "leave_one_program_out": {
+        "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+          "estimate": 0.025860572050362077,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.011895179641797964,
+            0.03856685882586624
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+          "estimate": 0.0207282698540986,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.007553088196338733,
+            0.0334911005146155
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "HALLMARK_IL2_STAT5_SIGNALING": {
+          "estimate": 0.03026898750866496,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.01702896125261985,
+            0.04271125086053704
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "HALLMARK_E2F_TARGETS": {
+          "estimate": 0.030830339964888858,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.017807504824331268,
+            0.04359253796841978
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "HALLMARK_G2M_CHECKPOINT": {
+          "estimate": 0.026506168938842938,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.013294207774723973,
+            0.039740749547384234
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        },
+        "HALLMARK_OXIDATIVE_PHOSPHORYLATION": {
+          "estimate": 0.02753534047841578,
+          "conditional_interval_level": 0.95,
+          "conditional_interval": [
+            0.013677371428892032,
+            0.0405045660245231
+          ],
+          "uncertainty_metadata": {
+            "kind": "conditional_reference_interval",
+            "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+            "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+            "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+          }
+        }
+      }
+    },
+    "geometry": {
+      "geometry_on_raw_readout": {
+        "estimate": 0.0020995699808250864,
+        "conditional_interval_level": 0.95,
+        "conditional_interval": [
+          -0.005027766589940733,
+          0.009666493680355496
+        ],
+        "uncertainty_metadata": {
+          "kind": "conditional_reference_interval",
+          "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+          "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+          "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+        }
+      },
+      "geometry_on_ASH_readout": {
+        "estimate": -0.0062271504320413435,
+        "conditional_interval_level": 0.975,
+        "conditional_interval": [
+          -0.014139132941260343,
+          0.0017847348687195128
+        ],
+        "uncertainty_metadata": {
+          "kind": "conditional_reference_interval",
+          "resampling_unit": "reference target cells within culture wells and vehicle cells within wells; shared plate controls resampled jointly",
+          "conditioning": "fixed predictions, shallow inputs, candidate pool, programs and observed culture conditions",
+          "interpretation": "reference measurement uncertainty of the fixed-list response effect"
+        }
+      }
+    },
+    "replacement": {
+      "application_raw_PertRank_minus_native_ASH": {
+        "mean_replacement_mass": 4.875,
+        "fraction_identical_lists": 0.0,
+        "mass_weighted_entering_reference_mean": 0.07791337808534345,
+        "mass_weighted_leaving_reference_mean": 0.022621180206617568,
+        "mean_utility_difference": 0.02695494646587886
+      },
+      "geometry_on_ASH_readout": {
+        "mean_replacement_mass": 1.8194444444444444,
+        "fraction_identical_lists": 0.1388888888888889,
+        "mass_weighted_entering_reference_mean": 0.0037786213991977606,
+        "mass_weighted_leaving_reference_mean": 0.038004181025684515,
+        "mean_utility_difference": -0.0062271504320413375
+      }
+    },
+    "programs": [
+      "HALLMARK_INTERFERON_GAMMA_RESPONSE",
+      "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+      "HALLMARK_IL2_STAT5_SIGNALING",
+      "HALLMARK_E2F_TARGETS",
+      "HALLMARK_G2M_CHECKPOINT",
+      "HALLMARK_OXIDATIVE_PHOSPHORYLATION"
+    ],
+    "cell_lines": [
+      "A549",
+      "K562",
+      "MCF7"
+    ],
+    "candidate_counts": {
+      "A549": 91,
+      "K562": 130,
+      "MCF7": 174
+    }
+  },
+  "program_D3": {
+    "original_geometry": {
+      "delta_utility": 0.00224413035283368,
+      "interval_level": 0.95,
+      "conditional_interval": [
+        -0.010581820836780583,
+        0.015812455898664212
+      ]
+    },
+    "ASH_geometry": {
+      "delta_utility": 0.014675855487277607,
+      "interval_level": 0.95,
+      "conditional_interval": [
+        0.0030608718652197545,
+        0.026946925728127326
+      ]
+    }
+  }
+}
